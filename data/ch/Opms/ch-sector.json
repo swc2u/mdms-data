@@ -1,0 +1,84 @@
+{
+  "tenantId": "CH",
+  "moduleName": "egpm",
+  "sector": [
+    {
+      "id": "1",
+      "tenantId": "CH",
+      "name": "Mani Majra",
+      "active": true
+    },
+	{
+      "id": "2",
+      "tenantId": "CH",
+      "name": "Industrial Area Phase I and II",
+      "active": true
+    },
+	{
+      "id": "3",
+      "tenantId": "CH",
+      "name": "Mohali",
+      "active": true
+    },
+	{
+      "id": "4",
+      "tenantId": "CH",
+      "name": "Panchkula",
+      "active": true
+    },
+	{
+      "id": "5",
+      "tenantId": "CH",
+      "name": "Pinjore",
+      "active": true
+    },
+	{
+      "id": "6",
+      "tenantId": "CH",
+      "name": "Punjab Countryside",
+      "active": true
+    },
+	{
+      "id": "7",
+      "tenantId": "CH",
+      "name": "Sector 1",
+      "active": true
+    },
+	{
+      "id": "8",
+      "tenantId": "CH",
+      "name": "Sector 10",
+      "active": true
+    },
+	{
+      "id": "9",
+      "tenantId": "CH",
+      "name": "Sector 17",
+      "active": true
+    },
+	{
+      "id": "10",
+      "tenantId": "CH",
+      "name": "Sector 22",
+      "active": true
+    },
+	{
+      "id": "11",
+      "tenantId": "CH",
+      "name": "Sector 35",
+      "active": true
+    },
+	{
+      "id": "12",
+      "tenantId": "CH",
+      "name": "Sector 43",
+      "active": true
+    },
+	{
+      "id": "13",
+      "tenantId": "CH",
+      "name": "Zirakpur",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "tenantId": "CH",
+  "moduleName": "egpm",
+  "subTypeOfAdvertisement": [
+    {
+      "id": "subCat1",
+	  "typeOfAdvertisementId":"cat1",
+      "tenantId": "CH",
+      "name": "For a space up to 10 Sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat2",
+	  "typeOfAdvertisementId":"cat1",
+      "tenantId": "CH",
+      "name": "For a space over 10 Sq. ft. and up to 25 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat3",
+	  "typeOfAdvertisementId":"cat1",
+      "tenantId": "CH",
+      "name": "For every additional 25 sq. ft. or less",
+      "active": true
+    },
+	{
+      "id": "subCat4",
+	  "typeOfAdvertisementId":"cat2",
+      "tenantId": "CH",
+      "name": "For a space up to 10 Sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat5",
+	  "typeOfAdvertisementId":"cat2",
+      "tenantId": "CH",
+      "name": "For a space over 10 Sq. ft. and up to 25 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat6",
+	  "typeOfAdvertisementId":"cat2",
+      "tenantId": "CH",
+      "name": "For every additional 25 sq. ft. or less",
+      "active": true
+    },
+	{
+      "id": "subCat7",
+	  "typeOfAdvertisementId":"cat3",
+      "tenantId": "CH",
+      "name": "For a space up to 2 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat8",
+	  "typeOfAdvertisementId":"cat3",
+      "tenantId": "CH",
+      "name": "Over 2 Sq. ft. and up to 5 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat9",
+	  "typeOfAdvertisementId":"cat3",
+      "tenantId": "CH",
+      "name": "Over 5 sq. ft. and up to 25 Sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat10",
+	  "typeOfAdvertisementId":"cat3",
+      "tenantId": "CH",
+      "name": "For every additional 25 sq. ft. or less",
+      "active": true
+    },
+	{
+      "id": "subCat11",
+	  "typeOfAdvertisementId":"cat4",
+      "tenantId": "CH",
+      "name": "For a space up to 2 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat12",
+	  "typeOfAdvertisementId":"cat4",
+      "tenantId": "CH",
+      "name": "Over 2 Sq. ft. and up to 5 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat13",
+	  "typeOfAdvertisementId":"cat4",
+      "tenantId": "CH",
+      "name": "Over 5 sq. ft. and up to 25 Sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat14",
+	  "typeOfAdvertisementId":"cat4",
+      "tenantId": "CH",
+      "name": "For every additional 25 sq. ft. or less",
+      "active": true
+    },
+	{
+      "id": "subCat15",
+	  "typeOfAdvertisementId":"cat5",
+      "tenantId": "CH",
+      "name": "For a space up to 50 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat16",
+	  "typeOfAdvertisementId":"cat5",
+      "tenantId": "CH",
+      "name": "For every additional 50 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat17",
+	  "typeOfAdvertisementId":"cat6",
+      "tenantId": "CH",
+      "name": "For a space up to 50 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat18",
+	  "typeOfAdvertisementId":"cat6",
+      "tenantId": "CH",
+      "name": "For every additional 50 sq. ft. or less",
+      "active": true
+    },
+	{
+      "id": "subCat19",
+	  "typeOfAdvertisementId":"cat7",
+      "tenantId": "CH",
+      "name": "For each board not exceeding 10 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat20",
+	  "typeOfAdvertisementId":"cat7",
+      "tenantId": "CH",
+      "name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat21",
+	  "typeOfAdvertisementId":"cat7",
+      "tenantId": "CH",
+      "name": "For each additional 10 sq. ft. in area or less",
+      "active": true
+    },
+	{
+      "id": "subCat22",
+	  "typeOfAdvertisementId":"cat8",
+      "tenantId": "CH",
+      "name": "For each board not exceeding 10 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat23",
+	  "typeOfAdvertisementId":"cat8",
+      "tenantId": "CH",
+      "name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat24",
+	  "typeOfAdvertisementId":"cat8",
+      "tenantId": "CH",
+      "name": "For each additional 10 sq. ft. in area or less",
+      "active": true
+    },
+	{
+      "id": "subCat25",
+	  "typeOfAdvertisementId":"cat9",
+      "tenantId": "CH",
+      "name": "For a space up to 5 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat26",
+	  "typeOfAdvertisementId":"cat9",
+      "tenantId": "CH",
+      "name": "For a space over 5 sq. ft. and up to 25 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat27",
+	  "typeOfAdvertisementId":"cat9",
+      "tenantId": "CH",
+      "name": "For every additional 25 sq. ft. or less",
+      "active": true
+    },
+	{
+      "id": "subCat28",
+	  "typeOfAdvertisementId":"cat11",
+      "tenantId": "CH",
+      "name": "up to 5 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat29",
+	  "typeOfAdvertisementId":"cat11",
+      "tenantId": "CH",
+      "name": "up to 25 sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat30",
+	  "typeOfAdvertisementId":"cat12",
+      "tenantId": "CH",
+      "name": "lantern slides or similar devices (per screen)",
+      "active": true
+    },
+	{
+      "id": "subCat31",
+	  "typeOfAdvertisementId":"cat12",
+      "tenantId": "CH",
+      "name": "Through slide (per screen)",
+      "active": true
+    },
+	{
+      "id": "subCat32",
+	  "typeOfAdvertisementId":"cat12",
+      "tenantId": "CH",
+      "name": "Through reels/computer device/projector (per screen)",
+      "active": true
+    },
+	{
+      "id": "subCat33",
+	  "typeOfAdvertisementId":"cat13",
+      "tenantId": "CH",
+      "name": "per day per Sq. Ft. (up to 7 days)",
+      "active": true
+    },
+	{
+      "id": "subCat34",
+	  "typeOfAdvertisementId":"cat13",
+      "tenantId": "CH",
+      "name": "Per day per Sq. ft. (after 7 days or subsequent days)",
+      "active": true
+    },
+	{
+      "id": "subCat35",
+	  "typeOfAdvertisementId":"cat14",
+      "tenantId": "CH",
+      "name": "per day per Sq. Ft. (up to 7 days)",
+      "active": true
+    },
+	{
+      "id": "subCat36",
+	  "typeOfAdvertisementId":"cat14",
+      "tenantId": "CH",
+      "name": "Per day per Sq. ft. (after 7 days or subsequent days)",
+      "active": true
+    },
+	{
+      "id": "subCat37",
+	  "typeOfAdvertisementId":"cat15",
+      "tenantId": "CH",
+      "name": "Up to 50 Sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat38",
+	  "typeOfAdvertisementId":"cat15",
+      "tenantId": "CH",
+      "name": "For every addl. 50 sq. ft. or less",
+      "active": true
+    },
+	{
+      "id": "subCat39",
+	  "typeOfAdvertisementId":"cat16",
+      "tenantId": "CH",
+      "name": "Up to 50 Sq. ft.",
+      "active": true
+    },
+	{
+      "id": "subCat40",
+	  "typeOfAdvertisementId":"cat16",
+      "tenantId": "CH",
+      "name": "For every addl. 50 sq. ft. or less",
+      "active": true
+    }
+  ]
+}

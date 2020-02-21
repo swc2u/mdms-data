@@ -1,0 +1,102 @@
+{
+  "tenantId": "CH",
+  "moduleName": "egpm",
+  "typeOfAdvertisement": [
+    {
+      "id": "cat1",
+      "tenantId": "CH",
+      "name": "Advertisement or hoarding on wall or post or in the form of non-illuminated sky-signs",
+      "active": true
+    },
+	{
+      "id": "cat2",
+      "tenantId": "CH",
+      "name": "Advertisement or hording standing blank but bearing the name of the advertiser or with the announcement ‘to be let’ displayed thereon",
+      "active": true
+    },
+	{
+      "id": "cat3",
+      "tenantId": "CH",
+      "name": "Fixed illuminated sky-signs and advertisement",
+      "active": true
+    },
+	{
+      "id": "cat4",
+      "tenantId": "CH",
+      "name": "Digital Advertisement (non-static LED) or similar device single side rates will be double top the traditional and existing fixed illuminated sky-signs",
+      "active": true
+    },
+	{
+      "id": "cat5",
+      "tenantId": "CH",
+      "name": "Non-illuminated advertisement boards carried on vehicles (i.e. cabs/auto rickshaw/Pvt. Vehicles etc.) including buses",
+      "active": true
+    },
+	{
+      "id": "cat6",
+      "tenantId": "CH",
+      "name": "Illuminated advertisement boards carried on vehicles (i.e. cabs/auto, rickshaw/Pvt. Vehicles etc.) including buses plying Chandigarh",
+      "active": true
+    },
+	{
+      "id": "cat7",
+      "tenantId": "CH",
+      "name": "Advertisement boards etc. carried by sandwich boardmen (Non-illuminated)",
+      "active": true
+    },
+	{
+      "id": "cat8",
+      "tenantId": "CH",
+      "name": "Illuminated advertisement boards etc. carried by boardmen, handcraft, cyclist or cycle rickshaws ",
+      "active": true
+    },
+	{
+      "id": "cat9",
+      "tenantId": "CH",
+      "name": "For illuminated sky-signs and advertisement exhibited on screens by mean of lantern slides, projector or similar devices",
+      "active": true
+    },
+	{
+      "id": "cat10",
+      "tenantId": "CH",
+      "name": "Permission to auctioneers, temporary/ travelling sales organizer, exhibitor, fair organizers, circuses, convention organizer, etc. to put up not more than two hordes of reasonable size less than 5 sq. ft. advertising each auction or sale other than those on the premises where the auction is held. One on a prominent site in the locality and one on the municipal lamp post.",
+      "active": true
+    },
+	{
+      "id": "cat11",
+      "tenantId": "CH",
+      "name": "Advt. boards at permitted locations",
+      "active": true
+    },
+	{
+      "id": "cat12",
+      "tenantId": "CH",
+      "name": "Advt. exhibited in cinema houses by means of",
+      "active": true
+    },
+	{
+      "id": "cat13",
+      "tenantId": "CH",
+      "name": "Banners on buildings or on open space or road side, except main roads",
+      "active": true
+    },
+	{
+      "id": "cat14",
+      "tenantId": "CH",
+      "name": "Advt. by Balloons (Measured across the diameter)",
+      "active": true
+    },
+	{
+      "id": "cat15",
+      "tenantId": "CH",
+      "name": "Non-illuminated Advt. boards carried on vehicles solely and chiefly for the purpose of Advt. for a space ",
+      "active": true
+    },
+	{
+      "id": "cat16",
+      "tenantId": "CH",
+      "name": "Illuminated Advt. boards carried out on vehicles solely and chiefly for the purpose of advt. for a space",
+      "active": true
+    }
+  ]
+}

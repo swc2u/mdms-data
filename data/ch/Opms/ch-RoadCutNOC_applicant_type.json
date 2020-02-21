@@ -1,0 +1,25 @@
+{
+  "tenantId": "CH",
+  "moduleName": "egpm",
+  "RoadCutTypeOfApplicant": [
+    {
+      "id": "1",
+      "tenantId": "CH",
+      "type": "Domestic cum residential",
+      "active": true
+    },
+	{
+      "id": "2",
+      "tenantId": "CH",
+      "type": "Telecom",
+      "active": true
+    },
+	{
+      "id": "3",
+      "tenantId": "CH",
+      "type": "Natural gas pipeline (PNG)",
+      "active": true
+    }
+  ]
+}
+
