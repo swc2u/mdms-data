@@ -1,0 +1,30 @@
+{
+  "tenantId": "CH",
+  "moduleName": "egpm",
+  "mainMenu": [
+    {
+      "id": "1",
+      "tenantId": "CH",
+      "name": "NOC for Pet",
+      "active": true
+    },
+	{
+      "id": "2",
+      "tenantId": "CH",
+      "name": "NOC for Sell Meat",
+      "active": true
+    },
+	{
+      "id": "3",
+      "tenantId": "CH",
+      "name": "NOC for Advertisement",
+      "active": true
+    },
+	{
+      "id": "4",
+      "tenantId": "CH",
+      "name": "NOC for Road Cutting",
+      "active": true
+    }
+  ]
+}
