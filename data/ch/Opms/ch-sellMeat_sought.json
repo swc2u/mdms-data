@@ -1,34 +1,34 @@
 {
-  "tenantId": "CH",
+  "tenantId": "ch",
   "moduleName": "egpm",
   "nocSought": [
     {
       "id": "1",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Jhatka meat (sheep/goat), Poultry",
       "active": true
     },
 	{
       "id": "2",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Halal meat (sheep/goat), Poultry",
       "active": true
     },
 	{
       "id": "3",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Pig",
       "active": true
     },
 	{
       "id": "4",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Fish",
       "active": true
     },
 	{
       "id": "5",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Packed/frozen meat (sheep/goat), fish and poultry",
       "active": true
     }

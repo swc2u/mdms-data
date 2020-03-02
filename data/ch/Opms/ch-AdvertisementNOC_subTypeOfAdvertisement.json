@@ -1,11 +1,11 @@
 {
-  "tenantId": "CH",
+  "tenantId": "ch",
   "moduleName": "egpm",
   "subTypeOfAdvertisement": [
     {
       "id": "20001",
 	  "typeOfAdvertisementId":"10001",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space up to 10 Sq. ft.",
 	  "min":"0",
 	  "max":"10",
@@ -19,7 +19,7 @@
 	{
       "id": "20002",
 	  "typeOfAdvertisementId":"10001",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space over 10 Sq. ft. and up to 25 sq. ft.",
 	  "min":"10",
 	  "max":"25",
@@ -33,7 +33,7 @@
 	{
       "id": "20003",
 	  "typeOfAdvertisementId":"10001",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For every additional 25 sq. ft. or less",
 	  "min":"0",
 	  "max":"25",
@@ -47,7 +47,7 @@
 	{
       "id": "20004",
 	  "typeOfAdvertisementId":"10002",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space up to 10 Sq. ft.",
 	  "min":"0",
 	  "max":"10",
@@ -61,7 +61,7 @@
 	{
       "id": "20005",
 	  "typeOfAdvertisementId":"10002",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space over 10 Sq. ft. and up to 25 sq. ft.",
 	  "min":"10",
 	  "max":"25",
@@ -75,7 +75,7 @@
 	{
       "id": "20006",
 	  "typeOfAdvertisementId":"10002",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For every additional 25 sq. ft. or less",
 	  "min":"0",
 	  "max":"25",
@@ -89,7 +89,7 @@
 	{
       "id": "20007",
 	  "typeOfAdvertisementId":"10003",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space up to 2 sq. ft.",
 	  "min":"0",
 	  "max":"2",
@@ -103,7 +103,7 @@
 	{
       "id": "20008",
 	  "typeOfAdvertisementId":"10003",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Over 2 Sq. ft. and up to 5 sq. ft.",
 	  "min":"2",
 	  "max":"5",
@@ -117,7 +117,7 @@
 	{
       "id": "20009",
 	  "typeOfAdvertisementId":"10003",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Over 5 sq. ft. and up to 25 Sq. ft.",
 	  "min":"5",
 	  "max":"25",
@@ -131,7 +131,7 @@
 	{
       "id": "20010",
 	  "typeOfAdvertisementId":"10003",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For every additional 25 sq. ft. or less",
 	  "min":"0",
 	  "max":"25",
@@ -145,7 +145,7 @@
 	{
       "id": "20011",
 	  "typeOfAdvertisementId":"10004",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space up to 2 sq. ft.",
 	  "min":"0",
 	  "max":"2",
@@ -159,7 +159,7 @@
 	{
       "id": "20012",
 	  "typeOfAdvertisementId":"10004",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Over 2 Sq. ft. and up to 5 sq. ft.",
 	  "min":"2",
 	  "max":"5",
@@ -173,7 +173,7 @@
 	{
       "id": "20013",
 	  "typeOfAdvertisementId":"10004",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Over 5 sq. ft. and up to 25 Sq. ft.",
 	  "min":"5",
 	  "max":"25",
@@ -187,7 +187,7 @@
 	{
       "id": "20014",
 	  "typeOfAdvertisementId":"10004",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For every additional 25 sq. ft. or less",
 	  "min":"0",
 	  "max":"25",
@@ -201,7 +201,7 @@
 	{
       "id": "20015",
 	  "typeOfAdvertisementId":"10005",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space up to 50 sq. ft.",
 	  "min":"0",
 	  "max":"50",
@@ -215,7 +215,7 @@
 	{
       "id": "20016",
 	  "typeOfAdvertisementId":"10005",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For every additional 50 sq. ft.",
 	  "min":"0",
 	  "max":"50",
@@ -229,7 +229,7 @@
 	{
       "id": "20017",
 	  "typeOfAdvertisementId":"10006",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space up to 50 sq. ft.",
 	  "min":"0",
 	  "max":"50",
@@ -243,7 +243,7 @@
 	{
       "id": "20018",
 	  "typeOfAdvertisementId":"10006",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For every additional 50 sq. ft. or less",
 	  "min":"0",
 	  "max":"50",
@@ -257,7 +257,7 @@
 	{
       "id": "20019",
 	  "typeOfAdvertisementId":"10007",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For each board not exceeding 10 sq. ft.",
 	  "min":"0",
 	  "max":"10",
@@ -271,7 +271,7 @@
 	{
       "id": "20020",
 	  "typeOfAdvertisementId":"10007",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
 	  "min":"10",
 	  "max":"25",
@@ -285,7 +285,7 @@
 	{
       "id": "20021",
 	  "typeOfAdvertisementId":"10007",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For each additional 10 sq. ft. in area or less",
 	  "min":"0",
 	  "max":"10",
@@ -299,7 +299,7 @@
 	{
       "id": "20022",
 	  "typeOfAdvertisementId":"10008",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For each board not exceeding 10 sq. ft.",
 	  "min":"0",
 	  "max":"10",
@@ -313,7 +313,7 @@
 	{
       "id": "20023",
 	  "typeOfAdvertisementId":"10008",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
 	  "min":"10",
 	  "max":"25",
@@ -327,7 +327,7 @@
 	{
       "id": "20024",
 	  "typeOfAdvertisementId":"10008",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For each additional 10 sq. ft. in area or less",
 	  "min":"0",
 	  "max":"10",
@@ -341,7 +341,7 @@
 	{
       "id": "20025",
 	  "typeOfAdvertisementId":"10009",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space up to 5 sq. ft.",
 	  "min":"0",
 	  "max":"5",
@@ -355,7 +355,7 @@
 	{
       "id": "20026",
 	  "typeOfAdvertisementId":"10009",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For a space over 5 sq. ft. and up to 25 sq. ft.",
 	  "min":"5",
 	  "max":"25",
@@ -369,7 +369,7 @@
 	{
       "id": "20027",
 	  "typeOfAdvertisementId":"10009",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For every additional 25 sq. ft. or less",
 	  "min":"0",
 	  "max":"25",
@@ -383,7 +383,7 @@
 	{
       "id": "20028",
 	  "typeOfAdvertisementId":"10011",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "up to 5 sq. ft.",
 	  "min":"0",
 	  "max":"5",
@@ -397,7 +397,7 @@
 	{
       "id": "20029",
 	  "typeOfAdvertisementId":"10011",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "up to 25 sq. ft.",
 	  "min":"0",
 	  "max":"25",
@@ -411,7 +411,7 @@
 	{
       "id": "20030",
 	  "typeOfAdvertisementId":"10012",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "lantern slides or similar devices (per screen)",
 	  "min":"0",
 	  "max":"0",
@@ -425,7 +425,7 @@
 	{
       "id": "20031",
 	  "typeOfAdvertisementId":"10012",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Through slide (per screen)",
 	  "min":"0",
 	  "max":"0",
@@ -439,7 +439,7 @@
 	{
       "id": "20032",
 	  "typeOfAdvertisementId":"10012",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Through reels/computer device/projector (per screen)",
 	  "min":"0",
 	  "max":"0",
@@ -453,7 +453,7 @@
 	{
       "id": "20033",
 	  "typeOfAdvertisementId":"10013",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "per day per Sq. Ft. (up to 7 days)",
 	  "min":"0",
 	  "max":"7",
@@ -467,7 +467,7 @@
 	{
       "id": "20034",
 	  "typeOfAdvertisementId":"10013",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Per day per Sq. ft. (after 7 days or subsequent days)",
 	  "min":"0",
 	  "max":"7",
@@ -481,7 +481,7 @@
 	{
       "id": "20035",
 	  "typeOfAdvertisementId":"10014",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "per day per Sq. Ft. (up to 7 days)",
 	  "min":"0",
 	  "max":"7",
@@ -495,7 +495,7 @@
 	{
       "id": "20036",
 	  "typeOfAdvertisementId":"10014",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Per day per Sq. ft. (after 7 days or subsequent days)",
 	  "min":"0",
 	  "max":"7",
@@ -509,7 +509,7 @@
 	{
       "id": "20037",
 	  "typeOfAdvertisementId":"10015",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Up to 50 Sq. ft.",
 	  "min":"0",
 	  "max":"50",
@@ -523,7 +523,7 @@
 	{
       "id": "20038",
 	  "typeOfAdvertisementId":"10015",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For every addl. 50 sq. ft. or less",
 	  "min":"0",
 	  "max":"50",
@@ -537,7 +537,7 @@
 	{
       "id": "20039",
 	  "typeOfAdvertisementId":"10016",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Up to 50 Sq. ft.",
 	  "min":"0",
 	  "max":"50",
@@ -551,7 +551,7 @@
 	{
       "id": "20040",
 	  "typeOfAdvertisementId":"10016",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "For every addl. 50 sq. ft. or less",
 	  "min":"0",
 	  "max":"50",

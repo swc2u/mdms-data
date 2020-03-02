@@ -1,28 +1,28 @@
 {
-  "tenantId": "CH",
+  "tenantId": "ch",
   "moduleName": "egpm",
   "typeOfApplicant": [
     {
       "id": "1",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Individual",
       "active": true
     },
 	{
       "id": "2",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Firm/Company",
       "active": true
     },
 	{
       "id": "3",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Social Cause",
       "active": true
     },
 	{
       "id": "4",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Govt. Organization",
       "active": true
     }

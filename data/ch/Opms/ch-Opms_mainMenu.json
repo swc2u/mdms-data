@@ -1,29 +1,29 @@
 {
-  "tenantId": "CH",
+  "tenantId": "ch",
   "moduleName": "egpm",
   "mainMenu": [
     {
       "id": "1",
-      "tenantId": "CH",
-      "name": "NOC for Pet",
+      "tenantId": "ch",
+      "name": "Permission for keep Pet Dog",
       "active": true
     },
 	{
       "id": "2",
-      "tenantId": "CH",
-      "name": "NOC for Sell Meat",
+      "tenantId": "ch",
+      "name": "Permission for sell meat",
       "active": true
     },
 	{
       "id": "3",
-      "tenantId": "CH",
-      "name": "NOC for Advertisement",
+      "tenantId": "ch",
+      "name": "Permission for Advertisement",
       "active": true
     },
 	{
       "id": "4",
-      "tenantId": "CH",
-      "name": "NOC for Road Cutting",
+      "tenantId": "ch",
+      "name": "Permission for Road Cut",
       "active": true
     }
   ]
