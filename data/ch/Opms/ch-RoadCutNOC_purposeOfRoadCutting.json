@@ -1,34 +1,34 @@
 {
-  "tenantId": "CH",
+  "tenantId": "ch",
   "moduleName": "egpm",
   "purposeOfRoadCutting": [
     {
       "id": "1",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Laying Optical cable",
       "active": true
     },
 	{
       "id": "2",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Laying electrical cable",
       "active": true
     },
 	{
       "id": "3",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Laying pipeline/Repair of pipeline",
       "active": true
     },
 	{
       "id": "4",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Laying sewer line/Repair of sewer line",
       "active": true
     },
 	{
       "id": "5",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Laying Natural Gas MDPE Pipeline",
       "active": true
     }

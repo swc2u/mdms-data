@@ -1,64 +1,64 @@
 {
-  "tenantId": "CH",
+  "tenantId": "ch",
   "moduleName": "egpm",
   "breed": [
     {
       "id": "1",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Labrador Retriever",
       "active": true
     },
 	{
       "id": "2",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "German Shepherd",
       "active": true
     },
 	{
       "id": "3",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Golden Retriever",
       "active": true
     },
 	{
       "id": "4",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "French Bulldog",
       "active": true
     },
 	{
       "id": "5",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Bulldog",
       "active": true
     },
 	{
       "id": "6",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Beagle",
       "active": true
     },
 	{
       "id": "7",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Poodle",
       "active": true
     },
 	{
       "id": "8",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Rottweiler",
       "active": true
     },
 	{
       "id": "9",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "German Shepherd",
       "active": true
     },
 	{
       "id": "10",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Doberman",
       "active": true
     }

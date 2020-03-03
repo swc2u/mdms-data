@@ -1,40 +1,40 @@
 {
-  "tenantId": "CH",
+  "tenantId": "ch",
   "moduleName": "egpm",
   "length": [
     {
       "id": "1",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "1",
       "active": true
     },
 	{
       "id": "2",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "2",
       "active": true
     },
 	{
       "id": "3",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "3",
       "active": true
     },
 	{
       "id": "4",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "4",
       "active": true
     },
 	{
       "id": "5",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "5",
       "active": true
     },
 	{
       "id": "5",
-      "tenantId": "CH",
+      "tenantId": "ch",
       "name": "Other",
       "active": true
     }
