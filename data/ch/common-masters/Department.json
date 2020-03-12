@@ -21,6 +21,16 @@
             "name": "ACCOUNTS",
             "code": "ACC01",
             "active": true
+        },
+        {
+            "name": "AUDIT",
+            "code": "AUD01",
+            "active": true
+        },
+        {
+            "name": "ROADS",
+            "code": "ROADS",
+            "active": true
         }
     ]
 }

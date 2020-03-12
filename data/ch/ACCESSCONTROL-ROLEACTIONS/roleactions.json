@@ -19777,6 +19777,222 @@
       "actionid": 1931,
       "actioncode": "",
       "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1932,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1933,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1934,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1935,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1936,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1937,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1938,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1939,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1940,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1941,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1942,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1943,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1932,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1933,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1934,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1935,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1936,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1937,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1938,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1939,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1940,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1941,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1942,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1943,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BILL_CREATOR",
+      "actionid": 1932,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BILL_CREATOR",
+      "actionid": 1933,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_PAYMENT_CREATOR",
+      "actionid": 1934,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_PAYMENT_CREATOR",
+      "actionid": 1935,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_REPORT_VIEW",
+      "actionid": 1936,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "COLL_RECEIPT_CREATOR",
+      "actionid": 1937,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "COLL_RECEIPT_CREATOR",
+      "actionid": 1938,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "COLL_RECEIPT_CREATOR",
+      "actionid": 1939,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "COLL_RECEIPT_CREATOR",
+      "actionid": 1940,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_PAYMENT_CREATOR",
+      "actionid": 1941,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_PAYMENT_CREATOR",
+      "actionid": 1942,
+      "actioncode": "",
+      "tenantId": "ch
+    },
+    {
+      "rolecode": "EGF_PAYMENT_CREATOR",
+      "actionid": 1943,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }
