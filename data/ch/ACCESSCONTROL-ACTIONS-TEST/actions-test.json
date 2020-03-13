@@ -15798,7 +15798,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Transactions.Payments.PEX Assignment",
-      "navigationURL": "/services/EGF/payment/chequeAssignment-beforePexSearch.action"
+      "navigationURL": "services/EGF/payment/chequeAssignment-beforePexSearch.action"
     },
     {
       "id": 1935,
@@ -15812,7 +15812,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Transactions.Payments.Surrender PEX",
-      "navigationURL": "/services/EGF/payment/chequeAssignment-beforeSearchForPEXSurrender.action"
+      "navigationURL": "services/EGF/payment/chequeAssignment-beforeSearchForPEXSurrender.action"
     },
     {
       "id": 1936,
@@ -15840,7 +15840,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Revenue/Collections.Create Challan",
-      "navigationURL": "/services/EGF/receipts/challan-newform.action"
+      "navigationURL": "services/EGF/receipts/challan-newform.action"
     },
     {
       "id": 1938,
@@ -15854,7 +15854,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Revenue/Collections.Challan Receipt",
-      "navigationURL": "/services/EGF/receipts/challan-createReceipt.action"
+      "navigationURL": "services/EGF/receipts/challan-createReceipt.action"
     },
     {
       "id": 1939,
@@ -15868,7 +15868,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Revenue/Collections.Search Challan",
-      "navigationURL": "/services/EGF/receipts/searchChallan.action"
+      "navigationURL": "services/EGF/receipts/searchChallan.action"
     },
     {
       "id": 1940,
@@ -15882,7 +15882,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Revenue/Collections.Dishonored Instrument",
-      "navigationURL": "/services/EGF/receipts/dishonoredCheque-search.action"
+      "navigationURL": "services/EGF/receipts/dishonoredCheque-search.action"
     },
     {
       "id": 1941,
