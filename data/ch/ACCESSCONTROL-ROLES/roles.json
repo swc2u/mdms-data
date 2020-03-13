@@ -442,6 +442,16 @@
       "code": "BPA_VERIFIER",
       "name": "BPA Services verifier",
       "description": "BPA Services workflow document & field inspection verifier"
+    },
+    {
+      "code": "ESCALATION_OFFICER1",
+      "name": "Escalation Officer1",
+      "description": "Role For 1st level escalation(PGR)"
+    },
+    {
+      "code": "ESCALATION_OFFICER2",
+      "name": "Escalation Officer2",
+      "description": "Role For 2nd level escalation(PGR)"
     }
   ]
 }

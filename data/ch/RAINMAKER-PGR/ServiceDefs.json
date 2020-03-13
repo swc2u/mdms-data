@@ -1,294 +1,1926 @@
 {
-  "tenantId": "ch"  , 
-  "moduleName": "RAINMAKER-PGR",
-  "ServiceDefs": [
-    {
-      "serviceCode": "NoStreetlight",
-      "active": false,
-      "keywords": "streetlight, light, repair, work, pole, electric, power, repair, damage, fix",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "StreetLights"
-    },
-    {
-      "serviceCode": "StreetLightNotWorking",
-      "active": true,
-      "keywords": "streetlight, light, repair, work, pole, electric, power, repair, fix",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "StreetLights"
-    },
-    {
-      "serviceCode": "GarbageNeedsTobeCleared",
-      "active": true,
-      "keywords": "garbage, collect, litter, clean, door, waste, remove, sweeper, sanitation, dump, health, debris, throw",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "Garbage"
-    },
-    {
-      "serviceCode": "BurningOfGarbage",
-      "active": true,
-      "keywords": "garbage, remove, burn, fire, health, waste, smoke, plastic, illegal",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "Garbage"
-    },
-    {
-      "serviceCode": "OverflowingOrBlockedDrain",
-      "active": true,
-      "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow, remove, waste, garbage, clear, overflow, canal, fill, stagnate, rain, sanitation, sand, pipe, clog, stuck",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "Drains"
-    },
-    {
-      "serviceCode": "ManHoleCoverBroken",
-      "active": true,
-      "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow, remove, waste, garbage, clear, overflow, canal, fill, stagnate, rain, sanitation, sand, pipe, clog, stuck, man, hole, cover",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "Drains"
-    },
-    {
-      "serviceCode": "illegalDischargeOfSewage",
-      "active": true,
-      "keywords": "water, supply, connection, damage, repair, broken, pipe, piping, tap",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "WaterandSewage"
-    },
-    {
-      "serviceCode": "BlockOrOverflowingSewage",
-      "active": true,
-      "keywords": "water, supply, connection, damage, repair, broken, pipe, piping, tap",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "WaterandSewage"
-    },
-    {
-      "serviceCode": "ShortageOfWater",
-      "active": true,
-      "keywords": "water, supply, shortage, drink, tap, connection,leakage,less",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "WaterandSewage"
-    },
-    {
-      "serviceCode": "DirtyWaterSupply",
-      "active": true,
-      "keywords": "water, supply, connection, drink, dirty, contaminated, impure, health, clean",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "WaterandSewage"
-    },
-    {
-      "serviceCode": "BrokenWaterPipeOrLeakage",
-      "active": true,
-      "keywords": "water, supply, connection, damage, repair, broken, pipe, piping, tap",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "WaterandSewage"
-    },
-    {
-      "serviceCode": "WaterPressureisVeryLess",
-      "active": true,
-      "keywords": "water, supply, connection, damage, repair, broken, pipe, piping, tap",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "WaterandSewage"
-    },
-    {
-      "serviceCode": "DamagedRoad",
-      "active": true,
-      "keywords": "road, damage, hole, surface, repair, patch, broken, maintenance, street, construction, fix",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "RoadsAndFootpaths"
-    },
-    {
-      "serviceCode": "WaterLoggedRoad",
-      "active": true,
-      "keywords": "road, drainage, water, block, puddle, street, flood, overflow, rain",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "RoadsAndFootpaths"
-    },
-    {
-      "serviceCode": "ManholeCoverMissingOrDamaged",
-      "active": true,
-      "keywords": "road, street, manhole, hole, cover, lid, footpath, open, man, drainage, damage, repair, fix",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "RoadsAndFootpaths"
-    },
-    {
-      "serviceCode": "DamagedOrBlockedFootpath",
-      "active": true,
-      "keywords": "footpath, repair, broken, surface, damage, patch, hole, maintenance, walk, path",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "RoadsAndFootpaths"
-    },
-    {
-      "serviceCode": "ConstructionMaterialLyingOntheRoad",
-      "active": true,
-      "keywords": "illegal, shop, footpath, walk, remove, occupy, path",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "RoadsAndFootpaths"
-    },
-    {
-      "serviceCode": "RequestSprayingOrFoggingOperation",
-      "active": true,
-      "keywords": "mosquito, menace, fog, spray, kill, health, dengue, malaria, disease, clean",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "Mosquitos"
-    },
-    {
-      "serviceCode": "StrayAnimals",
-      "active": true,
-      "keywords": "stray, dog, dogs, menace, animal, animals, attack, attacking, bite, biting, bark, barking",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "Animals"
-    },
-    {
-      "serviceCode": "DeadAnimals",
-      "active": true,
-      "keywords": "stray, cow, cows, cattle, bull, bulls, graze, grazing, dung, menace",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "Animals"
-    },
-    {
-      "serviceCode": "DirtyOrSmellyPublicToilets",
-      "active": true,
-      "keywords": "toilet, public, restroom, bathroom, urinal, smell, dirty",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "PublicToilets"
-    },
-    {
-      "serviceCode": "PublicToiletIsDamaged",
-      "active": true,
-      "keywords": "toilet, public, restroom, bathroom, urinal, block, working",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "PublicToilets"
-    },
-    {
-      "serviceCode": "NoWaterOrElectricityinPublicToilet",
-      "active": true,
-      "keywords": "toilet, public, restroom, bathroom, urinal, electricity, water, working",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "PublicToilets"
-    },
-    {
-      "serviceCode": "IllegalShopsOnFootPath",
-      "active": true,
-      "keywords": "illegal, shop, footpath, violation, property, public, space, land, unathourised, site, construction, wrong",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "LandViolations"
-    },
-    {
-      "serviceCode": "IllegalConstructions",
-      "active": true,
-      "keywords": "illegal, violation, property, public, space, land, unathourised, site, construction, wrong, build",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "LandViolations"
-    },
-    {
-      "serviceCode": "IllegalParking",
-      "active": true,
-      "keywords": "illegal, parking, car, vehicle, space, removal, road, street, vehicle",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "LandViolations"
-    },
-    {
-      "serviceCode": "EncroachmentOnGovtLands",
-      "active": true,
-      "keywords": "illegal, parking, car, vehicle, space, removal, road, street, vehicle, govt, land",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "LandViolations"
-    },
-    {
-      "serviceCode": "IllegalCuttingOfTrees",
-      "active": true,
-      "keywords": "tree, cut, illegal, unathourized, remove, plant",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "Trees"
-    },
-    {
-      "serviceCode": "CuttingOrTrimmingOfTreeRequired",
-      "active": true,
-      "keywords": "tree, remove, trim, fallen, cut, plant, branch",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "Trees"
-    },
-    {
-      "serviceCode": "OpenDefecation",
-      "active": true,
-      "keywords": "open, defecation, waste, human, privy, toilet",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "OpenDefecation"
-    },
-    {
-      "serviceCode": "ParkRequiresMaintenance",
-      "active": true,
-      "keywords": "open, defecation, waste, human, privy, toilet, park",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "Parks"
-    },
-    {
-      "serviceCode": "ParkEncroachment",
-      "active": true,
-      "keywords": "open, defecation, waste, human, privy, toilet, park",
-      "department": "TP01",
-      "slaHours": 480,
-      "menuPath": "Parks"
-    },
-    {
-      "serviceCode": "IllegalUsageOfPlasticBags",
-      "active": true,
-      "keywords": "plastic, bag, usage, waste",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "PlasticBags"
-    },
-    {
-      "serviceCode": "Others",
-      "active": true,
-      "keywords": "other, miscellaneous,ad,playgrounds,burial,slaughterhouse, misc, tax, revenue",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": ""
-    },
-    {
-      "serviceCode": "DamagedGarbageBin",
-      "active": true,
-      "keywords": "garbage, waste, bin, dustbin, clean, remove, sanitation, overflow, smell, health, throw, dispose",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "Garbage"
-    },
-    {
-      "serviceCode": "NoWaterSupply",
-      "active": true,
-      "keywords": "water, supply, connection, drink, tap",
-      "department": "PHS01",
-      "slaHours": 480,
-      "menuPath": "WaterandSewage"
-    } 
-  ]
+   "tenantId":"ch",
+   "moduleName":"RAINMAKER-PGR",
+   "ServiceDefs":[
+      {
+            "serviceCode": "DEP016_AccountsBranch_01",
+            "active": true,
+            "keywords": "account , officer",
+            "department": "DEP_16",
+            "slaHours": 0,
+            "menuPath": "AccountsBranch"
+        },
+        {
+            "serviceCode": "DEP016_AccountsBranch_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_16",
+            "slaHours": 0,
+            "menuPath": "AccountsBranch"
+        },
+        {
+            "serviceCode": "DEP07_BirthCertificate_01",
+            "active": true,
+            "keywords": "Correction , birth",
+            "department": "DEP_07",
+            "slaHours": 336,
+            "menuPath": "BirthCertificate"
+        },
+        {
+            "serviceCode": "DEP07_BirthCertificate_02",
+            "active": true,
+            "keywords": "Issuance , birth",
+            "department": "DEP_07",
+            "slaHours": 168,
+            "menuPath": "BirthCertificate"
+        },
+        {
+            "serviceCode": "DEP07_BirthCertificate_03",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_07",
+            "slaHours": 0,
+            "menuPath": "BirthCertificate"
+        },
+        {
+            "serviceCode": "DEP07_BirthCertificate_04",
+            "active": true,
+            "keywords": "correction , death",
+            "department": "DEP_07",
+            "slaHours": 336,
+            "menuPath": "DeathCertificate"
+        },
+        {
+            "serviceCode": "DEP07_BirthCertificate_05",
+            "active": true,
+            "keywords": "issuance , death",
+            "department": "DEP_07",
+            "slaHours": 168,
+            "menuPath": "DeathCertificate"
+        },
+        {
+            "serviceCode": "DEP07_BirthCertificate_06",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_07",
+            "slaHours": 0,
+            "menuPath": "DeathCertificate"
+        },
+        {
+            "serviceCode": "DEP017_Advertisement  _01",
+            "active": true,
+            "keywords": "advertisement",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "Advertisement"
+        },
+        {
+            "serviceCode": "DEP017_Advertisement  _02",
+            "active": true,
+            "keywords": "advertisement",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "Advertisement"
+        },
+        {
+            "serviceCode": "DEP017_Advertisement  _03",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "Advertisement"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _01",
+            "active": true,
+            "keywords": "ground",
+            "department": "DEP_17",
+            "slaHours": 72,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _02",
+            "active": true,
+            "keywords": "open , space , stacking , building , tanker",
+            "department": "DEP_17",
+            "slaHours": 24,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _03",
+            "active": true,
+            "keywords": "booking",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _04",
+            "active": true,
+            "keywords": "street , light , parking",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _05",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _06",
+            "active": true,
+            "keywords": "advertisement",
+            "department": "DEP_17",
+            "slaHours": 24,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _07",
+            "active": true,
+            "keywords": "Open , space , parks , refund",
+            "department": "DEP_17",
+            "slaHours": 600,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _08",
+            "active": true,
+            "keywords": "Refund , cancellation",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _09",
+            "active": true,
+            "keywords": "Repair , replacement , equipment",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP017_BookingBranch  _10",
+            "active": true,
+            "keywords": "Repair , sanitation , center",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "BookingBranch"
+        },
+        {
+            "serviceCode": "DEP02_DisposalOfMalwa_01",
+            "active": true,
+            "keywords": "Disposal , malwa",
+            "department": "DEP_02",
+            "slaHours": 168,
+            "menuPath": "DisposalOfMalwa"
+        },
+        {
+            "serviceCode": "DEP02_DisposalOfMalwa_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_02",
+            "slaHours": 0,
+            "menuPath": "DisposalOfMalwa"
+        },
+        {
+            "serviceCode": "DEP02_Roads _01",
+            "active": true,
+            "keywords": "damage",
+            "department": "DEP_02",
+            "slaHours": 240,
+            "menuPath": "Roads"
+        },
+        {
+            "serviceCode": "DEP02_Roads _02",
+            "active": true,
+            "keywords": "pit",
+            "department": "DEP_02",
+            "slaHours": 240,
+            "menuPath": "Roads"
+        },
+        {
+            "serviceCode": "DEP02_Roads _03",
+            "active": true,
+            "keywords": "pot,holes",
+            "department": "DEP_02",
+            "slaHours": 120,
+            "menuPath": "Roads"
+        },
+        {
+            "serviceCode": "DEP02_Roads _04",
+            "active": true,
+            "keywords": "Water , stagnation",
+            "department": "DEP_02",
+            "slaHours": 240,
+            "menuPath": "Roads"
+        },
+        {
+            "serviceCode": "DEP02_Roads _05",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_02",
+            "slaHours": 0,
+            "menuPath": "Roads"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_01",
+            "active": true,
+            "keywords": "building",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_02",
+            "active": true,
+            "keywords": "demarcation",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_03",
+            "active": true,
+            "keywords": "Illegal , basement",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_04",
+            "active": true,
+            "keywords": "Extension , shop",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_05",
+            "active": true,
+            "keywords": "Illegal , factory ",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_06",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_07",
+            "active": true,
+            "keywords": "building , plan",
+            "department": "DEP_14",
+            "slaHours": 960,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_08",
+            "active": true,
+            "keywords": "pucca , encroachment",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_09",
+            "active": true,
+            "keywords": "godown",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_10",
+            "active": true,
+            "keywords": "building , material , streets",
+            "department": "DEP_14",
+            "slaHours": 24,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_11",
+            "active": true,
+            "keywords": "stray, cow, cows, cattle, bull, bulls, graze, grazing, dung, menace",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP014_BuildingBranch_12",
+            "active": true,
+            "keywords": "unauthorised",
+            "department": "DEP_14",
+            "slaHours": 0,
+            "menuPath": "BuildingBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_01",
+            "active": true,
+            "keywords": "by-cycle , by-laws",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_02",
+            "active": true,
+            "keywords": "traffic , challan , rickshaw , rerhri",
+            "department": "DEP_08",
+            "slaHours": 240,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_03",
+            "active": true,
+            "keywords": "inquiry , complaints",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_04",
+            "active": true,
+            "keywords": "licenses , rickshaw , hawkers , dhobi",
+            "department": "DEP_08",
+            "slaHours": 240,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_05",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_06",
+            "active": true,
+            "keywords": "RC , renewal , rickshaw , rerhri",
+            "department": "DEP_08",
+            "slaHours": 240,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_07",
+            "active": true,
+            "keywords": "Renewal , licenses",
+            "department": "DEP_08",
+            "slaHours": 240,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_08",
+            "active": true,
+            "keywords": "Renewal , licenses",
+            "department": "DEP_08",
+            "slaHours": 240,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_09",
+            "active": true,
+            "keywords": "Transfer , licenses , death",
+            "department": "DEP_08",
+            "slaHours": 240,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_LicenceBranch_10",
+            "active": true,
+            "keywords": "vendor",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "LicenceBranch"
+        },
+        {
+            "serviceCode": "DEP08_RehabilitationColonies_01",
+            "active": true,
+            "keywords": "illegal , purchase , transit , sites",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "RehabilitationColonies"
+        },
+        {
+            "serviceCode": "DEP08_RehabilitationColonies_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "RehabilitationColonies"
+        },
+        {
+            "serviceCode": "DEP08_RehabilitationColonies_03",
+            "active": true,
+            "keywords": " ladder, toilets, cantilever",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "RehabilitationColonies"
+        },
+        {
+            "serviceCode": "DEP08_RehabilitationColonies_04",
+            "active": true,
+            "keywords": "sanctioned ,  trades",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "RehabilitationColonies"
+        },
+        {
+            "serviceCode": "DEP08_RehabilitationColonies_05",
+            "active": true,
+            "keywords": "unauthorized ,  construction , vacant , plot",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "RehabilitationColonies"
+        },
+        {
+            "serviceCode": "DEP08_RTIBranch_01",
+            "active": true,
+            "keywords": "hearing , appeals",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "RTIBranch"
+        },
+        {
+            "serviceCode": "DEP08_RTIBranch_02",
+            "active": true,
+            "keywords": "information",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "RTIBranch"
+        },
+        {
+            "serviceCode": "DEP08_RTIBranch_03",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_08",
+            "slaHours": 0,
+            "menuPath": "RTIBranch"
+        },
+        {
+            "serviceCode": "DEP012_ComputerCell_01",
+            "active": true,
+            "keywords": "website , issue",
+            "department": "DEP_12",
+            "slaHours": 0,
+            "menuPath": "ComputerCell"
+        },
+        {
+            "serviceCode": "DEP012_ComputerCell_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_12",
+            "slaHours": 0,
+            "menuPath": "ComputerCell"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_01",
+            "active": true,
+            "keywords": "streetlight, light, repair, work, pole, electric, power, repair, damage, fix",
+            "department": "DEP_04",
+            "slaHours": 72,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_02",
+            "active": true,
+            "keywords": "streetlight, light, repair, work, pole, electric, power, repair, damage, fix",
+            "department": "DEP_04",
+            "slaHours": 72,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_03",
+            "active": true,
+            "keywords": "streetlight, light, repair, work, pole, electric, power, repair, damage, fix",
+            "department": "DEP_04",
+            "slaHours": 72,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_04",
+            "active": true,
+            "keywords": "streetlight, light, repair, work, pole, electric, power, repair, damage, fix",
+            "department": "DEP_04",
+            "slaHours": 72,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_05",
+            "active": true,
+            "keywords": "bollards , lights",
+            "department": "DEP_04",
+            "slaHours": 480,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_06",
+            "active": true,
+            "keywords": "repair, work, pole, repair, damage",
+            "department": "DEP_04",
+            "slaHours": 480,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_07",
+            "active": true,
+            "keywords": "streetlight, light, new, work,",
+            "department": "DEP_04",
+            "slaHours": 0,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_08",
+            "active": true,
+            "keywords": "streetlight, light, repair, work",
+            "department": "DEP_04",
+            "slaHours": 72,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_09",
+            "active": true,
+            "keywords": "streetlight, light, repair, work, pole, electric, power, repair, damage, fix",
+            "department": "DEP_04",
+            "slaHours": 72,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_10",
+            "active": true,
+            "keywords": "streetlight, light, ",
+            "department": "DEP_04",
+            "slaHours": 72,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP04_StreetLight_11",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_04",
+            "slaHours": 0,
+            "menuPath": "StreetLight"
+        },
+        {
+            "serviceCode": "DEP05_Advertisement2_01",
+            "active": true,
+            "keywords": "advertisement",
+            "department": "DEP_05",
+            "slaHours": 0,
+            "menuPath": "Advertisement2"
+        },
+        {
+            "serviceCode": "DEP05_Advertisement2_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_05",
+            "slaHours": 0,
+            "menuPath": "Advertisement2"
+        },
+        {
+            "serviceCode": "DEP05_PaidParking_01",
+            "active": true,
+            "keywords": "Parking , no-parking ,prohibited",
+            "department": "DEP_05",
+            "slaHours": 0,
+            "menuPath": "PaidParking"
+        },
+        {
+            "serviceCode": "DEP05_PaidParking_02",
+            "active": true,
+            "keywords": "misbehaviour, rudeness , informal , misconduct , behaviour",
+            "department": "DEP_05",
+            "slaHours": 0,
+            "menuPath": "PaidParking"
+        },
+        {
+            "serviceCode": "DEP05_PaidParking_03",
+            "active": true,
+            "keywords": "service, charge, overcharge",
+            "department": "DEP_05",
+            "slaHours": 0,
+            "menuPath": "PaidParking"
+        },
+        {
+            "serviceCode": "DEP05_Encroachment_01",
+            "active": true,
+            "keywords": "temporary, trespass, encroachment, violation, intrusion",
+            "department": "DEP_05",
+            "slaHours": 0,
+            "menuPath": "Encroachment"
+        },
+        {
+            "serviceCode": "DEP05_Encroachment_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_05",
+            "slaHours": 0,
+            "menuPath": "Encroachment"
+        },
+        {
+            "serviceCode": "DEP11_Establishment_01",
+            "active": true,
+            "keywords": "mercy, compassionate",
+            "department": "DEP_11",
+            "slaHours": 0,
+            "menuPath": "Establishment"
+        },
+        {
+            "serviceCode": "DEP11_Establishment_02",
+            "active": true,
+            "keywords": "other, miscellaneous, misc , additional",
+            "department": "DEP_11",
+            "slaHours": 0,
+            "menuPath": "Establishment"
+        },
+        {
+            "serviceCode": "DEP11_Establishment_03",
+            "active": true,
+            "keywords": "notification, order",
+            "department": "DEP_11",
+            "slaHours": 0,
+            "menuPath": "Establishment"
+        },
+        {
+            "serviceCode": "DEP11_Establishment_04",
+            "active": true,
+            "keywords": "retirement",
+            "department": "DEP_11",
+            "slaHours": 0,
+            "menuPath": "Establishment"
+        },
+        {
+            "serviceCode": "DEP11_Establishment_05",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_11",
+            "slaHours": 0,
+            "menuPath": "Establishment"
+        },
+        {
+            "serviceCode": "DEP11_Establishment_06",
+            "active": true,
+            "keywords": "promotion, advancement, betterment",
+            "department": "DEP_11",
+            "slaHours": 0,
+            "menuPath": "Establishment"
+        },
+        {
+            "serviceCode": "DEP09_Estate Branch_01",
+            "active": true,
+            "keywords": "extension, time",
+            "department": "DEP_09",
+            "slaHours": 0,
+            "menuPath": "EstateBranch"
+        },
+        {
+            "serviceCode": "DEP09_Estate Branch_02",
+            "active": true,
+            "keywords": "certificate",
+            "department": "DEP_09",
+            "slaHours": 672,
+            "menuPath": "EstateBranch"
+        },
+        {
+            "serviceCode": "DEP09_Estate Branch_03",
+            "active": true,
+            "keywords": "certificate, sale",
+            "department": "DEP_09",
+            "slaHours": 672,
+            "menuPath": "EstateBranch"
+        },
+        {
+            "serviceCode": "DEP09_Estate Branch_04",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_09",
+            "slaHours": 0,
+            "menuPath": "EstateBranch"
+        },
+        {
+            "serviceCode": "DEP09_Estate Branch_05",
+            "active": true,
+            "keywords": "permission, allow , mortgage",
+            "department": "DEP_09",
+            "slaHours": 504,
+            "menuPath": "EstateBranch"
+        },
+        {
+            "serviceCode": "DEP09_Estate Branch_06",
+            "active": true,
+            "keywords": "transfer, ownership",
+            "department": "DEP_09",
+            "slaHours": 672,
+            "menuPath": "EstateBranch"
+        },
+        {
+            "serviceCode": "DEP20_FireWing_01",
+            "active": true,
+            "keywords": "notification, order",
+            "department": "DEP_20",
+            "slaHours": 0,
+            "menuPath": "FireWing"
+        },
+        {
+            "serviceCode": "DEP20_FireWing_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_20",
+            "slaHours": 0,
+            "menuPath": "FireWing"
+        },
+        {
+            "serviceCode": "DEP20_FireWing_03",
+            "active": true,
+            "keywords": "promotion, advancement, betterment",
+            "department": "DEP_20",
+            "slaHours": 0,
+            "menuPath": "FireWing"
+        },
+        {
+            "serviceCode": "DEP20_FireWing_04",
+            "active": true,
+            "keywords": "seniority, eldership",
+            "department": "DEP_20",
+            "slaHours": 0,
+            "menuPath": "FireWing"
+        },
+        {
+            "serviceCode": "DEP20_FireWing_05",
+            "active": true,
+            "keywords": "service",
+            "department": "DEP_20",
+            "slaHours": 0,
+            "menuPath": "FireWing"
+        },
+        {
+            "serviceCode": "DEP06_MeatHygiene_01",
+            "active": true,
+            "keywords": "licenses, sale ,meat",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MeatHygiene"
+        },
+        {
+            "serviceCode": "DEP06_MeatHygiene_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MeatHygiene"
+        },
+        {
+            "serviceCode": "DEP06_MeatHygiene_03",
+            "active": true,
+            "keywords": "unauthorised, meat , stale",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MeatHygiene"
+        },
+        {
+            "serviceCode": "DEP06_MeatHygiene_04",
+            "active": true,
+            "keywords": "unauthorised, slaughtering, animals",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MeatHygiene"
+        },
+        {
+            "serviceCode": "DEP06_MOH_01",
+            "active": true,
+            "keywords": "bee, hives",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_02",
+            "active": true,
+            "keywords": "burning, dead,leaves,waste",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_03",
+            "active": true,
+            "keywords": "Epidemic, disease",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_04",
+            "active": true,
+            "keywords": "correction, birth, death",
+            "department": "DEP_06",
+            "slaHours": 336,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_05",
+            "active": true,
+            "keywords": "certificate, cremation",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_06",
+            "active": true,
+            "keywords": "stray, dead, animals",
+            "department": "DEP_06",
+            "slaHours": 48,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_07",
+            "active": true,
+            "keywords": "dog, stray , animal",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_08",
+            "active": true,
+            "keywords": "dog, pet , animal, licenses",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_09",
+            "active": true,
+            "keywords": "fogging",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_10",
+            "active": true,
+            "keywords": "foul, smell",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_11",
+            "active": true,
+            "keywords": "birth , death , issue, certificate",
+            "department": "DEP_06",
+            "slaHours": 168,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_12",
+            "active": true,
+            "keywords": "lifting, gargabe, litter, trash, junk",
+            "department": "DEP_06",
+            "slaHours": 48,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_13",
+            "active": true,
+            "keywords": "limestone",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_14",
+            "active": true,
+            "keywords": "syrums",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_15",
+            "active": true,
+            "keywords": "certificate",
+            "department": "DEP_06",
+            "slaHours": 720,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_16",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_17",
+            "active": true,
+            "keywords": "polythene, plastic, bag",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_18",
+            "active": true,
+            "keywords": "safai, clean, dirt",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_19",
+            "active": true,
+            "keywords": "meat, sale",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_20",
+            "active": true,
+            "keywords": "fruits, fruit , sale",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_MOH_21",
+            "active": true,
+            "keywords": "stray, cow, cows, cattle, bull, bulls, graze, grazing, dung, menace",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "MOH"
+        },
+        {
+            "serviceCode": "DEP06_RemovalOfDeadAnimals_01",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "RemovalOfDeadAnimals"
+        },
+        {
+            "serviceCode": "DEP06_RemovalOfDeadAnimals_02",
+            "active": true,
+            "keywords": "animal, dead, remove, smell, stray",
+            "department": "DEP_06",
+            "slaHours": 48,
+            "menuPath": "RemovalOfDeadAnimals"
+        },
+        {
+            "serviceCode": "DEP06_Sanitation_01",
+            "active": true,
+            "keywords": "garbage, waste, bin, dustbin, clean, remove, sanitation, overflow, smell",
+            "department": "DEP_06",
+            "slaHours": 48,
+            "menuPath": "Sanitation"
+        },
+        {
+            "serviceCode": "DEP06_Sanitation_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "Sanitation"
+        },
+        {
+            "serviceCode": "DEP06_Sanitation_03",
+            "active": true,
+            "keywords": "burning, dead,leaves,waste",
+            "department": "DEP_06",
+            "slaHours": 48,
+            "menuPath": "Sanitation"
+        },
+        {
+            "serviceCode": "DEP06_Sanitation_04",
+            "active": true,
+            "keywords": "clean, dirt, street",
+            "department": "DEP_06",
+            "slaHours": 48,
+            "menuPath": "Sanitation"
+        },
+        {
+            "serviceCode": "DEP06_StrayCattle_01",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "StrayCattle"
+        },
+        {
+            "serviceCode": "DEP06_StrayCattle_02",
+            "active": true,
+            "keywords": "stray, cow, cows, cattle, bull, bulls, graze, grazing, dung, menace",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "StrayCattle"
+        },
+        {
+            "serviceCode": "DEP06_StrayDogs_01",
+            "active": true,
+            "keywords": "dog, mence, stray",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "StrayDogs"
+        },
+        {
+            "serviceCode": "DEP06_StrayDogs_02",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "StrayDogs"
+        },
+        {
+            "serviceCode": "DEP06_StrayDogs_03",
+            "active": true,
+            "keywords": "dog, sterilization,sterilization, sterilisation",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "StrayDogs"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_01",
+            "active": true,
+            "keywords": "park, children , childrens, equipment,swing",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_02",
+            "active": true,
+            "keywords": "clean, dirt, street",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_03",
+            "active": true,
+            "keywords": "clean, dirt, park",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_04",
+            "active": true,
+            "keywords": "grass, park",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_05",
+            "active": true,
+            "keywords": " trespass, encroachment, violation, intrusion",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_06",
+            "active": true,
+            "keywords": "grass, cutting",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_07",
+            "active": true,
+            "keywords": "street , light , park",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_08",
+            "active": true,
+            "keywords": "noise, disturbance, nuisance",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_09",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_10",
+            "active": true,
+            "keywords": "park, children , childrens, equipment,swing",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_11",
+            "active": true,
+            "keywords": "verbcut, trim off. chop",
+            "department": "DEP_03",
+            "slaHours": 144,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_12",
+            "active": true,
+            "keywords": "railing,broken",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_13",
+            "active": true,
+            "keywords": "removal, danger,cut",
+            "department": "DEP_03",
+            "slaHours": 1080,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_14",
+            "active": true,
+            "keywords": "dead, remove,tree",
+            "department": "DEP_03",
+            "slaHours": 1080,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_15",
+            "active": true,
+            "keywords": "dead, remove,tree",
+            "department": "DEP_03",
+            "slaHours": 24,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP03_Horticulture_16",
+            "active": true,
+            "keywords": "repair, replacement, equipment",
+            "department": "DEP_03",
+            "slaHours": 0,
+            "menuPath": "Horticulture"
+        },
+        {
+            "serviceCode": "DEP25_HouseAllotmentCommittee_01",
+            "active": true,
+            "keywords": "allotment, allowance",
+            "department": "DEP_25",
+            "slaHours": 0,
+            "menuPath": "HouseAllotmentCommittee"
+        },
+        {
+            "serviceCode": "DEP25_HouseAllotmentCommittee_02",
+            "active": true,
+            "keywords": "Illegal , basement",
+            "department": "DEP_25",
+            "slaHours": 0,
+            "menuPath": "HouseAllotmentCommittee"
+        },
+        {
+            "serviceCode": "DEP25_HouseAllotmentCommittee_03",
+            "active": true,
+            "keywords": "ndc",
+            "department": "DEP_25",
+            "slaHours": 0,
+            "menuPath": "HouseAllotmentCommittee"
+        },
+        {
+            "serviceCode": "DEP25_HouseAllotmentCommittee_04",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_25",
+            "slaHours": 0,
+            "menuPath": "HouseAllotmentCommittee"
+        },
+        {
+            "serviceCode": "DEP25_HouseAllotmentCommittee_05",
+            "active": true,
+            "keywords": "permission, allow , house",
+            "department": "DEP_25",
+            "slaHours": 0,
+            "menuPath": "HouseAllotmentCommittee"
+        },
+        {
+            "serviceCode": "DEP25_HouseAllotmentCommittee_06",
+            "active": true,
+            "keywords": "possession, custody, occupancy, proprietary, retention",
+            "department": "DEP_25",
+            "slaHours": 0,
+            "menuPath": "HouseAllotmentCommittee"
+        },
+        {
+            "serviceCode": "DEP25_HouseAllotmentCommittee_07",
+            "active": true,
+            "keywords": "transfer, retirement",
+            "department": "DEP_25",
+            "slaHours": 0,
+            "menuPath": "HouseAllotmentCommittee"
+        },
+        {
+            "serviceCode": "DEP25_HouseAllotmentCommittee_08",
+            "active": true,
+            "keywords": "licenses, fee, money",
+            "department": "DEP_25",
+            "slaHours": 0,
+            "menuPath": "HouseAllotmentCommittee"
+        },
+        {
+            "serviceCode": "DEP25_HouseAllotmentCommittee_09",
+            "active": true,
+            "keywords": "surrender, capitulation, submission, yielding",
+            "department": "DEP_25",
+            "slaHours": 0,
+            "menuPath": "HouseAllotmentCommittee"
+        },
+        {
+            "serviceCode": "DEP18_LegalBranch_01",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_18",
+            "slaHours": 0,
+            "menuPath": "LegalBranch"
+        },
+        {
+            "serviceCode": "DEP21_MechanicalWing_01",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_21",
+            "slaHours": 0,
+            "menuPath": "MechanicalWing"
+        },
+        {
+            "serviceCode": "DEP26_Others_01",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_26",
+            "slaHours": 0,
+            "menuPath": "Others"
+        },
+        {
+            "serviceCode": "DEP19_ParkingBranch_01",
+            "active": true,
+            "keywords": "contractor",
+            "department": "DEP_19",
+            "slaHours": 0,
+            "menuPath": "ParkingBranch"
+        },
+        {
+            "serviceCode": "DEP19_ParkingBranch_02",
+            "active": true,
+            "keywords": "misbehaviour, rudeness , informal , misconduct , behaviour",
+            "department": "DEP_19",
+            "slaHours": 0,
+            "menuPath": "ParkingBranch"
+        },
+        {
+            "serviceCode": "DEP19_ParkingBranch_03",
+            "active": true,
+            "keywords": "mismanagment, managment",
+            "department": "DEP_19",
+            "slaHours": 0,
+            "menuPath": "ParkingBranch"
+        },
+        {
+            "serviceCode": "DEP19_ParkingBranch_04",
+            "active": true,
+            "keywords": "complaint, disapproval, dissatisfaction, fulmination, outcry",
+            "department": "DEP_19",
+            "slaHours": 0,
+            "menuPath": "ParkingBranch"
+        },
+        {
+            "serviceCode": "DEP19_ParkingBranch_05",
+            "active": true,
+            "keywords": "orbidden, out, proscribed",
+            "department": "DEP_19",
+            "slaHours": 0,
+            "menuPath": "ParkingBranch"
+        },
+        {
+            "serviceCode": "DEP19_ParkingBranch_06",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_19",
+            "slaHours": 0,
+            "menuPath": "ParkingBranch"
+        },
+        {
+            "serviceCode": "DEP19_ParkingBranch_07",
+            "active": true,
+            "keywords": "extra, overcharge, charge",
+            "department": "DEP_19",
+            "slaHours": 0,
+            "menuPath": "ParkingBranch"
+        },
+        {
+            "serviceCode": "DEP19_ParkingBranch_08",
+            "active": true,
+            "keywords": "Repair , replacement , equipment",
+            "department": "DEP_19",
+            "slaHours": 0,
+            "menuPath": "ParkingBranch"
+        },
+        {
+            "serviceCode": "DEP19_ParkingBranch_09",
+            "active": true,
+            "keywords": "unauthorised, prohibited",
+            "department": "DEP_19",
+            "slaHours": 0,
+            "menuPath": "ParkingBranch"
+        },
+        {
+            "serviceCode": "DEP22_PensionBranch_01",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_22",
+            "slaHours": 0,
+            "menuPath": "PensionBranch"
+        },
+        {
+            "serviceCode": "DEP24_PublicRelationsWing_01",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_24",
+            "slaHours": 0,
+            "menuPath": "PublicRelationsWing"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_01",
+            "active": true,
+            "keywords": "allotment, allowance",
+            "department": "DEP_23",
+            "slaHours": 744,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_02",
+            "active": true,
+            "keywords": "Property, residentional, commercial",
+            "department": "DEP_23",
+            "slaHours": 744,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_03",
+            "active": true,
+            "keywords": "decree, settlement, partition deed",
+            "department": "DEP_23",
+            "slaHours": 744,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_04",
+            "active": true,
+            "keywords": "charge",
+            "department": "DEP_23",
+            "slaHours": 0,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_05",
+            "active": true,
+            "keywords": "Death , intestate, unwilled, undevised",
+            "department": "DEP_23",
+            "slaHours": 744,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_06",
+            "active": true,
+            "keywords": "certificate, owenership",
+            "department": "DEP_23",
+            "slaHours": 744,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_07",
+            "active": true,
+            "keywords": "Noc , water , electricity",
+            "department": "DEP_23",
+            "slaHours": 744,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_08",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_23",
+            "slaHours": 0,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_09",
+            "active": true,
+            "keywords": "regd, un-regd",
+            "department": "DEP_23",
+            "slaHours": 744,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_10",
+            "active": true,
+            "keywords": "sale,gift, transfer exchange, deed",
+            "department": "DEP_23",
+            "slaHours": 744,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP23_Sub-Office,Manimajra_11",
+            "active": true,
+            "keywords": "payment",
+            "department": "DEP_23",
+            "slaHours": 0,
+            "menuPath": "Sub-Office,Manimajra"
+        },
+        {
+            "serviceCode": "DEP15_SwarnaJayantiShahariRozgarYojana_01",
+            "active": true,
+            "keywords": "loan, sanction, sactioning",
+            "department": "DEP_15",
+            "slaHours": 0,
+            "menuPath": "SwarnaJayantiShahariRozgarYojana(NULM)"
+        },
+        {
+            "serviceCode": "DEP15_SwarnaJayantiShahariRozgarYojana_02",
+            "active": true,
+            "keywords": "release, STP",
+            "department": "DEP_15",
+            "slaHours": 0,
+            "menuPath": "SwarnaJayantiShahariRozgarYojana(NULM)"
+        },
+        {
+            "serviceCode": "DEP15_SwarnaJayantiShahariRozgarYojana_03",
+            "active": true,
+            "keywords": "release, subsidy",
+            "department": "DEP_15",
+            "slaHours": 0,
+            "menuPath": "SwarnaJayantiShahariRozgarYojana(NULM)"
+        },
+        {
+            "serviceCode": "DEP15_SwarnaJayantiShahariRozgarYojana_04",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_15",
+            "slaHours": 0,
+            "menuPath": "SwarnaJayantiShahariRozgarYojana(NULM)"
+        },
+        {
+            "serviceCode": "DEP13_HouseTax_01",
+            "active": true,
+            "keywords": "assessment, tax, determination, determine",
+            "department": "DEP_13",
+            "slaHours": 0,
+            "menuPath": "HouseTax"
+        },
+        {
+            "serviceCode": "DEP13_HouseTax_02",
+            "active": true,
+            "keywords": "clean, certificate",
+            "department": "DEP_13",
+            "slaHours": 720,
+            "menuPath": "HouseTax"
+        },
+        {
+            "serviceCode": "DEP13_HouseTax_03",
+            "active": true,
+            "keywords": "enquiry, inspection, probe",
+            "department": "DEP_13",
+            "slaHours": 0,
+            "menuPath": "HouseTax"
+        },
+        {
+            "serviceCode": "DEP13_HouseTax_04",
+            "active": true,
+            "keywords": "money, billing, excess",
+            "department": "DEP_13",
+            "slaHours": 0,
+            "menuPath": "HouseTax"
+        },
+        {
+            "serviceCode": "DEP13_HouseTax_05",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_13",
+            "slaHours": 0,
+            "menuPath": "HouseTax"
+        },
+        {
+            "serviceCode": "DEP13_HouseTax_06",
+            "active": true,
+            "keywords": "refund",
+            "department": "DEP_13",
+            "slaHours": 0,
+            "menuPath": "HouseTax"
+        },
+        {
+            "serviceCode": "DEP13_HouseTax_07",
+            "active": true,
+            "keywords": "report",
+            "department": "DEP_13",
+            "slaHours": 0,
+            "menuPath": "HouseTax"
+        },
+        {
+            "serviceCode": "DEP01_Metering_01",
+            "active": true,
+            "keywords": "defective, fault, meter",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "Metering"
+        },
+        {
+            "serviceCode": "DEP01_Metering_02",
+            "active": true,
+            "keywords": "defective, fault, meter",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "Metering"
+        },
+        {
+            "serviceCode": "DEP01_Metering_03",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "Metering"
+        },
+        {
+            "serviceCode": "DEP01_publicCommunityToilet_01\n",
+            "active": true,
+            "keywords": "community, toilet",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "publicCommunityToilet"
+        },
+        {
+            "serviceCode": "DEP01_publicCommunityToilet_02\n",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "publicCommunityToilet"
+        },
+        {
+            "serviceCode": "DEP01_publicCommunityToilet_03\n",
+            "active": true,
+            "keywords": "public, toilet",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "publicCommunityToilet"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_01",
+            "active": true,
+            "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow",
+            "department": "DEP_01",
+            "slaHours": 168,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_02",
+            "active": true,
+            "keywords": "road, street, manhole, hole, cover, lid, footpath, open, man, drainage, damage, repair, fix",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_03",
+            "active": true,
+            "keywords": "road, street, manhole, hole, cover, lid, footpath, open, man, drainage, damage, repair, fix",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_04",
+            "active": true,
+            "keywords": "new, sewage, drain, connetion",
+            "department": "DEP_01",
+            "slaHours": 168,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_05",
+            "active": true,
+            "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_06",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_07",
+            "active": true,
+            "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow",
+            "department": "DEP_01",
+            "slaHours": 72,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_08",
+            "active": true,
+            "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow",
+            "department": "DEP_01",
+            "slaHours": 48,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_09",
+            "active": true,
+            "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow",
+            "department": "DEP_01",
+            "slaHours": 192,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_10",
+            "active": true,
+            "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_11",
+            "active": true,
+            "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Sewerage_12",
+            "active": true,
+            "keywords": "public, toilet",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "Sewerage"
+        },
+        {
+            "serviceCode": "DEP01_Stormwater_01",
+            "active": true,
+            "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "Stormwater"
+        },
+        {
+            "serviceCode": "DEP01_Stormwater_02",
+            "active": true,
+            "keywords": "drain, block, clean, debris, silt, drainage, water, clean, roadside, flow",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "Stormwater"
+        },
+        {
+            "serviceCode": "DEP01_Stormwater_03",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "Stormwater"
+        },
+        {
+            "serviceCode": "DEP01_Stormwater_04",
+            "active": true,
+            "keywords": "road, block",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "Stormwater"
+        },
+        {
+            "serviceCode": "DEP01_Stormwater_05",
+            "active": true,
+            "keywords": "road, block, missing",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "Stormwater"
+        },
+        {
+            "serviceCode": "DEP01_TertiaryWater_01",
+            "active": true,
+            "keywords": "water,treasury",
+            "department": "DEP_01",
+            "slaHours": 240,
+            "menuPath": "TertiaryWater"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_01",
+            "active": true,
+            "keywords": "water, connection, change",
+            "department": "DEP_01",
+            "slaHours": 72,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_02",
+            "active": true,
+            "keywords": "meter, block, leaking",
+            "department": "DEP_01",
+            "slaHours": 48,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_03",
+            "active": true,
+            "keywords": "contaminated, muddy",
+            "department": "DEP_01",
+            "slaHours": 48,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_04",
+            "active": true,
+            "keywords": "meter, block, leaking",
+            "department": "DEP_01",
+            "slaHours": 168,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_05",
+            "active": true,
+            "keywords": "commercial, domestic",
+            "department": "DEP_01",
+            "slaHours": 360,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_06",
+            "active": true,
+            "keywords": "money, billing, excess",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_07",
+            "active": true,
+            "keywords": "leakage",
+            "department": "DEP_01",
+            "slaHours": 168,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_08",
+            "active": true,
+            "keywords": "leakage, repair, fix ,service, pipe, water",
+            "department": "DEP_01",
+            "slaHours": 168,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_09",
+            "active": true,
+            "keywords": "leakage, repair, fix ,service, pipe, water",
+            "department": "DEP_01",
+            "slaHours": 168,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_10",
+            "active": true,
+            "keywords": "leakage, repair, fix ,service, pipe, water",
+            "department": "DEP_01",
+            "slaHours": 168,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_11",
+            "active": true,
+            "keywords": "misuse, waste, water",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_12",
+            "active": true,
+            "keywords": "contaminated, muddy",
+            "department": "DEP_01",
+            "slaHours": 48,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_13",
+            "active": true,
+            "keywords": "connection, water",
+            "department": "DEP_01",
+            "slaHours": 120,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_14",
+            "active": true,
+            "keywords": "certificate",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_15",
+            "active": true,
+            "keywords": "supply, water",
+            "department": "DEP_01",
+            "slaHours": 24,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_16",
+            "active": true,
+            "keywords": "other",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_17",
+            "active": true,
+            "keywords": "waste, overflow, water",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_18",
+            "active": true,
+            "keywords": "refund, return , money",
+            "department": "DEP_01",
+            "slaHours": 720,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_19",
+            "active": true,
+            "keywords": "faulty, fix, replacement, replace , meter",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_20",
+            "active": true,
+            "keywords": "supply, water, tubewell",
+            "department": "DEP_01",
+            "slaHours": 48,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_21",
+            "active": true,
+            "keywords": "supply, water, tanker",
+            "department": "DEP_01",
+            "slaHours": 24,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_22",
+            "active": true,
+            "keywords": "supply, water, tanker",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_23",
+            "active": true,
+            "keywords": "disconnection, discontinue",
+            "department": "DEP_01",
+            "slaHours": 72,
+            "menuPath": "WaterSupply"
+        },
+        {
+            "serviceCode": "DEP01_WaterSupply_24",
+            "active": true,
+            "keywords": "meter, faulty, replace, test",
+            "department": "DEP_01",
+            "slaHours": 360,
+            "menuPath": "WaterSupply"
+        }
+   ]
 }
