@@ -15757,7 +15757,7 @@
       "serviceCode": "BPA",
       "code": "null",
       "path": ""
-    }
+    },
     {
       "id": 1932,
       "name": "Financial Cash Deposit",
@@ -15911,8 +15911,8 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Transactions.Payments.Stop Payment",
       "navigationURL": "services/EGF/payment/stopPayment-newform.action"
-    }
-{
+    },
+	{
       "id": 1943,
       "name": "Assign Acknowledgement Number",
       "url": "url",
