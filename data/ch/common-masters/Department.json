@@ -19,12 +19,12 @@
         },
         {
             "name": "ACCOUNTS",
-            "code": "ACC01",
+            "code": "ACCOUNTS",
             "active": true
         },
         {
             "name": "AUDIT",
-            "code": "AUD01",
+            "code": "AUDIT",
             "active": true
         },
         {
