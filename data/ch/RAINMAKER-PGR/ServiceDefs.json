@@ -67,7 +67,7 @@
             "menuPath": "DeathCertificate"
         },
         {
-            "serviceCode": "DEP017_Advertisement  _01",
+            "serviceCode": "DEP017_Advertisement_01",
             "active": true,
             "keywords": "advertisement",
             "department": "DEP_17",
@@ -75,7 +75,7 @@
             "menuPath": "Advertisement"
         },
         {
-            "serviceCode": "DEP017_Advertisement  _02",
+            "serviceCode": "DEP017_Advertisement_02",
             "active": true,
             "keywords": "advertisement",
             "department": "DEP_17",
@@ -83,7 +83,7 @@
             "menuPath": "Advertisement"
         },
         {
-            "serviceCode": "DEP017_Advertisement  _03",
+            "serviceCode": "DEP017_Advertisement_03",
             "active": true,
             "keywords": "other",
             "department": "DEP_17",
@@ -91,7 +91,7 @@
             "menuPath": "Advertisement"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _01",
+            "serviceCode": "DEP017_BookingBranch_01",
             "active": true,
             "keywords": "ground",
             "department": "DEP_17",
@@ -99,7 +99,7 @@
             "menuPath": "BookingBranch"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _02",
+            "serviceCode": "DEP017_BookingBranch_02",
             "active": true,
             "keywords": "open , space , stacking , building , tanker",
             "department": "DEP_17",
@@ -107,7 +107,7 @@
             "menuPath": "BookingBranch"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _03",
+            "serviceCode": "DEP017_BookingBranch_03",
             "active": true,
             "keywords": "booking",
             "department": "DEP_17",
@@ -115,7 +115,7 @@
             "menuPath": "BookingBranch"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _04",
+            "serviceCode": "DEP017_BookingBranch_04",
             "active": true,
             "keywords": "street , light , parking",
             "department": "DEP_17",
@@ -123,7 +123,7 @@
             "menuPath": "BookingBranch"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _05",
+            "serviceCode": "DEP017_BookingBranch_05",
             "active": true,
             "keywords": "other",
             "department": "DEP_17",
@@ -131,7 +131,7 @@
             "menuPath": "BookingBranch"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _06",
+            "serviceCode": "DEP017_BookingBranch_06",
             "active": true,
             "keywords": "advertisement",
             "department": "DEP_17",
@@ -139,7 +139,7 @@
             "menuPath": "BookingBranch"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _07",
+            "serviceCode": "DEP017_BookingBranch_07",
             "active": true,
             "keywords": "Open , space , parks , refund",
             "department": "DEP_17",
@@ -147,7 +147,7 @@
             "menuPath": "BookingBranch"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _08",
+            "serviceCode": "DEP017_BookingBranch_08",
             "active": true,
             "keywords": "Refund , cancellation",
             "department": "DEP_17",
@@ -155,7 +155,7 @@
             "menuPath": "BookingBranch"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _09",
+            "serviceCode": "DEP017_BookingBranch_09",
             "active": true,
             "keywords": "Repair , replacement , equipment",
             "department": "DEP_17",
@@ -163,7 +163,7 @@
             "menuPath": "BookingBranch"
         },
         {
-            "serviceCode": "DEP017_BookingBranch  _10",
+            "serviceCode": "DEP017_BookingBranch_10",
             "active": true,
             "keywords": "Repair , sanitation , center",
             "department": "DEP_17",
@@ -1563,7 +1563,7 @@
             "menuPath": "Metering"
         },
         {
-            "serviceCode": "DEP01_publicCommunityToilet_01\n",
+            "serviceCode": "DEP01_publicCommunityToilet_01",
             "active": true,
             "keywords": "community, toilet",
             "department": "DEP_01",
@@ -1571,7 +1571,7 @@
             "menuPath": "publicCommunityToilet"
         },
         {
-            "serviceCode": "DEP01_publicCommunityToilet_02\n",
+            "serviceCode": "DEP01_publicCommunityToilet_02",
             "active": true,
             "keywords": "other",
             "department": "DEP_01",
@@ -1579,7 +1579,7 @@
             "menuPath": "publicCommunityToilet"
         },
         {
-            "serviceCode": "DEP01_publicCommunityToilet_03\n",
+            "serviceCode": "DEP01_publicCommunityToilet_03",
             "active": true,
             "keywords": "public, toilet",
             "department": "DEP_01",
