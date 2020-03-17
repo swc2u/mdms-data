@@ -19993,6 +19993,36 @@
       "actionid": 1943,
       "actioncode": "",
       "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BILL_CREATOR",
+      "actionid": 1944,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BILL_CREATOR",
+      "actionid": 1945,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BILL_CREATOR",
+      "actionid": 1946,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BILL_CREATOR",
+      "actionid": 1947,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BILL_CREATOR",
+      "actionid": 1948,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }

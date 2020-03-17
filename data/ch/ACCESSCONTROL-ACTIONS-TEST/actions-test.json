@@ -15925,6 +15925,76 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Transactions.Deductions.Assign Acknowledgement Number"
+    },
+    {
+      "id": 1944,
+      "name": "Financial Expense bill create",
+      "navigationURL": "services/EGF/expensebill/create",
+      "url": "url",
+      "parentModule": "EGF",
+      "displayName": "Payment Request",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FinanceBill",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Transactions.Bills Accounting.Expense Bill"
+    },
+    {
+      "id": 1945,
+      "name": "Financial Expense bill create",
+      "navigationURL": "services/EGF/expensebill/success",
+      "url": "url",
+      "parentModule": "EGF",
+      "displayName": "Payment Request",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FinanceBill",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Transactions.Bills Accounting.Expense Bill"
+    },
+    {
+      "id": 1946,
+      "name": "Financial Expense bill create",
+      "navigationURL": "services/EGF/expensebill/save",
+      "url": "url",
+      "parentModule": "EGF",
+      "displayName": "Payment Request",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FinanceBill",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Transactions.Bills Accounting.Expense Bill"
+    },
+    {
+      "id": 1947,
+      "name": "Financial Expense bill create",
+      "navigationURL": "services/EGF/expensebill/update",
+      "url": "url",
+      "parentModule": "EGF",
+      "displayName": "Payment Request",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FinanceBill",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Transactions.Bills Accounting.Expense Bill"
+    },
+    {
+      "id": 1948,
+      "name": "Financial Expense bill create",
+      "navigationURL": "services/EGF/expensebill/view",
+      "url": "url",
+      "parentModule": "EGF",
+      "displayName": "Payment Request",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "FinanceBill",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Transactions.Bills Accounting.Expense Bill"
     }
   ]
 }
