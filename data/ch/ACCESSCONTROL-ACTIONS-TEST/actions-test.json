@@ -13274,7 +13274,7 @@
       "displayName": "Create Purchase Order",
       "orderNumber": 12,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "FinanceMaster",
       "navigationURL": "services/EGF/purchaseorder/newform",
       "code": "null",
@@ -13288,7 +13288,7 @@
       "displayName": "View Purchase Order",
       "orderNumber": 12,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "FinanceMaster",
       "navigationURL": "services/EGF/purchaseorder/search/view",
       "code": "null",
@@ -13302,7 +13302,7 @@
       "displayName": "Modify Purchase Order",
       "orderNumber": 13,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "FinanceMaster",
       "navigationURL": "services/EGF/purchaseorder/search/edit",
       "code": "null",
@@ -15766,7 +15766,7 @@
       "parentModule": "EGF",
       "displayName": "Cash Deposit",
       "orderNumber": 2,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "FinanceBill",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -15780,7 +15780,7 @@
       "parentModule": "EGF",
       "displayName": "Cash Withdrawal",
       "orderNumber": 3,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "FinanceBill",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -15840,7 +15840,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Revenue/Collections.Create Challan",
-      "navigationURL": "services/EGF/receipts/challan-newform.action"
+      "navigationURL": "services/collection/receipts/challan-newform.action"
     },
     {
       "id": 1938,
@@ -15854,7 +15854,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Revenue/Collections.Challan Receipt",
-      "navigationURL": "services/EGF/receipts/challan-createReceipt.action"
+      "navigationURL": "services/collection/receipts/challan-createReceipt.action"
     },
     {
       "id": 1939,
@@ -15868,7 +15868,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Revenue/Collections.Search Challan",
-      "navigationURL": "services/EGF/receipts/searchChallan.action"
+      "navigationURL": "services/collection/receipts/searchChallan.action"
     },
     {
       "id": 1940,
@@ -15882,7 +15882,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Revenue/Collections.Dishonored Instrument",
-      "navigationURL": "services/EGF/receipts/dishonoredCheque-search.action"
+      "navigationURL": "services/collection/receipts/dishonoredCheque-search.action"
     },
     {
       "id": 1941,
@@ -15905,7 +15905,7 @@
       "parentModule": "",
       "displayName": "Stop Payment",
       "orderNumber": 9,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "FinancePayment",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -15995,6 +15995,48 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Transactions.Bills Accounting.Expense Bill"
+    },
+    {
+      "id": 1949,
+      "name": "FundSource-Create",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Create Fund Source",
+      "orderNumber": 2,
+      "enabled": true,
+      "serviceCode": "FinanceMaster",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Masters.Fund Source.Create Fund Source",
+      "navigationURL": "services/EGF/fundsource/new"
+    },
+    {
+      "id": 1950,
+      "name": "FundSource-View",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "View Fund Source",
+      "orderNumber": 2,
+      "enabled": true,
+      "serviceCode": "FinanceMaster",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Masters.Fund Source.View Fund Source",
+      "navigationURL": "services/EGF/fundsource/search/view"
+    },
+    {
+      "id": 1951,
+      "name": "FundSource-Modify",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Modify Fund Source",
+      "orderNumber": 3,
+      "enabled": true,
+      "serviceCode": "FinanceMaster",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Masters.Fund Source.Modify Fund Source",
+      "navigationURL": "services/EGF/fundsource/search/edit"
     }
   ]
 }
