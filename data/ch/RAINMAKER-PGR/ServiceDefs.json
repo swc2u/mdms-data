@@ -187,7 +187,7 @@
             "menuPath": "DisposalOfMalwa"
         },
         {
-            "serviceCode": "DEP02_Roads _01",
+            "serviceCode": "DEP02_Roads_01",
             "active": true,
             "keywords": "damage",
             "department": "DEP_02",
@@ -195,7 +195,7 @@
             "menuPath": "Roads"
         },
         {
-            "serviceCode": "DEP02_Roads _02",
+            "serviceCode": "DEP02_Roads_02",
             "active": true,
             "keywords": "pit",
             "department": "DEP_02",
@@ -203,7 +203,7 @@
             "menuPath": "Roads"
         },
         {
-            "serviceCode": "DEP02_Roads _03",
+            "serviceCode": "DEP02_Roads_03",
             "active": true,
             "keywords": "pot,holes",
             "department": "DEP_02",
@@ -211,7 +211,7 @@
             "menuPath": "Roads"
         },
         {
-            "serviceCode": "DEP02_Roads _04",
+            "serviceCode": "DEP02_Roads_04",
             "active": true,
             "keywords": "Water , stagnation",
             "department": "DEP_02",
@@ -219,7 +219,7 @@
             "menuPath": "Roads"
         },
         {
-            "serviceCode": "DEP02_Roads _05",
+            "serviceCode": "DEP02_Roads_05",
             "active": true,
             "keywords": "other",
             "department": "DEP_02",
@@ -675,7 +675,7 @@
             "menuPath": "Establishment"
         },
         {
-            "serviceCode": "DEP09_Estate Branch_01",
+            "serviceCode": "DEP09_EstateBranch_01",
             "active": true,
             "keywords": "extension, time",
             "department": "DEP_09",
@@ -683,7 +683,7 @@
             "menuPath": "EstateBranch"
         },
         {
-            "serviceCode": "DEP09_Estate Branch_02",
+            "serviceCode": "DEP09_EstateBranch_02",
             "active": true,
             "keywords": "certificate",
             "department": "DEP_09",
@@ -691,7 +691,7 @@
             "menuPath": "EstateBranch"
         },
         {
-            "serviceCode": "DEP09_Estate Branch_03",
+            "serviceCode": "DEP09_EstateBranch_03",
             "active": true,
             "keywords": "certificate, sale",
             "department": "DEP_09",
@@ -699,7 +699,7 @@
             "menuPath": "EstateBranch"
         },
         {
-            "serviceCode": "DEP09_Estate Branch_04",
+            "serviceCode": "DEP09_EstateBranch_04",
             "active": true,
             "keywords": "other",
             "department": "DEP_09",
@@ -707,7 +707,7 @@
             "menuPath": "EstateBranch"
         },
         {
-            "serviceCode": "DEP09_Estate Branch_05",
+            "serviceCode": "DEP09_EstateBranch_05",
             "active": true,
             "keywords": "permission, allow , mortgage",
             "department": "DEP_09",
@@ -715,7 +715,7 @@
             "menuPath": "EstateBranch"
         },
         {
-            "serviceCode": "DEP09_Estate Branch_06",
+            "serviceCode": "DEP09_EstateBranch_06",
             "active": true,
             "keywords": "transfer, ownership",
             "department": "DEP_09",
@@ -1363,92 +1363,92 @@
             "menuPath": "PublicRelationsWing"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_01",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_01",
             "active": true,
             "keywords": "allotment, allowance",
             "department": "DEP_23",
             "slaHours": 744,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_02",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_02",
             "active": true,
             "keywords": "Property, residentional, commercial",
             "department": "DEP_23",
             "slaHours": 744,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_03",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_03",
             "active": true,
             "keywords": "decree, settlement, partition deed",
             "department": "DEP_23",
             "slaHours": 744,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_04",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_04",
             "active": true,
             "keywords": "charge",
             "department": "DEP_23",
             "slaHours": 0,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_05",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_05",
             "active": true,
             "keywords": "Death , intestate, unwilled, undevised",
             "department": "DEP_23",
             "slaHours": 744,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_06",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_06",
             "active": true,
             "keywords": "certificate, owenership",
             "department": "DEP_23",
             "slaHours": 744,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_07",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_07",
             "active": true,
             "keywords": "Noc , water , electricity",
             "department": "DEP_23",
             "slaHours": 744,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_08",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_08",
             "active": true,
             "keywords": "other",
             "department": "DEP_23",
             "slaHours": 0,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_09",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_09",
             "active": true,
             "keywords": "regd, un-regd",
             "department": "DEP_23",
             "slaHours": 744,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_10",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_10",
             "active": true,
             "keywords": "sale,gift, transfer exchange, deed",
             "department": "DEP_23",
             "slaHours": 744,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
-            "serviceCode": "DEP23_Sub-Office,Manimajra_11",
+            "serviceCode": "DEP23_Sub-OfficeManimajra_11",
             "active": true,
             "keywords": "payment",
             "department": "DEP_23",
             "slaHours": 0,
-            "menuPath": "Sub-Office,Manimajra"
+            "menuPath": "Sub-OfficeManimajra"
         },
         {
             "serviceCode": "DEP15_SwarnaJayantiShahariRozgarYojana_01",

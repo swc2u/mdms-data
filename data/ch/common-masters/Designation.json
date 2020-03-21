@@ -199,6 +199,360 @@
       "name": "Accountant",
       "description": "Accountant",
       "active": true
-    }
+    },
+	{
+		"name": "Accountant",
+		"code": "31",
+		"description": "Accountant",
+		"active": true
+	},
+	{
+		"name": "Accounts Officer",
+		"code": "238",
+		"description": "Accounts Officer",
+		"active": true
+	},
+	{
+		"name": "Additional Commissioner",
+		"code": "225",
+		"description": "Additional Commissioner",
+		"active": true
+	},
+	{
+		"name": "Assistant Collector Tax",
+		"code": "231",
+		"description": "Assistant Collector Tax",
+		"active": true
+	},
+	{
+		"name": "Assistant Controller",
+		"code": "22",
+		"description": "Assistant Controller",
+		"active": true
+	},
+	{
+		"name": "Assistant Engineer",
+		"code": "255",
+		"description": "Assistant Engineer",
+		"active": true
+	},
+	{
+		"name": "Assistant Pro",
+		"code": "257",
+		"description": "Assistant Pro",
+		"active": true
+	},
+	{
+		"name": "Block Development Panchayat Officer",
+		"code": "266",
+		"description": "Block Development Panchayat Officer",
+		"active": true
+	},
+	{
+		"name": "Chief Accounts Officer",
+		"code": "226",
+		"description": "Chief Accounts Officer",
+		"active": true
+	},
+	{
+		"name": "Chief Engineer",
+		"code": "217",
+		"description": "Chief Engineer",
+		"active": true
+	},
+	{
+		"name": "Chief Sanitary Inspector",
+		"code": "264",
+		"description": "Chief Sanitary Inspector",
+		"active": true
+	},
+	{
+		"name": "Circle Head Draftsman",
+		"code": "252",
+		"description": "Circle Head Draftsman",
+		"active": true
+	},
+	{
+		"name": "Circle Superintendent",
+		"code": "253",
+		"description": "Circle Superintendent",
+		"active": true
+	},
+	{
+		"name": "Clerk",
+		"code": "13",
+		"description": "Clerk",
+		"active": true
+	},
+	{
+		"name": "Commissioner",
+		"code": "214",
+		"description": "Commissioner",
+		"active": true
+	},
+	{
+		"name": "Community Organiser",
+		"code": "263",
+		"description": "Community Organiser",
+		"active": true
+	},
+	{
+		"name": "Computer Programmer",
+		"code": "81",
+		"description": "Computer Programmer",
+		"active": true
+	},
+	{
+		"name": "Deo",
+		"code": "21",
+		"description": "Deo",
+		"active": true
+	},
+	{
+		"name": "Deputy Manager",
+		"code": "258",
+		"description": "Deputy Manager",
+		"active": true
+	},
+	{
+		"name": "Draftsman",
+		"code": "86",
+		"description": "Draftsman",
+		"active": true
+	},
+	{
+		"name": "Examiner",
+		"code": "241",
+		"description": "Examiner",
+		"active": true
+	},
+	{
+		"name": "Executive Engineer",
+		"code": "98",
+		"description": "Executive Engineer",
+		"active": true
+	},
+	{
+		"name": "Field Investigator Cum Sub Registrar",
+		"code": "261",
+		"description": "Field Investigator Cum Sub Registrar",
+		"active": true
+	},
+	{
+		"name": "Fireman",
+		"code": "235",
+		"description": "Fireman",
+		"active": true
+	},
+	{
+		"name": "Head Draftsman",
+		"code": "103",
+		"description": "Head Draftsman",
+		"active": true
+	},
+	{
+		"name": "Helper",
+		"code": "229",
+		"description": "Helper",
+		"active": true
+	},
+	{
+		"name": "Inspector",
+		"code": "63",
+		"description": "Inspector",
+		"active": true
+	},
+	{
+		"name": "Junior Assistant",
+		"code": "12",
+		"description": "Junior Assistant",
+		"active": true
+	},
+	{
+		"name": "Junior Auditor",
+		"code": "10",
+		"description": "Junior Auditor",
+		"active": true
+	},
+	{
+		"name": "Junior Draftsman",
+		"code": "88",
+		"description": "Junior Draftsman",
+		"active": true
+	},
+	{
+		"name": "Junior Engineer",
+		"code": "100",
+		"description": "Junior Engineer",
+		"active": true
+	},
+	{
+		"name": "Law Officer",
+		"code": "8",
+		"description": "Law Officer",
+		"active": true
+	},
+	{
+		"name": "Leading Fireman",
+		"code": "234",
+		"description": "Leading Fireman",
+		"active": true
+	},
+	{
+		"name": "Medical Officer Of Health",
+		"code": "242",
+		"description": "Medical Officer Of Health",
+		"active": true
+	},
+	{
+		"name": "Multipurpose Worker",
+		"code": "260",
+		"description": "Multipurpose Worker",
+		"active": true
+	},
+	{
+		"name": "Personal Assistant",
+		"code": "173",
+		"description": "Personal Assistant",
+		"active": true
+	},
+	{
+		"name": "Private Secretary",
+		"code": "159",
+		"description": "Private Secretary",
+		"active": true
+	},
+	{
+		"name": "Public Private Partnership Expert",
+		"code": "254",
+		"description": "Public Private Partnership Expert",
+		"active": true
+	},
+	{
+		"name": "Sanitary Inspector",
+		"code": "244",
+		"description": "Sanitary Inspector",
+		"active": true
+	},
+	{
+		"name": "SDO",
+		"code": "243",
+		"description": "SDO",
+		"active": true
+	},
+	{
+		"name": "Section Officer",
+		"code": "14",
+		"description": "Section Officer",
+		"active": true
+	},
+	{
+		"name": "Senior Assistant",
+		"code": "11",
+		"description": "Senior Assistant",
+		"active": true
+	},
+	{
+		"name": "Senior Scale Stenographer",
+		"code": "97",
+		"description": "Senior Scale Stenographer",
+		"active": true
+	},
+	{
+		"name": "Social Development Officer",
+		"code": "262",
+		"description": "Social Development Officer",
+		"active": true
+	},
+	{
+		"name": "Special Commissioner",
+		"code": "228",
+		"description": "Special Commissioner",
+		"active": true
+	},
+	{
+		"name": "Station Fire Officer",
+		"code": "232",
+		"description": "Station Fire Officer",
+		"active": true
+	},
+	{
+		"name": "Statistical Assistant Cum Registrar",
+		"code": "259",
+		"description": "Statistical Assistant Cum Registrar",
+		"active": true
+	},
+	{
+		"name": "Steno Typist",
+		"code": "80",
+		"description": "Steno Typist",
+		"active": true
+	},
+	{
+		"name": "Sub Divisional Engineer",
+		"code": "227",
+		"description": "Sub Divisional Engineer",
+		"active": true
+	},
+	{
+		"name": "Sub Fire Officer",
+		"code": "233",
+		"description": "Sub Fire Officer",
+		"active": true
+	},
+	{
+		"name": "Sub-Inspector",
+		"code": "223",
+		"description": "Sub-Inspector",
+		"active": true
+	},
+	{
+		"name": "Superintendent",
+		"code": "7",
+		"description": "Superintendent",
+		"active": true
+	},
+	{
+		"name": "Superintendent Engineer",
+		"code": "251",
+		"description": "Superintendent Engineer",
+		"active": true
+	},
+	{
+		"name": "Superitendent Gr Ii",
+		"code": "143",
+		"description": "Superitendent Gr Ii",
+		"active": true
+	},
+	{
+		"name": "System Manager",
+		"code": "17",
+		"description": "System Manager",
+		"active": true
+	},
+	{
+		"name": "Tax Collector",
+		"code": "230",
+		"description": "Tax Collector",
+		"active": true
+	},
+	{
+		"name": "Tax Inspector",
+		"code": "239",
+		"description": "Tax Inspector",
+		"active": true
+	},
+	{
+		"name": "Tax Moharrar",
+		"code": "240",
+		"description": "Tax Moharrar",
+		"active": true
+	},
+	{
+		"name": "WRDO",
+		"code": "236",
+		"description": "WRDO",
+		"active": true
+	}
   ]
 }
