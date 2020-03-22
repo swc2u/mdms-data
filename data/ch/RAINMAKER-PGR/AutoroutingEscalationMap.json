@@ -7979,10 +7979,10 @@
     {
       "category": "HouseAllotmentCommittee",
       "escalationOfficer1": [
-        "NA"
+        ""
       ],
       "escalationOfficer2": [
-        "NA"
+        ""
       ],
       "autoRouting": [
         {
@@ -8163,10 +8163,10 @@
     {
       "category": "Others",
       "escalationOfficer1": [
-        "NA"
+        ""
       ],
       "escalationOfficer2": [
-        "NA"
+        ""
       ],
       "autoRouting": [
         {
