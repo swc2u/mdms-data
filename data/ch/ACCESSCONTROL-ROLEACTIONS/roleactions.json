@@ -20059,6 +20059,30 @@
       "actionid": 1951,
       "actioncode": "",
       "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BUDGET_CREATOR",
+      "actionid": 1762,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BUDGET_VERIFIER_1",
+      "actionid": 1952,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BUDGET_VERIFIER_2",
+      "actionid": 1953,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_BUDGET_APPROVER",
+      "actionid": 1763,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }
