@@ -14271,20 +14271,6 @@
       "leftIcon": "image:collections-bookmark"
     },
     {
-      "id": 1803,
-      "name": "Receipts",
-      "url": "url",
-      "displayName": "Receipts",
-      "orderNumber": 4,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "UC",
-      "code": "null",
-      "navigationURL": "uc-citizen/search",
-      "path": "UC",
-      "leftIcon": "image:collections-bookmark"
-    },
-    {
       "id": 1804,
       "name": "Search Bills with details",
       "url": "/egov-searcher/bill-genie/billswithaddranduser/_get",
@@ -14309,36 +14295,6 @@
       "path": "Complaints",
       "navigationURL": "pgr-home",
       "leftIcon": "custom:account-alert",
-      "rightIcon": ""
-    },
-    {
-      "id": 1806,
-      "name": "PropertyTax",
-      "url": "url",
-      "displayName": "Property Tax",
-      "orderNumber": 1,
-      "queryParams": "",
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "path": "Property Tax",
-      "navigationURL": "property-tax",
-      "leftIcon": "communication:business",
-      "rightIcon": ""
-    },
-    {
-      "id": 1807,
-      "name": "TradeLicense",
-      "url": "url",
-      "displayName": "Trade License",
-      "orderNumber": 13,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "TradeLicense",
-      "code": "null",
-      "navigationURL": "tradelicense-citizen/home",
-      "path": "TradeLicense",
-      "leftIcon": "places:business-center",
       "rightIcon": ""
     },
     {
@@ -14541,20 +14497,6 @@
       "serviceCode": "PT-SERVICES-V2",
       "code": "null",
       "path": ""
-    },
-    {
-      "id": 1827,
-      "name": "BillGenie",
-      "url": "url",
-      "displayName": "BillGenie",
-      "orderNumber": 5,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "BG",
-      "code": "null",
-      "navigationURL": "abg/billSearch",
-      "path": "BG",
-      "leftIcon": "action:receipt"
     },
     {
       "id": 1828,
@@ -15179,21 +15121,6 @@
       "code": "null",
       "path": "BPAStakeHolder.Search",
       "navigationURL": "bpastakeholder/search",
-      "leftIcon": "places:business-center",
-      "rightIcon": ""
-    },
-    {
-      "id": 1880,
-      "name": "BPAStakeHolderHome",
-      "url": "url",
-      "displayName": "BPA Stake Holder Home",
-      "orderNumber": 2,
-      "parentModule": "rainmaker-bpa",
-      "enabled": true,
-      "serviceCode": "BPAREG",
-      "code": "null",
-      "path": "BPAStakeHolder",
-      "navigationURL": "bpastakeholder-citizen/home",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
