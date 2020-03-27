@@ -18,6 +18,11 @@
       "description": "System Administrator. Can change all master data and has access to all the system screens."
     },
     {
+      "code": "HRMS_ADMIN",
+      "name": "HRMS ADMIN",
+      "description": "HRMS Administrator which can create new employees"
+    },
+    {
       "code": "GO",
       "name": "Grievance Officer",
       "description": "Heads the grivance cell. Also all complaints that cannot be routed based on the rules are routed to Grievance Officer."
