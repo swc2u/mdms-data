@@ -15944,6 +15944,48 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Budgeting.verifyBudgetAC"
+    },
+    {
+      "id": 1954,
+      "name": "budgetAdditionalAppropriation_Master",
+      "navigationURL": "services/EGF/budget/budgetReAppropriation-budgetCAO.action",
+      "url": "url",
+      "parentModule": "EGF",
+      "displayName": "Verify Re-Appropriation",
+      "orderNumber": 5,
+      "enabled": true,
+      "serviceCode": "FinanceBudget",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Budgeting.Budget Addition Appropriation.budgetAdditionalAppropriation_Master_CAO"
+    },
+    {
+      "id": 1955,
+      "name": "budgetAdditionalAppropriation_Master",
+      "navigationURL": "services/EGF/budget/budgetReAppropriation-budgetACMC.action",
+      "url": "url",
+      "parentModule": "EGF",
+      "displayName": "Verify Re-Appropriation",
+      "orderNumber": 6,
+      "enabled": true,
+      "serviceCode": "FinanceBudget",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Budgeting.Budget Addition Appropriation.budgetAdditionalAppropriation_Master_ACMC"
+    },
+    {
+      "id": 1956,
+      "name": "budgetAdditionalAppropriation_Master",
+      "navigationURL": "services/EGF/budget/budgetReAppropriation-budgetMC.action",
+      "url": "url",
+      "parentModule": "EGF",
+      "displayName": "Verify Re-Appropriation",
+      "orderNumber": 7,
+      "enabled": true,
+      "serviceCode": "FinanceBudget",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Budgeting.Budget Addition Appropriation.budgetAdditionalAppropriation_Master_MC"
     }
   ]
 }
