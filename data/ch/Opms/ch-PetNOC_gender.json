@@ -1,0 +1,18 @@
+{
+  "tenantId": "ch",
+  "moduleName": "egpm",
+  "sex": [
+    {
+      "id": "1",
+      "tenantId": "ch",
+      "name": "Male",
+      "active": true
+    },
+	{
+      "id": "2",
+      "tenantId": "ch",
+      "name": "Female",
+      "active": true
+    }
+  ]
+}

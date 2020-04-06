@@ -1,0 +1,30 @@
+{
+  "tenantId": "ch",
+  "moduleName": "egpm",
+  "duration": [
+    {
+      "id": "1",
+      "tenantId": "ch",
+      "name": "Daily",
+      "active": true
+    },
+	{
+      "id": "2",
+      "tenantId": "ch",
+      "name": "Weekly",
+      "active": true
+    },
+	{
+      "id": "3",
+      "tenantId": "ch",
+      "name": "Monthly",
+      "active": true
+    },
+	{
+      "id": "4",
+      "tenantId": "ch",
+      "name": "Annual",
+      "active": true
+    }
+  ]
+} 

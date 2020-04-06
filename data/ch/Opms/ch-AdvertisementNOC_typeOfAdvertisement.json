@@ -1,0 +1,174 @@
+{ 
+   "tenantId":"ch",
+   "moduleName":"egpm",
+   "typeOfAdvertisement":[ 
+      { 
+         "id":"10001",
+         "tenantId":"ch",
+         "name":"Advertisement or hoarding on wall or post or in the form of non-illuminated sky-signs",
+         "duration":[ 
+            "annual"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10002",
+         "tenantId":"ch",
+         "name":"Advertisement or hording standing blank but bearing the name of the advertiser or with the announcement ‘to be let’ displayed thereon",
+         "duration":[ 
+            "annual"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10003",
+         "tenantId":"ch",
+         "name":"Fixed illuminated sky-signs and advertisement",
+         "duration":[ 
+            "annual"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10004",
+         "tenantId":"ch",
+         "name":"Digital Advertisement (non-static LED) or similar device single side rates will be double top the traditional and existing fixed illuminated sky-signs",
+         "duration":[ 
+            "annual"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10005",
+         "tenantId":"ch",
+         "name":"Non-illuminated advertisement boards carried on vehicles (i.e. cabs/auto rickshaw/Pvt. Vehicles etc.) including buses",
+         "duration":[ 
+            "annual",
+            "month"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10006",
+         "tenantId":"ch",
+         "name":"Illuminated advertisement boards carried on vehicles (i.e. cabs/auto, rickshaw/Pvt. Vehicles etc.) including buses plying chandigarh",
+         "duration":[ 
+            "annual",
+            "month"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10007",
+         "tenantId":"ch",
+         "name":"Advertisement boards etc. carried by sandwich boardmen (Non-illuminated)",
+         "duration":[ 
+            "annual",
+            "month"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10008",
+         "tenantId":"ch",
+         "name":"Illuminated advertisement boards etc. carried by boardmen, handcraft, cyclist or cycle rickshaws ",
+         "duration":[ 
+            "annual",
+            "month"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10009",
+         "tenantId":"ch",
+         "name":"For illuminated sky-signs and advertisement exhibited on screens by mean of lantern slides, projector or similar devices",
+         "duration":[ 
+           "annual",
+           "month"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10010",
+         "tenantId":"ch",
+         "name":"Permission to auctioneers, temporary/ travelling sales organizer, exhibitor, fair organizers, circuses, convention organizer, etc. to put up not more than two hordes of reasonable size less than 5 sq. ft. advertising each auction or sale other than those on the premises where the auction is held. One on a prominent site in the locality and one on the municipal lamp post.",
+         "duration":[             
+            "day",
+            "week"
+         ],
+         "calculationType":"",
+         "active":true
+      },
+      { 
+         "id":"10011",
+         "tenantId":"ch",
+         "name":"Advt. boards at permitted locations",
+         "duration":[           
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10012",
+         "tenantId":"ch",
+         "name":"Advt. exhibited in cinema houses by means of",
+         "duration":[ 
+			"annual",           
+            "month"
+         ],
+         "calculationType":"units",
+         "active":true
+      },
+      { 
+         "id":"10013",
+         "tenantId":"ch",
+         "name":"Banners on buildings or on open space or road side, except main roads",
+         "duration":[ 
+            "day"
+         ],
+         "calculationType":"days",
+         "active":true
+      },
+      { 
+         "id":"10014",
+         "tenantId":"ch",
+         "name":"Advt. by Balloons (Measured across the diameter)",
+         "duration":[             
+            "day"
+         ],
+         "calculationType":"days",
+         "active":true
+      },
+      { 
+         "id":"10015",
+         "tenantId":"ch",
+         "name":"Non-illuminated Advt. boards carried on vehicles solely and chiefly for the purpose of Advt. for a space ",
+         "duration":[ 
+            "annual",           
+            "month"
+         ],
+         "calculationType":"range",
+         "active":true
+      },
+      { 
+         "id":"10016",
+         "tenantId":"ch",
+         "name":"Illuminated Advt. boards carried out on vehicles solely and chiefly for the purpose of advt. for a space",
+         "duration":[ 
+           "annual",           
+            "month"
+         ],
+         "calculationType":"range",
+         "active":true
+      }
+   ]
+}

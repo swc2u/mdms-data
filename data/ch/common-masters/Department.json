@@ -17,9 +17,249 @@
             "code": "TP01",
             "active": true
         },
+		{
+            "name": "Accounts Branch",
+            "code": "390",
+            "active": true
+        },
         {
-            "name": "ACCOUNTS",
-            "code": "ACC01",
+            "name": "Advertisement Branch",
+            "code": "393",
+            "active": true
+        },
+        {
+            "name": "Agenda Branch",
+            "code": "391",
+            "active": true
+        },
+        {
+            "name": "Apro",
+            "code": "401",
+            "active": true
+        },
+        {
+            "name": "Architecture Branch",
+            "code": "419",
+            "active": true
+        },
+        {
+            "name": "Audit Branch",
+            "code": "413",
+            "active": true
+        },
+        {
+            "name": "Block Development Panchayat Officer",
+            "code": "463",
+            "active": true
+        },
+        {
+            "name": "Booking Branch",
+            "code": "394",
+            "active": true
+        },
+        {
+            "name": "Building",
+            "code": "398",
+            "active": true
+        },
+        {
+            "name": "Care Taker Branch",
+            "code": "411",
+            "active": true
+        },
+        {
+            "name": "Colony",
+            "code": "395",
+            "active": true
+        },
+        {
+            "name": "Electrical Div 1",
+            "code": "432",
+            "active": true
+        },
+        {
+            "name": "Enforcenment Branch",
+            "code": "392",
+            "active": true
+        },
+        {
+            "name": "Establishment Branch",
+            "code": "412",
+            "active": true
+        },
+        {
+            "name": "Estate Branch",
+            "code": "388",
+            "active": true
+        },
+        {
+            "name": "Fire And Emergency Services",
+            "code": "406",
+            "active": true
+        },
+        {
+            "name": "Grievance Cell",
+            "code": "400",
+            "active": true
+        },
+        {
+            "name": "Horticulture Div 1",
+            "code": "433",
+            "active": true
+        },
+        {
+            "name": "Horticulture Div 2",
+            "code": "434",
+            "active": true
+        },
+        {
+            "name": "IT Branch",
+            "code": "385",
+            "active": true
+        },
+        {
+            "name": "Legal Branch",
+            "code": "387",
+            "active": true
+        },
+        {
+            "name": "Licensing",
+            "code": "396",
+            "active": true
+        },
+        {
+            "name": "MOH",
+            "code": "402",
+            "active": true
+        },
+        {
+            "name": "NULM",
+            "code": "407",
+            "active": true
+        },
+        {
+            "name": "O/O Additional  Commissioner 1",
+            "code": "188",
+            "active": true
+        },
+        {
+            "name": "O/O Additional Commissioner 2",
+            "code": "389",
+            "active": true
+        },
+        {
+            "name": "O/O Additional Commissioner 3",
+            "code": "324",
+            "active": true
+        },
+        {
+            "name": "O/O Chief Engineer",
+            "code": "418",
+            "active": true
+        },
+        {
+            "name": "O/O Commissioner",
+            "code": "187",
+            "active": true
+        },
+        {
+            "name": "O/O S.E.(B&R)",
+            "code": "422",
+            "active": true
+        },
+        {
+            "name": "O/O S.E.PH",
+            "code": "421",
+            "active": true
+        },
+        {
+            "name": "O/O Se Electrical/Horticulture",
+            "code": "430",
+            "active": true
+        },
+        {
+            "name": "O/O Special Commissioner Mc",
+            "code": "294",
+            "active": true
+        },
+        {
+            "name": "Parking Branch",
+            "code": "386",
+            "active": true
+        },
+        {
+            "name": "Pension Branch",
+            "code": "410",
+            "active": true
+        },
+        {
+            "name": "Public Health Div 1",
+            "code": "423",
+            "active": true
+        },
+        {
+            "name": "Public Health Div 2",
+            "code": "424",
+            "active": true
+        },
+        {
+            "name": "Public Health Div 3",
+            "code": "425",
+            "active": true
+        },
+        {
+            "name": "Public Health Div 4",
+            "code": "426",
+            "active": true
+        },
+        {
+            "name": "Road Div 1",
+            "code": "427",
+            "active": true
+        },
+        {
+            "name": "Road Div 2",
+            "code": "428",
+            "active": true
+        },
+        {
+            "name": "Road Div 3",
+            "code": "429",
+            "active": true
+        },
+        {
+            "name": "RTI",
+            "code": "397",
+            "active": true
+        },
+        {
+            "name": "SBM",
+            "code": "403",
+            "active": true
+        },
+        {
+            "name": "Smart City",
+            "code": "408",
+            "active": true
+        },
+        {
+            "name": "Tax Branch",
+            "code": "405",
+            "active": true
+        },
+        {
+            "name": "Transport",
+            "code": "399",
+            "active": true
+        },
+        {
+            "name": "Vendor Cell",
+            "code": "435",
+            "active": true
+        },
+        {
+            "name": "Works And Establishment",
+            "code": "436",
             "active": true
         }
     ]

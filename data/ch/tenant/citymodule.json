@@ -10,24 +10,6 @@
           "code": "ch.chandigarh"
         }
       ]
-    },
-	{
-      "module": "TL",
-      "code": "TL",
-      "tenants": [
-        {
-          "code": "ch.chandigarh"
-        }
-      ]
-    },
-	{
-      "module": "FIRENOC",
-      "code": "FIRENOC",
-      "tenants": [
-        {
-          "code": "ch.chandigarh"
-        }
-      ]
     }
   ]
 }

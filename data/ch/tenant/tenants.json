@@ -6,9 +6,9 @@
       "code": "ch.chandigarh",
       "name": "Chandigarh",
       "description": "Chandigarh",
-      "logoId": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/bihar-digit-logo.png",
+      "logoId": "https://mcdigitdevdigitdevsouthe.blob.core.windows.net/digit-dev/mc-chandigardh-logo.png",
       "imageId": null,
-      "domainUrl": "https://patnamunicipal.net/pmc/public",
+      "domainUrl": "http://mcchandigarh.gov.in",
       "type": "CITY",
       "twitterUrl": null,
       "facebookUrl": null,
@@ -29,7 +29,7 @@
         "captcha": null,
         "code": "248430",
         "regionCode": null,
-        "municipalityName": "Chandigarh Nagar Panchayat"
+        "municipalityName": "Municipal Corporation Chandigarh"
       },
       "address": "Not Available",
       "contactNumber": "Not Available"

@@ -1,0 +1,41 @@
+{
+  "tenantId": "ch",
+  "moduleName": "egpm",
+  "Colors": [
+    {
+      "id": "2",
+      "name": "White",
+      "active": true
+    },
+    {
+      "id": "3",
+      "name": "Yellow",
+      "active": true
+    },
+    {
+      "id": "4",
+      "name": "Blue",     
+      "active": true
+    },
+    {
+      "id": "5",
+      "name": "Red",
+      "active": true
+    },
+    {
+      "id": "6",
+      "name": "Green",
+      "active": true
+    },
+    {
+      "id": "7",
+      "name": "Black",
+      "active": true
+    },
+    {
+      "id": "8",
+      "name": "Brown",
+      "active": true
+    }
+  ]
+}

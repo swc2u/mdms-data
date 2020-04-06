@@ -448,6 +448,27 @@
       "uniqueKeys": [
         "$.code"
       ]
+    },
+	"Sector": {
+      "masterName": "Sector",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+	"PgrDepartment": {
+      "masterName": "PgrDepartment",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+	"AutoroutingEscalationMap": {
+      "masterName": "AutoroutingEscalationMap",
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.code"
+      ]
     }
   },
   "PropertyTax": {

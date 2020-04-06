@@ -1,0 +1,30 @@
+{
+  "tenantId": "ch",
+  "moduleName": "egpm",
+  "mainMenu": [
+    {
+      "id": "1",
+      "tenantId": "ch",
+      "name": "Permission for keep Pet Dog",
+      "active": true
+    },
+	{
+      "id": "2",
+      "tenantId": "ch",
+      "name": "Permission for sell meat",
+      "active": true
+    },
+	{
+      "id": "3",
+      "tenantId": "ch",
+      "name": "Permission for Advertisement",
+      "active": true
+    },
+	{
+      "id": "4",
+      "tenantId": "ch",
+      "name": "Permission for Road Cut",
+      "active": true
+    }
+  ]
+}
