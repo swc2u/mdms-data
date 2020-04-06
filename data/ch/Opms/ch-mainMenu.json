@@ -4,26 +4,30 @@
   "mainMenu": [
     {
       "id": "1",
+	  "code": "NOC_FOR_PET",
       "tenantId": "ch",
-      "name": "Permission for keep Pet Dog",
+      "name": "NOC for Pet",
       "active": true
     },
 	{
       "id": "2",
+	  "code": "NOC_FOR_SELL_MEAT",
       "tenantId": "ch",
-      "name": "Permission for sell meat",
+      "name": "NOC for Sell Meat",
       "active": true
     },
 	{
       "id": "3",
+	  "code": "NOC_FOR_ADVERTISEMENT",
       "tenantId": "ch",
-      "name": "Permission for Advertisement",
+      "name": "NOC for Advertisement",
       "active": true
     },
 	{
       "id": "4",
+	  "code": "NOC_FOR_ROAD_CUTTING",
       "tenantId": "ch",
-      "name": "Permission for Road Cut",
+      "name": "NOC for Road Cutting",
       "active": true
     }
   ]

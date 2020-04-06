@@ -4,24 +4,28 @@
   "duration": [
     {
       "id": "1",
+	  "code": "DAILY",
       "tenantId": "ch",
       "name": "Daily",
       "active": true
     },
 	{
       "id": "2",
+	  "code": "WEEKLY",
       "tenantId": "ch",
       "name": "Weekly",
       "active": true
     },
 	{
       "id": "3",
+	  "code": "MONTHLY",
       "tenantId": "ch",
       "name": "Monthly",
       "active": true
     },
 	{
       "id": "4",
+	  "code": "ANNUAL",
       "tenantId": "ch",
       "name": "Annual",
       "active": true

@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "egpm",
-  "sector": [
+  "immunizationSector": [
     {
 		"name": "Sector-1",
 		"code": "SECTOR-1",

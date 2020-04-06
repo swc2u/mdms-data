@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "SellMeatNOC",
+  "SellMeatDocuments": [
+    {
+      "code": "SELLMEAT.PROOF_POSSESSION_RENT_AGREEMENT",
+      "documentType": "SELLMEAT",
+      "required": true,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "SELLMEAT.PROOF_POSSESSION_RENT.PROOF_POSSESSION_RENT_AGREEMENT_DESCRIPTION"
+    }
+  ]
+}

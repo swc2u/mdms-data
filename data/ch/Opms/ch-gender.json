@@ -4,12 +4,14 @@
   "sex": [
     {
       "id": "1",
+	  "code":"MALE",
       "tenantId": "ch",
       "name": "Male",
       "active": true
     },
 	{
       "id": "2",
+	  "code":"FEMALE",
       "tenantId": "ch",
       "name": "Female",
       "active": true

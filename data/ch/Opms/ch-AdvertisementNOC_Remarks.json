@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "AdvertisementNOC",
+  "AdvertisementNOCRemarksDocuments": [
+    {
+      "code": "AdvertisementNOC.REMARK_DOCUMENT",
+      "documentType": "AdvertisementNOC",
+      "required": true,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "AdvertisementNOC.REMARK_DOCUMENT"
+    }
+  ]
+}
