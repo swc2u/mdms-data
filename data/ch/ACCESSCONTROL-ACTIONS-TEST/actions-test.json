@@ -15986,6 +15986,38 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Budgeting.Budget Addition Appropriation.budgetAdditionalAppropriation_Master_MC"
+    },
+    {
+      "id": 1807,
+      "name": "TradeLicense",
+      "url": "url",
+      "displayName": "Trade License",
+      "orderNumber": 13,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "navigationURL": "tradelicense-citizen/home",
+      "path": "TradeLicense",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
+      "id": 1816,
+      "name": "rainmaker-citizen-tradelicence",
+      "url": "card",
+      "displayName": "Trade Licence",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "tradelicense-citizen/home",
+      "leftIcon": "custom:trade-license",
+      "rightIcon": "",
+      "queryParams": ""
     }
+
   ]
 }
