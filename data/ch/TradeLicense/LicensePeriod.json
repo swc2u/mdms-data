@@ -1,0 +1,18 @@
+{
+  "tenantId": "ch",
+  "moduleName": "TradeLicense",
+  "LicensePeriod": [
+    {
+      "code": "5 years",
+      "active": true
+    },
+    {
+      "code": "10 years",
+      "active": true
+    },
+    {
+      "code": "15 years",
+      "active": true
+    }
+  ]
+}

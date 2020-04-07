@@ -2,11 +2,11 @@
     "tenantId": "ch",
     "moduleName": "TradeLicense",
     "ApplicationType": [{
-            "code": "APPLICATIONTYPE.NEW",
+            "code": "New",
             "active": true
         },
         {
-            "code": "APPLICATIONTYPE.RENEWAL",
+            "code": "Renew",
             "active": true
         }
     ]
