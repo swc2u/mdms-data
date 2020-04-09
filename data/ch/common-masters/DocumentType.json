@@ -1,14 +1,42 @@
 {
-    "tenantId": "ch"  , 
-    "moduleName": "common-masters",
-    "DocumentType": [
-        {
-            "code": "OWNERIDPROOF",
-            "active": true
-        },
-        {
-            "code": "OWNERSHIPPROOF",
-            "active": true
-        }
-    ]
+  "tenantId": "ch",
+  "moduleName": "common-masters",
+  "DocumentType": [
+    {
+      "code": "OWNERIDPROOF",
+      "active": true
+    },
+    {
+      "code": "OWNERSHIPPROOF",
+      "active": true
+    },
+    {
+      "code": "ADDRESSPROOF",
+      "active": true
+    },
+    {
+      "code": "AGEPROOF",
+      "active": true
+    },
+    {
+      "code": "APPLICANTIMAGE",
+      "active": true
+    },
+    {
+      "code": "REHRIBILL",
+      "active": true
+    },
+    {
+      "code": "FORMA",
+      "active": true
+    },
+    {
+      "code": "FORMB",
+      "active": true
+    },
+    {
+      "code": "FORMC",
+      "active": true
+    }
+  ]
 }
