@@ -14356,17 +14356,6 @@
       "rightIcon": ""
     },
     {
-      "id": 1812,
-      "name": "UC Report",
-      "url": "/report/rainmaker-common/_get",
-      "displayName": "Universal Collection Report",
-      "orderNumber": 0,
-      "enabled": true,
-      "serviceCode": "REPORTS",
-      "code": "null",
-      "path": "UC Report"
-    },
-    {
       "id": 1813,
       "name": "UCReportMetadata",
       "url": "/report/rainmaker-common/metadata/_get",
@@ -15108,22 +15097,7 @@
       "serviceCode": "tl-calculator",
       "code": "null",
       "path": ""
-    },
-    {
-      "id": 1879,
-      "name": "BPAStakeHolderSearch",
-      "url": "url",
-      "displayName": "BPA Stake Holder Search",
-      "orderNumber": 1,
-      "parentModule": "rainmaker-bpa",
-      "enabled": true,
-      "serviceCode": "BPAREG",
-      "code": "null",
-      "path": "BPAStakeHolder.Search",
-      "navigationURL": "bpastakeholder/search",
-      "leftIcon": "places:business-center",
-      "rightIcon": ""
-    },
+    },    
     {
       "id": 1922,
       "name": "eDCRScrutinyHome",
@@ -15213,36 +15187,6 @@
       "code": "null",
       "path": "Dashboard.Home",
       "navigationURL": "integration/dss/home",
-      "leftIcon": "places:business-center",
-      "rightIcon": ""
-    },
-    {
-      "id": 1887,
-      "name": "Dashboard Property Tax",
-      "url": "url",
-      "displayName": "Property Tax",
-      "orderNumber": 2,
-      "parentModule": "dss-dashboard",
-      "enabled": true,
-      "serviceCode": "DSS",
-      "code": "null",
-      "path": "Dashboard.PropertyTax",
-      "navigationURL": "integration/dss/propertytax",
-      "leftIcon": "places:business-center",
-      "rightIcon": ""
-    },
-    {
-      "id": 1888,
-      "name": "Dashboard Home",
-      "url": "url",
-      "displayName": "Tradelicense",
-      "orderNumber": 2,
-      "parentModule": "dss-dashboard",
-      "enabled": true,
-      "serviceCode": "DSS",
-      "code": "null",
-      "path": "Dashboard.TradeLicense",
-      "navigationURL": "integration/dss/tradelicense",
       "leftIcon": "places:business-center",
       "rightIcon": ""
     },
