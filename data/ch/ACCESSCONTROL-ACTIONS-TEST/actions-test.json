@@ -14280,20 +14280,7 @@
       "navigationURL": "pgr-home",
       "leftIcon": "custom:account-alert",
       "rightIcon": ""
-    },
-    {
-      "id": 1808,
-      "name": "CollectionRegister",
-      "url": "url",
-      "displayName": "Collection Register",
-      "orderNumber": 1,
-      "enabled": true,
-      "serviceCode": "COLLECTIONS",
-      "code": "null",
-      "leftIcon": "action:description",
-      "navigationURL": "report/rainmaker-common/CollectionRegister",
-      "path": "Reports.Collection Register"
-    },
+    },   
     {
       "id": 1809,
       "name": "CollectionReport",
