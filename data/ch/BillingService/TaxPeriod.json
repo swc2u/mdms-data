@@ -401,6 +401,22 @@
       "service": "SW.ONE_TIME_FEE",
       "code": "SW10YRS2019",
       "financialYear": "2019-29"
+    },
+    {
+      "fromDate": 1585679409000,
+      "toDate": 1617215399000,
+      "periodCycle": "ANNUAL",
+      "service": "TL",
+      "code": "TLAN2020",
+      "financialYear": "2020-21"
+    },
+    {
+      "fromDate": 1617215409000,
+      "toDate": 1648751399000,
+      "periodCycle": "ANNUAL",
+      "service": "TL",
+      "code": "TLAN2021",
+      "financialYear": "2021-22"
     }
   ]
 }

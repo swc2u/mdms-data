@@ -128,5 +128,35 @@
             "transferClosingBalance": false,
             "module": "PT"
         }
+,
+    {
+      "id": "50",
+      "tenantId": "ch",
+      "finYearRange": "2020-21",
+      "name": "2020-21",
+      "code": "2020-21",
+      "startingDate": 1585679409000,
+      "endingDate": 1617215399000,
+      "active": true,
+      "isActiveForPosting": false,
+      "isClosed": false,
+      "transferClosingBalance": false,
+      "module": "TL"
+    },
+    {
+      "id": "51",
+      "tenantId": "ch",
+      "finYearRange": "2021-22",
+      "name": "2021-22",
+      "code": "2021-22",
+      "startingDate": 1617215409000,
+      "endingDate": 1648751399000,
+      "active": true,
+      "isActiveForPosting": false,
+      "isClosed": false,
+      "transferClosingBalance": false,
+      "module": "TL"
+    }
+
     ]
 }
