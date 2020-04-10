@@ -14227,20 +14227,6 @@
       "path": ""
     },
     {
-      "id": 1800,
-      "name": "FIRE-NOC",
-      "url": "url",
-      "displayName": "Search",
-      "orderNumber": 3,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "FIRE-NOC",
-      "code": "null",
-      "navigationURL": "fire-noc/search",
-      "path": "FIRE-NOC.Search",
-      "leftIcon": "social:people"
-    },
-    {
       "id": 1801,
       "name": "rainmaker-common-fire-noc",
       "url": "card",
