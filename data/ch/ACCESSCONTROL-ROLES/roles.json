@@ -477,6 +477,21 @@
       "code": "EGF_BUDGET_VERIFIER_2",
       "name": "EGF Bill Verifier 2",
       "description": "Employee who verifies Budget in finance"
+    },
+    {
+      "code": "CLERK",
+      "name": "CLERK",
+      "description": "Employee who verifies, rejects and approves the TL application"
+    },
+    {
+      "code": "SA",
+      "name": "SA",
+      "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"
+    },
+    {
+      "code": "SI",
+      "name": "SI",
+      "description": "Employee who verifies, rejects and approves the TL application which is approved by SA"
     }
   ]
 }
