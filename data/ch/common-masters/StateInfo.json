@@ -23,7 +23,7 @@
         }
       ],
       "defaultUrl" : {
-          "citizen" : "/user/register",
+          "citizen" : "/user/login",
           "employee" : "/user/login"
       }
     }
