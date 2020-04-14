@@ -1,84 +1,91 @@
 {
   "tenantId": "ch",
   "moduleName": "egpm",
-  "immunizationSector": [
+  "reportMonth": [
     {
       "id": "1",
+	  "code":"Month1",
       "tenantId": "ch",
-      "name": "Mani Majra",
+      "name": "January",
       "active": true
     },
 	{
       "id": "2",
+	  "code":"Month2",
       "tenantId": "ch",
-      "name": "Industrial Area Phase I and II",
+      "name": "February",
       "active": true
     },
 	{
       "id": "3",
+	  "code":"Month3",
       "tenantId": "ch",
-      "name": "Mohali",
+      "name": "March",
       "active": true
     },
 	{
       "id": "4",
+	  "code":"Month4",
       "tenantId": "ch",
-      "name": "Panchkula",
+      "name": "April",
       "active": true
     },
 	{
       "id": "5",
+	  "code":"Month5",
       "tenantId": "ch",
-      "name": "Pinjore",
+      "name": "May",
       "active": true
     },
 	{
       "id": "6",
+	  "code":"Month6",
       "tenantId": "ch",
-      "name": "Punjab Countryside",
+      "name": "June",
       "active": true
     },
 	{
       "id": "7",
+	  "code":"Month7",
       "tenantId": "ch",
-      "name": "Sector 1",
+      "name": "July",
       "active": true
     },
 	{
       "id": "8",
+	  "code":"Month8",
       "tenantId": "ch",
-      "name": "Sector 10",
+      "name": "August",
       "active": true
     },
 	{
       "id": "9",
+	  "code":"Month9",
       "tenantId": "ch",
-      "name": "Sector 17",
+      "name": "September",
       "active": true
     },
 	{
       "id": "10",
+	  "code":"Month10",
       "tenantId": "ch",
-      "name": "Sector 22",
+      "name": "October",
       "active": true
     },
 	{
       "id": "11",
+	  "code":"Month11",
       "tenantId": "ch",
-      "name": "Sector 35",
+      "name": "November",
       "active": true
     },
 	{
       "id": "12",
+	  "code":"Month12",
       "tenantId": "ch",
-      "name": "Sector 43",
-      "active": true
-    },
-	{
-      "id": "13",
-      "tenantId": "ch",
-      "name": "Zirakpur",
+      "name": "December",
       "active": true
     }
+	
   ]
 }

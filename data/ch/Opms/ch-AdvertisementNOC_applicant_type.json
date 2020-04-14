@@ -4,24 +4,28 @@
   "typeOfApplicant": [
     {
       "id": "1",
+	  "code": "INDIVIDUAL",
       "tenantId": "ch",
       "name": "Individual",
       "active": true
     },
 	{
       "id": "2",
+	  "code": "FIRM_COMPANY",
       "tenantId": "ch",
       "name": "Firm/Company",
       "active": true
     },
 	{
       "id": "3",
+	  "code": "SOCIAL_CAUSE",
       "tenantId": "ch",
       "name": "Social Cause",
       "active": true
     },
 	{
       "id": "4",
+	  "code": "GOVT_ORGANIZATION",
       "tenantId": "ch",
       "name": "Govt. Organization",
       "active": true

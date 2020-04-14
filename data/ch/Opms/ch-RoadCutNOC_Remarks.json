@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RoadCutNOC",
+  "RoadCutNOCRemarksDocuments": [
+    {
+      "code": "RoadCutNOC.REMARK_DOCUMENT",
+      "documentType": "RoadCutNOC",
+      "required": true,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "RoadCutNOC.REMARK_DOCUMENT"
+    }
+  ]
+}

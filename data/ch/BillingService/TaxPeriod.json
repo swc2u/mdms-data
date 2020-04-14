@@ -401,6 +401,22 @@
       "service": "SW.ONE_TIME_FEE",
       "code": "SW10YRS2019",
       "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057001000,
+      "toDate": 1585593001000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS",
+      "code": "OPMS2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1617129000000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS",
+      "code": "OPMS2020",
+      "financialYear": "2020-21"
     }
   ]
 }

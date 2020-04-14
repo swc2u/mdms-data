@@ -4,20 +4,26 @@
   "RoadCutTypeOfApplicant": [
     {
       "id": "1",
+	  "code":"DOMESTIC_CUM_RESIDENTIAL",
       "tenantId": "ch",
       "type": "Domestic cum residential",
+	  "name": "Domestic cum residential",
       "active": true
     },
 	{
       "id": "2",
+	  "code":"TELECOM",
       "tenantId": "ch",
       "type": "Telecom",
+	  "name": "Telecom",
       "active": true
     },
 	{
       "id": "3",
+	  "code":"NATURAL_GAS_PIPELINE_PNG",
       "tenantId": "ch",
       "type": "Natural gas pipeline (PNG)",
+	  "name": "Natural gas pipeline (PNG)",
       "active": true
     }
   ]

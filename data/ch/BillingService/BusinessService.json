@@ -1118,6 +1118,17 @@
       "isAdvanceAllowed": false,
       "isVoucherCreationEnabled": true,
       "isActive": true
+    },
+	{
+      "businessService": "Permission Management",
+      "code": "OPMS",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": true
     }
   ]
 }

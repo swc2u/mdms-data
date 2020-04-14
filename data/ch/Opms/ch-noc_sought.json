@@ -4,30 +4,35 @@
   "nocSought": [
     {
       "id": "1",
+	  "code": "JHATKA_MEAT_SHEEP_GOAT_POULTRY",
       "tenantId": "ch",
       "name": "Jhatka meat (sheep/goat), Poultry",
       "active": true
     },
 	{
       "id": "2",
+	  "code": "HALAL_MEAT_SHEEP_GOAT_POULTRY",
       "tenantId": "ch",
       "name": "Halal meat (sheep/goat), Poultry",
       "active": true
     },
 	{
       "id": "3",
+	  "code": "PIG",
       "tenantId": "ch",
       "name": "Pig",
       "active": true
     },
 	{
       "id": "4",
+	  "code": "FISH",
       "tenantId": "ch",
       "name": "Fish",
       "active": true
     },
 	{
       "id": "5",
+	  "code": "PACKED_FROZEN_MEAT_SHEEP_GOAT_FISH_AND_POULTRY",
       "tenantId": "ch",
       "name": "Packed/frozen meat (sheep/goat), fish and poultry",
       "active": true
