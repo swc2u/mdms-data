@@ -11,7 +11,9 @@
       "malePopulation": "580663",
       "femalePopultion": "474787",
       "childPopultion": "119434",
-      "literacyRate": "86..05",
+      "literacyRate": "86.05",
+      "maleLiteracyRate": "89.99",
+      "femaleLiteracyRate": "81.19",
       "languagesSpoken": ["PN", "HN", "EN"]
     }
   ]
