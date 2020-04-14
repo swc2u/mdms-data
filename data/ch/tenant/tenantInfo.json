@@ -3,11 +3,10 @@
   "moduleName": "tenant",
   "tenantInfo": [
     {
-      "code": "pg.citye",
       "code": "ch.chandigarh",
       "districtCode": "Chandigarh",
-	  "areaSqKm": "114",
-	  "areaSqKm": "114",
+      "areaSqKm": "114",
+      "areaSqKm": "114",
       "population": "1055450",
       "malePopulation": "580663",
       "femalePopultion": "474787",
