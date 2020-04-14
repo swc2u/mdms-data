@@ -4,7 +4,7 @@
   "tenantInfo": [
     {
       "code": "ch.chandigarh",
-      "area": "114",
+      "areasqkm": "114",
       "population": "1055450",
       "malePopulation": "580663",
       "femalePopultion": "474787",
