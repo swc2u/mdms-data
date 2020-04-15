@@ -25,7 +25,7 @@
       "enabled": true,
       "serviceCode": "Immovable Asset",
       "code": "null",
-      "path": "Asset Management.Works Masters.Immovable Asset.ViewImmovableAsset"
+      "path": "Asset Management.Asset Masters.Immovable Asset.ViewImmovableAsset"
     },
     {
       "id": 1942,
@@ -14680,7 +14680,7 @@
 	"serviceCode": "LCMSViewCourtType",
 	"code": "null",
 	"leftIcon": "editor:insert-chart",
-	"path": "Legal Case Management.Masters.Court Type Master.View Court Type",
+	"path": "Legal Case Management.Works Masters.Court Type Master.View Court Type",
 	"navigationURL": "services/lcms/courttypemaster/search/view"
      }
   ]
