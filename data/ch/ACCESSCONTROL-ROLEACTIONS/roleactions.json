@@ -27013,6 +27013,12 @@
 		"actionid": "2061",
 		"actioncode": "",
 		"tenantId": "ch"
+	},
+	  {
+		"rolecode": "SUPERUSER",
+		"actionid": 1957,
+		"actioncode": "",
+		"tenantId": "ch"
 	}
   ]
 }
