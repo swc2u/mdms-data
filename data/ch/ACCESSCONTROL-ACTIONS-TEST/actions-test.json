@@ -25,7 +25,7 @@
       "enabled": true,
       "serviceCode": "Immovable Asset",
       "code": "null",
-      "path": "Asset Management.Asset Masters.Immovable Asset.ViewImmovableAsset"
+      "path": "Asset Management.Works Masters.Immovable Asset.ViewImmovableAsset"
     },
     {
       "id": 1942,
