@@ -14669,6 +14669,19 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Budgeting.Budget Addition Appropriation.budgetAdditionalAppropriation_Master_MC"
-    }
+    },{
+	"id": 1957,
+	"name": "View Court Type",
+	"url": "/services/lcms/courttypemaster/search/view",
+	"parentModule": "",
+	"displayName": "View Court Type",
+	"orderNumber": 1,
+	"enabled": true,
+	"serviceCode": "LCMSViewCourtType",
+	"code": "null",
+	"leftIcon": "editor:insert-chart",
+	"path": "Legal Case Management.Masters.Court Type Master.View Court Type",
+	"navigationURL": "services/lcms/courttypemaster/search/view"
+     }
   ]
 }
