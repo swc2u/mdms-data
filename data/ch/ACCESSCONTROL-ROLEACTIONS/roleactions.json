@@ -11967,25 +11967,7 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 1211,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
       "rolecode": "SUPERUSER",
-      "actionid": 1210,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 1210,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
       "actionid": 1210,
       "actioncode": "",
       "tenantId": "ch"
@@ -27011,12 +26993,6 @@
 	{
 		"rolecode": "CE",
 		"actionid": "2061",
-		"actioncode": "",
-		"tenantId": "ch"
-	},
-	  {
-		"rolecode": "SUPERUSER",
-		"actionid": 1957,
 		"actioncode": "",
 		"tenantId": "ch"
 	}
