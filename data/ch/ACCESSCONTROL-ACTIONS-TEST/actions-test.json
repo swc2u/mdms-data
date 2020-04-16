@@ -839,9 +839,23 @@
 		"serviceCode": "LCMSViewCaseType",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Case Type Master.View Case Type",
+		"path": "Legal Case Management.Legal Case Masters.Legal Case Type Master.Legal View Case Type",
 		"navigationURL": "services/lcms/casetypemaster/search/view"
 	},
+	{
+		"id": 1212,
+		"name": "View Court Type",
+		"url": "/services/lcms/courttypemaster/search/view",
+		"parentModule": "",
+		"displayName": "View Court Type",
+		"orderNumber": 1,
+		"enabled": true,
+		"serviceCode": "LCMSViewCourtType",
+		"code": "null",
+		"leftIcon": "editor:insert-chart",
+		"path": "Legal Case Management.Legal Case Masters.Legal Court Type Master.Legal View Court Type",
+		"navigationURL": "services/lcms/courttypemaster/search/view"
+    },
 	{
 		"id": 993,
 		"name": "Create Court",
@@ -853,7 +867,7 @@
 		"serviceCode": "LCMSCreateCourt",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Court Master.Create Court",
+		"path": "Legal Case Management.Legal Case Masters.Legal Court Master.Legal Create Court",
 		"navigationURL": "services/lcms/courtmaster/new"
 	},
 	{
@@ -867,7 +881,7 @@
 		"serviceCode": "LCMSViewCourt",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Court Master.View Court",
+		"path": "Legal Case Management.Legal Case Masters.Legal Court Master.Legal View Court",
 		"navigationURL": "services/lcms/courtmaster/search/view"
 	},
 	{
@@ -881,7 +895,7 @@
 		"serviceCode": "LCMSModifyCourt",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Court Master.Modify Court",
+		"path": "Legal Case Management.Legal Case Masters.Legal Court Master.Legal Modify Court",
 		"navigationURL": "services/lcms/courtmaster/search/edit"
 	},
 	{
@@ -895,7 +909,7 @@
 		"serviceCode": "LCMSViewPetitionType",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Petition Type Master.View Petition Type",
+		"path": "Legal Case Management.Legal Case Masters.Legal Petition Type Master.Legal View Petition Type",
 		"navigationURL": "services/lcms/petitiontypemaster/search/view"
 	},
 	{
@@ -909,7 +923,7 @@
 		"serviceCode": "LCMSViewJudgmentType",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Judgement Type Master.View Judgment Type",
+		"path": "Legal Case Management.Legal Case Masters.Legal Judgement Type Master.Legal View Judgment Type",
 		"navigationURL": "services/lcms/judgmenttype/search/view"
 	},
 	{
@@ -923,7 +937,7 @@
 		"serviceCode": "LCMSCreateDefendingCounsel",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Defending Counsel Master.Create Defending Counsel",
+		"path": "Legal Case Management.Legal Case Masters.Legal Defending Counsel Master.Legal Create Defending Counsel",
 		"navigationURL": "services/lcms/advocatemaster/new"
 	},
 	{
@@ -937,7 +951,7 @@
 		"serviceCode": "LCMSViewDefendingCounsel",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Defending Counsel Master.View Defending Counsel",
+		"path": "Legal Case Management.Legal Case Masters.Legal Defending Counsel Master.Legal View Defending Counsel",
 		"navigationURL": "services/lcms/advocatemaster/search/view"
 	},
 	{
@@ -951,7 +965,7 @@
 		"serviceCode": "LCMSModifyDefendingCounsel",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Defending Counsel Master.Modify Defending Counsel",
+		"path": "Legal Case Management.Legal Case Masters.Legal Defending Counsel Master.Legal Modify Defending Counsel",
 		"navigationURL": "services/lcms/advocatemaster/search/edit"
 	},
 	{
@@ -965,7 +979,7 @@
 		"serviceCode": "LCMSCreateLegalCase",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Processing.Create Legal Case",
+		"path": "Legal Case Management.Legal Case Processing.Legal Create Legal Case",
 		"navigationURL": "services/lcms/application/create/"
 	},
 	{
@@ -979,7 +993,7 @@
 		"serviceCode": "LCMSSearchLegalCase",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Processing.Search Legal Case",
+		"path": "Legal Case Management.Legal Case Processing.Legal Search Legal Case",
 		"navigationURL": "services/lcms/search/searchForm"
 	},
 	{
@@ -993,7 +1007,7 @@
 		"serviceCode": "LCMSDailyBoardReport",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Reports.Daily Board Report",
+		"path": "Legal Case Management.Legal Case Reports.Legal Daily Board Report",
 		"navigationURL": "services/lcms/reports/dailyBoardReport"
 	},
 	{
@@ -1007,7 +1021,7 @@
 		"serviceCode": "LCMSTimeSeriesReport",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Reports.Time Series Report",
+		"path": "Legal Case Management.Legal Case Reports.Legal Time Series Report",
 		"navigationURL": "services/lcms/timeseriesreports/timeSeriesReport"
 	},
 	{
@@ -1021,7 +1035,7 @@
 		"serviceCode": "LCMSGenericSubReport",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Reports.Generic Sub Report",
+		"path": "Legal Case Management.Legal Case Reports.Legal Generic Sub Report",
 		"navigationURL": "services/lcms/reports/genericSubReport"
 	},
 	{
@@ -1035,23 +1049,9 @@
 		"serviceCode": "LCMSReportsBetweenDueDates",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Reports.Reports Between Due Dates",
+		"path": "Legal Case Management.Legal Case Reports.Legal Reports Between Due Dates",
 		"navigationURL": "services/lcms/reports/dueReport"
 	},
-	{
-		"id": 1212,
-		"name": "View Court Type",
-		"url": "/services/lcms/courttypemaster/search/view",
-		"parentModule": "",
-		"displayName": "View Court Type",
-		"orderNumber": 1,
-		"enabled": true,
-		"serviceCode": "LCMSViewCourtType",
-		"code": "null",
-		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Court Type Master.View Court Type",
-		"navigationURL": "services/lcms/courttypemaster/search/view"
-    },
     {
       "id": 1213,
       "name": "caseStatus",
@@ -14702,6 +14702,6 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Budgeting.Budget Addition Appropriation.budgetAdditionalAppropriation_Master_MC"
-    },
+    }
   ]
 }
