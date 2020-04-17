@@ -1,0 +1,21 @@
+{
+    "tenantId": "ch",
+    "moduleName": "TradeLicense",
+    "TradeName": [{
+            "code": "Registration Certificate For Pedal Rickshaw/ Loading Rehri",
+            "active": true
+        },
+        {
+            "code": "Driving License For Pedal Rickshaw/ Loading Rehri",
+            "active": true
+        },
+         {
+            "code": "License for Dhobi Ghat",
+            "active": true
+        },
+         {
+            "code": "Renewal of Rent Deed of Platform/Shop at Old Book Market",
+            "active": true
+        }
+    ]
+}
