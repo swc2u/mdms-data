@@ -1,6 +1,12 @@
 {
   "tenantId": "ch",
   "moduleName": "TradeLicense",
+  "downloadUrls": {
+	   "forma": "C:/Users/transerve/Documents/project/file/formA.pdf",
+	   "formb": "C:/Users/transerve/Documents/project/file/formB.pdf",
+	   "formc": "C:/Users/transerve/Documents/project/file/formC.pdf",
+	   "performa": "C:/Users/transerve/Documents/project/file/performa.pdf"
+	},
   "TradeType": [
     {
       "code": "GOODS.SALESTORAGE.TST-1",
