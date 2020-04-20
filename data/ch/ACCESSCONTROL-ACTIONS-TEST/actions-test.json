@@ -14695,7 +14695,7 @@
       "navigationURL": "services/EGF/budget/budgetReAppropriation-budgetMC.action",
       "url": "url",
       "parentModule": "EGF",
-      "displayName": "Verify Re-Appropriation",
+      "displayName": "Approve Re-Appropriation",
       "orderNumber": 7,
       "enabled": true,
       "serviceCode": "FinanceBudget",
