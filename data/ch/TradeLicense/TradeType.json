@@ -12,7 +12,25 @@
           "OWNERIDPROOF",
           "OWNERSHIPPROOF",
           "OWNERPHOTO"
-        ]
+        ],
+		"documentDownload": [
+            {
+              "name": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ]
       },
       {
         "applicationType": "Renew",
@@ -21,7 +39,25 @@
           "OWNERSHIPPROOF",
           "OWNERPHOTO",
           "OLDLICENCENO"
-        ]
+        ],
+		"documentDownload": [
+            {
+              "name": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ]
       }
     ],
     "verificationDocument": [],
@@ -39,7 +75,25 @@
           "OWNERIDPROOF",
           "OWNERSHIPPROOF",
           "OWNERPHOTO"
-        ]
+        ],
+		"documentDownload": [
+            {
+              "name": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ]
       },
       {
         "applicationType": "Renew",
@@ -48,7 +102,25 @@
           "OWNERSHIPPROOF",
           "OWNERPHOTO",
           "OLDLICENCENO"
-        ]
+        ],
+		"documentDownload": [
+            {
+              "name": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ]
       }
     ],
     "verificationDocument": [],
@@ -66,7 +138,25 @@
           "OWNERIDPROOF",
           "OWNERSHIPPROOF",
           "OWNERPHOTO"
-        ]
+        ],
+		"documentDownload": [
+            {
+              "name": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ]
       },
       {
         "applicationType": "Renew",
@@ -75,7 +165,25 @@
           "OWNERSHIPPROOF",
           "OWNERPHOTO",
           "OLDLICENCENO"
-        ]
+        ],
+		"documentDownload": [
+            {
+              "name": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ]
       }
     ],
     "verificationDocument": [],
@@ -93,7 +201,25 @@
           "OWNERIDPROOF",
           "OWNERSHIPPROOF",
           "OWNERPHOTO"
-        ]
+        ],
+		"documentDownload": [
+            {
+              "name": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ]
       },
       {
         "applicationType": "Renew",
@@ -102,7 +228,25 @@
           "OWNERSHIPPROOF",
           "OWNERPHOTO",
           "OLDLICENCENO"
-        ]
+        ],
+		"documentDownload": [
+            {
+              "name": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "name": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ]
       }
     ],
     "verificationDocument": [],
