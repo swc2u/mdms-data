@@ -12,7 +12,7 @@
 		"documentDownload": [],
 		  "documentUpload":[
 			{
-              "code": "OWNERIDPROOF"
+              "code": "OWNERADDRESSPROOF"
             },
             {
               "code": "OWNERAGEPROOF"
@@ -32,7 +32,7 @@
 		"documentDownload": [],
 		   "documentUpload":[
 			{
-              "code": "OWNERIDPROOF"
+              "code": "OWNERADDRESSPROOF"
             },
             {
               "code": "OWNERAGEPROOF"
@@ -62,13 +62,16 @@
 		"documentDownload": [],
 		  "documentUpload":[
 			{
-              "code": "OWNERIDPROOF"
+              "code": "OWNERADDRESSPROOF"
             },
             {
               "code": "OWNERAGEPROOF"
             },
             {
               "code": "OWNERBILL"
+            },
+			{
+              "code": "PERFORMA"
             },
             {
               "code": "OWNERPHOTO"
@@ -83,13 +86,16 @@
 		"documentDownload": [],
 		   "documentUpload":[
 			{
-              "code": "OWNERIDPROOF"
+              "code": "OWNERADDRESSPROOF"
             },
             {
               "code": "OWNERAGEPROOF"
             },
             {
               "code": "OWNERBILL"
+            },
+			{
+              "code": "PERFORMA"
             },
             {
               "code": "OWNERPHOTO"
@@ -113,12 +119,12 @@
 		"documentDownload": [
             {
               "code": "PERFORMA",
-              "url": "http://www.africau.edu/images/default/performa.pdf"
+              "url": "http://www.africau.edu/images/default/sample.pdf"
             }
           ],
 		   "documentUpload":[
 			{
-              "code": "OWNERIDPROOF"
+              "code": "OWNERADDRESSPROOF"
             },
             {
               "code": "OWNERAGEPROOF"
@@ -138,12 +144,12 @@
 		"documentDownload": [
             {
               "code": "PERFORMA",
-              "url": "http://www.africau.edu/images/default/performa.pdf"
+              "url": "http://www.africau.edu/images/default/sample.pdf"
             }
           ],
 		  "documentUpload":[
 			{
-              "code": "OWNERIDPROOF"
+              "code": "OWNERADDRESSPROOF"
             },
             {
               "code": "OWNERAGEPROOF"
@@ -173,15 +179,15 @@
 		"documentDownload": [
             {
               "code": "FORMA",
-              "url": "http://www.africau.edu/images/default/formA.pdf"
+              "url": "http://www.africau.edu/images/default/sample.pdf"
             },
             {
               "code": "FORMB",
-              "url": "http://www.africau.edu/images/default/formB.pdf"
+              "url": "http://www.africau.edu/images/default/sample.pdf"
             },
             {
               "code": "FORMC",
-              "url": "http://www.africau.edu/images/default/formC.pdf"
+              "url": "http://www.africau.edu/images/default/sample.pdf"
             }
           ],
 		  "documentUpload":[
@@ -203,15 +209,15 @@
 		"documentDownload": [
             {
               "code": "FORMA",
-              "url": "http://www.africau.edu/images/default/formA.pdf"
+              "url": "http://www.africau.edu/images/default/sample.pdf"
             },
             {
               "code": "FORMB",
-              "url": "http://www.africau.edu/images/default/formB.pdf"
+              "url": "http://www.africau.edu/images/default/sample.pdf"
             },
             {
               "code": "FORMC",
-              "url": "http://www.africau.edu/images/default/formC.pdf"
+              "url": "http://www.africau.edu/images/default/sample.pdf"
             }
           ],
 		  "documentUpload":[
