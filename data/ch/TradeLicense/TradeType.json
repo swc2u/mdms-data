@@ -9,24 +9,7 @@
       {
         "applicationType": "New",
         
-		"documentDownload": [
-            {
-              "code": "FORMA",
-              "url": ""
-            },
-            {
-              "code": "FORMB",
-              "url": ""
-            },
-            {
-              "code": "FORMC",
-              "url": ""
-            },
-            {
-              "code": "PERFORMA",
-              "url": ""
-            }
-          ],
+		"documentDownload": [],
 		  "documentUpload":[
 			{
               "code": "OWNERIDPROOF"
@@ -46,24 +29,7 @@
       {
         "applicationType": "Renew",
         
-		"documentDownload": [
-            {
-              "code": "FORMA",
-              "url": ""
-            },
-            {
-              "code": "FORMB",
-              "url": ""
-            },
-            {
-              "code": "FORMC",
-              "url": ""
-            },
-            {
-              "code": "PERFORMA",
-              "url": ""
-            }
-          ],
+		"documentDownload": [],
 		   "documentUpload":[
 			{
               "code": "OWNERIDPROOF"
@@ -93,24 +59,7 @@
       {
         "applicationType": "New",
 		
-		"documentDownload": [
-           {
-              "code": "FORMA",
-              "url": ""
-            },
-            {
-              "code": "FORMB",
-              "url": ""
-            },
-            {
-              "code": "FORMC",
-              "url": ""
-            },
-            {
-              "code": "PERFORMA",
-              "url": ""
-            }
-          ],
+		"documentDownload": [],
 		  "documentUpload":[
 			{
               "code": "OWNERIDPROOF"
@@ -131,24 +80,7 @@
       {
         "applicationType": "Renew",
        
-		"documentDownload": [
-           {
-              "code": "FORMA",
-              "url": ""
-            },
-            {
-              "code": "FORMB",
-              "url": ""
-            },
-            {
-              "code": "FORMC",
-              "url": ""
-            },
-            {
-              "code": "PERFORMA",
-              "url": ""
-            }
-          ],
+		"documentDownload": [],
 		   "documentUpload":[
 			{
               "code": "OWNERIDPROOF"
@@ -180,18 +112,6 @@
         
 		"documentDownload": [
             {
-              "code": "FORMA",
-              "url": ""
-            },
-            {
-              "code": "FORMB",
-              "url": ""
-            },
-            {
-              "code": "FORMC",
-              "url": ""
-            },
-            {
               "code": "PERFORMA",
               "url": "http://www.africau.edu/images/default/performa.pdf"
             }
@@ -216,18 +136,6 @@
         "applicationType": "Renew",
         
 		"documentDownload": [
-            {
-              "code": "FORMA",
-              "url": ""
-            },
-            {
-              "code": "FORMB",
-              "url": ""
-            },
-            {
-              "code": "FORMC",
-              "url": ""
-            },
             {
               "code": "PERFORMA",
               "url": "http://www.africau.edu/images/default/performa.pdf"
@@ -274,10 +182,6 @@
             {
               "code": "FORMC",
               "url": "http://www.africau.edu/images/default/formC.pdf"
-            },
-            {
-              "code": "PERFORMA",
-              "url": ""
             }
           ],
 		  "documentUpload":[
@@ -308,10 +212,6 @@
             {
               "code": "FORMC",
               "url": "http://www.africau.edu/images/default/formC.pdf"
-            },
-            {
-              "code": "PERFORMA",
-              "url": ""
             }
           ],
 		  "documentUpload":[
