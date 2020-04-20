@@ -11,19 +11,19 @@
         
 		"documentDownload": [
             {
-              "name": "FORMA",
+              "code": "FORMA",
               "url": ""
             },
             {
-              "name": "FORMB",
+              "code": "FORMB",
               "url": ""
             },
             {
-              "name": "FORMC",
+              "code": "FORMC",
               "url": ""
             },
             {
-              "name": "PERFORMA",
+              "code": "PERFORMA",
               "url": ""
             }
           ],
@@ -48,19 +48,19 @@
         
 		"documentDownload": [
             {
-              "name": "FORMA",
+              "code": "FORMA",
               "url": ""
             },
             {
-              "name": "FORMB",
+              "code": "FORMB",
               "url": ""
             },
             {
-              "name": "FORMC",
+              "code": "FORMC",
               "url": ""
             },
             {
-              "name": "PERFORMA",
+              "code": "PERFORMA",
               "url": ""
             }
           ],
@@ -95,19 +95,19 @@
 		
 		"documentDownload": [
            {
-              "name": "FORMA",
+              "code": "FORMA",
               "url": ""
             },
             {
-              "name": "FORMB",
+              "code": "FORMB",
               "url": ""
             },
             {
-              "name": "FORMC",
+              "code": "FORMC",
               "url": ""
             },
             {
-              "name": "PERFORMA",
+              "code": "PERFORMA",
               "url": ""
             }
           ],
@@ -133,19 +133,19 @@
        
 		"documentDownload": [
            {
-              "name": "FORMA",
+              "code": "FORMA",
               "url": ""
             },
             {
-              "name": "FORMB",
+              "code": "FORMB",
               "url": ""
             },
             {
-              "name": "FORMC",
+              "code": "FORMC",
               "url": ""
             },
             {
-              "name": "PERFORMA",
+              "code": "PERFORMA",
               "url": ""
             }
           ],
@@ -180,19 +180,19 @@
         
 		"documentDownload": [
             {
-              "name": "FORMA",
+              "code": "FORMA",
               "url": ""
             },
             {
-              "name": "FORMB",
+              "code": "FORMB",
               "url": ""
             },
             {
-              "name": "FORMC",
+              "code": "FORMC",
               "url": ""
             },
             {
-              "name": "PERFORMA",
+              "code": "PERFORMA",
               "url": "http://www.africau.edu/images/default/performa.pdf"
             }
           ],
@@ -217,19 +217,19 @@
         
 		"documentDownload": [
             {
-              "name": "FORMA",
+              "code": "FORMA",
               "url": ""
             },
             {
-              "name": "FORMB",
+              "code": "FORMB",
               "url": ""
             },
             {
-              "name": "FORMC",
+              "code": "FORMC",
               "url": ""
             },
             {
-              "name": "PERFORMA",
+              "code": "PERFORMA",
               "url": "http://www.africau.edu/images/default/performa.pdf"
             }
           ],
@@ -264,19 +264,19 @@
         
 		"documentDownload": [
             {
-              "name": "FORMA",
+              "code": "FORMA",
               "url": "http://www.africau.edu/images/default/formA.pdf"
             },
             {
-              "name": "FORMB",
+              "code": "FORMB",
               "url": "http://www.africau.edu/images/default/formB.pdf"
             },
             {
-              "name": "FORMC",
+              "code": "FORMC",
               "url": "http://www.africau.edu/images/default/formC.pdf"
             },
             {
-              "name": "PERFORMA",
+              "code": "PERFORMA",
               "url": ""
             }
           ],
@@ -298,19 +298,19 @@
         
 		"documentDownload": [
             {
-              "name": "FORMA",
+              "code": "FORMA",
               "url": "http://www.africau.edu/images/default/formA.pdf"
             },
             {
-              "name": "FORMB",
+              "code": "FORMB",
               "url": "http://www.africau.edu/images/default/formB.pdf"
             },
             {
-              "name": "FORMC",
+              "code": "FORMC",
               "url": "http://www.africau.edu/images/default/formC.pdf"
             },
             {
-              "name": "PERFORMA",
+              "code": "PERFORMA",
               "url": ""
             }
           ],
