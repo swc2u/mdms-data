@@ -8,20 +8,43 @@
     "applicationDocument": [
       {
         "applicationType": "New",
-        "documentList": [
-          "OWNERIDPROOF",
-          "OWNERSHIPPROOF",
-          "OWNERPHOTO"
-        ]
+        
+		"documentDownload": [],
+		  "documentUpload":[
+			{
+              "code": "OWNERADDRESSPROOF"
+            },
+            {
+              "code": "OWNERAGEPROOF"
+            },
+            {
+              "code": "OWNERBILL"
+            },
+            {
+              "code": "OWNERPHOTO"
+            }
+		 
+		 ]
       },
       {
         "applicationType": "Renew",
-        "documentList": [
-          "OWNERIDPROOF",
-          "OWNERSHIPPROOF",
-          "OWNERPHOTO",
-          "OLDLICENCENO"
-        ]
+        
+		"documentDownload": [],
+		   "documentUpload":[
+			{
+              "code": "OWNERADDRESSPROOF"
+            },
+            {
+              "code": "OWNERAGEPROOF"
+            },
+            {
+              "code": "OWNERBILL"
+            },
+            {
+              "code": "OWNERPHOTO"
+            }
+		 
+		 ]
       }
     ],
     "verificationDocument": [],
@@ -35,20 +58,50 @@
     "applicationDocument": [
       {
         "applicationType": "New",
-        "documentList": [
-          "OWNERIDPROOF",
-          "OWNERSHIPPROOF",
-          "OWNERPHOTO"
-        ]
+		
+		"documentDownload": [],
+		  "documentUpload":[
+			{
+              "code": "OWNERADDRESSPROOF"
+            },
+            {
+              "code": "OWNERAGEPROOF"
+            },
+            {
+              "code": "OWNERBILL"
+            },
+			{
+              "code": "PERFORMA"
+            },
+            {
+              "code": "OWNERPHOTO"
+            }
+		 
+		 ]
+		  
       },
       {
         "applicationType": "Renew",
-        "documentList": [
-          "OWNERIDPROOF",
-          "OWNERSHIPPROOF",
-          "OWNERPHOTO",
-          "OLDLICENCENO"
-        ]
+       
+		"documentDownload": [],
+		   "documentUpload":[
+			{
+              "code": "OWNERADDRESSPROOF"
+            },
+            {
+              "code": "OWNERAGEPROOF"
+            },
+            {
+              "code": "OWNERBILL"
+            },
+			{
+              "code": "PERFORMA"
+            },
+            {
+              "code": "OWNERPHOTO"
+            }
+		 
+		 ]
       }
     ],
     "verificationDocument": [],
@@ -62,20 +115,53 @@
     "applicationDocument": [
       {
         "applicationType": "New",
-        "documentList": [
-          "OWNERIDPROOF",
-          "OWNERSHIPPROOF",
-          "OWNERPHOTO"
-        ]
+        
+		"documentDownload": [
+            {
+              "code": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ],
+		   "documentUpload":[
+			{
+              "code": "OWNERADDRESSPROOF"
+            },
+            {
+              "code": "OWNERAGEPROOF"
+            },
+            {
+              "code": "PERFORMA"
+            },
+            {
+              "code": "OWNERPHOTO"
+            }
+		 
+		 ]
       },
       {
         "applicationType": "Renew",
-        "documentList": [
-          "OWNERIDPROOF",
-          "OWNERSHIPPROOF",
-          "OWNERPHOTO",
-          "OLDLICENCENO"
-        ]
+        
+		"documentDownload": [
+            {
+              "code": "PERFORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ],
+		  "documentUpload":[
+			{
+              "code": "OWNERADDRESSPROOF"
+            },
+            {
+              "code": "OWNERAGEPROOF"
+            },
+            {
+              "code": "PERFORMA"
+            },
+            {
+              "code": "OWNERPHOTO"
+            }
+		 
+		 ]
       }
     ],
     "verificationDocument": [],
@@ -89,20 +175,63 @@
     "applicationDocument": [
       {
         "applicationType": "New",
-        "documentList": [
-          "OWNERIDPROOF",
-          "OWNERSHIPPROOF",
-          "OWNERPHOTO"
-        ]
+        
+		"documentDownload": [
+            {
+              "code": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "code": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "code": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ],
+		  "documentUpload":[
+			{
+              "code": "FORMA"
+            },
+            {
+              "code": "FORMB"
+            },
+            {
+              "code": "FORMC"
+            }
+		 
+		 ]
       },
       {
         "applicationType": "Renew",
-        "documentList": [
-          "OWNERIDPROOF",
-          "OWNERSHIPPROOF",
-          "OWNERPHOTO",
-          "OLDLICENCENO"
-        ]
+        
+		"documentDownload": [
+            {
+              "code": "FORMA",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "code": "FORMB",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "code": "FORMC",
+              "url": "http://www.africau.edu/images/default/sample.pdf"
+            }
+          ],
+		  "documentUpload":[
+			{
+              "code": "FORMA"
+            },
+            {
+              "code": "FORMB"
+            },
+            {
+              "code": "FORMC"
+            }
+		 
+		 ]
       }
     ],
     "verificationDocument": [],
