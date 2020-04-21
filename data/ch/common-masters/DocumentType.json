@@ -3,27 +3,23 @@
   "moduleName": "common-masters",
   "DocumentType": [
     {
-      "code": "OWNERIDPROOF",
+      "code": "OWNERADDRESSPROOF",
       "active": true
     },
     {
-      "code": "OWNERSHIPPROOF",
+      "code": "OWNERAGEPROOF",
       "active": true
     },
     {
-      "code": "ADDRESSPROOF",
+      "code": "OWNERBILL",
       "active": true
     },
     {
-      "code": "AGEPROOF",
+      "code": "OWNERPHOTO",
       "active": true
     },
     {
-      "code": "APPLICANTIMAGE",
-      "active": true
-    },
-    {
-      "code": "REHRIBILL",
+      "code": "PERFORMA",
       "active": true
     },
     {
@@ -36,10 +32,6 @@
     },
     {
       "code": "FORMC",
-      "active": true
-    },
-	{
-      "code": "PERFORMAMEDICALFITNESSCERTIFICATE",
       "active": true
     }
   ]
