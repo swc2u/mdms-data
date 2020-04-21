@@ -2,16 +2,14 @@
   "tenantId": "ch",
   "moduleName": "TradeLicense",
   "TradeType": [
-  {
-    "code": "License.Registration.Rehri",
-    "uom": "year",
-    "applicationDocument": [
-      {
-        "applicationType": "New",
-        
-		"documentDownload": [],
-		  "documentUpload":[
-			{
+    {
+      "code": "License.Registration.Rehri",
+      "uom": "year",
+      "applicationDocument": [
+        {
+          "applicationType": "New",
+          "documentList": [
+            {
               "code": "OWNERADDRESSPROOF"
             },
             {
@@ -23,15 +21,12 @@
             {
               "code": "OWNERPHOTO"
             }
-		 
-		 ]
-      },
-      {
-        "applicationType": "Renew",
-        
-		"documentDownload": [],
-		   "documentUpload":[
-			{
+          ]
+        },
+        {
+          "applicationType": "Renew",
+          "documentList": [
+            {
               "code": "OWNERADDRESSPROOF"
             },
             {
@@ -43,25 +38,24 @@
             {
               "code": "OWNERPHOTO"
             }
-		 
-		 ]
-      }
-    ],
-    "verificationDocument": [],
-    "active": true,
-    "type": "TL",
-    "validityPeriod": null
-  },
-  {
-    "code": "License.DrivingLicense.Rehri",
-    "uom": "year",
-    "applicationDocument": [
-      {
-        "applicationType": "New",
-		
-		"documentDownload": [],
-		  "documentUpload":[
-			{
+          ]
+        }
+      ],
+      "verificationDocument": [
+        
+      ],
+      "active": true,
+      "type": "TL",
+      "validityPeriod": null
+    },
+    {
+      "code": "License.DrivingLicense.Rehri",
+      "uom": "year",
+      "applicationDocument": [
+        {
+          "applicationType": "New",
+          "documentList": [
+            {
               "code": "OWNERADDRESSPROOF"
             },
             {
@@ -70,22 +64,18 @@
             {
               "code": "OWNERBILL"
             },
-			{
+            {
               "code": "PERFORMA"
             },
             {
               "code": "OWNERPHOTO"
             }
-		 
-		 ]
-		  
-      },
-      {
-        "applicationType": "Renew",
-       
-		"documentDownload": [],
-		   "documentUpload":[
-			{
+          ]
+        },
+        {
+          "applicationType": "Renew",
+          "documentList": [
+            {
               "code": "OWNERADDRESSPROOF"
             },
             {
@@ -94,150 +84,115 @@
             {
               "code": "OWNERBILL"
             },
-			{
+            {
               "code": "PERFORMA"
             },
             {
               "code": "OWNERPHOTO"
             }
-		 
-		 ]
-      }
-    ],
-    "verificationDocument": [],
-    "active": true,
-    "type": "TL",
-    "validityPeriod": null
-  },
-  {
-    "code": "License.Registration.DhobiGhat",
-    "uom": "year",
-    "applicationDocument": [
-      {
-        "applicationType": "New",
+          ]
+        }
+      ],
+      "verificationDocument": [
         
-		"documentDownload": [
+      ],
+      "active": true,
+      "type": "TL",
+      "validityPeriod": null
+    },
+    {
+      "code": "License.Registration.DhobiGhat",
+      "uom": "year",
+      "applicationDocument": [
+        {
+          "applicationType": "New",
+          "documentList": [
+            {
+              "code": "OWNERADDRESSPROOF"
+            },
+            {
+              "code": "OWNERAGEPROOF"
+            },
             {
               "code": "PERFORMA",
-              "url": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
+            },
+            {
+              "code": "OWNERPHOTO"
             }
-          ],
-		   "documentUpload":[
-			{
+          ]
+        },
+        {
+          "applicationType": "Renew",
+          "documentList": [
+            {
               "code": "OWNERADDRESSPROOF"
             },
             {
               "code": "OWNERAGEPROOF"
             },
-            {
-              "code": "PERFORMA"
-            },
-            {
-              "code": "OWNERPHOTO"
-            }
-		 
-		 ]
-      },
-      {
-        "applicationType": "Renew",
-        
-		"documentDownload": [
             {
               "code": "PERFORMA",
-              "url": "http://www.africau.edu/images/default/sample.pdf"
-            }
-          ],
-		  "documentUpload":[
-			{
-              "code": "OWNERADDRESSPROOF"
-            },
-            {
-              "code": "OWNERAGEPROOF"
-            },
-            {
-              "code": "PERFORMA"
+              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
             },
             {
               "code": "OWNERPHOTO"
             }
-		 
-		 ]
-      }
-    ],
-    "verificationDocument": [],
-    "active": true,
-    "type": "TL",
-    "validityPeriod": null
-  },
-  {
-    "code": "License.Rent.BookMarket",
-    "uom": "year",
-    "applicationDocument": [
-      {
-        "applicationType": "New",
+          ]
+        }
+      ],
+      "verificationDocument": [
         
-		"documentDownload": [
+      ],
+      "active": true,
+      "type": "TL",
+      "validityPeriod": null
+    },
+    {
+      "code": "License.Rent.BookMarket",
+      "uom": "year",
+      "applicationDocument": [
+        {
+          "applicationType": "New",
+          "documentList": [
             {
               "code": "FORMA",
-              "url": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
             },
             {
               "code": "FORMB",
-              "url": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
             },
             {
               "code": "FORMC",
-              "url": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
             }
-          ],
-		  "documentUpload":[
-			{
-              "code": "FORMA"
-            },
-            {
-              "code": "FORMB"
-            },
-            {
-              "code": "FORMC"
-            }
-		 
-		 ]
-      },
-      {
-        "applicationType": "Renew",
-        
-		"documentDownload": [
+          ]
+        },
+        {
+          "applicationType": "Renew",
+          "documentList": [
             {
               "code": "FORMA",
-              "url": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
             },
             {
               "code": "FORMB",
-              "url": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
             },
             {
               "code": "FORMC",
-              "url": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
             }
-          ],
-		  "documentUpload":[
-			{
-              "code": "FORMA"
-            },
-            {
-              "code": "FORMB"
-            },
-            {
-              "code": "FORMC"
-            }
-		 
-		 ]
-      }
-    ],
-    "verificationDocument": [],
-    "active": true,
-    "type": "TL",
-    "validityPeriod": null
-  }
+          ]
+        }
+      ],
+      "verificationDocument": [
+        
+      ],
+      "active": true,
+      "type": "TL",
+      "validityPeriod": null
+    }
   ]
 }
