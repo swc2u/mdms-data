@@ -333,6 +333,12 @@
       "tenantId": "ch"
     },
     {
+      "rolecode": "GRO",
+      "actionid": 1766,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
       "rolecode": "RO",
       "actionid": 385,
       "actioncode": "",
