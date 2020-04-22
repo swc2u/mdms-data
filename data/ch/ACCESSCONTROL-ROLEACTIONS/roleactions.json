@@ -14437,13 +14437,7 @@
       "actionid": 1429,
       "actioncode": "",
       "tenantId": "ch"
-    },
-    {
-      "rolecode": "CSR",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
+    },    
     {
       "rolecode": "EMPLOYEE",
       "actionid": 1429,
