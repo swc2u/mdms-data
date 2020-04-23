@@ -15056,6 +15056,30 @@
       "leftIcon": "action:store",
       "rightIcon": "",
       "queryParams": ""
+    },
+   {
+      "id": 2064,
+      "name": "OPMS Mock Refund Service",
+      "url": "/pm-refund-services/v1/_refund",
+      "parentModule": "",
+      "displayName": "Refund Service",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pm-refund-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2065,
+      "name": "PGService Gateway Search",
+      "url": "/pg-service/gateway/v1/_search",
+      "displayName": "Gateway Search",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "pg-service",
+      "code": "null",
+      "path": ""
     }	  
   ]
 }
