@@ -25927,6 +25927,12 @@
       "actionid": 1943,
       "actioncode": "",
       "tenantId": "ch"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }
