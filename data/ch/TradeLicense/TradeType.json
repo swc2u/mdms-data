@@ -11,19 +11,27 @@
           "documentList": [
             {
               "code": "OWNERADDRESSPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERAGEPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERBILL",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERPHOTO",
-              "required": true
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY"
             }
           ]
         },
@@ -32,19 +40,27 @@
           "documentList": [
             {
               "code": "OWNERADDRESSPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERAGEPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERBILL",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERPHOTO",
-              "required": true
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY"
             }
           ]
         }
@@ -65,23 +81,33 @@
           "documentList": [
             {
               "code": "OWNERADDRESSPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERAGEPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERBILL",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "PERFORMA",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERPHOTO",
-              "required": true
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY"
             }
           ]
         },
@@ -90,23 +116,33 @@
           "documentList": [
             {
               "code": "OWNERADDRESSPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERAGEPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERBILL",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "PERFORMA",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERPHOTO",
-              "required": true
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY"
             }
           ]
         }
@@ -127,20 +163,28 @@
           "documentList": [
             {
               "code": "OWNERADDRESSPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERAGEPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "PERFORMA",
               "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERPHOTO",
-              "required": true
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY"
             }
           ]
         },
@@ -149,20 +193,28 @@
           "documentList": [
             {
               "code": "OWNERADDRESSPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERAGEPROOF",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "PERFORMA",
               "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "OWNERPHOTO",
-              "required": true
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY"
             }
           ]
         }
@@ -184,17 +236,23 @@
             {
               "code": "FORMA",
               "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "FORMB",
               "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "FORMC",
               "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             }
           ]
         },
@@ -204,17 +262,23 @@
             {
               "code": "FORMA",
               "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "FORMB",
               "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             },
             {
               "code": "FORMC",
               "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
-              "required": true
+              "required": true,
+              "accept": "application/pdf",
+              "fileType": "PDFONLY"
             }
           ]
         }
