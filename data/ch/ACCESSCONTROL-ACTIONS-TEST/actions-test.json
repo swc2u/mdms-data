@@ -10153,6 +10153,18 @@
       "code": "null",
       "path": "Employee Management.Employee Masters.Employee.SearchEmployee"
     },
+	{
+      "id": 1535,
+      "name": "RainmakerPgrEscalationSearch",
+      "url": "/rainmaker-pgr/v1/requests/escalate/_batch",
+      "displayName": "Rainmaker Pgr Escalation Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
     {
       "id": 1553,
       "name": "RainmakerPGRReportMetadata",
@@ -14725,6 +14737,18 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Budgeting.Budget Addition Appropriation.budgetAdditionalAppropriation_Master_MC"
+    },
+	{
+      "id": 1957,
+      "name": "RainmakerPGR-AOWiseReport-Metadata",
+      "url": "/report/rainmaker-pgr/AOWiseReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "RainmakerPGRReports",
+      "code": "null",
+      "path": "PGR Report"
     },
     {
       "id": 2001,
