@@ -15150,7 +15150,7 @@
 	{
 		"id": "4000",
 		"name": "Agenda Branch Create Council Member",
-		"url": "",
+		"url": "/services/council/councilmember/new",
 		"displayName": "Agenda Branch Create Council Member",
 		"orderNumber": "1",
 		"parentModule": "",
@@ -15164,7 +15164,7 @@
 	{
 		"id": "4001",
 		"name": "Agenda Branch View Council Member",
-		"url": "",
+		"url": "/services/council/councilmember/search/view",
 		"displayName": "Agenda Branch View Council Member",
 		"orderNumber": "1",
 		"parentModule": "",
@@ -15178,7 +15178,7 @@
 	{
 		"id": "4002",
 		"name": "Agenda Branch Update Council Member",
-		"url": "",
+		"url": "/services/council/councilmember/search/edit",
 		"displayName": "Agenda Branch Update Council Member",
 		"orderNumber": "1",
 		"parentModule": "",
@@ -15192,7 +15192,7 @@
 	{
 		"id": "4003",
 		"name": "Agenda Branch Create Agenda",
-		"url": "",
+		"url": "/services/council/agenda/new",
 		"displayName": "Agenda Branch Create Agenda",
 		"orderNumber": "1",
 		"parentModule": "",
@@ -15206,7 +15206,7 @@
 	{
 		"id": "4004",
 		"name": "Agenda Branch View Agenda",
-		"url": "",
+		"url": "/services/council/agenda/search/view",
 		"displayName": "Agenda Branch View Agenda",
 		"orderNumber": "1",
 		"parentModule": "",
@@ -15220,7 +15220,7 @@
 	{
 		"id": "4005",
 		"name": "Agenda Branch Update Agenda",
-		"url": "",
+		"url": "/services/council/agenda/searchagenda/edit",
 		"displayName": "Agenda Branch Update Agenda",
 		"orderNumber": "1",
 		"parentModule": "",
