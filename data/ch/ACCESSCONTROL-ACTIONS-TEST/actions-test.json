@@ -14738,7 +14738,7 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Budgeting.Budget Addition Appropriation.budgetAdditionalAppropriation_Master_MC"
     },
-	{
+    {
       "id": 1957,
       "name": "RainmakerPGR-AOWiseReport-Metadata",
       "url": "/report/rainmaker-pgr/AOWiseReport/metadata/_get",
@@ -14749,6 +14749,48 @@
       "serviceCode": "RainmakerPGRReports",
       "code": "null",
       "path": "PGR Report"
+    },
+{
+      "id": 1958,
+      "name": "Reopening Closed Period",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Reopening Closed Period",
+      "orderNumber": 4,
+      "enabled": true,
+      "serviceCode": "FinanceMaster",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Period End Activities.Close Period",
+      "navigationURL": "services/EGF/closedperiod/search/reopen"
+    },
+    {
+      "id": 1959,
+      "name": "Surrendered Cheque",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Surrendered Cheque",
+      "orderNumber": 6,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.MIS Reports.Surrendered Cheque",
+      "navigationURL": "services/EGF/report/cheque/surrendered/form"
+    },
+    {
+      "id": 1960,
+      "name": "Remittance Collection Report",
+      "url": "url",
+      "parentModule": "",
+      "displayName": "Remittance Collection Report",
+      "orderNumber": 6,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.Revenue Reports.Remittance Collection Report",
+      "navigationURL": "services/EGF/report/remittance/collection/form"
     },
     {
       "id": 2001,
@@ -14762,7 +14804,7 @@
       "code": "null",
       "path": ""
     },
-	{
+    {
       "id": 2002,
       "name": "OPMS Update Status",
       "url": "/pm-services/noc/_updateappstatus",

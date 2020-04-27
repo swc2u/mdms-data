@@ -27013,6 +27013,42 @@
 		"actionid": "2061",
 		"actioncode": "",
 		"tenantId": "ch"
-	}
+	},
+    {
+      "rolecode": "EGF_REPORT_VIEW",
+      "actionid": 1959,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1959,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_REPORT_VIEW",
+      "actionid": 1960,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1960,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_ADMINISTRATOR",
+      "actionid": 1958,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1958,
+      "actioncode": "",
+      "tenantId": "ch"
+    }
   ]
 }
