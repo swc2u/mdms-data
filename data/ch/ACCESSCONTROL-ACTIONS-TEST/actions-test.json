@@ -15159,8 +15159,7 @@
 		"code": "",
 		"path": "Agenda Branch.Agenda Branch Masters.Agenda Branch Council Member.Agenda Branch Create Council Member",
 		"navigationURL": "services/council/councilmember/new",
-		"leftIcon": "editor:insert-chart",
-		"rightIcon": ""
+		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": "4001",
@@ -15174,8 +15173,7 @@
 		"code": "",
 		"path": "Agenda Branch.Agenda Branch Masters.Agenda Branch Council Member.Agenda Branch View Council Member",
 		"navigationURL": "services/council/councilmember/search/view",
-		"leftIcon": "editor:insert-chart",
-		"rightIcon": ""
+		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": "4002",
@@ -15189,8 +15187,7 @@
 		"code": "",
 		"path": "Agenda Branch.Agenda Branch Masters.Agenda Branch Council Member.Agenda Branch Update Council Member",
 		"navigationURL": "services/council/councilmember/search/edit",
-		"leftIcon": "editor:insert-chart",
-		"rightIcon": ""
+		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": "4003",
@@ -15204,8 +15201,7 @@
 		"code": "",
 		"path": "Agenda Branch.Agenda Branch Transactions.Agenda Branch Agenda.Agenda Branch Create Agenda",
 		"navigationURL": "services/council/agenda/new",
-		"leftIcon": "editor:insert-chart",
-		"rightIcon": ""
+		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": "4004",
@@ -15219,8 +15215,7 @@
 		"code": "",
 		"path": "Agenda Branch.Agenda Branch Transactions.Agenda Branch Agenda.Agenda Branch View Agenda",
 		"navigationURL": "services/council/agenda/search/view",
-		"leftIcon": "editor:insert-chart",
-		"rightIcon": ""
+		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": "4005",
@@ -15234,8 +15229,7 @@
 		"code": "",
 		"path": "Agenda Branch.Agenda Branch Transactions.Agenda Branch Agenda.Agenda Branch Update Agenda",
 		"navigationURL": "services/council/agenda/searchagenda/edit",
-		"leftIcon": "editor:insert-chart",
-		"rightIcon": ""
+		"leftIcon": "editor:insert-chart"
 	}
   ]
 }
