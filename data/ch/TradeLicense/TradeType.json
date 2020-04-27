@@ -98,7 +98,7 @@
               "fileType": "PDFONLY"
             },
             {
-              "code": "PERFORMA",
+              "code": "PERFORMADRIVINGLICENSE",
               "required": true,
               "accept": "application/pdf",
               "fileType": "PDFONLY"
@@ -133,7 +133,7 @@
               "fileType": "PDFONLY"
             },
             {
-              "code": "PERFORMA",
+              "code": "PERFORMADRIVINGLICENSE",
               "required": true,
               "accept": "application/pdf",
               "fileType": "PDFONLY"
@@ -174,7 +174,7 @@
               "fileType": "PDFONLY"
             },
             {
-              "code": "PERFORMA",
+              "code": "PERFORMADHBOBIGHAT",
               "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
               "required": true,
               "accept": "application/pdf",
@@ -204,7 +204,7 @@
               "fileType": "PDFONLY"
             },
             {
-              "code": "PERFORMA",
+              "code": "PERFORMADHBOBIGHAT",
               "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
               "required": true,
               "accept": "application/pdf",
