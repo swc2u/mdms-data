@@ -14793,6 +14793,12 @@
       "tenantId": "ch"
     },
     {
+      "rolecode": "CITIZEN",
+      "actionid": 1900,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
       "rolecode": "EMPLOYEE",
       "actionid": 1571,
       "actioncode": "",
