@@ -25939,6 +25939,48 @@
       "actionid": 1730,
       "actioncode": "",
       "tenantId": "ch"
+    },
+	{
+      "rolecode": "CITIZEN",
+      "actionid": 1817,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "EMPLOYEE",
+      "actionid": 1817,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "TL_APPROVER",
+      "actionid": 1817,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "TL_CEMP",
+      "actionid": 1817,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	 {
+      "rolecode": "CLERK",
+      "actionid": 1817,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "SA",
+      "actionid": 1817,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "SI",
+      "actionid": 1817,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }

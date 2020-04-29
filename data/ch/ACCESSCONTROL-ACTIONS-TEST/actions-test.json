@@ -12791,7 +12791,7 @@
       "code": "null",
       "path": ""
     },
-    {
+	{
       "id": 1688,
       "name": "Get Bill",
       "url": "/tl-calculator/v1/_getbill",
@@ -16029,6 +16029,18 @@
       "leftIcon": "custom:trade-license",
       "rightIcon": "",
       "queryParams": ""
+    },
+ {
+      "id": 1817,
+      "name": "fetch count of TradeLicense",
+      "url": "/tl-services/v1/_count",
+      "parentModule": "",
+      "displayName": "fetch count of TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
     }
 
   ]
