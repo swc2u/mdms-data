@@ -15423,7 +15423,7 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda Branch Agenda.Agenda Branch Create Agenda",
+		"path": "Agenda Branch.Agenda Branch Agenda.Agenda Branch Create Agenda",
 		"navigationURL": "services/council/councilpreamble/new",
 		"leftIcon": "editor:insert-chart"
 	},
@@ -15437,7 +15437,7 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda Branch Agenda.Agenda Branch View Agenda",
+		"path": "Agenda Branch.Agenda Branch Agenda.Agenda Branch View Agenda",
 		"navigationURL": "services/council/agenda/search/view",
 		"leftIcon": "editor:insert-chart"
 	},
@@ -15451,7 +15451,7 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda Branch Agenda.Agenda Branch Update Agenda",
+		"path": "Agenda Branch.Agenda Branch Agenda.Agenda Branch Update Agenda",
 		"navigationURL": "services/council/agenda/searchagenda/edit",
 		"leftIcon": "editor:insert-chart"
 	},
@@ -15465,7 +15465,7 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda Meeting.Agenda Create Meeting Invitation",
+		"path": "Agenda Branch.Agenda Meeting.Agenda Create Meeting Invitation",
 		"navigationURL": "services/council/councilmeeting/agendasearch/view",
 		"leftIcon": "editor:insert-chart"
 	},
@@ -15479,7 +15479,7 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda Meeting.Agenda View Meeting",
+		"path": "Agenda Branch.Agenda Meeting.Agenda View Meeting",
 		"navigationURL": "services/council/councilmeeting/search/view",
 		"leftIcon": "editor:insert-chart"
 	},
@@ -15493,8 +15493,36 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda Meeting.Agenda Update Meeting",
+		"path": "Agenda Branch.Agenda Meeting.Agenda Update Meeting",
 		"navigationURL": "services/council/councilmeeting/search/edit",
+		"leftIcon": "editor:insert-chart"
+	},	
+	{
+		"id": "4030",
+		"name": "Agenda Enter Attendance",
+		"url": "/services/council/councilmeeting/attendance/search",
+		"displayName": "Agenda Enter Attendance",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-agenda",
+		"enabled": true,
+		"serviceCode": "AgendaBranch",
+		"code": "",
+		"path": "Agenda Branch.Agenda Meeting.Agenda Enter Attendance",
+		"navigationURL": "services/council/councilmeeting/attendance/search",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": "4029",
+		"name": "Agenda Send Sms And Email",
+		"url": "/services/council/councilmeeting/viewsmsemail",
+		"displayName": "Agenda Send Sms And Email",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-agenda",
+		"enabled": true,
+		"serviceCode": "AgendaBranch",
+		"code": "",
+		"path": "Agenda Branch.Agenda Meeting.Agenda Send Sms And Email",
+		"navigationURL": "services/council/councilmeeting/viewsmsemail",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
@@ -15507,7 +15535,7 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda MOM.Agenda Create MOM",
+		"path": "Agenda Branch.Agenda MOM.Agenda Create MOM",
 		"navigationURL": "services/council/councilmom/meetingsearch/view",
 		"leftIcon": "editor:insert-chart"
 	},
@@ -15521,7 +15549,7 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda MOM.Agenda View MOM",
+		"path": "Agenda Branch.Agenda MOM.Agenda View MOM",
 		"navigationURL": "services/council/councilmom/search/view",
 		"leftIcon": "editor:insert-chart"
 	},
@@ -15535,7 +15563,7 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda MOM.Agenda Update MOM",
+		"path": "Agenda Branch.Agenda MOM.Agenda Update MOM",
 		"navigationURL": "services/council/councilmom/search/edit",
 		"leftIcon": "editor:insert-chart"
 	},
@@ -15549,36 +15577,51 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda Council Data Entry Screen",
+		"path": "Agenda Branch.Agenda Council Data Entry Screen",
 		"navigationURL": "services/council/councilmom/createdataentry",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
-		"id": "4029",
-		"name": "Agenda Send Sms And Email",
-		"url": "/services/council/councilmeeting/viewsmsemail",
-		"displayName": "Agenda Send Sms And Email",
+		"id": "4031",
+		"name": "Agenda Attendance Report",
+		"url": "/services/council/councilmeeting/attendance/report/search",
+		"displayName": "Agenda Attendance Report",
 		"orderNumber": "1",
 		"parentModule": "rainmaker-agenda",
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda Send Sms And Email",
-		"navigationURL": "services/council/councilmeeting/viewsmsemail",
-		"leftIcon": "editor:insert-chart"
+		"path": "Agenda Branch.Agenda Reports.Agenda Attendance Report",
+		"navigationURL": "services/council/councilmeeting/attendance/report/search",
+		"leftIcon": "action:assignment"
 	},
 	{
-		"id": "4030",
-		"name": "Agenda Enter Attendance",
-		"url": "/services/council/councilmeeting/attendance/search",
-		"displayName": "Agenda Enter Attendance",
+		"id": "4032",
+		"name": "Ward Wise Agenda Report",
+		"url": "/services/council/councilreports/preamblewardwise/search",
+		"displayName": "Agenda Ward Wise Agenda Report",
 		"orderNumber": "1",
 		"parentModule": "rainmaker-agenda",
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Transactions.Agenda Enter Attendance",
-		"navigationURL": "services/council/councilmeeting/attendance/search"
+		"path": "Agenda Branch.Agenda Reports.Agenda Ward Wise Agenda Report",
+		"navigationURL": "services/council/councilreports/preamblewardwise/search",
+		"leftIcon": "action:assignment"
+	},
+	{
+		"id": "4033",
+		"name": "Agenda Meeting Details Report",
+		"url": "/services/council/councilreports/meetingdetails/search",
+		"displayName": "Meeting Details Report",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-agenda",
+		"enabled": true,
+		"serviceCode": "AgendaBranch",
+		"code": "",
+		"path": "Agenda Branch.Agenda Reports.Agenda Meeting Details Report",
+		"navigationURL": "services/council/councilreports/meetingdetails/search",
+		"leftIcon": "action:assignment"
 	}
   ]
 }
