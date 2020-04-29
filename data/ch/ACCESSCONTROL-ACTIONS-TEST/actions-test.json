@@ -15364,7 +15364,7 @@
 		"displayName": "Agenda Create Committee Type",
 		"orderNumber": "1",
 		"parentModule": "agenda-branch",
-		"enabled": false,
+		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
 		"path": "Agenda Branch.Agenda Masters.Agenda Committee Type.Agenda Create Committee Type",
