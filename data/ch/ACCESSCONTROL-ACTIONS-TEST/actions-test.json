@@ -1,4 +1,3 @@
-
 {
   "tenantId": "ch",
   "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
@@ -914,16 +913,16 @@
 	},
 	{
 		"id": 998,
-		"name": "Legal View Judgment Type",
+		"name": "Legal View Judgement Type",
 		"url": "/services/lcms/judgmenttype/search/view",
 		"parentModule": "",
-		"displayName": "Legal View Judgment Type",
+		"displayName": "Legal View Judgement Type",
 		"orderNumber": 1,
 		"enabled": true,
 		"serviceCode": "LCMSViewJudgmentType",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
-		"path": "Legal Case Management.Legal Case Masters.Legal Judgement Type Master.Legal View Judgment Type",
+		"path": "Legal Case Management.Legal Case Masters.Legal Judgement Type Master.Legal View Judgement Type",
 		"navigationURL": "services/lcms/judgmenttype/search/view"
 	},
 	{
@@ -1045,7 +1044,7 @@
 		"parentModule": "",
 		"displayName": "Legal Reports Between Due Dates",
 		"orderNumber": 4,
-		"enabled": true,
+		"enabled": false,
 		"serviceCode": "LCMSReportsBetweenDueDates",
 		"code": "null",
 		"leftIcon": "editor:insert-chart",
@@ -1165,28 +1164,32 @@
 		"navigationURL": "services/lcms/judgmenttype/search/edit"
     },
     {
-      "id": 1177,
-      "name": "Agency Search",
-      "url": "/lcms-services/legalcase/advocate/agency/_search",
-      "displayName": "Search Agency",
-      "orderNumber": 1,
-      "parentModule": "516",
-      "enabled": false,
-      "serviceCode": "ADVOCATE",
-      "code": "null",
-      "path": "Legal Case Management.Legal Case Masters.Advocate.Agency Search"
+		"id": 1177,
+		"name": "Legal Create Library",
+		"url": "/services/lcms/library/new",
+		"parentModule": "",
+		"displayName": "Legal Create Library",
+		"orderNumber": 1,
+		"enabled": true,
+		"serviceCode": "LCMSCreateLibrary",
+		"code": "null",
+		"leftIcon": "editor:insert-chart",
+		"path": "Legal Case Management.Legal Case Library.Legal Create Library",
+		"navigationURL": "services/lcms/library/new"
     },
     {
-      "id": 1185,
-      "name": "Search Event",
-      "url": "/lcms-services/legalcase/event/_get",
-      "displayName": "My Events",
-      "orderNumber": 1,
-      "parentModule": "513",
-      "enabled": false,
-      "serviceCode": "CASE",
-      "code": "null",
-      "path": "Legal Case Management.Legal Case Transactions.Case.Search Event"
+		"id": 1185,
+		"name": "Legal Search Library",
+		"url": "/services/lcms/library/search/view",
+		"parentModule": "",
+		"displayName": "Legal Search Library",
+		"orderNumber": 2,
+		"enabled": true,
+		"serviceCode": "LCMSSearchLibrary",
+		"code": "null",
+		"leftIcon": "editor:insert-chart",
+		"path": "Legal Case Management.Legal Case Library.Legal Search Library",
+		"navigationURL": "services/lcms/library/search/view"
     },
     {
       "id": 1067,
@@ -6830,16 +6833,18 @@
       "path": ""
     },
     {
-      "id": 996,
-      "name": "Advocate Update",
-      "url": "/lcms-services/legalcase/advocate/_update",
-      "displayName": "Update Advocate",
-      "orderNumber": 0,
-      "parentModule": "516",
-      "enabled": false,
-      "serviceCode": "ADVOCATE",
-      "code": "null",
-      "path": "Legal Case Management.Legal Case Masters.Advocate.Advocate Update"
+		"id": 996,
+		"name": "Legal Modify Library",
+		"url": "/services/lcms/library/search/edit",
+		"parentModule": "",
+		"displayName": "Legal Modify Library",
+		"orderNumber": 2,
+		"enabled": true,
+		"serviceCode": "LCMSModifyLibrary",
+		"code": "null",
+		"leftIcon": "editor:insert-chart",
+		"path": "Legal Case Management.Legal Case Library.Legal Modify Library",
+		"navigationURL": "services/lcms/library/search/edit"
     },
     {
       "id": 999,
@@ -10153,7 +10158,7 @@
       "code": "null",
       "path": "Employee Management.Employee Masters.Employee.SearchEmployee"
     },
-	{
+    {
       "id": 1535,
       "name": "RainmakerPgrEscalationSearch",
       "url": "/rainmaker-pgr/v1/requests/escalate/_batch",
