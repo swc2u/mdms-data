@@ -532,6 +532,11 @@
       "code": "CE",
       "name": "CE",
       "description": "Chief Engineer"
+    },
+   {
+      "code": "SYSTEM",
+      "name": "System user",
+      "description": "System user"
     }
   ]
 }

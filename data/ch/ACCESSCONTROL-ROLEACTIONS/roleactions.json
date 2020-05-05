@@ -11967,25 +11967,7 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 1211,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
       "rolecode": "SUPERUSER",
-      "actionid": 1210,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE ADMIN",
-      "actionid": 1210,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
       "actionid": 1210,
       "actioncode": "",
       "tenantId": "ch"
@@ -14426,6 +14408,12 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+	{
+      "rolecode": "SYSTEM",
+      "actionid": 1535,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
     {
       "rolecode": "GRO",
       "actionid": 1553,
@@ -14455,7 +14443,7 @@
       "actionid": 1429,
       "actioncode": "",
       "tenantId": "ch"
-    },
+    },    
     {
       "rolecode": "EMPLOYEE",
       "actionid": 1429,
@@ -14543,6 +14531,12 @@
     {
       "rolecode": "DGRO",
       "actionid": 1564,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "DGRO",
+      "actionid": 1957,
       "actioncode": "",
       "tenantId": "ch"
     },
@@ -14711,6 +14705,12 @@
     {
       "rolecode": "PGR-ADMIN",
       "actionid": 699,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "PGR-ADMIN",
+      "actionid": 1957,
       "actioncode": "",
       "tenantId": "ch"
     },
@@ -27011,6 +27011,246 @@
 	{
 		"rolecode": "CE",
 		"actionid": "2061",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+    {
+      "rolecode": "EGF_REPORT_VIEW",
+      "actionid": 1959,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1959,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_REPORT_VIEW",
+      "actionid": 1960,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1960,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_ADMINISTRATOR",
+      "actionid": 1958,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1958,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4000",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4001",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4002",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4003",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4004",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4005",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4006",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4007",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4008",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4009",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4010",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4011",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4012",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4013",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4014",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4015",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4016",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4017",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4018",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4019",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4020",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4021",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4022",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4023",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4024",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4025",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4026",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4027",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4028",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4029",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4030",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4031",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4032",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4033",
 		"actioncode": "",
 		"tenantId": "ch"
 	}
