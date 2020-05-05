@@ -180,7 +180,7 @@
     },
 	{
       "id": "20023",
-	  "code":"FOR_EAch.chandigarh_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT8",
+	  "code":"FOR_EACH_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT8",
 	  "typeOfAdvertisementId":"10008",
       "tenantId": "ch.chandigarh",
       "name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
@@ -188,7 +188,7 @@
     },
 	{
       "id": "20024",
-	  "code":"FOR_EAch.chandigarh_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT8",
+	  "code":"FOR_EACH_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT8",
 	  "typeOfAdvertisementId":"10008",
       "tenantId": "ch.chandigarh",
       "name": "For each additional 10 sq. ft. in area or less",
