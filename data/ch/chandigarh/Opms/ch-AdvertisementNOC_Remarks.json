@@ -1,11 +1,11 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "AdvertisementNOC",
   "AdvertisementNOCRemarksDocuments": [
     {
       "code": "AdvertisementNOC.REMARK_DOCUMENT",
       "documentType": "AdvertisementNOC",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": false,
       "dropdownData": [

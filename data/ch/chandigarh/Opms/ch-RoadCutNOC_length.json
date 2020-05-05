@@ -1,46 +1,46 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "egpm",
   "length": [
     {
       "id": "1",
 	  "code":"LENGHT_1",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "1",
       "active": true
     },
 	{
       "id": "2",
 	  "code":"LENGHT_2",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "2",
       "active": true
     },
 	{
       "id": "3",
 	  "code":"LENGHT_3",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "3",
       "active": true
     },
 	{
       "id": "4",
 	  "code":"LENGHT_4",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "4",
       "active": true
     },
 	{
       "id": "5",
 	  "code":"LENGHT_5",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "5",
       "active": true
     },
 	{
       "id": "5",
 	  "code":"LENGHT_OTHER",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Other",
       "active": true
     }

@@ -1,11 +1,11 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "RoadCutNOC",
   "RoadCutNOCRemarksDocuments": [
     {
       "code": "RoadCutNOC.REMARK_DOCUMENT",
       "documentType": "RoadCutNOC",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": false,
       "dropdownData": [

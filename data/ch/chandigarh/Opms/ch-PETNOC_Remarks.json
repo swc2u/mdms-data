@@ -1,11 +1,11 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "PetNOC",
   "RemarksDocuments": [
     {
       "code": "PET.REMARK_DOCUMENT_SI",
       "documentType": "PET",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": false,
       "dropdownData": [

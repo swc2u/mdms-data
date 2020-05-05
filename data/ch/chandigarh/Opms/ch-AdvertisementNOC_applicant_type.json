@@ -1,32 +1,32 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "egpm",
   "typeOfApplicant": [
     {
       "id": "1",
 	  "code": "INDIVIDUAL",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Individual",
       "active": true
     },
 	{
       "id": "2",
 	  "code": "FIRM_COMPANY",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Firm/Company",
       "active": true
     },
 	{
       "id": "3",
 	  "code": "SOCIAL_CAUSE",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Social Cause",
       "active": true
     },
 	{
       "id": "4",
 	  "code": "GOVT_ORGANIZATION",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Govt. Organization",
       "active": true
     }

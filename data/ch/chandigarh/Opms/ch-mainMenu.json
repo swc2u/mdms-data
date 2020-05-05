@@ -1,32 +1,32 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "egpm",
   "mainMenu": [
     {
       "id": "1",
 	  "code": "NOC_FOR_PET",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "NOC for Pet",
       "active": true
     },
 	{
       "id": "2",
 	  "code": "NOC_FOR_SELL_MEAT",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "NOC for Sell Meat",
       "active": true
     },
 	{
       "id": "3",
 	  "code": "NOC_FOR_ADVERTISEMENT",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "NOC for Advertisement",
       "active": true
     },
 	{
       "id": "4",
 	  "code": "NOC_FOR_ROAD_CUTTING",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "NOC for Road Cutting",
       "active": true
     }

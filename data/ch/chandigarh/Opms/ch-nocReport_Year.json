@@ -1,25 +1,25 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "egpm",
   "reportYear": [
     {
       "id": "1",
 	  "code":"Year19",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "2018-2019",
       "active": true
     },
 	{
       "id": "2",
 	  "code":"Year20",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "2019-2020",
       "active": true
     },
 	{
       "id": "3",
 	  "code":"Year21",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "2020-2021",
       "active": true
     }

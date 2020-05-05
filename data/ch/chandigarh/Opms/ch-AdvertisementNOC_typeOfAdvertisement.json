@@ -1,10 +1,10 @@
 {
-	"tenantId": "ch",
+	"tenantId": "ch.chandigarh",
 	"moduleName": "egpm",
 	"typeOfAdvertisement": [{
 			"id": "10001",
 			"code": "ADVERTISEMENT_OR_HOARDING_ON_WALL_OR_POST_OR_IN_THE_FORM_OF_NON-ILLUMINATED_SKY-SIGNS",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Advertisement or hoarding on wall or post or in the form of non-illuminated sky-signs",
 			"active": true,
 			"duration": [
@@ -14,7 +14,7 @@
 					"id": "20001",
 					"code": "FOR_A_SPACE_UP_TO_10_SQ_FT_CAT1",
 					"typeOfAdvertisementId": "10001",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space up to 10 Sq. ft.",
 					"active": true
 				},
@@ -22,7 +22,7 @@
 					"id": "20002",
 					"code": "FOR_A_SPACE_OVER_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT1",
 					"typeOfAdvertisementId": "10001",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space over 10 Sq. ft. and up to 25 sq. ft.",
 					"active": true
 				},
@@ -30,7 +30,7 @@
 					"id": "20003",
 					"code": "FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT1",
 					"typeOfAdvertisementId": "10001",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every additional 25 sq. ft. or less",
 					"active": true
 				}
@@ -38,7 +38,7 @@
 			"durationDropdown": [{
 				"id": "4",
 				"code": "ANNUAL",
-				"tenantId": "ch",
+				"tenantId": "ch.chandigarh",
 				"name": "Annual",
 				"active": true
 			}],
@@ -47,7 +47,7 @@
 		{
 			"id": "10002",
 			"code": "ADVERTISEMENT_OR_HORDING_STANDING_BLANK_BUT_BEARING_THE_NAME_OF_THE_ADVERTISER_OR_WITH_THE_ANNOUNCEMENT_TO_BE_LET_DISPLAYED_THEREON",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Advertisement or hoarding standing blank but bearing the name of the advertiser or with the announcement ‘to be let’ displayed thereon",
 			"active": true,
 			"duration": [
@@ -58,7 +58,7 @@
 					"id": "20004",
 					"code": "FOR_A_SPACE_UP_TO_10_SQ_FT_CAT2",
 					"typeOfAdvertisementId": "10002",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space up to 10 Sq. ft.",
 					"active": true
 				},
@@ -66,7 +66,7 @@
 					"id": "20005",
 					"code": "FOR_A_SPACE_OVER_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT2",
 					"typeOfAdvertisementId": "10002",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space over 10 Sq. ft. and up to 25 sq. ft.",
 					"active": true
 				},
@@ -74,7 +74,7 @@
 					"id": "20006",
 					"code": "FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT2",
 					"typeOfAdvertisementId": "10002",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every additional 25 sq. ft. or less",
 					"active": true
 				}
@@ -82,7 +82,7 @@
 			"durationDropdown": [{
 				"id": "4",
 				"code": "ANNUAL",
-				"tenantId": "ch",
+				"tenantId": "ch.chandigarh",
 				"name": "Annual",
 				"active": true
 			}]
@@ -90,7 +90,7 @@
 		{
 			"id": "10003",
 			"code": "FIXED_ILLUMINATED_SKY-SIGNS_AND_ADVERTISEMENT",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Fixed illuminated sky-signs and advertisement",
 			"active": true,
 			"duration": [
@@ -101,7 +101,7 @@
 					"id": "20007",
 					"code": "FOR_A_SPACE_UP_TO_2_SQ_FT_CAT3",
 					"typeOfAdvertisementId": "10003",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space up to 2 sq. ft.",
 					"active": true
 				},
@@ -109,7 +109,7 @@
 					"id": "20008",
 					"code": "OVER_2_SQ_FT_AND_UP_TO_5_SQ_FT_CAT3",
 					"typeOfAdvertisementId": "10003",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Over 2 Sq. ft. and up to 5 sq. ft.",
 					"active": true
 				},
@@ -117,7 +117,7 @@
 					"id": "20009",
 					"code": "OVER_5_SQ_FT_AND_UP_TO_25_SQ_FT_CAT3",
 					"typeOfAdvertisementId": "10003",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Over 5 sq. ft. and up to 25 Sq. ft.",
 					"active": true
 				},
@@ -125,7 +125,7 @@
 					"id": "20010",
 					"code": "FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT3",
 					"typeOfAdvertisementId": "10003",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every additional 25 sq. ft. or less",
 					"active": true
 				}
@@ -133,7 +133,7 @@
 			"durationDropdown": [{
 				"id": "4",
 				"code": "ANNUAL",
-				"tenantId": "ch",
+				"tenantId": "ch.chandigarh",
 				"name": "Annual",
 				"active": true
 			}]
@@ -141,7 +141,7 @@
 		{
 			"id": "10004",
 			"code": "DIGITAL_ADVERTISEMENT_NON-STATIC_LED_OR_SIMILAR_DEVICE_SINGLE_SIDE_RATES_WILL_BE_DOUBLE_TOP_THE_TRADITIONAL_AND_EXISTING_FIXED_ILLUMINATED_SKY-SIGNS",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Digital Advertisement (non-static LED) or similar device single side rates will be double top the traditional and existing fixed illuminated sky-signs",
 			"active": true,
 			"duration": [
@@ -152,7 +152,7 @@
 					"id": "20011",
 					"code": "FOR_A_SPACE_UP_TO_2_SQ_FT_CAT4",
 					"typeOfAdvertisementId": "10004",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space up to 2 sq. ft.",
 					"active": true
 				},
@@ -160,7 +160,7 @@
 					"id": "20012",
 					"code": "OVER_2_SQ_FT_AND_UP_TO_5_SQ_FT_CAT4",
 					"typeOfAdvertisementId": "10004",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Over 2 Sq. ft. and up to 5 sq. ft.",
 					"active": true
 				},
@@ -168,7 +168,7 @@
 					"id": "20013",
 					"code": "OVER_5_SQ_FT_AND_UP_TO_25_SQ_FT_CAT4",
 					"typeOfAdvertisementId": "10004",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Over 5 sq. ft. and up to 25 Sq. ft.",
 					"active": true
 				},
@@ -176,7 +176,7 @@
 					"id": "20014",
 					"code": "FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT4",
 					"typeOfAdvertisementId": "10004",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every additional 25 sq. ft. or less",
 					"active": true
 				}
@@ -184,7 +184,7 @@
 			"durationDropdown": [{
 				"id": "4",
 				"code": "ANNUAL",
-				"tenantId": "ch",
+				"tenantId": "ch.chandigarh",
 				"name": "Annual",
 				"active": true
 			}]
@@ -192,7 +192,7 @@
 		{
 			"id": "10005",
 			"code": "NON-ILLUMINATED_ADVERTISEMENT_BOARDS_CARRIED_ON_VEHICLES_CABS_AUTO_RICKSHAW_PVT_VEHICLES_ETC_INCLUDING_BUSES",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Non-illuminated advertisement boards carried on vehicles (i.e. cabs/auto rickshaw/Pvt. Vehicles etc.) including buses",
 			"active": true,
 			"duration": [
@@ -204,7 +204,7 @@
 					"id": "20015",
 					"code": "FOR_A_SPACE_UP_TO_50_SQ_FT_CAT5",
 					"typeOfAdvertisementId": "10005",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space up to 50 sq. ft.",
 					"active": true
 				},
@@ -212,7 +212,7 @@
 					"id": "20016",
 					"code": "FOR_EVERY_ADDITIONAL_50_SQ_FT_CAT5",
 					"typeOfAdvertisementId": "10005",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every additional 50 sq. ft.",
 					"active": true
 				}
@@ -220,14 +220,14 @@
 			"durationDropdown": [{
 					"id": "3",
 					"code": "MONTHLY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Monthly",
 					"active": true
 				},
 				{
 					"id": "4",
 					"code": "ANNUAL",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Annual",
 					"active": true
 				}
@@ -235,9 +235,9 @@
 		},
 		{
 			"id": "10006",
-			"code": "ILLUMINATED_ADVERTISEMENT_BOARDS_CARRIED_ON_VEHICLES_CABS_AUTO_RICKSHAW_PVT_VEHICLES_ETC_INCLUDING_BUSES_PLYING_CHANDIGARH",
-			"tenantId": "ch",
-			"name": "Illuminated advertisement boards carried on vehicles (i.e. cabs/auto, rickshaw/Pvt. Vehicles etc.) including buses plying Chandigarh",
+			"code": "ILLUMINATED_ADVERTISEMENT_BOARDS_CARRIED_ON_VEHICLES_CABS_AUTO_RICKSHAW_PVT_VEHICLES_ETC_INCLUDING_BUSES_PLYING_ch.chandigarhANDIGARH",
+			"tenantId": "ch.chandigarh",
+			"name": "Illuminated advertisement boards carried on vehicles (i.e. cabs/auto, rickshaw/Pvt. Vehicles etc.) including buses plying ch.chandigarhandigarh",
 			"active": true,
 			"duration": [
 				"annual",
@@ -248,7 +248,7 @@
 					"id": "20017",
 					"code": "FOR_A_SPACE_UP_TO_50_SQ_FT_CAT6",
 					"typeOfAdvertisementId": "10006",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space up to 50 sq. ft.",
 					"active": true
 				},
@@ -256,7 +256,7 @@
 					"id": "20018",
 					"code": "FOR_EVERY_ADDITIONAL_50_SQ_FT_OR_LESS_CAT6",
 					"typeOfAdvertisementId": "10006",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every additional 50 sq. ft. or less",
 					"active": true
 				}
@@ -264,14 +264,14 @@
 			"durationDropdown": [{
 					"id": "3",
 					"code": "MONTHLY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Monthly",
 					"active": true
 				},
 				{
 					"id": "4",
 					"code": "ANNUAL",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Annual",
 					"active": true
 				}
@@ -279,9 +279,9 @@
 		},
 		{
 			"id": "10007",
-			"code": "ADVERTISEMENT_BOARDS_ETC_CARRIED_BY_SANDWICH_BOARDMEN_NON-ILLUMINATED",
-			"tenantId": "ch",
-			"name": "Advertisement boards etc. carried by sandwich boardmen (Non-illuminated)",
+			"code": "ADVERTISEMENT_BOARDS_ETC_CARRIED_BY_SANDWIch.chandigarh_BOARDMEN_NON-ILLUMINATED",
+			"tenantId": "ch.chandigarh",
+			"name": "Advertisement boards etc. carried by sandwich.chandigarh boardmen (Non-illuminated)",
 			"active": true,
 			"duration": [
 				"annual",
@@ -290,40 +290,40 @@
 			"calculationType": "range",
 			"subTypeOfAdvertisement": [{
 					"id": "20019",
-					"code": "FOR_EACH_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT7",
+					"code": "FOR_EAch.chandigarh_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT7",
 					"typeOfAdvertisementId": "10007",
-					"tenantId": "ch",
-					"name": "For each board not exceeding 10 sq. ft.",
+					"tenantId": "ch.chandigarh",
+					"name": "For each.chandigarh board not exceeding 10 sq. ft.",
 					"active": true
 				},
 				{
 					"id": "20020",
-					"code": "FOR_EACH_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT7",
+					"code": "FOR_EAch.chandigarh_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT7",
 					"typeOfAdvertisementId": "10007",
-					"tenantId": "ch",
-					"name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
+					"tenantId": "ch.chandigarh",
+					"name": "For each.chandigarh board exceeding 10 sq. ft. and up to 25 sq. ft.",
 					"active": true
 				},
 				{
 					"id": "20021",
-					"code": "FOR_EACH_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT7",
+					"code": "FOR_EAch.chandigarh_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT7",
 					"typeOfAdvertisementId": "10007",
-					"tenantId": "ch",
-					"name": "For each additional 10 sq. ft. in area or less",
+					"tenantId": "ch.chandigarh",
+					"name": "For each.chandigarh additional 10 sq. ft. in area or less",
 					"active": true
 				}
 			],
 			"durationDropdown": [{
 					"id": "3",
 					"code": "MONTHLY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Monthly",
 					"active": true
 				},
 				{
 					"id": "4",
 					"code": "ANNUAL",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Annual",
 					"active": true
 				}
@@ -332,7 +332,7 @@
 		{
 			"id": "10008",
 			"code": "ILLUMINATED_ADVERTISEMENT_BOARDS_ETC_CARRIED_BY_BOARDMEN_HANDCRAFT_CYCLIST_OR_CYCLE_RICKSHAWS",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Illuminated advertisement boards etc. carried by boardmen, handcraft, cyclist or cycle rickshaws ",
 			"active": true,
 			"duration": [
@@ -342,40 +342,40 @@
 			"calculationType": "range",
 			"subTypeOfAdvertisement": [{
 					"id": "20022",
-					"code": "FOR_EACH_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT8",
+					"code": "FOR_EAch.chandigarh_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT8",
 					"typeOfAdvertisementId": "10008",
-					"tenantId": "ch",
-					"name": "For each board not exceeding 10 sq. ft.",
+					"tenantId": "ch.chandigarh",
+					"name": "For each.chandigarh board not exceeding 10 sq. ft.",
 					"active": true
 				},
 				{
 					"id": "20023",
-					"code": "FOR_EACH_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT8",
+					"code": "FOR_EAch.chandigarh_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT8",
 					"typeOfAdvertisementId": "10008",
-					"tenantId": "ch",
-					"name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
+					"tenantId": "ch.chandigarh",
+					"name": "For each.chandigarh board exceeding 10 sq. ft. and up to 25 sq. ft.",
 					"active": true
 				},
 				{
 					"id": "20024",
-					"code": "FOR_EACH_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT8",
+					"code": "FOR_EAch.chandigarh_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT8",
 					"typeOfAdvertisementId": "10008",
-					"tenantId": "ch",
-					"name": "For each additional 10 sq. ft. in area or less",
+					"tenantId": "ch.chandigarh",
+					"name": "For each.chandigarh additional 10 sq. ft. in area or less",
 					"active": true
 				}
 			],
 			"durationDropdown": [{
 					"id": "3",
 					"code": "MONTHLY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Monthly",
 					"active": true
 				},
 				{
 					"id": "4",
 					"code": "ANNUAL",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Annual",
 					"active": true
 				}
@@ -384,7 +384,7 @@
 		{
 			"id": "10009",
 			"code": "FOR_ILLUMINATED_SKY-SIGNS_AND_ADVERTISEMENT_EXHIBITED_ON_SCREENS_BY_MEAN_OF_LANTERN_SLIDES_PROJECTOR_OR_SIMILAR_DEVICES",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "For illuminated sky-signs and advertisement exhibited on screens by mean of lantern slides, projector or similar devices",
 			"active": true,
 			"duration": [
@@ -396,7 +396,7 @@
 					"id": "20025",
 					"code": "FOR_A_SPACE_UP_TO_5_SQ_FT_CAT9",
 					"typeOfAdvertisementId": "10009",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space up to 5 sq. ft.",
 					"active": true
 				},
@@ -404,7 +404,7 @@
 					"id": "20026",
 					"code": "FOR_A_SPACE_OVER_5_SQ_FT_AND_UP_TO_25_SQ_FT_CAT9",
 					"typeOfAdvertisementId": "10009",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For a space over 5 sq. ft. and up to 25 sq. ft.",
 					"active": true
 				},
@@ -412,7 +412,7 @@
 					"id": "20027",
 					"code": "FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT9",
 					"typeOfAdvertisementId": "10009",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every additional 25 sq. ft. or less",
 					"active": true
 				}
@@ -420,14 +420,14 @@
 			"durationDropdown": [{
 					"id": "3",
 					"code": "MONTHLY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Monthly",
 					"active": true
 				},
 				{
 					"id": "4",
 					"code": "ANNUAL",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Annual",
 					"active": true
 				}
@@ -435,9 +435,9 @@
 		},
 		{
 			"id": "10010",
-			"code": "PERMISSION_TO_AUCTIONEERS_TEMPORARY_TRAVELLING_SALES_ORGANIZER_EXHIBITOR_FAIR_ORGANIZERS_CIRCUSES_CONVENTION_ORGANIZER_ETC_TO_PUT_UP_NOT_MORE_THAN_TWO_HORDES_OF_REASONABLE_SIZE_LESS_THAN_5_SQ_FT_ADVERTISING_EACH_AUCTION_OR_SALE_OTHER_THAN_THOSE_ON_THE_PREMISES_WHERE_THE_AUCTION_IS_HELD_ONE_ON_A_PROMINENT_SITE_IN_THE_LOCALITY_AND_ONE_ON_THE_MUNICIPAL_LAMP_POST",
-			"tenantId": "ch",
-			"name": "Permission to auctioneers, temporary/ travelling sales organizer, exhibitor, fair organizers, circuses, convention organizer, etc. to put up not more than two hordes of reasonable size less than 5 sq. ft. advertising each auction or sale other than those on the premises where the auction is held. One on a prominent site in the locality and one on the municipal lamp post.",
+			"code": "PERMISSION_TO_AUCTIONEERS_TEMPORARY_TRAVELLING_SALES_ORGANIZER_EXHIBITOR_FAIR_ORGANIZERS_CIRCUSES_CONVENTION_ORGANIZER_ETC_TO_PUT_UP_NOT_MORE_THAN_TWO_HORDES_OF_REASONABLE_SIZE_LESS_THAN_5_SQ_FT_ADVERTISING_EAch.chandigarh_AUCTION_OR_SALE_OTHER_THAN_THOSE_ON_THE_PREMISES_WHERE_THE_AUCTION_IS_HELD_ONE_ON_A_PROMINENT_SITE_IN_THE_LOCALITY_AND_ONE_ON_THE_MUNICIPAL_LAMP_POST",
+			"tenantId": "ch.chandigarh",
+			"name": "Permission to auctioneers, temporary/ travelling sales organizer, exhibitor, fair organizers, circuses, convention organizer, etc. to put up not more than two hordes of reasonable size less than 5 sq. ft. advertising each.chandigarh auction or sale other than those on the premises where the auction is held. One on a prominent site in the locality and one on the municipal lamp post.",
 			"active": false,
 			"duration": [
 				"day",
@@ -450,14 +450,14 @@
 			"durationDropdown": [{
 					"id": "1",
 					"code": "DAILY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Daily",
 					"active": true
 				},
 				{
 					"id": "2",
 					"code": "WEEKLY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Weekly",
 					"active": true
 				}
@@ -466,7 +466,7 @@
 		{
 			"id": "10011",
 			"code": "ADVT_BOARDS_AT_PERMITTED_LOCATIONS",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Advt. boards at permitted locations",
 			"active": false,
 			"duration": [],
@@ -475,7 +475,7 @@
 					"id": "20028",
 					"code": "UP_TO_5_SQ_FT_CAT11",
 					"typeOfAdvertisementId": "10011",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "up to 5 sq. ft.",
 					"active": true
 				},
@@ -483,7 +483,7 @@
 					"id": "20029",
 					"code": "UP_TO_25_SQ_FT_CAT11",
 					"typeOfAdvertisementId": "10011",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "up to 25 sq. ft.",
 					"active": true
 				},
@@ -491,7 +491,7 @@
 					"id": "20041",
 					"code": "FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT11",
 					"typeOfAdvertisementId": "10011",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every additional 25 sq. ft. or less",
 					"active": true
 				}
@@ -501,7 +501,7 @@
 		{
 			"id": "10012",
 			"code": "ADVT_EXHIBITED_IN_CINEMA_HOUSES_BY_MEANS_OF",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Advt. exhibited in cinema houses by means of",
 			"active": true,
 			"duration": [
@@ -513,7 +513,7 @@
 					"id": "20030",
 					"code": "LANTERN_SLIDES_OR_SIMILAR_DEVICES_PER_SCREEN_CAT12",
 					"typeOfAdvertisementId": "10012",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "lantern slides or similar devices (per screen)",
 					"active": true
 				},
@@ -521,7 +521,7 @@
 					"id": "20031",
 					"code": "THROUGH_SLIDE_PER_SCREEN_CAT12",
 					"typeOfAdvertisementId": "10012",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Through slide (per screen)",
 					"active": true
 				},
@@ -529,7 +529,7 @@
 					"id": "20032",
 					"code": "THROUGH_REELS_COMPUTER_DEVICE_PROJECTOR_PER_SCREEN_CAT12",
 					"typeOfAdvertisementId": "10012",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Through reels/computer device/projector (per screen)",
 					"active": true
 				}
@@ -537,14 +537,14 @@
 			"durationDropdown": [{
 					"id": "3",
 					"code": "MONTHLY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Monthly",
 					"active": true
 				},
 				{
 					"id": "4",
 					"code": "ANNUAL",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Annual",
 					"active": true
 				}
@@ -553,7 +553,7 @@
 		{
 			"id": "10013",
 			"code": "BANNERS_ON_BUILDINGS_OR_ON_OPEN_SPACE_OR_ROAD_SIDE_EXCEPT_MAIN_ROADS",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Banners on buildings or on open space or road side, except main roads",
 			"active": true,
 			"duration": [
@@ -564,7 +564,7 @@
 					"id": "20033",
 					"code": "PER_DAY_PER_SQ_FT_UP_TO_7_DAYS_CAT13",
 					"typeOfAdvertisementId": "10013",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "per day per Sq. Ft. (up to 7 days)",
 					"active": true
 				},
@@ -572,7 +572,7 @@
 					"id": "20034",
 					"code": "PER_DAY_PER_SQ_FT_AFTER_7_DAYS_OR_SUBSEQUENT_DAYS_CAT13",
 					"typeOfAdvertisementId": "10013",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Per day per Sq. ft. (after 7 days or subsequent days)",
 					"active": true
 				}
@@ -580,7 +580,7 @@
 			"durationDropdown": [{
 				"id": "1",
 				"code": "DAILY",
-				"tenantId": "ch",
+				"tenantId": "ch.chandigarh",
 				"name": "Daily",
 				"active": true
 			}]
@@ -588,7 +588,7 @@
 		{
 			"id": "10014",
 			"code": "ADVT_BY_BALLOONS_MEASURED_ACROSS_THE_DIAMETER",
-			"tenantId": "ch",
+			"tenantId": "ch.chandigarh",
 			"name": "Advt. by Balloons (Measured across the diameter)",
 			"active": true,
 			"duration": [
@@ -599,7 +599,7 @@
 					"id": "20035",
 					"code": "PER_DAY_PER_SQ_FT_UP_TO_7_DAYS_CAT14",
 					"typeOfAdvertisementId": "10014",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "per day per Sq. Ft. (up to 7 days)",
 					"active": true
 				},
@@ -607,7 +607,7 @@
 					"id": "20036",
 					"code": "PER_DAY_PER_SQ_FT_AFTER_7_DAYS_OR_SUBSEQUENT_DAYS_CAT14",
 					"typeOfAdvertisementId": "10014",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Per day per Sq. ft. (after 7 days or subsequent days)",
 					"active": true
 				}
@@ -615,16 +615,16 @@
 			"durationDropdown": [{
 				"id": "1",
 				"code": "DAILY",
-				"tenantId": "ch",
+				"tenantId": "ch.chandigarh",
 				"name": "Daily",
 				"active": true
 			}]
 		},
 		{
 			"id": "10015",
-			"code": "NON-ILLUMINATED_ADVT_BOARDS_CARRIED_ON_VEHICLES_SOLELY_AND_CHIEFLY_FOR_THE_PURPOSE_OF_ADVT_FOR_A_SPACE",
-			"tenantId": "ch",
-			"name": "Non-illuminated Advt. boards carried on vehicles solely and chiefly for the purpose of Advt. for a space ",
+			"code": "NON-ILLUMINATED_ADVT_BOARDS_CARRIED_ON_VEHICLES_SOLELY_AND_ch.chandigarhIEFLY_FOR_THE_PURPOSE_OF_ADVT_FOR_A_SPACE",
+			"tenantId": "ch.chandigarh",
+			"name": "Non-illuminated Advt. boards carried on vehicles solely and ch.chandigarhiefly for the purpose of Advt. for a space ",
 			"active": true,
 			"duration": [
 				"annual",
@@ -635,7 +635,7 @@
 					"id": "20037",
 					"code": "UP_TO_50_SQ_FT_CAT15",
 					"typeOfAdvertisementId": "10015",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Up to 50 Sq. ft.",
 					"active": true
 				},
@@ -643,7 +643,7 @@
 					"id": "20038",
 					"code": "FOR_EVERY_ADDL_50_SQ_FT_OR_LESS_CAT15",
 					"typeOfAdvertisementId": "10015",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every addl. 50 sq. ft. or less",
 					"active": true
 				}
@@ -651,14 +651,14 @@
 			"durationDropdown": [{
 					"id": "3",
 					"code": "MONTHLY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Monthly",
 					"active": true
 				},
 				{
 					"id": "4",
 					"code": "ANNUAL",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Annual",
 					"active": true
 				}
@@ -666,9 +666,9 @@
 		},
 		{
 			"id": "10016",
-			"code": "ILLUMINATED_ADVT_BOARDS_CARRIED_OUT_ON_VEHICLES_SOLELY_AND_CHIEFLY_FOR_THE_PURPOSE_OF_ADVT_FOR_A_SPACE",
-			"tenantId": "ch",
-			"name": "Illuminated Advt. boards carried out on vehicles solely and chiefly for the purpose of advt. for a space",
+			"code": "ILLUMINATED_ADVT_BOARDS_CARRIED_OUT_ON_VEHICLES_SOLELY_AND_ch.chandigarhIEFLY_FOR_THE_PURPOSE_OF_ADVT_FOR_A_SPACE",
+			"tenantId": "ch.chandigarh",
+			"name": "Illuminated Advt. boards carried out on vehicles solely and ch.chandigarhiefly for the purpose of advt. for a space",
 			"active": true,
 			"duration": [
 				"annual",
@@ -679,7 +679,7 @@
 					"id": "20039",
 					"code": "UP_TO_50_SQ_FT_CAT16",
 					"typeOfAdvertisementId": "10016",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Up to 50 Sq. ft.",
 					"active": true
 				},
@@ -687,7 +687,7 @@
 					"id": "20040",
 					"code": "FOR_EVERY_ADDL_50_SQ_FT_OR_LESS_CAT16",
 					"typeOfAdvertisementId": "10016",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "For every addl. 50 sq. ft. or less",
 					"active": true
 				}
@@ -695,14 +695,14 @@
 			"durationDropdown": [{
 					"id": "3",
 					"code": "MONTHLY",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Monthly",
 					"active": true
 				},
 				{
 					"id": "4",
 					"code": "ANNUAL",
-					"tenantId": "ch",
+					"tenantId": "ch.chandigarh",
 					"name": "Annual",
 					"active": true
 				}
