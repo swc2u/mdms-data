@@ -148,34 +148,34 @@
     },
 	{
       "id": "20019",
-	  "code":"FOR_EAch.chandigarh_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT7",
+	  "code":"FOR_EACH_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT7",
 	  "typeOfAdvertisementId":"10007",
       "tenantId": "ch.chandigarh",
-      "name": "For each.chandigarh board not exceeding 10 sq. ft.",
+      "name": "For each board not exceeding 10 sq. ft.",
       "active": true
     },
 	{
       "id": "20020",
-	  "code":"FOR_EAch.chandigarh_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT7",
+	  "code":"FOR_EACH_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT7",
 	  "typeOfAdvertisementId":"10007",
       "tenantId": "ch.chandigarh",
-      "name": "For each.chandigarh board exceeding 10 sq. ft. and up to 25 sq. ft.",
+      "name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
       "active": true
     },
 	{
       "id": "20021",
-	  "code":"FOR_EAch.chandigarh_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT7",
+	  "code":"FOR_EACH_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT7",
 	  "typeOfAdvertisementId":"10007",
       "tenantId": "ch.chandigarh",
-      "name": "For each.chandigarh additional 10 sq. ft. in area or less",
+      "name": "For each additional 10 sq. ft. in area or less",
       "active": true
     },
 	{
       "id": "20022",
-	  "code":"FOR_EAch.chandigarh_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT8",
+	  "code":"FOR_EACH_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT8",
 	  "typeOfAdvertisementId":"10008",
       "tenantId": "ch.chandigarh",
-      "name": "For each.chandigarh board not exceeding 10 sq. ft.",
+      "name": "For each board not exceeding 10 sq. ft.",
       "active": true
     },
 	{
@@ -183,7 +183,7 @@
 	  "code":"FOR_EAch.chandigarh_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT8",
 	  "typeOfAdvertisementId":"10008",
       "tenantId": "ch.chandigarh",
-      "name": "For each.chandigarh board exceeding 10 sq. ft. and up to 25 sq. ft.",
+      "name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
       "active": true
     },
 	{
@@ -191,7 +191,7 @@
 	  "code":"FOR_EAch.chandigarh_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT8",
 	  "typeOfAdvertisementId":"10008",
       "tenantId": "ch.chandigarh",
-      "name": "For each.chandigarh additional 10 sq. ft. in area or less",
+      "name": "For each additional 10 sq. ft. in area or less",
       "active": true
     },
 	{
