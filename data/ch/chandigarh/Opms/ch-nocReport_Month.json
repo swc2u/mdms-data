@@ -1,88 +1,88 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "egpm",
   "reportMonth": [
     {
       "id": "1",
 	  "code":"Month1",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "January",
       "active": true
     },
 	{
       "id": "2",
 	  "code":"Month2",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "February",
       "active": true
     },
 	{
       "id": "3",
 	  "code":"Month3",
-      "tenantId": "ch",
-      "name": "March",
+      "tenantId": "ch.chandigarh",
+      "name": "March.chandigarh",
       "active": true
     },
 	{
       "id": "4",
 	  "code":"Month4",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "April",
       "active": true
     },
 	{
       "id": "5",
 	  "code":"Month5",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "May",
       "active": true
     },
 	{
       "id": "6",
 	  "code":"Month6",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "June",
       "active": true
     },
 	{
       "id": "7",
 	  "code":"Month7",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "July",
       "active": true
     },
 	{
       "id": "8",
 	  "code":"Month8",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "August",
       "active": true
     },
 	{
       "id": "9",
 	  "code":"Month9",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "September",
       "active": true
     },
 	{
       "id": "10",
 	  "code":"Month10",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "October",
       "active": true
     },
 	{
       "id": "11",
 	  "code":"Month11",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "November",
       "active": true
     },
 	{
       "id": "12",
 	  "code":"Month12",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "December",
       "active": true
     }

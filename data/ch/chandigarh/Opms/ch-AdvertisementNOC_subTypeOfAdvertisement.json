@@ -1,12 +1,12 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "egpm",
   "subTypeOfAdvertisement": [
     {
       "id": "20001",
 	  "code":"FOR_A_SPACE_UP_TO_10_SQ_FT_CAT1",
 	  "typeOfAdvertisementId":"10001",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space up to 10 Sq. ft.",
       "active": true
     },
@@ -14,7 +14,7 @@
       "id": "20002",
 	  "code":"FOR_A_SPACE_OVER_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT1",
 	  "typeOfAdvertisementId":"10001",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space over 10 Sq. ft. and up to 25 sq. ft.",
       "active": true
     },
@@ -22,7 +22,7 @@
       "id": "20003",
 	  "code":"FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT1",
 	  "typeOfAdvertisementId":"10001",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every additional 25 sq. ft. or less",
       "active": true
     },
@@ -30,7 +30,7 @@
       "id": "20004",
 	  "code":"FOR_A_SPACE_UP_TO_10_SQ_FT_CAT2",
 	  "typeOfAdvertisementId":"10002",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space up to 10 Sq. ft.",
       "active": true
     },
@@ -38,7 +38,7 @@
       "id": "20005",
 	  "code":"FOR_A_SPACE_OVER_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT2",
 	  "typeOfAdvertisementId":"10002",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space over 10 Sq. ft. and up to 25 sq. ft.",
       "active": true
     },
@@ -46,7 +46,7 @@
       "id": "20006",
 	  "code":"FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT2",
 	  "typeOfAdvertisementId":"10002",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every additional 25 sq. ft. or less",
       "active": true
     },
@@ -54,7 +54,7 @@
       "id": "20007",
 	  "code":"FOR_A_SPACE_UP_TO_2_SQ_FT_CAT3",
 	  "typeOfAdvertisementId":"10003",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space up to 2 sq. ft.",
       "active": true
     },
@@ -62,7 +62,7 @@
       "id": "20008",
 	  "code":"OVER_2_SQ_FT_AND_UP_TO_5_SQ_FT_CAT3",
 	  "typeOfAdvertisementId":"10003",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Over 2 Sq. ft. and up to 5 sq. ft.",
       "active": true
     },
@@ -70,7 +70,7 @@
       "id": "20009",
 	  "code":"OVER_5_SQ_FT_AND_UP_TO_25_SQ_FT_CAT3",
 	  "typeOfAdvertisementId":"10003",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Over 5 sq. ft. and up to 25 Sq. ft.",
       "active": true
     },
@@ -78,7 +78,7 @@
       "id": "20010",
 	  "code":"FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT3",
 	  "typeOfAdvertisementId":"10003",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every additional 25 sq. ft. or less",
       "active": true
     },
@@ -86,7 +86,7 @@
       "id": "20011",
 	  "code":"FOR_A_SPACE_UP_TO_2_SQ_FT_CAT4",
 	  "typeOfAdvertisementId":"10004",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space up to 2 sq. ft.",
       "active": true
     },
@@ -94,7 +94,7 @@
       "id": "20012",
 	  "code":"OVER_2_SQ_FT_AND_UP_TO_5_SQ_FT_CAT4",
 	  "typeOfAdvertisementId":"10004",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Over 2 Sq. ft. and up to 5 sq. ft.",
       "active": true
     },
@@ -102,7 +102,7 @@
       "id": "20013",
 	  "code":"OVER_5_SQ_FT_AND_UP_TO_25_SQ_FT_CAT4",
 	  "typeOfAdvertisementId":"10004",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Over 5 sq. ft. and up to 25 Sq. ft.",
       "active": true
     },
@@ -110,7 +110,7 @@
       "id": "20014",
 	  "code":"FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT4",
 	  "typeOfAdvertisementId":"10004",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every additional 25 sq. ft. or less",
       "active": true
     },
@@ -118,7 +118,7 @@
       "id": "20015",
 	  "code":"FOR_A_SPACE_UP_TO_50_SQ_FT_CAT5",
 	  "typeOfAdvertisementId":"10005",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space up to 50 sq. ft.",
       "active": true
     },
@@ -126,7 +126,7 @@
       "id": "20016",
 	  "code":"FOR_EVERY_ADDITIONAL_50_SQ_FT_CAT5",
 	  "typeOfAdvertisementId":"10005",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every additional 50 sq. ft.",
       "active": true
     },
@@ -134,7 +134,7 @@
       "id": "20017",
 	  "code":"FOR_A_SPACE_UP_TO_50_SQ_FT_CAT6",
 	  "typeOfAdvertisementId":"10006",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space up to 50 sq. ft.",
       "active": true
     },
@@ -142,7 +142,7 @@
       "id": "20018",
 	  "code":"FOR_EVERY_ADDITIONAL_50_SQ_FT_OR_LESS_CAT6",
 	  "typeOfAdvertisementId":"10006",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every additional 50 sq. ft. or less",
       "active": true
     },
@@ -150,7 +150,7 @@
       "id": "20019",
 	  "code":"FOR_EACH_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT7",
 	  "typeOfAdvertisementId":"10007",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For each board not exceeding 10 sq. ft.",
       "active": true
     },
@@ -158,7 +158,7 @@
       "id": "20020",
 	  "code":"FOR_EACH_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT7",
 	  "typeOfAdvertisementId":"10007",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
       "active": true
     },
@@ -166,7 +166,7 @@
       "id": "20021",
 	  "code":"FOR_EACH_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT7",
 	  "typeOfAdvertisementId":"10007",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For each additional 10 sq. ft. in area or less",
       "active": true
     },
@@ -174,7 +174,7 @@
       "id": "20022",
 	  "code":"FOR_EACH_BOARD_NOT_EXCEEDING_10_SQ_FT_CAT8",
 	  "typeOfAdvertisementId":"10008",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For each board not exceeding 10 sq. ft.",
       "active": true
     },
@@ -182,7 +182,7 @@
       "id": "20023",
 	  "code":"FOR_EACH_BOARD_EXCEEDING_10_SQ_FT_AND_UP_TO_25_SQ_FT_CAT8",
 	  "typeOfAdvertisementId":"10008",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For each board exceeding 10 sq. ft. and up to 25 sq. ft.",
       "active": true
     },
@@ -190,7 +190,7 @@
       "id": "20024",
 	  "code":"FOR_EACH_ADDITIONAL_10_SQ_FT_IN_AREA_OR_LESS_CAT8",
 	  "typeOfAdvertisementId":"10008",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For each additional 10 sq. ft. in area or less",
       "active": true
     },
@@ -198,7 +198,7 @@
       "id": "20025",
 	  "code":"FOR_A_SPACE_UP_TO_5_SQ_FT_CAT9",
 	  "typeOfAdvertisementId":"10009",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space up to 5 sq. ft.",
       "active": true
     },
@@ -206,7 +206,7 @@
       "id": "20026",
 	  "code":"FOR_A_SPACE_OVER_5_SQ_FT_AND_UP_TO_25_SQ_FT_CAT9",
 	  "typeOfAdvertisementId":"10009",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For a space over 5 sq. ft. and up to 25 sq. ft.",
       "active": true
     },
@@ -214,7 +214,7 @@
       "id": "20027",
 	  "code":"FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT9",
 	  "typeOfAdvertisementId":"10009",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every additional 25 sq. ft. or less",
       "active": true
     },
@@ -222,7 +222,7 @@
       "id": "20028",
 	  "code":"UP_TO_5_SQ_FT_CAT11",
 	  "typeOfAdvertisementId":"10011",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "up to 5 sq. ft.",
       "active": true
     },
@@ -230,7 +230,7 @@
       "id": "20029",
 	  "code":"UP_TO_25_SQ_FT_CAT11",
 	  "typeOfAdvertisementId":"10011",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "up to 25 sq. ft.",
       "active": true
     },
@@ -238,7 +238,7 @@
       "id": "20041",
 	  "code":"FOR_EVERY_ADDITIONAL_25_SQ_FT_OR_LESS_CAT11",
 	  "typeOfAdvertisementId":"10011",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every additional 25 sq. ft. or less",
       "active": true
     },
@@ -246,7 +246,7 @@
       "id": "20030",
 	  "code":"LANTERN_SLIDES_OR_SIMILAR_DEVICES_PER_SCREEN_CAT12",
 	  "typeOfAdvertisementId":"10012",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "lantern slides or similar devices (per screen)",
       "active": true
     },
@@ -254,7 +254,7 @@
       "id": "20031",
 	  "code":"THROUGH_SLIDE_PER_SCREEN_CAT12",
 	  "typeOfAdvertisementId":"10012",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Through slide (per screen)",
       "active": true
     },
@@ -262,7 +262,7 @@
       "id": "20032",
 	  "code":"THROUGH_REELS_COMPUTER_DEVICE_PROJECTOR_PER_SCREEN_CAT12",
 	  "typeOfAdvertisementId":"10012",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Through reels/computer device/projector (per screen)",
       "active": true
     },
@@ -270,7 +270,7 @@
       "id": "20033",
 	  "code":"PER_DAY_PER_SQ_FT_UP_TO_7_DAYS_CAT13",
 	  "typeOfAdvertisementId":"10013",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "per day per Sq. Ft. (up to 7 days)",
       "active": true
     },
@@ -278,7 +278,7 @@
       "id": "20034",
 	  "code":"PER_DAY_PER_SQ_FT_AFTER_7_DAYS_OR_SUBSEQUENT_DAYS_CAT13",
 	  "typeOfAdvertisementId":"10013",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Per day per Sq. ft. (after 7 days or subsequent days)",
       "active": true
     },
@@ -286,7 +286,7 @@
       "id": "20035",
 	  "code":"PER_DAY_PER_SQ_FT_UP_TO_7_DAYS_CAT14",
 	  "typeOfAdvertisementId":"10014",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "per day per Sq. Ft. (up to 7 days)",
       "active": true
     },
@@ -294,7 +294,7 @@
       "id": "20036",
 	  "code":"PER_DAY_PER_SQ_FT_AFTER_7_DAYS_OR_SUBSEQUENT_DAYS_CAT14",
 	  "typeOfAdvertisementId":"10014",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Per day per Sq. ft. (after 7 days or subsequent days)",
       "active": true
     },
@@ -302,7 +302,7 @@
       "id": "20037",
 	  "code":"UP_TO_50_SQ_FT_CAT15",
 	  "typeOfAdvertisementId":"10015",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Up to 50 Sq. ft.",
       "active": true
     },
@@ -310,7 +310,7 @@
       "id": "20038",
 	  "code":"FOR_EVERY_ADDL_50_SQ_FT_OR_LESS_CAT15",
 	  "typeOfAdvertisementId":"10015",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every addl. 50 sq. ft. or less",
       "active": true
     },
@@ -318,7 +318,7 @@
       "id": "20039",
 	  "code":"UP_TO_50_SQ_FT_CAT16",
 	  "typeOfAdvertisementId":"10016",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "Up to 50 Sq. ft.",
       "active": true
     },
@@ -326,7 +326,7 @@
       "id": "20040",
 	  "code":"FOR_EVERY_ADDL_50_SQ_FT_OR_LESS_CAT16",
 	  "typeOfAdvertisementId":"10016",
-      "tenantId": "ch",
+      "tenantId": "ch.chandigarh",
       "name": "For every addl. 50 sq. ft. or less",
       "active": true
     }

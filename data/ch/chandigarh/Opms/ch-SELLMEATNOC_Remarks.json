@@ -1,11 +1,11 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "SellMeatNOC",
   "SellMeatNOCRemarksDocuments": [
     {
       "code": "SellMeatNOC.REMARK_DOCUMENT",
       "documentType": "SellMeatNOC",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": false,
       "dropdownData": [
