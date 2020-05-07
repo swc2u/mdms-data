@@ -3,7 +3,7 @@
   "moduleName": "TradeLicense",
   "TradeType": [
     {
-      "code": "License.Registration.Rehri",
+      "code": "LICENSE.REGISTRATION.REHRI",
       "uom": "year",
       "applicationDocument": [
         {
@@ -81,7 +81,7 @@
       "validityPeriod": null
     },
     {
-      "code": "License.DrivingLicense.Rehri",
+      "code": "LICENSE.DRIVINGLICENSE.REHRI",
       "uom": "year",
       "applicationDocument": [
         {
@@ -173,7 +173,7 @@
       "validityPeriod": null
     },
     {
-      "code": "License.Registration.DhobiGhat",
+      "code": "LICENSE.REGISTRATION.DHOBIGHAT",
       "uom": "year",
       "applicationDocument": [
         {
@@ -253,7 +253,7 @@
       "validityPeriod": null
     },
     {
-      "code": "License.Rent.BookMarket",
+      "code": "LICENSE.RENT.BOOKMARKET",
       "uom": "year",
       "applicationDocument": [
         {
