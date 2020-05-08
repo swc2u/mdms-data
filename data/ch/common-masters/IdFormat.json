@@ -1,5 +1,5 @@
 {
-    "tenantId": "ch",
+    "tenantId": "ch.chandigarh",
     "moduleName": "common-masters",
     "IdFormat": [{
             "format": "MP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_EGOV_COMMON]",
