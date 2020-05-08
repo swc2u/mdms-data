@@ -461,7 +461,7 @@
         },
         {
             "format": "PM-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
-            "idname": "ch.pm"
+            "idname": "ch.pms"
         }	
 
     ]
