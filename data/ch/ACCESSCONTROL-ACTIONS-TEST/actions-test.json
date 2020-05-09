@@ -15627,6 +15627,22 @@
 		"path": "Agenda Branch.Agenda Reports.Agenda Meeting Details Report",
 		"navigationURL": "services/council/councilreports/meetingdetails/search",
 		"leftIcon": "action:assignment"
-	}
+	},
+	{
+      "id": "4034",
+      "name": "rainmaker-common-agenda",
+      "url": "card",
+      "displayName": "Agenda Branch",
+      "orderNumber": 5,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "services/egi/inbox",
+      "leftIcon": "social:people",
+      "rightIcon": "",
+      "queryParams": ""
+    }
   ]
 }

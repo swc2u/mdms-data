@@ -27253,6 +27253,270 @@
 		"actionid": "4033",
 		"actioncode": "",
 		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4034",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4000",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4001",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4002",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4003",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4004",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4005",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4006",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4007",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4008",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4009",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4010",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4011",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4012",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4013",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4014",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4015",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4016",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4017",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4018",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4019",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4020",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4021",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4022",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4023",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4024",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4025",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4026",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4027",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4028",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4029",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4030",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4031",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4032",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4033",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4034",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_CREATOR",
+		"actionid": "4019",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_CREATOR",
+		"actionid": "4020",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_CREATOR",
+		"actionid": "4021",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_CREATOR",
+		"actionid": "4021",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_APPROVER",
+		"actionid": "4034",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_REPORT_VIEWER",
+		"actionid": "4031",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_REPORT_VIEWER",
+		"actionid": "4032",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_BRANCH_REPORT_VIEWER",
+		"actionid": "4033",
+		"actioncode": "",
+		"tenantId": "ch"
 	}
   ]
 }

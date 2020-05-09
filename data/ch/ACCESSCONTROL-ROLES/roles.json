@@ -537,6 +537,26 @@
       "code": "SYSTEM",
       "name": "System user",
       "description": "System user"
+    },
+	{
+      "code": "AGENDA_BRANCH_ADMIN",
+      "name": "Agenda Branch Admin",
+      "description": "Agenda Branch Admin will create agenda, meeting, MoM"
+    },
+	{
+      "code": "AGENDA_CREATOR",
+      "name": "Agenda Creator",
+      "description": "Agenda Branch Admin & Department Admin will create agenda"
+    },
+	{
+      "code": "AGENDA_BRANCH_APPROVER",
+      "name": "Agenda Branch Approver",
+      "description": "Agenda Branch approver will approve the workflow of agenda creation, MoM creation"
+    },
+	{
+      "code": "AGENDA_BRANCH_REPORT_VIEWER",
+      "name": "Agenda Branch Report Viewer",
+      "description": "Agenda Branch report viewer can view the reports"
     }
   ]
 }
