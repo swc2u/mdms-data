@@ -15639,7 +15639,7 @@
       "serviceCode": "",
       "code": "",
       "path": "",
-      "navigationURL": "services/egi/inbox",
+      "navigationURL": "services/egi/task",
       "leftIcon": "social:people",
       "rightIcon": "",
       "queryParams": ""
