@@ -20138,6 +20138,12 @@
 		"actioncode": "",
 		"tenantId": "ch"
 	},
+	 {
+		"rolecode": "CITIZEN",
+		"actionid": "2065",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
 	{
 		"rolecode": "CITIZEN",
 		"actionid": "2001",
@@ -23315,6 +23321,12 @@
 	{
 		"rolecode": "COMMISSIONER",
 		"actionid": "2041",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	 {
+		"rolecode": "COMMISSIONER",
+		"actionid": "2065",
 		"actioncode": "",
 		"tenantId": "ch"
 	},
