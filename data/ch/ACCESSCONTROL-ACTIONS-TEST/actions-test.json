@@ -15147,7 +15147,7 @@
       "displayName": "Gateway Search",
       "orderNumber": 0,
       "parentModule": "",
-      "enabled": false,
+      "enabled": true,
       "serviceCode": "pg-service",
       "code": "null",
       "path": ""
