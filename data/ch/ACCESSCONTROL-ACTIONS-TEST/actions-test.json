@@ -15607,7 +15607,7 @@
 		"displayName": "Agenda Ward Wise Agenda Report",
 		"orderNumber": "1",
 		"parentModule": "rainmaker-agenda",
-		"enabled": true,
+		"enabled": false,
 		"serviceCode": "AgendaBranch",
 		"code": "",
 		"path": "Agenda Branch.Agenda Reports.Agenda Ward Wise Agenda Report",
