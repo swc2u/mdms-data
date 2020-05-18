@@ -3,7 +3,8 @@
   "moduleName": "TradeLicense",
   "TradeType": [
     {
-      "code": "LICENSE.REGISTRATION.REHRI",
+      "code": "CTL.REHRI_REGISTRATION",
+      "category" : "CTL.REHRI",
       "uom": "year",
       "applicationDocument": [
         {
@@ -81,7 +82,8 @@
       "validityPeriod": null
     },
     {
-      "code": "LICENSE.DRIVINGLICENSE.REHRI",
+      "code": "CTL.REHRI_DRIVING_LICENSE",
+      "category" : "CTL.REHRI",
       "uom": "year",
       "applicationDocument": [
         {
@@ -173,7 +175,8 @@
       "validityPeriod": null
     },
     {
-      "code": "LICENSE.REGISTRATION.DHOBIGHAT",
+      "code": "CTL.DHOBI_GHAT",
+      "category" : "CTL.DHOBI_GHAT",
       "uom": "year",
       "applicationDocument": [
         {
@@ -253,7 +256,8 @@
       "validityPeriod": null
     },
     {
-      "code": "LICENSE.RENT.BOOKMARKET",
+      "code": "CTL.OLD_BOOK_MARKET",
+      "category": "CTL.OLD_BOOK_MARKET",
       "uom": "year",
       "applicationDocument": [
         {
