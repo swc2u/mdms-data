@@ -21926,7 +21926,13 @@
 		"actioncode": "",
 		"tenantId": "ch"
 	},
-		{
+        {
+		"rolecode": "JEX",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "JEX",
 		"actionid": "1730",
 		"actioncode": "",
