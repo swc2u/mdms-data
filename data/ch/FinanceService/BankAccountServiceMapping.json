@@ -25,6 +25,24 @@
       "bankAccount": "00382191008271",
       "bank": "Oriental Bank of Commerce",
       "bankBranch": "OBC01"
+    },
+    {
+      "businessDetails": "CONTRACTOR_SECURITY_FEE",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "RENT_AMOUNT",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "COLLECTION_AMOUNT",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
     }
   ]
 }
