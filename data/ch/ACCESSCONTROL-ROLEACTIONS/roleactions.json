@@ -27573,12 +27573,6 @@
 		"tenantId": "ch"
 	},
 	{
-		"rolecode": "AGENDA_CREATOR",
-		"actionid": "4021",
-		"actioncode": "",
-		"tenantId": "ch"
-	},
-	{
 		"rolecode": "AGENDA_BRANCH_APPROVER",
 		"actionid": "4034",
 		"actioncode": "",
