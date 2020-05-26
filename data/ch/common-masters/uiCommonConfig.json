@@ -14,8 +14,8 @@
                   "complaint.complaint",
                   "complaint.description",
                   "complaint.addressDetail.houseNoAndStreetName",
-                  "complaint.addressDetail.locality",
-                  "complaint.addressDetail.landMark",
+                  "complaint.addressDetail.mohalla",
+                  "complaint.addressDetail.landmark",
                   "complaint.timelineSLAStatus.slaStatement"
                 ],
                 "title": "Complaint Summary",

@@ -14512,7 +14512,7 @@
       "parentModule": "",
       "displayName": "Dishonored Instrument",
       "orderNumber": 7,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "Collections",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -14540,7 +14540,7 @@
       "parentModule": "",
       "displayName": "Stop Payment",
       "orderNumber": 9,
-      "enabled": false,
+      "enabled": true,
       "serviceCode": "FinancePayment",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -14776,7 +14776,7 @@
       "parentModule": "",
       "displayName": "Surrendered Cheque",
       "orderNumber": 6,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "FinanceReport",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -15147,7 +15147,7 @@
       "displayName": "Gateway Search",
       "orderNumber": 0,
       "parentModule": "",
-      "enabled": false,
+      "enabled": true,
       "serviceCode": "pg-service",
       "code": "null",
       "path": ""
@@ -15607,7 +15607,7 @@
 		"displayName": "Agenda Ward Wise Agenda Report",
 		"orderNumber": "1",
 		"parentModule": "rainmaker-agenda",
-		"enabled": true,
+		"enabled": false,
 		"serviceCode": "AgendaBranch",
 		"code": "",
 		"path": "Agenda Branch.Agenda Reports.Agenda Ward Wise Agenda Report",
@@ -15627,6 +15627,22 @@
 		"path": "Agenda Branch.Agenda Reports.Agenda Meeting Details Report",
 		"navigationURL": "services/council/councilreports/meetingdetails/search",
 		"leftIcon": "action:assignment"
-	}
+	},
+	{
+      "id": "4034",
+      "name": "rainmaker-common-agenda",
+      "url": "card",
+      "displayName": "Agenda Branch",
+      "orderNumber": 5,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "services/egi/task",
+      "leftIcon": "social:people",
+      "rightIcon": "",
+      "queryParams": ""
+    }
   ]
 }

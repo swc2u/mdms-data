@@ -1,5 +1,5 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "BillingService",
   "BusinessService": [
     {
@@ -1129,33 +1129,6 @@
       "isAdvanceAllowed": false,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true
-    },
-    {
-	  "businessService": "Day Market.Contractor Security Fee",
-	  "code": "DAY_MARKET.CONTRACTOR_SECURITY_FEE",
-	  "partPaymentAllowed": false,
-	  "isAdvanceAllowed": false,
-	  "isVoucherCreationEnabled": true,
-	  "isActive": true,
-	  "type": "apnimandi"
-    },
-    {
-	  "businessService": "Day Market.Rent Amount",
-	  "code": "DAY_MARKET.RENT_AMOUNT",
-	  "partPaymentAllowed": false,
-	  "isAdvanceAllowed": false,
-	  "isVoucherCreationEnabled": true,
-	  "isActive": true,
-	  "type": "apnimandi"
-    },
-    {
-	  "businessService": "Apnimandi.Collection Amount",
-	  "code": "APNIMANDI.COLLECTION_AMOUNT",
-	  "partPaymentAllowed": false,
-	  "isAdvanceAllowed": false,
-	  "isVoucherCreationEnabled": true,
-	  "isActive": true,
-	  "type": "apnimandi"
     }
   ]
 }

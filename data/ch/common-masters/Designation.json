@@ -553,6 +553,12 @@
 		"code": "236",
 		"description": "WRDO",
 		"active": true
+	},
+	{
+		"name": "MAYOR",
+		"code": "999",
+		"description": "MAYOR",
+		"active": true
 	}
   ]
 }

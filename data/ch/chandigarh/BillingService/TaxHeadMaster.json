@@ -1,5 +1,5 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "BillingService",
   "TaxHeadMaster": [
     {
@@ -2403,46 +2403,6 @@
 	"isActualDemand":true,
 	"order":"3",
 	"isRequired":false
-	},
-	{
-	  "category": "FEE",
-	  "service": "DAY_MARKET.CONTRACTOR_SECURITY_FEE",
-	  "name": "Contractor Security Fee",
-	  "code": "DAY_MARKET_CONTRACTOR_SECURITY_FEE",
-	  "isDebit": false,
-	  "isActualDemand": false,
-	  "order": "0",
-	  "isRequired": false
-	},
-	{
-	  "category": "FEE",
-	  "service": "DAY_MARKET.RENT_AMOUNT",
-	  "name": "Rent Amount",
-	  "code": "DAY_MARKET_RENT_AMOUNT_FEE",
-	  "isDebit": false,
-	  "isActualDemand": false,
-	  "order": "0",
-	  "isRequired": false
-	},
-	{
-	  "category": "FEE",
-	  "service": "DAY_MARKET.RENT_AMOUNT",
-	  "name": "Penalty Fee",
-	  "code": "DAY_MARKET_PENALTY_FEE",
-	  "isDebit": false,
-	  "isActualDemand": false,
-	  "order": "0",
-	  "isRequired": false
-	},
-	{
-	  "category": "FEE",
-	  "service": "APNIMANDI.COLLECTION_AMOUNT",
-	  "name": "Collection Amount",
-	  "code": "APNIMANDI_COLLECTION_AMOUNT",
-	  "isDebit": false,
-	  "isActualDemand": false,
-	  "order": "0",
-	  "isRequired": false
 	}
   ]
 }

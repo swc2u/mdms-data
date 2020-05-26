@@ -1,5 +1,5 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "FinanceModule",
   "BankAccountServiceMapping": [
     {

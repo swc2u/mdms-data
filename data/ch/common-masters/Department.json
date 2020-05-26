@@ -261,6 +261,11 @@
             "name": "Works And Establishment",
             "code": "436",
             "active": true
+        },
+		{
+            "name": "Administrator",
+            "code": "999",
+            "active": true
         }
     ]
 }
