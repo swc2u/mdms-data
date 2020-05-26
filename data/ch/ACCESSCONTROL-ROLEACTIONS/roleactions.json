@@ -20991,6 +20991,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "SI",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "MOH",
 		"actionid": "1730",
 		"actioncode": "",
@@ -21459,6 +21465,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "MOH",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "SUPERINTENDENT",
 		"actionid": "1730",
 		"actioncode": "",
@@ -21923,6 +21935,12 @@
 	{
 		"rolecode": "SUPERINTENDENT",
 		"actionid": "2041",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERINTENDENT",
+		"actionid": "1766",
 		"actioncode": "",
 		"tenantId": "ch"
 	},
@@ -24273,6 +24291,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "SDO",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "EE",
 		"actionid": "1730",
 		"actioncode": "",
@@ -24741,6 +24765,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "EE",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "SE",
 		"actionid": "1730",
 		"actioncode": "",
@@ -25209,6 +25239,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "SE",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "CE",
 		"actionid": "1730",
 		"actioncode": "",
@@ -25673,6 +25709,12 @@
 	{
 		"rolecode": "CE",
 		"actionid": "2041",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "CE",
+		"actionid": "1766",
 		"actioncode": "",
 		"tenantId": "ch"
 	},
@@ -26205,6 +26247,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "JEX",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "OSD",
 		"actionid": "1571",
 		"actioncode": "",
@@ -26337,6 +26385,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "OSD",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "COMMISSIONER",
 		"actionid": "1571",
 		"actioncode": "",
@@ -26465,6 +26519,12 @@
 	{
 		"rolecode": "COMMISSIONER",
 		"actionid": "2062",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "COMMISSIONER",
+		"actionid": "1766",
 		"actioncode": "",
 		"tenantId": "ch"
 	},
