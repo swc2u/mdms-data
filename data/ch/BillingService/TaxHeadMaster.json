@@ -129,7 +129,7 @@
       "code": "CTL.REHRI_REGISTRATION_FEE",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "2",
+      "order": "0",
       "isRequired": false
     },
     {
@@ -149,7 +149,7 @@
       "code": "CTL.REHRI_REGISTRATION_PENALTY",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "2",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -159,7 +159,7 @@
       "code": "CTL.REHRI_REGISTRATION_ROUNDOFF",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "0",
+      "order": "3",
       "isRequired": false
     },
     {
@@ -169,7 +169,7 @@
       "code": "CTL.REHRI_DRIVING_LICENSE_FEE",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "2",
+      "order": "0",
       "isRequired": false
     },
     {
@@ -189,7 +189,7 @@
       "code": "CTL.REHRI_DRIVING_LICENSE_PENALTY",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "2",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -199,7 +199,7 @@
       "code": "CTL.REHRI_DRIVING_LICENSE_ROUNDOFF",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "0",
+      "order": "3",
       "isRequired": false
     },
     {
@@ -209,7 +209,7 @@
       "code": "CTL.DHOBI_GHAT_FEE",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "2",
+      "order": "0",
       "isRequired": false
     },
     {
@@ -229,7 +229,7 @@
       "code": "CTL.DHOBI_GHAT_PENALTY",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "2",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -239,7 +239,7 @@
       "code": "CTL.DHOBI_GHAT_ROUNDOFF",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "0",
+      "order": "3",
       "isRequired": false
     },
     {
@@ -249,7 +249,7 @@
       "code": "CTL.OLD_BOOK_MARKET_FEE",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "2",
+      "order": "0",
       "isRequired": false
     },
     {
@@ -269,7 +269,7 @@
       "code": "CTL.OLD_BOOK_MARKET_PENALTY",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "2",
+      "order": "1",
       "isRequired": false
     },
     {
@@ -279,7 +279,7 @@
       "code": "CTL.OLD_BOOK_MARKET_ROUNDOFF",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "0",
+      "order": "3",
       "isRequired": false
     },
     {
