@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "eventReportAggregatedBy": [
+	{
+      "code": "Department",
+	  "name": "Department",
+      "active": true
+    },
+	{
+      "code": "Event",
+	  "name": "Event Type",
+      "active": true
+    }
+  ]
+}

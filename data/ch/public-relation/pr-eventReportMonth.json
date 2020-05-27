@@ -1,0 +1,66 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "eventReportMonth": [
+	{
+      "code": "1",
+	  "name": "January",
+      "active": true
+    },
+	{
+      "code": "2",
+	  "name": "February",
+      "active": true
+    },
+	{
+      "code": "3",
+	  "name": "March",
+      "active": true
+    },
+	{
+      "code": "4",
+	  "name": "April",
+      "active": true
+    },
+	{
+      "code": "5",
+	  "name": "May",
+      "active": true
+    },
+	{
+      "code": "6",
+	  "name": "June",
+      "active": true
+    },
+	{
+      "code": "7",
+	  "name": "July",
+      "active": true
+    },
+	{
+      "code": "8",
+	  "name": "August",
+      "active": true
+    },
+	{
+      "code": "9",
+	  "name": "September",
+      "active": true
+    },
+	{
+      "code": "10",
+	  "name": "October",
+      "active": true
+    },
+	{
+      "code": "11",
+	  "name": "November",
+      "active": true
+    },
+	{
+      "code": "12",
+	  "name": "December",
+      "active": true
+    }
+  ]
+}
