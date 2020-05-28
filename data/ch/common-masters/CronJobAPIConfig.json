@@ -6,14 +6,13 @@
       "jobName": "daily",
       "active": "true",
       "method": "POST",
-      "url": "http://rainmaker-pgr:8080/rainmaker-pgr/v1/requests/escalate/_batch",
+      "url": "http://rainmaker-pgr:8080/rainmaker-pgr/v1/requests/escalate/_batch?tenantId=ch.chandigarh",
       "payload": {
         "RequestInfo": "{DEFAULT_REQUESTINFO}"
       },
       "header": {
         "Content-Type": "application/json"
-      },
-	  "params": "ch.chandigarh"
+      }
     }
   ]
 }
