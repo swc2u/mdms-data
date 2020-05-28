@@ -10,16 +10,20 @@
           "applicationType": "New",
           "documentList": [
             {
-              "code": "OWNERADDRESSPROOF"
+              "code": "OWNERADDRESSPROOF",
+              "required": true
             },
             {
-              "code": "OWNERAGEPROOF"
+              "code": "OWNERAGEPROOF",
+              "required": true
             },
             {
-              "code": "OWNERBILL"
+              "code": "OWNERBILL",
+              "required": true
             },
             {
-              "code": "OWNERPHOTO"
+              "code": "OWNERPHOTO",
+              "required": true
             }
           ]
         },
@@ -27,16 +31,20 @@
           "applicationType": "Renew",
           "documentList": [
             {
-              "code": "OWNERADDRESSPROOF"
+              "code": "OWNERADDRESSPROOF",
+              "required": true
             },
             {
-              "code": "OWNERAGEPROOF"
+              "code": "OWNERAGEPROOF",
+              "required": true
             },
             {
-              "code": "OWNERBILL"
+              "code": "OWNERBILL",
+              "required": true
             },
             {
-              "code": "OWNERPHOTO"
+              "code": "OWNERPHOTO",
+              "required": true
             }
           ]
         }
@@ -56,19 +64,24 @@
           "applicationType": "New",
           "documentList": [
             {
-              "code": "OWNERADDRESSPROOF"
+              "code": "OWNERADDRESSPROOF",
+              "required": true
             },
             {
-              "code": "OWNERAGEPROOF"
+              "code": "OWNERAGEPROOF",
+              "required": true
             },
             {
-              "code": "OWNERBILL"
+              "code": "OWNERBILL",
+              "required": true
             },
             {
-              "code": "PERFORMA"
+              "code": "PERFORMA",
+              "required": true
             },
             {
-              "code": "OWNERPHOTO"
+              "code": "OWNERPHOTO",
+              "required": true
             }
           ]
         },
@@ -76,19 +89,24 @@
           "applicationType": "Renew",
           "documentList": [
             {
-              "code": "OWNERADDRESSPROOF"
+              "code": "OWNERADDRESSPROOF",
+              "required": true
             },
             {
-              "code": "OWNERAGEPROOF"
+              "code": "OWNERAGEPROOF",
+              "required": true
             },
             {
-              "code": "OWNERBILL"
+              "code": "OWNERBILL",
+              "required": true
             },
             {
-              "code": "PERFORMA"
+              "code": "PERFORMA",
+              "required": true
             },
             {
-              "code": "OWNERPHOTO"
+              "code": "OWNERPHOTO",
+              "required": true
             }
           ]
         }
@@ -108,17 +126,21 @@
           "applicationType": "New",
           "documentList": [
             {
-              "code": "OWNERADDRESSPROOF"
+              "code": "OWNERADDRESSPROOF",
+              "required": true
             },
             {
-              "code": "OWNERAGEPROOF"
+              "code": "OWNERAGEPROOF",
+              "required": true
             },
             {
               "code": "PERFORMA",
-              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
+              "required": true
             },
             {
-              "code": "OWNERPHOTO"
+              "code": "OWNERPHOTO",
+              "required": true
             }
           ]
         },
@@ -126,17 +148,21 @@
           "applicationType": "Renew",
           "documentList": [
             {
-              "code": "OWNERADDRESSPROOF"
+              "code": "OWNERADDRESSPROOF",
+              "required": true
             },
             {
-              "code": "OWNERAGEPROOF"
+              "code": "OWNERAGEPROOF",
+              "required": true
             },
             {
               "code": "PERFORMA",
-              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
+              "required": true
             },
             {
-              "code": "OWNERPHOTO"
+              "code": "OWNERPHOTO",
+              "required": true
             }
           ]
         }
@@ -157,15 +183,18 @@
           "documentList": [
             {
               "code": "FORMA",
-              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
+              "required": true
             },
             {
               "code": "FORMB",
-              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
+              "required": true
             },
             {
               "code": "FORMC",
-              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
+              "required": true
             }
           ]
         },
@@ -174,15 +203,18 @@
           "documentList": [
             {
               "code": "FORMA",
-              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
+              "required": true
             },
             {
               "code": "FORMB",
-              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
+              "required": true
             },
             {
               "code": "FORMC",
-              "downloadUrl": "http://www.africau.edu/images/default/sample.pdf"
+              "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
+              "required": true
             }
           ]
         }
