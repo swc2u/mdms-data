@@ -25981,6 +25981,12 @@
       "actionid": 1817,
       "actioncode": "",
       "tenantId": "ch"
+    },
+  {
+      "rolecode": "COMMISSIONER",
+      "actionid": 1817,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }
