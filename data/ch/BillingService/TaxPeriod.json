@@ -417,6 +417,38 @@
       "service": "TL",
       "code": "TLAN2021",
       "financialYear": "2021-22"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "CTL.REHRI_REGISTRATION",
+      "code": "CTLRC10YRS2019",
+      "financialYear": "2020-30"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "CTL.REHRI_DRIVING_LICENSE",
+      "code": "CTLDL10YRS2019",
+      "financialYear": "2020-30"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "CTL.DHOBI_GHAT",
+      "code": "CTLDG10YRS2019",
+      "financialYear": "2020-30"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "CTL.OLD_BOOK_MARKET",
+      "code": "CTLOBM10YRS2019",
+      "financialYear": "2020-30"
     }
   ]
 }
