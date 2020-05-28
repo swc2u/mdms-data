@@ -1,5 +1,5 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "BillingService",
   "TaxPeriod": [
     {
@@ -227,8 +227,8 @@
       "financialYear": "2019-20"
     },
     {
-      "fromDate": 1585679400000,
-      "toDate": 1617215399000,
+      "fromDate": 1585699201000,
+      "toDate": 1617235199000,
       "periodCycle": "ANNUAL",
       "service": "REV_GRANTS",
       "code": "REVGRAN2020",
@@ -347,8 +347,8 @@
       "financialYear": "2016-17"
     },
     {
-      "fromDate": 1585679400000,
-      "toDate": 1617215399000,
+      "fromDate": 1585679399000,
+      "toDate": 1617172199000,
       "periodCycle": "ANNUAL",
       "service": "TL",
       "code": "TLRENEWAL2020",
@@ -402,54 +402,6 @@
       "code": "SW10YRS2019",
       "financialYear": "2019-29"
     },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1617215399000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2020",
-      "financialYear": "2020-21"
-    },
-    {
-      "fromDate": 1617215409000,
-      "toDate": 1648751399000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2021",
-      "financialYear": "2021-22"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "CTL.REHRI_REGISTRATION",
-      "code": "CTLRC10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "CTL.REHRI_DRIVING_LICENSE",
-      "code": "CTLDL10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "CTL.DHOBI_GHAT",
-      "code": "CTLDG10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "CTL.OLD_BOOK_MARKET",
-      "code": "CTLOBM10YRS2019",
-      "financialYear": "2020-30"
-    },
 	{
       "fromDate": 1554057001000,
       "toDate": 1585593001000,
@@ -465,30 +417,6 @@
       "service": "OPMS",
       "code": "OPMS2020",
       "financialYear": "2020-21"
-    },
-    {
-	  "fromDate": 1522540801000,
-	  "toDate": 1838159999000,
-	  "periodCycle": "FORTENYEARS",
-	  "service": "DAY_MARKET.CONTRACTOR_SECURITY_FEE",
-	  "code": "DMCS10YRS2018",
-	  "financialYear": "2018-28"
-    },
-    {
-	  "fromDate": 1522540801000,
-	  "toDate": 1838159999000,
-	  "periodCycle": "FORTENYEARS",
-	  "service": "DAY_MARKET.RENT_AMOUNT",
-	  "code": "DMRM10YRS2018",
-	  "financialYear": "2018-28"
-    },
-    {
-	  "fromDate": 1522540801000,
-	  "toDate": 1838159999000,
-	  "periodCycle": "FORTENYEARS",
-	  "service": "APNIMANDI.COLLECTION_AMOUNT",
-	  "code": "AMCM10YRS2018",
-	  "financialYear": "2018-28"
-     }
+    }
   ]
 }

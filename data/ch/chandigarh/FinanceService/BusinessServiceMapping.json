@@ -1,5 +1,5 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "FinanceModule",
   "BusinessServiceMapping": [
     {
@@ -76,42 +76,6 @@
     },
     {
       "code":"DISP_FIXED_ASSET.MOTOR_VEHICLE",
-      "voucherCreationEnabled":true,
-      "fund":"01",
-      "function":"000300",
-      "department":"390",
-      "functionary":"",
-      "scheme":"",
-      "subscheme":"",
-      "validFrom":1234567890,
-      "validTo":2345678901
-    },
-    {
-      "code":"DAY_MARKET.CONTRACTOR_SECURITY_FEE",
-      "voucherCreationEnabled":true,
-      "fund":"01",
-      "function":"000300",
-      "department":"390",
-      "functionary":"",
-      "scheme":"",
-      "subscheme":"",
-      "validFrom":1234567890,
-      "validTo":2345678901
-    },
-    {
-      "code":"DAY_MARKET.RENT_AMOUNT",
-      "voucherCreationEnabled":true,
-      "fund":"01",
-      "function":"000300",
-      "department":"390",
-      "functionary":"",
-      "scheme":"",
-      "subscheme":"",
-      "validFrom":1234567890,
-      "validTo":2345678901
-    },
-    {
-      "code":"APNIMANDI.COLLECTION_AMOUNT",
       "voucherCreationEnabled":true,
       "fund":"01",
       "function":"000300",

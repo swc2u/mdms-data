@@ -1,34 +1,39 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "egpm",
   "nocSought": [
     {
       "id": "1",
-      "tenantId": "ch",
+	  "code": "JHATKA_MEAT_SHEEP_GOAT_POULTRY",
+      "tenantId": "ch.chandigarh",
       "name": "Jhatka meat (sheep/goat), Poultry",
       "active": true
     },
 	{
       "id": "2",
-      "tenantId": "ch",
+	  "code": "HALAL_MEAT_SHEEP_GOAT_POULTRY",
+      "tenantId": "ch.chandigarh",
       "name": "Halal meat (sheep/goat), Poultry",
       "active": true
     },
 	{
       "id": "3",
-      "tenantId": "ch",
+	  "code": "PIG",
+      "tenantId": "ch.chandigarh",
       "name": "Pig",
       "active": true
     },
 	{
       "id": "4",
-      "tenantId": "ch",
+	  "code": "FISH",
+      "tenantId": "ch.chandigarh",
       "name": "Fish",
       "active": true
     },
 	{
       "id": "5",
-      "tenantId": "ch",
+	  "code": "PACKED_FROZEN_MEAT_SHEEP_GOAT_FISH_AND_POULTRY",
+      "tenantId": "ch.chandigarh",
       "name": "Packed/frozen meat (sheep/goat), fish and poultry",
       "active": true
     }

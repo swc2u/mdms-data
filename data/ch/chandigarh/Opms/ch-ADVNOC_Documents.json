@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "AdvNOC",
+  "AdvNOCDocuments": [
+    {
+      "code": "ADV.ADV_PHOTOCOPY_HOARDING",
+      "documentType": "ADV",
+      "required": true,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [   
+      ],
+      "description": "ADV.ADV_PHOTOCOPY_HOARDING.PHOTOCOPY_HOARDING_DESCRIPTION"
+    }
+  ]
+}

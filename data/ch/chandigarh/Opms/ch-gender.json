@@ -1,16 +1,18 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "egpm",
   "sex": [
     {
       "id": "1",
-      "tenantId": "ch",
+	  "code":"MALE",
+      "tenantId": "ch.chandigarh",
       "name": "Male",
       "active": true
     },
 	{
       "id": "2",
-      "tenantId": "ch",
+	  "code":"FEMALE",
+      "tenantId": "ch.chandigarh",
       "name": "Female",
       "active": true
     }

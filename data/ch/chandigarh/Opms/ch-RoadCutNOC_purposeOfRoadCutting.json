@@ -1,34 +1,39 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "egpm",
   "purposeOfRoadCutting": [
     {
       "id": "1",
-      "tenantId": "ch",
+	  "code":"LAYING_OPTICAL_CABLE",
+      "tenantId": "ch.chandigarh",
       "name": "Laying Optical cable",
       "active": true
     },
 	{
       "id": "2",
-      "tenantId": "ch",
+	  "code":"LAYING_ELECTRICAL_CABLE",
+      "tenantId": "ch.chandigarh",
       "name": "Laying electrical cable",
       "active": true
     },
 	{
       "id": "3",
-      "tenantId": "ch",
+	  "code":"LAYING_PIPELINE_REPAIR_OF_PIPELINE",
+      "tenantId": "ch.chandigarh",
       "name": "Laying pipeline/Repair of pipeline",
       "active": true
     },
 	{
       "id": "4",
-      "tenantId": "ch",
+	  "code":"LAYING_SEWER_LINE_REPAIR_OF_SEWER_LINE",
+      "tenantId": "ch.chandigarh",
       "name": "Laying sewer line/Repair of sewer line",
       "active": true
     },
 	{
       "id": "5",
-      "tenantId": "ch",
+	  "code":"LAYING_NATURAL_GAS_MDPE_PIPELINE",
+      "tenantId": "ch.chandigarh",
       "name": "Laying Natural Gas MDPE Pipeline",
       "active": true
     }

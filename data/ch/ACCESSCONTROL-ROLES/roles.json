@@ -479,19 +479,99 @@
       "description": "Employee who verifies Budget in finance"
     },
     {
-      "code": "CLERK",
+      "code": "CTL_CLERK",
       "name": "CLERK",
       "description": "Employee who verifies, rejects and approves the TL application"
     },
     {
-      "code": "SA",
+      "code": "CTL_SA",
       "name": "SA",
       "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"
     },
     {
-      "code": "SI",
+      "code": "CTL_SI",
       "name": "SI",
       "description": "Employee who verifies, rejects and approves the TL application which is approved by SA"
+    },
+    {
+      "code": "SI",
+      "name": "SI",
+      "description": "Sanitary Inspector"
+    },
+    {
+      "code": "MOH",
+      "name": "MOH",
+      "description": "Medical Officer Health"
+    },
+    {
+      "code": "SYSTEM_PAYMENT",
+      "name": "SYSTEM_PAYMENT",
+      "description": "Payment by gateway"
+    },
+	{
+      "code": "JEX",
+      "name": "JEX",
+      "description": "Junior Executive"
+    },
+    {
+      "code": "SUPERINTENDENT",
+      "name": "SUPERINTENDENT",
+      "description": "Superintendent"
+    },
+	{
+      "code": "OSD",
+      "name": "OSD",
+      "description": "Officer on Special duty"
+    },
+	{
+      "code": "JE",
+      "name": "JE",
+      "description": "Junior Engineer"
+    },	
+	{
+      "code": "SDO",
+      "name": "SDO",
+      "description": "Sub Divisional Officer"
+    },
+	{
+      "code": "EE",
+      "name": "EE",
+      "description": "Executive Engineer"
+    },
+	{
+      "code": "SE",
+      "name": "SE",
+      "description": "Superintendent Engineer"
+    },
+	{
+      "code": "CE",
+      "name": "CE",
+      "description": "Chief Engineer"
+    },
+   {
+      "code": "SYSTEM",
+      "name": "System user",
+      "description": "System user"
+    },
+	{
+      "code": "AGENDA_BRANCH_ADMIN",
+      "name": "Agenda Branch Admin",
+      "description": "Agenda Branch Admin will create agenda, meeting, MoM"
+    },
+	{
+      "code": "AGENDA_CREATOR",
+      "name": "Agenda Creator",
+      "description": "Agenda Branch Admin & Department Admin will create agenda"
+    },
+	{
+      "code": "AGENDA_BRANCH_APPROVER",
+      "name": "Agenda Branch Approver",
+      "description": "Agenda Branch approver will approve the workflow of agenda creation, MoM creation"
+    },
+	{
+      "code": "AGENDA_BRANCH_REPORT_VIEWER",
+      "name": "Agenda Branch Report Viewer",
+      "description": "Agenda Branch report viewer can view the reports"
     }
   ]
 }

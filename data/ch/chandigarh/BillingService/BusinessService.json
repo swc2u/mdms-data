@@ -1,5 +1,5 @@
 {
-  "tenantId": "ch",
+  "tenantId": "ch.chandigarh",
   "moduleName": "BillingService",
   "BusinessService": [
     {
@@ -29,50 +29,6 @@
     {
       "businessService": "TradeLicense",
       "code": "TL",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
-    {
-      "businessService": "RehriRC",
-      "code": "CTL.REHRI_REGISTRATION",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
-    {
-      "businessService": "RehriDL",
-      "code": "CTL.REHRI_DRIVING_LICENSE",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
-    {
-      "businessService": "DhobiGhat",
-      "code": "CTL.DHOBI_GHAT",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
-    {
-      "businessService": "BookShop",
-      "code": "CTL.OLD_BOOK_MARKET",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1173,33 +1129,6 @@
       "isAdvanceAllowed": false,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true
-    },
-    {
-	  "businessService": "Day Market.Contractor Security Fee",
-	  "code": "DAY_MARKET.CONTRACTOR_SECURITY_FEE",
-	  "partPaymentAllowed": false,
-	  "isAdvanceAllowed": false,
-	  "isVoucherCreationEnabled": true,
-	  "isActive": true,
-	  "type": "apnimandi"
-    },
-    {
-	  "businessService": "Day Market.Rent Amount",
-	  "code": "DAY_MARKET.RENT_AMOUNT",
-	  "partPaymentAllowed": false,
-	  "isAdvanceAllowed": false,
-	  "isVoucherCreationEnabled": true,
-	  "isActive": true,
-	  "type": "apnimandi"
-    },
-    {
-	  "businessService": "Apnimandi.Collection Amount",
-	  "code": "APNIMANDI.COLLECTION_AMOUNT",
-	  "partPaymentAllowed": false,
-	  "isAdvanceAllowed": false,
-	  "isVoucherCreationEnabled": true,
-	  "isActive": true,
-	  "type": "apnimandi"
     }
   ]
 }
