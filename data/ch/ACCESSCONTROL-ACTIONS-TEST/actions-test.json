@@ -11321,6 +11321,18 @@
       "path": "Property Report"
     },
     {
+      "id": 1900,
+      "name": "PGService Gateways Fetch",
+      "url": "/pg-service/gateway/v1/_search",
+      "displayName": "List Gateways",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "pg-service",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 9999,
       "name": "PGR LME Report",
       "url": "/customization/protected/reports/lmereport",
