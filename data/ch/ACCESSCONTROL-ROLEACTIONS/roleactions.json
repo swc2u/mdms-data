@@ -25993,6 +25993,36 @@
       "actionid": 1817,
       "actioncode": "",
       "tenantId": "ch"
+    },
+    {
+      "rolecode": "CLERK",
+      "actionid": 1766,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SA",
+      "actionid": 1766,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SI",
+      "actionid": 1766,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "COMMISSIONER",
+      "actionid": 1766,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "TL_ADMIN",
+      "actionid": 1766,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }
