@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "notificationTemplateType": [
+    {
+      "code": "NOTIFICATION_TEMPLATE_EMAIL",
+	  "name":"Email",
+      "active": true
+    },
+	{
+      "code": "NOTIFICATION_TEMPLATE_SMS",
+	  "name":"SMS",
+      "active": true
+    }
+  ]
+}

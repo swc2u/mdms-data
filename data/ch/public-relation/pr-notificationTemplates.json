@@ -1,0 +1,146 @@
+{
+"tenantId": "ch",
+"moduleName": "RAINMAKER-PR",
+"notificationTemplates": [
+	{
+		"id": "1",
+		"code": "CREATE_EVENT",
+		"moduleCode": "PR",
+		"emailSubject":"Announcing [:eventTitle:]",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>You are invited to [:eventTitle:] on [:eventDate:] at [:location:].</p><br/><p>More details Please check</p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
+		"smsContent":"You are invited to [:eventTitle:] on [:eventDate:] at [:location:].More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
+		"active": true
+	},
+	{
+		"id": "2",
+		"code": "CREATE_EVENT_REMINDER",
+		"moduleCode": "PR",
+		"emailSubject":"Reminder",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>This is remind you only 2 days left for [:eventTitle:] at [:location:].</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
+		"smsContent":"This is remind you only 2 days left for [:eventTitle:] at [:location:].More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
+		"active": true
+	},
+	{
+		"id": "3",
+		"code": "UPDATE_EVENT",
+		"moduleCode": "PR",
+		"emailSubject":"Event Updated: [:eventTitle:]",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>The [:eventTitle:] on [:eventDate:] at [:location:] has been updated.</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
+		"smsContent":"The [:eventTitle:] on [:eventDate:] at [:location:] has been updated.More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
+		"active": true
+	},
+	{
+		"id": "4",
+		"code": "PRESS_RELEASE",
+		"moduleCode": "PR",
+		"emailSubject":"",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>Please check the attached Press Release.</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
+		"smsContent":"Please check the Press Release.Yours Sincerely,Public and Relation Department, MCC, Chandigarh",
+		"active": true
+	},
+	{
+		"id": "5",
+		"code": "TENDER_NOTICE",
+		"moduleCode": "PR",
+		"emailSubject":"",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>Please check the attached Tender Notice.</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
+		"smsContent":"Please check the Tender Notice.Yours Sincerely,Public and Relation Department, MCC, Chandigarh",
+		"active": true
+	},
+	{
+		"id": "6",
+		"code": "CREATE_EVENT",
+		"moduleCode": "SCP",
+		"emailSubject":"Announcing [:eventTitle:]",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>You are invited to [:eventTitle:] on [:eventDate:] at [:location:].</p><br/><p>More details Please check</p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Sports and Cultural Department, MCC, Chandigarh",
+		"smsContent":"You are invited to [:eventTitle:] on [:eventDate:] at [:location:].More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
+		"active": true
+	},
+	{
+		"id": "7",
+		"code": "CREATE_EVENT_REMINDER",
+		"moduleCode": "SCP",
+		"emailSubject":"Reminder",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>This is remind you only 2 days left for [:eventTitle:] at [:location:].</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Sports and Cultural Department, MCC, Chandigarh",
+		"smsContent":"This is remind you only 2 days left for [:eventTitle:] at [:location:].More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
+		"active": true
+	},
+	{
+		"id": "8",
+		"code": "UPDATE_EVENT",
+		"moduleCode": "SCP",
+		"emailSubject":"Event Updated: [:eventTitle:]",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>The [:eventTitle:] on [:eventDate:] at [:location:] has been updated.</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Sports and Cultural Department, MCC, Chandigarh",
+		"smsContent":"The [:eventTitle:] on [:eventDate:] at [:location:] has been updated.More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
+		"active": true
+	},
+	{
+		"id": "9",
+		"code": "PRESS_RELEASE",
+		"moduleCode": "SCP",
+		"emailSubject":"",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>Please check the attached Press Release.</p><br/>Yours Sincerely,<br/>Sports and Cultural Department, MCC, Chandigarh",
+		"smsContent":"Please check the Press Release.Yours Sincerely,Sports and Cultural Department, MCC, Chandigarh",
+		"active": true
+	},
+	{
+		"id": "10",
+		"code": "TENDER_NOTICE",
+		"moduleCode": "SCP",
+		"emailSubject":"",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>Please check the attached Tender Notice.</p><br/>Yours Sincerely,<br/>Sports and Cultural Department, MCC, Chandigarh",
+		"smsContent":"Please check the Tender Notice.Yours Sincerely,Sports and Cultural Department, MCC, Chandigarh",
+		"active": true
+	},
+	{
+		"id": "11",
+		"code": "NEW_MEDIA_UPLOAD",
+		"moduleCode": "PR",
+		"emailSubject":"New Media Upload for [:eventTitle:]",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>New Media is available for [:eventTitle:]. Please login to the MCC Portal to view.</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
+		"smsContent":"New Media is available for [:eventTitle:]. Please login to the MCC Portal to view. Yours Sincerely,Public and Relation Department, MCC, Chandigarh",
+		"active": true
+	},
+	{
+		"id": "12",
+		"code": "CANCEL_EVENT",
+		"moduleCode": "PR",
+		"emailSubject":"Event Cancelled: [:eventTitle:]",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>This is to notify that [:eventTitle:] has been cancelled.</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
+		"smsContent":"This is to notify that [:eventTitle:] has been cancelled.Yours Sincerely,Public and Relation Department, MCC, Chandigarh",
+		"active": true
+	},
+	{
+		"id": "13",
+		"code": "NEW_MEDIA_UPLOAD",
+		"moduleCode": "SCP",
+		"emailSubject":"New Media Upload for [:eventTitle:]",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>New Media is available for [:eventTitle:]. Please login to the MCC Portal to view.</p><br/>Yours Sincerely,<br/>Sports and Cultural Department, MCC, Chandigarh",
+		"smsContent":"New Media is available for [:eventTitle:]. Please login to the MCC Portal to view. Yours Sincerely,Sports and Cultural Department, MCC, Chandigarh",
+		"active": true
+	},
+	{
+		"id": "14",
+		"code": "CANCEL_EVENT",
+		"moduleCode": "SCP",
+		"emailSubject":"Event Cancelled: [:eventTitle:]",
+		"emailReceiver": "Dear [:contactName:],<br/>",
+		"emailBody": "<p>This is to notify that [:eventTitle:] has been cancelled.</p><br/>Yours Sincerely,<br/>Sports and Cultural Department, MCC, Chandigarh",
+		"smsContent":"This is to notify that [:eventTitle:] has been cancelled.Yours Sincerely,Sports and Cultural Department, MCC, Chandigarh",
+		"active": true
+	}
+ ]
+}

@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "tenderDocuments": [
+    {
+      "code": "TENDER.TENDER_DOCUMENT",
+      "documentType": "TENDER",
+      "required": true,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [   
+      ],
+      "description": "TENDER.TENDER_DOCUMENT.TENDER_DOCUMENT_DESCRIPTION"
+    }
+  ]
+}
