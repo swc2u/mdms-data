@@ -7,16 +7,7 @@
       "code": "PGR",
       "tenants": [
         {
-          "code": "ch"
-        }
-      ]
-    },
-    {
-      "module": "Finance",
-      "code": "Finance",
-      "tenants": [
-        {
-          "code": "ch"
+          "code": "ch.chandigarh"
         }
       ]
     },

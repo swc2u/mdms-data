@@ -3,7 +3,7 @@
   "moduleName": "tenant",
   "tenants": [
     {
-      "code": "ch",
+      "code": "ch.chandigarh",
       "name": "Chandigarh",
       "description": "Chandigarh",
       "logoId": "https://mcchuatchuatcentralindia.blob.core.windows.net/digit/logo.png",

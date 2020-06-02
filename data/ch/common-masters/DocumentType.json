@@ -1,38 +1,14 @@
 {
-  "tenantId": "ch",
-  "moduleName": "common-masters",
-  "DocumentType": [
-    {
-      "code": "OWNERADDRESSPROOF",
-      "active": true
-    },
-    {
-      "code": "OWNERAGEPROOF",
-      "active": true
-    },
-    {
-      "code": "OWNERBILL",
-      "active": true
-    },
-    {
-      "code": "OWNERPHOTO",
-      "active": true
-    },
-    {
-      "code": "PERFORMA",
-      "active": true
-    },
-    {
-      "code": "FORMA",
-      "active": true
-    },
-    {
-      "code": "FORMB",
-      "active": true
-    },
-    {
-      "code": "FORMC",
-      "active": true
-    }
-  ]
+    "tenantId": "ch"  , 
+    "moduleName": "common-masters",
+    "DocumentType": [
+        {
+            "code": "OWNERIDPROOF",
+            "active": true
+        },
+        {
+            "code": "OWNERSHIPPROOF",
+            "active": true
+        }
+    ]
 }
