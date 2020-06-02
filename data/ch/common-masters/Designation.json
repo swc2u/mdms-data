@@ -559,6 +559,18 @@
 		"code": "999",
 		"description": "MAYOR",
 		"active": true
+	},
+	{
+		"name": "Inspector enforcement",
+		"code": "997",
+		"description": "Inspector enforcement",
+		"active": true
+	},
+	{
+		"name": "Sub Inspector Enforcement",
+		"code": "998",
+		"description": "Sub Inspector Enforcement",
+		"active": true
 	}
   ]
 }
