@@ -417,6 +417,30 @@
       "service": "OPMS",
       "code": "OPMS2020",
       "financialYear": "2020-21"
-    }
+    },
+    {
+	  "fromDate": 1522540801000,
+	  "toDate": 1838159999000,
+	  "periodCycle": "FORTENYEARS",
+	  "service": "DAY_MARKET.CONTRACTOR_SECURITY_FEE",
+	  "code": "DMCS10YRS2018",
+	  "financialYear": "2018-28"
+    },
+    {
+	  "fromDate": 1522540801000,
+	  "toDate": 1838159999000,
+	  "periodCycle": "FORTENYEARS",
+	  "service": "DAY_MARKET.RENT_AMOUNT",
+	  "code": "DMRM10YRS2018",
+	  "financialYear": "2018-28"
+    },
+    {
+	  "fromDate": 1522540801000,
+	  "toDate": 1838159999000,
+	  "periodCycle": "FORTENYEARS",
+	  "service": "APNIMANDI.COLLECTION_AMOUNT",
+	  "code": "AMCM10YRS2018",
+	  "financialYear": "2018-28"
+     }
   ]
 }
