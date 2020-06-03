@@ -246,6 +246,11 @@
 		"name" : "Block Development Panchayat Officer",
 		"code" : "463",
 		"active" : true
+	},
+	{
+		"name" : "Primary Health",
+		"code" : "464",
+		"active" : true
 	}
     ]
 }
