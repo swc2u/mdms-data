@@ -561,15 +561,21 @@
 		"active": true
 	},
 	{
+		"name": "Sub Inspector Enforcement",
+		"code": "998",
+		"description": "Sub Inspector Enforcement",
+		"active": true
+	},
+	{
 		"name": "Inspector enforcement",
 		"code": "997",
 		"description": "Inspector enforcement",
 		"active": true
 	},
 	{
-		"name": "Sub Inspector Enforcement",
-		"code": "998",
-		"description": "Sub Inspector Enforcement",
+		"name": "Data Entry Officer",
+		"code": "996",
+		"description": "Data Entry Officer",
 		"active": true
 	}
   ]

@@ -246,6 +246,11 @@
 		"name" : "Block Development Panchayat Officer",
 		"code" : "463",
 		"active" : true
+	},
+	{
+		"name": "Administrator",
+		"code": "999",
+		"active": true
 	}
     ]
 }
