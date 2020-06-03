@@ -251,6 +251,12 @@
 		"name": "Administrator",
 		"code": "999",
 		"active": true
+	},
+	{
+		"name" : "Primary Health",
+		"code" : "464",
+		"active" : true
+
 	}
     ]
 }
