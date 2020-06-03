@@ -15443,7 +15443,7 @@
 		"serviceCode": "AgendaBranch",
 		"code": "",
 		"path": "Agenda Branch.Agenda Branch Agenda.Agenda Branch View Agenda",
-		"navigationURL": "services/council/agenda/search/view",
+		"navigationURL": "services/council/councilpreamble/search/view",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
@@ -15457,7 +15457,7 @@
 		"serviceCode": "AgendaBranch",
 		"code": "",
 		"path": "Agenda Branch.Agenda Branch Agenda.Agenda Branch Update Agenda",
-		"navigationURL": "services/council/agenda/searchagenda/edit",
+		"navigationURL": "services/council/councilpreamble/search/edit",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
@@ -15579,7 +15579,7 @@
 		"displayName": "Agenda Council Data Entry Screen",
 		"orderNumber": "1",
 		"parentModule": "rainmaker-agenda",
-		"enabled": true,
+		"enabled": false,
 		"serviceCode": "AgendaBranch",
 		"code": "",
 		"path": "Agenda Branch.Agenda Council Data Entry Screen",
@@ -15610,7 +15610,7 @@
 		"enabled": true,
 		"serviceCode": "AgendaBranch",
 		"code": "",
-		"path": "Agenda Branch.Agenda Reports.Agenda Ward Wise Agenda Report",
+		"path": "Agenda Branch.Agenda Reports.Agenda Report",
 		"navigationURL": "services/council/councilreports/preamblewardwise/search",
 		"leftIcon": "action:assignment"
 	},
