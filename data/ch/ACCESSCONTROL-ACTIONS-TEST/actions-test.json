@@ -16261,6 +16261,62 @@
       "navigationURL": "egov-pr/TimeSeriesReport?modulecode=SCP",
       "leftIcon": "action:assignment",
       "rightIcon": ""
-    }
+    },
+    {
+	"id": 4100,
+	"name": "Apnimandi Create Contractor",
+	"url": "/services/apnimandi/contractor/new",
+	"parentModule": "",
+	"displayName": "Apnimandi Create Contractor",
+	"orderNumber": 1,
+	"enabled": true,
+	"serviceCode": "APNICREATECONTRACTOR",
+	"code": "null",
+	"leftIcon": "editor:insert-chart",
+	"path": "Apnimandi Management.Apnimandi Contractor.Apnimandi Create Contractor",
+	"navigationURL": "services/apnimandi/contractor/new"
+    },
+    {
+	"id": 4101,
+	"name": "Apnimandi Search Contractor",
+	"url": "/services/apnimandi/contractor/search",
+	"parentModule": "",
+	"displayName": "Apnimandi Search Contractor",
+	"orderNumber": 1,
+	"enabled": true,
+	"serviceCode": "APNISEARCHCONTRACTOR",
+	"code": "null",
+	"leftIcon": "editor:insert-chart",
+	"path": "Apnimandi Management.Apnimandi Contractor.Apnimandi Search Contractor",
+	"navigationURL": "services/apnimandi/contractor/search"
+    },
+    {
+	"id": 4102,
+	"name": "Apnimandi Create Collection",
+	"url": "/services/apnimandi/collection/new",
+	"parentModule": "",
+	"displayName": "Apnimandi Create Collection",
+	"orderNumber": 1,
+	"enabled": true,
+	"serviceCode": "APNICREATECOLLECTION",
+	"code": "null",
+	"leftIcon": "editor:insert-chart",
+	"path": "Apnimandi Management.Apnimandi Collection.Apnimandi Create Collection",
+	"navigationURL": "services/apnimandi/collection/new"
+    },
+    {
+	"id": 4103,
+	"name": "Apnimandi Search Collection",
+	"url": "/services/apnimandi/collection/search",
+	"parentModule": "",
+	"displayName": "Apnimandi Search Collection",
+	"orderNumber": 1,
+	"enabled": true,
+	"serviceCode": "APNISEARCHCOLLECTION",
+	"code": "null",
+	"leftIcon": "editor:insert-chart",
+	"path": "Apnimandi Management.Apnimandi Collection.Apnimandi Search Collection",
+	"navigationURL": "services/apnimandi/collection/search"
+     }
   ]
 }
