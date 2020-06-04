@@ -577,6 +577,12 @@
 		"code": "996",
 		"description": "Data Entry Officer",
 		"active": true
+	},
+	{
+		"name": "Legal Branch Officer",
+		"code": "LBO01",
+		"description": "Legal Branch Officer",
+		"active": true
 	}
   ]
 }
