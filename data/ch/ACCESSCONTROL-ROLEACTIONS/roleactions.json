@@ -14793,12 +14793,6 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "CITIZEN",
-      "actionid": 2065,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
       "rolecode": "EMPLOYEE",
       "actionid": 1571,
       "actioncode": "",
@@ -20096,7 +20090,7 @@
       "actioncode": "",
       "tenantId": "ch"
     },
-    {
+	{
       "rolecode": "SUPERUSER",
       "actionid": 1954,
       "actioncode": "",
@@ -20139,92 +20133,8 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "CITIZEN",
-      "actionid": 1730,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 11687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
       "rolecode": "EMPLOYEE",
       "actionid": 11687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "TL_APPROVER",
-      "actionid": 11687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "TL_CEMP",
-      "actionid": 11687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CTL_CLERK",
-      "actionid": 11687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CTL_SA",
-      "actionid": 11687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CTL_SI",
-      "actionid": 11687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "COMMISSIONER",
-      "actionid": 11687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "TL_ADMIN",
-      "actionid": 11687,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CTL_CLERK",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CTL_SA",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CTL_SI",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "COMMISSIONER",
-      "actionid": 1766,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "TL_ADMIN",
-      "actionid": 1766,
       "actioncode": "",
       "tenantId": "ch"
     },

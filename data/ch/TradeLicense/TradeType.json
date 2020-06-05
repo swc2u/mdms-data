@@ -14,21 +14,21 @@
               "code": "OWNERADDRESSPROOF",
               "required": true,
               "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "fileType": "PDF_IMAGE",
               "description": "ADDRESSPROOFDESCRIPTION"
             },
             {
               "code": "OWNERAGEPROOF",
               "required": true,
               "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "fileType": "PDF_IMAGE",
               "description": "AGEPROOFDESCRIPTION"
             },
             {
               "code": "OWNERBILL",
               "required": true,
               "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "fileType": "PDF_IMAGE",
               "description": "BILLDESCRIPTION"
             },
             {
@@ -46,22 +46,22 @@
             {
               "code": "OWNERADDRESSPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "ADDRESSPROOFDESCRIPTION"
             },
             {
               "code": "OWNERAGEPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "AGEPROOFDESCRIPTION"
             },
             {
               "code": "OWNERBILL",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "BILLDESCRIPTION"
             },
             {
@@ -92,29 +92,29 @@
             {
               "code": "OWNERADDRESSPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "ADDRESSPROOFDESCRIPTION"
             },
             {
               "code": "OWNERAGEPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "AGEPROOFDESCRIPTION"
             },
             {
               "code": "OWNERBILL",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "BILLDESCRIPTION"
             },
             {
               "code": "PERFORMADRIVINGLICENSE",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "PERFORMADESCRIPTION"
             },
             {
@@ -132,29 +132,29 @@
             {
               "code": "OWNERADDRESSPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "ADDRESSPROOFDESCRIPTION"
             },
             {
               "code": "OWNERAGEPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "AGEPROOFDESCRIPTION"
             },
             {
               "code": "OWNERBILL",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "BILLDESCRIPTION"
             },
             {
               "code": "PERFORMADRIVINGLICENSE",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "PERFORMADESCRIPTION"
             },
             {
@@ -185,23 +185,23 @@
             {
               "code": "OWNERADDRESSPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "ADDRESSPROOFDESCRIPTION"
             },
             {
               "code": "OWNERAGEPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "AGEPROOFDESCRIPTION"
             },
             {
               "code": "PERFORMADHBOBIGHAT",
               "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "PERFORMADESCRIPTION"
             },
             {
@@ -219,23 +219,23 @@
             {
               "code": "OWNERADDRESSPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "ADDRESSPROOFDESCRIPTION"
             },
             {
               "code": "OWNERAGEPROOF",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "AGEPROOFDESCRIPTION"
             },
             {
               "code": "PERFORMADHBOBIGHAT",
               "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "PERFORMADESCRIPTION"
             },
             {
@@ -267,24 +267,24 @@
               "code": "FORMA",
               "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "FORMADESCRIPTION"
             },
             {
               "code": "FORMB",
               "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "FORMBDESCRIPTION"
             },
             {
               "code": "FORMC",
               "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "FORMCDESCRIPTION"
             }
           ]
@@ -296,24 +296,24 @@
               "code": "FORMA",
               "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "FORMADESCRIPTION"
             },
             {
               "code": "FORMB",
               "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "FORMBDESCRIPTION"
             },
             {
               "code": "FORMC",
               "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
               "required": true,
-              "accept": "application/pdf",
-              "fileType": "PDFONLY",
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
               "description": "FORMCDESCRIPTION"
             }
           ]
