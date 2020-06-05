@@ -19,6 +19,15 @@
           "code": "ch.chandigarh"
         }
       ]
+    },
+    {
+      "module": "TL",
+      "code": "TL",
+      "tenants": [
+        {
+          "code": "ch.chandigarh"
+        }
+      ]
     }
   ]
 }
