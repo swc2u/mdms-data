@@ -16317,6 +16317,22 @@
 	"leftIcon": "editor:insert-chart",
 	"path": "Apnimandi Management.Apnimandi Collection.Apnimandi Search Collection",
 	"navigationURL": "services/apnimandi/collection/search"
+     },
+     {
+	"id":"4104",
+	"name":"rainmaker-common-agenda",
+	"url":"card",
+	"displayName":"Apnimandi",
+	"orderNumber":6,
+	"parentModule":"",
+	"enabled":true,
+	"serviceCode":"",
+	"code":"",
+	"path":"",
+	"navigationURL":"services/egi/task/Apnimandi",
+	"leftIcon":"social:people",
+	"rightIcon":"",
+	"queryParams":""
      }
   ]
 }
