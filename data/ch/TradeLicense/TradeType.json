@@ -13,21 +13,21 @@
             {
               "code": "OWNERADDRESSPROOF",
               "required": true,
-              "accept": "application/pdf",
+              "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
               "description": "ADDRESSPROOFDESCRIPTION"
             },
             {
               "code": "OWNERAGEPROOF",
               "required": true,
-              "accept": "application/pdf",
+              "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
               "description": "AGEPROOFDESCRIPTION"
             },
             {
               "code": "OWNERBILL",
               "required": true,
-              "accept": "application/pdf",
+              "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
               "description": "BILLDESCRIPTION"
             },
