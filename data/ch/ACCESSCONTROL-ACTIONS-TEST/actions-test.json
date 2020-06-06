@@ -15663,7 +15663,7 @@
       "serviceCode": "",
       "code": "",
       "path": "",
-      "navigationURL": "services/egi/task",
+      "navigationURL": "services/egi/task/agenda",
       "leftIcon": "social:people",
       "rightIcon": "",
       "queryParams": ""
