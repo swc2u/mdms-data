@@ -567,6 +567,21 @@
 		"code": "DEPARTMENTUSER",
 		"name": "DEPARTMENTUSER",
 		"description": "Department User"
+	},
+	{
+		"code": "APNIMANDI_ADMIN",
+		"name": "Apnimandi Admin",
+		"description": "Apnimandi Admin will create contrator, collection"
+	},
+	{
+		"code": "APNIMANDI_APPROVER",
+		"name": "Apnimandi Approver",
+		"description": "Apnimandi approver will forward, approve and reject the workflow of contractor and collection"
+	},
+	{
+		"code": "LCMS_ADMIN",
+		"name": "LCMS Admin",
+		"description": "LCMS Admin will manage all legal cases and LCMS related master datas"
 	}
   ]
 }
