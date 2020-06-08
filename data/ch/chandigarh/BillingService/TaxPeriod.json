@@ -1,422 +1,582 @@
 {
-  "tenantId": "ch.chandigarh",
-  "moduleName": "BillingService",
-  "TaxPeriod": [
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "PT",
-      "code": "PTAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "PT",
-      "code": "PTAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "PT",
-      "code": "PTAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "PT",
-      "code": "PTAN2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "FIRENOC",
-      "code": "FIRENOCAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "FIRENOC",
-      "code": "FIRENOCAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "FIRENOC",
-      "code": "FIRENOCAN2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "FIRENOC",
-      "code": "FIRENOCAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "TX.No_Dues_Certificate",
-      "code": "TXNDCAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "TX.No_Dues_Certificate",
-      "code": "TXNDCAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "TX.No_Dues_Certificate",
-      "code": "TXNDCAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "ADVT.Hoardings",
-      "code": "ADHAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "ADVT.Hoardings",
-      "code": "ADHAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "ADVT.Hoardings",
-      "code": "ADHAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Municipal_Shops_Rent",
-      "code": "RTMSRAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Municipal_Shops_Rent",
-      "code": "RTMSRAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Municipal_Shops_Rent",
-      "code": "RTMSRAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Parking_Fee",
-      "code": "RTPFAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Parking_Fee",
-      "code": "RTPFAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Parking_Fee",
-      "code": "RTPFAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Jamin_Theka",
-      "code": "RTJTAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Jamin_Theka",
-      "code": "RTJTAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Jamin_Theka",
-      "code": "RTJTAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076801000,
-      "toDate": 1585699199000,
-      "periodCycle": "ANNUAL",
-      "service": "REV_GRANTS",
-      "code": "REVGRAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585699201000,
-      "toDate": 1617235199000,
-      "periodCycle": "ANNUAL",
-      "service": "REV_GRANTS",
-      "code": "REVGRAN2020",
-      "financialYear": "2020-21"
-    },
-    {
-      "fromDate": 1617235201000,
-      "toDate": 1648771199000,
-      "periodCycle": "ANNUAL",
-      "service": "REV_GRANTS",
-      "code": "REVGRAN2021",
-      "financialYear": "2021-22"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "DISP_FIXED_ASSET.LAND",
-      "code": "DFAL10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "DISP_FIXED_ASSET.BUILDING",
-      "code": "DFAB10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
-      "code": "DFAMV10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "BPAREG",
-      "code": "BPAREG10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1554076800000,
-      "toDate": 1585612800000,
-      "periodCycle": "ANNUAL",
-      "service": "WS",
-      "code": "WC2018",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1554076800000,
-      "toDate": 1585612800000,
-      "periodCycle": "ANNUAL",
-      "service": "SW",
-      "code": "SC2018",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "BPA.NC_APP_FEE",
-      "code": "BPA10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "BPA.NC_SAN_FEE",
-      "code": "BPA10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "BPA.LOW_RISK_PERMIT_FEE",
-      "code": "BPA10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "PT.MUTATION",
-      "code": "PTMUTAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "PT.MUTATION",
-      "code": "PTMUTAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "PT.MUTATION",
-      "code": "PTMUTAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "PT.MUTATION",
-      "code": "PTMUTAN2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1585679399000,
-      "toDate": 1617172199000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2020",
-      "financialYear": "2020-21"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "WS.ONE_TIME_FEE",
-      "code": "WS10YRS2019",
-      "financialYear": "2019-29"
-    },
-    {
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "SW.ONE_TIME_FEE",
-      "code": "SW10YRS2019",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057001000,
-      "toDate": 1585593001000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS",
-      "code": "OPMS2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1617129000000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS",
-      "code": "OPMS2020",
-      "financialYear": "2020-21"
-    }
-  ]
+   "tenantId":"ch.chandigarh",
+   "moduleName":"BillingService",
+   "TaxPeriod":[
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "code":"AMRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "code":"DMRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "code":"AMRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "code":"DMRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.REGISTRATION_CERTIFICATE_OF_PEDAL_RICKSHAW_LOADING_REHRI",
+         "code":"RCPR10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.ISSUANCE_OF_NEW_RENEWAL_OF_DRIVING_LICENSE_FOR_PEDAL_RICKSHAW_LOADING_REHRI",
+         "code":"DLPR10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
+         "code":"DG10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
+         "code":"OBM10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "code":"WCPHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "code":"WCPHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "code":"WCPHD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "code":"WCPHD410YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.ROAD_CUT_CHARGES",
+         "code":"RCCRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TELECOM_TOWER",
+         "code":"TTRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TOILET_BLOCKS_LEASE",
+         "code":"TBLRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.BARRICADES",
+         "code":"BARRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.ROAD_CUT_CHARGES",
+         "code":"RCCRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TELECOM_TOWER",
+         "code":"TTRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TOILET_BLOCKS_LEASE",
+         "code":"TBLRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.BARRICADES",
+         "code":"BARRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.ROAD_CUT_CHARGES",
+         "code":"RCCRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TELECOM_TOWER",
+         "code":"TTRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TOILET_BLOCKS_LEASE",
+         "code":"TBLRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.BARRICADES",
+         "code":"BARRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
+         "code":"PL10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
+         "code":"CO10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_TAXI_STANDS",
+         "code":"TS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.PAID_PARKING_AREA_RECEIPTS(PPA)",
+         "code":"PPA10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ENFORCEMENT_BRANCH_SERVICES.AUCTION_CONFISCATED_GOODS",
+         "code":"ACG10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ENFORCEMENT_BRANCH_SERVICES.REMOVAL_CHARGES_CONFISCATED_GOODS",
+         "code":"RCCG10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BUILDING_BRANCH_SERVICES",
+         "code":"BBS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"FIRE_DEPARTMENT_SERVICES.FIRE_SAFETY_CERTIFICATE_FSC_CHARGES",
+         "code":"FSC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"FIRE_DEPARTMENT_SERVICES.STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "code":"SBDC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"FIRE_DEPARTMENT_SERVICES.FIRE_CALL_CHARGES",
+         "code":"FCC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.MANGO_GARDEN",
+         "code":"MGHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.POLES_FLAGS",
+         "code":"PFHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.SALE_OF_PLANTS_NURSERY_PRODUCTS",
+         "code":"SNPHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.SALE_OF_EMPTY_BAGS",
+         "code":"SEBHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.AUCTION_DEAD_OLD_TREES",
+         "code":"DOTHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.MANGO_GARDEN",
+         "code":"MGHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.POLES_FLAGS",
+         "code":"PFHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.SALE_OF_PLANTS_NURSERY_PRODUCTS",
+         "code":"SNPHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.SALE_OF_EMPTY_BAGS",
+         "code":"SEBHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.AUCTION_DEAD_OLD_TREES",
+         "code":"DOTHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"MOH_SERVICES",
+         "code":"MOH10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"MANIMAJRA_RELATED_SERVICES",
+         "code":"MNM10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "code":"AF10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "code":"BMM10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "code":"CB10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "code":"SC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "code":"WMS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "code":"CWS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "code":"EJ10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
+         "code":"WTC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.RTI_FEES",
+         "code":"RTI10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "code":"MOS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "code":"SF10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "code":"CCJG10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "code":"RMC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS",
+         "code":"MFCC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"COLONY_BRANCH_SERVICES.VIKAS_NAGAR_MAULIJAGRAN",
+         "code":"VN10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"COLONY_BRANCH_SERVICES.SEC_52_53",
+         "code":"SE5210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"COLONY_BRANCH_SERVICES.MILK_COLONY_MALOYA",
+         "code":"MCM10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"COLONY_BRANCH_SERVICES.KUMAHR_COLONY_MALOYA",
+         "code":"KCM10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"COLONY_BRANCH_SERVICES.PLINTH_SITES_RENT_SEC_25",
+         "code":"PSR10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PORPERTY_TAX.PROPERTY_TAX_COMMERCIAL",
+         "code":"PTC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PORPERTY_TAX.PROPERTY_TAX_RESIDENTIAL",
+         "code":"PTR10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_BRANCH.RENT_SHOPPING_COMPLEX_CAFES_ETC",
+         "code":"SCC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_BRANCH.RENT_NRB",
+         "code":"NRB10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_BRANCH.LEASE_BUILDING_LAND_ETC",
+         "code":"LBL10YRS2019",
+         "financialYear":"2019-29"
+      }
+   ]
 }

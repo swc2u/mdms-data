@@ -1,18 +1,654 @@
 {
-  "tenantId": "ch",
-  "moduleName": "BillingService",
-  "BusinessService": [
-    {
-      "businessService": "Revenue Grants",
-      "code": "REV_GRANTS",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true,
-      "type": "Finance"
-    }
-  ]
+   "tenantId":"ch",
+   "moduleName":"BillingService",
+   "BusinessService":[
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 1).Apni Mandi",
+         "code":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 1).Day Market",
+         "code":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 2).Apni Mandi",
+         "code":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 2).Day Market",
+         "code":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 3).Apni Mandi",
+         "code":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 3).Day Market",
+         "code":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Pedal Rickshaw/Loading Rehri, Dhobi Ghat and Old Book Market.Registration certificate of Pedal Rickshaw/Loading Rehri",
+         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.REGISTRATION_CERTIFICATE_OF_PEDAL_RICKSHAW_LOADING_REHRI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Pedal Rickshaw/Loading Rehri, Dhobi Ghat and Old Book Market.Issuance of New/Renewal of Driving License for Pedal Rickshaw/Loading Rehri",
+         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.ISSUANCE_OF_NEW_RENEWAL_OF_DRIVING_LICENSE_FOR_PEDAL_RICKSHAW_LOADING_REHRI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Pedal Rickshaw/Loading Rehri, Dhobi Ghat and Old Book Market.Dhobi Ghat",
+         "code":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Pedal Rickshaw/Loading Rehri, Dhobi Ghat and Old Book Market.Old Book Market",
+         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Water Related Charges (Public Health Div 1)",
+         "code":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Water Related Charges (Public Health Div 2)",
+         "code":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Water Related Charges (Public Health Div 3)",
+         "code":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Water Related Charges (Public Health Div 4)",
+         "code":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 1).Road Cut Charges",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.ROAD_CUT_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 1).Telecom Tower",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TELECOM_TOWER",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 1).Toilet Blocks Lease",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TOILET_BLOCKS_LEASE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 1).Barricades",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.BARRICADES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 2).Road Cut Charges",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.ROAD_CUT_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 2).Telecom Tower",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TELECOM_TOWER",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 2).Toilet Blocks Lease",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TOILET_BLOCKS_LEASE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 2).Barricades",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.BARRICADES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 3).Road Cut Charges",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.ROAD_CUT_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 3).Telecom Tower",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TELECOM_TOWER",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 3).Toilet Blocks Lease",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TOILET_BLOCKS_LEASE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Cut Charges, Telecom Tower and Barricades (Road Div 3).Barricades",
+         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.BARRICADES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.AUCTION - PARKING LOTS",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.RENT - CABLE OPERATORS",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.RENT - TAXI STANDS",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.RENT_TAXI_STANDS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.PAID PARKING AREA - RECEIPTS(PPA)",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.PAID_PARKING_AREA_RECEIPTS(PPA)",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Enforcement Branch Services.AUCTION - CONFISCATED GOODS",
+         "code":"ENFORCEMENT_BRANCH_SERVICES.AUCTION_CONFISCATED_GOODS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Enforcement Branch Services.REMOVAL CHARGES - CONFISCATED GOODS",
+         "code":"ENFORCEMENT_BRANCH_SERVICES.REMOVAL_CHARGES_CONFISCATED_GOODS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Building Branch Services",
+         "code":"BUILDING_BRANCH_SERVICES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Fire Department Services.FIRE SAFETY CERTIFICATE/FSC CHARGES",
+         "code":"FIRE_DEPARTMENT_SERVICES.FIRE_SAFETY_CERTIFICATE_FSC_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Fire Department Services.STAND-BY-DUTY CHARGES - FIRE TENDER",
+         "code":"FIRE_DEPARTMENT_SERVICES.STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Fire Department Services.FIRE CALL CHARGES",
+         "code":"FIRE_DEPARTMENT_SERVICES.FIRE_CALL_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Mango Garden",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.MANGO_GARDEN",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Poles and Flags",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.POLES_FLAGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.SALE OF PLANTS/NURSERY PRODUCTS",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.SALE_OF_PLANTS_NURSERY_PRODUCTS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.SALE OF EMPTY BAGS",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.SALE_OF_EMPTY_BAGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.AUCTION - DEAD/OLD TREES",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.AUCTION_DEAD_OLD_TREES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Mango Garden",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.MANGO_GARDEN",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Poles and Flags",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.POLES_FLAGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.SALE OF PLANTS/NURSERY PRODUCTS",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.SALE_OF_PLANTS_NURSERY_PRODUCTS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.SALE OF EMPTY BAGS",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.SALE_OF_EMPTY_BAGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.AUCTION - DEAD/OLD TREES",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.AUCTION_DEAD_OLD_TREES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"MOH Services",
+         "code":"MOH_SERVICES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Manimajra Related Services",
+         "code":"MANIMAJRA_RELATED_SERVICES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.ADVERTISEMENT FEES",
+         "code":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.SALES - BUILDING MATERIAL/MALBA",
+         "code":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.GROUND RENT - CAR BAZAAR",
+         "code":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.GROUD RENT - SCOOTER BAZAAR",
+         "code":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.WATER MELON SITES",
+         "code":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.COCONUT WATER SITES",
+         "code":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.EATING JOINTS",
+         "code":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.WATER TANKAR CHARGES",
+         "code":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.RTI FEES",
+         "code":"BOOKING_BRANCH_SERVICES.RTI_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.MANUAL/OPEN SPACE",
+         "code":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.SALE OF FORMS",
+         "code":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Community Centres/Jhanj Ghar",
+         "code":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Ground Rent-Boths/Mc Office",
+         "code":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"BOOKING_BRANCH_SERVICES.MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.VIKAS NAGAR, MAULIJAGRAN",
+         "code":"COLONY_BRANCH_SERVICES.VIKAS_NAGAR_MAULIJAGRAN",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.SEC 52 - 53",
+         "code":"COLONY_BRANCH_SERVICES.SEC_52_53",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.MILK COLONY, MALOYA",
+         "code":"COLONY_BRANCH_SERVICES.MILK_COLONY_MALOYA",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.KUMAHR COLONY, MALOYA",
+         "code":"COLONY_BRANCH_SERVICES.KUMAHR_COLONY_MALOYA",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.PLINTH SITES RENT - SEC 25",
+         "code":"COLONY_BRANCH_SERVICES.PLINTH_SITES_RENT_SEC_25",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Porperty Tax.PROPERTY TAX - COMMERCIAL",
+         "code":"PORPERTY_TAX.PROPERTY_TAX_COMMERCIAL",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Porperty Tax.PROPERTY TAX - RESIDENTIAL",
+         "code":"PORPERTY_TAX.PROPERTY_TAX_RESIDENTIAL",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Estate Branch.Rent - Shopping Complex/Cafes etc",
+         "code":"ESTATE_BRANCH.RENT_SHOPPING_COMPLEX_CAFES_ETC",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Estate Branch.Rent - NRB",
+         "code":"ESTATE_BRANCH.RENT_NRB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Estate Branch.Lease Building/land/etc",
+         "code":"ESTATE_BRANCH.LEASE_BUILDING_LAND_ETC",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      }
+   ]
 }

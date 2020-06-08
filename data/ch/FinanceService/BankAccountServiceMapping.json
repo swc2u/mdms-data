@@ -1,13 +1,435 @@
 {
-  "tenantId": "ch",
-  "moduleName": "FinanceModule",
-  "BankAccountServiceMapping": [
-    
-    {
-      "businessDetails": "REV_GRANTS",
-      "bankAccount": "00382010033490",
-      "bank": "Oriental Bank of Commerce",
-      "bankBranch": "OBC01"
-    }
-  ]
+   "tenantId":"ch",
+   "moduleName":"FinanceModule",
+   "BankAccountServiceMapping":[
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.REGISTRATION_CERTIFICATE_OF_PEDAL_RICKSHAW_LOADING_REHRI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.ISSUANCE_OF_NEW_RENEWAL_OF_DRIVING_LICENSE_FOR_PEDAL_RICKSHAW_LOADING_REHRI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
+         "bankAccount":"00382011002823",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.ROAD_CUT_CHARGES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TELECOM_TOWER",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TOILET_BLOCKS_LEASE",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.BARRICADES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.ROAD_CUT_CHARGES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TELECOM_TOWER",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TOILET_BLOCKS_LEASE",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.BARRICADES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.ROAD_CUT_CHARGES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TELECOM_TOWER",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TOILET_BLOCKS_LEASE",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.BARRICADES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"PARKING_BRANCH_RELATED_SERVICES.RENT_TAXI_STANDS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"PARKING_BRANCH_RELATED_SERVICES.PAID_PARKING_AREA_RECEIPTS(PPA)",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ENFORCEMENT_BRANCH_SERVICES.AUCTION_CONFISCATED_GOODS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ENFORCEMENT_BRANCH_SERVICES.REMOVAL_CHARGES_CONFISCATED_GOODS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BUILDING_BRANCH_SERVICES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"FIRE_DEPARTMENT_SERVICES.FIRE_SAFETY_CERTIFICATE_FSC_CHARGES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"FIRE_DEPARTMENT_SERVICES.STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"FIRE_DEPARTMENT_SERVICES.FIRE_CALL_CHARGES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.MANGO_GARDEN",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.POLES_FLAGS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.SALE_OF_PLANTS_NURSERY_PRODUCTS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.SALE_OF_EMPTY_BAGS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.AUCTION_DEAD_OLD_TREES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.MANGO_GARDEN",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.POLES_FLAGS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.SALE_OF_PLANTS_NURSERY_PRODUCTS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.SALE_OF_EMPTY_BAGS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.AUCTION_DEAD_OLD_TREES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"MOH_SERVICES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"MANIMAJRA_RELATED_SERVICES"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.RTI_FEES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"COLONY_BRANCH_SERVICES.VIKAS_NAGAR_MAULIJAGRAN",
+         "bankAccount":"000834001000766",
+         "bank":"THE CHANDIGARH STATE CO-OPERATIVE BANK",
+         "bankBranch":"CSOB01"
+      },
+      {
+         "businessDetails":"COLONY_BRANCH_SERVICES.SEC_52_53",
+         "bankAccount":"001334001000127",
+         "bank":"THE CHANDIGARH STATE CO-OPERATIVE BANK",
+         "bankBranch":"CSOB01"
+      },
+      {
+         "businessDetails":"COLONY_BRANCH_SERVICES.MILK_COLONY_MALOYA",
+         "bankAccount":"001334001000127",
+         "bank":"THE CHANDIGARH STATE CO-OPERATIVE BANK",
+         "bankBranch":"CSOB01"
+      },
+      {
+         "businessDetails":"COLONY_BRANCH_SERVICES.KUMAHR_COLONY_MALOYA",
+         "bankAccount":"001334001000127",
+         "bank":"THE CHANDIGARH STATE CO-OPERATIVE BANK",
+         "bankBranch":"CSOB01"
+      },
+      {
+         "businessDetails":"COLONY_BRANCH_SERVICES.PLINTH_SITES_RENT_SEC_25",
+         "bankAccount":"001334001000127",
+         "bank":"THE CHANDIGARH STATE CO-OPERATIVE BANK",
+         "bankBranch":"CSOB01"
+      },
+      {
+         "businessDetails":"PORPERTY_TAX.PROPERTY_TAX_COMMERCIAL",
+         "bankAccount":"00382011000560",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"PORPERTY_TAX.PROPERTY_TAX_RESIDENTIAL",
+         "bankAccount":"00382191008271",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ESTATE_BRANCH.RENT_SHOPPING_COMPLEX_CAFES_ETC",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ESTATE_BRANCH.RENT_NRB",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ESTATE_BRANCH.LEASE_BUILDING_LAND_ETC",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      }
+   ]
 }
