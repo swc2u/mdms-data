@@ -16400,6 +16400,31 @@
 	"leftIcon":"social:people",
 	"rightIcon":"",
 	"queryParams":""
-     }
+     },
+    {
+      "id": 4035,
+      "name": "CreateProperty",
+      "url": "/csp/property/_create",
+      "displayName": "Create Property",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CreateProperty",
+      "code": "null",
+      "path": "CreateProperty"
+    },
+    {
+      "id": 4036,
+      "name": "TestPropertyApi",
+      "url": "/csp/property/_test",
+      "displayName": "Test Property api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "TestPropertyApi",
+      "code": "null",
+      "path": "TestPropertyApi"
+    }
+
   ]
 }

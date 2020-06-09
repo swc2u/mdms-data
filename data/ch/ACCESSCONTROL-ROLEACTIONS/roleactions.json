@@ -28162,6 +28162,12 @@
 		"tenantId": "ch"
 	},
 	{
+    "rolecode": "AGENDA_BRANCH_REPORT_VIEWER",
+		"actionid": "4033",
+		"actioncode": "",
+    "tenantId": "ch"
+  },
+  {
       "rolecode": "SYSTEM",
       "actionid": 100,
       "actioncode": "",
@@ -28172,6 +28178,18 @@
       "actionid": 101,
       "actioncode": "",
       "tenantId": "ch"
-    }
+    },
+  {
+    "rolecode": "EMPLOYEE",
+    "actionid": 4035,
+    "actioncode": "",
+    "tenantId": "ch"
+  },
+  {
+    "rolecode": "EMPLOYEE",
+    "actionid": 4036,
+    "actioncode": "",
+    "tenantId": "ch"
+  }
   ]
 }
