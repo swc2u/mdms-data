@@ -2,6 +2,30 @@
   "tenantId": "ch",
   "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
   "actions-test": [
+	{
+      "id": 100,
+      "name": "SendEmailNotification",
+      "url": "/email/v1/_send",
+      "displayName": "Send Email",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "NOTIFICATIONEMAIL",
+      "code": "null",
+      "path": "Email.SendEmail"
+    },
+	{
+      "id": 101,
+      "name": "SendSmsNotification",
+      "url": "/sms/v1/_send",
+      "displayName": "Send Sms",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "NOTIFICATIONSMS",
+      "code": "null",
+      "path": "Sms.SendSms"
+    },
     {
       "id": 238,
       "name": "CreateImmovableAsset",
@@ -15682,7 +15706,7 @@
       "serviceCode": "",
       "code": "",
       "path": "",
-      "navigationURL": "services/egi/task",
+      "navigationURL": "services/egi/task/agenda",
       "leftIcon": "social:people",
       "rightIcon": "",
       "queryParams": ""

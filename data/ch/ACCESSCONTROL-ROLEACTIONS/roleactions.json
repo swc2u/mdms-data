@@ -28160,6 +28160,18 @@
 		"actionid": 4104,
 		"actioncode": "",
 		"tenantId": "ch"
-	}
+	},
+	{
+      "rolecode": "SYSTEM",
+      "actionid": 100,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "SYSTEM",
+      "actionid": 101,
+      "actioncode": "",
+      "tenantId": "ch"
+    }
   ]
 }
