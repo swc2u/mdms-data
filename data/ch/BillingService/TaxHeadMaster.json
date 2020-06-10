@@ -123,6 +123,166 @@
       "isRequired": false
     },
     {
+      "category": "FEE",
+      "service": "CTL.REHRI_REGISTRATION",
+      "name": "Rehri Registration fee",
+      "code": "CTL.REHRI_REGISTRATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CTL.REHRI_REGISTRATION",
+      "name": "Rehri Registration Tax",
+      "code": "CTL.REHRI_REGISTRATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "CTL.REHRI_REGISTRATION",
+      "name": "Rehri Registration Penalty",
+      "code": "CTL.REHRI_REGISTRATION_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CTL.REHRI_REGISTRATION",
+      "name": "renri rc roundoff",
+      "code": "CTL.REHRI_REGISTRATION_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "CTL.REHRI_DRIVING_LICENSE",
+      "name": "Rehri Driving License fee",
+      "code": "CTL.REHRI_DRIVING_LICENSE_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CTL.REHRI_DRIVING_LICENSE",
+      "name": "Rehri Driving License Tax",
+      "code": "CTL.REHRI_DRIVING_LICENSE_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "CTL.REHRI_DRIVING_LICENSE",
+      "name": "Rehri Driving License Penalty",
+      "code": "CTL.REHRI_DRIVING_LICENSE_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CTL.REHRI_DRIVING_LICENSE",
+      "name": "renri dl roundoff",
+      "code": "CTL.REHRI_DRIVING_LICENSE_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "CTL.DHOBI_GHAT",
+      "name": "Dhobi Ghat Fee",
+      "code": "CTL.DHOBI_GHAT_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CTL.DHOBI_GHAT",
+      "name": "Dhobi Ghat Tax",
+      "code": "CTL.DHOBI_GHAT_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "CTL.DHOBI_GHAT",
+      "name": "Dhobi Ghat Penalty",
+      "code": "CTL.DHOBI_GHAT_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CTL.DHOBI_GHAT",
+      "name": "ctl dhobi ghat roundoff",
+      "code": "CTL.DHOBI_GHAT_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "CTL.OLD_BOOK_MARKET",
+      "name": "Old Book Shop Rent",
+      "code": "CTL.OLD_BOOK_MARKET_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CTL.OLD_BOOK_MARKET",
+      "name": "Old Book Shop Rent Tax",
+      "code": "CTL.OLD_BOOK_MARKET_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "CTL.OLD_BOOK_MARKET",
+      "name": "Old Book Shop Rent Penalty",
+      "code": "CTL.OLD_BOOK_MARKET_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "CTL.OLD_BOOK_MARKET",
+      "name": "tl roundoff",
+      "code": "CTL.OLD_BOOK_MARKET_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
       "category": "TAX",
       "service": "TL",
       "name": "tl roundoff",

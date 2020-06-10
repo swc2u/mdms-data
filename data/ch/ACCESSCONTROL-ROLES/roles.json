@@ -478,7 +478,22 @@
       "name": "EGF Bill Verifier 2",
       "description": "Employee who verifies Budget in finance"
     },
-	{
+    {
+      "code": "CTL_CLERK",
+      "name": "CLERK",
+      "description": "Employee who verifies, rejects and approves the TL application"
+    },
+    {
+      "code": "CTL_SA",
+      "name": "SA",
+      "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"
+    },
+    {
+      "code": "CTL_SI",
+      "name": "SI",
+      "description": "Employee who verifies, rejects and approves the TL application which is approved by SA"
+    },
+    {
       "code": "SI",
       "name": "SI",
       "description": "Sanitary Inspector"

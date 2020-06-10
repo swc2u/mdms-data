@@ -18010,7 +18010,7 @@
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 1817,
+      "actionid": 11687,
       "actioncode": "",
       "tenantId": "ch"
     },
@@ -20126,9 +20126,15 @@
       "actioncode": "",
       "tenantId": "ch"
     },
-    { 
+    {
       "rolecode": "EGF_BUDGET_APPROVER",
       "actionid": 1956,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 11687,
       "actioncode": "",
       "tenantId": "ch"
     },

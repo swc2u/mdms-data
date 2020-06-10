@@ -11764,6 +11764,18 @@
       "path": ""
     },
     {
+      "id": 11687,
+      "name": "Fetch count of TradeLicense",
+      "url": "/tl-services/v1/_count",
+      "parentModule": "",
+      "displayName": "Fetch count of TradeLicense",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "tl-services",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1688,
       "name": "Get Bill",
       "url": "/tl-calculator/v1/_getbill",
@@ -13224,6 +13236,21 @@
       "rightIcon": ""
     },
     {
+      "id": 1807,
+      "name": "TradeLicense",
+      "url": "url",
+      "displayName": "Trade License",
+      "orderNumber": 13,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "navigationURL": "tradelicense-citizen/home",
+      "path": "TradeLicense",
+      "leftIcon": "places:business-center",
+      "rightIcon": ""
+    },
+    {
       "id": 1808,
       "name": "CollectionRegister",
       "url": "url",
@@ -13271,6 +13298,22 @@
       "path": "",
       "navigationURL": "pgr-home",
       "leftIcon": "custom:account-alert",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 1816,
+      "name": "rainmaker-citizen-tradelicence",
+      "url": "card",
+      "displayName": "Trade Licence",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "tradelicense-citizen/home",
+      "leftIcon": "custom:trade-license",
       "rightIcon": "",
       "queryParams": ""
     },
