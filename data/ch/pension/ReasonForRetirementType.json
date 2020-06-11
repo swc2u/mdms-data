@@ -1,0 +1,21 @@
+{
+  "tenantId": "ch"  , 
+  "moduleName": "pension",
+  "ReasonForRetirementType": [
+    {
+      "code": "RETIREMENT",
+      "name": "RETIREMENT",
+      "active": true
+    },
+{
+      "code": "VRS",
+      "name": "VRS",
+      "active": true
+    },
+{
+      "code": "ABOLISHION_OF_POST",
+      "name": "ABOLISHION OF POST",
+      "active": true
+    }
+  ]
+}

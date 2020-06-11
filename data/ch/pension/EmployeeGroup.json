@@ -1,0 +1,18 @@
+{
+  "tenantId": "ch",
+  "moduleName": "pension",
+  "employeeGroup": [
+    {
+      "code": "GROUP_A"
+    },
+    {
+      "code": "GROUP_B"
+    },
+    {
+      "code": "GROUP_C"
+    },
+    {
+      "code": "GROUP_D"
+    }
+  ]
+}
