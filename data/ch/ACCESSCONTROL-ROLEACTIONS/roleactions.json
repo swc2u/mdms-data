@@ -20138,6 +20138,24 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 11682,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 11683,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 11684,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
 	{
 		"rolecode": "CITIZEN",
 		"actionid": "2063",

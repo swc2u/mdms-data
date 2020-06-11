@@ -11776,6 +11776,45 @@
       "path": ""
     },
     {
+      "id": 11682,
+      "name": "CTL Billing slab create",
+      "url": "/tl-calculator/ctlbillingslab/_create",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "path": "",
+      "navigationURL": ""
+    },
+    {
+      "id": 11683,
+      "name": "CTL Billing slab update",
+      "url": "/tl-calculator/ctlbillingslab/_update",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "path": "",
+      "navigationURL": ""
+    },
+    {
+      "id": 11684,
+      "name": "CTL billing slab search",
+      "url": "/tl-calculator/ctlbillingslab/_search",
+      "parentModule": "",
+      "displayName": "",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "TradeLicense",
+      "code": "null",
+      "path": "",
+      "navigationURL": ""
+    },
+    {
       "id": 1688,
       "name": "Get Bill",
       "url": "/tl-calculator/v1/_getbill",
