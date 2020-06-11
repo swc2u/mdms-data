@@ -18,5 +18,21 @@
         "code": "ch.chandigarh"
       }
     }
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Chandigarh",
+        "localname": "Chandigarh",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "ch.chandigarh"
+      }
+    }    
   ]
 }
