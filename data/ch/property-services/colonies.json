@@ -1,0 +1,57 @@
+{
+    "tenantId": "ch",
+    "moduleName": "PropertyServices",
+    "colonies": [
+        {
+            "code": "COLONY.MILK",
+            "active": true,
+            "costPerSqyd" : 2,
+            "area": [
+                {
+                    "code": "AREA.150",
+                    "active": true,
+                    "sqyd": "150"
+                },
+                {
+                    "code": "AREA.300",
+                    "active": true,
+                    "sqyd": "300"
+                }
+            ]
+        },
+        {
+            "code": "COLONY.KUMHAR",
+            "active": true,
+            "costPerSqyd" : 4,
+            "area": [
+                {
+                    "code": "AREA.125",
+                    "active": true,
+                    "sqyd": "125"
+                }
+            ]
+        },
+        {
+            "code": "COLONY.SECTOR_52_53",
+            "active": true,
+            "area": [
+                {
+                    "code": "AREA.150",
+                    "active": true,
+                    "sqyd": "150"
+                }
+            ]
+        },
+        {
+            "code": "COLONY.VIKAR_NAGAR",
+            "active": true,
+            "area": [
+                {
+                    "code": "AREA.150",
+                    "active": true,
+                    "sqyd": "150"
+                }
+            ]
+        }
+    ]
+}

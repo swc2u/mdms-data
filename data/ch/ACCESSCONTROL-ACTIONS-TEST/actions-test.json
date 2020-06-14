@@ -16454,15 +16454,15 @@
     },
     {
       "id": 4036,
-      "name": "TestPropertyApi",
-      "url": "/csp/property/_test",
-      "displayName": "Test Property api",
+      "name": "SearchPropertyApi",
+      "url": "/csp/property/_search",
+      "displayName": "Search Property api",
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "TestPropertyApi",
+      "serviceCode": "SearchPropertyApi",
       "code": "null",
-      "path": "TestPropertyApi"
+      "path": "SearchPropertyApi"
     },
 	  {
             "id": 4201,
