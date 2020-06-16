@@ -10,7 +10,7 @@
          "description":"Numbers",
          "uomCategory":{
 			"id":4,
-			"code":"QUANTITY",
+			"code":"QUANTITY"
 		 },
          "baseUom":true,
          "fromDate":1508740856,
@@ -26,7 +26,7 @@
          "description":"Litres",
          "uomCategory":{
 			"id":5,
-			"code":"VOLUME",
+			"code":"VOLUME"
 		 },
          "baseUom":true,
          "fromDate":1508740856,
@@ -42,7 +42,7 @@
          "description":"Cubic Litre",
          "uomCategory":{
 			"id":5,
-			"code":"VOLUME",
+			"code":"VOLUME"
 		 },
          "baseUom":false,
          "fromDate":1508740856,
@@ -58,7 +58,7 @@
          "description":"Kilograms",
          "uomCategory":{
 			"id":1,
-			"code":"WEIGHT",
+			"code":"WEIGHT"
 		 },
          "baseUom":false,
          "fromDate":1508740856,
@@ -74,7 +74,7 @@
          "description":"Tonne",
          "uomCategory":{
 			"id":1,
-			"code":"WEIGHT",
+			"code":"WEIGHT"
 		 },
          "baseUom":false,
          "fromDate":1508740856,
@@ -90,7 +90,7 @@
          "description":"Grams",
          "uomCategory":{
 			"id":1,
-			"code":"WEIGHT",
+			"code":"WEIGHT"
 		 },
          "baseUom":true,
          "fromDate":1508740856,
@@ -106,7 +106,7 @@
          "description":"Meter",
          "uomCategory":{
 			"id":2,
-			"code":"LENGTH",
+			"code":"LENGTH"
 		 },
          "baseUom":true,
          "fromDate":1508740856,
@@ -122,7 +122,7 @@
          "description":"Kilometer",
          "uomCategory":{
 			"id":2,
-			"code":"LENGTH",
+			"code":"LENGTH"
 		 },
          "baseUom":false,
          "fromDate":1508740856,
@@ -138,7 +138,7 @@
          "description":"Centimeter",
          "uomCategory":{
 			"id":2,
-			"code":"LENGTH",
+			"code":"LENGTH"
 		 },
          "baseUom":false,
          "fromDate":1508740856,
@@ -154,7 +154,7 @@
          "description":"Square Feet",
          "uomCategory":{
 			"id":3,
-			"code":"AREA",
+			"code":"AREA"
 		 },
          "baseUom":false,
          "fromDate":1508740856,
@@ -170,7 +170,7 @@
          "description":"Square Meter",
          "uomCategory":{
 			"id":3,
-			"code":"AREA",
+			"code":"AREA"
 		 },
          "baseUom":true,
          "fromDate":1508740856,
@@ -186,7 +186,7 @@
          "description":"Kilo Watts",
          "uomCategory":{
 			"id":6,
-			"code":"POWER",
+			"code":"POWER"
 		 },
          "baseUom":false,
          "fromDate":1508740856,
@@ -202,7 +202,7 @@
          "description":"Kilovolt-Ampere",
          "uomCategory":{
 			"id":6,
-			"code":"POWER",
+			"code":"POWER"
 		 },
          "baseUom":false,
          "fromDate":1508740856,
@@ -218,7 +218,7 @@
          "description":"Horse Power",
          "uomCategory":{
 			"id":6,
-			"code":"POWER",
+			"code":"POWER"
 		 },
          "baseUom":false,
          "fromDate":1508740856,
