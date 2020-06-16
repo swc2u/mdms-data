@@ -8,8 +8,14 @@
          "code":"MAT01",
          "name":"Cement",
          "description":"Cement",
-         "materialType":"2",
-         "baseUom":"4"
+         "materialType":{
+            "id":2,
+            "code":"101",
+          },
+         "baseUom":{
+            "id":4,
+            "code":"KGS",
+          }
       },
       {
          "id":2,
@@ -17,8 +23,14 @@
          "code":"MAT02",
          "name":"Iron Bars",
          "description":"Iron Bars",
-         "materialType":"5",
-         "baseUom":"5"
+         "materialType":{
+            "id":1,
+            "code":"105",
+          },
+         "baseUom":{
+            "id":5,
+            "code":"TON",
+          }
       }
    ]
 }
