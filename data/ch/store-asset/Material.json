@@ -1,0 +1,24 @@
+{
+   "tenantId":"ch",
+   "moduleName":"store-asset",
+   "Material":[
+      {
+         "id":1,
+         "tenantId":"ch",
+         "code":"MAT01",
+         "name":"Cement",
+         "description":"Cement",
+         "materialType":"2",
+         "baseUom":"4"
+      },
+      {
+         "id":2,
+         "tenantId":"ch",
+         "code":"MAT02",
+         "name":"Iron Bars",
+         "description":"Iron Bars",
+         "materialType":"5",
+         "baseUom":"5"
+      }
+   ]
+}
