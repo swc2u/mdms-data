@@ -484,6 +484,11 @@
       "description": "Employee who verifies, rejects and approves the TL application"
     },
     {
+      "code": "CTL_JA",
+      "name": "JA",
+      "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"
+    },
+    {
       "code": "CTL_SA",
       "name": "SA",
       "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"

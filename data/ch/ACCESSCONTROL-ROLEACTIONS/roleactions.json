@@ -28210,6 +28210,12 @@
       "tenantId": "ch"
     },
     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 4037,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
       "rolecode": "DDO",
       "actionid": 1534,
       "actioncode": "",

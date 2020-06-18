@@ -16464,6 +16464,18 @@
       "code": "null",
       "path": "SearchPropertyApi"
     },
+    {
+      "id": 4037,
+      "name": "UpdatePropertyApi",
+      "url": "/csp/property/_update",
+      "displayName": "Update Property api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "UpdatePropertyApi",
+      "code": "null",
+      "path": "UpdatePropertyApi"
+    },
 	  {
             "id": 4201,
             "name": "rainmaker-common-pms",
