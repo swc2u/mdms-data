@@ -6,12 +6,9 @@
          "id":1,
          "tenantId":"ch",
          "code":"NOS",
-		 "name":"Numbers",
+	 "name":"Numbers",
          "description":"Numbers",
-         "uomCategory":{
-			"id":4,
-			"code":"QUANTITY"
-		 },
+         "uomCategory":"QUANTITY",
          "baseUom":true,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -22,12 +19,9 @@
          "id":2,
          "tenantId":"ch",
          "code":"LTR",
-		 "name":"Litres",
+	 "name":"Litres",
          "description":"Litres",
-         "uomCategory":{
-			"id":5,
-			"code":"VOLUME"
-		 },
+         "uomCategory":"VOLUME",
          "baseUom":true,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -38,12 +32,9 @@
          "id":3,
          "tenantId":"ch",
          "code":"CUL",
-		 "name":"Cubic Litre",
+	 "name":"Cubic Litre",
          "description":"Cubic Litre",
-         "uomCategory":{
-			"id":5,
-			"code":"VOLUME"
-		 },
+         "uomCategory":"VOLUME",
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -54,12 +45,9 @@
          "id":4,
          "tenantId":"ch",
          "code":"KGS",
-		 "name":"Kilograms",
+	 "name":"Kilograms",
          "description":"Kilograms",
-         "uomCategory":{
-			"id":1,
-			"code":"WEIGHT"
-		 },
+         "uomCategory":"WEIGHT",
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -70,12 +58,9 @@
          "id":5,
          "tenantId":"ch",
          "code":"TON",
-		 "name":"Tonne",
+	 "name":"Tonne",
          "description":"Tonne",
-         "uomCategory":{
-			"id":1,
-			"code":"WEIGHT"
-		 },
+         "uomCategory":"WEIGHT",
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -86,12 +71,9 @@
          "id":6,
          "tenantId":"ch",
          "code":"GMS",
-		 "name":"Grams",
+	 "name":"Grams",
          "description":"Grams",
-         "uomCategory":{
-			"id":1,
-			"code":"WEIGHT"
-		 },
+         "uomCategory":"WEIGHT",
          "baseUom":true,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -102,12 +84,9 @@
          "id":7,
          "tenantId":"ch",
          "code":"MTR",
-		 "name":"Meter",
+	 "name":"Meter",
          "description":"Meter",
-         "uomCategory":{
-			"id":2,
-			"code":"LENGTH"
-		 },
+         "uomCategory":"LENGTH",
          "baseUom":true,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -118,12 +97,9 @@
          "id":8,
          "tenantId":"ch",
          "code":"KM",
-		 "name":"Kilometer",
+	 "name":"Kilometer",
          "description":"Kilometer",
-         "uomCategory":{
-			"id":2,
-			"code":"LENGTH"
-		 },
+         "uomCategory":"LENGTH",
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -134,12 +110,9 @@
          "id":9,
          "tenantId":"ch",
          "code":"CM",
-		 "name":"Centimeter",
+	 "name":"Centimeter",
          "description":"Centimeter",
-         "uomCategory":{
-			"id":2,
-			"code":"LENGTH"
-		 },
+         "uomCategory":"LENGTH",
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -150,12 +123,9 @@
          "id":10,
          "tenantId":"ch",
          "code":"SFT",
-		 "name":"Square Feet",
+	 "name":"Square Feet",
          "description":"Square Feet",
-         "uomCategory":{
-			"id":3,
-			"code":"AREA"
-		 },
+         "uomCategory":"AREA",
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -166,12 +136,9 @@
          "id":11,
          "tenantId":"ch",
          "code":"SQM",
-		 "name":"Square Meter",
+	 "name":"Square Meter",
          "description":"Square Meter",
-         "uomCategory":{
-			"id":3,
-			"code":"AREA"
-		 },
+         "uomCategory":"AREA",
          "baseUom":true,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -182,12 +149,9 @@
          "id":12,
          "tenantId":"ch",
          "code":"KW",
-		 "name":"Kilo Watts",
+	 "name":"Kilo Watts",
          "description":"Kilo Watts",
-         "uomCategory":{
-			"id":6,
-			"code":"POWER"
-		 },
+         "uomCategory":"POWER",
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -198,12 +162,9 @@
          "id":13,
          "tenantId":"ch",
          "code":"KVA",
-		 "name":"Kilovolt-Ampere",
+	 "name":"Kilovolt-Ampere",
          "description":"Kilovolt-Ampere",
-         "uomCategory":{
-			"id":6,
-			"code":"POWER"
-		 },
+         "uomCategory":"POWER",
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
@@ -214,12 +175,9 @@
          "id":14,
          "tenantId":"ch",
          "code":"HP",
-		 "name":"Horse Power",
+	 "name":"Horse Power",
          "description":"Horse Power",
-         "uomCategory":{
-			"id":6,
-			"code":"POWER"
-		 },
+         "uomCategory":"POWER",
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
