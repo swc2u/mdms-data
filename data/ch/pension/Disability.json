@@ -1,0 +1,221 @@
+{
+	"tenantId": "ch",
+	"moduleName": "pension",
+	"Disability": [{
+			"code": "DISABILITY_INJURY_1",
+			"value": 100
+		},
+		{
+			"code": "DISABILITY_INJURY_2",
+			"value": 100
+		},
+		{
+			"code": "DISABILITY_INJURY_3",
+			"value": 100
+		},
+		{
+			"code": "DISABILITY_INJURY_4",
+			"value": 100
+		},
+		{
+			"code": "DISABILITY_INJURY_5",
+			"value": 100
+		},
+		{
+			"code": "DISABILITY_INJURY_6",
+			"value": 100
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_1",
+			"value": 90
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_2",
+			"value": 80
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_3",
+			"value": 70
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_4",
+			"value": 60
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_5",
+			"value": 30
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_6",
+			"value": 40
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_7",
+			"value": 50
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_8",
+			"value": 30
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_9",
+			"value": 20
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_10",
+			"value": 20
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_11",
+			"value": 90
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_12",
+			"value": 80
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_13",
+			"value": 40
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_14",
+			"value": 30
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_15",
+			"value": 20
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_16",
+			"value": 90
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_17",
+			"value": 80
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_18",
+			"value": 70
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_19",
+			"value": 60
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_20",
+			"value": 50
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_21",
+			"value": 40
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_22",
+			"value": 30
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_23",
+			"value": 30
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_24",
+			"value": 20
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_25",
+			"value": 40
+		},
+		{
+			"code": "DISABILITIES_PARTIAL_26",
+			"value": 30
+		},
+		{
+			"code": "DISABILITIES_FINGER_INDEX_27",
+			"value": 14
+		},
+		{
+			"code": "DISABILITIES_FINGER_INDEX_28",
+			"value": 11
+		},
+		{
+			"code": "DISABILITIES_FINGER_INDEX_29",
+			"value": 9
+		},
+		{
+			"code": "DISABILITIES_FINGER_INDEX_30",
+			"value": 5
+		},
+		{
+			"code": "DISABILITIES_FINGER_MIDDLE_31",
+			"value": 12
+		},
+		{
+			"code": "DISABILITIES_FINGER_MIDDLE_32",
+			"value": 9
+		},
+		{
+			"code": "DISABILITIES_FINGER_MIDDLE_33",
+			"value": 7
+		},
+		{
+			"code": "DISABILITIES_FINGER_MIDDLE_34",
+			"value": 4
+		},
+		{
+			"code": "DISABILITIES_FINGER_RING_LITTLE_35",
+			"value": 7
+		},
+		{
+			"code": "DISABILITIES_FINGER_RING_LITTLE_36",
+			"value": 6
+		},
+		{
+			"code": "DISABILITIES_FINGER_RING_LITTLE_37",
+			"value": 5
+		},
+		{
+			"code": "DISABILITIES_FINGER_RING_LITTLE_38",
+			"value": 2
+		},
+		{
+			"code": "DISABILITIES_TOES_39",
+			"value": 14
+		},
+		{
+			"code": "DISABILITIES_TOES_40",
+			"value": 3
+		},
+		{
+			"code": "DISABILITIES_TOES_41",
+			"value": 3
+		},
+		{
+			"code": "DISABILITIES_TOES_42",
+			"value": 1
+		},
+		{
+			"code": "DISABILITIES_TOES_43",
+			"value": 4
+		},
+		{
+			"code": "DISABILITIES_TOES_44",
+			"value": 4
+		},
+		{
+			"code": "DISABILITIES_TOES_45",
+			"value": 6
+		},
+		{
+			"code": "DISABILITIES_TOES_46",
+			"value": 3
+		},
+		{
+			"code": "DISABILITIES_TOES_47",
+			"value": 9
+		},
+		{
+			"code": "DISABILITIES_TOES_48",
+			"value": 31
+		}
+	]
+}
