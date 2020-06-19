@@ -17529,6 +17529,30 @@
       "tenantId": "ch"
     },
     {
+      "rolecode": "SUPERUSER",
+      "actionid": 21786,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 21787,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 21788,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 21789,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
       "rolecode": "DGRO",
       "actionid": 1752,
       "actioncode": "",
@@ -20135,6 +20159,24 @@
     {
       "rolecode": "EMPLOYEE",
       "actionid": 11687,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 11682,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 11683,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 11684,
       "actioncode": "",
       "tenantId": "ch"
     },
