@@ -462,7 +462,15 @@
         {
             "format": "PM-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
             "idname": "ch.pms"
-        }	
+        },
+        {
+            "format": "EV-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
+            "idname": "ch.prscpev"
+        },
+        {
+            "format": "TD-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
+            "idname": "ch.prscptd"
+        }                  
 
     ]
 }

@@ -3,6 +3,330 @@
   "moduleName": "TradeLicense",
   "TradeType": [
     {
+      "code": "CTL.REHRI_REGISTRATION",
+      "category" : "CTL.REHRI",
+      "uom": "year",
+      "applicationDocument": [
+        {
+          "applicationType": "New",
+          "documentList": [
+            {
+              "code": "OWNERADDRESSPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "ADDRESSPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERAGEPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "AGEPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERBILL",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "BILLDESCRIPTION"
+            },
+            {
+              "code": "OWNERPHOTO",
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY",
+              "description": "PHOTODESCRIPTION"
+            }
+          ]
+        },
+        {
+          "applicationType": "Renew",
+          "documentList": [
+            {
+              "code": "OWNERADDRESSPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "ADDRESSPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERAGEPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "AGEPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERBILL",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "BILLDESCRIPTION"
+            },
+            {
+              "code": "OWNERPHOTO",
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY",
+              "description": "PHOTODESCRIPTION"
+            }
+          ]
+        }
+      ],
+      "verificationDocument": [
+        
+      ],
+      "active": true,
+      "type": "TL",
+      "validityPeriod": null
+    },
+    {
+      "code": "CTL.REHRI_DRIVING_LICENSE",
+      "category" : "CTL.REHRI",
+      "uom": "year",
+      "applicationDocument": [
+        {
+          "applicationType": "New",
+          "documentList": [
+            {
+              "code": "OWNERADDRESSPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "ADDRESSPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERAGEPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "AGEPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERBILL",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "BILLDESCRIPTION"
+            },
+            {
+              "code": "PERFORMADRIVINGLICENSE",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "PERFORMADESCRIPTION"
+            },
+            {
+              "code": "OWNERPHOTO",
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY",
+              "description": "PHOTODESCRIPTION"
+            }
+          ]
+        },
+        {
+          "applicationType": "Renew",
+          "documentList": [
+            {
+              "code": "OWNERADDRESSPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "ADDRESSPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERAGEPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "AGEPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERBILL",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "BILLDESCRIPTION"
+            },
+            {
+              "code": "PERFORMADRIVINGLICENSE",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "PERFORMADESCRIPTION"
+            },
+            {
+              "code": "OWNERPHOTO",
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY",
+              "description": "PHOTODESCRIPTION"
+            }
+          ]
+        }
+      ],
+      "verificationDocument": [
+        
+      ],
+      "active": true,
+      "type": "TL",
+      "validityPeriod": null
+    },
+    {
+      "code": "CTL.DHOBI_GHAT",
+      "category" : "CTL.DHOBI_GHAT",
+      "uom": "year",
+      "applicationDocument": [
+        {
+          "applicationType": "New",
+          "documentList": [
+            {
+              "code": "OWNERADDRESSPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "ADDRESSPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERAGEPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "AGEPROOFDESCRIPTION"
+            },
+            {
+              "code": "PERFORMADHBOBIGHAT",
+              "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "PERFORMADESCRIPTION"
+            },
+            {
+              "code": "OWNERPHOTO",
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY",
+              "description": "PHOTODESCRIPTION"
+            }
+          ]
+        },
+        {
+          "applicationType": "Renew",
+          "documentList": [
+            {
+              "code": "OWNERADDRESSPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "ADDRESSPROOFDESCRIPTION"
+            },
+            {
+              "code": "OWNERAGEPROOF",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "AGEPROOFDESCRIPTION"
+            },
+            {
+              "code": "PERFORMADHBOBIGHAT",
+              "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "PERFORMADESCRIPTION"
+            },
+            {
+              "code": "OWNERPHOTO",
+              "required": true,
+              "accept": "image/*",
+              "fileType": "IMAGEONLY",
+              "description": "PHOTODESCRIPTION"
+            }
+          ]
+        }
+      ],
+      "verificationDocument": [
+        
+      ],
+      "active": true,
+      "type": "TL",
+      "validityPeriod": null
+    },
+    {
+      "code": "CTL.OLD_BOOK_MARKET",
+      "category": "CTL.OLD_BOOK_MARKET",
+      "uom": "year",
+      "applicationDocument": [
+        {
+          "applicationType": "New",
+          "documentList": [
+            {
+              "code": "FORMA",
+              "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "FORMADESCRIPTION"
+            },
+            {
+              "code": "FORMB",
+              "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "FORMBDESCRIPTION"
+            },
+            {
+              "code": "FORMC",
+              "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "FORMCDESCRIPTION"
+            }
+          ]
+        },
+        {
+          "applicationType": "Renew",
+          "documentList": [
+            {
+              "code": "FORMA",
+              "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "FORMADESCRIPTION"
+            },
+            {
+              "code": "FORMB",
+              "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "FORMBDESCRIPTION"
+            },
+            {
+              "code": "FORMC",
+              "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
+              "required": true,
+              "accept": "application/pdf,image/*",
+              "fileType": "PDF_IMAGE",
+              "description": "FORMCDESCRIPTION"
+            }
+          ]
+        }
+      ],
+      "verificationDocument": [
+        
+      ],
+      "active": true,
+      "type": "TL",
+      "validityPeriod": null
+    },
+    {
       "code": "GOODS.SALESTORAGE.TST-1",
       "uom": null,
       "applicationDocument": [

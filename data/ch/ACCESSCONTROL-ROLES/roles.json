@@ -478,7 +478,22 @@
       "name": "EGF Bill Verifier 2",
       "description": "Employee who verifies Budget in finance"
     },
-	{
+    {
+      "code": "CTL_CLERK",
+      "name": "CLERK",
+      "description": "Employee who verifies, rejects and approves the TL application"
+    },
+    {
+      "code": "CTL_SA",
+      "name": "SA",
+      "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"
+    },
+    {
+      "code": "CTL_SI",
+      "name": "SI",
+      "description": "Employee who verifies, rejects and approves the TL application which is approved by SA"
+    },
+    {
       "code": "SI",
       "name": "SI",
       "description": "Sanitary Inspector"
@@ -582,6 +597,47 @@
 		"code": "LCMS_ADMIN",
 		"name": "LCMS Admin",
 		"description": "LCMS Admin will manage all legal cases and LCMS related master datas"
-	}
+	},
+	   
+{
+      "code": "DDO",
+      "name": "DDO",
+      "description": "Drawing & Disbursement Officer (Pension)"
+    }
+,
+{
+      "code": "ACCOUNTS_OFFICER",
+      "name": "ACCOUNTS OFFICER",
+      "description": "ACCOUNTS OFFICER (Pension)"
+    }
+,
+{
+      "code": "SENIOR_ASSISTANT",
+      "name": "SENIOR ASSISTANT",
+      "description": "SENIOR ASSISTANT (Pension)"
+    }
+,
+{
+      "code": "CLERK",
+      "name": "CLERK",
+      "description": "CLERK (Pension)"
+    }
+,
+{
+      "code": "CHIEF_ACCOUNTS_OFFICER",
+      "name": "CHIEF ACCOUNTS OFFICER",
+      "description": "CHIEF ACCOUNTS OFFICER (Pension)"
+    }
+,
+{
+      "code": "ADDITIONAL_COMMISSIONER",
+      "name": "ADDITIONAL COMMISSIONER",
+      "description": "ADDITIONAL COMMISSIONER (Pension)"
+    },
+{
+      "code": "PENSION_SYSTEM",
+      "name": "PENSION SYSTEM",
+      "description": "PENSION SYSTEM"
+    }
   ]
 }
