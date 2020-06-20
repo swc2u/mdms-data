@@ -29904,6 +29904,42 @@
       "actionid": 4215,
       "actioncode": "",
       "tenantId": "ch"
-    }
+    },
+	{
+		"rolecode": "SI",
+		"actionid": "1861",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "MOH",
+		"actionid": "1861",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "COMMISSIONER",
+		"actionid": "1861",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "JEX",
+		"actionid": "1861",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "OSD",
+		"actionid": "1861",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERINTENDENT",
+		"actionid": "1861",
+		"actioncode": "",
+		"tenantId": "ch"
+	}
   ]
 }

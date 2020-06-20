@@ -460,7 +460,7 @@
             "idname": "pt.propertyid"
         },
         {
-            "format": "PM-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
+            "format": "PM-[cy:yyyy-MM-dd]-[SEQ_PM_ID_GEN]",
             "idname": "ch.pms"
         },
         {

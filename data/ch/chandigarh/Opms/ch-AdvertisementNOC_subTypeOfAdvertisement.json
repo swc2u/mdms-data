@@ -329,6 +329,14 @@
       "tenantId": "ch.chandigarh",
       "name": "For every addl. 50 sq. ft. or less",
       "active": true
-    }
+    },
+	{
+	  "id": "20042",
+	  "code":"NA",
+	  "typeOfAdvertisementId":"10010",
+	  "tenantId": "ch.chandigarh",
+	  "name": "NA",
+	  "active": true
+	}
   ]
 }
