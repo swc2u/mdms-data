@@ -795,14 +795,6 @@
             "menuPath": "MeatHygiene"
         },
         {
-            "serviceCode": "DEP06_MOH_01",
-            "active": true,
-            "keywords": "bee, hives",
-            "department": "DEP_06",
-            "slaHours": 0,
-            "menuPath": "MOH"
-        },
-        {
             "serviceCode": "DEP06_MOH_02",
             "active": true,
             "keywords": "burning, dead,leaves,waste",
