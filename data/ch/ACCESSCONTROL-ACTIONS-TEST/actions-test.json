@@ -17558,6 +17558,17 @@
       "leftIcon": "social:people",
       "rightIcon": "",
       "queryParams": ""
-    }
+    },
+	{
+		"id": 4300,
+		"name": "StoresCreation",
+		"url": "/store-asset-services/stores/_create",
+		"displayName": "Create Stores",
+		"orderNumber": 0,
+		"enabled": true,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": "store-asset-services"
+	}
   ]
 }
