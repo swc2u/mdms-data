@@ -29952,6 +29952,12 @@
 		"actionid": "4275",
 		"actioncode": "",
 		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4300",
+		"actioncode": "",
+		"tenantId": "ch"
 	}
   ]
 }
