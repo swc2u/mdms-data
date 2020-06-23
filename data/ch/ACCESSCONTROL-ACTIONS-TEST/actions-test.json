@@ -17542,6 +17542,33 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
-    }
+    },
+	{
+      "id": "4275",
+      "name": "rainmaker-common-audit",
+      "url": "card",
+      "displayName": "Audit Branch",
+      "orderNumber": 5,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "services/egi/task/audit",
+      "leftIcon": "social:people",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+	{
+		"id": 4300,
+		"name": "StoresCreation",
+		"url": "/store-asset-services/stores/_create",
+		"displayName": "Create Stores",
+		"orderNumber": 0,
+		"enabled": true,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": "store-asset-services"
+	}
   ]
 }

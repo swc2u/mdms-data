@@ -638,6 +638,11 @@
       "code": "PENSION_SYSTEM",
       "name": "PENSION SYSTEM",
       "description": "PENSION SYSTEM"
+    },
+    {
+      "code": "AUDIT_APPROVER",
+      "name": "AUDIT_APPROVER",
+      "description": "Audit Branch Approver"
     }
   ]
 }
