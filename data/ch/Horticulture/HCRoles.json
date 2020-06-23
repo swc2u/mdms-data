@@ -1,0 +1,93 @@
+{
+    "tenantId": "ch"  , 
+    "moduleName": "eg-horticulture",
+    "roles": [
+	{
+      "code": "JE",
+      "name": "JE",
+      "description": "Junior Engineer"
+    },	
+	{
+      "code": "SDO",
+      "name": "SDO",
+      "description": "Sub Divisional Officer"
+    },
+	{
+      "code": "EE",
+      "name": "EE",
+      "description": "Executive Engineer"
+    },
+	{
+      "code": "SE",
+      "name": "Superintending Engineer",
+      "description": "Superintending Engineer"
+    },
+	{
+      "code": "CE",
+      "name": "CE",
+      "description": "Chief Engineer"
+    },
+    {
+      "code": "CCF",
+      "name": "Chief Conservator of Forest",
+      "description": "Chief Conservator of Forest"
+    },
+     {
+      "code": "DCF",
+      "name": "Deputy Conservator of Forest",
+      "description": "Deputy Conservator of Forest"
+    },
+    {
+      "code": "FRO",
+      "name": "Forest Range Officer",
+      "description": "Forest Range Officer"
+    },
+     {
+      "code": "SRE",
+      "name": "Secretary Environment",
+      "description": "Secretary Environment"
+    },
+    {
+      "code": "WA",
+      "name": "Worthy Advisor",
+      "description": "Worthy Advisor"
+    },
+     {
+      "code": "FO",
+      "name": "Forest Officer",
+      "description": "Forest Officer"
+    },
+    {
+      "code": "SDE",
+      "name": "Sub Divisional Engineer",
+      "description": "Sub Divisional Engineer"
+    },
+    
+    {
+      "code": "SEHE",
+      "name": "Superintending Engineer(H&E)",
+      "description": "Superintending Engineer(H&E)"
+    },
+	{
+      "code": "CEMCC",
+      "name": "Chief Engineer(MCC)",
+      "description": "Chief Engineer(MCC)"
+    },
+      {
+      "code": "EEWE",
+      "name": "Executive Engineer(W&E)",
+      "description": "Executive Engineer(W&E)"
+    },
+    {
+      "code": "COMMISSIONERMCC",
+      "name": "COMMISSIONERMCC",
+      "description": "Commissioner(MCC)"
+    }
+
+
+    ]
+}
+
+
+
+  

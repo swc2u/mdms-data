@@ -302,7 +302,7 @@
       "name": "Collections Remitter",
       "description": "One who can remit the instruments to bank"
     },
-   {
+    {
       "code": "SYS_INTEGRATOR_FINANCE",
       "name": "System Integrator Finance",
       "description": "Role for allowing system integration of Finance app with rainmaker"
@@ -322,7 +322,7 @@
       "name": "TL Approver",
       "description": "Approver who verifies and approves the TL application"
     },
-   {
+    {
       "code": "EMPLOYEE_FINANCE",
       "name": "Employee Finance",
       "description": "All Employees who use Finance application"
@@ -388,7 +388,6 @@
       "description": "BPA Structural Engineer"
     },
     {
-    
       "code": "BPA_TOWNPLANNER",
       "name": "BPA Town Planner",
       "description": "BPA Town Planner"
@@ -508,7 +507,7 @@
       "name": "SYSTEM_PAYMENT",
       "description": "Payment by gateway"
     },
-	{
+    {
       "code": "JEX",
       "name": "JEX",
       "description": "Junior Executive"
@@ -518,123 +517,117 @@
       "name": "SUPERINTENDENT",
       "description": "Superintendent"
     },
-	{
+    {
       "code": "OSD",
       "name": "OSD",
       "description": "Officer on Special duty"
     },
-	{
+    {
       "code": "JE",
       "name": "JE",
       "description": "Junior Engineer"
-    },	
-	{
+    },
+    {
       "code": "SDO",
       "name": "SDO",
       "description": "Sub Divisional Officer"
     },
-	{
+    {
       "code": "EE",
       "name": "EE",
       "description": "Executive Engineer"
     },
-	{
+    {
       "code": "SE",
       "name": "SE",
       "description": "Superintendent Engineer"
     },
-	{
+    {
       "code": "CE",
       "name": "CE",
       "description": "Chief Engineer"
     },
-   {
+    {
       "code": "SYSTEM",
       "name": "System user",
       "description": "System user"
     },
-	{
+    {
       "code": "AGENDA_BRANCH_ADMIN",
       "name": "Agenda Branch Admin",
       "description": "Agenda Branch Admin will create agenda, meeting, MoM"
     },
-	{
+    {
       "code": "AGENDA_CREATOR",
       "name": "Agenda Creator",
       "description": "Agenda Branch Admin & Department Admin will create agenda"
     },
-	{
+    {
       "code": "AGENDA_BRANCH_APPROVER",
       "name": "Agenda Branch Approver",
       "description": "Agenda Branch approver will approve the workflow of agenda creation, MoM creation"
     },
-	{
+    {
       "code": "AGENDA_BRANCH_REPORT_VIEWER",
       "name": "Agenda Branch Report Viewer",
       "description": "Agenda Branch report viewer can view the reports"
     },
-	{
-		"code": "APRO",
-		"name": "APRO",
-		"description": "Authorized Division User"
-	},
-	{
-		"code": "DEPARTMENTUSER",
-		"name": "DEPARTMENTUSER",
-		"description": "Department User"
-	},
-	{
-		"code": "APNIMANDI_ADMIN",
-		"name": "Apnimandi Admin",
-		"description": "Apnimandi Admin will create contrator, collection"
-	},
-	{
-		"code": "APNIMANDI_APPROVER",
-		"name": "Apnimandi Approver",
-		"description": "Apnimandi approver will forward, approve and reject the workflow of contractor and collection"
-	},
-	{
-		"code": "LCMS_ADMIN",
-		"name": "LCMS Admin",
-		"description": "LCMS Admin will manage all legal cases and LCMS related master datas"
-	},
-	   
-{
+    {
+      "code": "APRO",
+      "name": "APRO",
+      "description": "Authorized Division User"
+    },
+    {
+      "code": "DEPARTMENTUSER",
+      "name": "DEPARTMENTUSER",
+      "description": "Department User"
+    },
+    {
+      "code": "APNIMANDI_ADMIN",
+      "name": "Apnimandi Admin",
+      "description": "Apnimandi Admin will create contrator, collection"
+    },
+    {
+      "code": "APNIMANDI_APPROVER",
+      "name": "Apnimandi Approver",
+      "description": "Apnimandi approver will forward, approve and reject the workflow of contractor and collection"
+    },
+    {
+      "code": "LCMS_ADMIN",
+      "name": "LCMS Admin",
+      "description": "LCMS Admin will manage all legal cases and LCMS related master datas"
+    },
+    {
       "code": "DDO",
       "name": "DDO",
       "description": "Drawing & Disbursement Officer (Pension)"
-    }
-,
-{
+    },
+    {
       "code": "ACCOUNTS_OFFICER",
       "name": "ACCOUNTS OFFICER",
       "description": "ACCOUNTS OFFICER (Pension)"
-    }
-,
-{
+    },
+    {
       "code": "SENIOR_ASSISTANT",
       "name": "SENIOR ASSISTANT",
       "description": "SENIOR ASSISTANT (Pension)"
-    }
-,
-{
+    },
+    {
       "code": "CLERK",
       "name": "CLERK",
       "description": "CLERK (Pension)"
-    }
-,
-{
+    },
+    {
       "code": "CHIEF_ACCOUNTS_OFFICER",
       "name": "CHIEF ACCOUNTS OFFICER",
       "description": "CHIEF ACCOUNTS OFFICER (Pension)"
-    }
-,
-{
+    },
+    {
       "code": "ADDITIONAL_COMMISSIONER",
       "name": "ADDITIONAL COMMISSIONER",
       "description": "ADDITIONAL COMMISSIONER (Pension)"
     },
-{
+    {
       "code": "PENSION_SYSTEM",
       "name": "PENSION SYSTEM",
       "description": "PENSION SYSTEM"
@@ -643,6 +636,61 @@
       "code": "AUDIT_APPROVER",
       "name": "AUDIT_APPROVER",
       "description": "Audit Branch Approver"
+    },
+    {
+      "code": "CCF",
+      "name": "CCF",
+      "description": "Chief Conservator of Forest"
+    },
+    {
+      "code": "DCF",
+      "name": "DCF",
+      "description": "Deputy Conservator of Forest"
+    },
+    {
+      "code": "FRO",
+      "name": "FRO",
+      "description": "Forest Range Officer"
+    },
+    {
+      "code": "SRE",
+      "name": "SRE",
+      "description": "Secretary Environment"
+    },
+    {
+      "code": "WA",
+      "name": "WA",
+      "description": "Worthy Advisor"
+    },
+    {
+      "code": "FO",
+      "name": "FO",
+      "description": "Forest Officer"
+    },
+    {
+      "code": "SDE",
+      "name": "SDE",
+      "description": "Sub Divisional Engineer"
+    },
+    {
+      "code": "SEHE",
+      "name": "SEHE",
+      "description": "Superintending Engineer(H&E)"
+    },
+    {
+      "code": "CEMCC",
+      "name": "CEMCC",
+      "description": "Chief Engineer(MCC)"
+    },
+    {
+      "code": "EEWE",
+      "name": "EEWE",
+      "description": "Executive Engineer(W&E)"
+    },
+    {
+      "code": "COMMISSIONERMCC",
+      "name": "COMMISSIONERMCC",
+      "description": "Commissioner(MCC)"
     }
   ]
 }
