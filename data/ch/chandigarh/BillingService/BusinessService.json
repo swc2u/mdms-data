@@ -38,7 +38,7 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "RehriRC",
+      "businessService": "CTL.RehriRC",
       "code": "CTL.REHRI_REGISTRATION",
       "collectionModesNotAllowed": [
         "DD"
@@ -49,7 +49,7 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "RehriDL",
+      "businessService": "CTL.RehriDL",
       "code": "CTL.REHRI_DRIVING_LICENSE",
       "collectionModesNotAllowed": [
         "DD"
