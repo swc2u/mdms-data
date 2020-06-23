@@ -49,6 +49,18 @@
       "bankAccount": "000000000001",
       "bank": "Allahabad UP Gramin Bank",
       "bankBranch": "001"
+    },
+    {
+      "businessDetails": "RehriRC",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "RehriDL",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
     }
   ]
 }
