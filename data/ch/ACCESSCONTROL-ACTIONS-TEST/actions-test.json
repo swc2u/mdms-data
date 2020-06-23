@@ -17561,14 +17561,15 @@
     },
 	{
 		"id": 4300,
-		"name": "StoresCreation",
+		"name": "Stores Creation",
 		"url": "/store-asset-services/stores/_create",
+		"parentModule": "store-asset-services",
 		"displayName": "Create Stores",
 		"orderNumber": 0,
-		"enabled": true,
+		"enabled": false,
 		"serviceCode": "store-asset-services",
 		"code": "null",
-		"path": "store-asset-services"
+		"path": ""
 	}
   ]
 }
