@@ -29954,10 +29954,16 @@
 		"tenantId": "ch"
 	},
 	{
-		"rolecode": "SUPERUSER",
-		"actionid": "4300",
-		"actioncode": "",
-		"tenantId": "ch"
+	      "rolecode": "SUPERUSER",
+	      "actionid": 4300,
+	      "actioncode": "",
+	      "tenantId": "ch"
+	},
+	{
+	      "rolecode": "EMPLOYEE",
+	      "actionid": 4300,
+	      "actioncode": "",
+	      "tenantId": "ch"
 	}
   ]
 }
