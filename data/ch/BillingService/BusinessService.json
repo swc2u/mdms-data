@@ -38,7 +38,7 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "CTL.RehriRC",
+      "businessService": "RehriRC",
       "code": "CTL.REHRI_REGISTRATION",
       "collectionModesNotAllowed": [
         "DD"
@@ -49,7 +49,7 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "CTL.RehriDL",
+      "businessService": "RehriDL",
       "code": "CTL.REHRI_DRIVING_LICENSE",
       "collectionModesNotAllowed": [
         "DD"
@@ -1200,6 +1200,17 @@
 	  "isVoucherCreationEnabled": true,
 	  "isActive": true,
 	  "type": "apnimandi"
-    }
+    },
+      {
+         "businessService":"ECHALLAN",
+         "code":"EC",
+         "collectionModesNotAllowed":[
+            "DD"
+         ],
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true
+      }
   ]
 }

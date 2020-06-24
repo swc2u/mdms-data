@@ -489,6 +489,22 @@
 	  "service": "APNIMANDI.COLLECTION_AMOUNT",
 	  "code": "AMCM10YRS2018",
 	  "financialYear": "2018-28"
-     }
+     },
+	{
+      "fromDate": 1554057001000,
+      "toDate": 1585593001000,
+      "periodCycle": "ANNUAL",
+      "service": "EC",
+      "code": "EC2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1617129000000,
+      "periodCycle": "ANNUAL",
+      "service": "EC",
+      "code": "EC2020",
+      "financialYear": "2020-21"
+    }
   ]
 }
