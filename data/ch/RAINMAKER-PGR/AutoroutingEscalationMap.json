@@ -883,26 +883,15 @@
       "category": "Roads",
       "escalationOfficer1": [
         "2018010008N",
-        "1988-01-0017-G",
         "2018010047M",
-        "2018010045S",
         "2018010065Q",
-        "1993010099W",
-        "2018010068H",
         "1984010054N",
-        "1999010010P",
         "2006010014R",
-        "2018-01-0075-P",
         "2006010019C",
-        "2018-01-0044-V",
         "2018-01-0028-L",
-        "1998010104E",
         "2001010033B",
-        "2001010006V",
         "2018010009K",
-        "1998010046B",
-        "20010100096V",
-        "1984010011A"
+        "20010100096V"
       ],
       "escalationOfficer2": [
         "1989010011R",
@@ -1117,67 +1106,20 @@
     {
       "category": "Horticulture",
       "escalationOfficer1": [
-        "20977",
-        "1995010056V"
+        "2008010003H",
+        "1989010006D",
+        "2009010019H",
+        "1989010016C",
+        "2009010020H",
+        "9915720653",
+        "9872511241"
       ],
       "escalationOfficer2": [
-        "1995010056V"
+        "1989010006D",
+        "1995010056V",
+        "2008010003H"
       ],
       "autoRouting": [
-        {
-          "Sector": [
-            "SECTOR-27",
-            "SECTOR-28",
-            "SECTOR-29",
-            "SECTOR-30",
-            "SECTOR-31",
-            "SECTOR-32",
-            "SECTOR-46",
-            "SECTOR-47",
-            "SECTOR-48",
-            "HALLO_MAJRA",
-            "IND_AREA_PHASE-I",
-            "IND_AREA_PHASE-II",
-            "RAM_DARBAR",
-            "SANJAY_COLONY",
-            "COLONY_NO4",
-            "KARSON_COLONY",
-            "HALLO_MAJRA",
-            "Entire and",
-            "BAIR_MAJRA",
-            "FAIDAN_BURAIL_CHAR_TARAF_BURAIL",
-            "VILLAGE_RAIPURKALAN",
-            "RAIPURKHURD",
-            "DARIA",
-            "BEHLANA"
-          ],
-          "Employee": "2008010004E"
-        },
-        {
-          "Sector": [
-            "ATTAWA",
-            "SECTOR-36",
-            "SECTOR-37",
-            "SECTOR-38",
-            "SECTOR-38-WEST",
-            "SECTOR-39",
-            "SECTOR-40",
-            "SECTOR-41",
-            "SECTOR-42",
-            "SECTOR-53",
-            "SECTOR-54",
-            "SECTOR-55",
-            "SECTOR-56",
-            "BADEHRI",
-            "BUTRELA",
-            "DADU_MAJRA",
-            "MALOYA",
-            "REHABILITATION_COLONY",
-            "ADARSH_COLONY",
-            "PALSORA"
-          ],
-          "Employee": "2009010019H"
-        },
         {
           "Sector": [
             "SECTOR-16",
@@ -1193,67 +1135,29 @@
         },
         {
           "Sector": [
-            "SECTOR-26",
-            "SECTOR-26E",
-            "BAPUDHAM",
-            "TRANSIT_CAMP_II",
-            "TRANSPORT_AREA",
-            "EWS_HOUSING_BOARD",
-            "BAPUDHAM_TANSIT_CAMP-I",
-            "BAPUDHAM_TRANST_CAMP-III",
-            "MADRASI_COLONY_HUTS",
-            "AREA_MAULI_COMPLEX",
-            "AMBEDKAR_AWAS_YOJNA",
-            "MAULI_COMPLEX",
-            "BHAGAT_SINGH_COLONY",
-            "VIKAS_NAGAR",
-            "SHIVALIK_ENCLAVE-NAC",
-            "OLD_MANIMAJRA_SHANTINAGAR",
-            "MARIWALA_TOWN",
-            "THAKURDWARA",
-            "CHANDIGARH_HOUSING_COMPLEX",
-            "MOHALLA_GOVINDPURA",
-            "DHILLON_COMPLEX",
-            "MOTOR_MARKET_POCKET_NO8",
-            "DARSHNI_BAGH",
-            "SUBHASH_NAGAR",
-            "ADARSH_NAGAR",
-            "PIPLIWALA_TOWN",
-            "GAWALA_COLONY",
-            "INDIRA_COLONY_REH",
-            "OLD_INDIRA_COLONY",
-            "RACE_COURSE_AND_ITPARK",
-            "MAKHANMAJRA",
-            "KISHANGARH",
-            "MAULI_JAGRAN"
+            "SECTOR-1",
+            "SECTOR-2",
+            "SECTOR-3",
+            "SECTOR-4",
+            "SECTOR-5",
+            "SECTOR-6",
+            "SECTOR-7",
+            "SECTOR-8",
+            "SECTOR-9",
+            "SECTOR-10",
+            "SECTOR-11",
+            "SECTOR-12",
+            "SECTOR-13",
+            "SECTOR-14",
+            "SECTOR-25",
+            "DHANAS",
+            "SARANGPUR",
+            "KHUDA_ALISHER",
+            "KHUDA_JASSU",
+            "KHUDA_LAHORA",
+            "KAIMBWALA"
           ],
-          "Employee": "1987010028J"
-        },
-        {
-          "Sector": [
-            "SECTOR-22",
-            "SECTOR-33",
-            "SECTOR-34",
-            "SECTOR-35",
-            "SECTOR-43",
-            "SECTOR-44",
-            "SECTOR-45",
-            "SECTOR-49",
-            "SECTOR-50",
-            "SECTOR-51",
-            "SECTOR-52",
-            "COLONY_NO",
-            "BRICKKILN",
-            "NIZAMPUR_KUMBRA",
-            "SECTOR-55",
-            "SECTOR-60",
-            "SECTOR-61",
-            "SECTOR-63",
-            "SECTOR-45",
-            "BURAIL",
-            "FAIDAN_BURAIL_AND_CHAR_TARAF_BURAIL"
-          ],
-          "Employee": "2009010021E"
+          "Employee": "2009010020H"
         },
         {
           "Sector": [
@@ -1272,16 +1176,200 @@
             "SECTOR-13",
             "SECTOR-14",
             "SECTOR-15",
-            "KHUDA_LAHORA",
+            "SECTOR-36",
+            "SECTOR-37",
+            "SECTOR-38",
+            "SECTOR-38-WEST",
+            "SECTOR-39",
+            "SECTOR-40",
+            "SECTOR-41",
+            "BUTRELA",
+            "BADHERI",
+            "DADUMAJRA_COLONY",
+            "SHAHPUR",
+            "MALOYA",
+            "SECTOR-53",
+            "SECTOR-54",
+            "SECTOR-55",
+            "SECTOR-56",
+            "REHABITATION_COLONY",
+            "ADARSH COLONY",
+            "PALSORA",
+            "SECTOR-42",
+            "ATTAWA",
+            "DADUMAJRA",
+            "SECTOR-16",
+            "SECTOR-17",
+            "SECTOR-22",
+            "SECTOR-23",
+            "SECTOR-24",
+            "KHUDA_LAHORA_COLONY",
             "SECTOR-25",
+            "SECTOR-25-WEST",
+            "KUMBRA_COLONY",
+            "JANTA_COLONY",
+            "LIC_COLONY",
             "DHANAS",
+            "MILK_COLONY",
+            "ABEDHKAR_COLONY",
             "SARANGPUR",
             "KHUDA_ALISHER",
             "KHUDA_JASSU",
             "KHUDA_LAHORA",
-            "KAIMBWALA"
+            "KAIMBALA."
           ],
-          "Employee": "2009010020H"
+          "Employee": "2008010003H"
+        },
+        {
+          "Sector": [
+            "ATTAWA",
+            "SECTOR-36",
+            "SECTOR-37",
+            "SECTOR-38",
+            "SECTOR-38-WEST",
+            "SECTOR-39",
+            "SECTOR-40",
+            "SECTOR-41",
+            "SECTOR-42",
+            "SECTOR-53",
+            "SECTOR-54",
+            "SECTOR-55",
+            "SECTOR-56",
+            "BADEHRI",
+            "BUTRELA",
+            "DADUMAJRA_COLONY",
+            "MALOYA",
+            "REHABILITATION_COLONY",
+            "ADARSH_COLONY",
+            "PALSORA",
+            "BUTRELA",
+            "SECTOR-36",
+            "SECTOR-37",
+            "SECTOR-38",
+            "SECTOR-38-WEST",
+            "SECTOR-39",
+            "SECTOR-40",
+            "SECTOR-41",
+            "BUTRELA",
+            "BADHERI",
+            "DADUMAJRA_COLONY",
+            "SHAHPUR",
+            "MALOYA",
+            "SECTOR-53",
+            "SECTOR-54",
+            "SECTOR-55",
+            "SECTOR-56",
+            "REHABITATION_COLONY",
+            "ADARSH_COLONY",
+            "PALSORA",
+            "SECTOR-42",
+            "ATTAWA"
+          ],
+          "Employee": "2009010019H"
+        },
+        {
+          "Sector": [
+            "SECTOR-41",
+            "SECTOR-42",
+            "SECTOR-53",
+            "SECTOR-54",
+            "SECTOR-55",
+            "SECTOR-56",
+            "DADU_MAJRA"
+          ],
+          "Employee": "1987010031D"
+        },
+        {
+          "Sector": [
+            "SECTOR-16",
+            "SECTOR-17",
+            "SECTOR-22",
+            "SECTOR-23",
+            "SECTOR-24"
+          ],
+          "Employee": "1989010018W"
+        },
+        {
+          "Sector": [
+            "SECTOR-1",
+            "SECTOR-2",
+            "SECTOR-3",
+            "SECTOR-4",
+            "SECTOR-5",
+            "SECTOR-5",
+            "SECTOR-6",
+            "SECTOR-7",
+            "SECTOR-8",
+            "SECTOR-9",
+            "SECTOR-10",
+            "SECTOR-11",
+            "KHUDA_ALISHER"
+          ],
+          "Employee": "2010010075T"
+        },
+        {
+          "Sector": [
+            "SECTOR-8",
+            "SECTOR-10",
+            "SECTOR-37",
+            "DHANAS",
+            "MALOYA_COLONY",
+            "DADUMAJRA",
+            "SECTOR-40",
+            "BUTRELA",
+            "HALLOMAJRA",
+            "SECTOR-45",
+            "SECTOR-21"
+          ],
+          "Employee": "1993010032X"
+        },
+        {
+          "Sector": [
+            "SECTOR-8",
+            "SECTOR-10",
+            "SECTOR-37",
+            "DHANAS",
+            "MALOYA_COLONY",
+            "DADUMAJRA",
+            "SECTOR-40",
+            "BUTRELA",
+            "HALLOMAJRA",
+            "SECTOR-45",
+            "SECTOR-21"
+          ],
+          "Employee": "1989010071L"
+        },
+        {
+          "Sector": [
+            "SECTOR-8",
+            "SECTOR-10",
+            "SECTOR-37",
+            "DHANAS",
+            "MALOYA_COLONY",
+            "DADUMAJRA",
+            "SECTOR-40",
+            "BUTRELA",
+            "HALLOMAJRA",
+            "SECTOR-45",
+            "SECTOR-21"
+          ],
+          "Employee": "9915720653"
+        },
+        {
+          "Sector": [
+            "SECTOR-8",
+            "SECTOR-10",
+            "SECTOR-37",
+            "DHANAS",
+            "MALOYA_COLONY",
+            "DADUMAJRA",
+            "SECTOR-40",
+            "BUTRELA",
+            "HALLOMAJRA",
+            "SECTOR-45",
+            "SECTOR-21"
+          ],
+          "Employee": "9872511241"
         }
       ],
       "active": true
@@ -1290,14 +1378,8 @@
       "category": "StreetLight",
       "escalationOfficer1": [
         "2018010072Y",
-        "2018010030I",
-        "8437907524",
-        "2018010029I",
         "2018010052A",
-        "1994010114F",
-        "1994010080R",
-        "9878672423",
-        "8288841953"
+        "1994010080R"
       ],
       "escalationOfficer2": [
         "1987010040F"
@@ -1359,7 +1441,7 @@
             "OLD_INDIRA_COLONY",
             "RACE_COURSE_AND _IT _PARK"
           ],
-          "Employee": "2018010030I"
+          "Employee": "1995-01-0002M"
         },
         {
           "Sector": [
@@ -1375,7 +1457,7 @@
             "SECTOR-23 &SECTOR-24",
             "SECTOR-36"
           ],
-          "Employee": "8437907524"
+          "Employee": "2018-01-0056D"
         },
         {
           "Sector": [
@@ -1490,16 +1572,7 @@
       "category": "Encroachment",
       "escalationOfficer1": [
         "1998010014K",
-        "1991010018V",
-        "1998010013N",
-        "1991010017Y",
-        "1991010016B",
-        "2018010054U",
-        "1996010001I",
-        "1989010003M",
-        "9872511295",
-        "9501540527",
-        "9915711470"
+        "1998010014"
       ],
       "escalationOfficer2": [
         "1998010014K"
