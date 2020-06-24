@@ -14351,18 +14351,6 @@
       "path": ""
     },
     {
-      "id": 1908,
-      "name": "ULBEmployeeWiseReport",
-      "url": "/report/rainmaker-pgr/ULBEmployeeWiseReport/metadata/_get",
-      "displayName": "rainmaker-pgr-ULBEmployeeWiseReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 1909,
       "name": "ComplaintTypesReport",
       "url": "/report/rainmaker-pgr/ComplaintTypesReport/metadata/_get",
@@ -14373,18 +14361,6 @@
       "serviceCode": "report",
       "code": "null",
       "path": "1902"
-    },
-    {
-      "id": 1910,
-      "name": "ULBDepartmentReport",
-      "url": " /report/rainmaker-pgr/ULBDepartmentReport/metadata/_get",
-      "displayName": "rainmaker-pgr-ULBDepartmentReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 1911,
@@ -14471,18 +14447,6 @@
       "path": ""
     },
     {
-      "id": 1918,
-      "name": "ULBEmployeeWiseReport",
-      "url": "/report/rainmaker-pgr/ULBEmployeeWiseReport/_get",
-      "displayName": "rainmaker-pgr-ULBEmployeeWiseReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 1919,
       "name": "ComplaintTypesReport",
       "url": "/report/rainmaker-pgr/ComplaintTypesReport/_get",
@@ -14493,18 +14457,6 @@
       "serviceCode": "report",
       "code": "null",
       "path": "1902"
-    },
-    {
-      "id": 1920,
-      "name": "ULBDepartmentReport",
-      "url": " /report/rainmaker-pgr/ULBDepartmentReport/_get",
-      "displayName": "rainmaker-pgr-ULBDepartmentReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 1921,
