@@ -17846,6 +17846,90 @@
 		"serviceCode": "store-asset-services",
 		"code": "null",
 		"path": ""
-	}	
+	},
+		{
+			"id": 2601,
+			"name": "rainmaker-citizen-horticulture",
+			"url": "card",
+			"displayName": "horticulture_hc",
+			"orderNumber": 2,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "",
+			"code": "",
+			"path": "",
+			"navigationURL": "egov-hc/home",
+			"leftIcon": "action:store",
+			"rightIcon": "",
+			"queryParams": ""
+		},
+		{
+			"id": 2602,
+			"name": "rainmaker-common-horticulture",
+			"url": "card",
+			"displayName": "Horticulture",
+			"orderNumber": 2,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "",
+			"code": "",
+			"path": "",
+			"navigationURL": "egov-hc/employeeServiceRequestsFilter",
+			"leftIcon": "action:store",
+			"rightIcon": "",
+			"queryParams": ""
+		},
+		{
+			"id": 2603,
+			"name": "Service Request",
+			"url": "/hc-services/serviceRequest/_create",
+			"displayName": "Horticulutre Service request create",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},
+		{
+			"id": 2604,
+			"name": "Service Request",
+			"url": "/hc-services/serviceRequest/_get",
+			"displayName": "Horticulutre Service request get",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},
+		{
+			"id": 2605,
+			"name": "Service Request",
+			"url": "/hc-services/serviceRequest/_getDetail",
+			"displayName": "Horticulutre Service request get details",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},
+		{
+			"id": 2606,
+			"name": "Service Request",
+			"url": "/hc-services/serviceRequest/_update",
+			"displayName": "Horticulutre Service request get",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		}
   ]
 }

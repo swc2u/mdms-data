@@ -450,22 +450,6 @@
       "code": "CTLOBM10YRS2019",
       "financialYear": "2020-30"
     },
-	{
-      "fromDate": 1554057001000,
-      "toDate": 1585593001000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS",
-      "code": "OPMS2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1617129000000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS",
-      "code": "OPMS2020",
-      "financialYear": "2020-21"
-    },
     {
 	  "fromDate": 1522540801000,
 	  "toDate": 1838159999000,
@@ -489,6 +473,54 @@
 	  "service": "APNIMANDI.COLLECTION_AMOUNT",
 	  "code": "AMCM10YRS2018",
 	  "financialYear": "2018-28"
-     }
+     },
+	 {
+      "fromDate": 1554057001000,
+      "toDate": 1585593001000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.ROADCUTNOC",
+      "code": "OPMS.ROADCUTNOC2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1617129000000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.ROADCUTNOC",
+      "code": "OPMS.ROADCUTNOC2020",
+      "financialYear": "2020-21"
+    },
+	{
+      "fromDate": 1554057001000,
+      "toDate": 1585593001000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.PETNOC",
+      "code": "OPMS.PETNOC2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1617129000000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.PETNOC",
+      "code": "OPMS.PETNOC2020",
+      "financialYear": "2020-21"
+    },
+	{
+      "fromDate": 1554057001000,
+      "toDate": 1585593001000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.ADVERTISEMENTNOC",
+      "code": "OPMS.ADVERTISEMENTNOC2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1617129000000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.ADVERTISEMENTNOC",
+      "code": "OPMS.ADVERTISEMENTNOC2020",
+      "financialYear": "2020-21"
+    }
   ]
 }
