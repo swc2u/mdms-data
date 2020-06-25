@@ -30060,6 +30060,18 @@
 		"actionid": "4321",
 		"actioncode": "",
 		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4322",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4323",
+		"actioncode": "",
+		"tenantId": "ch"
 	}
   ]
 }

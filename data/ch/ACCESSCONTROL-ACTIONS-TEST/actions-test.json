@@ -17822,6 +17822,30 @@
 		"serviceCode": "store-asset-services",
 		"code": "null",
 		"path": ""
-	}
+	},
+	{
+		"id": 4322,
+		"name": "MTSearch",
+		"url": "/store-asset-services/materialtypes/_search",
+		"displayName": "MT Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4323,
+		"name": "MSearch",
+		"url": "/store-asset-services/materials/_search",
+		"displayName": "M Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	}	
   ]
 }
