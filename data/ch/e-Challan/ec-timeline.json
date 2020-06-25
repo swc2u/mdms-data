@@ -1,0 +1,34 @@
+{
+   "tenantId":"ch",
+   "moduleName":"egec",
+   "TimeLine":[
+      {
+         "id":"1",
+         "code":"0-10",
+         "tenantId":"ch",
+         "name":"0-10",
+         "active":true
+      },
+      {
+         "id":"2",
+         "code":"11-20",
+         "tenantId":"ch",
+         "name":"11-20",
+         "active":true
+      },
+      {
+         "id":"3",
+         "code":"21-30",
+         "tenantId":"ch",
+         "name":"21-30",
+         "active":true
+      },
+      {
+         "id":"4",
+         "code":"30-Above",
+         "tenantId":"ch",
+         "name":"30-Above",
+         "active":true
+      }
+   ]
+}

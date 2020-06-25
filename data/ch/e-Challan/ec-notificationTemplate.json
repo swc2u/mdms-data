@@ -1,0 +1,13 @@
+{
+	"tenantId": "ch",
+	"moduleName": "egec",
+	"NotificationTemplate": [{
+		"code": "Challan Generated",
+		"subject": "Challan Issued",
+		"body": "Seizure memo <ChallanId> has been generated for <EnchroachmentType> violation on <Date and Time>. Kindly visit the link to view details <Link>",
+		"attachmentUrls": "",
+		"message": "Seizure memo <ChallanId> has been generated for <EnchroachmentType> violation on <Date and Time>. Kindly visit the link to view details <Link>",
+		"isHtml": true,
+		"emailAddress":""
+	}]
+}
