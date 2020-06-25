@@ -413,7 +413,7 @@
 		"active": true
 	},
 	{
-		"code": "BADEHRI ",
+		"code": "BADEHRI",
 		"name": "Badehri ",
 		"active": true
 	},
@@ -538,7 +538,7 @@
 		"active": true
 	},
 	{
-		"code": "INDRA_AWA_ COLONY",
+		"code": "INDRA_AWA_COLONY",
 		"name": "Indra Awas Colony",
 		"active": true
 	},
@@ -763,7 +763,7 @@
 		"active": true
 	},
 	{
-		"code": "BAPUDHAM ",
+		"code": "BAPUDHAM",
 		"name": "Bapudham ",
 		"active": true
 	},
@@ -943,7 +943,7 @@
 		"active": true
 	},
 	{
-		"code": " FURNITURE_SHOPS_SECTOR-56",
+		"code": "FURNITURE_SHOPS_SECTOR-56",
 		"name": "furniture shops sector 56",
 		"active": true
 	},
@@ -1033,7 +1033,7 @@
 		"active": true
 	},
 	{
-		"code": " DOG_CONTROL_CELL_ALL_CHANDIGARH",
+		"code": "DOG_CONTROL_CELL_ALL_CHANDIGARH",
 		"name": "Dog control cell all chandigarh",
 		"active": true
 	},
@@ -1096,13 +1096,7 @@
 		"code": "POCKET-NO11",
 		"name": "POCKET-NO11",
 		"active": true
-	},
-	{
-		"code": "ENTIRE_CHANDIGARH",
-		"name": "Entire Chandigarh",
-		"active": true
 	}
-	
 
 ]
 
