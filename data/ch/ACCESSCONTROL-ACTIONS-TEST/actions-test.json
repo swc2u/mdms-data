@@ -10319,7 +10319,7 @@
       "serviceCode": "PGR",
       "code": "null",
       "path": "Complaints.PGR Reports.DepartmentWiseReport",
-      "navigationURL": "report/rainmaker-pgr/ULBDepartmentReport",
+      "navigationURL": "report/rainmaker-pgr/DepartmentReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
@@ -10349,7 +10349,7 @@
       "serviceCode": "PGR",
       "code": "null",
       "path": "Complaints.PGR Reports.ULBEmployeeWiseReport",
-      "navigationURL": "report/rainmaker-pgr/ULBEmployeeWiseReport",
+      "navigationURL": "report/rainmaker-pgr/EmployeeWiseReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
