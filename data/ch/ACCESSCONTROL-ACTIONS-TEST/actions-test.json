@@ -13693,32 +13693,9 @@
       "path": "PGR Report"
     },
     {
-      "id": 1856,
-      "name": "RainmakerPGR-ULBDepartmentReport-Metadata",
-      "url": "/report/rainmaker-pgr/ULBDepartmentReport/metadata/_get",
-      "displayName": "Rainmaker PGR report",
-      "orderNumber": 1,
-      "parentModule": "147",
-      "enabled": false,
-      "serviceCode": "RainmakerPGRReports",
-      "code": "null",
-      "path": "PGR Report"
-    },
-    {
-      "id": 1857,
-      "name": "ULBDepartmentReport",
-      "url": "/report/rainmaker-pgr/ULBDepartmentReport/_get",
-      "displayName": "PGR Report",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "RainmakerPGRReports",
-      "code": "null",
-      "path": "PGR Report"
-    },
-    {
       "id": 1858,
-      "name": "RainmakerPGR-ULBEmployeeWiseReport-Metadata",
-      "url": "/report/rainmaker-pgr/ULBEmployeeWiseReport/metadata/_get",
+      "name": "RainmakerPGR-EmployeeWiseReport-Metadata",
+      "url": "/report/rainmaker-pgr/EmployeeWiseReport/metadata/_get",
       "displayName": "Rainmaker PGR report",
       "orderNumber": 1,
       "parentModule": "147",
@@ -13729,8 +13706,8 @@
     },
     {
       "id": 1859,
-      "name": "ULBEmployeeWiseReport",
-      "url": "/report/rainmaker-pgr/ULBEmployeeWiseReport/_get",
+      "name": "EmployeeWiseReport",
+      "url": "/report/rainmaker-pgr/EmployeeWiseReport/_get",
       "displayName": "PGR Report",
       "orderNumber": 0,
       "enabled": false,
@@ -14193,18 +14170,6 @@
       "path": ""
     },
     {
-      "id": 1908,
-      "name": "ULBEmployeeWiseReport",
-      "url": "/report/rainmaker-pgr/ULBEmployeeWiseReport/metadata/_get",
-      "displayName": "rainmaker-pgr-ULBEmployeeWiseReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 1909,
       "name": "ComplaintTypesReport",
       "url": "/report/rainmaker-pgr/ComplaintTypesReport/metadata/_get",
@@ -14215,18 +14180,6 @@
       "serviceCode": "report",
       "code": "null",
       "path": "1902"
-    },
-    {
-      "id": 1910,
-      "name": "ULBDepartmentReport",
-      "url": " /report/rainmaker-pgr/ULBDepartmentReport/metadata/_get",
-      "displayName": "rainmaker-pgr-ULBDepartmentReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 1911,
@@ -14313,18 +14266,6 @@
       "path": ""
     },
     {
-      "id": 1918,
-      "name": "ULBEmployeeWiseReport",
-      "url": "/report/rainmaker-pgr/ULBEmployeeWiseReport/_get",
-      "displayName": "rainmaker-pgr-ULBEmployeeWiseReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
-    },
-    {
       "id": 1919,
       "name": "ComplaintTypesReport",
       "url": "/report/rainmaker-pgr/ComplaintTypesReport/_get",
@@ -14335,18 +14276,6 @@
       "serviceCode": "report",
       "code": "null",
       "path": "1902"
-    },
-    {
-      "id": 1920,
-      "name": "ULBDepartmentReport",
-      "url": " /report/rainmaker-pgr/ULBDepartmentReport/_get",
-      "displayName": "rainmaker-pgr-ULBDepartmentReport",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "report",
-      "code": "null",
-      "path": ""
     },
     {
       "id": 1921,
