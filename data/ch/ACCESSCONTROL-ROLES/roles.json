@@ -643,6 +643,63 @@
       "code": "AUDIT_APPROVER",
       "name": "AUDIT_APPROVER",
       "description": "Audit Branch Approver"
+    },
+
+    {
+      "code": "CCF",
+      "name": "CCF",
+      "description": "Chief Conservator of Forest"
+    },
+     {
+      "code": "DCF",
+      "name": "DCF",
+      "description": "Deputy Conservator of Forest"
+    },
+    {
+      "code": "FRO",
+      "name": "FRO",
+      "description": "Forest Range Officer"
+    },
+     {
+      "code": "SRE",
+      "name": "SRE",
+      "description": "Secretary Environment"
+    },
+     {
+      "code": "WA",
+      "name": "WA",
+      "description": "Worthy Advisor"
+    },
+     {
+      "code": "FO",
+      "name": "FO",
+      "description": "Forest Officer"
+    },
+    {
+      "code": "SDE",
+      "name": "SDE",
+      "description": "Sub Divisional Engineer"
+    },
+    
+    {
+      "code": "SEHE",
+      "name": "SEHE",
+      "description": "Superintending Engineer(H&E)"
+    },
+	{
+      "code": "CEMCC",
+      "name": "CEMCC",
+      "description": "Chief Engineer(MCC)"
+    },
+      {
+      "code": "EEWE",
+      "name": "EEWE",
+      "description": "Executive Engineer(W&E)"
+    },
+    {
+      "code": "COMMISSIONERMCC",
+      "name": "COMMISSIONERMCC",
+      "description": "Commissioner(MCC)"
     }
   ]
 }
