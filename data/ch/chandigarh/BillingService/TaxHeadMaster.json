@@ -2491,79 +2491,6 @@
      "order": "10",
      "isRequired": false
    },
-   {
-    "category":"TAX",
-    "service":"OPMS",
-    "name":"ADVERTISEMENTNOC",
-               "code":"ADVERTISEMENTNOC_TAX",
-               "isDebit":false,
-               "isActualDemand":true,
-               "order":"2",
-               "isRequired":false,
-               "taxAmount":"18"
-            },
-			{
-               "category":"TAX",
-               "service":"OPMS",
-               "name":"PETNOC",
-               "code":"PETNOC_TAX",
-               "isDebit":false,
-               "isActualDemand":true,
-               "order":"2",
-               "isRequired":false,
-               "taxAmount":"0"
-            },
-			{
-               "category":"TAX",
-               "service":"OPMS",
-               "name":"ROADCUTNOC",
-               "code":"ROADCUTNOC_TAX",
-               "isDebit":false,
-               "isActualDemand":true,
-               "order":"2",
-               "isRequired":false,
-               "taxAmount":"0"
-    },
-	{
-	"category":"FEE",
-	"service":"OPMS",
-	"name":"ADVERTISEMENTNOC",
-	"code":"ADVERTISEMENTNOC_FEE",
-	"isDebit":false,
-	"isActualDemand":true,
-	"order":"1",
-	"isRequired":false
-	},
-	{
-	"category":"FEE",
-	"service":"OPMS",
-	"name":"PETNOC",
-	"code":"PETNOC_FEE",
-	"isDebit":false,
-	"isActualDemand":true,
-	"order":"1",
-	"isRequired":false
-	},
-	{
-	"category":"FEE",
-	"service":"OPMS",
-	"name":"ROADCUTNOC",
-	"code":"ROADCUTNOC_FEE",
-	"isDebit":false,
-	"isActualDemand":true,
-	"order":"1",
-	"isRequired":false
-	},
-	{
-	"category":"FEE_BANK",
-	"service":"OPMS",
-	"name":"ROADCUTNOC",
-	"code":"ROADCUTNOC_FEE_BANK",
-	"isDebit":false,
-	"isActualDemand":true,
-	"order":"3",
-	"isRequired":false
-	},
 	{
 	  "category": "FEE",
 	  "service": "DAY_MARKET.CONTRACTOR_SECURITY_FEE",
@@ -2603,6 +2530,79 @@
 	  "isActualDemand": false,
 	  "order": "0",
 	  "isRequired": false
+	},
+	{
+    "category":"TAX",
+    "service":"OPMS.ADVERTISEMENTNOC",
+    "name":"ADVERTISEMENT NOC TAX",
+   "code":"ADVERTISEMENTNOC_TAX",
+   "isDebit":false,
+   "isActualDemand":true,
+   "order":"2",
+   "isRequired":false,
+   "taxAmount":"18"
+},
+{
+   "category":"TAX",
+   "service":"OPMS.PETNOC",
+   "name":"PET NOC TAX",
+   "code":"PETNOC_TAX",
+   "isDebit":false,
+   "isActualDemand":true,
+   "order":"2",
+   "isRequired":false,
+   "taxAmount":"0"
+},
+{
+   "category":"TAX",
+   "service":"OPMS.ROADCUTNOC",
+   "name":"ROADCUT NOC TAX",
+   "code":"ROADCUTNOC_TAX",
+   "isDebit":false,
+   "isActualDemand":true,
+   "order":"2",
+   "isRequired":false,
+   "taxAmount":"0"
+    },
+	{
+	"category":"FEE",
+	"service":"OPMS.ADVERTISEMENTNOC",
+	"name":"ADVERTISEMENT NOC FEE",
+	"code":"ADVERTISEMENTNOC_FEE",
+	"isDebit":false,
+	"isActualDemand":true,
+	"order":"1",
+	"isRequired":false
+	},
+	{
+	"category":"FEE",
+	"service":"OPMS.PETNOC",
+	"name":"PET NOC FEE",
+	"code":"PETNOC_FEE",
+	"isDebit":false,
+	"isActualDemand":true,
+	"order":"1",
+	"isRequired":false
+	},
+	{
+	"category":"FEE",
+	"service":"OPMS.ROADCUTNOC",
+	"name":"ROADCUT NOC FEE",
+	"code":"ROADCUTNOC_FEE",
+	"isDebit":false,
+	"isActualDemand":true,
+	"order":"1",
+	"isRequired":false
+	},
+	{
+	"category":"FEE_BANK",
+	"service":"OPMS.ROADCUTNOC",
+	"name":"ROADCUT NOC FEE BANK",
+	"code":"ROADCUTNOC_FEE_BANK",
+	"isDebit":false,
+	"isActualDemand":true,
+	"order":"3",
+	"isRequired":false
 	}
   ]
 }
