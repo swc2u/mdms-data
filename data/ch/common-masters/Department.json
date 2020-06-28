@@ -267,6 +267,11 @@
 		"name" : "Sub Office Manimajra",
 		"code" : "466",
 		"active" : true
+	},
+	{
+		"name" : "Deduction Branch",
+		"code" : "467",
+		"active" : true
 	}
     ]
 }
