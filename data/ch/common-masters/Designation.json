@@ -577,6 +577,30 @@
 		"code": "996",
 		"description": "Data Entry Officer",
 		"active": true
+	},
+	  {
+		"name": "Assistant Manager",
+		"code": "1000",
+		"description": "Assistant Manager",
+		"active": true
+	},
+	{
+		"name": "Communication & Operation Manager",
+		"code": "1001",
+		"description": "Communication & Operation Manager",
+		"active": true
+	},
+	{
+		"name": "Building Inspector",
+		"code": "1002",
+		"description": "Building Inspector",
+		"active": true
+	},
+	{
+		"name": "MTS",
+		"code": "1003",
+		"description": "MTS",
+		"active": true
 	}
   ]
 }
