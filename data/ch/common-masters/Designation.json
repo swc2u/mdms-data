@@ -580,25 +580,25 @@
 	},
 	  {
 		"name": "Assistant Manager",
-		"code": "1000",
+		"code": "267",
 		"description": "Assistant Manager",
 		"active": true
 	},
 	{
 		"name": "Communication & Operation Manager",
-		"code": "1001",
+		"code": "268",
 		"description": "Communication & Operation Manager",
 		"active": true
 	},
 	{
 		"name": "Building Inspector",
-		"code": "1002",
+		"code": "269",
 		"description": "Building Inspector",
 		"active": true
 	},
 	{
 		"name": "MTS",
-		"code": "1003",
+		"code": "270",
 		"description": "MTS",
 		"active": true
 	}
