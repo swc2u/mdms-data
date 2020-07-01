@@ -40,5 +40,103 @@
             "fileType": "ALLTYPES",
             "description": "APPROVED_BUILDING_PLAN_DESCRIPTION"
         }]
-    }]
+    },
+    {
+        "code": "FRESHLICENSE",
+        "type": "RentedProperties",
+        "documentList": [
+        {
+            "code": "AFFIDAVIT_CLAIMANT",
+            "required": true,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "AFFIDAVIT_CLAIMANT_DESCRIPTION"
+        },
+        {
+            "code": "AFFIDAVIT_LEGAL_HEIR",
+            "required": true,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "AFFIDAVIT_LEGAL_HEIR_DESCRIPTION"
+        },
+        {
+            "code": "THREE_SPECIMEN_SIGNATURE",
+            "required": true,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "THREE_SPECIMEN_SIGNATURE_DESCRIPTION"
+        },
+        {
+            "code": "ATTESTED_PHOTOGRAPH_OF_REMAINING_HEIRS",
+            "required": true,
+            "accept": "application/pdf,image/*",
+            "fileType": "PDF_IMAGE",
+            "description": "ATTESTED_PHOTOGRAPH_OF_REMAINING_HEIRS_DESCRIPTION"
+        },
+        {
+            "code": "DEATH_CERTIFICATE_ORIGINAL",
+            "required": true,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "DEATH_CERTIFICATE_ORIGINAL_DESCRIPTION"
+        },
+        {
+            "code": "ALLOTMENT_LETTER",
+            "required": false,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "ALLOTMENT_LETTER_DESCRIPTION"
+        },
+        {
+            "code": "PUBLICATION_CHARGES",
+            "required": false,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "PUBLICATION_CHARGES_DESCRIPTION"
+        },
+        {
+            "code": "ATTESTED_ID_PROOF_CLAIMANT_OTHER_HEIRS",
+            "required": true,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "ATTESTED_ID_PROOF_CLAIMANT_OTHER_HEIRS_DESCRIPTION"
+        },
+        {
+            "code": "DECEASED_IMAGE",
+            "required": true,
+            "accept": "image/*",
+            "fileType": "IMAGEONLY",
+            "description": "DECEASED_IMAGE_DESCRIPTION"
+        },
+        {
+            "code": "CLAIMANT_IMAGE",
+            "required": true,
+            "accept": "image/*",
+            "fileType": "IMAGEONLY",
+            "description": "CLAIMANT_IMAGE_DESCRIPTION"
+        },
+        {
+            "code": "SELF_ATTESTED_ID_PROOF",
+            "required": true,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "SELF_ATTESTED_ID_PROOF_DESCRIPTION"
+        },
+        {
+            "code": "APPROVED_BUILDING_PLAN",
+            "required": true,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "APPROVED_BUILDING_PLAN_DESCRIPTION"
+        },
+        {
+            "code": "OTHER_REQUIRED_DOCUMENTS",
+            "required": true,
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+            "fileType": "ALLTYPES",
+            "description": "OTHER_REQUIRED_DOCUMENTS_DESCRIPTION"
+        }
+    ]
+    }
+]
 }
