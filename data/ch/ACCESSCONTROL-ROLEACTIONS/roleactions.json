@@ -28234,8 +28234,32 @@
       "tenantId": "ch"
     },
     {
+      "rolecode": "CITIZEN",
+      "actionid": 4036,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
       "rolecode": "EMPLOYEE",
       "actionid": 4037,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 4038,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 4039,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 4039,
       "actioncode": "",
       "tenantId": "ch"
     },

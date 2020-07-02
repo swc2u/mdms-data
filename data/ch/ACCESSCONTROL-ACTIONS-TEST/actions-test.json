@@ -16528,6 +16528,30 @@
       "code": "null",
       "path": "UpdatePropertyApi"
     },
+    {
+      "id": 4038,
+      "name": "CreateOwnershipTransfer",
+      "url": "/csp/ownership-transfer/_create",
+      "displayName": "Create Ownership Transfer",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CreateOwnershipTransfer",
+      "code": "null",
+      "path": "CreateOwnershipTransfer"
+    },
+    {
+      "id": 4039,
+      "name": "UpdateOwnershipTransfer",
+      "url": "/csp/ownership-transfer/_update",
+      "displayName": "Update Ownership Transfer",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "UpdateOwnershipTransfer",
+      "code": "null",
+      "path": "UpdateOwnershipTransfer"
+    },
 	  {
             "id": 4201,
             "name": "rainmaker-common-pms",
