@@ -29951,6 +29951,42 @@
       "actionid": 4215,
       "actioncode": "",
       "tenantId": "ch"
+    },
+	{
+      "rolecode": "EMPLOYEE",
+      "actionid": 4050,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "CITIZEN",
+      "actionid": 4050,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "EMPLOYEE",
+      "actionid": 4051,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "CITIZEN",
+      "actionid": 4051,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "EMPLOYEE",
+      "actionid": 4052,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "CITIZEN",
+      "actionid": 4052,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }

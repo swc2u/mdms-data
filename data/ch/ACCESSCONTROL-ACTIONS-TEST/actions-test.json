@@ -17602,6 +17602,42 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
+    },
+	{
+      "id": 4050,
+      "name": "CreateDuplicateCopyPropertyApi",
+      "url": "/csp/duplicatecopy/_create",
+      "displayName": "create duplicatecopy api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "DuplicateCopyApi",
+      "code": "null",
+      "path": "CreateDuplicateCopyPropertyApi"
+    },
+	{
+      "id": 4051,
+      "name": "SearchDuplicateCopyPropertyApi",
+      "url": "/csp/duplicatecopy/_search",
+      "displayName": "create duplicatecopy api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "DuplicateCopyApi",
+      "code": "null",
+      "path": "SearchDuplicateCopyPropertyApi"
+    },
+	{
+      "id": 4052,
+      "name": "UpdateDuplicateCopyPropertyApi",
+      "url": "/csp/duplicatecopy/_update",
+      "displayName": "create duplicatecopy api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "DuplicateCopyApi",
+      "code": "null",
+      "path": "UpdatePropertyApi"
     }
   ]
 }
