@@ -28264,6 +28264,18 @@
       "tenantId": "ch"
     },
     {
+      "rolecode": "CITIZEN",
+      "actionid": 4040,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 4040,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
       "rolecode": "DDO",
       "actionid": 1534,
       "actioncode": "",

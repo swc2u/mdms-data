@@ -16552,6 +16552,18 @@
       "code": "null",
       "path": "UpdateOwnershipTransfer"
     },
+    {
+      "id": 4040,
+      "name": "SearchOwnershipTransfer",
+      "url": "/csp/ownership-transfer/_search",
+      "displayName": "Search Ownership Transfer",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "SearchOwnershipTransfer",
+      "code": "null",
+      "path": "SearchOwnershipTransfer"
+    },
 	  {
             "id": 4201,
             "name": "rainmaker-common-pms",
