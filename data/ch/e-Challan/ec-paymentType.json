@@ -1,0 +1,20 @@
+{
+   "tenantId":"ch",
+   "moduleName":"egec",
+   "paymentType":[
+      {
+         "id":"1",
+         "code":"Cash",
+         "tenantId":"ch",
+         "name":"Cash",
+         "active":true
+      },
+      {
+         "id":"2",
+         "code":"Card",
+         "tenantId":"ch",
+         "name":"Card",
+         "active":true
+      }
+   ]
+}
