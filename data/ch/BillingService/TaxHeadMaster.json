@@ -2492,45 +2492,215 @@
      "isRequired": false
    },
 	{
-	  "category": "FEE",
-	  "service": "DAY_MARKET.CONTRACTOR_SECURITY_FEE",
-	  "name": "Contractor Security Fee",
-	  "code": "DAY_MARKET_CONTRACTOR_SECURITY_FEE",
-	  "isDebit": false,
-	  "isActualDemand": false,
-	  "order": "0",
-	  "isRequired": false
-	},
-	{
-	  "category": "FEE",
-	  "service": "DAY_MARKET.RENT_AMOUNT",
-	  "name": "Rent Amount",
-	  "code": "DAY_MARKET_RENT_AMOUNT_FEE",
-	  "isDebit": false,
-	  "isActualDemand": false,
-	  "order": "0",
-	  "isRequired": false
-	},
-	{
-	  "category": "FEE",
-	  "service": "DAY_MARKET.RENT_AMOUNT",
-	  "name": "Penalty Fee",
-	  "code": "DAY_MARKET_PENALTY_FEE",
-	  "isDebit": false,
-	  "isActualDemand": false,
-	  "order": "0",
-	  "isRequired": false
-	},
-	{
-	  "category": "FEE",
-	  "service": "APNIMANDI.COLLECTION_AMOUNT",
-	  "name": "Collection Amount",
-	  "code": "APNIMANDI_COLLECTION_AMOUNT",
-	  "isDebit": false,
-	  "isActualDemand": false,
-	  "order": "0",
-	  "isRequired": false
-	},
+         "category":"FEE",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "name":"Ground Rent - Markets & Apni Mandi",
+         "code":"GROUND_RENT_MARKETS_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "name":"Security - Apni Mandi",
+         "code":"SECURITY_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "name":"CGST & UTGST",
+         "code":"CGST_UTGST",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "name":"IGST",
+         "code":"IGST",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "name":"Ground Rent - Markets & Apni Mandi",
+         "code":"GROUND_RENT_MARKETS_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "name":"Security - Apni Mandi",
+         "code":"SECURITY_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "name":"CGST & UTGST",
+         "code":"CGST_UTGST",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "name":"IGST",
+         "code":"IGST",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "name":"Ground Rent - Markets & Apni Mandi",
+         "code":"GROUND_RENT_MARKETS_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "name":"Security - Apni Mandi",
+         "code":"SECURITY_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "name":"CGST & UTGST",
+         "code":"CGST_UTGST",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "name":"IGST",
+         "code":"IGST",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "name":"Security - Apni Mandi",
+         "code":"SECURITY_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "name":"Ground Rent - Markets & Apni Mandi",
+         "code":"GROUND_RENT_MARKETS_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "name":"Penalities/Fines - Others",
+         "code":"PENALITIES_FINES_OTHERS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "name":"Security - Apni Mandi",
+         "code":"SECURITY_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "name":"Ground Rent - Markets & Apni Mandi",
+         "code":"GROUND_RENT_MARKETS_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "name":"Penalities/Fines - Others",
+         "code":"PENALITIES_FINES_OTHERS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "name":"Security - Apni Mandi",
+         "code":"SECURITY_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "name":"Ground Rent - Markets & Apni Mandi",
+         "code":"GROUND_RENT_MARKETS_APNI_MANDI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "name":"Penalities/Fines - Others",
+         "code":"PENALITIES_FINES_OTHERS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
 	{
     "category":"TAX",
     "service":"OPMS.ADVERTISEMENTNOC",
