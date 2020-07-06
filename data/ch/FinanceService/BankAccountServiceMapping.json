@@ -33,23 +33,41 @@
       "bankBranch": "OBC01"
     },
     {
-      "businessDetails": "CONTRACTOR_SECURITY_FEE",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-    {
-      "businessDetails": "RENT_AMOUNT",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-    {
-      "businessDetails": "COLLECTION_AMOUNT",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
     {
       "businessDetails": "RehriRC",
       "bankAccount": "000000000001",
