@@ -32286,6 +32286,60 @@
       "actionid": 1766,
       "actioncode": "",
       "tenantId": "ch"
-    }
+    },
+    	{
+	  "rolecode": "SUPERUSER",
+	  "actionid": 4401,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "SUPERUSER",
+	  "actionid": 4402,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "SUPERUSER",
+	  "actionid": 4402,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "SUPERUSER",
+	  "actionid": 4403,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "SUPERUSER",
+	  "actionid": 4404,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "SUPERUSER",
+	  "actionid": 4405,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "SUPERUSER",
+	  "actionid": 4406,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "SUPERUSER",
+	  "actionid": 4407,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "SUPERUSER",
+	  "actionid": 4408,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	}
   ]
 }
