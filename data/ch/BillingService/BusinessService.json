@@ -1249,6 +1249,17 @@
       "isAdvanceAllowed": false,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true
-    }
+    },
+      {
+         "businessService":"ECHALLAN",
+         "code":"EC",
+         "collectionModesNotAllowed":[
+            "DD"
+         ],
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true
+      }
   ]
 }

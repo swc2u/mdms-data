@@ -1,0 +1,36 @@
+{
+	"tenantId": "ch",
+	"moduleName": "egec",
+	"NumberOfViolation": [{
+			"code": "1",
+			"tenantId": "ch",
+			"name": "First violation ",
+			"active": true
+		},
+		{
+			"code": "2",
+			"tenantId": "ch",
+			"name": "Second violation",
+			"active": true
+		},
+		{
+			"code": "3",
+			"tenantId": "ch",
+			"name": "Third violation ",
+			"active": true
+		},
+		{
+			"code": "4",
+			"tenantId": "ch",
+			"name": "Fourth Violation",
+			"active": true
+		},
+		{
+			"code": "5",
+			"tenantId": "ch",
+			"name": "Fifth Violation",
+			"active": true
+		}
+
+	]
+}

@@ -700,6 +700,26 @@
       "code": "COMMISSIONERMCC",
       "name": "COMMISSIONERMCC",
       "description": "Commissioner(MCC)"
+    },
+	{
+      "code": "challanSI",
+      "name": "challanSI",
+      "description": "Sub Inspector"
+    },
+	{
+      "code": "challanEAO",
+      "name": "challanEAO",
+      "description": "Encroachment Admin Officer"
+    },
+	{
+      "code": "challanSM",
+      "name": "challanSM",
+      "description": "Store Manager"
+    },
+	{
+      "code": "challanHOD",
+      "name": "challanHOD",
+      "description": "Appellete Auth"
     }
   ]
 }
