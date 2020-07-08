@@ -1,0 +1,13 @@
+{
+	"tenantId": "ch",
+	"moduleName": "egec",
+	"AuctionNotificationTemplate" :[{
+		"code": "Auction Reminder",
+		"subject": "Auction Reminder",
+		"body": "Here is the list of eligible items for auction",
+		"attachmentUrls": "",
+		"message": "",
+		"isHtml": true,
+		"emailAddress":"rushikesh.narkhede@extrapreneursindia.com"
+	}]
+}

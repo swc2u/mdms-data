@@ -702,6 +702,26 @@
       "description": "Commissioner(MCC)"
     },
 	{
+      "code": "challanSI",
+      "name": "challanSI",
+      "description": "Sub Inspector"
+    },
+	{
+      "code": "challanEAO",
+      "name": "challanEAO",
+      "description": "Encroachment Admin Officer"
+    },
+	{
+      "code": "challanSM",
+      "name": "challanSM",
+      "description": "Store Manager"
+    },
+	{
+      "code": "challanHOD",
+      "name": "challanHOD",
+      "description": "Appellete Auth"
+    },
+	{
       "code": "WS_CEMP",
       "name": "WS Counter Employee",
       "description": "WS counter employee can take action as citizen"
