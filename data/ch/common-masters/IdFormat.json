@@ -474,7 +474,11 @@
         {
             "format": "CH-HC-[cy:yyyy-MM-dd]-[SEQ_EG_HC_APL]",
             "idname": "ch.hc"
-        }                    
+        },
+		{
+            "format": "MCC-EC-[SEQ_EG_EC_APL]",
+            "idname": "ch.ec"
+        }                                        
 
     ]
 }

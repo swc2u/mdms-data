@@ -1,0 +1,41 @@
+{
+   "tenantId":"ch",
+   "moduleName":"egec",
+   "VehicleType":[
+      {
+         "id":"1",
+         "code":"Two Wheeler",
+         "tenantId":"ch",
+         "name":"Two Wheeler",
+         "active":true
+      },
+      {
+         "id":"2",
+         "code":"Three Wheeler",
+         "tenantId":"ch",
+         "name":"Three Wheeler",
+         "active":true
+      },
+      {
+         "id":"3",
+         "code":"Four Wheeler",
+         "tenantId":"ch",
+         "name":"Four Wheeler",
+         "active":true
+      },
+      {
+         "id":"4",
+         "code":"Six Wheeler",
+         "tenantId":"ch",
+         "name":"Six Wheeler",
+         "active":true
+      },
+      {
+         "id":"5",
+         "code":"Above Six Wheeler",
+         "tenantId":"ch",
+         "name":"Above Six Wheeler",
+         "active":true
+      }
+   ]
+}
