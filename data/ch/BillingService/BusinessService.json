@@ -1163,9 +1163,63 @@
       "isVoucherCreationEnabled": true,
       "isActive": true
     },
+    {
+         "businessService":"Apni Mandi and Day Market (Road Div 1).Apni Mandi",
+         "code":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 1).Day Market",
+         "code":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 2).Apni Mandi",
+         "code":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 2).Day Market",
+         "code":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 3).Apni Mandi",
+         "code":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
+      {
+         "businessService":"Apni Mandi and Day Market (Road Div 3).Day Market",
+         "code":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"ApnaMandi"
+      },
 	{
       "businessService": "Permission Management",
-      "code": "OPMS",
+      "code": "OPMS.PETNOC",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1174,32 +1228,38 @@
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true
     },
-    {
-	  "businessService": "Day Market.Contractor Security Fee",
-	  "code": "DAY_MARKET.CONTRACTOR_SECURITY_FEE",
-	  "partPaymentAllowed": false,
-	  "isAdvanceAllowed": false,
-	  "isVoucherCreationEnabled": true,
-	  "isActive": true,
-	  "type": "apnimandi"
+	{
+      "businessService": "Permission Management",
+      "code": "OPMS.ROADCUTNOC",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": true
     },
-    {
-	  "businessService": "Day Market.Rent Amount",
-	  "code": "DAY_MARKET.RENT_AMOUNT",
-	  "partPaymentAllowed": false,
-	  "isAdvanceAllowed": false,
-	  "isVoucherCreationEnabled": true,
-	  "isActive": true,
-	  "type": "apnimandi"
+	{
+      "businessService": "Permission Management",
+      "code": "OPMS.ADVERTISEMENTNOC",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": true
     },
-    {
-	  "businessService": "Apnimandi.Collection Amount",
-	  "code": "APNIMANDI.COLLECTION_AMOUNT",
-	  "partPaymentAllowed": false,
-	  "isAdvanceAllowed": false,
-	  "isVoucherCreationEnabled": true,
-	  "isActive": true,
-	  "type": "apnimandi"
-    }
+      {
+         "businessService":"ECHALLAN",
+         "code":"EC",
+         "collectionModesNotAllowed":[
+            "DD"
+         ],
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true
+      }
   ]
 }
