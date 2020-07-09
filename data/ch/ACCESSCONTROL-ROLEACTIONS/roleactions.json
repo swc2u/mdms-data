@@ -10413,25 +10413,25 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 992,
       "actioncode": "",
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 993,
       "actioncode": "",
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 994,
       "actioncode": "",
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 995,
       "actioncode": "",
       "tenantId": "ch"
@@ -10443,13 +10443,13 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 997,
       "actioncode": "",
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 998,
       "actioncode": "",
       "tenantId": "ch"
@@ -10461,13 +10461,13 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 1000,
       "actioncode": "",
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 1001,
       "actioncode": "",
       "tenantId": "ch"
@@ -10479,13 +10479,13 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 1003,
       "actioncode": "",
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 1004,
       "actioncode": "",
       "tenantId": "ch"
@@ -10497,7 +10497,7 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 1006,
       "actioncode": "",
       "tenantId": "ch"
@@ -12057,7 +12057,7 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 1209,
       "actioncode": "",
       "tenantId": "ch"
@@ -12159,13 +12159,13 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 1212,
       "actioncode": "",
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 1213,
       "actioncode": "",
       "tenantId": "ch"
@@ -12501,7 +12501,7 @@
       "tenantId": "ch"
     },
     {
-      "rolecode": "SUPERUSER",
+      "rolecode": "LCMS_ADMIN",
       "actionid": 1459,
       "actioncode": "",
       "tenantId": "ch"
