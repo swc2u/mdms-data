@@ -32340,6 +32340,114 @@
 	  "actionid": 4408,
 	  "actioncode": "",
 	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1561,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1854,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1855,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1560,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1909,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1919,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1563,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1858,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1859,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1564,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1842,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1843,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1591,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1844,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1845,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1592,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1846,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "PGR_REPORTS_VIEWER",
+	  "actionid": 1847,
+	  "actioncode": "",
+	  "tenantId": "ch"
 	}
   ]
 }
