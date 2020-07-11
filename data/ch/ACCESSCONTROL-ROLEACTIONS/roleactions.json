@@ -29999,6 +29999,18 @@
       "actionid": 4052,
       "actioncode": "",
       "tenantId": "ch"
+    },
+	{
+      "rolecode": "EMPLOYEE",
+      "actionid": 4053,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "CITIZEN",
+      "actionid": 4053,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }
