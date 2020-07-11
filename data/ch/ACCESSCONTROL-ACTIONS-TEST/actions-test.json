@@ -18858,6 +18858,34 @@
 		"navigationURL": "egov-store-asset/search-opening-balence",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
+	},
+	{
+		"id": 4409,
+		"name": "Initiate Post Audit",
+		"url": "/services/audit/createAudit/post/bill",
+		"displayName": "Initiate Post Audit",
+		"orderNumber": "1",
+		"parentModule": "audit",
+		"enabled": true,
+		"serviceCode": "audit",
+		"code": "",
+		"path": "Audit.Initiate Post Audit",
+		"navigationURL": "services/audit/createAudit/post/bill",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4410,
+		"name": "Search Audit",
+		"url": "/services/audit/createAudit/post/auditSearch",
+		"displayName": "Search Audit",
+		"orderNumber": "2",
+		"parentModule": "",
+		"enabled": true,
+		"serviceCode": "",
+		"code": "",
+		"path": "Audit.Search Audit",
+		"navigationURL": "services/audit/createAudit/post/auditSearch",
+		"leftIcon": "editor:insert-chart"
 	}
   ]
 }

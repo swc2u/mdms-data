@@ -775,6 +775,16 @@
       "code": "SW_CLERK",
       "name": "SW Clerk",
       "description": "SW Clerk can activate the connection application"
+    },
+    {
+      "code": "AUDIT_ADMIN",
+      "name": "AUDIT_ADMIN",
+      "description": "Audit admin for audit Search page"
+    },
+    {
+      "code": "AUDIT_POST",
+      "name": "AUDIT_POST",
+      "description": "Post Audit Inititation role"
     }
   ]
 }
