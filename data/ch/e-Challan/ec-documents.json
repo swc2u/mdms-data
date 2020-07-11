@@ -4,7 +4,7 @@
    "documents":[
       {
          "id":"1",
-         "code":"ViolatorImage",
+         "code":"EC_VIOLATORIMAGE",
          "tenantId":"ch",
          "name":"Image of Violator",
          "active":true,
@@ -13,7 +13,7 @@
       },
       {
          "id":"2",
-         "code":"ViolatorIdProof",
+         "code":"EC_VIOLATORIDPROOF",
          "tenantId":"ch",
          "name":"ID Proof of Violator",
          "active":true,
