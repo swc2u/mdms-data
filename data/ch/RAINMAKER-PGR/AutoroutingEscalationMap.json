@@ -702,6 +702,7 @@
       "category": "Roads",
       "escalationOfficer1": [
         "2018010008N",
+        "2009010003A",
         "2018010047M",
         "2018010065Q",
         "1984010054N",
@@ -746,9 +747,19 @@
             "MARIWALA_TOWN",
             "THAKURDWARA",
             "CHANDIGARH_HOUSING_COMPLEX",
-            "MOHALLA_GOVINDPURA"
+            "MOHALLA_GOVINDPURA",
+            "MAULI_COMPLEX_RAILWAY_COLONY",
+            "AMBEDKAR_AWAS_YOJNA",
+            "MAULI_COMPLEX_CHARAN_SINGH",
+            "BHAGAT_SINGH_COLONY",
+            "VIKAS_NAGAR",
+            "SHIVALIK_ENCLAVE",
+            "MAULI_COMPLEX_HOUSING_BOARD",
+            "MAKHANMAJRA",
+            "DARIA",
+            "RAIPURKALAN"
           ],
-          "Employee": "1988-01-0017-G"
+          "Employee": "1998010017G"
         },
         {
           "Sector": [
@@ -773,7 +784,8 @@
             "REHABILITATION_COLONY",
             "PALSORA",
             "BEHLANA",
-            "RAIPURKHURD"
+            "RAIPURKHURD",
+            "REHABILITATION_COLONY_PALSORA"
           ],
           "Employee": "1993010099W"
         },
@@ -821,10 +833,11 @@
             "SECTOR-47",
             "SECTOR-48",
             "IND_AREA_PHASE-II",
-            "SANJAY_COLONY",
+            "SECTOR-29",
+            "IND_AREA_PHASE-I",
             "COLONY_NO4"
           ],
-          "Employee": "2018-01-0075-P"
+          "Employee": "2018010075P"
         },
         {
           "Sector": [
@@ -838,7 +851,7 @@
             "SECTOR-28",
             "SECTOR-30"
           ],
-          "Employee": "2018-01-0044-V"
+          "Employee": "2018010044V"
         },
         {
           "Sector": [
@@ -927,7 +940,7 @@
         {
           "Sector": [
             "DHANAS",
-            "MILK_COLONY"
+            "MILK_COLONY_DHANAS"
           ],
           "Employee": "2001010033B"
         }
@@ -4300,7 +4313,8 @@
         "20010100096V",
         "1989010011R",
         "1993010036L",
-        "1980-01-0001-D"
+        "1980-01-0001-D",
+        "2009010003A"
       ],
       "escalationOfficer2": [
         "1989010011R",
@@ -4333,9 +4347,19 @@
             "MARIWALA_TOWN",
             "THAKURDWARA",
             "CHANDIGARH_HOUSING_COMPLEX",
-            "MOHALLA_GOVINDPURA"
+            "MOHALLA_GOVINDPURA",
+            "MAULI_COMPLEX_RAILWAY_COLONY",
+            "AMBEDKAR_AWAS_YOJNA",
+            "MAULI_COMPLEX_CHARAN_SINGH",
+            "BHAGAT_SINGH_COLONY",
+            "VIKAS_NAGAR",
+            "SHIVALIK_ENCLAVE",
+            "MAULI_COMPLEX_HOUSING_BOARD",
+            "MAKHANMAJRA",
+            "DARIA",
+            "RAIPURKALAN"
           ],
-          "Employee": "1988-01-0017-G"
+          "Employee": "1998010017G"
         },
         {
           "Sector": [
@@ -4408,10 +4432,11 @@
             "SECTOR-47",
             "SECTOR-48",
             "IND_AREA_PHASE-II",
-            "SANJAY_COLONY",
+            "SECTOR-29",
+            "IND_AREA_PHASE-I",
             "COLONY_NO4"
           ],
-          "Employee": "2018-01-0075-P"
+          "Employee": "2018010075P"
         },
         {
           "Sector": [
@@ -4425,7 +4450,7 @@
             "SECTOR-28",
             "SECTOR-30"
           ],
-          "Employee": "2018-01-0044-V"
+          "Employee": "2018010044V"
         },
         {
           "Sector": [
