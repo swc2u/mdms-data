@@ -17817,9 +17817,9 @@
       "createdBy": null,
       "lastModifiedDate": null,
       "lastModifiedBy": null,
-      "path": "hc.myservicerequest",
+      "path": "",
       "navigationURL":"egov-hc/servicerequest",
-      "leftIcon": "Horticulture",
+      "leftIcon": "",
       "rightIcon": ""
     },
     {
@@ -17837,9 +17837,9 @@
       "createdBy": null,
       "lastModifiedDate": null,
       "lastModifiedBy": null,
-      "path": "hc.myservicerequest",
+      "path": "",
       "navigationURL":"egov-hc/servicerequest",
-      "leftIcon": "hcIcon",
+      "leftIcon": "",
       "rightIcon": ""
      },
     
@@ -17858,11 +17858,27 @@
       "createdBy": null,
       "lastModifiedDate": null,
       "lastModifiedBy": null,
-      "path": "hc.employeeServiceRequestsFilter",
+      "path": "",
       "navigationURL":"egov-hc/employeeServiceRequestsFilter",
-      "leftIcon": "hcIcon",
+      "leftIcon": "",
       "rightIcon": ""
      },
+     {
+      "id": 2610,
+      "name": "rainmaker-citizen-horticulture",
+      "url": "card",
+      "displayName": "Horticulture",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-hc/home",
+      "leftIcon": "custom:hcIcon",
+      "rightIcon": "",
+      "queryParams": ""
+    },	  
 	 {
       "id": 4050,
       "name": "rainmaker-common-wns",
