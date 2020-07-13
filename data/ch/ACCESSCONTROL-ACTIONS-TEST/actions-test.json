@@ -17716,38 +17716,38 @@
 	},
     {
 			"id": 2601,
-			"name": "rainmaker-citizen-horticulture",
+			"name": "Horticulture",
 			"url": "card",
-			"displayName": "hc",
-			"orderNumber": 2,
+			"displayName": "Horticulture",
+			"orderNumber": 14,
 			"parentModule": "",
 			"enabled": true,
-			"serviceCode": "",
-			"code": "",
-			"path": "",
+			"serviceCode": "Horticulture",
+			"code": "null",
+			"path": "Horticulture",
 			"navigationURL": "egov-hc/home",
-			"leftIcon": "hcIcon",
-			"rightIcon": "",
-			"queryParams": ""
+			"leftIcon": "custom:hcIcon",
+			"rightIcon": ""
+			
 		},
 
 
                    
 		{
 			"id": 2602,
-			"name": "rainmaker-common-horticulture",
+			"name": "Horticulture",
 			"url": "card",
-			"displayName": "hc",
-			"orderNumber": 2,
+			"displayName": "Horticulture",
+			"orderNumber": 14,
 			"parentModule": "",
 			"enabled": true,
-			"serviceCode": "",
-			"code": "",
-			"path": "",
+			"serviceCode": "Horticulture",
+			"code": "null",
+			"path": "Horticulture",
 			"navigationURL": "egov-hc/employeeServiceRequestsFilter",
-			"leftIcon": "hcIcon",
-			"rightIcon": "",
-			"queryParams": ""
+			"leftIcon": "custom:hcIcon",
+			"rightIcon": ""
+			
 		},
 
 		{
