@@ -18488,7 +18488,7 @@
       "createdBy": null,
       "lastModifiedDate": null,
       "lastModifiedBy": null,
-      "path": "eChallan.Search",
+      "path": "EC_eChallan.Search",
       "navigationURL": "egov-echallan/echallan-landing",
       "leftIcon": "communication:business",
       "rightIcon": ""
@@ -18508,7 +18508,7 @@
       "createdBy": null,
       "lastModifiedDate": null,
       "lastModifiedBy": null,
-      "path": "eChallan.itemMaster",
+      "path": "EC_eChallan.itemMaster",
       "navigationURL": "item-master/search",
       "leftIcon": "communication:business",
       "rightIcon": ""
@@ -18528,7 +18528,7 @@
       "createdBy": null,
       "lastModifiedDate": null,
       "lastModifiedBy": null,
-      "path": "eChallan.fineMaster",
+      "path": "EC_eChallan.fineMaster",
       "navigationURL": "fine-master/search",
       "leftIcon": "communication:business",
       "rightIcon": ""
@@ -18548,7 +18548,7 @@
       "createdBy": null,
       "lastModifiedDate": null,
       "lastModifiedBy": null,
-      "path": "eChallan.vendorMaster",
+      "path": "EC_eChallan.vendorMaster",
       "navigationURL": "vendor-master/search",
       "leftIcon": "communication:business",
       "rightIcon": ""
@@ -18646,7 +18646,7 @@
 		"createdBy": null,
 		"lastModifiedDate": null,
 		"lastModifiedBy": null,
-		"path": "ECreport.reportSearchViewSeizure",
+		"path": "EC_report.reportSearchViewSeizure",
 		"navigationURL": "egov-echallan/reportSearchViewSeizure",
 		"leftIcon": "communication:business",
 		"rightIcon": ""
@@ -18666,7 +18666,7 @@
 		"createdBy": null,
 		"lastModifiedDate": null,
 		"lastModifiedBy": null,
-		"path": "ECreport.reportInventoryDetail",
+		"path": "EC_report.reportInventoryDetail",
 		"navigationURL": "egov-echallan/reportInventoryDetail",
 		"leftIcon": "communication:business",
 		"rightIcon": ""
@@ -18686,7 +18686,7 @@
 		"createdBy": null,
 		"lastModifiedDate": null,
 		"lastModifiedBy": null,
-		"path": "ECreport.reportPaymentDetails",
+		"path": "EC_report.reportPaymentDetails",
 		"navigationURL": "egov-echallan/reportPaymentDetails",
 		"leftIcon": "communication:business",
 		"rightIcon": ""
