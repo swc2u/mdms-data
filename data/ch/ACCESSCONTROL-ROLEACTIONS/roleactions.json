@@ -32448,6 +32448,18 @@
 	  "actionid": 1847,
 	  "actioncode": "",
 	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "AUDIT_POST",
+	  "actionid": 4409,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
+	{
+	  "rolecode": "AUDIT_ADMIN",
+	  "actionid": 4410,
+	  "actioncode": "",
+	  "tenantId": "ch"
 	}
   ]
 }
