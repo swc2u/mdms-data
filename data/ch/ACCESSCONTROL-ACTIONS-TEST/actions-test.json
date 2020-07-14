@@ -18839,7 +18839,7 @@
 		"enabled": true,
 		"serviceCode": "STORE",
 		"code": "null",
-		"path": "STORE.Master.StoreMaster",
+		"path": "STORE.STORE.Master.StoreMaster",
 		"navigationURL": "egov-store-asset/search-store",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
@@ -18854,7 +18854,7 @@
 		"enabled": true,
 		"serviceCode": "STORE",
 		"code": "null",
-		"path": "STORE.Master.MaterialTypeStoresMaster",
+		"path": "STORE.STORE.Master.MaterialTypeStoresMaster",
 		"navigationURL": "egov-store-asset/search-material-type",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
@@ -18869,7 +18869,7 @@
 		"enabled": true,
 		"serviceCode": "STORE",
 		"code": "null",
-		"path": "STORE.Master.MaterialMaster",
+		"path": "STORE.STORE.Master.MaterialMaster",
 		"navigationURL": "egov-store-asset/search-material-master",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
@@ -18884,7 +18884,7 @@
 		"enabled": true,
 		"serviceCode": "STORE",
 		"code": "null",
-		"path": "STORE.Master.SupplierMaster",
+		"path": "STORE.STORE.Master.SupplierMaster",
 		"navigationURL": "egov-store-asset/search-supplier-master",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
@@ -18899,7 +18899,7 @@
 		"enabled": true,
 		"serviceCode": "STORE",
 		"code": "null",
-		"path": "STORE.Master.PriceList",
+		"path": "STORE.STORE.Master.PriceList",
 		"navigationURL": "egov-store-asset/search-price-list",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
@@ -18914,7 +18914,7 @@
 		"enabled": true,
 		"serviceCode": "STORE",
 		"code": "null",
-		"path": "STORE.Master.OpeningBalance",
+		"path": "STORE.STORE.Master.OpeningBalance",
 		"navigationURL": "egov-store-asset/search-opening-balence",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
