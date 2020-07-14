@@ -60,7 +60,7 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "DhobiGhat",
+      "businessService": "CTL.DhobiGhat",
       "code": "CTL.DHOBI_GHAT",
       "collectionModesNotAllowed": [
         "DD"
@@ -71,7 +71,7 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "BookShop",
+      "businessService": "CTL.BookShop",
       "code": "CTL.OLD_BOOK_MARKET",
       "collectionModesNotAllowed": [
         "DD"
