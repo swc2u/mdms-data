@@ -18172,6 +18172,50 @@
       "path": ""
     },
 	{
+      "id": 4074,
+      "name": "Create Property registry",
+      "url": "/property-services/property/_create",
+      "displayName": "Create Property Registry",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 4075,
+      "name": "UpdateCreate Property registry",
+      "url": "/property-services/property/_update",
+      "displayName": "Update Property Registry",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 4076,
+      "name": "Search Property registry",
+      "url": "/property-services/property/_search",
+      "displayName": "Search Property Registry",
+      "orderNumber": 3,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 4077,
+      "name": "Cancel Property registry",
+      "url": "/property-services/property/_cancel",
+      "displayName": "Cancel Property Registry",
+      "orderNumber": 4,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",
