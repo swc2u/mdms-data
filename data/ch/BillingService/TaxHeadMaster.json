@@ -283,6 +283,66 @@
       "isRequired": false
     },
     {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES",
+      "name": "Rented Properties Rent",
+      "code": "RENTED_PROPERTIES_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RENTED_PROPERTIES",
+      "name": "Rented Properties Tax",
+      "code": "RENTED_PROPERTIES_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "RENTED_PROPERTIES",
+      "name": "Rented Properties Penalty",
+      "code": "RENTED_PROPERTIES_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "RENTED_PROPERTIES",
+      "name": "Rented Properties Roundoff",
+      "code": "RENTED_PROPERTIES_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "DUE",
+      "service": "RENTED_PROPERTIES",
+      "name": "Rented Properties Due",
+      "code": "RENTED_PROPERTIES_DUE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "RENTED_PROPERTIES",
+      "name": "Rented Properties Charges",
+      "code": "RENTED_PROPERTIES_CHARGES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
       "category": "TAX",
       "service": "TL",
       "name": "tl roundoff",

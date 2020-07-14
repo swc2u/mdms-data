@@ -97,6 +97,14 @@
       "service": "CTL.OLD_BOOK_MARKET",
       "code": "CTLOBM10YRS2019",
       "financialYear": "2020-30"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "RENTED_PROPERTIES",
+      "code": "CTLOBM10YRS2019",
+      "financialYear": "2020-30"
     },	  
     {
       "fromDate": 1522540800000,

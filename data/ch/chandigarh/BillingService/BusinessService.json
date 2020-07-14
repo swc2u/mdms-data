@@ -80,6 +80,17 @@
       "isAdvanceAllowed": false,
       "demandUpdateTime": 604800000,
       "isVoucherCreationEnabled": true
+    },
+    {
+      "businessService": "RentedProperties",
+      "code": "RENTED_PROPERTIES",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 604800000,
+      "isVoucherCreationEnabled": true
     },	  
     {
       "businessService": "WaterCharges.Metered",
