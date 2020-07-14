@@ -6,7 +6,7 @@
       "code": "ch.chandigarh",
       "name": "Chandigarh",
       "description": "Chandigarh",
-      "logoId": "https://mcchuatchuatcentralindia.blob.core.windows.net/digit/logo.png",
+      "logoId": "https://chstage.blob.core.windows.net/fileshare/logo.png",
       "imageId": null,
       "domainUrl": "http://mcchandigarh.gov.in",
       "type": "CITY",
@@ -31,8 +31,8 @@
         "regionCode": null,
         "municipalityName": "Municipal Corporation Chandigarh"
       },
-      "address": "Not Available",
-      "contactNumber": "Not Available"
+      "address": "New Deluxe Building, Sector 17, Chandigarh",
+      "contactNumber": "+91-172-2541002, 0172-2541003"
     }        
   ]
 }

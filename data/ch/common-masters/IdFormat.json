@@ -460,7 +460,7 @@
             "idname": "pt.propertyid"
         },
         {
-            "format": "PM-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
+            "format": "PM-[cy:yyyy-MM-dd]-[SEQ_PM_ID_GEN]",
             "idname": "ch.pms"
         },
         {
@@ -470,7 +470,31 @@
         {
             "format": "TD-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
             "idname": "ch.prscptd"
-        }                  
+        },
+        {
+            "format": "CH-HC-[cy:yyyy-MM-dd]-[SEQ_EG_HC_APL]",
+            "idname": "ch.hc"
+        },
+		{
+            "format": "MCC-EC-[SEQ_EG_EC_APL]",
+            "idname": "ch.ec"
+        },
+	{
+      "format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_BILL_RCPT_[TENANT_ID]]",
+      "idname": "ws.receipt.id"
+    },
+    {
+      "format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_BILL_RCPT_[TENANT_ID]]",
+      "idname": "sw.receipt.id"
+    },
+    {
+      "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_APP_[TENANT_ID]]",
+      "idname": "waterservice.application.id"
+    },
+    {
+      "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_APP_[TENANT_ID]]",
+      "idname": "sewerageservice.application.id"
+    }                                        
 
     ]
 }

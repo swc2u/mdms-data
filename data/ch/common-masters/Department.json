@@ -262,6 +262,16 @@
 		"name" : "Apnimandi",
 		"code" : "465",
 		"active" : true
+	},
+	{
+		"name" : "Sub Office Manimajra",
+		"code" : "466",
+		"active" : true
+	},
+	{
+		"name" : "Deduction Branch",
+		"code" : "467",
+		"active" : true
 	}
     ]
 }

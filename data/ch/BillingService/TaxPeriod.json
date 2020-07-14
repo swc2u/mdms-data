@@ -276,19 +276,19 @@
     },
     {
       "fromDate": 1554076800000,
-      "toDate": 1585612800000,
-      "periodCycle": "ANNUAL",
+      "toDate": 1617175799000,
+      "periodCycle": "TWOYEARS",
       "service": "WS",
       "code": "WC2018",
-      "financialYear": "2019-20"
+      "financialYear": "2020-21"
     },
     {
       "fromDate": 1554076800000,
-      "toDate": 1585612800000,
-      "periodCycle": "ANNUAL",
+      "toDate": 1617175799000,
+      "periodCycle": "TWOYEARS",
       "service": "SW",
       "code": "SC2018",
-      "financialYear": "2019-20"
+      "financialYear": "2020-21"
     },
     {
       "fromDate": 1522540801000,
@@ -450,45 +450,117 @@
       "code": "CTLOBM10YRS2019",
       "financialYear": "2020-30"
     },
-	{
+    {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "code":"AMRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "code":"DMRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "code":"AMRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "code":"DMRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+	 {
       "fromDate": 1554057001000,
       "toDate": 1585593001000,
       "periodCycle": "ANNUAL",
-      "service": "OPMS",
-      "code": "OPMS2019",
+      "service": "OPMS.ROADCUTNOC",
+      "code": "OPMS.ROADCUTNOC2019",
       "financialYear": "2019-20"
     },
     {
       "fromDate": 1585679400000,
       "toDate": 1617129000000,
       "periodCycle": "ANNUAL",
-      "service": "OPMS",
-      "code": "OPMS2020",
+      "service": "OPMS.ROADCUTNOC",
+      "code": "OPMS.ROADCUTNOC2020",
       "financialYear": "2020-21"
     },
-    {
-	  "fromDate": 1522540801000,
-	  "toDate": 1838159999000,
-	  "periodCycle": "FORTENYEARS",
-	  "service": "DAY_MARKET.CONTRACTOR_SECURITY_FEE",
-	  "code": "DMCS10YRS2018",
-	  "financialYear": "2018-28"
+	{
+      "fromDate": 1554057001000,
+      "toDate": 1585593001000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.PETNOC",
+      "code": "OPMS.PETNOC2019",
+      "financialYear": "2019-20"
     },
     {
-	  "fromDate": 1522540801000,
-	  "toDate": 1838159999000,
-	  "periodCycle": "FORTENYEARS",
-	  "service": "DAY_MARKET.RENT_AMOUNT",
-	  "code": "DMRM10YRS2018",
-	  "financialYear": "2018-28"
+      "fromDate": 1585679400000,
+      "toDate": 1617129000000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.PETNOC",
+      "code": "OPMS.PETNOC2020",
+      "financialYear": "2020-21"
+    },
+	{
+      "fromDate": 1554057001000,
+      "toDate": 1585593001000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.ADVERTISEMENTNOC",
+      "code": "OPMS.ADVERTISEMENTNOC2019",
+      "financialYear": "2019-20"
     },
     {
-	  "fromDate": 1522540801000,
-	  "toDate": 1838159999000,
-	  "periodCycle": "FORTENYEARS",
-	  "service": "APNIMANDI.COLLECTION_AMOUNT",
-	  "code": "AMCM10YRS2018",
-	  "financialYear": "2018-28"
-     }
+      "fromDate": 1585679400000,
+      "toDate": 1617129000000,
+      "periodCycle": "ANNUAL",
+      "service": "OPMS.ADVERTISEMENTNOC",
+      "code": "OPMS.ADVERTISEMENTNOC2020",
+      "financialYear": "2020-21"
+    },
+	{
+      "fromDate": 1554057001000,
+      "toDate": 1585593001000,
+      "periodCycle": "ANNUAL",
+      "service": "EC",
+      "code": "EC2019",
+      "financialYear": "2019-20"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1617129000000,
+      "periodCycle": "ANNUAL",
+      "service": "EC",
+      "code": "EC2020",
+      "financialYear": "2020-21"
+    }
   ]
 }

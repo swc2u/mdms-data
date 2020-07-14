@@ -14,7 +14,16 @@
 		 },
          "baseUom":{
 			"id":4,
-			"code":"KGS"
+			"code":"KGS",
+			"conversionFactor":1000
+		 },
+		 "serialNumber":true,
+		 "shelfLifeControl":true,
+		 "lotControl":true,
+		 "purchaseUom":{
+			"id":4,
+			"code":"KGS",
+			"conversionFactor":1000
 		 }
       },
       {
@@ -29,7 +38,16 @@
 		 },
          "baseUom":{
 			"id":5,
-			"code":"TON"
+			"code":"TON",
+			"conversionFactor":1000000
+		 },
+		 "serialNumber":true,
+		 "shelfLifeControl":true,
+		 "lotControl":true,
+		 "purchaseUom":{
+			"id":5,
+			"code":"TON",
+			"conversionFactor":1000000
 		 }
       }
    ]

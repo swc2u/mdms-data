@@ -12,7 +12,7 @@
         },
         {
             "serviceCode": "DEP016_AccountsBranch_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_16",
             "slaHours": 0,
@@ -36,7 +36,7 @@
         },
         {
             "serviceCode": "DEP07_BirthCertificate_03",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_07",
             "slaHours": 0,
@@ -60,7 +60,7 @@
         },
         {
             "serviceCode": "DEP07_BirthCertificate_06",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_07",
             "slaHours": 0,
@@ -84,7 +84,7 @@
         },
         {
             "serviceCode": "DEP017_Advertisement_03",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_17",
             "slaHours": 0,
@@ -124,7 +124,7 @@
         },
         {
             "serviceCode": "DEP017_BookingBranch_05",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_17",
             "slaHours": 0,
@@ -180,7 +180,7 @@
         },
         {
             "serviceCode": "DEP02_DisposalOfMalwa_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_02",
             "slaHours": 0,
@@ -220,7 +220,7 @@
         },
         {
             "serviceCode": "DEP02_Roads_05",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_02",
             "slaHours": 0,
@@ -268,7 +268,7 @@
         },
         {
             "serviceCode": "DEP014_BuildingBranch_06",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_14",
             "slaHours": 0,
@@ -356,7 +356,7 @@
         },
         {
             "serviceCode": "DEP08_LicenceBranch_05",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_08",
             "slaHours": 0,
@@ -412,7 +412,7 @@
         },
         {
             "serviceCode": "DEP08_RehabilitationColonies_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_08",
             "slaHours": 0,
@@ -460,7 +460,7 @@
         },
         {
             "serviceCode": "DEP08_RTIBranch_03",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_08",
             "slaHours": 0,
@@ -476,7 +476,7 @@
         },
         {
             "serviceCode": "DEP012_ComputerCell_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_12",
             "slaHours": 0,
@@ -564,7 +564,7 @@
         },
         {
             "serviceCode": "DEP04_StreetLight_11",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_04",
             "slaHours": 0,
@@ -580,7 +580,7 @@
         },
         {
             "serviceCode": "DEP05_Advertisement2_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_05",
             "slaHours": 0,
@@ -620,7 +620,7 @@
         },
         {
             "serviceCode": "DEP05_Encroachment_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_05",
             "slaHours": 0,
@@ -660,7 +660,7 @@
         },
         {
             "serviceCode": "DEP11_Establishment_05",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_11",
             "slaHours": 0,
@@ -700,7 +700,7 @@
         },
         {
             "serviceCode": "DEP09_EstateBranch_04",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_09",
             "slaHours": 0,
@@ -732,7 +732,7 @@
         },
         {
             "serviceCode": "DEP20_FireWing_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_20",
             "slaHours": 0,
@@ -772,7 +772,7 @@
         },
         {
             "serviceCode": "DEP06_MeatHygiene_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_06",
             "slaHours": 0,
@@ -796,7 +796,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_01",
-            "active": true,
+            "active": false,
             "keywords": "bee, hives",
             "department": "DEP_06",
             "slaHours": 0,
@@ -804,7 +804,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_02",
-            "active": true,
+            "active": false,
             "keywords": "burning, dead,leaves,waste",
             "department": "DEP_06",
             "slaHours": 0,
@@ -812,7 +812,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_03",
-            "active": true,
+            "active": false,
             "keywords": "Epidemic, disease",
             "department": "DEP_06",
             "slaHours": 0,
@@ -820,7 +820,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_04",
-            "active": true,
+            "active": false,
             "keywords": "correction, birth, death",
             "department": "DEP_06",
             "slaHours": 336,
@@ -828,7 +828,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_05",
-            "active": true,
+            "active": false,
             "keywords": "certificate, cremation",
             "department": "DEP_06",
             "slaHours": 0,
@@ -836,7 +836,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_06",
-            "active": true,
+            "active": false,
             "keywords": "stray, dead, animals",
             "department": "DEP_06",
             "slaHours": 48,
@@ -844,7 +844,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_07",
-            "active": true,
+            "active": false,
             "keywords": "dog, stray , animal",
             "department": "DEP_06",
             "slaHours": 0,
@@ -852,7 +852,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_08",
-            "active": true,
+            "active": false,
             "keywords": "dog, pet , animal, licenses",
             "department": "DEP_06",
             "slaHours": 0,
@@ -860,7 +860,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_09",
-            "active": true,
+            "active": false,
             "keywords": "fogging",
             "department": "DEP_06",
             "slaHours": 0,
@@ -868,7 +868,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_10",
-            "active": true,
+            "active": false,
             "keywords": "foul, smell",
             "department": "DEP_06",
             "slaHours": 0,
@@ -876,7 +876,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_11",
-            "active": true,
+            "active": false,
             "keywords": "birth , death , issue, certificate",
             "department": "DEP_06",
             "slaHours": 168,
@@ -884,7 +884,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_12",
-            "active": true,
+            "active": false,
             "keywords": "lifting, gargabe, litter, trash, junk",
             "department": "DEP_06",
             "slaHours": 48,
@@ -892,7 +892,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_13",
-            "active": true,
+            "active": false,
             "keywords": "limestone",
             "department": "DEP_06",
             "slaHours": 0,
@@ -900,7 +900,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_14",
-            "active": true,
+            "active": false,
             "keywords": "syrums",
             "department": "DEP_06",
             "slaHours": 0,
@@ -908,7 +908,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_15",
-            "active": true,
+            "active": false,
             "keywords": "certificate",
             "department": "DEP_06",
             "slaHours": 720,
@@ -916,7 +916,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_16",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_06",
             "slaHours": 0,
@@ -924,7 +924,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_17",
-            "active": true,
+            "active": false,
             "keywords": "polythene, plastic, bag",
             "department": "DEP_06",
             "slaHours": 0,
@@ -932,7 +932,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_18",
-            "active": true,
+            "active": false,
             "keywords": "safai, clean, dirt",
             "department": "DEP_06",
             "slaHours": 0,
@@ -940,7 +940,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_19",
-            "active": true,
+            "active": false,
             "keywords": "meat, sale",
             "department": "DEP_06",
             "slaHours": 0,
@@ -948,7 +948,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_20",
-            "active": true,
+            "active": false,
             "keywords": "fruits, fruit , sale",
             "department": "DEP_06",
             "slaHours": 0,
@@ -956,7 +956,7 @@
         },
         {
             "serviceCode": "DEP06_MOH_21",
-            "active": true,
+            "active": false,
             "keywords": "stray, cow, cows, cattle, bull, bulls, graze, grazing, dung, menace",
             "department": "DEP_06",
             "slaHours": 0,
@@ -964,7 +964,7 @@
         },
         {
             "serviceCode": "DEP06_RemovalOfDeadAnimals_01",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_06",
             "slaHours": 0,
@@ -988,7 +988,7 @@
         },
         {
             "serviceCode": "DEP06_Sanitation_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_06",
             "slaHours": 0,
@@ -1010,9 +1010,25 @@
             "slaHours": 48,
             "menuPath": "Sanitation"
         },
+		{
+            "serviceCode": "DEP06_Sanitation_05",
+            "active": true,
+            "keywords": "Polythene",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "Sanitation"
+        },
+		{
+            "serviceCode": "DEP06_Sanitation_06",
+            "active": true,
+            "keywords": "Epidemic Control",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "Sanitation"
+        },
         {
             "serviceCode": "DEP06_StrayCattle_01",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_06",
             "slaHours": 0,
@@ -1036,7 +1052,7 @@
         },
         {
             "serviceCode": "DEP06_StrayDogs_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_06",
             "slaHours": 0,
@@ -1116,7 +1132,7 @@
         },
         {
             "serviceCode": "DEP03_Horticulture_09",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_03",
             "slaHours": 0,
@@ -1204,7 +1220,7 @@
         },
         {
             "serviceCode": "DEP25_HouseAllotmentCommittee_04",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_25",
             "slaHours": 0,
@@ -1252,7 +1268,7 @@
         },
         {
             "serviceCode": "DEP18_LegalBranch_01",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_18",
             "slaHours": 0,
@@ -1260,7 +1276,7 @@
         },
         {
             "serviceCode": "DEP21_MechanicalWing_01",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_21",
             "slaHours": 0,
@@ -1316,7 +1332,7 @@
         },
         {
             "serviceCode": "DEP19_ParkingBranch_06",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_19",
             "slaHours": 0,
@@ -1348,7 +1364,7 @@
         },
         {
             "serviceCode": "DEP22_PensionBranch_01",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_22",
             "slaHours": 0,
@@ -1356,7 +1372,7 @@
         },
         {
             "serviceCode": "DEP24_PublicRelationsWing_01",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_24",
             "slaHours": 0,
@@ -1420,7 +1436,7 @@
         },
         {
             "serviceCode": "DEP23_Sub-OfficeManimajra_08",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_23",
             "slaHours": 0,
@@ -1476,7 +1492,7 @@
         },
         {
             "serviceCode": "DEP15_SwarnaJayantiShahariRozgarYojana_04",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_15",
             "slaHours": 0,
@@ -1516,7 +1532,7 @@
         },
         {
             "serviceCode": "DEP13_HouseTax_05",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_13",
             "slaHours": 0,
@@ -1556,7 +1572,7 @@
         },
         {
             "serviceCode": "DEP01_Metering_03",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_01",
             "slaHours": 0,
@@ -1572,7 +1588,7 @@
         },
         {
             "serviceCode": "DEP01_publicCommunityToilet_02",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_01",
             "slaHours": 0,
@@ -1628,7 +1644,7 @@
         },
         {
             "serviceCode": "DEP01_Sewerage_06",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_01",
             "slaHours": 0,
@@ -1700,7 +1716,7 @@
         },
         {
             "serviceCode": "DEP01_Stormwater_03",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_01",
             "slaHours": 0,
@@ -1852,7 +1868,7 @@
         },
         {
             "serviceCode": "DEP01_WaterSupply_16",
-            "active": true,
+            "active": false,
             "keywords": "other",
             "department": "DEP_01",
             "slaHours": 0,

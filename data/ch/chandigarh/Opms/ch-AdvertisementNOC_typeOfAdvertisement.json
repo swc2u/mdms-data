@@ -294,15 +294,15 @@
 			"code": "PERMISSION_TO_AUCTIONEERS_TEMPORARY_TRAVELLING_SALES_ORGANIZER_EXHIBITOR_FAIR_ORGANIZERS_CIRCUSES_CONVENTION_ORGANIZER_ETC_TO_PUT_UP_NOT_MORE_THAN_TWO_HORDES_OF_REASONABLE_SIZE_LESS_THAN_5_SQ_FT_ADVERTISING_EACH_AUCTION_OR_SALE_OTHER_THAN_THOSE_ON_THE_PREMISES_WHERE_THE_AUCTION_IS_HELD_ONE_ON_A_PROMINENT_SITE_IN_THE_LOCALITY_AND_ONE_ON_THE_MUNICIPAL_LAMP_POST",
 			"tenantId": "ch.chandigarh",
 			"name": "Permission to auctioneers, temporary/ travelling sales organizer, exhibitor, fair organizers, circuses, convention organizer, etc. to put up not more than two hordes of reasonable size less than 5 sq. ft. advertising each auction or sale other than those on the premises where the auction is held. One on a prominent site in the locality and one on the municipal lamp post.",
-			"active": false,
+			"active": true,
 			"duration": [
 				"day",
 				"week"
 			],
-			"calculationType": "range",
+			"calculationType": "units",
 			"subTypeOfAdvertisement": [
 			{
-				  "id": "20041",
+				  "id": "20042",
 				  "code":"NA",
 				  "typeOfAdvertisementId":"10010",
 				  "tenantId": "ch.chandigarh",
