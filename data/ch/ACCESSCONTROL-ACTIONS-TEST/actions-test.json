@@ -17616,7 +17616,7 @@
       "path": "pension-services"
     },
 	{
-      "id": 4050,
+      "id": 4041,
       "name": "CreateDuplicateCopyPropertyApi",
       "url": "/csp/duplicatecopy/_create",
       "displayName": "create duplicatecopy api",
@@ -17628,7 +17628,7 @@
       "path": "CreateDuplicateCopyPropertyApi"
     },
 	{
-      "id": 4051,
+      "id": 4042,
       "name": "SearchDuplicateCopyPropertyApi",
       "url": "/csp/duplicatecopy/_search",
       "displayName": "create duplicatecopy api",
@@ -17640,7 +17640,7 @@
       "path": "SearchDuplicateCopyPropertyApi"
     },
 	{
-      "id": 4052,
+      "id": 4043,
       "name": "UpdateDuplicateCopyPropertyApi",
       "url": "/csp/duplicatecopy/_update",
       "displayName": "create duplicatecopy api",
@@ -17652,7 +17652,7 @@
       "path": "UpdatePropertyApi"
     },
 	{
-      "id": 4053,
+      "id": 4044,
       "name": "CreateMortgaeApplicationApi",
       "url": "/csp/mortgage/_create",
       "displayName": "create mortgage application api",
