@@ -18706,7 +18706,7 @@
 		"createdBy": null,
 		"lastModifiedDate": null,
 		"lastModifiedBy": null,
-		"path": "EC_report.reportSearchViewSeizure",
+		"path": "EC_eChallan.EC_report.reportSearchViewSeizure",
 		"navigationURL": "egov-echallan/reportSearchViewSeizure",
 		"leftIcon": "communication:business",
 		"rightIcon": ""
@@ -18726,7 +18726,7 @@
 		"createdBy": null,
 		"lastModifiedDate": null,
 		"lastModifiedBy": null,
-		"path": "EC_report.reportInventoryDetail",
+		"path": "EC_eChallan.EC_report.reportInventoryDetail",
 		"navigationURL": "egov-echallan/reportInventoryDetail",
 		"leftIcon": "communication:business",
 		"rightIcon": ""
@@ -18746,7 +18746,7 @@
 		"createdBy": null,
 		"lastModifiedDate": null,
 		"lastModifiedBy": null,
-		"path": "EC_report.reportPaymentDetails",
+		"path": "EC_eChallan.EC_report.reportPaymentDetails",
 		"navigationURL": "egov-echallan/reportPaymentDetails",
 		"leftIcon": "communication:business",
 		"rightIcon": ""
