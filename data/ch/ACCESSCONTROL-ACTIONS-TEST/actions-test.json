@@ -16890,7 +16890,7 @@
       "enabled": true,
       "serviceCode": "RainmakerPENSIONReports",
       "code": "null",
-      "path": "Report.PENSION Reports.EmployeeToBeRetired",
+      "path": "PENSION.PENSION Reports.EmployeeToBeRetired",
       "navigationURL": "report/rainmaker-pension/EmployeeToBeRetired",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -16928,7 +16928,7 @@
       "enabled": true,
       "serviceCode": "RainmakerPENSIONReports",
       "code": "null",
-      "path": "Report.PENSION Reports.RegularNormalPension",
+      "path": "PENSION.PENSION Reports.RegularNormalPension",
       "navigationURL": "report/rainmaker-pension/RegularNormalPension",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -17010,7 +17010,7 @@
       "enabled": true,
       "serviceCode": "PMS_PENSION_MONTHLY_DROWN_REPORT",
       "code": "null",
-      "path": "Report.PENSION Reports.MonthlyPensionDrawn",
+      "path": "PENSION.PENSION Reports.MonthlyPensionDrawn",
       "navigationURL": "report/rainmaker-pension/MonthlyPensionDrawn",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -17048,7 +17048,7 @@
       "enabled": true,
       "serviceCode": "PMS_PENSION_DOE_REPORT",
       "code": "null",
-      "path": "Report.PENSION Reports.DeathOfAnEmployee",
+      "path": "PENSION.PENSION Reports.DeathOfAnEmployee",
       "navigationURL": "report/rainmaker-pension/DeathOfAnEmployee",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -17086,7 +17086,7 @@
       "enabled": true,
       "serviceCode": "RainmakerPENSIONReports",
       "code": "null",
-      "path": "Report.PENSION Reports.DeathOfPensioner",
+      "path": "PENSION.PENSION Reports.DeathOfPensioner",
       "navigationURL": "report/rainmaker-pension/DeathOfPensioner",
       "leftIcon": "action:assignment",
       "rightIcon": ""
