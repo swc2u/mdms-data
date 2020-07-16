@@ -480,6 +480,14 @@
             "idname": "ch.ec"
         },
 		{
+			"format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_APP_[TENANT_ID]]",
+			"idname": "waterservice.application.id"
+		},
+		{
+			"format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_APP_[TENANT_ID]]",
+			"idname": "sewerageservice.application.id"
+		}  
+		{
 			"format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_CON_[TENANT_ID]]",
 			"idname": "waterservice.connection.id"
 		},
@@ -502,15 +510,6 @@
 		{
 			"format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_BILL_RCPT_[TENANT_ID]]",
 			"idname": "sw.receipt.id"
-		},
-		{
-			"format": "WS_CH/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_APP_[TENANT_ID]]",
-			"idname": "waterservice.application.id"
-		},
-		{
-			"format": "SW_CH/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_APP_[TENANT_ID]]",
-			"idname": "sewerageservice.application.id"
-		}                                        
-
+		}
     ]
 }
