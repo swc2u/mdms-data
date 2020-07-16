@@ -6,7 +6,7 @@
       "name": "Chandigarh",
       "code":""  , 
       "bannerUrl": "https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.testing/Buddha1.jpg",
-      "logoUrl":"https://mcdigitdevdigitdevsouthe.blob.core.windows.net/digit-dev/mc-chandigardh-logo.png",
+      "logoUrl":"https://chstage.blob.core.windows.net/fileshare/logo.png",
       "hasLocalisation" : true,
       "languages" : [
         {

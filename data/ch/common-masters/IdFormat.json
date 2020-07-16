@@ -478,7 +478,23 @@
 		{
             "format": "MCC-EC-[SEQ_EG_EC_APL]",
             "idname": "ch.ec"
-        }                                        
+        },
+	{
+      "format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_BILL_RCPT_[TENANT_ID]]",
+      "idname": "ws.receipt.id"
+    },
+    {
+      "format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_BILL_RCPT_[TENANT_ID]]",
+      "idname": "sw.receipt.id"
+    },
+    {
+      "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_APP_[TENANT_ID]]",
+      "idname": "waterservice.application.id"
+    },
+    {
+      "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_APP_[TENANT_ID]]",
+      "idname": "sewerageservice.application.id"
+    }                                        
 
     ]
 }
