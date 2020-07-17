@@ -486,7 +486,7 @@
 		{
 			"format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_APP_[TENANT_ID]]",
 			"idname": "sewerageservice.application.id"
-		}  
+		},  
 		{
 			"format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_CON_[TENANT_ID]]",
 			"idname": "waterservice.connection.id"
