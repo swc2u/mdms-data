@@ -93,6 +93,17 @@
       "isVoucherCreationEnabled": true
     },
     {
+      "businessService": "DuplicateCopyOfAllotmentLetterRP",
+      "code": "DuplicateCopyOfAllotmentLetterRP",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 604800000,
+      "isVoucherCreationEnabled": true
+    }, 
+    {
       "businessService": "WaterCharges.Metered",
       "code": "WaterCharges.Metered",
       "collectionModesNotAllowed": [

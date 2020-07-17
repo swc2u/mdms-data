@@ -353,6 +353,56 @@
       "isRequired": false
     },
     {
+      "category": "FEE",
+      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "name": "Duplicate Copy Rent",
+      "code": "DuplicateCopyOfAllotmentLetterRP_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "name": "Duplicate Copy Penalty",
+      "code": "DuplicateCopyOfAllotmentLetterRP_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "name": "Duplicate Copy Roundoff",
+      "code": "DuplicateCopyOfAllotmentLetterRP_ROUNDOFF",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    },
+    {
+      "category": "DUE",
+      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "name": "Duplicate Copy Due",
+      "code": "DuplicateCopyOfAllotmentLetterRP_DUE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "CHARGES",
+      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "name": "Duplicate Copy Charges",
+      "code": "DuplicateCopyOfAllotmentLetterRP_CHARGES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    }, 
+    {
       "category": "TAX",
       "service": "TL",
       "name": "tl roundoff",
