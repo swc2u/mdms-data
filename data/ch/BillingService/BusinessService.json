@@ -82,8 +82,8 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "RentedProperties",
-      "code": "RENTED_PROPERTIES",
+      "businessService": "OwnershipTransferRP",
+      "code": "OwnershipTransferRP",
       "collectionModesNotAllowed": [
         "DD"
       ],

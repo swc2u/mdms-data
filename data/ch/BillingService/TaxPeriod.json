@@ -454,7 +454,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES",
+      "service": "OwnershipTransferRP",
       "code": "RPOT10YRS2019",
       "financialYear": "2020-30"
     },
