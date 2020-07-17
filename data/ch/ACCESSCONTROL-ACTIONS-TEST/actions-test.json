@@ -17714,6 +17714,78 @@
 		"code": "null",
 		"path": ""
 	},
+	  {
+		"id": 4324,
+		"name": "POCreate",
+		"url": "/store-asset-services/purchaseorders/_create",
+		"displayName": "PO Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4325,
+		"name": "POUpdate",
+		"url": "/store-asset-services/purchaseorders/_update",
+		"displayName": "PO Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4326,
+		"name": "POSearch",
+		"url": "/store-asset-services/purchaseorders/_search",
+		"displayName": "PO Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4327,
+		"name": "IndentIssueNoteCreate",
+		"url": "/store-asset-services/materialissues/_create",
+		"displayName": "IndentIssueNote Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4328,
+		"name": "IndentIssueNoteUpdate",
+		"url": "/store-asset-services/materialissues/_update",
+		"displayName": "IndentIssueNote Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4329,
+		"name": "IndentIssueNoteSearch",
+		"url": "/store-asset-services/materialissues/_search",
+		"displayName": "IndentIssueNote Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
     {
 			"id": 2601,
 			"name": "Horticulture",
