@@ -28257,6 +28257,30 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+	 {
+      "rolecode": "EMPLOYEE",
+      "actionid": 4045,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 4045,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "EMPLOYEE",
+      "actionid": 4046,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 4046,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
     {
       "rolecode": "DDO",
       "actionid": 1534,
