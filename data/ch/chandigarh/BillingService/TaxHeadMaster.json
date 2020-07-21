@@ -2803,6 +2803,26 @@
 	"isActualDemand":true,
 	"order":"3",
 	"isRequired":false
+	},
+	{
+	     "category":"PENALTY",
+	     "service":"EC",
+	     "name":"ECHALLAN",
+	     "code":"EC_ECHALLAN_PENALTY",
+	     "isDebit":false,
+	     "isActualDemand":true,
+	     "order":"2",
+	     "isRequired":false
+    	},
+	{
+		"category":"FEE",
+		"service":"EC",
+		"name":"ECHALLAN",
+		"code":"EC_ECHALLAN_FEE",
+		"isDebit":false,
+		"isActualDemand":true,
+		"order":"1",
+		"isRequired":false
 	}
   ]
 }
