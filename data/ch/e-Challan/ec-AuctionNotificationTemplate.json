@@ -4,10 +4,10 @@
 	"AuctionNotificationTemplate" :[{
 		"code": "Auction Reminder",
 		"subject": "Auction Reminder",
-		"body": "Here is the list of eligible items for auction",
+		"body": "Kindly refer attached list of challans eligible for Auction.",
 		"attachmentUrls": "",
-		"message": "",
+		"message": "Kindly refer attached list of challans eligible for Auction.",
 		"isHtml": true,
-		"emailAddress":"rushikesh.narkhede@extrapreneursindia.com"
+		"emailAddress":"echallan123@gmail.com"
 	}]
 }
