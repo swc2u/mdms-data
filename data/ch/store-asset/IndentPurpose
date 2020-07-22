@@ -1,0 +1,21 @@
+{
+	"tenantId":"ch",
+	"moduleName":"store-asset",
+	"IndentPurpose":[
+      {
+              "id": "1",
+              "code": "Capital",
+              "name": "Capital"
+      },
+      {
+              "id": "2",
+              "code": "Repair",
+              "name": "Repair"
+      },
+      {
+              "id": "3",
+              "code": "Consumption",
+              "name": "Consumption"
+      }
+    ]
+}

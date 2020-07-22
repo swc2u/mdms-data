@@ -29124,6 +29124,12 @@
       "actioncode": "",
       "tenantId": "ch"  
     },
+	  {
+      "rolecode": "PENSION_SYSTEM",
+      "actionid": 696,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
 {
       "rolecode": "DDO",
       "actionid": 1556,
@@ -30044,6 +30050,42 @@
 	{
 		"rolecode": "SUPERUSER",
 		"actionid": "4323",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4324",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4325",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4326",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4327",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4328",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4329",
 		"actioncode": "",
 		"tenantId": "ch"
 	},

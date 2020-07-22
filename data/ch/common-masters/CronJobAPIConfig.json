@@ -13,6 +13,54 @@
       "header": {
         "Content-Type": "application/json"
       }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://pm-services.egov:8080/pm-services/noc/cron/jobs/report/_processingTimeReport?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://ec-services.egov:8080/ec-services/scheduler/_updateChallanStatus?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://ec-services.egov:8080/ec-services/scheduler/_auctionReminder?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://ec-services.egov:8080/ec-services/scheduler/_updatePenalty?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
     }
   ]
 }
