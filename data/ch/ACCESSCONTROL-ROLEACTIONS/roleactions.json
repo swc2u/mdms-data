@@ -30150,7 +30150,13 @@
 		"actioncode": "",
 		"tenantId": "ch"
 	},
-{
+	{
+		"rolecode": "CITIZEN",
+		"actionid": "2610",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "CITIZEN",
 		"actionid": "2608",
 		"actioncode": "",
