@@ -31,7 +31,7 @@
             {
               "key": "EMPLOYEE_TYPE",
               "operator": "==",
-              "value": "DAILY_WAGER"
+              "value": "DAILYWAGES"
             }
           ],
           "employeeType": null,
@@ -2724,7 +2724,7 @@
                         {
                           "preConditions": [
                             {
-                              "key": "((|LPD| + |IR| + |DA|) * |ONE_FORTH_HALF_YEAR_OF_SERVICE| * 2 )",
+                              "key": "((|LPD| + |IR| + |DA|) * |ONE_FORTH_HALF_YEAR_OF_SERVICE|)",
                               "operator": ">=",
                               "value": 1000000
                             }
@@ -2735,12 +2735,12 @@
                         {
                           "preConditions": [
                             {
-                              "key": "((|LPD| + |IR| + |DA|) * |ONE_FORTH_HALF_YEAR_OF_SERVICE| * 2 )",
+                              "key": "((|LPD| + |IR| + |DA|) * |ONE_FORTH_HALF_YEAR_OF_SERVICE|)",
                               "operator": "<",
                               "value": 1000000
                             }
                           ],
-                          "formula": "((|LPD| + |IR| + |DA|) * |ONE_FORTH_HALF_YEAR_OF_SERVICE| * 2 )",
+                          "formula": "((|LPD| + |IR| + |DA|) * |ONE_FORTH_HALF_YEAR_OF_SERVICE|)",
                           "values": null
                         }
                       ]
