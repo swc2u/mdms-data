@@ -14825,15 +14825,15 @@
 	{
 		"id": "1990",
 		"name": "Autorouting",
-		"url": "/master/auto-routing",
-		"displayName": "Autorouting Maters",
+		"url": "master/auto-routing",
+		"displayName": "Autorouting Masters",
 		"orderNumber": "1",
 		"parentModule": "rainmaker-pgr",
 		"enabled": true,
 		"serviceCode": "PGR",
 		"code": "",
 		"path": "Complaints.Masters.Autorouting",
-		"navigationURL": "/master/auto-routing",
+		"navigationURL": "master/auto-routing",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
