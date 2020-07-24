@@ -28150,8 +28150,7 @@
       "tenantId": "ch"
     },
 
-	  
-{
+	  {
       "rolecode": "DDO",
       "actionid": 1534,
       "actioncode": "",
@@ -29124,12 +29123,6 @@
       "actioncode": "",
       "tenantId": "ch"  
     },
-	  {
-      "rolecode": "PENSION_SYSTEM",
-      "actionid": 696,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
 {
       "rolecode": "DDO",
       "actionid": 1556,
@@ -29412,18 +29405,6 @@
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4234,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-{
-      "rolecode": "CHIEF_ACCOUNTS_OFFICER",
-      "actionid": 4235,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-{
-      "rolecode": "CHIEF_ACCOUNTS_OFFICER",
-      "actionid": 4236,
       "actioncode": "",
       "tenantId": "ch"
     },
@@ -29856,6 +29837,78 @@
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4215,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "PENSION_SYSTEM",
+      "actionid": 696,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "PENSION_SYSTEM",
+      "actionid": 4275,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "PENSION_SYSTEM",
+      "actionid": 4276,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "CLERK",
+      "actionid": 4244,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "CLERK",
+      "actionid": 4245,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "CLERK",
+      "actionid": 4246,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "SENIOR_ASSISTANT",
+      "actionid": 4244,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "SENIOR_ASSISTANT",
+      "actionid": 4245,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "SENIOR_ASSISTANT",
+      "actionid": 4246,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4244,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4245,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4246,
       "actioncode": "",
       "tenantId": "ch"
     },
