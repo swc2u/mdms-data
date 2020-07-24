@@ -32603,6 +32603,18 @@
 	  "actionid": 4410,
 	  "actioncode": "",
 	  "tenantId": "ch"
-	}
+	},
+	{
+      "rolecode": "SUPERUSER",
+      "actionid": 1990,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "GRO",
+      "actionid": 1990,
+      "actioncode": "",
+      "tenantId": "ch"
+    }
   ]
 }
