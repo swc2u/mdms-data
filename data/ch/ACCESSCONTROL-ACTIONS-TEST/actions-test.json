@@ -16359,7 +16359,7 @@
 	"rightIcon":"",
 	"queryParams":""
      },
-	  {
+	   {
             "id": 4201,
             "name": "rainmaker-common-pms",
             "url": "card",
@@ -17410,21 +17410,27 @@
       "code": "null",
       "path": "pension-services"
     },
-	{
-      "id": "4275",
-      "name": "rainmaker-common-audit",
-      "url": "card",
-      "displayName": "Audit Branch",
-      "orderNumber": 5,
-      "parentModule": "",
+{
+      "id": 4275,
+      "name": "ExistingPensionerMigration",
+      "url": "/pension-services/v1/_saveMigratedPensioner",
+      "displayName": "Migrate Pensioner",
+      "orderNumber": 0,
       "enabled": true,
-      "serviceCode": "",
-      "code": "",
-      "path": "",
-      "navigationURL": "services/egi/task/audit",
-      "leftIcon": "social:people",
-      "rightIcon": "",
-      "queryParams": ""
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4276,
+      "name": "UpdatePensionRevisionBulk",
+      "url": "/pension-services/v1/_updatePensionRevisionBulk",
+      "displayName": "Bulk Update",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
     },
 	{
 		"id": 4300,
