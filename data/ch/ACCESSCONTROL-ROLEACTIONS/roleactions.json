@@ -32615,6 +32615,42 @@
       "actionid": 1990,
       "actioncode": "",
       "tenantId": "ch"
+    },
+	{
+      "rolecode": "SUPERUSER",
+      "actionid": 1991,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "GRO",
+      "actionid": 1991,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "SUPERUSER",
+      "actionid": 1992,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "GRO",
+      "actionid": 1992,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "SUPERUSER",
+      "actionid": 1993,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "GRO",
+      "actionid": 1993,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }
