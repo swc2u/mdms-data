@@ -9,13 +9,8 @@
       },
       {
               "id": "2",
-              "code": "Repair",
-              "name": "Repair"
-      },
-      {
-              "id": "3",
-              "code": "Consumption",
-              "name": "Consumption"
+              "code": "Revenue",
+              "name": "Revenue"
       }
     ]
 }
