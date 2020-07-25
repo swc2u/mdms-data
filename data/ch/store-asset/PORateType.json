@@ -1,0 +1,21 @@
+{
+   "tenantId":"ch",
+   "moduleName":"store-asset",
+   "PORateType":[
+      {
+         "name":"Tender",
+         "code":"Tender",
+         "active":true
+      },
+      {
+         "name":"Quotation",
+         "code":"Quotation",
+         "active":true
+      },
+      {
+         "name":"GEM",
+         "code":"GEM",
+         "active":true
+      }
+    ]
+}
