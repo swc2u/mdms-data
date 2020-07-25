@@ -30024,12 +30024,6 @@
 	},
 	{
 		"rolecode": "SUPERUSER",
-		"actionid": "4310",
-		"actioncode": "",
-		"tenantId": "ch"
-	},
-	{
-		"rolecode": "SUPERUSER",
 		"actionid": "4311",
 		"actioncode": "",
 		"tenantId": "ch"
@@ -30139,6 +30133,114 @@
 	{ 
 		"rolecode": "SUPERUSER",
 		"actionid": "4329",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4331",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4332",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4333",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4334",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4335",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4336",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4337",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4338",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4339",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4340",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4341",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4342",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4343",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4344",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4345",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4346",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4347",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4348",
 		"actioncode": "",
 		"tenantId": "ch"
 	},
