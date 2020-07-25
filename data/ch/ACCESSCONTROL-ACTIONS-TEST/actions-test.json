@@ -19264,6 +19264,22 @@
 		"path": "Audit.Search Audit",
 		"navigationURL": "services/audit/createAudit/post/auditSearch",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+	{
+      "id": 4011,
+      "name": "rainmaker-common-audit",
+      "url": "card",
+      "displayName": "Audit",
+      "orderNumber": 5,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "services/egi/task/audit",
+      "leftIcon": "social:people",
+      "rightIcon": "",
+      "queryParams": ""
+    }
   ]
 }
