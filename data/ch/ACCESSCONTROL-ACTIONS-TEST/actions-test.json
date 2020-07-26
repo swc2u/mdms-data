@@ -14726,6 +14726,56 @@
       "path": "Finance.Reports.Revenue Reports.Remittance Collection Report",
       "navigationURL": "services/EGF/report/remittance/collection/form"
     },
+	{
+		"id": "1990",
+		"name": "Autorouting",
+		"url": "master/auto-routing",
+		"displayName": "Autorouting Masters",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-pgr",
+		"enabled": true,
+		"serviceCode": "PGR",
+		"code": "",
+		"path": "Complaints.Masters.Autorouting",
+		"navigationURL": "master/auto-routing",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+      "id": 1991,
+      "name": "Autorouting Create",
+      "url": "/rainmaker-pgr/v1/masters/autorouting/_create",
+      "displayName": "Autorouting Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 1992,
+      "name": "Autorouting Update",
+      "url": "/rainmaker-pgr/v1/masters/autorouting/_update",
+      "displayName": "Autorouting Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 1993,
+      "name": "Autorouting Search",
+      "url": "/rainmaker-pgr/v1/masters/autorouting/_fetch",
+      "displayName": "Autorouting Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
     {
       "id": 2001,
       "name": "OPMS Get Certificate Data",
