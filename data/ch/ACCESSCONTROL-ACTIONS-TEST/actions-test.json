@@ -16479,7 +16479,7 @@
       "code": "null",
       "path": "CreateMortgageApplicationApi"
     },
-	{
+	  {
       "id": 4045,
       "name": "SearchMortgaeApplicationApi",
       "url": "/csp/mortgage/_search",
@@ -16491,7 +16491,7 @@
       "code": "null",
       "path": "SearchMortgaeApplicationApi"
     },
-	{
+    {
       "id": 4046,
       "name": "UpdateMortgaeApplicationApi",
       "url": "/csp/mortgage/_update",
@@ -16502,6 +16502,42 @@
       "serviceCode": "MortgageApi",
       "code": "null",
       "path": "UpdateMortgaeApplicationApi"
+    },
+	  {
+      "id": 4047,
+      "name": "CreateCapturingTransiteSiteImagesApi",
+      "url": "/csp/property-images/_create",
+      "displayName": "create capturing transite site images api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CapturingTransiteSiteImagesApi",
+      "code": "null",
+      "path": "CreateCapturingTransiteSiteImagesApi"
+    },
+    {
+      "id": 4048,
+      "name": "SearchCapturingTransiteSiteImagesApi",
+      "url": "/csp/property-images/_search",
+      "displayName": "search capturing transite site images api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CapturingTransiteSiteImagesApi",
+      "code": "null",
+      "path": "SearchCapturingTransiteSiteImagesApi"
+    },
+    {
+      "id": 4049,
+      "name": "UpdateCapturingTransiteSiteImagesApi",
+      "url": "/csp/property-images/_update",
+      "displayName": "update capturing transite site images api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CapturingTransiteSiteImagesApi",
+      "code": "null",
+      "path": "UpdateCapturingTransiteSiteImagesApi"
     },
 	  {
             "id": 4201,
