@@ -4,25 +4,23 @@
     "ServiceType": [
         {
              "name": "Pruning of Trees Girth less than or equal to 90 cms", 
-            "code": "PRUNINGUPTONINETY",
+            "code": "PRUNING OF TREES GIRTH LESS THAN OR EQUAL TO 90 CMS",
             "active": true
         },
         {
              "name": "Pruning of Trees Girth greater than 90 cms",
-            "code": "PRUNINGMORENINETY",
+            "code": "PRUNING OF TREES GIRTH GREATER THAN 90 CMS",
             "active": true
         },
         {
              "name": "Removal of Overgrown/Green Trees",
-            "code": "PRUNINGOVERGREENTREES",
+            "code": "REMOVAL OF OVERGROWN/GREEN TREES",
             "active": true
         },
          {
              "name": "Removal of Dead/Dangerous/Dry Trees",
-            "code": "PRUNINGDEADTREES",
+            "code": "REMOVAL OF DEAD/DANGEROUS/DRY TREES",
             "active": true
         }
     ]
 }
-
-  

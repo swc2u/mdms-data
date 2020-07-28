@@ -1,7 +1,7 @@
 {
    "tenantId":"ch",
    "moduleName":"store-asset",
-   "RateType":[
+   "PORateType":[
       {
          "name":"Tender",
          "code":"Tender",
@@ -10,6 +10,11 @@
       {
          "name":"Quotation",
          "code":"Quotation",
+         "active":true
+      },
+      {
+         "name":"GEM",
+         "code":"GEM",
          "active":true
       }
     ]
