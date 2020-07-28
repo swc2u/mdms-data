@@ -479,22 +479,37 @@
             "format": "MCC-EC-[SEQ_EG_EC_APL]",
             "idname": "ch.ec"
         },
-	{
-      "format": "WS/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_BILL_RCPT_[TENANT_ID]]",
-      "idname": "ws.receipt.id"
-    },
-    {
-      "format": "SW/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_BILL_RCPT_[TENANT_ID]]",
-      "idname": "sw.receipt.id"
-    },
-    {
-      "format": "WS_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_WS_APP_[TENANT_ID]]",
-      "idname": "waterservice.application.id"
-    },
-    {
-      "format": "SW_AP/[CITY.CODE]/[fy:yyyy-yy]/[SEQ_SW_APP_[TENANT_ID]]",
-      "idname": "sewerageservice.application.id"
-    }                                        
-
+		{
+			"format": "WS_AP/[fy:yyyy-yy]/[SEQ_WS_APP]",
+			"idname": "waterservice.application.id"
+		},
+		{
+			"format": "SW_AP/[fy:yyyy-yy]/[SEQ_SW_APP]",
+			"idname": "sewerageservice.application.id"
+		},  
+		{
+			"format": "WS/[fy:yyyy-yy]/[SEQ_WS_CON]",
+			"idname": "waterservice.connection.id"
+		},
+		{
+			"format": "SW/[fy:yyyy-yy]/[SEQ_SW_CON]",
+			"idname": "sewerageservice.connection.id"
+		},
+		 {
+			"format": "WS.ONE_TIME_FEE/[fy:yyyy-yy]/[SEQ_WS_FEE_RCPT]",
+			"idname": "ws.one_time_fee.receipt.id"
+		},
+		{
+			"format": "SW.ONE_TIME_FEE/[fy:yyyy-yy]/[SEQ_SW_FEE_RCPT]",
+			"idname": "sw.one_time_fee.receipt.id"
+		},
+		{
+			"format": "WS/[fy:yyyy-yy]/[SEQ_WS_BILL_RCPT]",
+			"idname": "ws.receipt.id"
+		},
+		{
+			"format": "SW/[fy:yyyy-yy]/[SEQ_SW_BILL_RCPT]",
+			"idname": "sw.receipt.id"
+		}
     ]
 }

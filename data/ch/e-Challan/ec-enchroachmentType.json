@@ -6,7 +6,7 @@
       "id": "1",
          "code": "Unauthorized/Unregistered Vendor",
       "tenantId": "ch",
-      "name": " Unauthorized/Unregistered Vendor",
+      "name": " Unauthorized / Unregistered Vendor",
       "active": true
     },
         {
@@ -20,7 +20,7 @@
       "id": "3",
           "code": "Shopkeeper/Corridor",
       "tenantId": "ch",
-      "name": "Shopkeeper/Corridor",
+      "name": "Shopkeeper / Corridor",
       "active": true
     },
         {

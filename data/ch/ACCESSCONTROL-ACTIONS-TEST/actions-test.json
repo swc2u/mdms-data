@@ -14822,6 +14822,56 @@
       "path": "Finance.Reports.Revenue Reports.Remittance Collection Report",
       "navigationURL": "services/EGF/report/remittance/collection/form"
     },
+	{
+		"id": "1990",
+		"name": "Autorouting",
+		"url": "master/auto-routing",
+		"displayName": "Autorouting Masters",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-pgr",
+		"enabled": true,
+		"serviceCode": "PGR",
+		"code": "",
+		"path": "Complaints.Masters.Autorouting",
+		"navigationURL": "master/auto-routing",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+      "id": 1991,
+      "name": "Autorouting Create",
+      "url": "/rainmaker-pgr/v1/masters/autorouting/_create",
+      "displayName": "Autorouting Create",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 1992,
+      "name": "Autorouting Update",
+      "url": "/rainmaker-pgr/v1/masters/autorouting/_update",
+      "displayName": "Autorouting Update",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 1993,
+      "name": "Autorouting Search",
+      "url": "/rainmaker-pgr/v1/masters/autorouting/_fetch",
+      "displayName": "Autorouting Search",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "rainmaker pgr",
+      "code": "null",
+      "path": ""
+    },
     {
       "id": 2001,
       "name": "OPMS Get Certificate Data",
@@ -16359,7 +16409,7 @@
 	"rightIcon":"",
 	"queryParams":""
      },
-	  {
+	   {
             "id": 4201,
             "name": "rainmaker-common-pms",
             "url": "card",
@@ -16890,7 +16940,7 @@
       "enabled": true,
       "serviceCode": "RainmakerPENSIONReports",
       "code": "null",
-      "path": "Report.PENSION Reports.EmployeeToBeRetired",
+      "path": "PENSION.PENSION Reports.EmployeeToBeRetired",
       "navigationURL": "report/rainmaker-pension/EmployeeToBeRetired",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -16928,7 +16978,7 @@
       "enabled": true,
       "serviceCode": "RainmakerPENSIONReports",
       "code": "null",
-      "path": "Report.PENSION Reports.RegularNormalPension",
+      "path": "PENSION.PENSION Reports.RegularNormalPension",
       "navigationURL": "report/rainmaker-pension/RegularNormalPension",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -17010,7 +17060,7 @@
       "enabled": true,
       "serviceCode": "PMS_PENSION_MONTHLY_DROWN_REPORT",
       "code": "null",
-      "path": "Report.PENSION Reports.MonthlyPensionDrawn",
+      "path": "PENSION.PENSION Reports.MonthlyPensionDrawn",
       "navigationURL": "report/rainmaker-pension/MonthlyPensionDrawn",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -17048,7 +17098,7 @@
       "enabled": true,
       "serviceCode": "PMS_PENSION_DOE_REPORT",
       "code": "null",
-      "path": "Report.PENSION Reports.DeathOfAnEmployee",
+      "path": "PENSION.PENSION Reports.DeathOfAnEmployee",
       "navigationURL": "report/rainmaker-pension/DeathOfAnEmployee",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -17086,7 +17136,7 @@
       "enabled": true,
       "serviceCode": "RainmakerPENSIONReports",
       "code": "null",
-      "path": "Report.PENSION Reports.DeathOfPensioner",
+      "path": "PENSION.PENSION Reports.DeathOfPensioner",
       "navigationURL": "report/rainmaker-pension/DeathOfPensioner",
       "leftIcon": "action:assignment",
       "rightIcon": ""
@@ -17410,21 +17460,27 @@
       "code": "null",
       "path": "pension-services"
     },
-	{
-      "id": "4275",
-      "name": "rainmaker-common-audit",
-      "url": "card",
-      "displayName": "Audit Branch",
-      "orderNumber": 5,
-      "parentModule": "",
+{
+      "id": 4275,
+      "name": "ExistingPensionerMigration",
+      "url": "/pension-services/v1/_saveMigratedPensioner",
+      "displayName": "Migrate Pensioner",
+      "orderNumber": 0,
       "enabled": true,
-      "serviceCode": "",
-      "code": "",
-      "path": "",
-      "navigationURL": "services/egi/task/audit",
-      "leftIcon": "social:people",
-      "rightIcon": "",
-      "queryParams": ""
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4276,
+      "name": "UpdatePensionRevisionBulk",
+      "url": "/pension-services/v1/_updatePensionRevisionBulk",
+      "displayName": "Bulk Update",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
     },
 	{
 		"id": 4300,
@@ -17536,18 +17592,6 @@
 	},
 	{
 		"id": 4309,
-		"name": "SuppliersUpdate",
-		"url": "/store-asset-services/suppliers/_update",
-		"displayName": "Suppliers Update",
-		"orderNumber": 0,
-		"parentModule": "",
-		"enabled": false,
-		"serviceCode": "store-asset-services",
-		"code": "null",
-		"path": ""
-	},
-	{
-		"id": 4310,
 		"name": "SuppliersUpdate",
 		"url": "/store-asset-services/suppliers/_update",
 		"displayName": "Suppliers Update",
@@ -17714,6 +17758,295 @@
 		"code": "null",
 		"path": ""
 	},
+	  {
+		"id": 4324,
+		"name": "POCreate",
+		"url": "/store-asset-services/purchaseorders/_create",
+		"displayName": "PO Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4325,
+		"name": "POUpdate",
+		"url": "/store-asset-services/purchaseorders/_update",
+		"displayName": "PO Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4326,
+		"name": "POSearch",
+		"url": "/store-asset-services/purchaseorders/_search",
+		"displayName": "PO Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4327,
+		"name": "IndentIssueNoteCreate",
+		"url": "/store-asset-services/materialissues/_create",
+		"displayName": "IndentIssueNote Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4328,
+		"name": "IndentIssueNoteUpdate",
+		"url": "/store-asset-services/materialissues/_update",
+		"displayName": "IndentIssueNote Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4329,
+		"name": "IndentIssueNoteSearch",
+		"url": "/store-asset-services/materialissues/_search",
+		"displayName": "IndentIssueNote Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4331,
+		"name": "MTSCreate",
+		"url": "/store-asset-services/materialtypestoremapping/_create",
+		"displayName": "MTS Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4332,
+		"name": "MTSUpdate",
+		"url": "/store-asset-services/materialtypestoremapping/_update",
+		"displayName": "MTS Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4333,
+		"name": "MTSSearch",
+		"url": "/store-asset-services/materialtypestoremapping/_search",
+		"displayName": "MTS Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4334,
+		"name": "POPreparepofromindents",
+		"url": "/store-asset-services/purchaseorders/_preparepofromindents",
+		"displayName": "PO Preparepofromindents",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4335,
+		"name": "POSearchpoforadvancerequisition",
+		"url": "/store-asset-services/purchaseorders/_searchpoforadvancerequisition",
+		"displayName": "PO Searchpoforadvancerequisition",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4336,
+		"name": "RNCreate",
+		"url": "/store-asset-services/receiptnotes/_create",
+		"displayName": "RN Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4337,
+		"name": "RNUpdate",
+		"url": "/store-asset-services/receiptnotes/_update",
+		"displayName": "RN Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4338,
+		"name": "RNSearch",
+		"url": "/store-asset-services/receiptnotes/_search",
+		"displayName": "RN Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4339,
+		"name": "MRNCreate",
+		"url": "/store-asset-services/miscellaneousreceiptnotes/_create",
+		"displayName": "MRN Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4340,
+		"name": "MRNUpdate",
+		"url": "/store-asset-services/miscellaneousreceiptnotes/_update",
+		"displayName": "MRN Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4341,
+		"name": "MRNSearch",
+		"url": "/store-asset-services/miscellaneousreceiptnotes/_search",
+		"displayName": "MRN Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4342,
+		"name": "MINICreate",
+		"url": "/store-asset-services/materialissues-ni/_create",
+		"displayName": "MINI Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4343,
+		"name": "MINIUpdate",
+		"url": "/store-asset-services/materialissues-ni/_update",
+		"displayName": "MINI Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4344,
+		"name": "MINISearch",
+		"url": "/store-asset-services/materialissues-ni/_search",
+		"displayName": "MINI Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4345,
+		"name": "SARCreate",
+		"url": "/store-asset-services/supplieradvancerequisitions/_create",
+		"displayName": "SAR Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4346,
+		"name": "SARUpdate",
+		"url": "/store-asset-services/supplieradvancerequisitions/_update",
+		"displayName": "SAR Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4347,
+		"name": "SARSearch",
+		"url": "/store-asset-services/supplieradvancerequisitions/_search",
+		"displayName": "SAR Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4348,
+		"name": "RNBSearch",
+		"url": "/store-asset-services/receiptnotes/_balance",
+		"displayName": "RNB Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},  
+        
     {
 			"id": 2601,
 			"name": "Horticulture",
@@ -18706,7 +19039,7 @@
 		"createdBy": null,
 		"lastModifiedDate": null,
 		"lastModifiedBy": null,
-		"path": "EC_report.reportSearchViewSeizure",
+		"path": "EC_eChallan.EC_report.reportSearchViewSeizure",
 		"navigationURL": "egov-echallan/reportSearchViewSeizure",
 		"leftIcon": "communication:business",
 		"rightIcon": ""
@@ -18726,7 +19059,7 @@
 		"createdBy": null,
 		"lastModifiedDate": null,
 		"lastModifiedBy": null,
-		"path": "EC_report.reportInventoryDetail",
+		"path": "EC_eChallan.EC_report.reportInventoryDetail",
 		"navigationURL": "egov-echallan/reportInventoryDetail",
 		"leftIcon": "communication:business",
 		"rightIcon": ""
@@ -18746,7 +19079,7 @@
 		"createdBy": null,
 		"lastModifiedDate": null,
 		"lastModifiedBy": null,
-		"path": "EC_report.reportPaymentDetails",
+		"path": "EC_eChallan.EC_report.reportPaymentDetails",
 		"navigationURL": "egov-echallan/reportPaymentDetails",
 		"leftIcon": "communication:business",
 		"rightIcon": ""
@@ -18931,6 +19264,22 @@
 		"path": "Audit.Search Audit",
 		"navigationURL": "services/audit/createAudit/post/auditSearch",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+	{
+      "id": 4411,
+      "name": "rainmaker-common-audit",
+      "url": "card",
+      "displayName": "Audit",
+      "orderNumber": 5,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "services/egi/task/audit",
+      "leftIcon": "social:people",
+      "rightIcon": "",
+      "queryParams": ""
+    }
   ]
 }
