@@ -785,6 +785,38 @@
       "code": "AUDIT_POST",
       "name": "AUDIT_POST",
       "description": "Post Audit Inititation role"
+    },{
+      "code": "DOEE",
+      "name": "DO of Drawing Branch under EE",
+      "description": "DO of Drawing Branch under EE"
+    },{
+      "code": "DOSE",
+      "name": "Do of Drawing Branch under SE",
+      "description": "Do of Drawing Branch under SE"
+    },{
+      "code": "DOCE",
+      "name": "DO of Drawing Branch under CE",
+      "description": "DO of Drawing Branch under CE"
+    },{
+      "code": "WD",
+      "name": "W&D USER",
+      "description": "W&D USER"
+    },{
+      "code": "JC",
+      "name": "Joint Commissioner",
+      "description": "Joint Commissioner"
+    },{
+      "code": "SC",
+      "name": "Special commissioner",
+      "description": "Special commissioner"
+    },{
+      "code": "SEC",
+      "name": "Secretary",
+      "description": "Secretary"
+    },{
+      "code": "CA",
+      "name": "Chief Administrator",
+      "description": "Chief Administrator"
     }
   ]
 }
