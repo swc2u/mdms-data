@@ -1,0 +1,38 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "egpm",
+  "AdvertisementEmployeeList": [
+    {
+      "id": "1",
+	  "status":"REVIEWOFAC",
+      "tenantId": "ch.chandigarh",
+      "name": "Additional Commissionor",
+	  "withdrawStatus":"REVIEWOFACFORWITHDRAW",
+      "active": true
+    },
+    {
+      "id": "2",
+	  "status":"REVIEWOFSC",
+      "tenantId": "ch.chandigarh",
+      "name": "Special Commissionor",
+	  "withdrawStatus":"REVIEWOFSCFORWITHDRAW",
+      "active": true
+    },
+    {
+      "id": "3",
+	  "status":"REVIEWOFJC",
+      "tenantId": "ch.chandigarh",
+      "name": "Joint Commissionor",
+	  "withdrawStatus":"REVIEWOFJCFORWITHDRAW",
+      "active": true
+    },
+    {
+      "id": "4",
+	  "status":"REVIEWOFSEC",
+      "tenantId": "ch.chandigarh",
+      "name": "Secretary",
+	  "withdrawStatus":"REVIEWOFSECFORWITHDRAW",
+      "active": true
+    }
+  ]
+}
