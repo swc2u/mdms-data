@@ -1,0 +1,22 @@
+{
+    "tenantId": "ch",
+    "moduleName": "RentedProperties",
+    "recoverytype": [
+        {
+            "code": "RECOVERY.DUES",
+            "active": true
+        },
+        {
+            "code": "RECOVERY.MONTHLYRENT",
+            "active": true
+        },
+        {
+            "code": "RECOVERY.INTEREST",
+            "active": true
+        },
+        {
+            "code": "RECOVERY.LEASE",
+            "active": true
+        }
+    ]
+}

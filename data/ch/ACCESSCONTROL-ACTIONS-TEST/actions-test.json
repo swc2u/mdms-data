@@ -13354,6 +13354,17 @@
       "navigationURL": "report/rainmaker-common/CollectionRegister",
       "path": "Reports.Collection Register"
     },
+    { 
+      "displayName": "Rented Properties",
+      "enabled": true,
+      "id": 21810,
+      "leftIcon": "action:announcement",
+      "name": "rainmaker-citizen-rented-properties",
+      "navigationURL": "rented-properties/home",
+      "orderNumber": 2,
+      "tenantId": "ch",
+      "url": "card"
+    },
     {
       "id": 1812,
       "name": "UC Report",
@@ -16412,7 +16423,7 @@
     {
       "id": 4035,
       "name": "CreateProperty",
-      "url": "/csp/property/_create",
+      "url": "/rp-services/property/_create",
       "displayName": "Create Property",
       "orderNumber": 0,
       "parentModule": "",
@@ -16424,7 +16435,7 @@
     {
       "id": 4036,
       "name": "SearchPropertyApi",
-      "url": "/csp/property/_search",
+      "url": "/rp-services/property/_search",
       "displayName": "Search Property api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16436,7 +16447,7 @@
     {
       "id": 4037,
       "name": "UpdatePropertyApi",
-      "url": "/csp/property/_update",
+      "url": "/rp-services/property/_update",
       "displayName": "Update Property api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16448,7 +16459,7 @@
     {
       "id": 4038,
       "name": "CreateOwnershipTransfer",
-      "url": "/csp/ownership-transfer/_create",
+      "url": "/rp-services/ownership-transfer/_create",
       "displayName": "Create Ownership Transfer",
       "orderNumber": 0,
       "parentModule": "",
@@ -16460,7 +16471,7 @@
     {
       "id": 4039,
       "name": "UpdateOwnershipTransfer",
-      "url": "/csp/ownership-transfer/_update",
+      "url": "/rp-services/ownership-transfer/_update",
       "displayName": "Update Ownership Transfer",
       "orderNumber": 0,
       "parentModule": "",
@@ -16472,7 +16483,7 @@
     {
       "id": 4040,
       "name": "SearchOwnershipTransfer",
-      "url": "/csp/ownership-transfer/_search",
+      "url": "/rp-services/ownership-transfer/_search",
       "displayName": "Search Ownership Transfer",
       "orderNumber": 0,
       "parentModule": "",
@@ -16484,7 +16495,7 @@
     {
       "id": 4041,
       "name": "CreateDuplicateCopyPropertyApi",
-      "url": "/csp/duplicatecopy/_create",
+      "url": "/rp-services/duplicatecopy/_create",
       "displayName": "create duplicatecopy api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16496,7 +16507,7 @@
     {
       "id": 4042,
       "name": "SearchDuplicateCopyPropertyApi",
-      "url": "/csp/duplicatecopy/_search",
+      "url": "/rp-services/duplicatecopy/_search",
       "displayName": "create duplicatecopy api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16508,7 +16519,7 @@
     {
       "id": 4043,
       "name": "UpdateDuplicateCopyPropertyApi",
-      "url": "/csp/duplicatecopy/_update",
+      "url": "/rp-services/duplicatecopy/_update",
       "displayName": "create duplicatecopy api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16520,7 +16531,7 @@
     {
       "id": 4044,
       "name": "CreateMortgaeApplicationApi",
-      "url": "/csp/mortgage/_create",
+      "url": "/rp-services/mortgage/_create",
       "displayName": "create mortgage application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16532,7 +16543,7 @@
 	  {
       "id": 4045,
       "name": "SearchMortgaeApplicationApi",
-      "url": "/csp/mortgage/_search",
+      "url": "/rp-services/mortgage/_search",
       "displayName": "search mortgage application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16544,7 +16555,7 @@
     {
       "id": 4046,
       "name": "UpdateMortgaeApplicationApi",
-      "url": "/csp/mortgage/_update",
+      "url": "/rp-services/mortgage/_update",
       "displayName": "update mortgage application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16556,7 +16567,7 @@
 	  {
       "id": 4047,
       "name": "CreateCapturingTransiteSiteImagesApi",
-      "url": "/csp/property-images/_create",
+      "url": "/rp-services/property-images/_create",
       "displayName": "create capturing transite site images api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16568,7 +16579,7 @@
     {
       "id": 4048,
       "name": "SearchCapturingTransiteSiteImagesApi",
-      "url": "/csp/property-images/_search",
+      "url": "/rp-services/property-images/_search",
       "displayName": "search capturing transite site images api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16580,7 +16591,7 @@
     {
       "id": 4049,
       "name": "UpdateCapturingTransiteSiteImagesApi",
-      "url": "/csp/property-images/_update",
+      "url": "/rp-services/property-images/_update",
       "displayName": "update capturing transite site images api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16592,7 +16603,7 @@
 	 {
       "id": 4080,
       "name": "CreateNoticeGenerationApi",
-      "url": "/csp/notice-generation/_create",
+      "url": "/rp-services/notice-generation/_create",
       "displayName": "Create NoticeGeneration API",
       "orderNumber": 0,
       "parentModule": "",
@@ -16604,7 +16615,7 @@
 	{
       "id": 4081,
       "name": "UpdateNoticeGenerationApi",
-      "url": "/csp/notice-generation/_update",
+      "url": "/rp-services/notice-generation/_update",
       "displayName": "Update NoticeGeneration API",
       "orderNumber": 0,
       "parentModule": "",
@@ -16612,6 +16623,42 @@
       "serviceCode": "NoticeGenerationApi",
       "code": "null",
       "path": "UpdateNoticeGenerationApi"
+    },
+	{
+      "id": 4082,
+      "name": "ReadingExcelFileApi",
+      "url": "/rp-services/v1/excel/read",
+      "displayName": "Reading Excel File API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "ReadingExcelFileApi",
+      "code": "null",
+      "path": "ReadingExcelFileApi"
+    },
+	{
+      "id": 4083,
+      "name": "AccountStatementGenerationApi",
+      "url": "/rp-services/property/_accountstatement",
+      "displayName": "Account Statement Generation API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "AccountStatementGenerationApi",
+      "code": "null",
+      "path": "AccountStatementGenerationApi"
+    },
+    {
+      "id": 4084,
+      "name": "OfflineRentPayment",
+      "url": "/rp-services/property/_payrent",
+      "displayName": "update capturing transite site images api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CapturingTransiteSiteImagesApi",
+      "code": "null",
+      "path": "UpdateCapturingTransiteSiteImagesApi"
     },
 	   {
             "id": 4201,

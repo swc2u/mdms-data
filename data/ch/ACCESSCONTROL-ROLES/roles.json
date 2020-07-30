@@ -489,11 +489,6 @@
       "description": "Employee who verifies, rejects and approves the TL application"
     },
     {
-      "code": "CTL_JA",
-      "name": "JA",
-      "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"
-    },
-    {
       "code": "CTL_SA",
       "name": "SA",
       "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"
@@ -503,13 +498,33 @@
       "name": "SI",
       "description": "Employee who verifies, rejects and approves the TL application which is approved by SA"
     },
-	  {
-      "code": "CTL_CA",
-      "name": "CA",
-      "description": "Employee who verifies, rejects and approves the TL application which is approved by SI"
+	{
+      "code": "RP_CLERK",
+      "name": "CLERK",
+      "description": "Employee who verifies, rejects and approves the RP application"
     },
     {
-      "code": "CTL_SURVEYOR",
+      "code": "RP_JA",
+      "name": "JA",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by clerk"
+    },
+    {
+      "code": "RP_SA",
+      "name": "SA",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by clerk"
+    },
+    {
+      "code": "RP_SI",
+      "name": "SI",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by SA"
+    },
+	{
+      "code": "RP_CA",
+      "name": "CA",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by SI"
+    },
+    {
+      "code": "RP_SURVEYOR",
       "name": "SURVEYOR",
       "description": "Employee who verifies the Trasit site and uploads the documents for capturing transite site images"
     },
