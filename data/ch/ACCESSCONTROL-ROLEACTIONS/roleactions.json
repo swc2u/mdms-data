@@ -28281,6 +28281,18 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+	{
+      "rolecode": "EMPLOYEE",
+      "actionid": 4080,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+	{
+      "rolecode": "EMPLOYEE",
+      "actionid": 4081,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
     {
       "rolecode": "CTL_SURVEYOR",
       "actionid": 4047,
