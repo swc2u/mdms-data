@@ -16539,6 +16539,30 @@
       "code": "null",
       "path": "UpdateCapturingTransiteSiteImagesApi"
     },
+	 {
+      "id": 4080,
+      "name": "CreateNoticeGenerationApi",
+      "url": "/csp/notice-generation/_create",
+      "displayName": "Create NoticeGeneration API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "NoticeGenerationApi",
+      "code": "null",
+      "path": "CreateNoticeGenerationApi"
+    },
+	{
+      "id": 4081,
+      "name": "UpdateNoticeGenerationApi",
+      "url": "/csp/notice-generation/_update",
+      "displayName": "Update NoticeGeneration API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "NoticeGenerationApi",
+      "code": "null",
+      "path": "UpdateNoticeGenerationApi"
+    },
 	  {
             "id": 4201,
             "name": "rainmaker-common-pms",
