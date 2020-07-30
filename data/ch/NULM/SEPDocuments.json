@@ -1,0 +1,51 @@
+{
+  "tenantId": "ch",
+  "moduleName": "NULM",
+  "SEPDocuments": [
+    {
+      "code": "NULM_BPL_YELLOW_RATION_CARD",
+      "documentType": "NULM_BPL_YELLOW_RATION_CARD",
+      "required": false,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "BPL Yellow Ration card"
+    },
+    {
+      "code": "NULM_VOTER_ID_CARD",
+      "documentType": "NULM_VOTER_ID_CARD",
+      "required": true,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Voter id card"
+    },
+	{
+      "code": "NULM_ADHAR_CARD",
+      "documentType": "NULM_ADHAR_CARD",
+      "required": true,
+	  "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Adhar card"
+    },
+	{
+      "code": "NULM_PAN_CARD",
+      "documentType": "NULM_PAN_CARD",
+      "required": true,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE", 
+      "description": "Pan card"
+    },
+	{
+      "code": "NULM_PHOTO_COPY_OF_APPLICANT",
+      "documentType": "",
+      "required": true,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Photo of the applicant"
+    }
+  ]
+}
