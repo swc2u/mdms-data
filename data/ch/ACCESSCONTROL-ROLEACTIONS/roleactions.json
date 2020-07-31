@@ -37550,6 +37550,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "JE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "ADDITIONAL_COMMISSIONER",
 			"actionid": "1730",
 			"actioncode": "",
