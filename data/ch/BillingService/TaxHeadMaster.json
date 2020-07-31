@@ -133,6 +133,16 @@
       "isRequired": false
     },
     {
+      "category": "FEE",
+      "service": "CTL.REHRI_REGISTRATION",
+      "name": "Rehri Registration Charges",
+      "code": "CTL.REHRI_REGISTRATION_CHARGES",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
       "category": "TAX",
       "service": "CTL.REHRI_REGISTRATION",
       "name": "Rehri Registration Tax",
