@@ -28304,6 +28304,24 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_CLERK",
+			"actionid": 4047,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_CLERK",
+			"actionid": 4048,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_CLERK",
+			"actionid": 4049,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "DDO",
 			"actionid": 1534,
 			"actioncode": "",
