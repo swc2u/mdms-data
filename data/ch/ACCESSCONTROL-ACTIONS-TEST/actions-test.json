@@ -16615,39 +16615,39 @@
     },
     {
       "id": 3000,
-      "name": "CreateProperty",
+      "name": "CreatePropertyMasterApi",
       "url": "/property-service/property-master/_create",
-      "displayName": "Create Property",
+      "displayName": "Create Property Master api",
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "CreateProperty",
+      "serviceCode": "CreatePropertyMasterApi",
       "code": "null",
-      "path": "CreateProperty"
+      "path": "CreatePropertyMasterApi"
     },
     {
       "id": 3001,
-      "name": "SearchPropertyApi",
+      "name": "SearchPropertyMasterApi",
       "url": "/property-service/property-master/_search",
-      "displayName": "Search Property api",
+      "displayName": "Search Property Master api",
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "SearchPropertyApi",
+      "serviceCode": "SearchPropertyMasterApi",
       "code": "null",
-      "path": "SearchPropertyApi"
+      "path": "SearchPropertyMasterApi"
     },
     {
       "id": 3002,
-      "name": "UpdatePropertyApi",
+      "name": "UpdatePropertyMasterApi",
       "url": "/property-service/property-master/_update",
-      "displayName": "Update Property api",
+      "displayName": "Update Property Master api",
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
-      "serviceCode": "UpdatePropertyApi",
+      "serviceCode": "UpdatePropertyMasterApi",
       "code": "null",
-      "path": "UpdatePropertyApi"
+      "path": "UpdatePropertyMasterApi"
     },
     {
       "id": 3003,
@@ -16759,42 +16759,6 @@
     },
 	  {
       "id": 3012,
-      "name": "CreateCapturingTransiteSiteImagesApi",
-      "url": "/property-service/property-images/_create",
-      "displayName": "create capturing transite site images api",
-      "orderNumber": 0,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "CapturingTransiteSiteImagesApi",
-      "code": "null",
-      "path": "CreateCapturingTransiteSiteImagesApi"
-    },
-    {
-      "id": 3013,
-      "name": "SearchCapturingTransiteSiteImagesApi",
-      "url": "/property-service/property-images/_search",
-      "displayName": "search capturing transite site images api",
-      "orderNumber": 0,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "CapturingTransiteSiteImagesApi",
-      "code": "null",
-      "path": "SearchCapturingTransiteSiteImagesApi"
-    },
-    {
-      "id": 3014,
-      "name": "UpdateCapturingTransiteSiteImagesApi",
-      "url": "/property-service/property-images/_update",
-      "displayName": "update capturing transite site images api",
-      "orderNumber": 0,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "CapturingTransiteSiteImagesApi",
-      "code": "null",
-      "path": "UpdateCapturingTransiteSiteImagesApi"
-    },
-	 {
-      "id": 3015,
       "name": "CreateNoticeGenerationApi",
       "url": "/property-service/notice-generation/_create",
       "displayName": "Create NoticeGeneration API",
@@ -16805,8 +16769,8 @@
       "code": "null",
       "path": "CreateNoticeGenerationApi"
     },
-	{
-      "id": 3016,
+	  {
+      "id": 3013,
       "name": "UpdateNoticeGenerationApi",
       "url": "/property-service/notice-generation/_update",
       "displayName": "Update NoticeGeneration API",

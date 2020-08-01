@@ -28302,8 +28302,8 @@
 			"actionid": 4049,
 			"actioncode": "",
 			"tenantId": "ch"
-    },
-    {
+    	},
+    	{
 			"rolecode": "EMPLOYEE",
 			"actionid": 3000,
 			"actioncode": "",
@@ -28431,31 +28431,13 @@
 		},
 		{
 			"rolecode": "CTL_CLERK",
-			"actionid": 3015,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CTL_CLERK",
-			"actionid": 3016,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CTL_SURVEYOR",
 			"actionid": 3012,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_SURVEYOR",
+			"rolecode": "CTL_CLERK",
 			"actionid": 3013,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CTL_SURVEYOR",
-			"actionid": 3014,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
