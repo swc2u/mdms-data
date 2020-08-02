@@ -19434,6 +19434,54 @@
       "serviceCode": "egov-searcher",
       "code": "null",
       "path": ""
-    }
+    },
+    	{
+		"id": 4500,
+		"name": "SEPCreate",
+		"url": "/nulm-services/v1/sep/_create",
+		"displayName": "SEP Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4501,
+		"name": "SEPGet",
+		"url": "/nulm-services/v1/sep/_get",
+		"displayName": "SEP Get",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4502,
+		"name": "SEPUpdate",
+		"url": "/nulm-services/v1/sep/_update",
+		"displayName": "SEP Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4503,
+		"name": "SEPUpdateAppStatus",
+		"url": "/nulm-services/v1/sep/_updateAppStatus",
+		"displayName": "SEP UpdateAppStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	}
   ]
 }
