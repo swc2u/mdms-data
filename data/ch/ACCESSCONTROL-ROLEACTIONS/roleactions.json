@@ -32535,6 +32535,18 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SYSTEM",
+			"actionid": 4078,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SYSTEM",
+			"actionid": 4079,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SUPERUSER",
 			"actionid": 4401,
 			"actioncode": "",

@@ -18549,6 +18549,30 @@
       "path": ""
     },
 	{
+      "id": 4078,
+      "name": "WS Calculator scheduler",
+      "url": "/ws-calculator/waterCalculator/_jobscheduler",
+      "displayName": "WS Calculator scheduler",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4079,
+      "name": "SW Calculator scheduler",
+      "url": "/sw-calculator/sewerageCalculator/_jobscheduler",
+      "displayName": "SW Calculator scheduler",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "sw-calculator",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",
