@@ -38262,6 +38262,18 @@
 			"actionid": 4503,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SUPERUSER",
+			"actionid": 4504,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EGF_REPORT_VIEW",
+			"actionid": 4504,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }

@@ -19482,6 +19482,19 @@
 		"serviceCode": "nulm-services",
 		"code": "null",
 		"path": ""
-	}
+	},
+    {
+      "id": 4504,
+      "name": "RecoveryReport",
+      "url": "url",
+      "displayName": "Recovery Report",
+      "orderNumber": 7,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "navigationURL": "services/EGF/report/pendingTDSReport-deductionReport.action",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.Deduction Reports.Recovery Report"
+    }
   ]
 }
