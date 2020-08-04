@@ -40,7 +40,7 @@
     },
 	{
       "code": "NULM_PHOTO_COPY_OF_APPLICANT",
-      "documentType": "",
+      "documentType": "NULM_PHOTO_COPY_OF_APPLICANT",
       "required": true,
       "active": true,
 	  "accept": "application/pdf,image/*",
