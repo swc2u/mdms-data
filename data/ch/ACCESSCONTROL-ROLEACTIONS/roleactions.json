@@ -28130,6 +28130,18 @@
       "actionid": 1993,
       "actioncode": "",
       "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2306,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "EGF_REPORT_VIEW",
+      "actionid": 2306,
+      "actioncode": "",
+      "tenantId": "ch"
     }
   ]
 }

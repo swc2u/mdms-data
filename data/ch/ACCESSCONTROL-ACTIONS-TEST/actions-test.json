@@ -16240,6 +16240,19 @@
       "navigationURL": "egov-pr/TimeSeriesReport?modulecode=SCP",
       "leftIcon": "action:assignment",
       "rightIcon": ""
+    },
+    {
+      "id": 2306,
+      "name": "RecoveryReport",
+      "url": "url",
+      "displayName": "Recovery Report",
+      "orderNumber": 7,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "navigationURL": "services/EGF/report/pendingTDSReport-deductionReport.action",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.Deduction Reports.Recovery Report"
     }
   ]
 }
