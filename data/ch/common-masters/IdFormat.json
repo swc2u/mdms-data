@@ -510,6 +510,14 @@
 		{
 			"format": "SW/[fy:yyyy-yy]/[SEQ_SW_BILL_RCPT]",
 			"idname": "sw.receipt.id"
+		},
+		{
+			"format": "SEP/[fy:yyyy-yy]/[SEQ_NULM_SEP_ID_GEN]",
+			"idname": "ch.nulm.sep"
+		},
+		{
+			"format": "SEP/[fy:yyyy-yy]/[SEQ_NULM_SMID_ID_GEN]",
+			"idname": "ch.nulm.smid"
 		}
     ]
 }
