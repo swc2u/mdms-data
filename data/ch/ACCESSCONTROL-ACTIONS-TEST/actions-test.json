@@ -19161,6 +19161,19 @@
 		"path": ""
 	},
 	{
+		"id": 2442,
+		"name": "EC get violation detail",
+		"url": "/ec-services/violation/_search",
+		"parentModule": "",
+		"displayName": "ec-services",
+		"orderNumber": 0,
+		"queryParams": null,
+		"enabled": true,
+		"serviceCode": "ec-services",
+		"code": "null",
+		"path": ""
+	},	  
+	{
 		"id": 4401,
 		"name": "Store",
 		"url": "url",
