@@ -18976,7 +18976,7 @@
       "lastModifiedDate": null,
       "lastModifiedBy": null,
       "path": "EC_eChallan.itemMaster",
-      "navigationURL": "item-master/search",
+      "navigationURL": "egov-echallan-item-master/search",
       "leftIcon": "communication:business",
       "rightIcon": ""
     },
@@ -18996,7 +18996,7 @@
       "lastModifiedDate": null,
       "lastModifiedBy": null,
       "path": "EC_eChallan.fineMaster",
-      "navigationURL": "fine-master/search",
+      "navigationURL": "egov-echallan-fine-master/search",
       "leftIcon": "communication:business",
       "rightIcon": ""
     },
@@ -19016,7 +19016,7 @@
       "lastModifiedDate": null,
       "lastModifiedBy": null,
       "path": "EC_eChallan.vendorMaster",
-      "navigationURL": "vendor-master/search",
+      "navigationURL": "egov-echallan-vendor-master/search",
       "leftIcon": "communication:business",
       "rightIcon": ""
     },
