@@ -16409,7 +16409,7 @@
 	"rightIcon":"",
 	"queryParams":""
      },
-	   {
+	  {
             "id": 4201,
             "name": "rainmaker-common-pms",
             "url": "card",
@@ -17482,6 +17482,56 @@
       "code": "null",
       "path": "pension-services"
     },
+{
+      "id": 4277,
+      "name": "PensionObligation",
+      "url": "url",
+      "displayName": "Pension Obligation Report",
+      "orderNumber": 5,
+      "parentModule": "rainmaker-pension",
+      "enabled": true,
+      "serviceCode": "PMS_PENSION_OBLIGATION_REPORT",
+      "code": "null",
+      "path": "PENSION.PENSION Reports.PensionObligation",
+      "navigationURL": "report/rainmaker-pension/PensionObligation",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 4278,
+      "name": "RainmakerPENSION-PensionObligation-Metadata",
+      "url": "/report/rainmaker-pension/PensionObligation/metadata/_get",
+      "displayName": "Pension Obligation Report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+	{
+      "id": 4279,
+      "name": "PensionObligation",
+      "url": "/report/rainmaker-pension/PensionObligation/_get",
+      "displayName": "Pension Obligation Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+{
+      "id": 4280,
+      "name": "SearchPensionDisbursement",
+      "url": "/pension-services/v1/_searchPensionDisbursement",
+      "displayName": "Bulk Update",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    }
+	   ,
 	{
 		"id": 4300,
 		"name": "StoresCreation",
@@ -18549,6 +18599,30 @@
       "path": ""
     },
 	{
+      "id": 4078,
+      "name": "WS Calculator scheduler",
+      "url": "/ws-calculator/waterCalculator/_jobscheduler",
+      "displayName": "WS Calculator scheduler",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4079,
+      "name": "SW Calculator scheduler",
+      "url": "/sw-calculator/sewerageCalculator/_jobscheduler",
+      "displayName": "SW Calculator scheduler",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "sw-calculator",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",
@@ -19280,6 +19354,221 @@
       "leftIcon": "social:people",
       "rightIcon": "",
       "queryParams": ""
+    },
+	{
+      "id": 2350,
+      "name": "Locality searcher endpoint for TL",
+      "url": "/egov-searcher/locality/tl-services/_get",
+      "displayName": "TL locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2351,
+      "name": "Locality searcher endpoint for PT module",
+      "url": "/egov-searcher/locality/PT/_get",
+      "displayName": "PT locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2352,
+      "name": "Locality searcher endpoint for SW",
+      "url": "/egov-searcher/locality/sw-services/_get",
+      "displayName": "SW-Service locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2353,
+      "name": "Locality searcher endpoint for WS",
+      "url": "/egov-searcher/locality/ws-services/_get",
+      "displayName": "WS-Service locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2354,
+      "name": "Locality searcher endpoint for DOP",
+      "url": "/egov-searcher/locality/DOP_SERVICE/_get",
+      "displayName": "DOP locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2355,
+      "name": "Locality searcher endpoint for ECHALLAN",
+      "url": "/egov-searcher/locality/ECHALLAN/_get",
+      "displayName": "ECHALLAN locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2356,
+      "name": "Locality searcher endpoint for RRP",
+      "url": "/egov-searcher/locality/RRP_SERVICE/_get",
+      "displayName": "RRP locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2357,
+      "name": "Locality searcher endpoint for HORTICULTURE",
+      "url": "/egov-searcher/locality/HORTICULTURE/_get",
+      "displayName": "HORTICULTURE locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2358,
+      "name": "Locality searcher endpoint for DOE",
+      "url": "/egov-searcher/locality/DOE_SERVICE/_get",
+      "displayName": "DOE locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2359,
+      "name": "Locality searcher endpoint for PRTENDER",
+      "url": "/egov-searcher/locality/PRTENDER/_get",
+      "displayName": "PRTENDER locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2360,
+      "name": "Locality searcher endpoint for ROADCUTNOC",
+      "url": "/egov-searcher/locality/ROADCUTNOC/_get",
+      "displayName": "ROADCUTNOC locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2361,
+      "name": "Locality searcher endpoint for PETNOC",
+      "url": "/egov-searcher/locality/PETNOC/_get",
+      "displayName": "PETNOC locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2362,
+      "name": "Locality searcher endpoint for SELLMEATNOC",
+      "url": "/egov-searcher/locality/SELLMEATNOC/_get",
+      "displayName": "SELLMEATNOC locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 2363,
+      "name": "Locality searcher endpoint for ADVERTISEMENTNOC",
+      "url": "/egov-searcher/locality/ADVERTISEMENTNOC/_get",
+      "displayName": "ADVERTISEMENTNOC locality searcher",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-searcher",
+      "code": "null",
+      "path": ""
+    },
+    	{
+		"id": 4500,
+		"name": "SEPCreate",
+		"url": "/nulm-services/v1/sep/_create",
+		"displayName": "SEP Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4501,
+		"name": "SEPGet",
+		"url": "/nulm-services/v1/sep/_get",
+		"displayName": "SEP Get",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4502,
+		"name": "SEPUpdate",
+		"url": "/nulm-services/v1/sep/_update",
+		"displayName": "SEP Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4503,
+		"name": "SEPUpdateAppStatus",
+		"url": "/nulm-services/v1/sep/_updateAppStatus",
+		"displayName": "SEP UpdateAppStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+    {
+      "id": 4504,
+      "name": "RecoveryReport",
+      "url": "url",
+      "displayName": "Recovery Report",
+      "orderNumber": 7,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "navigationURL": "services/EGF/report/pendingTDSReport-deductionReport.action",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.Deduction Reports.Recovery Report"
     }
   ]
 }
