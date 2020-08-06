@@ -2742,79 +2742,6 @@
 		"isRequired":false
 	},
 	{
-    "category":"TAX",
-    "service":"OPMS.ADVERTISEMENTNOC",
-    "name":"ADVERTISEMENT NOC TAX",
-	   "code":"ADVERTISEMENTNOC_TAX",
-	   "isDebit":false,
-	   "isActualDemand":true,
-	   "order":"2",
-	   "isRequired":false,
-	   "taxAmount":"18"
-	},
-	{
-	   "category":"TAX",
-	   "service":"OPMS.PETNOC",
-	   "name":"PET NOC TAX",
-	   "code":"PETNOC_TAX",
-	   "isDebit":false,
-	   "isActualDemand":true,
-	   "order":"2",
-	   "isRequired":false,
-	   "taxAmount":"0"
-	},
-	{
-	   "category":"TAX",
-	   "service":"OPMS.ROADCUTNOC",
-	   "name":"ROADCUT NOC TAX",
-	   "code":"ROADCUTNOC_TAX",
-	   "isDebit":false,
-	   "isActualDemand":true,
-	   "order":"2",
-	   "isRequired":false,
-	   "taxAmount":"0"
-    },
-	{
-	"category":"FEE",
-	"service":"OPMS.ADVERTISEMENTNOC",
-	"name":"ADVERTISEMENT NOC FEE",
-	"code":"ADVERTISEMENTNOC_FEE",
-	"isDebit":false,
-	"isActualDemand":true,
-	"order":"1",
-	"isRequired":false
-	},
-	{
-	"category":"FEE",
-	"service":"OPMS.PETNOC",
-	"name":"PET NOC FEE",
-	"code":"PETNOC_FEE",
-	"isDebit":false,
-	"isActualDemand":true,
-	"order":"1",
-	"isRequired":false
-	},
-	{
-	"category":"FEE",
-	"service":"OPMS.ROADCUTNOC",
-	"name":"ROADCUT NOC FEE",
-	"code":"ROADCUTNOC_FEE",
-	"isDebit":false,
-	"isActualDemand":true,
-	"order":"1",
-	"isRequired":false
-	},
-	{
-	"category":"FEE_BANK",
-	"service":"OPMS.ROADCUTNOC",
-	"name":"ROADCUT NOC FEE BANK",
-	"code":"ROADCUTNOC_FEE_BANK",
-	"isDebit":false,
-	"isActualDemand":true,
-	"order":"3",
-	"isRequired":false
-	},
-	{
      "category":"PENALTY",
      "service":"EC",
      "name":"ECHALLAN",
@@ -2833,6 +2760,142 @@
 	"isActualDemand":true,
 	"order":"1",
 	"isRequired":false
-	}
+	},
+			{
+			"category": "TAX",
+			"service": "OPMS.ADVERTISEMENTNOC",
+			"name": "Advertisement NOC Tax",
+			"code": "ADVERTISEMENTNOC_TAX",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "2",
+			"isRequired": false,
+			"taxAmount": "18"
+		},
+		{
+			"category": "FEE",
+			"service": "OPMS.ADVERTISEMENTNOC",
+			"name": "Advertisement NOC Fee",
+			"code": "ADVERTISEMENTNOC_FEE",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "1",
+			"isRequired": false
+		},
+		{
+			"category": "TAX",
+			"service": "OPMS.PETNOC",
+			"name": "Pet NOC Tax",
+			"code": "PETNOC_TAX",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "2",
+			"isRequired": false,
+			"taxAmount": "0"
+		},
+		{
+			"category": "FEE",
+			"service": "OPMS.PETNOC",
+			"name": "Pet NOC Fee",
+			"code": "PETNOC_FEE",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "1",
+			"isRequired": false
+		},
+		{
+			"category": "TAX",
+			"service": "OPMS.ROADCUTNOC_RD1",
+			"name": "Road Cut NOC Tax",
+			"code": "ROADCUTNOC_TAX_RD1",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "2",
+			"isRequired": false,
+			"taxAmount": "0"
+		},
+		{
+			"category": "FEE",
+			"service": "OPMS.ROADCUTNOC_RD1",
+			"name": "Road Cut NOC Fee",
+			"code": "ROADCUTNOC_FEE_RD1",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "1",
+			"isRequired": false
+		},
+		{
+			"category": "FEE_BANK",
+			"service": "OPMS.ROADCUTNOC_RD1",
+			"name": "Performance Bank Guarantee",
+			"code": "ROADCUTNOC_FEE_BANK_RD1",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "3",
+			"isRequired": false
+		},
+		{
+			"category": "TAX",
+			"service": "OPMS.ROADCUTNOC_RD2",
+			"name": "Road Cut NOC Tax",
+			"code": "ROADCUTNOC_TAX_RD2",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "2",
+			"isRequired": false,
+			"taxAmount": "0"
+		},
+		{
+			"category": "FEE",
+			"service": "OPMS.ROADCUTNOC_RD2",
+			"name": "Road Cut NOC Fee",
+			"code": "ROADCUTNOC_FEE_RD2",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "1",
+			"isRequired": false
+		},
+		{
+			"category": "FEE_BANK",
+			"service": "OPMS.ROADCUTNOC_RD2",
+			"name": "Performance Bank Guarantee",
+			"code": "ROADCUTNOC_FEE_BANK_RD2",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "3",
+			"isRequired": false
+		},
+		{
+			"category": "TAX",
+			"service": "OPMS.ROADCUTNOC_RD3",
+			"name": "Road Cut NOC Tax",
+			"code": "ROADCUTNOC_TAX_RD3",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "2",
+			"isRequired": false,
+			"taxAmount": "0"
+		},
+		{
+			"category": "FEE",
+			"service": "OPMS.ROADCUTNOC_RD3",
+			"name": "Road Cut NOC Fee",
+			"code": "ROADCUTNOC_FEE_RD3",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "1",
+			"isRequired": false
+		},
+		{
+			"category": "FEE_BANK",
+			"service": "OPMS.ROADCUTNOC_RD3",
+			"name": "Performance Bank Guarantee",
+			"code": "ROADCUTNOC_FEE_BANK_RD3",
+			"isDebit": false,
+			"isActualDemand": true,
+			"order": "3",
+			"isRequired": false
+		}
+
   ]
 }

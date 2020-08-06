@@ -1217,8 +1217,30 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	{
-      "businessService": "Permission Management",
+		{
+         "businessService":"ECHALLAN",
+         "code":"EC",
+         "collectionModesNotAllowed":[
+            "DD"
+         ],
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true
+     },
+	 	{
+      "businessService": "Permission Management.Advertisement NoC",
+      "code": "OPMS.ADVERTISEMENTNOC",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": true
+    },
+	  {
+      "businessService": "Permission Management.Pet NoC",
       "code": "OPMS.PETNOC",
       "collectionModesNotAllowed": [
         "DD"
@@ -1229,8 +1251,8 @@
       "isVoucherCreationEnabled": true
     },
 	{
-      "businessService": "Permission Management",
-      "code": "OPMS.ROADCUTNOC",
+      "businessService": "Permission Management.Road Cut NOC (Road Div 1)",
+      "code": "OPMS.ROADCUTNOC_RD1",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1240,8 +1262,8 @@
       "isVoucherCreationEnabled": true
     },
 	{
-      "businessService": "Permission Management",
-      "code": "OPMS.ADVERTISEMENTNOC",
+      "businessService": "Permission Management.Road Cut NOC (Road Div 2)",
+      "code": "OPMS.ROADCUTNOC_RD2",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -1250,16 +1272,16 @@
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true
     },
-    {
-         "businessService":"ECHALLAN",
-         "code":"EC",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-     }
+	{
+      "businessService": "Permission Management.Road Cut NOC (Road Div 3)",
+      "code": "OPMS.ROADCUTNOC_RD3",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": true
+    }
   ]
 }
