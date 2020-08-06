@@ -16409,7 +16409,7 @@
 	"rightIcon":"",
 	"queryParams":""
      },
-	   {
+	  {
             "id": 4201,
             "name": "rainmaker-common-pms",
             "url": "card",
@@ -17482,6 +17482,56 @@
       "code": "null",
       "path": "pension-services"
     },
+{
+      "id": 4277,
+      "name": "PensionObligation",
+      "url": "url",
+      "displayName": "Pension Obligation Report",
+      "orderNumber": 5,
+      "parentModule": "rainmaker-pension",
+      "enabled": true,
+      "serviceCode": "PMS_PENSION_OBLIGATION_REPORT",
+      "code": "null",
+      "path": "PENSION.PENSION Reports.PensionObligation",
+      "navigationURL": "report/rainmaker-pension/PensionObligation",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 4278,
+      "name": "RainmakerPENSION-PensionObligation-Metadata",
+      "url": "/report/rainmaker-pension/PensionObligation/metadata/_get",
+      "displayName": "Pension Obligation Report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+	{
+      "id": 4279,
+      "name": "PensionObligation",
+      "url": "/report/rainmaker-pension/PensionObligation/_get",
+      "displayName": "Pension Obligation Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+{
+      "id": 4280,
+      "name": "SearchPensionDisbursement",
+      "url": "/pension-services/v1/_searchPensionDisbursement",
+      "displayName": "Bulk Update",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    }
+	   ,
 	{
 		"id": 4300,
 		"name": "StoresCreation",
