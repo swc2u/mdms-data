@@ -6,7 +6,7 @@
       "id": "1",
 	  "status":"REVIEWOFAC",
       "tenantId": "ch.chandigarh",
-      "name": "Additional Commissionor",
+      "name": "Additional Commissioner",
 	  "withdrawStatus":"REVIEWOFACFORWITHDRAW",
       "active": true
     },
@@ -14,7 +14,7 @@
       "id": "2",
 	  "status":"REVIEWOFSC",
       "tenantId": "ch.chandigarh",
-      "name": "Special Commissionor",
+      "name": "Special Commissioner",
 	  "withdrawStatus":"REVIEWOFSCFORWITHDRAW",
       "active": true
     },
@@ -22,7 +22,7 @@
       "id": "3",
 	  "status":"REVIEWOFJC",
       "tenantId": "ch.chandigarh",
-      "name": "Joint Commissionor",
+      "name": "Joint Commissioner",
 	  "withdrawStatus":"REVIEWOFJCFORWITHDRAW",
       "active": true
     },
