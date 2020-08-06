@@ -5,16 +5,19 @@
     {
 		"name": "Road Division 1",
 		"code": "ROAD_DIVISION_1",
+		"taxCode": "RD1",
 		"active": true
 	},
 	{
 		"name": "Road Division 2",
 		"code": "ROAD_DIVISION_2",
+		"taxCode": "RD2",
 		"active": true
 	},
 	{
 		"name": "Road Division 3",
 		"code": "ROAD_DIVISION_3",
+		"taxCode": "RD3",
 		"active": true
 	}
   ]
