@@ -5,7 +5,7 @@
       {
          "code":"Challan Generated",
          "subject":"Challan Issued",
-         "body":"Seizure memo <ChallanId> has been generated for <EnchroachmentType> violation on <Date and Time>. Kindly visit the link to view details <Link>",
+         "body":"Dear <violator>,<br> Seizure memo <ChallanId> has been generated for <EnchroachmentType> violation on <Date and Time>. Kindly visit the link to view details <Link>.<br><br>Regards,<br>Enforcement Wing, MCC",
          "attachments":[
             {
                "name":"Seizure Memo",
@@ -20,7 +20,7 @@
       {
          "code":"Payment Successful",
          "subject":"Payment Successful",
-         "body":"Payment has been done for Seizure memo <ChallanId>. Kindly refer attached payment receipt.",
+         "body":"Dear <violator>,<br> Payment has been done for Seizure memo <ChallanId>. Kindly refer attached payment receipt.<br><br>Regards,<br>Enforcement Wing, MCC",
          "attachments":[
             {
                "name":"Challan Payment Receipt",
