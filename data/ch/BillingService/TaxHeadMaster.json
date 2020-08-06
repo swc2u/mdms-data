@@ -2553,7 +2553,7 @@
 	},
 	{
 		"category":"CHARGES",
-		"service":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+		"service":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
 		"name":"Security - Apni Mandi",
 		"code":"SECURITY_DAY_MARKET_RD1",
 		"isDebit":false,
@@ -2633,7 +2633,7 @@
 	},
 	{
 		"category":"CHARGES",
-		"service":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+		"service":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
 		"name":"Security - Apni Mandi",
 		"code":"SECURITY_DAY_MARKET_RD2",
 		"isDebit":false,
@@ -2713,7 +2713,7 @@
 	},
 	{
 		"category":"CHARGES",
-		"service":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+		"service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
 		"name":"Security - Apni Mandi",
 		"code":"SECURITY_DAY_MARKET_RD3",
 		"isDebit":false,
