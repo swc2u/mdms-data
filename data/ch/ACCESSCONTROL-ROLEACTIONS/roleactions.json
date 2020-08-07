@@ -38404,6 +38404,24 @@
 		"actionid": "2401",
 		"actioncode": "",
 		"tenantId": "ch"
-	}		
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4349",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": "4350",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{ 
+		"rolecode": "SUPERUSER",
+		"actionid": "4351",
+		"actioncode": "",
+		"tenantId": "ch"
+	}
 	]
 }
