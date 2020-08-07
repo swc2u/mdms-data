@@ -18095,7 +18095,43 @@
 		"serviceCode": "store-asset-services",
 		"code": "null",
 		"path": ""
-	},  
+	},
+	  {
+		"id": 4349,
+		"name": "ScrapCreate",
+		"url": "/store-asset-services/scraps/_create",
+		"displayName": "Scrap Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	  },
+	  {
+		"id": 4350,
+		"name": "ScrapUpdate",
+		"url": "/store-asset-services/scraps/_update",
+		"displayName": "Scrap Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	 {
+		"id": 4351,
+		"name": "ScrapSearch",
+		"url": "/store-asset-services/scraps/_search",
+		"displayName": "Scrap Search",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
         
     {
 			"id": 2601,
