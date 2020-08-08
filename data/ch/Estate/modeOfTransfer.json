@@ -1,0 +1,26 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstatePropertyService",
+  "ModeOfTransfer": [
+    {
+      "name": "Sale Deeed",
+      "code": "MOT.SALEDEED",
+      "active": true
+    },
+    {
+      "name": "Gift Deed",
+      "code": "MOT.GIFTDEED",
+      "active": true
+    },
+    {
+      "name": "Family Transfer Deed",
+      "code": "MOT.FAMILYTRANSFERDEED",
+      "active": true
+    },
+    {
+      "name": "Exchange Deed",
+      "code": "MOT.EXCHANGEDEED",
+      "active": true
+    }
+  ]
+}

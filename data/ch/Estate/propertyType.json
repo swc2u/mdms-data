@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstatePropertyService",
+  "propertyType": [
+    {
+      "name": "Lease Hold",
+      "code": "PT.LEASEHOLD",
+      "active": true
+    },
+    {
+      "name": "Free Hold",
+      "code": "PT.FREEHOLD",
+      "active": true
+    }
+  ]
+}
