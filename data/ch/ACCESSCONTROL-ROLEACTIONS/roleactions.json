@@ -38422,6 +38422,60 @@
 		"actionid": "4351",
 		"actioncode": "",
 		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4352,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4353,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4354,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4355,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4356,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4357,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4358,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4359
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4360,
+		"actioncode": "",
+		"tenantId": "ch"
 	}
 	]
 }
