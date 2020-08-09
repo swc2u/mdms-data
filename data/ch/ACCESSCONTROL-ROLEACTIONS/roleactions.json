@@ -38467,7 +38467,7 @@
 	},
 	{
 		"rolecode": "SUPERUSER",
-		"actionid": 4359
+		"actionid": 4359,
 		"actioncode": "",
 		"tenantId": "ch"
 	},
