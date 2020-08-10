@@ -66,6 +66,18 @@
       "jobName": "daily",
       "active": "true",
       "method": "POST",
+      "url": "http://prscp-services.egov:8080//prscp-services/v1/template/crone/job/eventReminder?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
       "url": "http://ws-calculator.egov:8080/ws-calculator/waterCalculator/_jobscheduler",
       "payload": {
         "RequestInfo": "{DEFAULT_REQUESTINFO}"
