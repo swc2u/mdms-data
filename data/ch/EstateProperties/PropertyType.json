@@ -4,12 +4,12 @@
   "propertyType": [
     {
       "name": "Lease Hold",
-      "code": "PT.LEASEHOLD",
+      "code": "PROPERTY_TYPE.LEASEHOLD",
       "active": true
     },
     {
       "name": "Free Hold",
-      "code": "PT.FREEHOLD",
+      "code": "PROPERTY_TYPE.FREEHOLD",
       "active": true
     }
   ]
