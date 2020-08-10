@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstatePropertyService",
+  "allocationType": [
+    {
+      "name": "Auction",
+      "code": "ALLOCATION_TYPE.AUCTION",
+      "active": true
+    },
+    {
+      "name": "Allotment",
+      "code": "ALLOCATION_TYPE.ALLOTMENT",
+      "active": true
+    }
+  ]
+}

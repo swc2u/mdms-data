@@ -1,0 +1,80 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstatePropertyService",
+  "categories": [
+      {
+          "name": "Residential",
+          "code": "CAT.RESIDENTIAL",
+          "active": true,
+          "SubCategory": [
+              {
+                  "name": "House",
+                  "code": "SUBCAT.HOUSE",
+                  "active": true
+              },
+              {
+                  "name": "Dwellings",
+                  "code": "SUBCAT.DWELLINGS",
+                  "active": true
+              },
+              {
+                  "name": "Flat",
+                  "code": "SUBCAT.FLAT",
+                  "active": true
+              }
+          ]
+      },
+      {
+          "name": "Commercial",
+          "code": "CAT.COMMERCIAL",
+          "active": true,
+          "SubCategory": [
+            {
+                "name": "SCF",
+                "code": "SUBCAT.SCF",
+                "active": true
+            },
+            {
+                "name": "SCO",
+                "code": "SUBCAT.SCO",
+                "active": true
+            },
+            {
+                "name": "Booth",
+                "code": "SUBCAT.BOOTH",
+                "active": true
+            },
+            {
+                "name": "Shop",
+                "code": "SUBCAT.SHOP",
+                "active": true
+            }
+        ]
+      },
+      {
+          "name": "Industrial",
+          "code": "CAT.INDUSTRIAL",
+          "active": true
+      },
+      {
+          "name": "Institutional",
+          "code": "CAT.INSTITUTIONAL",
+          "active": true
+      },
+      {
+          "name": "Govt. Property",
+          "code": "CAT.GOVPROPERTY",
+          "active": true
+      },
+      {
+          "name": "Religious",
+          "code": "CAT.RELIGIOUS",
+          "active": true
+      },
+      {
+          "name": "Hospital",
+          "code": "CAT.HOSPITAL",
+          "active": true
+      }
+  ]
+}

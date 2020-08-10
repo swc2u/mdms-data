@@ -1,0 +1,115 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstatePropertyService",
+  "documents": [{
+      "code": "MasterEst",
+      "type": "Estate",
+      "documentList": [{
+          "code": "CERTIFIED_COPY_LEASE",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "CERTIFIED_COPY_LEASE_DESCRIPTION"
+        },
+        {
+          "code": "NOTARIZED_COPY_DEED",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "NOTARIZED_COPY_DEED_DESCRIPTION"
+        },
+        {
+          "code": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_DESCRIPTION"
+        },
+        {
+          "code": "INDEMNITY_BOND_TRANSFEREE",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "INDEMNITY_BOND_TRANSFEREE_DESCRIPTION"
+        },
+        {
+          "code": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_WITNESSES_INDEMITY_BOND",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_WITNESSES_INDEMITY_BOND_DESCRIPTION"
+        },
+        {
+          "code": "CLEARANCE_PREVIOUS_MORTGAGE",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "CLEARANCE_PREVIOUS_MORTGAGE_DESCRIPTION"
+        },
+        {
+          "code": "SEWERAGE_CONNECTION",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "SEWERAGE_CONNECTION_DESCRIPTION"
+        },
+        {
+          "code": "PROOF_OF_CONSTRUCTION",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "PROOF_OF_CONSTRUCTION_DESCRIPTION"
+        },
+        {
+          "code": "INDEMNITY_BOND",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "INDEMNITY_BOND_DESCRIPTION"
+        },
+        {
+          "code": "NOTARIZED_COPY_GPA_SPA",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "NOTARIZED_COPY_GPA_SPA_DESCRIPTION"
+        },
+        {
+          "code": "AFFIDAVIT_VALIDITY_GPA_SPA",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "AFFIDAVIT_VALIDITY_GPA_SPA_DESCRIPTION"
+        },
+        {
+          "code": "AFFIDAVIT_EFFECT",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "AFFIDAVIT_EFFECT_DESCRIPTION"
+        },
+        {
+          "code": "ATTESTED_COPY_PARTNERSHIP_DEED",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "ATTESTED_COPY_PARTNERSHIP_DEED_DESCRIPTION"
+        },
+        {
+          "code": "COPY_OF_MEMORANDUM",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "AFFIDAVIT_EFFECT_DESCRIPTION"
+        },
+        {
+          "code": "NO_DUE_CERTIFICATE",
+          "required": false,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "NO_DUE_CERTIFICATE_DESCRIPTION"
+        }
+      ]
+    }
+  ]
+}
