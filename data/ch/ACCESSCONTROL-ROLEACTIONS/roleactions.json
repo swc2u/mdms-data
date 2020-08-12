@@ -28442,6 +28442,36 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CITIZEN",
+			"actionid": 3014,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 3015,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3015,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 3016,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3016,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "CTL_CLERK",
 			"actionid": 4047,
 			"actioncode": "",

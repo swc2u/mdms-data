@@ -16781,6 +16781,42 @@
       "code": "null",
       "path": "UpdateNoticeGenerationApi"
     },
+    {
+      "id": 3014,
+      "name": "CreateApplicationApi",
+      "url": "/property-service/application/_create",
+      "displayName": "Create Application api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CreateApplicationApi",
+      "code": "null",
+      "path": "CreateApplicationApi"
+    },
+	  {
+      "id": 3015,
+      "name": "SearchApplicationApi",
+      "url": "/property-service/application/_search",
+      "displayName": "Search Application API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "SearchApplicationApi",
+      "code": "null",
+      "path": "SearchApplicationApi"
+    },
+	  {
+      "id": 3016,
+      "name": "UpdateApplicationApi",
+      "url": "/property-service/application/_update",
+      "displayName": "Update Application API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "UpdateApplicationApi",
+      "code": "null",
+      "path": "UpdateApplicationApi"
+    },
 	   {
             "id": 4201,
             "name": "rainmaker-common-pms",
