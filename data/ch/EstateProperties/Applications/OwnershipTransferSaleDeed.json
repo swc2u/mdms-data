@@ -1,0 +1,47 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateBranch_OwnershipTransfer_SaleDeed",
+    "fields": [
+        {
+            "name": "propertyId",
+            "validations": [
+                {
+                    "type": "lookup",
+                    "value": "property",
+                    "errorMessage": "Property '{val}' could not be found"
+                }
+            ]
+        },
+        {
+            "name": "modeOfTransfer",
+            "validations": [
+                {
+                    "type": "enum",
+                    "values": [
+                        "SALE",
+                        "GIFT"
+                    ],
+                    "errorMessage": "modeOfTransfer will only access types 'SALE', 'GIFT'"
+                },
+                {
+                    "type": "required",
+                    "errorMessage": "Field '{name}' is mandatory"
+                }
+            ]
+        },
+        {
+            "name": "applicantName",
+            "validations": [
+                {
+                    "type": "length",
+                    "min": 5,
+                    "max": 50
+                },
+                {
+                    "type": "required",
+                    "errorMessage": "Field '{name}' is mandatory"
+                }
+            ]
+        }
+    ]
+}
