@@ -30096,7 +30096,7 @@
 		},
 		{
 			"rolecode": "SUPERUSER",
-			"actionid": 4420
+			"actionid": 4420,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
