@@ -4,23 +4,23 @@
     "recoverytype": [
         {
             "code": "RECOVERY.DUES",
-            "active": true,
+            "active": true
         },
         {
             "code": "RECOVERY.MONTHLYRENT",
-            "active": true,
+            "active": true
         },
         {
             "code": "RECOVERY.INTEREST",
-            "active": true,
+            "active": true
         },
         {
             "code": "RECOVERY.INTERESTPLUSMONTHLYRENT",
-            "active": true,
+            "active": true
         },
         {
             "code": "RECOVERY.LEASE",
-            "active": true,
+            "active": true
         }
     ]
 }
