@@ -19879,18 +19879,66 @@
 		"code": "null",
 		"path": ""
 	},
-    {
-      "id": 4504,
-      "name": "RecoveryReport",
-      "url": "url",
-      "displayName": "Recovery Report",
-      "orderNumber": 7,
-      "enabled": true,
-      "serviceCode": "FinanceReport",
-      "code": "null",
-      "navigationURL": "services/EGF/report/pendingTDSReport-deductionReport.action",
-      "leftIcon": "editor:insert-chart",
-      "path": "Finance.Reports.Deduction Reports.Recovery Report"
-    }
+	{
+	      "id": 4504,
+	      "name": "RecoveryReport",
+	      "url": "url",
+	      "displayName": "Recovery Report",
+	      "orderNumber": 7,
+	      "enabled": true,
+	      "serviceCode": "FinanceReport",
+	      "code": "null",
+	      "navigationURL": "services/EGF/report/pendingTDSReport-deductionReport.action",
+	      "leftIcon": "editor:insert-chart",
+	      "path": "Finance.Reports.Deduction Reports.Recovery Report"
+	},
+	{
+		"id": 4505,
+		"name": "SMIDCreate",
+		"url": "/nulm-services/v1/smid/_create",
+		"displayName": "SMID Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4506,
+		"name": "SMIDGet",
+		"url": "/nulm-services/v1/smid/_get",
+		"displayName": "SMID Get",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4507,
+		"name": "SMIDUpdate",
+		"url": "/nulm-services/v1/smid/_update",
+		"displayName": "SMID Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4508,
+		"name": "SMIDUpdateAppStatus",
+		"url": "/nulm-services/v1/smid/_updateAppStatus",
+		"displayName": "SMID UpdateAppStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	}
   ]
 }
