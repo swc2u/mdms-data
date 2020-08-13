@@ -19636,7 +19636,7 @@
 		"id": 4420,
 		"name": "Indent Transfer Inward",
 		"url": "url",
-		"displayName": "Indent Transfer Inward,
+		"displayName": "Indent Transfer Inward",
 		"orderNumber": 5,
 		"parentModule": "rainmaker-store-asset",
 		"enabled": true,
