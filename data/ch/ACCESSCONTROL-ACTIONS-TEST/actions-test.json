@@ -19939,6 +19939,18 @@
 		"serviceCode": "nulm-services",
 		"code": "null",
 		"path": ""
-	}
+	},
+	{
+      "id": 1961,
+      "name": "VoucherSearchbyServiceandReference",
+      "url": "/services/EGF/rest/voucher/_searchbyserviceandreference",
+      "displayName": "VoucherSearchbyServiceandReference",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "VoucherSearchbyServiceandReference",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
