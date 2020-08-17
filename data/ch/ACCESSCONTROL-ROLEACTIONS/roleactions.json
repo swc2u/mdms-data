@@ -28286,6 +28286,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_CLERK",
+			"actionid": 4082,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "CTL_SURVEYOR",
 			"actionid": 4047,
 			"actioncode": "",
