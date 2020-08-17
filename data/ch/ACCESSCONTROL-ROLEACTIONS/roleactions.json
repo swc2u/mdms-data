@@ -38574,37 +38574,55 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4501,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "EMPLOYEE",
+			"actionid": 4502,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
 			"actionid": 4503,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "EMPLOYEE",
+			"actionid": 4505,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
 			"actionid": 4506,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "EMPLOYEE",
+			"actionid": 4507,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
 			"actionid": 4508,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4509,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4510,
 			"actioncode": "",
 			"tenantId": "ch"
