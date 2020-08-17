@@ -38674,6 +38674,18 @@
 		"actionid": 4360,
 		"actioncode": "",
 		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 1961,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SYS_INTEGRATOR_FINANCE",
+		"actionid": 1961,
+		"actioncode": "",
+		"tenantId": "ch"
 	}
 	]
 }
