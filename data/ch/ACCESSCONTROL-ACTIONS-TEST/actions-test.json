@@ -16613,6 +16613,18 @@
       "code": "null",
       "path": "UpdateNoticeGenerationApi"
     },
+	{
+      "id": 4082,
+      "name": "ReadingExcelFileApi",
+      "url": "/csp/v1/excel/read",
+      "displayName": "Reading Excel File API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "ReadingExcelFileApi",
+      "code": "null",
+      "path": "ReadingExcelFileApi"
+    },
     {
       "id": 3000,
       "name": "CreatePropertyMasterApi",
