@@ -19941,6 +19941,30 @@
 		"path": ""
 	},
 	{
+		"id": 4509,
+		"name": "OrganizationCreate",
+		"url": "/nulm-services/v1/organization/_create",
+		"displayName": "Organization Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4510,
+		"name": "OrganizationGet",
+		"url": "/nulm-services/v1/organization/_get",
+		"displayName": "Organization Get",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 1961,
       "name": "VoucherSearchbyServiceandReference",
       "url": "/services/EGF/rest/voucher/_searchbyserviceandreference",
