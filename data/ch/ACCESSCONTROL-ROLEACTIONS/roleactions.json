@@ -38574,6 +38574,42 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SUPERUSER",
+			"actionid": 4501,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SUPERUSER",
+			"actionid": 4503,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SUPERUSER",
+			"actionid": 4506,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SUPERUSER",
+			"actionid": 4508,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SUPERUSER",
+			"actionid": 4509,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SUPERUSER",
+			"actionid": 4510,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 		"rolecode": "challanSI",
 		"actionid": "2442",
 		"actioncode": "",
