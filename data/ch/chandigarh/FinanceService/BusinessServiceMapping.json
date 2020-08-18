@@ -9,7 +9,7 @@
          "function":"",
          "department":"427",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -21,7 +21,79 @@
          "function":"",
          "department":"427",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD1.TENDER_FEES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD1.ENLISTMENT_FEES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD1.PENALTY",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD1.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD1.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -33,7 +105,7 @@
          "function":"",
          "department":"428",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -45,7 +117,79 @@
          "function":"",
          "department":"428",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD2.TENDER_FEES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"428",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD2.ENLISTMENT_FEES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"428",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD2.PENALTY",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"428",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD2.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"428",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD2.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"428",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"428",
+         "functionary":"",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -57,7 +201,7 @@
          "function":"",
          "department":"429",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -69,7 +213,79 @@
          "function":"",
          "department":"429",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD3.TENDER_FEES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"429",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD3.ENLISTMENT_FEES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"429",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD3.PENALTY",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"429",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD3.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"429",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD3.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"429",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"APNI_MANDI_DAY_MARKET_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"429",
+         "functionary":"",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -81,7 +297,7 @@
          "function":"",
          "department":"396",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -93,7 +309,7 @@
          "function":"",
          "department":"396",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -105,7 +321,7 @@
          "function":"",
          "department":"432",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -117,7 +333,31 @@
          "function":"",
          "department":"396",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"396",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"396",
+         "functionary":"",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -129,7 +369,7 @@
          "function":"",
          "department":"423",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -141,7 +381,7 @@
          "function":"",
          "department":"424",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -153,7 +393,7 @@
          "function":"",
          "department":"425",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -165,7 +405,7 @@
          "function":"",
          "department":"426",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -177,7 +417,7 @@
          "function":"",
          "department":"427",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -189,7 +429,7 @@
          "function":"",
          "department":"427",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -201,7 +441,7 @@
          "function":"",
          "department":"427",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -213,7 +453,7 @@
          "function":"",
          "department":"427",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -225,7 +465,7 @@
          "function":"",
          "department":"428",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -237,7 +477,7 @@
          "function":"",
          "department":"428",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -249,7 +489,7 @@
          "function":"",
          "department":"428",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -261,7 +501,7 @@
          "function":"",
          "department":"428",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -273,7 +513,7 @@
          "function":"",
          "department":"429",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -285,7 +525,7 @@
          "function":"",
          "department":"429",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -297,7 +537,7 @@
          "function":"",
          "department":"429",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -309,7 +549,7 @@
          "function":"",
          "department":"429",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -321,7 +561,7 @@
          "function":"",
          "department":"386",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -333,7 +573,7 @@
          "function":"",
          "department":"386",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -345,7 +585,7 @@
          "function":"",
          "department":"386",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -357,7 +597,31 @@
          "function":"",
          "department":"386",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"PARKING_BRANCH_RELATED_SERVICES.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"386",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"PARKING_BRANCH_RELATED_SERVICES.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"386",
+         "functionary":"",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -369,7 +633,7 @@
          "function":"",
          "department":"392",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -381,7 +645,31 @@
          "function":"",
          "department":"392",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"ENFORCEMENT_BRANCH_SERVICES.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"392",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"ENFORCEMENT_BRANCH_SERVICES.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"392",
+         "functionary":"",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -393,7 +681,7 @@
          "function":"",
          "department":"398",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -405,7 +693,7 @@
          "function":"",
          "department":"406",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -417,7 +705,7 @@
          "function":"",
          "department":"406",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -429,7 +717,31 @@
          "function":"",
          "department":"406",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"FIRE_DEPARTMENT_SERVICES.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"406",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"FIRE_DEPARTMENT_SERVICES.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"406",
+         "functionary":"",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -441,7 +753,7 @@
          "function":"",
          "department":"433",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -453,7 +765,7 @@
          "function":"",
          "department":"433",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -465,7 +777,7 @@
          "function":"",
          "department":"433",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -477,7 +789,7 @@
          "function":"",
          "department":"433",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -489,7 +801,31 @@
          "function":"",
          "department":"433",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"433",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"433",
+         "functionary":"",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -501,7 +837,7 @@
          "function":"",
          "department":"434",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -513,7 +849,7 @@
          "function":"",
          "department":"434",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -525,7 +861,7 @@
          "function":"",
          "department":"434",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -537,7 +873,7 @@
          "function":"",
          "department":"434",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -549,7 +885,31 @@
          "function":"",
          "department":"434",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"434",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"434",
+         "functionary":"",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -561,7 +921,7 @@
          "function":"",
          "department":"402",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -573,7 +933,7 @@
          "function":"",
          "department":"466",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -585,7 +945,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -597,7 +957,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -609,7 +969,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -621,7 +981,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -633,7 +993,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -645,7 +1005,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -657,7 +1017,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -669,7 +1029,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -681,7 +1041,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -693,7 +1053,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -705,7 +1065,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -717,7 +1077,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -729,7 +1089,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -741,7 +1101,7 @@
          "function":"",
          "department":"394",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -753,7 +1113,7 @@
          "function":"",
          "department":"395",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -765,7 +1125,7 @@
          "function":"",
          "department":"395",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -777,7 +1137,7 @@
          "function":"",
          "department":"395",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -789,7 +1149,7 @@
          "function":"",
          "department":"395",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -801,7 +1161,7 @@
          "function":"",
          "department":"395",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -813,7 +1173,7 @@
          "function":"",
          "department":"390",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -825,7 +1185,7 @@
          "function":"",
          "department":"390",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -837,7 +1197,7 @@
          "function":"",
          "department":"388",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -849,7 +1209,7 @@
          "function":"",
          "department":"388",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -861,7 +1221,7 @@
          "function":"",
          "department":"388",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
