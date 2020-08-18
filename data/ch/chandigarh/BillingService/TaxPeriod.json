@@ -22,6 +22,54 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.TENDER_FEES",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.ENLISTMENT_FEES",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.PENALTY",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.MISC_RECEIPT",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.RTI",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
          "code":"AMRD210YRS2019",
          "financialYear":"2019-29"
@@ -38,6 +86,54 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.TENDER_FEES",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.ENLISTMENT_FEES",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.PENALTY",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.MISC_RECEIPT",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.RTI",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
          "code":"AMRD310YRS2019",
          "financialYear":"2019-29"
@@ -48,6 +144,54 @@
          "periodCycle":"TENYEARS",
          "service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
          "code":"DMRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.TENDER_FEES",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.ENLISTMENT_FEES",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.PENALTY",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.MISC_RECEIPT",
+         "code":"DMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.RTI",
+         "code":"AMRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"DMRD110YRS2019",
          "financialYear":"2019-29"
       },
       {
@@ -79,6 +223,22 @@
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
+         "code":"OBM10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.MISC_RECEIPT",
+         "code":"DG10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.RTI",
          "code":"OBM10YRS2019",
          "financialYear":"2019-29"
       },
@@ -246,6 +406,22 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.MISC_RECEIPT",
+         "code":"TS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RTI",
+         "code":"PPA10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"ENFORCEMENT_BRANCH_SERVICES.AUCTION_CONFISCATED_GOODS",
          "code":"ACG10YRS2019",
          "financialYear":"2019-29"
@@ -255,6 +431,22 @@
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"ENFORCEMENT_BRANCH_SERVICES.REMOVAL_CHARGES_CONFISCATED_GOODS",
+         "code":"RCCG10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ENFORCEMENT_BRANCH_SERVICES.MISC_RECEIPT",
+         "code":"ACG10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ENFORCEMENT_BRANCH_SERVICES.RTI",
          "code":"RCCG10YRS2019",
          "financialYear":"2019-29"
       },
@@ -287,6 +479,22 @@
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"FIRE_DEPARTMENT_SERVICES.FIRE_CALL_CHARGES",
+         "code":"FCC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"FIRE_DEPARTMENT_SERVICES.MISC_RECEIPT",
+         "code":"SBDC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"FIRE_DEPARTMENT_SERVICES.RTI",
          "code":"FCC10YRS2019",
          "financialYear":"2019-29"
       },
@@ -334,6 +542,22 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.MISC_RECEIPT",
+         "code":"SEBHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.RTI",
+         "code":"DOTHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"HORTICULTURE_DIVISION_2_SERVICES.MANGO_GARDEN",
          "code":"MGHD210YRS2019",
          "financialYear":"2019-29"
@@ -368,6 +592,22 @@
          "periodCycle":"TENYEARS",
          "service":"HORTICULTURE_DIVISION_2_SERVICES.AUCTION_DEAD_OLD_TREES",
          "code":"DOTHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.MISC_RECEIPT",
+         "code":"SEBHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.RTI",
+         "code":"DOTHD110YRS2019",
          "financialYear":"2019-29"
       },
       {
