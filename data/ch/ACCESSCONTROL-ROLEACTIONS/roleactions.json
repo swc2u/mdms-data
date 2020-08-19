@@ -38839,6 +38839,24 @@
 	},
 	{
 		"rolecode": "SUPERUSER",
+		"actionid": 4361,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4362,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
+		"actionid": 4363,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "SUPERUSER",
 		"actionid": 1961,
 		"actioncode": "",
 		"tenantId": "ch"
