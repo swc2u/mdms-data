@@ -19,7 +19,7 @@
       "name": "SendSmsNotification",
       "url": "/notification-service/sms/v1/_send",
       "displayName": "Send Sms",
-      "orderNumber": 1,4
+      "orderNumber": 1,
       "parentModule": "",
       "enabled": false,
       "serviceCode": "NOTIFICATIONSMS",
