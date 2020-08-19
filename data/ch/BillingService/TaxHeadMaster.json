@@ -136,7 +136,7 @@
          "category":"FEE",
          "service":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
          "name":"Ground Rent - Markets & Apni Mandi",
-         "code":"GROUND_RENT_MARKETS_APNI_MANDI_RD1",
+         "code":"GROUND_RENT_MARKETS_DAY_MARKET_RD1",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
