@@ -18240,6 +18240,42 @@
 		"code": "null",
 		"path": ""
 	 },
+	 {
+		"id": 4361,
+		"name": "IndentPrint",
+		"url": "/store-asset-services/indents/_print",
+		"displayName": "Indent Print",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	 {
+		"id": 4362,
+		"name": "MaterialReceiptNotePrint",
+		"url": "/store-asset-services/receiptnotes/_print",
+		"displayName": "Material Receipt Note Print",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	 {
+		"id": 4363,
+		"name": "MiscellaneousMaterialReceiptNotePrint",
+		"url": "/store-asset-services/miscellaneousreceiptnotes/_print",
+		"displayName": "Miscellaneous Material Receipt Note Print",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },	 
         
     {
 			"id": 2601,
