@@ -28274,37 +28274,37 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_CLERK",
+			"rolecode": "RP_CLERK",
 			"actionid": 4080,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_CLERK",
+			"rolecode": "RP_CLERK",
 			"actionid": 4081,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_CLERK",
+			"rolecode": "RP_CLERK",
 			"actionid": 4082,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_SURVEYOR",
+			"rolecode": "RP_SURVEYOR",
 			"actionid": 4047,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_SURVEYOR",
+			"rolecode": "RP_SURVEYOR",
 			"actionid": 4048,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_SURVEYOR",
+			"rolecode": "RP_SURVEYOR",
 			"actionid": 4049,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -28478,19 +28478,19 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_CLERK",
+			"rolecode": "RP_CLERK",
 			"actionid": 4047,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_CLERK",
+			"rolecode": "RP_CLERK",
 			"actionid": 4048,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_CLERK",
+			"rolecode": "RP_CLERK",
 			"actionid": 4049,
 			"actioncode": "",
 			"tenantId": "ch"
