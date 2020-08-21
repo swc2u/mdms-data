@@ -817,6 +817,10 @@
       "code": "CA",
       "name": "Chief Administrator",
       "description": "Chief Administrator"
+    },{
+      "code": "NGO",
+      "name": "Non-Government Organizations",
+      "description": "Non-Government Organizations"
     }
   ]
 }
