@@ -18275,9 +18275,68 @@
 		"serviceCode": "store-asset-services",
 		"code": "null",
 		"path": ""
-	 },	 
-        
-    {
+	 },
+	 {
+		"id": 4364,
+		"name": "PurchaseOrderPrint",
+		"url": "/store-asset-services/purchaseorders/_print",
+		"displayName": "Purchase Order Print",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	 {
+		"id": 4365,
+		"name": "Indent Outward Print",
+		"url": "/store-asset-services/materialissues-to/_print",
+		"displayName": "IndentOutwardPrint",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	 {
+		"id": 4366,
+		"name": "Indent Inward Print",
+		"url": "/store-asset-services/transferinwards/_print",
+		"displayName": "IndentInwardPrint",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	 {
+		"id": 4367,
+		"name": "Indent Issue Note Print",
+		"url": "/store-asset-services/materialissues/_print",
+		"displayName": "IndentIssueNotePrint",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	 {
+		"id": 4368,
+		"name": "Non-Indent Issue Note Print",
+		"url": "/store-asset-services/materialissues-ni/_print",
+		"displayName": "Non-IndentIssueNotePrint",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },        
+	 {
 			"id": 2601,
 			"name": "Horticulture",
 			"url": "card",
