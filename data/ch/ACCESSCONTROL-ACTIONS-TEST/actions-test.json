@@ -16412,7 +16412,7 @@
     {
       "id": 4035,
       "name": "CreateProperty",
-      "url": "/csp/property/_create",
+      "url": "/rp-services/property/_create",
       "displayName": "Create Property",
       "orderNumber": 0,
       "parentModule": "",
@@ -16424,7 +16424,7 @@
     {
       "id": 4036,
       "name": "SearchPropertyApi",
-      "url": "/csp/property/_search",
+      "url": "/rp-services/property/_search",
       "displayName": "Search Property api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16436,7 +16436,7 @@
     {
       "id": 4037,
       "name": "UpdatePropertyApi",
-      "url": "/csp/property/_update",
+      "url": "/rp-services/property/_update",
       "displayName": "Update Property api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16448,7 +16448,7 @@
     {
       "id": 4038,
       "name": "CreateOwnershipTransfer",
-      "url": "/csp/ownership-transfer/_create",
+      "url": "/rp-services/ownership-transfer/_create",
       "displayName": "Create Ownership Transfer",
       "orderNumber": 0,
       "parentModule": "",
@@ -16460,7 +16460,7 @@
     {
       "id": 4039,
       "name": "UpdateOwnershipTransfer",
-      "url": "/csp/ownership-transfer/_update",
+      "url": "/rp-services/ownership-transfer/_update",
       "displayName": "Update Ownership Transfer",
       "orderNumber": 0,
       "parentModule": "",
@@ -16472,7 +16472,7 @@
     {
       "id": 4040,
       "name": "SearchOwnershipTransfer",
-      "url": "/csp/ownership-transfer/_search",
+      "url": "/rp-services/ownership-transfer/_search",
       "displayName": "Search Ownership Transfer",
       "orderNumber": 0,
       "parentModule": "",
@@ -16484,7 +16484,7 @@
     {
       "id": 4041,
       "name": "CreateDuplicateCopyPropertyApi",
-      "url": "/csp/duplicatecopy/_create",
+      "url": "/rp-services/duplicatecopy/_create",
       "displayName": "create duplicatecopy api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16496,7 +16496,7 @@
     {
       "id": 4042,
       "name": "SearchDuplicateCopyPropertyApi",
-      "url": "/csp/duplicatecopy/_search",
+      "url": "/rp-services/duplicatecopy/_search",
       "displayName": "create duplicatecopy api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16508,7 +16508,7 @@
     {
       "id": 4043,
       "name": "UpdateDuplicateCopyPropertyApi",
-      "url": "/csp/duplicatecopy/_update",
+      "url": "/rp-services/duplicatecopy/_update",
       "displayName": "create duplicatecopy api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16520,7 +16520,7 @@
     {
       "id": 4044,
       "name": "CreateMortgaeApplicationApi",
-      "url": "/csp/mortgage/_create",
+      "url": "/rp-services/mortgage/_create",
       "displayName": "create mortgage application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16532,7 +16532,7 @@
 	  {
       "id": 4045,
       "name": "SearchMortgaeApplicationApi",
-      "url": "/csp/mortgage/_search",
+      "url": "/rp-services/mortgage/_search",
       "displayName": "search mortgage application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16544,7 +16544,7 @@
     {
       "id": 4046,
       "name": "UpdateMortgaeApplicationApi",
-      "url": "/csp/mortgage/_update",
+      "url": "/rp-services/mortgage/_update",
       "displayName": "update mortgage application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16556,7 +16556,7 @@
 	  {
       "id": 4047,
       "name": "CreateCapturingTransiteSiteImagesApi",
-      "url": "/csp/property-images/_create",
+      "url": "/rp-services/property-images/_create",
       "displayName": "create capturing transite site images api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16568,7 +16568,7 @@
     {
       "id": 4048,
       "name": "SearchCapturingTransiteSiteImagesApi",
-      "url": "/csp/property-images/_search",
+      "url": "/rp-services/property-images/_search",
       "displayName": "search capturing transite site images api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16580,7 +16580,7 @@
     {
       "id": 4049,
       "name": "UpdateCapturingTransiteSiteImagesApi",
-      "url": "/csp/property-images/_update",
+      "url": "/rp-services/property-images/_update",
       "displayName": "update capturing transite site images api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16592,7 +16592,7 @@
 	 {
       "id": 4080,
       "name": "CreateNoticeGenerationApi",
-      "url": "/csp/notice-generation/_create",
+      "url": "/rp-services/notice-generation/_create",
       "displayName": "Create NoticeGeneration API",
       "orderNumber": 0,
       "parentModule": "",
@@ -16604,7 +16604,7 @@
 	{
       "id": 4081,
       "name": "UpdateNoticeGenerationApi",
-      "url": "/csp/notice-generation/_update",
+      "url": "/rp-services/notice-generation/_update",
       "displayName": "Update NoticeGeneration API",
       "orderNumber": 0,
       "parentModule": "",
@@ -16616,7 +16616,7 @@
 	{
       "id": 4082,
       "name": "ReadingExcelFileApi",
-      "url": "/csp/v1/excel/read",
+      "url": "/rp-services/v1/excel/read",
       "displayName": "Reading Excel File API",
       "orderNumber": 0,
       "parentModule": "",
@@ -16628,7 +16628,7 @@
     {
       "id": 3000,
       "name": "CreatePropertyMasterApi",
-      "url": "/property-service/property-master/_create",
+      "url": "/est-services/property-master/_create",
       "displayName": "Create Property Master api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16640,7 +16640,7 @@
     {
       "id": 3001,
       "name": "SearchPropertyMasterApi",
-      "url": "/property-service/property-master/_search",
+      "url": "/est-services/property-master/_search",
       "displayName": "Search Property Master api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16652,7 +16652,7 @@
     {
       "id": 3002,
       "name": "UpdatePropertyMasterApi",
-      "url": "/property-service/property-master/_update",
+      "url": "/est-services/property-master/_update",
       "displayName": "Update Property Master api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16664,7 +16664,7 @@
     {
       "id": 3003,
       "name": "CreateOwnershipTransfer",
-      "url": "/property-service/ownership-transfer/_create",
+      "url": "/est-services/ownership-transfer/_create",
       "displayName": "Create Ownership Transfer",
       "orderNumber": 0,
       "parentModule": "",
@@ -16676,7 +16676,7 @@
     {
       "id": 3004,
       "name": "UpdateOwnershipTransfer",
-      "url": "/property-service/ownership-transfer/_update",
+      "url": "/est-services/ownership-transfer/_update",
       "displayName": "Update Ownership Transfer",
       "orderNumber": 0,
       "parentModule": "",
@@ -16688,7 +16688,7 @@
     {
       "id": 3005,
       "name": "SearchOwnershipTransfer",
-      "url": "/property-service/ownership-transfer/_search",
+      "url": "/est-services/ownership-transfer/_search",
       "displayName": "Search Ownership Transfer",
       "orderNumber": 0,
       "parentModule": "",
@@ -16700,7 +16700,7 @@
     {
       "id": 3006,
       "name": "CreateDuplicateCopyPropertyApi",
-      "url": "/property-service/duplicatecopy/_create",
+      "url": "/est-services/duplicatecopy/_create",
       "displayName": "create duplicatecopy api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16712,7 +16712,7 @@
     {
       "id": 3007,
       "name": "SearchDuplicateCopyPropertyApi",
-      "url": "/property-service/duplicatecopy/_search",
+      "url": "/est-services/duplicatecopy/_search",
       "displayName": "create duplicatecopy api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16724,7 +16724,7 @@
     {
       "id": 3008,
       "name": "UpdateDuplicateCopyPropertyApi",
-      "url": "/property-service/duplicatecopy/_update",
+      "url": "/est-services/duplicatecopy/_update",
       "displayName": "create duplicatecopy api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16736,7 +16736,7 @@
     {
       "id": 3009,
       "name": "CreateMortgaeApplicationApi",
-      "url": "/property-service/mortgage/_create",
+      "url": "/est-services/mortgage/_create",
       "displayName": "create mortgage application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16748,7 +16748,7 @@
 	  {
       "id": 3010,
       "name": "SearchMortgaeApplicationApi",
-      "url": "/property-service/mortgage/_search",
+      "url": "/est-services/mortgage/_search",
       "displayName": "search mortgage application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16760,7 +16760,7 @@
     {
       "id": 3011,
       "name": "UpdateMortgaeApplicationApi",
-      "url": "/property-service/mortgage/_update",
+      "url": "/est-services/mortgage/_update",
       "displayName": "update mortgage application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16772,7 +16772,7 @@
 	  {
       "id": 3012,
       "name": "CreateNoticeGenerationApi",
-      "url": "/property-service/notice-generation/_create",
+      "url": "/est-services/notice-generation/_create",
       "displayName": "Create NoticeGeneration API",
       "orderNumber": 0,
       "parentModule": "",
@@ -16784,7 +16784,7 @@
 	  {
       "id": 3013,
       "name": "UpdateNoticeGenerationApi",
-      "url": "/property-service/notice-generation/_update",
+      "url": "/est-services/notice-generation/_update",
       "displayName": "Update NoticeGeneration API",
       "orderNumber": 0,
       "parentModule": "",
@@ -16796,7 +16796,7 @@
     {
       "id": 3014,
       "name": "CreateApplicationApi",
-      "url": "/property-service/application/_create",
+      "url": "/est-services/application/_create",
       "displayName": "Create Application api",
       "orderNumber": 0,
       "parentModule": "",
@@ -16808,7 +16808,7 @@
 	  {
       "id": 3015,
       "name": "SearchApplicationApi",
-      "url": "/property-service/application/_search",
+      "url": "/est-services/application/_search",
       "displayName": "Search Application API",
       "orderNumber": 0,
       "parentModule": "",
@@ -16820,7 +16820,7 @@
 	  {
       "id": 3016,
       "name": "UpdateApplicationApi",
-      "url": "/property-service/application/_update",
+      "url": "/est-services/application/_update",
       "displayName": "Update Application API",
       "orderNumber": 0,
       "parentModule": "",
