@@ -32989,7 +32989,7 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "GRO",
+			"rolecode": "GRO_ADMIN",
 			"actionid": 1990,
 			"actioncode": "",
 			"tenantId": "ch"

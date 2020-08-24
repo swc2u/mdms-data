@@ -42,6 +42,11 @@
       "name": "Grievance Routing Officer",
       "description": "Grievance Routing Officer"
     },
+	{
+      "code": "GRO_ADMIN",
+      "name": "Grievance Routing Officer Admin",
+      "description": "Grievance Routing Officer Admin"
+    },
     {
       "code": "Asset Administrator",
       "name": "Asset Administrator",
