@@ -20168,6 +20168,30 @@
 		"path": ""
 	},
 	{
+		"id": 4520,
+		"name": "smidSHGForwardToApproval",
+		"url": "/nulm-services/v1/smid/shg/_forwardToApproval",
+		"displayName": "SMID SHG ForwardToApproval",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4521,
+		"name": "smidSHGMemberCount",
+		"url": "/nulm-services/v1/smid/shg/member/_memberCount",
+		"displayName": "SMID SHG Member Count",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 1961,
       "name": "VoucherSearchbyServiceandReference",
       "url": "/services/EGF/rest/voucher/_searchbyserviceandreference",
