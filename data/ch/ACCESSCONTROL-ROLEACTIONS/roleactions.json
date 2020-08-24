@@ -38514,6 +38514,18 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SUPERUSER",
+			"actionid": 4504,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EGF_REPORT_VIEW",
+			"actionid": 4504,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "CITIZEN",
 			"actionid": 4500,
 			"actioncode": "",
@@ -38534,18 +38546,6 @@
 		{
 			"rolecode": "CITIZEN",
 			"actionid": 4503,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "SUPERUSER",
-			"actionid": 4504,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EGF_REPORT_VIEW",
-			"actionid": 4504,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -38576,6 +38576,12 @@
 		{
 			"rolecode": "EMPLOYEE",
 			"actionid": 4501,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4500,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -38628,109 +38634,157 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4511,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4512,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4513,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4514,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4515,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4516,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4517,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4518,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4519,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "NGO",
+			"actionid": 4501,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 4500,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 4502,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 4503,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 4505,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 4506,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 4507,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 4508,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
 			"actionid": 4511,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "NGO",
 			"actionid": 4512,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "NGO",
 			"actionid": 4513,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "NGO",
 			"actionid": 4514,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "NGO",
 			"actionid": 4515,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "NGO",
 			"actionid": 4516,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "NGO",
 			"actionid": 4517,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "NGO",
 			"actionid": 4518,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "NGO",
 			"actionid": 4519,
 			"actioncode": "",
 			"tenantId": "ch"
