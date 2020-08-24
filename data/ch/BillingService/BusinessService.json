@@ -20,7 +20,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 1).Tender Fees",
          "code":"APNI_MANDI_DAY_MARKET_RD1.TENDER_FEES",
          "partPaymentAllowed":false,
@@ -29,7 +29,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 1).Enlistment Fees",
          "code":"APNI_MANDI_DAY_MARKET_RD1.ENLISTMENT_FEES",
          "partPaymentAllowed":false,
@@ -38,7 +38,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 1).Penalty",
          "code":"APNI_MANDI_DAY_MARKET_RD1.PENALTY",
          "partPaymentAllowed":false,
@@ -47,7 +47,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 1).Unspecified Receipt/Miscellaneous Receipts",
          "code":"APNI_MANDI_DAY_MARKET_RD1.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -56,7 +56,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 1).RTI",
          "code":"APNI_MANDI_DAY_MARKET_RD1.RTI",
          "partPaymentAllowed":false,
@@ -65,7 +65,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 1).Rent From Verka booth/Vita Umeed",
          "code":"APNI_MANDI_DAY_MARKET_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
          "partPaymentAllowed":false,
@@ -92,7 +92,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 2).Tender Fees",
          "code":"APNI_MANDI_DAY_MARKET_RD2.TENDER_FEES",
          "partPaymentAllowed":false,
@@ -101,7 +101,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 2).Enlistment Fees",
          "code":"APNI_MANDI_DAY_MARKET_RD2.ENLISTMENT_FEES",
          "partPaymentAllowed":false,
@@ -110,7 +110,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 2).Penalty",
          "code":"APNI_MANDI_DAY_MARKET_RD2.PENALTY",
          "partPaymentAllowed":false,
@@ -119,7 +119,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 2).Unspecified Receipt/Miscellaneous Receipts",
          "code":"APNI_MANDI_DAY_MARKET_RD2.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -128,7 +128,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 2).RTI",
          "code":"APNI_MANDI_DAY_MARKET_RD2.RTI",
          "partPaymentAllowed":false,
@@ -137,7 +137,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 2).Rent From Verka booth/Vita Umeed",
          "code":"APNI_MANDI_DAY_MARKET_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
          "partPaymentAllowed":false,
@@ -164,7 +164,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 3).Tender Fees",
          "code":"APNI_MANDI_DAY_MARKET_RD3.TENDER_FEES",
          "partPaymentAllowed":false,
@@ -173,7 +173,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 3).Enlistment Fees",
          "code":"APNI_MANDI_DAY_MARKET_RD3.ENLISTMENT_FEES",
          "partPaymentAllowed":false,
@@ -182,7 +182,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 3).Penalty",
          "code":"APNI_MANDI_DAY_MARKET_RD3.PENALTY",
          "partPaymentAllowed":false,
@@ -191,7 +191,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 3).Unspecified Receipt/Miscellaneous Receipts",
          "code":"APNI_MANDI_DAY_MARKET_RD3.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -200,7 +200,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 3).RTI",
          "code":"APNI_MANDI_DAY_MARKET_RD3.RTI",
          "partPaymentAllowed":false,
@@ -209,7 +209,7 @@
          "isActive":true,
          "type":"ApnaMandi"
       },
-	  {
+      {
          "businessService":"Apni Mandi and Day Market (Road Div 3).Rent From Verka booth/Vita Umeed",
          "code":"APNI_MANDI_DAY_MARKET_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
          "partPaymentAllowed":false,
@@ -238,7 +238,7 @@
       },
       {
          "businessService":"Pedal Rickshaw/Loading Rehri, Dhobi Ghat and Old Book Market.Dhobi Ghat",
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
+         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
@@ -452,7 +452,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Parking Branch Related Services.Unspecified Receipt/Miscellaneous Receipts",
          "code":"PARKING_BRANCH_RELATED_SERVICES.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -461,7 +461,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Parking Branch Related Services.RTI",
          "code":"PARKING_BRANCH_RELATED_SERVICES.RTI",
          "partPaymentAllowed":false,
@@ -488,7 +488,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Enforcement Branch Services.Unspecified Receipt/Miscellaneous Receipts",
          "code":"ENFORCEMENT_BRANCH_SERVICES.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -497,7 +497,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Enforcement Branch Services.RTI",
          "code":"ENFORCEMENT_BRANCH_SERVICES.RTI",
          "partPaymentAllowed":false,
@@ -542,7 +542,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Fire Department Services.Unspecified Receipt/Miscellaneous Receipts",
          "code":"FIRE_DEPARTMENT_SERVICES.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -551,7 +551,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Fire Department Services.RTI",
          "code":"FIRE_DEPARTMENT_SERVICES.RTI",
          "partPaymentAllowed":false,
@@ -605,7 +605,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Horticulture Division 1 Services.Unspecified Receipt/Miscellaneous Receipts",
          "code":"HORTICULTURE_DIVISION_1_SERVICES.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -668,7 +668,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Horticulture Division 2 Services.Unspecified Receipt/Miscellaneous Receipts",
          "code":"HORTICULTURE_DIVISION_2_SERVICES.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -830,7 +830,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Booking Branch Services.Booking of Grounds/Open Spaces",
          "code":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
          "partPaymentAllowed":false,
@@ -893,7 +893,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Colony Branch Services.Unspecified Receipt/Miscellaneous Receipts",
          "code":"COLONY_BRANCH_SERVICES.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -929,7 +929,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Porperty Tax.Unspecified Receipt/Miscellaneous Receipts",
          "code":"PORPERTY_TAX.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -974,7 +974,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Estate Branch.Unspecified Receipt/Miscellaneous Receipts",
          "code":"ESTATE_BRANCH.MISC_RECEIPT",
          "partPaymentAllowed":false,
