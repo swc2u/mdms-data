@@ -38790,6 +38790,18 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "NGO",
+			"actionid": 701,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 870,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 		"rolecode": "challanSI",
 		"actionid": "2442",
 		"actioncode": "",
