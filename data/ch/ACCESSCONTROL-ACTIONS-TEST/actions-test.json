@@ -18240,8 +18240,104 @@
 		"code": "null",
 		"path": ""
 	 },
-	 {
-		"id": 4361,
+	 	{
+		"id": 4364,
+		"name": "IndentsUpdateStatus",
+		"url": "/store-asset-services/indents/_updateStatus",
+		"displayName": "Indents UpdateStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4365,
+		"name": "IndentsIssueUpdate",
+		"url": "/store-asset-services/materialissues/_updateStatus",
+		"displayName": "Indents Issue UpdateStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4366,
+		"name": "Purchase Order Update Status",
+		"url": "/store-asset-services/purchaseorders/_updateStatus",
+		"displayName": "PurchaseOrder UpdateStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4367,
+		"name": "Material Receipt Update Status",
+		"url": "/store-asset-services/receiptnotes/_updateStatus",
+		"displayName": "Material Receipt UpdateStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+		{
+		"id": 4368,
+		"name": "Misc Material Update Status",
+		"url": "/store-asset-services/materialissues/_updateStatus",
+		"displayName": "Misc Material Update Status",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4369,
+		"name": "IndentsIssueUpdate",
+		"url": "/store-asset-services/materialissues/_updateStatus",
+		"displayName": "Indents Issue UpdateStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+	      	{
+		"id": 4370,
+		"name": "Material ReceiptOutword",
+		"url": "/store-asset-services/materialissues-to/_updateStatus",
+		"displayName": "Material ReceiptOutword UpdateStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},
+		{
+		"id": 4371,
+		"name": "Material Transefer Inward",
+		"url": "/store-asset-services/transferinwards/_updateStatus",
+		"displayName": "Material Inward UpdateStatus",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	},	
+	{
+		"id": 4372,
 		"name": "IndentPrint",
 		"url": "/store-asset-services/indents/_print",
 		"displayName": "Indent Print",
@@ -18253,7 +18349,7 @@
 		"path": ""
 	 },
 	 {
-		"id": 4362,
+		"id": 4373,
 		"name": "MaterialReceiptNotePrint",
 		"url": "/store-asset-services/receiptnotes/_print",
 		"displayName": "Material Receipt Note Print",
@@ -18265,7 +18361,7 @@
 		"path": ""
 	 },
 	 {
-		"id": 4363,
+		"id": 4374,
 		"name": "MiscellaneousMaterialReceiptNotePrint",
 		"url": "/store-asset-services/miscellaneousreceiptnotes/_print",
 		"displayName": "Miscellaneous Material Receipt Note Print",
@@ -18277,7 +18373,7 @@
 		"path": ""
 	 },
 	 {
-		"id": 4364,
+		"id": 4375,
 		"name": "PurchaseOrderPrint",
 		"url": "/store-asset-services/purchaseorders/_print",
 		"displayName": "Purchase Order Print",
@@ -18289,7 +18385,7 @@
 		"path": ""
 	 },
 	 {
-		"id": 4365,
+		"id": 4376,
 		"name": "Indent Outward Print",
 		"url": "/store-asset-services/materialissues-to/_print",
 		"displayName": "IndentOutwardPrint",
@@ -18301,7 +18397,7 @@
 		"path": ""
 	 },
 	 {
-		"id": 4366,
+		"id": 4377,
 		"name": "Indent Inward Print",
 		"url": "/store-asset-services/transferinwards/_print",
 		"displayName": "IndentInwardPrint",
@@ -18313,7 +18409,7 @@
 		"path": ""
 	 },
 	 {
-		"id": 4367,
+		"id": 4378,
 		"name": "Indent Issue Note Print",
 		"url": "/store-asset-services/materialissues/_print",
 		"displayName": "IndentIssueNotePrint",
@@ -18325,7 +18421,7 @@
 		"path": ""
 	 },
 	 {
-		"id": 4368,
+		"id": 4379,
 		"name": "Non-Indent Issue Note Print",
 		"url": "/store-asset-services/materialissues-ni/_print",
 		"displayName": "Non-IndentIssueNotePrint",
@@ -18335,7 +18431,7 @@
 		"serviceCode": "store-asset-services",
 		"code": "null",
 		"path": ""
-	 },        
+	 },	 
 	 {
 			"id": 2601,
 			"name": "Horticulture",
