@@ -42,6 +42,11 @@
       "name": "Grievance Routing Officer",
       "description": "Grievance Routing Officer"
     },
+	{
+      "code": "GRO_ADMIN",
+      "name": "Grievance Routing Officer Admin",
+      "description": "Grievance Routing Officer Admin"
+    },
     {
       "code": "Asset Administrator",
       "name": "Asset Administrator",
@@ -821,6 +826,81 @@
       "code": "NGO",
       "name": "Non-Government Organizations",
       "description": "Non-Government Organizations"
+    },{
+      "code": "SAJE",
+      "name": "Junior Engineer",
+      "description": "Store Asset Junior Engineer"
+    },{
+      "code": "SAEE",
+      "name": "Executive Engineer",
+      "description": "Store Asset Executive Engineer"
+    },{
+      "code": "SASE",
+      "name": "Senior Engineer",
+      "description": "Store Asset Senior Engineer"
+    },{
+      "code": "SACE",
+      "name": "Chief Engineer",
+      "description": "Store Asset Chief Engineer"
+    },{
+      "code": "SASDO",
+      "name": "SDO ",
+      "description": "Store Asset SDO"
+    },
+	{
+      "code": "SACOM",
+      "name": "COMMISSIONER",
+      "description": "Store Asset COMMISSIONER"
+    },
+	{
+      "code": "SACP",
+      "name": "Computer Programmer",
+      "description": "Store Asset Computer Programmer"
+    },
+	{
+      "code": "SASA",
+      "name": "Senior Assistant",
+      "description": "Store Asset Senior Assistant"
+    },
+	{
+      "code": "SASP",
+      "name": "SUPERINTENDENT",
+      "description": "Store Asset SUPERINTENDENT"
+    },
+	{
+      "code": "SASO",
+      "name": "Section Officer",
+      "description": "Store Asset Section Officer"
+    },
+	{
+      "code": "SACAO",
+      "name": "CAO",
+      "description": "Store Asset CAO"
+    },
+	{
+      "code": "SAACMC",
+      "name": "ACMC",
+      "description": "Store Asset ACMC"
+    },
+	{
+      "code": "SACT",
+      "name": "Caretaker",
+      "description": "Store Asset Caretaker"
+    },
+	{
+      "code": "SACSI",
+      "name": "CSI",
+      "description": "Store Asset CSI"
+    },
+	{
+      "code": "SAMOH",
+      "name": "MOH",
+      "description": "Store Asset MOH"
+    },
+	{
+      "code": "SAJC",
+      "name": "Jt COMMISSIONER",
+      "description": "Store Asset Jt COMMISSIONER"
     }
   ]
 }
