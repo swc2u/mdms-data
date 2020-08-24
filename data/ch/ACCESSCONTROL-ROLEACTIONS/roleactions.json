@@ -38802,6 +38802,42 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CITIZEN",
+			"actionid": 4520,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4521,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4520,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4521,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 4520,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NGO",
+			"actionid": 4521,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 		"rolecode": "challanSI",
 		"actionid": "2442",
 		"actioncode": "",
