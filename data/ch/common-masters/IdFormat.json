@@ -522,6 +522,14 @@
 	{
 		"format": "SHG/[fy:yyyy-yy]/[SEQ_NULM_SMID_SHG_ID_GEN]",
 		"idname": "ch.nulm.smid.shg"
+	},
+	{ 
+		"format": "SUH/[fy:yyyy-yy]/[SEQ_NULM_SUH_ID_GEN]",
+		"idname": "ch.nulm.suh"
+	},
+	{
+		"format": "SUSV/[fy:yyyy-yy]/[SEQ_NULM_SUSV_ID_GEN",
+		"idname": "ch.nulm.susv"
 	}
     ]
 }
