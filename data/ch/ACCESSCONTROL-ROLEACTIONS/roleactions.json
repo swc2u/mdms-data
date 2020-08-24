@@ -39072,6 +39072,90 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "challanSI",
+		"actionid": "1730",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanSM",
+		"actionid": "1730",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanHOD",
+		"actionid": "1730",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanEAO",
+		"actionid": "1730",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanSI",
+		"actionid": "1743",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanSM",
+		"actionid": "1743",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanHOD",
+		"actionid": "1743",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanEAO",
+		"actionid": "1743",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanSI",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanSM",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanHOD",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanEAO",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "CITIZEN",
+		"actionid": "2417",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "challanSI",
+		"actionid": "2417",
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 			"rolecode": "SAJE",
 			"actionid": 4300,
 			"actioncode": "",
