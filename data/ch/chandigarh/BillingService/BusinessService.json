@@ -238,7 +238,7 @@
       },
       {
          "businessService":"Pedal Rickshaw/Loading Rehri, Dhobi Ghat and Old Book Market.Dhobi Ghat",
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
+         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
