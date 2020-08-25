@@ -849,6 +849,15 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Booking Branch Services.RTI",
+         "code":"BOOKING_BRANCH_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Colony Branch Services.VIKAS NAGAR, MAULIJAGRAN",
          "code":"COLONY_BRANCH_SERVICES.VIKAS_NAGAR_MAULIJAGRAN",
          "partPaymentAllowed":false,
