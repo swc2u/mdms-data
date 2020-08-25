@@ -6,6 +6,9 @@
             "code": "COLONY.MILK",
             "active": true,
             "costPerSqyd" : 2,
+            "interestRateOrYear": 24,
+            "rentIncrementPercentage": 25,
+            "rentIncrementPeriod": 5,
             "area": [
                 {
                     "code": "AREA.150",
@@ -23,6 +26,9 @@
             "code": "COLONY.KUMHAR",
             "active": true,
             "costPerSqyd" : 4,
+            "interestRateOrYear": 24,
+            "rentIncrementPercentage": 25,
+            "rentIncrementPeriod": 5,
             "area": [
                 {
                     "code": "AREA.125",
@@ -34,6 +40,9 @@
         {
             "code": "COLONY.SECTOR_52_53",
             "active": true,
+            "interestRateOrYear": 0,
+            "rentIncrementPercentage": 5,
+            "rentIncrementPeriod": 1,
             "area": [
                 {
                     "code": "AREA.150",
@@ -45,6 +54,9 @@
         {
             "code": "COLONY.VIKAR_NAGAR",
             "active": true,
+            "interestRateOrYear": 0,
+            "rentIncrementPercentage": 5,
+            "rentIncrementPeriod": 1,
             "area": [
                 {
                     "code": "AREA.150",
