@@ -1120,17 +1120,6 @@
       "isActive": true
     },
     {
-      "businessService": "TL.RENEWAL",
-      "code": "TL.RENEWAL",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true
-    },
-    {
       "businessService": "WS.ONE_TIME_FEE",
       "code": "WS.ONE_TIME_FEE",
       "collectionModesNotAllowed": [
