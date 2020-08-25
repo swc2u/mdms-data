@@ -28136,6 +28136,36 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "APNIMANDI_REPORT_VIEWER",
+			"actionid": 4105,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "APNIMANDI_REPORT_VIEWER",
+			"actionid": 4106,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "APNIMANDI_REPORT_VIEWER",
+			"actionid": 4107,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "APNIMANDI_REPORT_VIEWER",
+			"actionid": 4108,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "APNIMANDI_REPORT_VIEWER",
+			"actionid": 4109,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SYSTEM",
 			"actionid": 100,
 			"actioncode": "",
