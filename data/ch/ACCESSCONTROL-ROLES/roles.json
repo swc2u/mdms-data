@@ -604,6 +604,11 @@
 		"description": "Apnimandi approver will forward, approve and reject the workflow of contractor and collection"
 	},
 	{
+		"code": "APNIMANDI_REPORT_VIEWER",
+		"name": "Apnimandi Report Viewer",
+		"description": "Apnimandi report viewer can view all kind of mis report of contractor and collection"
+	},
+	{
 		"code": "LCMS_ADMIN",
 		"name": "LCMS Admin",
 		"description": "LCMS Admin will manage all legal cases and LCMS related master datas"
