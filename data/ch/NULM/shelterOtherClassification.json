@@ -1,0 +1,31 @@
+{
+  "tenantId": "ch",
+  "moduleName": "NULM",
+  "shelterOtherClassification": [
+    {
+      "code": "OLD_AGE_HOME",
+	  "name":"Old age home",
+      "active": true
+    },
+	{
+      "code": "CHILD_CARE_HOME",
+	  "name":"Child Care Home",
+      "active": true
+    },
+	{
+      "code": "NARI_NIKETAN",
+	  "name":"Nari Niketan",
+      "active": true
+    },
+	{
+      "code": "HOME_FOR_SPECIALLY_ABLED_PERSONS",
+	  "name":"Home for specially-abled persons",
+      "active": true
+    },
+	{
+      "code": "OTHERS",
+	  "name":"Others",
+      "active": true
+    }
+  ]
+}
