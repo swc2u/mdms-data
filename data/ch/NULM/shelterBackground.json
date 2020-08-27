@@ -1,0 +1,26 @@
+{
+  "tenantId": "ch",
+  "moduleName": "NULM",
+  "shelterBackground": [
+    {
+      "code": "NEW_UNDER_DAY_NULM",
+	  "name":"New under DAY NULM",
+      "active": true
+    },
+	{
+      "code": "EXISTING_SHELTER_OTHER_THAN_DAY_NULM",
+	  "name":"Existing Shelter other than DAY NULM",
+      "active": true
+    },
+	{
+      "code": "REFURBISHED",
+	  "name":"Refurbished",
+      "active": true
+    },
+	{
+      "code": "NON_REFURBISHED",
+	  "name":"Non_refurbished",
+      "active": true
+    }
+  ]
+}
