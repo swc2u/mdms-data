@@ -1,0 +1,96 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "FinanceModule",
+  "BankAccountServiceMapping": [
+    {
+      "businessDetails": "DISP_FIXED_ASSET.BUILDING",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "DISP_FIXED_ASSET.LAND",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "REV_GRANTS",
+      "bankAccount": "00382191008271",
+      "bank": "Oriental Bank of Commerce",
+      "bankBranch": "OBC01"
+    },
+    {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD2.APNI_MANDI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD3.APNI_MANDI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+      "businessDetails": "CTL.REHRI_REGISTRATION",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "CTL.REHRI_DRIVING_LICENSE",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "CTL.DHOBI_GHAT",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "CTL.OLD_BOOK_MARKET",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    }
+  ]
+}

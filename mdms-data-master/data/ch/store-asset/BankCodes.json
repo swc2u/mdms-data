@@ -1,0 +1,34 @@
+{
+	"tenantId":"ch",
+	"moduleName":"store-asset",
+	"BankCodes":[
+		{
+            "id": "1",
+            "code": "1",
+            "name": "Allahabad UP Gramin Bank",
+            "description": "Allahabad UP Gramin Bank",
+            "active": true,
+            "type": null,
+            "tenantId": "ch.chandigarh",
+            "createdBy": null,
+            "lastModifiedBy": null,
+            "createdDate": null,
+            "lastModifiedDate": null,
+            "deleteReason": null
+        },
+		{
+            "id": "2",
+            "code": "2",
+            "name": "ICICI Bank",
+            "description": "ICICI Bank",
+            "active": true,
+            "type": null,
+            "tenantId": "ch.chandigarh",
+            "createdBy": null,
+            "lastModifiedBy": null,
+            "createdDate": null,
+            "lastModifiedDate": null,
+            "deleteReason": null
+        }
+    ]
+}

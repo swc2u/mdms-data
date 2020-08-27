@@ -1,0 +1,66 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "Documents": [
+    {
+      "code": "PR_COMMUNICATION_DOCUMENTS",
+      "documentType": "",
+      "required": false,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "COMMUNICATION_DOCUMENTS.FILE_DOCUMENT_DESCRIPTION"
+    },
+    {
+      "code": "PR_PRESS_NOTES_DOCUMENTS",
+      "documentType": "",
+      "required": false,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "PRESS_NOTES_DOCUMENTS.FILE_DOCUMENT_DESCRIPTION"
+    },
+	{
+      "code": "PR_ADVERTISEMENTS_DOCUMENTS",
+      "documentType": "",
+      "required": false,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "ADVERTISEMENTS_DOCUMENTS.FILE_DOCUMENT_DESCRIPTION"
+    },
+	{
+      "code": "PR_NEWS_CLIPPINGS_DOCUMENTS",
+      "documentType": "",
+      "required": false,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "NEWS_CLIPPINGS_DOCUMENTS.FILE_DOCUMENT_DESCRIPTION"
+    },
+	{
+      "code": "PR_PHOTO_GALLERY_DOCUMENTS",
+      "documentType": "",
+      "required": false,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "PHOTO_GALLERY_DOCUMENTS.FILE_DOCUMENT_DESCRIPTION"
+    },
+	{
+      "code": "PR_AUDIO_VISUALS_DOCUMENTS",
+      "documentType": "",
+      "required": false,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "AUDIO_VISUALS_DOCUMENTS.FILE_DOCUMENT_DESCRIPTION"
+    }
+  ]
+}

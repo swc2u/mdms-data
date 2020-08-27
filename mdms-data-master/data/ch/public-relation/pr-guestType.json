@@ -1,0 +1,21 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "guestType": [
+    {
+      "code": "INTERNAL_GUEST",
+	  "name":"Internal Guest",
+      "active": true
+    },
+	{
+      "code": "EXTERNAL_GUEST",
+	  "name":"External Guest",
+      "active": true
+    },
+	{
+      "code": "PRESS",
+	  "name":"Press",
+      "active": true
+    }
+  ]
+}

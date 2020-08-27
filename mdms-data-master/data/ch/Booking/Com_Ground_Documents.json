@@ -1,0 +1,17 @@
+{   "tenantId": "ch"  ,
+"moduleName": "Booking",
+"Com_Ground_Documents": [
+    {
+        
+        "active": true,
+        "code": "GFCP_DOCUMENT",
+        "description": "GFCP_DOCUMENT_DESCRIPTION",
+        "documentType": "DOC",
+        "dropdownData": [],
+        "hasDropdown": false,
+        "required": false
+        
+    }
+    ]
+}
+

@@ -1,0 +1,18 @@
+{
+  "tenantId": "ch",
+  "moduleName": "pension",
+  "BusinessService": [
+    {
+      "code": "RRP_SERVICE",
+      "value": "Regular Retirement Pension"
+    },
+{
+      "code": "DOP_SERVICE",
+      "value": "Death of a Pensioner"
+    },
+{
+      "code": "DOE_SERVICE",
+      "value": "Death of a Employee"
+    }
+  ]
+}
