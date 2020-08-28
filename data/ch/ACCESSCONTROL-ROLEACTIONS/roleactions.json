@@ -48781,6 +48781,42 @@
 				"actionid": 4380,
 				"actioncode": "",
 				"tenantId": "ch"
-			}	
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4403,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4404,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4405,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4406,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4407,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4408,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
 	]
 }
