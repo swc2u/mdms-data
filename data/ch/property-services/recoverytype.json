@@ -15,10 +15,6 @@
             "active": true
         },
         {
-            "code": "RECOVERY.INTERESTPLUSMONTHLYRENT",
-            "active": true
-        },
-        {
             "code": "RECOVERY.LEASE",
             "active": true
         }
