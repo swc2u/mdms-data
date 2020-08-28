@@ -28292,6 +28292,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4083,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "RP_SURVEYOR",
 			"actionid": 4047,
 			"actioncode": "",

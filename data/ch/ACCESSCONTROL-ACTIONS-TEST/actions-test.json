@@ -16625,6 +16625,18 @@
       "code": "null",
       "path": "ReadingExcelFileApi"
     },
+	{
+      "id": 4083,
+      "name": "AccountStatementGenerationApi",
+      "url": "/rp-services/property/_accountstatement",
+      "displayName": "Account Statement Generation API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "AccountStatementGenerationApi",
+      "code": "null",
+      "path": "AccountStatementGenerationApi"
+    },
     {
       "id": 3000,
       "name": "CreatePropertyMasterApi",
