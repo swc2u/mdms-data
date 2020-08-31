@@ -30994,6 +30994,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CCF",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "DCF",
 			"actionid": "2602",
 			"actioncode": "",
@@ -31061,6 +31067,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "DCF",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "FRO",
 			"actionid": "2603",
 			"actioncode": "",
@@ -31111,6 +31123,12 @@
 		{
 			"rolecode": "FRO",
 			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "FRO",
+			"actionid": "1766",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -31177,10 +31195,11 @@
 		},
 		{
 			"rolecode": "SRE",
-			"actionid": "2609",
+			"actionid": "1766",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		
 		{
 			"rolecode": "WA",
 			"actionid": "2602",
@@ -31243,6 +31262,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "WA",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "FO",
 			"actionid": "2602",
 			"actioncode": "",
@@ -31303,6 +31328,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "FO",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SDE",
 			"actionid": "2602",
 			"actioncode": "",
@@ -31363,6 +31394,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SDE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SEHE",
 			"actionid": "2602",
 			"actioncode": "",
@@ -31423,6 +31460,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SEHE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "CEMCC",
 			"actionid": "2602",
 			"actioncode": "",
@@ -31483,6 +31526,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CEMCC",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EEWE",
 			"actionid": "2602",
 			"actioncode": "",
@@ -31543,6 +31592,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "EEWE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "COMMISSIONERMCC",
 			"actionid": "2602",
 			"actioncode": "",
@@ -31599,6 +31654,12 @@
 		{
 			"rolecode": "COMMISSIONERMCC",
 			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "COMMISSIONERMCC",
+			"actionid": "1766",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
