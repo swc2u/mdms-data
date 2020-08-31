@@ -102,7 +102,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "OwnershipTransferRP",
+      "service": "RentedProperties.OwnershipTransfer",
       "code": "RPOT10YRS2019",
       "financialYear": "2020-30"
     },
@@ -110,7 +110,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "service": "RentedProperties.DuplicateAllotmentLetter",
       "code": "RPOT10YRS2019",
       "financialYear": "2020-30"
     }, 

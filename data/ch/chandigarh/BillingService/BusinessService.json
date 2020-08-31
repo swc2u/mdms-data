@@ -82,8 +82,8 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "OwnershipTransferRP",
-      "code": "OwnershipTransferRP",
+      "businessService": "RentedProperties.OwnershipTransfer",
+      "code": "RentedProperties.OwnershipTransfer",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -93,8 +93,8 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "DuplicateCopyOfAllotmentLetterRP",
-      "code": "DuplicateCopyOfAllotmentLetterRP",
+      "businessService": "RentedProperties.DuplicateAllotmentLetter",
+      "code": "RentedProperties.DuplicateAllotmentLetter",
       "collectionModesNotAllowed": [
         "DD"
       ],
