@@ -294,7 +294,7 @@
     },
     {
       "category": "FEE",
-      "service": "OwnershipTransferRP",
+      "service": "RentedProperties.OwnershipTransfer",
       "name": "Ownership Transfer Rent",
       "code": "OwnershipTransferRP_FEE",
       "isDebit": false,
@@ -304,7 +304,7 @@
     },
     {
       "category": "TAX",
-      "service": "OwnershipTransferRP",
+      "service": "RentedProperties.OwnershipTransfer",
       "name": "Ownership Transfer Tax",
       "code": "OwnershipTransferRP_TAX",
       "isDebit": false,
@@ -314,7 +314,7 @@
     },
     {
       "category": "PENALTY",
-      "service": "OwnershipTransferRP",
+      "service": "RentedProperties.OwnershipTransfer",
       "name": "Ownership Transfer Penalty",
       "code": "OwnershipTransferRP_PENALTY",
       "isDebit": false,
@@ -324,7 +324,7 @@
     },
     {
       "category": "TAX",
-      "service": "OwnershipTransferRP",
+      "service": "RentedProperties.OwnershipTransfer",
       "name": "Ownership Transfer Roundoff",
       "code": "OwnershipTransferRP_ROUNDOFF",
       "isDebit": false,
@@ -334,7 +334,7 @@
     },
     {
       "category": "DUE",
-      "service": "OwnershipTransferRP",
+      "service": "RentedProperties.OwnershipTransfer",
       "name": "Ownership Transfer Due",
       "code": "OwnershipTransferRP_DUE",
       "isDebit": false,
@@ -344,7 +344,7 @@
     },
     {
       "category": "CHARGES",
-      "service": "OwnershipTransferRP",
+      "service": "RentedProperties.OwnershipTransfer",
       "name": "Ownership Transfer Charges",
       "code": "OwnershipTransferRP_CHARGES",
       "isDebit": false,
@@ -354,7 +354,7 @@
     },
     {
       "category": "FEE",
-      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "service": "RentedProperties.DuplicateAllotmentLetter",
       "name": "Duplicate Copy Rent",
       "code": "DuplicateCopyOfAllotmentLetterRP_FEE",
       "isDebit": false,
@@ -364,7 +364,7 @@
     },
     {
       "category": "PENALTY",
-      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "service": "RentedProperties.DuplicateAllotmentLetter",
       "name": "Duplicate Copy Penalty",
       "code": "DuplicateCopyOfAllotmentLetterRP_PENALTY",
       "isDebit": false,
@@ -374,7 +374,7 @@
     },
     {
       "category": "TAX",
-      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "service": "RentedProperties.DuplicateAllotmentLetter",
       "name": "Duplicate Copy Roundoff",
       "code": "DuplicateCopyOfAllotmentLetterRP_ROUNDOFF",
       "isDebit": false,
@@ -384,7 +384,7 @@
     },
     {
       "category": "DUE",
-      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "service": "RentedProperties.DuplicateAllotmentLetter",
       "name": "Duplicate Copy Due",
       "code": "DuplicateCopyOfAllotmentLetterRP_DUE",
       "isDebit": false,
@@ -394,7 +394,7 @@
     },
     {
       "category": "CHARGES",
-      "service": "DuplicateCopyOfAllotmentLetterRP",
+      "service": "RentedProperties.DuplicateAllotmentLetter",
       "name": "Duplicate Copy Charges",
       "code": "DuplicateCopyOfAllotmentLetterRP_CHARGES",
       "isDebit": false,
