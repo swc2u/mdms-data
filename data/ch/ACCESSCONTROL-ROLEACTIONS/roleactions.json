@@ -49052,6 +49052,48 @@
 				"actionid": 1831,
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": "692",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": "694",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": 695,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": 696,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": 698,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": 699,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": 700,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
