@@ -902,10 +902,15 @@
       "name": "MOH",
       "description": "Store Asset MOH"
     },
-	{
+    {
       "code": "SAJC",
       "name": "Jt COMMISSIONER",
       "description": "Store Asset Jt COMMISSIONER"
+    },
+    {
+      "code": "NULM_ADMIN",
+      "name": "NULM Admin",
+      "description": "NULM Admin"
     }
   ]
 }
