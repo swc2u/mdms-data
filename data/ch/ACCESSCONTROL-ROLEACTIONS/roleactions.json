@@ -49040,6 +49040,18 @@
 				"actionid": 4554,
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": 1830,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": 1831,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
