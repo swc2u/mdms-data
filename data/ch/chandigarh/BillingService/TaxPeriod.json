@@ -470,7 +470,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"FIRE_DEPARTMENT_SERVICES.STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "service":"FIRE_DEPARTMENT_SERVICES.STAND_BY_DUTY_CHARGES_FIRE_TENDER",
          "code":"FDSBDC10YRS2019",
          "financialYear":"2019-29"
       },
