@@ -526,7 +526,7 @@
       },
       {
          "businessService":"Fire Department Services.STAND-BY-DUTY CHARGES - FIRE TENDER",
-         "code":"FIRE_DEPARTMENT_SERVICES.STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "code":"FIRE_DEPARTMENT_SERVICES.STAND_BY_DUTY_CHARGES_FIRE_TENDER",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
