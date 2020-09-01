@@ -48974,6 +48974,72 @@
 				"actionid": 4408,
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4550,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4551,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4552,
+				"actioncode": "",
+				"tenantId": "ch"
+			},			
+			{
+				"rolecode": "NGO",
+				"actionid": 4550,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": 4551,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NGO",
+				"actionid": 4554,
+				"actioncode": "",
+				"tenantId": "ch"
+			},			
+			{
+				"rolecode": "NULM_ADMIN",
+				"actionid": 4550,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULM_ADMIN",
+				"actionid": 4551,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULM_ADMIN",
+				"actionid": 4552,
+				"actioncode": "",
+				"tenantId": "ch"
+			},			
+			{
+				"rolecode": "NULM_ADMIN",
+				"actionid": 4553,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULM_ADMIN",
+				"actionid": 4554,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
