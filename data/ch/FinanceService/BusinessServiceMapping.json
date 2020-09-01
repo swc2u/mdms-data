@@ -1107,6 +1107,42 @@
          "validTo":1838159999000
       },
       {
+         "code":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
          "code":"COLONY_BRANCH_SERVICES.VIKAS_NAGAR_MAULIJAGRAN",
          "voucherCreationEnabled":true,
          "fund":"01",
@@ -1167,6 +1203,30 @@
          "validTo":1838159999000
       },
       {
+         "code":"COLONY_BRANCH_SERVICES.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"395",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"COLONY_BRANCH_SERVICES.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"395",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
          "code":"PORPERTY_TAX.PROPERTY_TAX_COMMERCIAL",
          "voucherCreationEnabled":true,
          "fund":"01",
@@ -1180,6 +1240,30 @@
       },
       {
          "code":"PORPERTY_TAX.PROPERTY_TAX_RESIDENTIAL",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"390",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"PORPERTY_TAX.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"390",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"PORPERTY_TAX.RTI",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"",
@@ -1216,6 +1300,30 @@
       },
       {
          "code":"ESTATE_BRANCH.LEASE_BUILDING_LAND_ETC",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"388",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"ESTATE_BRANCH.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"",
+         "department":"388",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"ESTATE_BRANCH.RTI",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"",
