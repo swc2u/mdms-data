@@ -1934,7 +1934,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"FIRE_DEPARTMENT_SERVICES.STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "service":"FIRE_DEPARTMENT_SERVICES.STAND_BY_DUTY_CHARGES_FIRE_TENDER",
          "name":"Fire Standing Charges",
          "code":"FIRE_STANDING_CHARGES",
          "isDebit":false,
@@ -1944,9 +1944,9 @@
       },
       {
          "category":"TAX",
-         "service":"FIRE_DEPARTMENT_SERVICES.STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "service":"FIRE_DEPARTMENT_SERVICES.STAND_BY_DUTY_CHARGES_FIRE_TENDER",
          "name":"CGST and UTGST",
-         "code":"CGST_UTGST_STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "code":"CGST_UTGST_STAND_BY_DUTY_CHARGES_FIRE_TENDER",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -1954,9 +1954,9 @@
       },
       {
          "category":"TAX",
-         "service":"FIRE_DEPARTMENT_SERVICES.STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "service":"FIRE_DEPARTMENT_SERVICES.STAND_BY_DUTY_CHARGES_FIRE_TENDER",
          "name":"IGST",
-         "code":"IGST_STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "code":"IGST_STAND_BY_DUTY_CHARGES_FIRE_TENDER",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
