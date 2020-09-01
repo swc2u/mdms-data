@@ -699,7 +699,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"FIRE_DEPARTMENT_SERVICES.STAND-BY-DUTY_CHARGES_FIRE_TENDER",
+         "code":"FIRE_DEPARTMENT_SERVICES.STAND_BY_DUTY_CHARGES_FIRE_TENDER",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"",
