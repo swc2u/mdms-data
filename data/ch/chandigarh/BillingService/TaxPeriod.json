@@ -115,6 +115,14 @@
       "financialYear": "2020-30"
     }, 
     {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "RentedProperties.Rent",
+      "code": "RPRENT10YRS2020",
+      "financialYear": "2020-30"
+    }, 
+    {
       "fromDate": 1522540800000,
       "toDate": 1554076799000,
       "periodCycle": "ANNUAL",

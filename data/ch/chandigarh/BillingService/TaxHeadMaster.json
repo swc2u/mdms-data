@@ -403,6 +403,36 @@
       "isRequired": false
     }, 
     {
+      "category": "PRINCIPAL",
+      "service": "RentedProperties.Rent",
+      "name": "Rented Properties Principal Rent Amount",
+      "code": "RentedProperties.Rent_PRINCIPAL",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    }, 
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "RentedProperties.Rent",
+      "name": "Rented Properties Principal Rent Amount",
+      "code": "RentedProperties.Rent_ADVANCE_COLLECTION",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    }, 
+    {
+      "category": "INTEREST",
+      "service": "RentedProperties.Rent",
+      "name": "Rented Properties Principal Rent Amount",
+      "code": "RentedProperties.Rent_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    }, 
+    {
       "category": "TAX",
       "service": "TL",
       "name": "tl roundoff",
