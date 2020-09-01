@@ -3112,7 +3112,7 @@
          "order":"0",
          "isRequired":false
       },
-	   {
+      {
          "category":"FEE",
          "service":"ESTATE_BRANCH.MISC_RECEIPT",
          "name":"Miscellaneous Receipt",
