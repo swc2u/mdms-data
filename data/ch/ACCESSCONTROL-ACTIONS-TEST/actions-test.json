@@ -18361,7 +18361,7 @@
 		{
 		"id": 4368,
 		"name": "Misc Material Update Status",
-		"url": "/store-asset-services/materialissues/_updateStatus",
+		"url": "/store-asset-services/miscellaneousreceiptnotes/_updateStatus",
 		"displayName": "Misc Material Update Status",
 		"orderNumber": 0,
 		"parentModule": "",
