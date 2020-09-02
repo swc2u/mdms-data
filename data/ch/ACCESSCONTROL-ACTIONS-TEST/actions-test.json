@@ -16637,6 +16637,18 @@
       "code": "null",
       "path": "AccountStatementGenerationApi"
     },
+	{
+      "id": 4084,
+      "name": "RentPaymentApi",
+      "url": "/rp-services/property/_rentpayment",
+      "displayName": "Rent Payment API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "RentPaymentApi",
+      "code": "null",
+      "path": "RentPaymentApi"
+    },
     {
       "id": 3000,
       "name": "CreatePropertyMasterApi",
