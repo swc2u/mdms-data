@@ -20382,6 +20382,78 @@
 		"path": ""
 	},
 	{
+		"id": 4522,
+		"name": "SUHCreate",
+		"url": "/nulm-services/v1/suh/_create",
+		"displayName": "SUH Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4523,
+		"name": "SUHGet",
+		"url": "/nulm-services/v1/suh/_get",
+		"displayName": "SUH Get",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4524,
+		"name": "SUHUpdate",
+		"url": "/nulm-services/v1/suh/_update",
+		"displayName": "SUH Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4525,
+		"name": "SUHLogCreate",
+		"url": "/nulm-services/v1/suh/log/_create",
+		"displayName": "SUH Log Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4526,
+		"name": "SUHLogGet",
+		"url": "/nulm-services/v1/suh/log/_get",
+		"displayName": "SUH Log Get",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4527,
+		"name": "SUHLogDelete",
+		"url": "/nulm-services/v1/suh/log/_delete",
+		"displayName": "SUH Log Delete",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 1961,
       "name": "VoucherSearchbyServiceandReference",
       "url": "/services/EGF/rest/voucher/_searchbyserviceandreference",
