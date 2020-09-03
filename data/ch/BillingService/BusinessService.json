@@ -24,20 +24,9 @@
 			"isAdvanceAllowed": true,
 			"demandUpdateTime": 86400000,
 			"isVoucherCreationEnabled": false
-		},
+		},		
 		{
-			"businessService": "TradeLicense",
-			"code": "TL",
-			"collectionModesNotAllowed": [
-				"DD"
-			],
-			"partPaymentAllowed": false,
-			"isAdvanceAllowed": false,
-			"demandUpdateTime": 604800000,
-			"isVoucherCreationEnabled": true
-		},
-		{
-			"businessService": "CTL.RehriRC",
+			"businessService": "Trade License.Rehri Registration Certificate",
 			"code": "CTL.REHRI_REGISTRATION",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -48,7 +37,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "CTL.RehriDL",
+			"businessService": "Trade License.Rehri Driving License",
 			"code": "CTL.REHRI_DRIVING_LICENSE",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -59,7 +48,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "CTL.DhobiGhat",
+			"businessService": "Trade License.Dhobi Ghat",
 			"code": "CTL.DHOBI_GHAT",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -70,7 +59,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "CTL.BookShop",
+			"businessService": "Trade License.Book Shop",
 			"code": "CTL.OLD_BOOK_MARKET",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -1121,17 +1110,6 @@
 		{
 			"businessService": "PT.MUTATION",
 			"code": "PT.MUTATION",
-			"collectionModesNotAllowed": [
-				"DD"
-			],
-			"partPaymentAllowed": false,
-			"isAdvanceAllowed": false,
-			"isVoucherCreationEnabled": true,
-			"isActive": true
-		},
-		{
-			"businessService": "TL.RENEWAL",
-			"code": "TL.RENEWAL",
 			"collectionModesNotAllowed": [
 				"DD"
 			],

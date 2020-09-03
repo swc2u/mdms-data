@@ -1,0 +1,31 @@
+{
+  "tenantId": "ch",
+  "moduleName": "NULM",
+  "shelterClassification": [
+    {
+      "code": "MEN",
+	  "name":"Men",
+      "active": true
+    },
+	{
+      "code": "WOMEN",
+	  "name":"Women",
+      "active": true
+    },
+	{
+      "code": "GENERAL",
+	  "name":"General",
+      "active": true
+    },
+	{
+      "code": "SPECIALLY_ABLED",
+	  "name":"Specially-abled",
+      "active": true
+    },
+	{
+      "code": "FAMILY",
+	  "name":"Family",
+      "active": true
+    }
+  ]
+}
