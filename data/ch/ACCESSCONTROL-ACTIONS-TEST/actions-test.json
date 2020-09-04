@@ -13140,19 +13140,6 @@
       "url": "fine-master/CTL_DHOBI_GHAT"
     },
     {
-      "displayName": "Old Book Market",
-      "enabled": true,
-      "id": 21789,
-      "leftIcon": "custom:trade-license",
-      "name": "Old Book Market",
-      "navigationURL": "fine-master/CTL_OLD_BOOK_MARKET",
-      "orderNumber": 3,
-      "path": "Fine Master Edit.Old Book Market",
-      "serviceCode": "Old Book Market",
-      "tenantId": "ch",
-      "url": "fine-master/CTL_OLD_BOOK_MARKET"
-    },
-    {
       "id": 1789,
       "name": "UpdateReceipt",
       "url": "/collection-services-v1/receipts/_update",
