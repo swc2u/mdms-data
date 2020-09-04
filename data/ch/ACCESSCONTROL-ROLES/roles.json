@@ -911,6 +911,16 @@
       "code": "NULM_ADMIN",
       "name": "NULM Admin",
       "description": "NULM Admin"
+    },
+    {
+	"code": "JA",
+	"name": "JA",
+	"description": "Junior Assistant"
+    },
+    {
+	"code": "ACMC",
+	"name": "ACMC",
+	"description": "ACMC"
     }
   ]
 }
