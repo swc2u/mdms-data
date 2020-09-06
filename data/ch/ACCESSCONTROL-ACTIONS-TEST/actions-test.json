@@ -15398,6 +15398,20 @@
 		"leftIcon": "editor:insert-chart"
 	},
 	{
+		"id": "4035",
+		"name": "Agenda Branch Send Agenda Invitation",
+		"url": "/services/council/councilpreamble/agendainvitationnew",
+		"displayName": "Agenda Branch Send Agenda Invitation",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-agenda",
+		"enabled": true,
+		"serviceCode": "AgendaBranch",
+		"code": "",
+		"path": "Agenda Branch.Agenda Branch Agenda.Agenda Branch Send Agenda Invitation",
+		"navigationURL": "services/council/councilpreamble/agendainvitationnew",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
 		"id": "4019",
 		"name": "Agenda Branch Create Agenda",
 		"url": "/services/council/councilpreamble/new",
@@ -15482,20 +15496,6 @@
 		"leftIcon": "editor:insert-chart"
 	},	
 	{
-		"id": "4030",
-		"name": "Agenda Enter Attendance",
-		"url": "/services/council/councilmeeting/attendance/search",
-		"displayName": "Agenda Enter Attendance",
-		"orderNumber": "1",
-		"parentModule": "rainmaker-agenda",
-		"enabled": true,
-		"serviceCode": "AgendaBranch",
-		"code": "",
-		"path": "Agenda Branch.Agenda Meeting.Agenda Enter Attendance",
-		"navigationURL": "services/council/councilmeeting/attendance/search",
-		"leftIcon": "editor:insert-chart"
-	},
-	{
 		"id": "4029",
 		"name": "Agenda Send Sms And Email",
 		"url": "/services/council/councilmeeting/viewsmsemail",
@@ -15507,6 +15507,20 @@
 		"code": "",
 		"path": "Agenda Branch.Agenda Meeting.Agenda Send Sms And Email",
 		"navigationURL": "services/council/councilmeeting/viewsmsemail",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": "4030",
+		"name": "Agenda Enter Attendance",
+		"url": "/services/council/councilmeeting/attendance/search",
+		"displayName": "Agenda Enter Attendance",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-agenda",
+		"enabled": true,
+		"serviceCode": "AgendaBranch",
+		"code": "",
+		"path": "Agenda Branch.Agenda Meeting.Agenda Enter Attendance",
+		"navigationURL": "services/council/councilmeeting/attendance/search",
 		"leftIcon": "editor:insert-chart"
 	},
 	{

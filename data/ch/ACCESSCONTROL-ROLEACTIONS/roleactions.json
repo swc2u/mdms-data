@@ -27554,6 +27554,12 @@
 		"actioncode": "",
 		"tenantId": "ch"
 	},
+    {
+		"rolecode": "AGENDA_BRANCH_ADMIN",
+		"actionid": "4035",
+		"actioncode": "",
+		"tenantId": "ch"
+    },
 	{
 		"rolecode": "AGENDA_CREATOR",
 		"actionid": "4019",
@@ -28078,11 +28084,11 @@
       "tenantId": "ch"
     },
 	{
-      "rolecode": "GRO",
-      "actionid": 1990,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
+	  "rolecode": "GRO_ADMIN",
+	  "actionid": 1990,
+	  "actioncode": "",
+	  "tenantId": "ch"
+	},
 	{
       "rolecode": "SUPERUSER",
       "actionid": 1991,

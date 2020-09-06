@@ -42,6 +42,11 @@
          "name":"Grievance Routing Officer",
          "description":"Grievance Routing Officer"
       },
+	  {
+		 "code": "GRO_ADMIN",
+		 "name": "Grievance Routing Officer Admin",
+		 "description": "Grievance Routing Officer Admin"
+	  },
       {
          "code":"Asset Administrator",
          "name":"Asset Administrator",
@@ -353,30 +358,45 @@
          "description":"PGR Last mile employee to whom the request can be assigned"
       },
 	{
-      "code": "PGR_REPORTS_VIEWER",
-      "name": "PGR Reports Viewer",
-      "description": "PGR employee who can view all the reports"
-    },
-  {
-      "code": "AGENDA_BRANCH_ADMIN",
-      "name": "Agenda Branch Admin",
-      "description": "Agenda Branch Admin will create agenda, meeting, MoM"
-    },
+	  "code": "PGR_REPORTS_VIEWER",
+	  "name": "PGR Reports Viewer",
+	  "description": "PGR employee who can view all the reports"
+	},
 	{
-      "code": "AGENDA_CREATOR",
-      "name": "Agenda Creator",
-      "description": "Agenda Branch Admin & Department Admin will create agenda"
-    },
+	  "code": "AGENDA_BRANCH_ADMIN",
+	  "name": "Agenda Branch Admin",
+	  "description": "Agenda Branch Admin will create agenda, meeting, MoM"
+	},
 	{
-      "code": "AGENDA_BRANCH_APPROVER",
-      "name": "Agenda Branch Approver",
-      "description": "Agenda Branch approver will approve the workflow of agenda creation, MoM creation"
-    },
+	  "code": "AGENDA_CREATOR",
+	  "name": "Agenda Creator",
+	  "description": "Agenda Branch Admin & Department Admin will create agenda"
+	},
 	{
-      "code": "AGENDA_BRANCH_REPORT_VIEWER",
-      "name": "Agenda Branch Report Viewer",
-      "description": "Agenda Branch report viewer can view the reports"
-    },
+	  "code": "AGENDA_BRANCH_APPROVER",
+	  "name": "Agenda Branch Approver",
+	  "description": "Agenda Branch approver will approve the workflow of agenda creation, MoM creation"
+	},
+	{
+	  "code": "AGENDA_BRANCH_REPORT_VIEWER",
+	  "name": "Agenda Branch Report Viewer",
+	  "description": "Agenda Branch report viewer can view the reports"
+	},
+	{
+	  "code": "AGENDA_MEETING_DEPARTMENT_USER",
+	  "name": "AGENDA MEETING DEPARTMENT USER",
+	  "description": "Department user who will get meeting invitation"
+	},
+	{
+	  "code": "AGENDA_MEETING_SENIOR_OFFICER",
+	  "name": "AGENDA MEETING SENIOR OFFICER",
+	  "description": "Senior Officers like Add commissioner, joint commissioner, chief engg etc"
+	},
+	{
+	  "code": "AGENDA_MEETING_SPECIAL_OFFICER",
+	  "name": "AGENDA MEETING SPECIAL OFFICER",
+	  "description": "Special Officers like commissioner, secretary etc"
+	},
       {
          "code":"TL_FIELD_INSPECTOR",
          "name":"TL Field Inspector",
@@ -577,26 +597,7 @@
          "name":"System user",
          "description":"System user"
       },
-      {
-         "code":"AGENDA_BRANCH_ADMIN",
-         "name":"Agenda Branch Admin",
-         "description":"Agenda Branch Admin will create agenda, meeting, MoM"
-      },
-      {
-         "code":"AGENDA_CREATOR",
-         "name":"Agenda Creator",
-         "description":"Agenda Branch Admin & Department Admin will create agenda"
-      },
-      {
-         "code":"AGENDA_BRANCH_APPROVER",
-         "name":"Agenda Branch Approver",
-         "description":"Agenda Branch approver will approve the workflow of agenda creation, MoM creation"
-      },
-      {
-         "code":"AGENDA_BRANCH_REPORT_VIEWER",
-         "name":"Agenda Branch Report Viewer",
-         "description":"Agenda Branch report viewer can view the reports"
-      },
+
       {
          "code":"APRO",
          "name":"APRO",
