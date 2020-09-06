@@ -38,7 +38,7 @@
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
-         "conversionFactor":1000,
+         "conversionFactor":1,
          "active":true
       },
       {
@@ -51,7 +51,7 @@
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
-         "conversionFactor":1000,
+         "conversionFactor":1,
          "active":true
       },
       {
@@ -64,7 +64,7 @@
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
-         "conversionFactor":1000000,
+         "conversionFactor":1,
          "active":true
       },
       {
@@ -103,7 +103,7 @@
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
-         "conversionFactor":1000,
+         "conversionFactor":1,
          "active":true
       },
       {
@@ -116,7 +116,7 @@
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
-         "conversionFactor":0.01,
+         "conversionFactor":1,
          "active":true
       },
       {
@@ -129,7 +129,7 @@
          "baseUom":false,
          "fromDate":1508740856,
          "toDate":1893436200,
-         "conversionFactor":0.929,
+         "conversionFactor":1,
          "active":true
       },
       {
@@ -193,8 +193,8 @@
         "baseUom":false,
         "code": "year",
         "active": true
-        },
-        {
+      },
+      {
             "id":16,
             "tenantId":"ch",
             "name":"Month",
@@ -203,6 +203,6 @@
             "baseUom":false,
             "code": "month",
             "active": true
-        }
+      }
    ]
 }

@@ -4,19 +4,19 @@
 	"NumberOfViolation": [{
 			"code": "1",
 			"tenantId": "ch",
-			"name": "First violation ",
+			"name": "First Violation ",
 			"active": true
 		},
 		{
 			"code": "2",
 			"tenantId": "ch",
-			"name": "Second violation",
+			"name": "Second Violation",
 			"active": true
 		},
 		{
 			"code": "3",
 			"tenantId": "ch",
-			"name": "Third violation ",
+			"name": "Third Violation ",
 			"active": true
 		},
 		{

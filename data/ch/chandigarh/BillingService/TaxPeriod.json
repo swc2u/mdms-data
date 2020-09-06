@@ -331,20 +331,20 @@
       "financialYear": "2018-28"
     },
     {
-      "fromDate": 1554076800000,
-      "toDate": 1585612800000,
+      "fromDate": 1585699201000,
+      "toDate": 1617235199000,
       "periodCycle": "ANNUAL",
       "service": "WS",
       "code": "WC2018",
-      "financialYear": "2019-20"
+      "financialYear": "2020-21"
     },
     {
-      "fromDate": 1554076800000,
-      "toDate": 1585612800000,
+      "fromDate": 1585699201000,
+      "toDate": 1617235199000,
       "periodCycle": "ANNUAL",
       "service": "SW",
       "code": "SC2018",
-      "financialYear": "2019-20"
+      "financialYear": "2020-21"
     },
     {
       "fromDate": 1522540801000,
@@ -506,54 +506,6 @@
          "code":"DMRD310YRS2019",
          "financialYear":"2019-29"
       },
-	{
-      "fromDate": 1554057001000,
-      "toDate": 1585593001000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS.ROADCUTNOC",
-      "code": "OPMS.ROADCUTNOC2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1617129000000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS.ROADCUTNOC",
-      "code": "OPMS.ROADCUTNOC2020",
-      "financialYear": "2020-21"
-    },
-	{
-      "fromDate": 1554057001000,
-      "toDate": 1585593001000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS.PETNOC",
-      "code": "OPMS.PETNOC2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1617129000000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS.PETNOC",
-      "code": "OPMS.PETNOC2020",
-      "financialYear": "2020-21"
-    },
-	{
-      "fromDate": 1554057001000,
-      "toDate": 1585593001000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS.ADVERTISEMENTNOC",
-      "code": "OPMS.ADVERTISEMENTNOC2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1617129000000,
-      "periodCycle": "ANNUAL",
-      "service": "OPMS.ADVERTISEMENTNOC",
-      "code": "OPMS.ADVERTISEMENTNOC2020",
-      "financialYear": "2020-21"
-    },
     {
       "fromDate": 1554057001000,
       "toDate": 1585593001000,
@@ -569,6 +521,44 @@
       "service": "EC",
       "code": "EC2020",
       "financialYear": "2020-21"
-    }
+    },
+		{
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"OPMS.ROADCUTNOC_RD1",
+         "code":"OPMS.RD1ROADCUTNOC10YRS2019",
+         "financialYear":"2019-29"
+      },{
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"OPMS.ROADCUTNOC_RD2",
+         "code":"OPMS.RD2ROADCUTNOC10YRS2019",
+         "financialYear":"2019-29"
+      }, {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"OPMS.ROADCUTNOC_RD3",
+         "code":"OPMS.RD3ROADCUTNOC10YRS2019",
+         "financialYear":"2019-29"
+      },  
+	  {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"OPMS.PETNOC",
+         "code":"OPMS.PETNOC10YRS2019",
+         "financialYear":"2019-29"
+      }, 
+	  {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"OPMS.ADVERTISEMENTNOC",
+         "code":"OPMS.ADVNOC10YRS2019",
+         "financialYear":"2019-29"
+      }
   ]
 }

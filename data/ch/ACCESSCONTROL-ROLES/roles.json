@@ -42,6 +42,11 @@
       "name": "Grievance Routing Officer",
       "description": "Grievance Routing Officer"
     },
+	{
+      "code": "GRO_ADMIN",
+      "name": "Grievance Routing Officer Admin",
+      "description": "Grievance Routing Officer Admin"
+    },
     {
       "code": "Asset Administrator",
       "name": "Asset Administrator",
@@ -609,6 +614,21 @@
       "description": "Agenda Branch report viewer can view the reports"
     },
 	{
+      "code": "AGENDA_MEETING_DEPARTMENT_USER",
+      "name": "AGENDA MEETING DEPARTMENT USER",
+      "description": "Department user who will get meeting invitation"
+    },
+	{
+      "code": "AGENDA_MEETING_SENIOR_OFFICER",
+      "name": "AGENDA MEETING SENIOR OFFICER",
+      "description": "Senior Officers like Add commissioner, joint commissioner, chief engg etc"
+    },
+	{
+      "code": "AGENDA_MEETING_SPECIAL_OFFICER",
+      "name": "AGENDA MEETING SPECIAL OFFICER",
+      "description": "Special Officers like commissioner, secretary etc"
+    },
+	{
 		"code": "APRO",
 		"name": "APRO",
 		"description": "Authorized Division User"
@@ -627,6 +647,11 @@
 		"code": "APNIMANDI_APPROVER",
 		"name": "Apnimandi Approver",
 		"description": "Apnimandi approver will forward, approve and reject the workflow of contractor and collection"
+	},
+	{
+		"code": "APNIMANDI_REPORT_VIEWER",
+		"name": "Apnimandi Report Viewer",
+		"description": "Apnimandi report viewer can view all kind of mis report of contractor and collection"
 	},
 	{
 		"code": "LCMS_ADMIN",
@@ -847,6 +872,100 @@
       "code": "CA",
       "name": "Chief Administrator",
       "description": "Chief Administrator"
+    },{
+      "code": "NGO",
+      "name": "Non-Government Organizations",
+      "description": "Non-Government Organizations"
+    },{
+      "code": "SAJE",
+      "name": "Junior Engineer",
+      "description": "Store Asset Junior Engineer"
+    },{
+      "code": "SAEE",
+      "name": "Executive Engineer",
+      "description": "Store Asset Executive Engineer"
+    },{
+      "code": "SASE",
+      "name": "Senior Engineer",
+      "description": "Store Asset Senior Engineer"
+    },{
+      "code": "SACE",
+      "name": "Chief Engineer",
+      "description": "Store Asset Chief Engineer"
+    },{
+      "code": "SASDO",
+      "name": "SDO ",
+      "description": "Store Asset SDO"
+    },
+	{
+      "code": "SACOM",
+      "name": "COMMISSIONER",
+      "description": "Store Asset COMMISSIONER"
+    },
+	{
+      "code": "SACP",
+      "name": "Computer Programmer",
+      "description": "Store Asset Computer Programmer"
+    },
+	{
+      "code": "SASA",
+      "name": "Senior Assistant",
+      "description": "Store Asset Senior Assistant"
+    },
+	{
+      "code": "SASP",
+      "name": "SUPERINTENDENT",
+      "description": "Store Asset SUPERINTENDENT"
+    },
+	{
+      "code": "SASO",
+      "name": "Section Officer",
+      "description": "Store Asset Section Officer"
+    },
+	{
+      "code": "SACAO",
+      "name": "CAO",
+      "description": "Store Asset CAO"
+    },
+	{
+      "code": "SAACMC",
+      "name": "ACMC",
+      "description": "Store Asset ACMC"
+    },
+	{
+      "code": "SACT",
+      "name": "Caretaker",
+      "description": "Store Asset Caretaker"
+    },
+	{
+      "code": "SACSI",
+      "name": "CSI",
+      "description": "Store Asset CSI"
+    },
+	{
+      "code": "SAMOH",
+      "name": "MOH",
+      "description": "Store Asset MOH"
+    },
+    {
+      "code": "SAJC",
+      "name": "Jt COMMISSIONER",
+      "description": "Store Asset Jt COMMISSIONER"
+    },
+    {
+      "code": "NULM_ADMIN",
+      "name": "NULM Admin",
+      "description": "NULM Admin"
+    },
+    {
+		"code": "JA",
+		"name": "JA",
+		"description": "Junior Assistant"
+    },
+    {
+		"code": "ACMC",
+		"name": "ACMC",
+		"description": "ACMC"
     }
   ]
 }

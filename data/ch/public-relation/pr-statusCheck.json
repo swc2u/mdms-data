@@ -1,0 +1,60 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "StatusCheck": [
+    {
+      "scheduleStatus": "EXPIRED",
+	  "eventStatus":"CANCELLED",
+	  "btnName":["cancelbtn"],
+	  "isEdit":false,
+	  "isStatus":"CANCELLED"
+	  
+    },
+	 {
+      "scheduleStatus": "EXPIRED",
+	  "eventStatus":"PUBLISHED",
+	  "btnName":["cancelbtn"],
+	  "isEdit":false,
+	  "isStatus":"EXPIRED"
+	  
+    },
+	{
+      "scheduleStatus": "ONGOING",
+	  "eventStatus":"PUBLISHED",
+	  "btnName":["submitButton","cancelEventButton"],
+	  "isEdit":false,
+	   "isStatus":"ONGOING"
+    },
+	{
+      "scheduleStatus": "ONGOING",
+	  "eventStatus":"CANCELLED",
+	  "btnName":["cancelbtn"],
+	  "isEdit":false,
+	   "isStatus":"CANCELLED"
+    },
+	
+	
+	{
+      "scheduleStatus": "UPCOMING",
+	  "eventStatus":"PUBLISHED",
+	  "btnName":["submitButton","cancelEventButton"],
+	  "isEdit":true,
+	  "isStatus":"UPCOMING"
+    },
+	{
+      "scheduleStatus": "UPCOMING",
+	  "eventStatus":"CANCELLED",
+	  "btnName":["cancelbtn"],
+	  "isEdit":false,
+	  "isStatus":"CANCELLED"
+    },
+	{
+      "scheduleStatus": "null",
+	  "eventStatus":"PUBLISHED",
+	  "btnName":["submitButton"],
+	  "isEdit":true,
+	  "isStatus":"PUBLISHED"
+    }
+	
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "tenantId": "ch",
+  "moduleName": "NULM",
+  "operationAndManagementOfShelters": [
+    {
+      "code": "HOMELESS_PERSONS_COLLECTIVE",
+	  "name":"Homeless Persons Collective",
+      "active": true
+    },
+	{
+      "code": "YOUTH_AND_WOMEN_COLLECTIVE_GROUPS",
+	  "name":"Youth & Women Collective Groups",
+      "active": true
+    },
+	{
+      "code": "UNIVERSITY_AND_INSTITUTION",
+	  "name":"University & Institution",
+      "active": true
+    },
+	{
+      "code": "NEHRU_YUVA_KENDRA",
+	  "name":"Nehru Yuva Kendra",
+      "active": true
+    },
+	{
+      "code": "UNORGANIZED_SECTOR_TRADE_UNION",
+	  "name":"Unorganized Sector Trade Union",
+      "active": true
+    },
+	{
+      "code": "NGOS/CSOS_REGISTERED_UNDER_SOCIETY_ACT_1860",
+	  "name":"NGOs/CSOs Registered Under Society Act, 1860",
+      "active": true
+    },
+	{
+      "code": "SELF_HELP_GROUPS_REGISTERED_UNDER_LOCAL_GOVT",
+	  "name":"Self Help Groups Registered Under Local Govt",
+      "active": true
+    },
+	{
+      "code": "RESIDENT_WELFARE_ASSOCIATIONS",
+	  "name":"Resident Welfare Associations",
+      "active": true
+    },
+	{
+      "code": "PUBLIC_SECTOR_COMPANIES",
+	  "name":"Public Sector Companies",
+      "active": true
+    },
+	{
+      "code": "PRIVATE_SECTOR_ASSOCIATIONS_CONTRACTOR",
+	  "name":"Private Sector Associations/contractor",
+      "active": true
+    }
+  ]
+}

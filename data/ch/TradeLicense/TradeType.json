@@ -198,7 +198,7 @@
             },
             {
               "code": "PERFORMADHBOBIGHAT",
-              "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
+              "downloadUrl": "https://chstage.blob.core.windows.net/assets/TL/Dhobi.pdf",
               "required": true,
               "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
@@ -232,7 +232,7 @@
             },
             {
               "code": "PERFORMADHBOBIGHAT",
-              "downloadUrl": "https://egov.transerve.com/media/Dhobi.pdf",
+              "downloadUrl": "https://chstage.blob.core.windows.net/assets/TL/Dhobi.pdf",
               "required": true,
               "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
@@ -265,7 +265,7 @@
           "documentList": [
             {
               "code": "FORMA",
-              "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
+              "downloadUrl": "https://chstage.blob.core.windows.net/assets/TL/Form-A.pdf",
               "required": true,
               "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
@@ -273,7 +273,7 @@
             },
             {
               "code": "FORMB",
-              "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
+              "downloadUrl": "https://chstage.blob.core.windows.net/assets/TL/Form-B.pdf",
               "required": true,
               "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
@@ -281,7 +281,7 @@
             },
             {
               "code": "FORMC",
-              "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
+              "downloadUrl": "https://chstage.blob.core.windows.net/assets/TL/Form-C.pdf",
               "required": true,
               "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
@@ -294,7 +294,7 @@
           "documentList": [
             {
               "code": "FORMA",
-              "downloadUrl": "https://egov.transerve.com/media/Form-A.pdf",
+              "downloadUrl": "https://chstage.blob.core.windows.net/assets/TL/Form-A.pdf",
               "required": true,
               "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
@@ -302,7 +302,7 @@
             },
             {
               "code": "FORMB",
-              "downloadUrl": "https://egov.transerve.com/media/Form-B.pdf",
+              "downloadUrl": "https://chstage.blob.core.windows.net/assets/TL/Form-B.pdf",
               "required": true,
               "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
@@ -310,7 +310,7 @@
             },
             {
               "code": "FORMC",
-              "downloadUrl": "https://egov.transerve.com/media/Form-C.pdf",
+              "downloadUrl": "https://chstage.blob.core.windows.net/assets/TL/Form-C.pdf",
               "required": true,
               "accept": "application/pdf,image/*",
               "fileType": "PDF_IMAGE",
