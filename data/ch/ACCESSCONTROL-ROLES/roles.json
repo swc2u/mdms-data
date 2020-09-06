@@ -584,6 +584,21 @@
       "description": "Agenda Branch report viewer can view the reports"
     },
 	{
+      "code": "AGENDA_MEETING_DEPARTMENT_USER",
+      "name": "AGENDA MEETING DEPARTMENT USER",
+      "description": "Department user who will get meeting invitation"
+    },
+	{
+      "code": "AGENDA_MEETING_SENIOR_OFFICER",
+      "name": "AGENDA MEETING SENIOR OFFICER",
+      "description": "Senior Officers like Add commissioner, joint commissioner, chief engg etc"
+    },
+	{
+      "code": "AGENDA_MEETING_SPECIAL_OFFICER",
+      "name": "AGENDA MEETING SPECIAL OFFICER",
+      "description": "Special Officers like commissioner, secretary etc"
+    },
+	{
 		"code": "APRO",
 		"name": "APRO",
 		"description": "Authorized Division User"
@@ -913,14 +928,14 @@
       "description": "NULM Admin"
     },
     {
-	"code": "JA",
-	"name": "JA",
-	"description": "Junior Assistant"
+		"code": "JA",
+		"name": "JA",
+		"description": "Junior Assistant"
     },
     {
-	"code": "ACMC",
-	"name": "ACMC",
-	"description": "ACMC"
+		"code": "ACMC",
+		"name": "ACMC",
+		"description": "ACMC"
     }
   ]
 }

@@ -27536,6 +27536,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "AGENDA_BRANCH_ADMIN",
+			"actionid": "4035",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "AGENDA_CREATOR",
 			"actionid": "4019",
 			"actioncode": "",
