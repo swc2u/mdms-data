@@ -6,90 +6,105 @@
          "name" : "BUILDING",
          "code" : "398",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "ROAD DIV 1",
          "code" : "427",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "ROAD DIV 2",
          "code" : "428",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "ROAD DIV 3",
          "code" : "429",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "HORTICULTURE DIV 1",
          "code" : "433",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "HORTICULTURE DIV 2",
          "code" : "434",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "ELECTRICAL DIV 1",
          "code" : "432",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "Primary Health",
          "code" : "464",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "PUBLIC HEALTH DIV 1",
          "code" : "423",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "PUBLIC HEALTH DIV 2",
          "code" : "424",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "PUBLIC HEALTH DIV 3",
          "code" : "425",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "PUBLIC HEALTH DIV 4",
          "code" : "426",
          "deductionPercentage":"3",
+         "deptCategory": "Engineering",
          "active" : true
       },
       {
          "name" : "IT BRANCH",
          "code" : "385",
          "deductionPercentage":"0",
+         "deptCategory": "IT",
          "active" : true
       },
       {
          "name" : "MOH",
          "code" : "402",
          "deductionPercentage":"0",
+         "deptCategory": "MOH",
          "active" : true
       },
       {
          "name" : "CARE TAKER BRANCH",
          "code" : "411",
          "deductionPercentage":"0",
+         "deptCategory": "Caretaker",
          "active" : true
       }
    ]
