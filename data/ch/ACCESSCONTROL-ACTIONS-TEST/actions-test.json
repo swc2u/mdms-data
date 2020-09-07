@@ -20613,7 +20613,7 @@
 	{
 		"id": 4557,
 		"name": "Create Estimate",
-		"url": "/services/works/estimatePreparation/newform",
+		"url": "services/works/estimatePreparation/newform",
 		"displayName": "Create Estimate",
 		"orderNumber": "1",
 		"parentModule": "works",
@@ -20621,13 +20621,13 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Create Estimate",
-		"navigationURL": "/services/works/estimatePreparation/newform",
+		"navigationURL": "services/works/estimatePreparation/newform",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": 4558,
 		"name": "Search Estimate",
-		"url": "/services/works/estimatePreparation/formnew",
+		"url": "services/works/estimatePreparation/formnew",
 		"displayName": "Search Estimate",
 		"orderNumber": "2",
 		"parentModule": "works",
@@ -20635,13 +20635,13 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Search Estimate",
-		"navigationURL": "/services/works/estimatePreparation/formnew",
+		"navigationURL": "services/works/estimatePreparation/formnew",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": 4559,
 		"name": "Create Tender",
-		"url": "/services/works/tenderProcurement/newform",
+		"url": "services/works/tenderProcurement/newform",
 		"displayName": "Create Tender",
 		"orderNumber": "3",
 		"parentModule": "works",
@@ -20649,13 +20649,13 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Create Tender",
-		"navigationURL": "/services/works/tenderProcurement/newform",
+		"navigationURL": "services/works/tenderProcurement/newform",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": 4560,
 		"name": "Search Tender",
-		"url": "/services/works/tenderProcurement/search",
+		"url": "services/works/tenderProcurement/search",
 		"displayName": "Search Tender",
 		"orderNumber": "4",
 		"parentModule": "works",
@@ -20663,13 +20663,13 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Search Tender",
-		"navigationURL": "/services/works/tenderProcurement/search",
+		"navigationURL": "services/works/tenderProcurement/search",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": 4561,
 		"name": "Create BG",
-		"url": "/services/works/bgSecurity/newform",
+		"url": "services/works/bgSecurity/newform",
 		"displayName": "Create BG",
 		"orderNumber": "5",
 		"parentModule": "works",
@@ -20677,13 +20677,13 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Create BG",
-		"navigationURL": "/services/works/bgSecurity/newform",
+		"navigationURL": "services/works/bgSecurity/newform",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
 		"id": 4562,
 		"name": "Search BG",
-		"url": "/services/works/bgSecurity/search",
+		"url": "services/works/bgSecurity/search",
 		"displayName": "Search BG",
 		"orderNumber": "5",
 		"parentModule": "works",
@@ -20691,7 +20691,7 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Search BG",
-		"navigationURL": "/services/works/bgSecurity/search",
+		"navigationURL": "services/works/bgSecurity/search",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
