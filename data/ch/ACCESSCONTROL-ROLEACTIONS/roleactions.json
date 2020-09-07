@@ -28286,12 +28286,6 @@
 			"actionid": 4108,
 			"actioncode": "",
 			"tenantId": "ch"
-		},
-		{
-			"rolecode": "APNIMANDI_REPORT_VIEWER",
-			"actionid": 4109,
-			"actioncode": "",
-			"tenantId": "ch"
 		}
   ]
 }
