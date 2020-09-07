@@ -1,0 +1,21 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "eventStatus": [
+	{
+      "code": "STATUS_PUBLISHED",
+	  "name": "PUBLISHED",
+      "active": true
+    },
+	{
+      "code": "STATUS_CANCELLED",
+	  "name": "CANCELLED",
+      "active": true
+    },
+	{
+      "code": "ALL",
+	  "name": "ALL",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "LibraryRoleCheck": [
+    {
+	  "isRole":"APRO",
+	  "btnName":["uploadButton"],
+	"isDelete":true
+    },
+	 
+	 {
+      "isRole": "DEPARTMENTUSER",
+	  "btnName":[],
+	 "isDelete":false
+
+    }
+  ]
+}
