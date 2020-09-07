@@ -607,6 +607,26 @@
          "code":"DEPARTMENTUSER",
          "name":"DEPARTMENTUSER",
          "description":"Department User"
+      },
+      {
+		"code": "LCMS_ADMIN",
+		"name": "LCMS Admin",
+		"description": "LCMS Admin will manage all legal cases and LCMS related master datas"
+      },
+      {
+		"code": "APNIMANDI_ADMIN",
+		"name": "Apnimandi Admin",
+		"description": "Apnimandi Admin will create contrator, collection"
+      },
+      {
+		"code": "APNIMANDI_APPROVER",
+		"name": "Apnimandi Approver",
+		"description": "Apnimandi approver will forward, approve and reject the workflow of contractor and collection"
+      },
+      {
+		"code": "APNIMANDI_REPORT_VIEWER",
+		"name": "Apnimandi Report Viewer",
+		"description": "Apnimandi report viewer can view all kind of mis report of contractor and collection"
       }
    ]
 }
