@@ -16350,7 +16350,7 @@
       "navigationURL": "egov-pr/TimeSeriesReport?modulecode=SCP",
       "leftIcon": "action:assignment",
       "rightIcon": ""
-    },
+    },	  
     {
 	"id": 4100,
 	"name": "Apnimandi Create Contractor",
