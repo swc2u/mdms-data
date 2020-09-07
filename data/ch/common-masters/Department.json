@@ -256,6 +256,12 @@
 		"name" : "Primary Health",
 		"code" : "464",
 		"active" : true
+
+	},
+	{
+		"name" : "Apnimandi",
+		"code" : "465",
+		"active" : true
 	},
 	{
 		"name" : "Sub Office Manimajra",

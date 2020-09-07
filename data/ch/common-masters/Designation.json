@@ -578,7 +578,13 @@
 		"description": "Data Entry Officer",
 		"active": true
 	},
-	  {
+	{
+		"name": "Legal Branch Officer",
+		"code": "1004",
+		"description": "Legal Branch Officer",
+		"active": true
+	},
+	{
 		"name": "Assistant Manager",
 		"code": "267",
 		"description": "Assistant Manager",
