@@ -936,6 +936,41 @@
 		"code": "ACMC",
 		"name": "ACMC",
 		"description": "ACMC"
+    },
+    {
+		"code": "WORKS_CREATE_ESTIMATE",
+		"name": "WORKS_CREATE_ESTIMATE",
+		"description": "WORKS_CREATE_ESTIMATE"
+    },
+    {
+		"code": "WORKS_SEARCH_ESTIMATE",
+		"name": "WORKS_SEARCH_ESTIMATE",
+		"description": "WORKS_SEARCH_ESTIMATE"
+    },
+    {
+		"code": "WORKS_CREATE_TENDER",
+		"name": "WORKS_CREATE_TENDER",
+		"description": "WORKS_CREATE_TENDER"
+    },
+    {
+		"code": "WORKS_SEARCH_TENDER",
+		"name": "WORKS_SEARCH_TENDER",
+		"description": "WORKS_SEARCH_TENDER"
+    },
+    {
+		"code": "WORKS_CREATE_BG",
+		"name": "WORKS_CREATE_BG",
+		"description": "WORKS_CREATE_BG"
+    },
+    {
+		"code": "WORKS_SEARCH_BG",
+		"name": "WORKS_SEARCH_BG",
+		"description": "WORKS_SEARCH_BG"
+    },
+    {
+		"code": "WORKS_APPROVER",
+		"name": "WORKS_APPROVER",
+		"description": "WORKS_APPROVER"
     }
   ]
 }

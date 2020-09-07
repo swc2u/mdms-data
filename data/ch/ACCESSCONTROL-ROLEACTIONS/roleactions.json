@@ -49364,6 +49364,48 @@
 				"actionid": 4556,
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_CREATE_ESTIMATE",
+				"actionid": 4557,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_SEARCH_ESTIMATE",
+				"actionid": 4558,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_CREATE_TENDER",
+				"actionid": 4559,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_SEARCH_TENDER",
+				"actionid": 4560,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_CREATE_BG",
+				"actionid": 4561,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_SEARCH_BG",
+				"actionid": 4562,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_APPROVER",
+				"actionid": 4563,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
