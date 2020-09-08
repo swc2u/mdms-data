@@ -3,52 +3,59 @@
   "moduleName": "ws-services-calculation",
   "RoadType": [
     {
-      "name": "Berm Cutting (Katcha)",
-      "code": "BERMCUTTINGKATCHA",
-      "unitCost": 6,
+      "name": "V-3 Road",
+      "code": "V3ROAD",
+      "unitCost": 663,
       "isActive": true
     },
     {
-      "name": "BM and Premix Road",
-      "code": "BMPREMIXROAD",
-      "unitCost": 120,
+      "name": "V-5 Road",
+      "code": "V5ROAD",
+      "unitCost": 663,
       "isActive": true
     },
     {
-      "name": "Brick Paving",
-      "code": "BRICKPAVING",
-      "unitCost": 30,
+      "name": "V-6 Road",
+      "code": "V6ROAD",
+      "unitCost": 361,
       "isActive": true
     },
     {
-      "name": "CC Road",
-      "code": "CCROAD",
-      "unitCost": 180,
+      "name": "Paver Blocks",
+      "code": "PAVERBLOCKS",
+      "unitCost": 522,
       "isActive": true
     },
     {
-      "name": "Interlocking Paver Block",
-      "code": "INTERLOCKINGPAVERBLOCK",
-      "unitCost": 150,
+      "name": "Road Berm",
+      "code": "ROADBERM",
+      "unitCost": 108,
       "isActive": true
     },
     {
-      "name": "Open Pipe",
-      "code": "OPENPIPE",
-      "unitCost": 200,
+      "name": "Chamber",
+      "code": "CHAMBERS",
+      "unitCost": 10760,
       "isActive": true
     },
     {
-      "name": "Open Pipe",
-      "code": "OPENPIPE",
-      "unitCost": 200,
+      "name": "Pit On Kutcha",
+      "code": "PITONKUTCHA",
+      "unitCost": 432,
       "isActive": true
     },
     {
-      "name": "Premix Carpet",
-      "code": "PREMIXCARPET",
-      "unitCost": 180,
+      "name": "Pit On Pavers",
+      "code": "PITONPAVERS",
+      "unitCost": 2061,
+      "isActive": true
+    },
+    {
+      "name": "Pit On Road",
+      "code": "PITONROAD",
+      "unitCost": 2644,
       "isActive": true
     }
+
   ]
 }
