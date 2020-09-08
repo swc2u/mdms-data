@@ -49245,6 +49245,30 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "CITIZEN",
+				"actionid": 4528,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4529,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4530,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4531,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "SAJE",
 				"actionid": 4423,
 				"actioncode": "",
