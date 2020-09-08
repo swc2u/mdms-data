@@ -49501,6 +49501,12 @@
 				"actionid": 4563,
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 722,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
