@@ -295,31 +295,21 @@
     {
       "category": "FEE",
       "service": "RentedProperties.OwnershipTransfer",
-      "name": "Ownership Transfer Rent",
-      "code": "RentedProperties.OwnershipTransfer_FEE",
+      "name": "Ownership Transfer Application Charges",
+      "code": "RentedProperties.OwnershipTransfer_APPLICATION_FEE",
       "isDebit": false,
       "isActualDemand": true,
       "order": "0",
       "isRequired": false
     },
     {
-      "category": "TAX",
+      "category": "FEE",
       "service": "RentedProperties.OwnershipTransfer",
-      "name": "Ownership Transfer Tax",
-      "code": "RentedProperties.OwnershipTransfer_TAX",
+      "name": "Ownership Transfer APRO Charges",
+      "code": "RentedProperties.OwnershipTransfer_PUBLICATION_FEE",
       "isDebit": false,
       "isActualDemand": true,
       "order": "2",
-      "isRequired": false
-    },
-    {
-      "category": "PENALTY",
-      "service": "RentedProperties.OwnershipTransfer",
-      "name": "Ownership Transfer Penalty",
-      "code": "RentedProperties.OwnershipTransfer_PENALTY",
-      "isDebit": false,
-      "isActualDemand": true,
-      "order": "1",
       "isRequired": false
     },
     {
@@ -333,40 +323,20 @@
       "isRequired": false
     },
     {
-      "category": "DUE",
-      "service": "RentedProperties.OwnershipTransfer",
-      "name": "Ownership Transfer Due",
-      "code": "RentedProperties.OwnershipTransfer_DUE",
-      "isDebit": false,
-      "isActualDemand": true,
-      "order": "1",
-      "isRequired": false
-    },
-    {
-      "category": "CHARGES",
-      "service": "RentedProperties.OwnershipTransfer",
-      "name": "Ownership Transfer Charges",
-      "code": "RentedProperties.OwnershipTransfer_CHARGES",
-      "isDebit": false,
-      "isActualDemand": true,
-      "order": "3",
-      "isRequired": false
-    },
-    {
       "category": "FEE",
       "service": "RentedProperties.DuplicateAllotmentLetter",
-      "name": "Duplicate Copy Rent",
-      "code": "RentedProperties.DuplicateAllotmentLetter_FEE",
+      "name": "Duplicate Copy Application Charges",
+      "code": "RentedProperties.DuplicateAllotmentLetter_APPLICATION_FEE",
       "isDebit": false,
       "isActualDemand": true,
       "order": "0",
       "isRequired": false
     },
     {
-      "category": "PENALTY",
+      "category": "FEE",
       "service": "RentedProperties.DuplicateAllotmentLetter",
-      "name": "Duplicate Copy Penalty",
-      "code": "RentedProperties.DuplicateAllotmentLetter_PENALTY",
+      "name": "Duplicate Copy APRO Charges",
+      "code": "RentedProperties.DuplicateAllotmentLetter_PUBLICATION_FEE",
       "isDebit": false,
       "isActualDemand": true,
       "order": "1",
@@ -382,26 +352,6 @@
       "order": "3",
       "isRequired": false
     },
-    {
-      "category": "DUE",
-      "service": "RentedProperties.DuplicateAllotmentLetter",
-      "name": "Duplicate Copy Due",
-      "code": "RentedProperties.DuplicateAllotmentLetter_DUE",
-      "isDebit": false,
-      "isActualDemand": true,
-      "order": "1",
-      "isRequired": false
-    },
-    {
-      "category": "CHARGES",
-      "service": "RentedProperties.DuplicateAllotmentLetter",
-      "name": "Duplicate Copy Charges",
-      "code": "RentedProperties.DuplicateAllotmentLetter_CHARGES",
-      "isDebit": false,
-      "isActualDemand": true,
-      "order": "3",
-      "isRequired": false
-    }, 
     {
       "category": "PRINCIPAL",
       "service": "RentedProperties.Rent",
