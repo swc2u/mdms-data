@@ -311,7 +311,7 @@
       "isActualDemand": true,
       "order": "2",
       "isRequired": false
-    }
+    },
     {
       "category": "TAX",
       "service": "RentedProperties.OwnershipTransfer",
