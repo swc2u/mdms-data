@@ -1,0 +1,83 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "egpm",
+  "breed": [
+    {
+      "id": "1",
+	  "code":"LABRADOR_RETRIEVER",
+      "tenantId": "ch.chandigarh",
+      "name": "Labrador Retriever",
+      "active": true
+    },
+	{
+      "id": "2",
+	  "code":"GERMAN_SHEPHERD",
+      "tenantId": "ch.chandigarh",
+      "name": "German Shepherd",
+      "active": true
+    },
+	{
+      "id": "3",
+	  "code":"GOLDEN_RETRIEVER",
+      "tenantId": "ch.chandigarh",
+      "name": "Golden Retriever",
+      "active": true
+    },
+	{
+      "id": "4",
+	  "code":"FRENCH_BULLDOG",
+      "tenantId": "ch.chandigarh",
+      "name": "French Bulldog",
+      "active": true
+    },
+	{
+      "id": "5",
+	  "code":"BULLDOG",
+      "tenantId": "ch.chandigarh",
+      "name": "Bulldog",
+      "active": true
+    },
+	{
+      "id": "6",
+	  "code":"BEAGLE",
+      "tenantId": "ch.chandigarh",
+      "name": "Beagle",
+      "active": true
+    },
+	{
+      "id": "7",
+	  "code":"POODLE",
+      "tenantId": "ch.chandigarh",
+      "name": "Poodle",
+      "active": true
+    },
+	{
+      "id": "8",
+	  "code":"ROTTWEILER",
+      "tenantId": "ch.chandigarh",
+      "name": "Rottweiler",
+      "active": true
+    },
+	{
+      "id": "9",
+	  "code":"AUSTRALIAN_SHEPHERD",
+      "tenantId": "ch.chandigarh",
+      "name": "Australian Shepherd",
+      "active": true
+    },
+	{
+      "id": "10",
+	  "code":"DOBERMAN",
+      "tenantId": "ch.chandigarh",
+      "name": "Doberman",
+      "active": true
+    },
+	{
+      "id": "11",
+	  "code":"OTHER",
+      "tenantId": "ch.chandigarh",
+      "name": "Other",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+   "tenantId":"ch",
+   "moduleName":"store-asset",
+   "RateType":[
+      {
+         "name":"Tender",
+         "code":"Tender",
+         "active":true
+      },
+      {
+         "name":"Quotation",
+         "code":"Quotation",
+         "active":true
+      }
+    ]
+}

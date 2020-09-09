@@ -1,0 +1,34 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "egpm",
+  "duration": [
+    {
+      "id": "1",
+	  "code": "DAILY",
+      "tenantId": "ch.chandigarh",
+      "name": "Daily",
+      "active": true
+    },
+	{
+      "id": "2",
+	  "code": "WEEKLY",
+      "tenantId": "ch.chandigarh",
+      "name": "Weekly",
+      "active": true
+    },
+	{
+      "id": "3",
+	  "code": "MONTHLY",
+      "tenantId": "ch.chandigarh",
+      "name": "Monthly",
+      "active": true
+    },
+	{
+      "id": "4",
+	  "code": "ANNUAL",
+      "tenantId": "ch.chandigarh",
+      "name": "Annual",
+      "active": true
+    }
+  ]
+} 
