@@ -1,0 +1,17 @@
+{   "tenantId": "ch"  ,
+"moduleName": "Booking",
+"Documents": [
+    {
+        
+        "code": "DOC.DOC_PICTURE",
+        "description":"DOC.DOC_PICTURE.PICTURE_DESCRIPTION",
+        "active":true,
+        "documentType":"DOC",
+        "dropdownData":[],
+        "hasDropdown":false,
+        "required":false
+        
+    }
+    ]
+}
+

@@ -543,7 +543,120 @@
          "service":"OPMS.ADVERTISEMENTNOC",
          "code":"OPMS.ADVNOC10YRS2019",
          "financialYear":"2019-29"
-      }
+      },
+	 {
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "OSBM",
+      "code": "OSBM",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "OSBM",
+      "code": "OSBM_TAX",
+      "financialYear": "2019-29"
+    }
+	,
+	 {
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "BWT",
+      "code": "BWT",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "BWT",
+      "code": "BWT_TAX",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "GFCP",
+      "code": "GFCP",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "GFCP",
+      "code": "GFCP_TAX",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "GFCP",
+      "code": "GFCP_ROUND_OFF",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "OSUJM",
+      "code": "OSUJM",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "OSUJM",
+      "code": "OSUJM_TAX",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "OSUJM",
+      "code": "OSUJM_ROUND_OFF",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "GFCP",
+      "code": "GFCP_ROUND_OFF",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "PACC",
+      "code": "PACC",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "PACC",
+      "code": "PACC_TAX",
+      "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "PACC",
+      "code": "PACC_ROUND_OFF",
+      "financialYear": "2019-29"
+    }
 
   ]
 }

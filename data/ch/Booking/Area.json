@@ -1,0 +1,22 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "Area": [
+        {
+            "name": "Less than 1000 sqft",
+            "id": "1",
+            "code": "Less than 1000 sqft",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "More than 1000 sqft",
+            "id": "2",
+            "code": "More than 1000 sqft",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+    ]
+}
+
+
