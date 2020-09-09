@@ -1,0 +1,37 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "Booking_Vanue": [
+        {
+            "name": "Circus Ground, Sector 17",
+            "id": "1",
+            "code": "Circus Ground, Sector 17",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Exhibition Ground, Sector 34",
+            "id": "2",
+            "code": "Exhibition Ground, Sector 34",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Housing Board Ground, Manimajra",
+            "id": "3",
+            "code": "Housing Board Ground, Manimajra",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Circus Ground, Manimajra",
+            "id": "4",
+            "code": "Circus Ground, Manimajra",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+        
+    ]
+}
+
+

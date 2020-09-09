@@ -282,6 +282,76 @@
 		  "isClosed": false,
 		  "transferClosingBalance": false,
 		  "module": "SW"
-		}
+		},
+		 {
+            "id": "17",
+            "tenantId": "ch"  , 
+            "finYearRange": "2020-2021",
+            "name": "2020-2021",
+            "code": "2020-2021",
+            "startingDate": 1554057000000,
+            "endingDate": 1869676199000,
+            "active": true,
+            "isActiveForPosting": true,
+            "isClosed": false,
+            "transferClosingBalance": false,
+            "module": "OSBM"
+        },
+		{
+            "id": "18",
+            "tenantId": "ch"  , 
+            "finYearRange": "2020-2021",
+            "name": "2020-2021",
+            "code": "2020-2021",
+            "startingDate": 1554057000000,
+            "endingDate": 1869676199000,
+            "active": true,
+            "isActiveForPosting": true,
+            "isClosed": false,
+            "transferClosingBalance": false,
+            "module": "BWT"
+        },
+		{
+            "id": "19",
+            "tenantId": "ch"  , 
+            "finYearRange": "2020-2021",
+            "name": "2020-2021",
+            "code": "2020-2021",
+            "startingDate": 1554057000000,
+            "endingDate": 1869676199000,
+            "active": true,
+            "isActiveForPosting": true,
+            "isClosed": false,
+            "transferClosingBalance": false,
+            "module": "GFCP"
+        },
+		{
+            "id": "20",
+            "tenantId": "ch"  , 
+            "finYearRange": "2020-2021",
+            "name": "2020-2021",
+            "code": "2020-2021",
+            "startingDate": 1554057000000,
+            "endingDate": 1869676199000,
+            "active": true,
+            "isActiveForPosting": true,
+            "isClosed": false,
+            "transferClosingBalance": false,
+            "module": "OSUJM"
+        },
+		{
+            "id": "21",
+            "tenantId": "ch"  , 
+            "finYearRange": "2020-2021",
+            "name": "2020-2021",
+            "code": "2020-2021",
+            "startingDate": 1554057000000,
+            "endingDate": 1869676199000,
+            "active": true,
+            "isActiveForPosting": true,
+            "isClosed": false,
+            "transferClosingBalance": false,
+            "module": "PACC"
+        }
     ]
 }

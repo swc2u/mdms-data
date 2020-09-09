@@ -1,0 +1,22 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "CityType": [
+        {
+            "name": "Residential",
+            "id": "1",
+            "code": "Residential",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Commercial",
+            "id": "2",
+            "code": "Commercial",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+    ]
+}
+
+
