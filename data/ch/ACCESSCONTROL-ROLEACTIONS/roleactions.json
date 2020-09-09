@@ -49269,6 +49269,24 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4532,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4533,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4534,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "SAJE",
 				"actionid": 4423,
 				"actioncode": "",
