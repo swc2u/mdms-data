@@ -971,6 +971,61 @@
 		"code": "WORKS_APPROVER",
 		"name": "WORKS_APPROVER",
 		"description": "WORKS_APPROVER"
+    },
+    {
+      "code": "OSBM_APPROVER",
+      "name": "OSBM APPROVER",
+      "description": "Employee who approves the open space booking for building material"
+    },
+    {
+      "code": "MCC_APPROVER",
+      "name": "MCC JURISDICTION VERIFIER",
+      "description": "Employee who verifies Open space under jurisdiction"
+    },
+    {
+      "code": "OSD_APPROVER",
+      "name": "MCC NEW LOCATION VERIFIER",
+      "description": "Employee who verifies new location under jurisdiction"
+    },
+    {
+      "code": "ADMIN_APPROVER",
+      "name": "MCC NEW LOCATION VERIFIER 2",
+      "description": "Employee who verifies new location under jurisdiction"
+    },
+    {
+      "code": "BOOKING_ADMIN",
+      "name": "BOOKING CREATOR",
+      "description": "Employee who creates master data"
+    },
+    {
+      "code": "CLERK",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who verifies PARK and Community Request"
+    },	
+    {
+      "code": "DEO",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who verifies PARK and Community Request"
+    },
+    {
+      "code": "SENIOR_ASSISTANT",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who verifies PARK and Community Request"
+    },
+    {
+      "code": "AUDIT_DEPARTMENT",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who audit PARK and Community Request"
+    },
+    {
+      "code": "CHIEF_ACCOUNT_OFFICER",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who verifies PARK and Community Request"
+    },
+    {
+      "code": "PAYMENT_PROCESSING_AUTHORITY",
+      "name": "PARK AND COMMUNITY PAYMENT PROCESSING AUTHORITY",
+      "description": "Employee PAYMENT PROCESSING AUTHORITY"
     }
   ]
 }

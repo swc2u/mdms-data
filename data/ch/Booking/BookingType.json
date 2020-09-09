@@ -1,0 +1,43 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "BookingType": [
+        {
+            "name": "Open Space to Store Building Material",
+            "id": "1",
+            "code": "OSBM",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Water Tankers",
+            "id": "2",
+            "code": "WATER_TANKERS",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Parks and Community Centre",
+            "id": "3",
+            "code": "PARKS_AND_COMMUNITY_CENTER",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Ground for Commercial Purpose",
+            "id": "4",
+            "code": "GROUND_FOR_COMMERCIAL_PURPOSE",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Open Spaces Under Jurisdiction of MCC",
+            "id": "5",
+            "code": "OSUJM",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+    ]
+}
+
+

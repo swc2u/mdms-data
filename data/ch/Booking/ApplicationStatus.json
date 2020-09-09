@@ -1,0 +1,29 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "ApplicationStatus": [
+        {
+            "name": "Driver Assigned",
+            "id": "1",
+            "code": "Driver Assigned",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Processed/Closed",
+            "id": "2",
+            "code": "Processed/Closed",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Request Cancelled",
+            "id": "3",
+            "code": "Request Cancelled",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+    ]
+}
+
+
