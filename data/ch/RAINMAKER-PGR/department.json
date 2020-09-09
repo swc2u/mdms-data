@@ -1,0 +1,130 @@
+﻿{   "tenantId": "ch"  , 
+	"moduleName": "RAINMAKER-PGR",
+    "PgrDepartment": [
+        {
+            "name": "Water Supply And Sewerage",
+            "code": "DEP_01",
+            "active": true
+        },
+        {
+            "name": "Building And Roads",
+            "code": "DEP_02",
+            "active": true
+        },
+        {
+            "name": "Horticulture",
+            "code": "DEP_03",
+            "active": true
+        },
+        {
+            "name": "Electrical",
+            "code": "DEP_04",
+            "active": true
+        },
+        {
+            "name": "Enforcement",
+            "code": "DEP_05",
+            "active": true
+        },
+        {
+            "name": "Health And Sanitation",
+            "code": "DEP_06",
+            "active": true
+        },
+        {
+            "name": "Birth And Death",
+            "code": "DEP_07",
+            "active": true
+        },
+        {
+            "name": "Colony Branch",
+            "code": "DEP_08",
+            "active": true
+        },
+        {
+            "name": "Estate Branch",
+            "code": "DEP_09",
+            "active": true
+        },
+        {
+            "name": "Establishment",
+            "code": "DEP_11",
+            "active": true
+        },
+        {
+            "name": "Computer Cell",
+            "code": "DEP_12",
+            "active": true
+        },
+        {
+            "name": "Tax Branch",
+            "code": "DEP_13",
+            "active": true
+        },
+        {
+            "name": "Building Branch",
+            "code": "DEP_14",
+            "active": true
+        },
+        {
+            "name": "Swarna Jayanti Shahari Rozgar Yojana(NULM)",
+            "code": "DEP_15",
+            "active": true
+        },
+        {
+            "name": "Accounts Branch",
+            "code": "DEP_16",
+            "active": true
+        },
+        {
+            "name": "Booking Branch/Advertisement",
+            "code": "DEP_17",
+            "active": true
+        },
+        {
+            "name": "Legal Branch",
+            "code": "DEP_18",
+            "active": true
+        },
+        {
+            "name": "Parking Branch",
+            "code": "DEP_19",
+            "active": true
+        },
+        {
+            "name": "Fire Wing",
+            "code": "DEP_20",
+            "active": true
+        },
+        {
+            "name": "Mechanical Wing",
+            "code": "DEP_21",
+            "active": true
+        },
+        {
+            "name": "Pension Branch",
+            "code": "DEP_22",
+            "active": true
+        },
+        {
+            "name": "Sub-Office,Manimajra",
+            "code": "DEP_23",
+            "active": true
+        },
+        {
+            "name": "Public Relations Wing",
+            "code": "DEP_24",
+            "active": true
+        },
+        {
+            "name": "House Allotment Committee",
+            "code": "DEP_25",
+            "active": true
+        },
+        {
+            "name": "Others",
+            "code": "DEP_26",
+            "active": true
+        }
+    ]
+}

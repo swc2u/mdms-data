@@ -1,0 +1,34 @@
+{
+  "tenantId": "ch",
+  "moduleName": "egec",
+  "EncroachmentType": [
+    {
+      "id": "1",
+         "code": "Unauthorized/Unregistered Vendor",
+      "tenantId": "ch",
+      "name": " Unauthorized / Unregistered Vendor",
+      "active": true
+    },
+        {
+      "id": "2",
+          "code": "Registered Street Vendors",
+      "tenantId": "ch",
+      "name": "Registered Street Vendors",
+      "active": true
+    },
+        {
+      "id": "3",
+          "code": "Shopkeeper/Corridor",
+      "tenantId": "ch",
+      "name": "Shopkeeper / Corridor",
+      "active": true
+    },
+        {
+      "id": "4",
+          "code": "Seizure of Vehicles",
+      "tenantId": "ch",
+      "name": "Seizure of Vehicles",
+      "active": true
+    }
+  ]
+}

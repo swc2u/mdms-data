@@ -1,0 +1,24 @@
+{
+   "tenantId":"ch",
+   "moduleName":"egec",
+   "documents":[
+      {
+         "id":"1",
+         "code":"EC_VIOLATORIMAGE",
+         "tenantId":"ch",
+         "name":"Image of Violator",
+         "active":true,
+         "documentType":"ViolatorImage",
+		 "required":"true"
+      },
+      {
+         "id":"2",
+         "code":"EC_VIOLATORIDPROOF",
+         "tenantId":"ch",
+         "name":"ID Proof of Violator",
+         "active":true,
+         "documentType":"ViolatorIdProof",
+		 "required":"true"
+      }
+   ]
+}
