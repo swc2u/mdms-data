@@ -874,6 +874,13 @@
             "uniqueKeys": [
                 "$.code"
             ]
+        },
+		"BankDetails": {
+            "masterName": "BankDetails",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
         }
 	},
 	"ws-services-masters": {
