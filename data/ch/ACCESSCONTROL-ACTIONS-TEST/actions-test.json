@@ -20860,6 +20860,18 @@
 		"navigationURL": "egov-nulm/search-log-maintenance",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
-	}
+	},
+	{
+      "id": 4557,
+      "name": "AccountStatementExcelGenerationApi",
+      "url": "/rp-services/property/_accountstatementxlsx",
+      "displayName": "Account Statement Excel Generation API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "AccountStatementExcelGenerationApi",
+      "code": "null",
+      "path": "AccountStatementExcelGenerationApi"
+    }
   ]
 }
