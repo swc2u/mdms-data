@@ -20258,6 +20258,48 @@
 		"rightIcon": ""
 	},
 	{
+	      "id": 4425,
+	      "name": "Create Supplier",
+	      "url": "url",
+	      "parentModule": "",
+	      "displayName": "Create Supplier",
+	      "orderNumber": 1,
+	      "enabled": true,
+	      "serviceCode": "FinanceMaster",
+	      "code": "null",
+	      "leftIcon": "editor:insert-chart",
+	      "path": "Store.Store Asset Master.Supplier Master.Create Supplier",
+	      "navigationURL": "services/EGF/supplier/newform"
+	    },
+	    {
+	      "id": 4426,
+	      "name": "View Supplier",
+	      "url": "url",
+	      "parentModule": "",
+	      "displayName": "View Supplier",
+	      "orderNumber": 2,
+	      "enabled": true,
+	      "serviceCode": "FinanceMaster",
+	      "code": "null",
+	      "leftIcon": "editor:insert-chart",
+	      "path": "Store.Store Asset Master.Supplier Master.View Supplier",
+	      "navigationURL": "services/EGF/supplier/search/view"
+	    },
+	    {
+	      "id": 4427,
+	      "name": "Modify Supplier",
+	      "url": "url",
+	      "parentModule": "",
+	      "displayName": "Modify Supplier",
+	      "orderNumber": 3,
+	      "enabled": true,
+	      "serviceCode": "FinanceMaster",
+	      "code": "null",
+	      "leftIcon": "editor:insert-chart",
+	      "path": "Store.Store Asset Master.Supplier Master.Modify Supplier",
+	      "navigationURL": "services/EGF/supplier/search/edit"
+	    },
+	{
       "id": 2350,
       "name": "Locality searcher endpoint for TL",
       "url": "/egov-searcher/locality/tl-services/_get",
