@@ -78,7 +78,7 @@
       "id": "7",
       "size": "4 inch or 100 millimeters",
       "code": "PIPE_100MM",
-	  "isActive": true
+	  "isActive": true,
       "charges" :[{
         "security": null,
         "ferrule": 2000,
