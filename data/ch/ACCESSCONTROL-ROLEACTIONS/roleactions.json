@@ -49719,6 +49719,24 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "SAJE",
+				"actionid": 4425,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4426,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4427,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "NGO",
 				"actionid": 4555,
 				"actioncode": "",
