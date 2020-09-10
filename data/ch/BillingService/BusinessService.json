@@ -70,6 +70,39 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
+			"businessService": "RentedProperties.OwnershipTransfer",
+			"code": "RentedProperties.OwnershipTransfer",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "RentedProperties.Rent",
+			"code": "RentedProperties.Rent",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "RentedProperties.DuplicateAllotmentLetter",
+			"code": "RentedProperties.DuplicateAllotmentLetter",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
 			"businessService": "WaterCharges.Metered",
 			"code": "WaterCharges.Metered",
 			"collectionModesNotAllowed": [
