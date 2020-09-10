@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "ws-services-calculation",
-  "WSTempConBillingSlab.json": [
+  "WSTempConBillingSlab": [
     {
       "id": "1",
       "buildingType": "DOMESTIC",

@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "ws-services-calculation",
-  "PipeSize": [
+  "RoadType": [
     {
       "name": "V-3 Road",
       "code": "V3ROAD",
