@@ -19980,7 +19980,7 @@
 		"displayName": "Supplier Master",
 		"orderNumber": 5,
 		"parentModule": "rainmaker-store-asset",
-		"enabled": true,
+		"enabled": false,
 		"serviceCode": "STORE",
 		"code": "null",
 		"path": "Store.Store Asset Master.Supplier Master",
