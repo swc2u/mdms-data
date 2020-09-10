@@ -4,8 +4,7 @@
   "PipeSize": [
 	{
 	  "id": "1", 
-	  "size": "½ inch or 15 millimeters",
-      "code": "PIPE_15MM",
+	  "size": "15",
 	  "isActive": true,
       "charges" :[{
         "security": 1000,
@@ -16,8 +15,7 @@
     },
     {
       "id": "2",
-      "size": "¾ inch or 20 millimeters",
-      "code": "PIPE_20MM",
+      "size": "20",
 	  "isActive": true,
       "charges" :[{
         "security": null,
@@ -28,8 +26,7 @@
     },
     {
       "id": "3",
-      "size": "1 inch or 25 millimeters",
-      "code": "PIPE_25MM",
+      "size": "25",
 	  "isActive": true,
       "charges" :[{
         "security": null,
@@ -40,8 +37,7 @@
     },
     {
       "id": "4",
-      "size": "1½ inch or 40 millimeters",
-      "code": "PIPE_40MM",
+      "size": "40",
 	  "isActive": true,
       "charges" :[{
         "security": null,
@@ -52,8 +48,7 @@
     },
     {
       "id": "5",
-      "size": "2 inch or 50 millimeters",
-      "code": "PIPE_50MM",
+      "size": "50",
 	  "isActive": true,
       "charges" :[{
         "security": null,
@@ -64,8 +59,7 @@
     },
     {
       "id": "6",
-      "size": "3 inch or 80 millimeters",
-      "code": "PIPE_80MM",
+      "size": "80",
 	  "isActive": true,
       "charges" :[{
         "security": null,
@@ -76,8 +70,7 @@
     },
     {
       "id": "7",
-      "size": "4 inch or 100 millimeters",
-      "code": "PIPE_100MM",
+      "size": "100",
 	  "isActive": true,
       "charges" :[{
         "security": null,
@@ -88,8 +81,7 @@
     },
     {
       "id": "8",
-      "size": "5 inch,6&7 inch or 120 mm, 140 & 160 mm",
-      "code": "PIPE_120_140_160MM",
+      "size": "120-160",
 	  "isActive": true,
       "charges" :[{
         "security": null,
@@ -100,8 +92,7 @@
     },
     {
       "id": "9",
-      "size": "8 inch to 9 inch or 200 mm",
-      "code": "PIPE_200MM",
+      "size": "180-200",
 	  "isActive": true,
       "charges" :[{
         "security": null,
@@ -112,8 +103,7 @@
     },
     {
       "id": "10",
-      "size": "10 inch to 20 inch or 250 millimeters to 400 millimeters",
-      "code": "PIPE_200_TO_400MM",
+      "size": "250-400",
 	  "isActive": true,
       "charges" :[{
         "security": null,

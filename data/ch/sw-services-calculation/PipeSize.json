@@ -1,6 +1,6 @@
 {
   "tenantId": "ch",
-  "moduleName": "ws-services-calculation",
+  "moduleName": "sw-services-calculation",
   "PipeSize": [
     {
       "id": "1",
