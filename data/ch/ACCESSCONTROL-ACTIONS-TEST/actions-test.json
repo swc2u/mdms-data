@@ -13108,7 +13108,7 @@
       "name": "Loading Rehri Registration Certificate",
       "navigationURL": "fine-master/CTL_REHRI_REGISTRATION",
       "orderNumber": 0,
-      "path": "Fine Master Edit.Loading Rehri Registration Certificate",
+      "path": "TradeLicense.Fine Master Edit.Loading Rehri Registration Certificate",
       "serviceCode": "Loading Rehri Registration Certificate",
       "tenantId": "ch",
       "url": "fine-master/CTL_REHRI_REGISTRATION"
@@ -13121,7 +13121,7 @@
       "name": "Loading Rehri Driving License",
       "navigationURL": "fine-master/CTL_REHRI_DRIVING_LICENSE",
       "orderNumber": 1,
-      "path": "Fine Master Edit.Loading Rehri Driving License",
+      "path": "TradeLicense.Fine Master Edit.Loading Rehri Driving License",
       "serviceCode": "Loading Rehri Driving License",
       "tenantId": "ch",
       "url": "fine-master/CTL_REHRI_DRIVING_LICENSE"
@@ -13134,7 +13134,7 @@
       "name": "Dhobi Ghat",
       "navigationURL": "fine-master/CTL_DHOBI_GHAT",
       "orderNumber": 2,
-      "path": "Fine Master Edit.Dhobi Ghat",
+      "path": "TradeLicense.Fine Master Edit.Dhobi Ghat",
       "serviceCode": "Dhobi Ghat",
       "tenantId": "ch",
       "url": "fine-master/CTL_DHOBI_GHAT"
