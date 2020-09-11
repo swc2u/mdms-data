@@ -787,49 +787,54 @@
       "description": "WS counter employee can take action as citizen"
     },
     {
-      "code": "WS_DOC_VERIFIER",
-      "name": "WS Document Verifier",
-      "description": "WS Document Verifier"
+      "code": "WS_JE",
+      "name": "WS Document Verifier & Release Connection",
+      "description": "WS Document Verifier & Release Connection"
     },
     {
-      "code": "WS_FIELD_INSPECTOR",
-      "name": "WS Field Inspector",
-      "description": "WS Inspector can take action like verify and forword, send back to do"
+      "code": "WS_SDE_ROADS",
+      "name": "WS SDE Roads",
+      "description": "WS SDE Roads"
     },
     {
-      "code": "WS_APPROVER",
+      "code": "WS_SDE",
       "name": "WS Approver",
       "description": "WS Approver can approve the connection application"
     },
     {
-      "code": "WS_CLERK",
-      "name": "WS Clerk",
-      "description": "WS Clerk can activate the connection application"
+      "code": "WS_EE",
+      "name": "WS Executive Engineer",
+      "description": "WS EE who forward more than 15mm pipe connection"
+    },
+	{
+      "code": "WS_HDM",
+      "name": "WS HDM",
+      "description": "WS HDM who approves more than 15mm pipe connection"
     },
     {
       "code": "SW_CEMP",
       "name": "SW Counter Employee",
       "description": "SW counter employee can take action as citizen"
     },
-    {
-      "code": "SW_DOC_VERIFIER",
-      "name": "SW Document Verifier",
-      "description": "SW Document Verifier"
+	{
+      "code": "SW_SDO",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
     },
     {
-      "code": "SW_FIELD_INSPECTOR",
-      "name": "SW Field Inspector",
-      "description": "SW Inspector can take action like verify and forword, send back to do"
+      "code": "SW_JE",
+      "name": "SW Document Verifier & Release Connection",
+      "description": "SW Document Verifier & Release Connection"
     },
     {
-      "code": "SW_APPROVER",
+      "code": "SW_JE_BR",
+      "name": "SW B&R JE",
+      "description": "SW B&R JE verify road cutting"
+    },
+    {
+      "code": "SW_EE",
       "name": "SW Approver",
       "description": "SW Approver can approve the connection application"
-    },
-    {
-      "code": "SW_CLERK",
-      "name": "SW Clerk",
-      "description": "SW Clerk can activate the connection application"
     },
     {
       "code": "AUDIT_ADMIN",
