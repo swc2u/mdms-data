@@ -1019,12 +1019,7 @@
 		  "masterName": "RoadCutTaxSlab",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
-		},
-		"SWAppCharges": {
-		  "masterName": "SWAppCharges",
-		  "isStateLevel": true,
-		  "uniqueKeys": []
-		},
+		},		
 		"CalculationAttribute": {
 		  "masterName": "CalculationAttribute",
 		  "isStateLevel": true,
@@ -1097,6 +1092,16 @@
 		},
 		"RoadType": {
 		  "masterName": "RoadType",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"SWAppCharges": {
+		  "masterName": "SWAppCharges",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"RoadCutTaxSlab": {
+		  "masterName": "RoadCutTaxSlab",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
 		},
