@@ -916,6 +916,11 @@
 		  "masterName": "waterSourceWithSubSource",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
+		},
+		"WaterApplicationType": {
+		  "masterName": "WaterApplicationType",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
 		}
 	  },
 	  "ws-services-calculation": {
