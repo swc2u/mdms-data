@@ -3,7 +3,7 @@
 	"moduleName": "sw-services-calculation",
 	"SWAppCharges": [{
 			"id": "1",
-			"code": "DOMESTIC",
+			"buildingType": "DOMESTIC",
 			"calculationAttribute": "Sewerage charges",
 			"isActive": true,
 			"slabs": [{
