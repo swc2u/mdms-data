@@ -1,0 +1,69 @@
+{
+    "tenantId": "ch",
+    "moduleName": "RentedProperties",
+    "colonies": [
+        {
+            "code": "COLONY.MILK",
+            "active": true,
+            "costPerSqyd" : 2,
+            "interestRateOrYear": 24,
+            "rentIncrementPercentage": 25,
+            "rentIncrementPeriod": 5,
+            "area": [
+                {
+                    "code": "AREA.150",
+                    "active": true,
+                    "sqyd": "150"
+                },
+                {
+                    "code": "AREA.300",
+                    "active": true,
+                    "sqyd": "300"
+                }
+            ]
+        },
+        {
+            "code": "COLONY.KUMHAR",
+            "active": true,
+            "costPerSqyd" : 4,
+            "interestRateOrYear": 24,
+            "rentIncrementPercentage": 25,
+            "rentIncrementPeriod": 5,
+            "area": [
+                {
+                    "code": "AREA.125",
+                    "active": true,
+                    "sqyd": "125"
+                }
+            ]
+        },
+        {
+            "code": "COLONY.SECTOR_52_53",
+            "active": true,
+            "interestRateOrYear": 0,
+            "rentIncrementPercentage": 5,
+            "rentIncrementPeriod": 1,
+            "area": [
+                {
+                    "code": "AREA.150",
+                    "active": true,
+                    "sqyd": "150"
+                }
+            ]
+        },
+        {
+            "code": "COLONY.VIKAR_NAGAR",
+            "active": true,
+            "interestRateOrYear": 0,
+            "rentIncrementPercentage": 5,
+            "rentIncrementPeriod": 1,
+            "area": [
+                {
+                    "code": "AREA.150",
+                    "active": true,
+                    "sqyd": "150"
+                }
+            ]
+        }
+    ]
+}

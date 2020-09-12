@@ -65,7 +65,7 @@
     {
       "code": "SECTOR-13",
       "name": "Sector-13",
-      "active": true
+      "active": false
     },
     {
       "code": "SECTOR-14",
@@ -400,7 +400,7 @@
     {
       "code": "SECTOR-62",
       "name": "Sector-62",
-      "active": true
+      "active": false
     },
     {
       "code": "SECTOR-63",
@@ -775,12 +775,12 @@
     {
       "code": "PHASE_II",
       "name": "Phase II",
-      "active": true
+      "active": false
     },
     {
       "code": "PHASE1",
       "name": "Phase 1",
-      "active": true
+      "active": false
     },
     {
       "code": "EWS_HOUSING_BOARD",
@@ -989,7 +989,7 @@
     },
     {
       "code": "CRIMINATION_GROUND",
-      "name": "crimination ground",
+      "name": "Cremation ground",
       "active": true
     },
     {
@@ -1215,7 +1215,7 @@
     {
       "code": "SECTOR-64",
       "name": "Secector-64",
-      "active": true
+      "active": false
     },
     {
       "code": "DUMPING_GROUND",
@@ -1230,22 +1230,22 @@
     {
       "code": "SECTOR-57",
       "name": "Sector-57",
-      "active": true
+      "active": false
     },
     {
       "code": "SECTOR-58",
       "name": "Sector-58",
-      "active": true
+      "active": false
     },
     {
       "code": "SECTOR-59",
       "name": "Sector-59",
-      "active": true
+      "active": false
     },
     {
       "code": "SECTOR-60",
       "name": "Sector-60",
-      "active": true
+      "active": false
     },
     {
       "code": "SHAHPUR",
