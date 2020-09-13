@@ -1177,8 +1177,31 @@
                           "value": 10000
                         }
                       ],
-                      "formula": "(|LPD| * 60/100)",
-                      "values": null
+                      "formula": null,
+                      "values": [
+                        {
+                          "preConditions": [
+                            {
+                              "key": "(|LPD| * 60/100)",
+                              "operator": "<=",
+                              "value": 3500
+                            }
+                          ],
+                          "formula": 3500,
+                          "values": null
+                        },
+                        {
+                          "preConditions": [
+                            {
+                              "key": "(|LPD| * 60/100)",
+                              "operator": ">",
+                              "value": 3500
+                            }
+                          ],
+                          "formula": "(|LPD| * 60/100)",
+                          "values": null
+                        }
+                      ]
                     },
                     {
                       "preConditions": [
@@ -1188,8 +1211,31 @@
                           "value": 10000
                         }
                       ],
-                      "formula": "(|LPD| * 50/100)",
-                      "values": null
+                      "formula": null,
+                      "values": [
+                        {
+                          "preConditions": [
+                            {
+                              "key": "(|LPD| * 50/100)",
+                              "operator": "<=",
+                              "value": 3500
+                            }
+                          ],
+                          "formula": 3500,
+                          "values": null
+                        },
+                        {
+                          "preConditions": [
+                            {
+                              "key": "(|LPD| * 50/100)",
+                              "operator": ">",
+                              "value": 3500
+                            }
+                          ],
+                          "formula": "(|LPD| * 50/100)",
+                          "values": null
+                        }
+                      ]
                     }
                   ]
                 },
@@ -1202,7 +1248,30 @@
                     }
                   ],
                   "formula": "(|LPD|)",
-                  "values": null
+                  "values": [
+                    {
+                      "preConditions": [
+                        {
+                          "key": "(|LPD|)",
+                          "operator": "<=",
+                          "value": 3500
+                        }
+                      ],
+                      "formula": 3500,
+                      "values": null
+                    },
+                    {
+                      "preConditions": [
+                        {
+                          "key": "(|LPD|)",
+                          "operator": ">",
+                          "value": 3500
+                        }
+                      ],
+                      "formula": "|LPD|",
+                      "values": null
+                    }
+                  ]
                 }
               ]
             },
@@ -1313,8 +1382,31 @@
                           "value": 10000
                         }
                       ],
-                      "formula": "((|LPD|) * 40/100)",
-                      "values": null
+                      "formula": null,
+                      "values": [
+                        {
+                          "preConditions": [
+                            {
+                              "key": "((|LPD|) * 40/100)",
+                              "operator": "<=",
+                              "value": 3500
+                            }
+                          ],
+                          "formula": 3500,
+                          "values": null
+                        },
+                        {
+                          "preConditions": [
+                            {
+                              "key": "((|LPD|) * 40/100)",
+                              "operator": ">",
+                              "value": 3500
+                            }
+                          ],
+                          "formula": "((|LPD|) * 40/100)",
+                          "values": null
+                        }
+                      ]
                     },
                     {
                       "preConditions": [
@@ -1324,8 +1416,31 @@
                           "value": 10000
                         }
                       ],
-                      "formula": "(|LPD| * 30/100)",
-                      "values": null
+                      "formula": null,
+                      "values": [
+                        {
+                          "preConditions": [
+                            {
+                              "key": "(|LPD| * 30/100)",
+                              "operator": "<=",
+                              "value": 3500
+                            }
+                          ],
+                          "formula": 3500,
+                          "values": null
+                        },
+                        {
+                          "preConditions": [
+                            {
+                              "key": "(|LPD| * 30/100)",
+                              "operator": ">",
+                              "value": 3500
+                            }
+                          ],
+                          "formula": "(|LPD| * 30/100)",
+                          "values": null
+                        }
+                      ]
                     }
                   ]
                 },
@@ -1337,8 +1452,31 @@
                       "value": "TRUE"
                     }
                   ],
-                  "formula": "(|LPD| * 50/100)",
-                  "values": null
+                  "formula": null,
+                  "values": [
+                    {
+                      "preConditions": [
+                        {
+                          "key": "(|LPD| * 50/100)",
+                          "operator": "<=",
+                          "value": 3500
+                        }
+                      ],
+                      "formula": 3500,
+                      "values": null
+                    },
+                    {
+                      "preConditions": [
+                        {
+                          "key": "(|LPD| * 50/100)",
+                          "operator": ">",
+                          "value": 3500
+                        }
+                      ],
+                      "formula": "(|LPD| * 50/100)",
+                      "values": null
+                    }
+                  ]
                 }
               ]
             }

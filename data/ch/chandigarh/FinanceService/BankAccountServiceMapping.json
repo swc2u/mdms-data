@@ -91,6 +91,18 @@
       "bankAccount": "000000000001",
       "bank": "Allahabad UP Gramin Bank",
       "bankBranch": "001"
+    },
+    {
+      "businessDetails": "OPMS.PETNOC",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "EC",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
     }
   ]
 }

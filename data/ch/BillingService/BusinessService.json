@@ -24,20 +24,9 @@
 			"isAdvanceAllowed": true,
 			"demandUpdateTime": 86400000,
 			"isVoucherCreationEnabled": false
-		},
+		},		
 		{
-			"businessService": "TradeLicense",
-			"code": "TL",
-			"collectionModesNotAllowed": [
-				"DD"
-			],
-			"partPaymentAllowed": false,
-			"isAdvanceAllowed": false,
-			"demandUpdateTime": 604800000,
-			"isVoucherCreationEnabled": true
-		},
-		{
-			"businessService": "CTL.RehriRC",
+			"businessService": "Trade License.Rehri Registration Certificate",
 			"code": "CTL.REHRI_REGISTRATION",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -48,7 +37,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "CTL.RehriDL",
+			"businessService": "Trade License.Rehri Driving License",
 			"code": "CTL.REHRI_DRIVING_LICENSE",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -59,7 +48,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "CTL.DhobiGhat",
+			"businessService": "Trade License.Dhobi Ghat",
 			"code": "CTL.DHOBI_GHAT",
 			"collectionModesNotAllowed": [
 				"DD"
@@ -70,8 +59,41 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "CTL.BookShop",
+			"businessService": "Trade License.Book Shop",
 			"code": "CTL.OLD_BOOK_MARKET",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "RentedProperties.OwnershipTransfer",
+			"code": "RentedProperties.OwnershipTransfer",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "RentedProperties.Rent",
+			"code": "RentedProperties.Rent",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "RentedProperties.DuplicateAllotmentLetter",
+			"code": "RentedProperties.DuplicateAllotmentLetter",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -1130,17 +1152,6 @@
 			"isActive": true
 		},
 		{
-			"businessService": "TL.RENEWAL",
-			"code": "TL.RENEWAL",
-			"collectionModesNotAllowed": [
-				"DD"
-			],
-			"partPaymentAllowed": false,
-			"isAdvanceAllowed": false,
-			"isVoucherCreationEnabled": true,
-			"isActive": true
-		},
-		{
 			"businessService": "WS.ONE_TIME_FEE",
 			"code": "WS.ONE_TIME_FEE",
 			"collectionModesNotAllowed": [
@@ -1281,6 +1292,150 @@
 			"isAdvanceAllowed": false,
 			"demandUpdateTime": 86400000,
 			"isVoucherCreationEnabled": true
+		},
+		{
+		  "businessService": "OSBM",
+		  "code": "OSBM",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSBM",
+		  "code": "OSBM_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		}
+		,
+		 {
+		  "businessService": "BWT",
+		  "code": "BWT",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "BWT",
+		  "code": "BWT_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "GFCP",
+		  "code": "GFCP",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "GFCP",
+		  "code": "GFCP_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "GFCP",
+		  "code": "GFCP_ROUND_OFF",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSUJM",
+		  "code": "OSUJM",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSUJM",
+		  "code": "OSUJM_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSUJM",
+		  "code": "OSUJM_ROUND_OFF",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC_ROUND_OFF",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
 		}
 	]
 }

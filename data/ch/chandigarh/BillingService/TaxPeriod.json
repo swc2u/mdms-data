@@ -97,7 +97,31 @@
       "service": "CTL.OLD_BOOK_MARKET",
       "code": "CTLOBM10YRS2019",
       "financialYear": "2020-30"
-    },	  
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "RentedProperties.OwnershipTransfer",
+      "code": "RPOT10YRS2019",
+      "financialYear": "2020-30"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "RentedProperties.DuplicateAllotmentLetter",
+      "code": "RPOT10YRS2019",
+      "financialYear": "2020-30"
+    }, 
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "RentedProperties.Rent",
+      "code": "RPRENT10YRS2020",
+      "financialYear": "2020-30"
+    }, 
     {
       "fromDate": 1522540800000,
       "toDate": 1554076799000,
@@ -482,23 +506,15 @@
          "code":"DMRD310YRS2019",
          "financialYear":"2019-29"
       },
-    {
-      "fromDate": 1554057001000,
-      "toDate": 1585593001000,
-      "periodCycle": "ANNUAL",
-      "service": "EC",
-      "code": "EC2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1617129000000,
-      "periodCycle": "ANNUAL",
-      "service": "EC",
-      "code": "EC2020",
-      "financialYear": "2020-21"
-    },
-		{
+     {
+      	"fromDate":"1522540801000",
+        "toDate":"1838159999000",
+      	"periodCycle": "TENYEARS",
+      	"service": "EC",
+      	"code": "EC10YRS2019",
+      	"financialYear": "2019-29"
+      },
+     {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",

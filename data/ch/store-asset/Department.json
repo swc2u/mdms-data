@@ -3,95 +3,109 @@
    "moduleName":"store-asset",
    "Department":[
       {
-         "id":1,
-         "tenantId":"ch",
-         "name":"Water Supply And Sewerage",
-         "code":"DEP_01",
-         "active":true
+         "name" : "BUILDING",
+         "code" : "398",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":2,
-         "tenantId":"ch",
-         "name":"Building And Roads",
-         "code":"DEP_02",
-         "active":true
+         "name" : "ROAD DIV 1",
+         "code" : "427",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":3,
-         "tenantId":"ch",
-         "name":"Horticulture",
-         "code":"DEP_03",
-         "active":true
+         "name" : "ROAD DIV 2",
+         "code" : "428",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":4,
-         "tenantId":"ch",
-         "name":"Electrical",
-         "code":"DEP_04",
-         "active":true
+         "name" : "ROAD DIV 3",
+         "code" : "429",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":5,
-         "tenantId":"ch",
-         "name":"Health And Sanitation",
-         "code":"DEP_06",
-         "active":true
+         "name" : "HORTICULTURE DIV 1",
+         "code" : "433",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":6,
-         "tenantId":"ch",
-         "name":"Colony Branch",
-         "code":"DEP_08",
-         "active":true
+         "name" : "HORTICULTURE DIV 2",
+         "code" : "434",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":7,
-         "tenantId":"ch",
-         "name":"Estate Branch",
-         "code":"DEP_09",
-         "active":true
+         "name" : "ELECTRICAL DIV 1",
+         "code" : "432",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":8,
-         "tenantId":"ch",
-         "name":"Computer Cell",
-         "code":"DEP_12",
-         "active":true
+         "name" : "Primary Health",
+         "code" : "464",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":9,
-         "tenantId":"ch",
-         "name":"Building Branch",
-         "code":"DEP_14",
-         "active":true
+         "name" : "PUBLIC HEALTH DIV 1",
+         "code" : "423",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":10,
-         "tenantId":"ch",
-         "name":"Parking Branch",
-         "code":"DEP_19",
-         "active":true
+         "name" : "PUBLIC HEALTH DIV 2",
+         "code" : "424",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":11,
-         "tenantId":"ch",
-         "name":"Fire Wing",
-         "code":"DEP_20",
-         "active":true
+         "name" : "PUBLIC HEALTH DIV 3",
+         "code" : "425",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":12,
-         "tenantId":"ch",
-         "name":"Mechanical Wing",
-         "code":"DEP_21",
-         "active":true
+         "name" : "PUBLIC HEALTH DIV 4",
+         "code" : "426",
+         "deductionPercentage":"3",
+         "deptCategory": "Engineering",
+         "active" : true
       },
       {
-         "id":13,
-         "tenantId":"ch",
-         "name":"Others",
-         "code":"DEP_26",
-         "active":true
+         "name" : "IT BRANCH",
+         "code" : "385",
+         "deductionPercentage":"0",
+         "deptCategory": "IT",
+         "active" : true
+      },
+      {
+         "name" : "MOH",
+         "code" : "402",
+         "deductionPercentage":"0",
+         "deptCategory": "MOH",
+         "active" : true
+      },
+      {
+         "name" : "CARE TAKER BRANCH",
+         "code" : "411",
+         "deductionPercentage":"0",
+         "deptCategory": "Caretaker",
+         "active" : true
       }
    ]
 }

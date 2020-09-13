@@ -1,0 +1,47 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "ApplicationType": [
+        {
+            "name": "Open space for building material",
+            "id": "1",
+            "code": "OSBM",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+            
+        },
+        {
+            "name": "Water tanker",
+            "id": "2",
+            "code": "BWT",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "MCC Open Space Booking",
+            "id": "3",
+            "code": "OSUJM",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+            
+        },
+        {
+            "name": "Ground For Commercial Purpose",
+            "id": "4",
+            "code": "GFCP",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "MCC New Location",
+            "id": "5",
+            "code": "NLUJM",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+       
+        
+    ]
+}
+
+

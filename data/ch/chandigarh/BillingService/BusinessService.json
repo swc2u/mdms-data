@@ -25,10 +25,54 @@
       "isAdvanceAllowed": true,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": false
+    },   
+		{
+			"businessService": "Trade License.Rehri Registration Certificate",
+			"code": "CTL.REHRI_REGISTRATION",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Trade License.Rehri Driving License",
+			"code": "CTL.REHRI_DRIVING_LICENSE",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Trade License.Dhobi Ghat",
+			"code": "CTL.DHOBI_GHAT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Trade License.Book Shop",
+			"code": "CTL.OLD_BOOK_MARKET",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
     },
     {
-      "businessService": "TradeLicense",
-      "code": "TL",
+      "businessService": "RentedProperties.OwnershipTransfer",
+      "code": "RentedProperties.OwnershipTransfer",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -38,8 +82,19 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "CTL.RehriRC",
-      "code": "CTL.REHRI_REGISTRATION",
+      "businessService": "RentedProperties.Rent",
+      "code": "RentedProperties.Rent",
+      "collectionModesNotAllowed": [
+          "DD"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 604800000,
+      "isVoucherCreationEnabled": true
+    },
+    {
+      "businessService": "RentedProperties.DuplicateAllotmentLetter",
+      "code": "RentedProperties.DuplicateAllotmentLetter",
       "collectionModesNotAllowed": [
         "DD"
       ],
@@ -48,40 +103,7 @@
       "demandUpdateTime": 604800000,
       "isVoucherCreationEnabled": true
     },
-    {
-      "businessService": "CTL.RehriDL",
-      "code": "CTL.REHRI_DRIVING_LICENSE",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
-    {
-      "businessService": "CTL.DhobiGhat",
-      "code": "CTL.DHOBI_GHAT",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
-    {
-      "businessService": "CTL.BookShop",
-      "code": "CTL.OLD_BOOK_MARKET",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },	  
-    {
+	  {
       "businessService": "WaterCharges.Metered",
       "code": "WaterCharges.Metered",
       "collectionModesNotAllowed": [
@@ -1122,17 +1144,6 @@
     {
       "businessService": "PT.MUTATION",
       "code": "PT.MUTATION",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "isVoucherCreationEnabled": true,
-      "isActive": true
-    },
-    {
-      "businessService": "TL.RENEWAL",
-      "code": "TL.RENEWAL",
       "collectionModesNotAllowed": [
         "DD"
       ],
