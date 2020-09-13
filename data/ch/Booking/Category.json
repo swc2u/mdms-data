@@ -1,0 +1,29 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "Category": [
+        {
+            "name": "Cat-A",
+            "id": "1",
+            "code": "Cat-A",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Cat-B",
+            "id": "2",
+            "code": "Cat-B",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Cat-C",
+            "id": "3",
+            "code": "Cat-C",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+    ]
+}
+
+

@@ -12,14 +12,14 @@
             "code": "PRUNING OF TREES GIRTH GREATER THAN 90 CMS",
             "active": true
         },
-        {
-             "name": "Removal of Overgrown/Green Trees",
-            "code": "REMOVAL OF OVERGROWN/GREEN TREES",
-            "active": true
-        },
          {
              "name": "Removal of Dead/Dangerous/Dry Trees",
             "code": "REMOVAL OF DEAD/DANGEROUS/DRY TREES",
+            "active": true
+        },
+         {
+             "name": "Removal of Green Trees",
+            "code": "REMOVAL OF GREEN TREES",
             "active": true
         }
     ]

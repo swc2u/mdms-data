@@ -1,0 +1,22 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "VillageCity": [
+        {
+            "name": "Village/Re-habilitation",
+            "id": "1",
+            "code": "Village/Re-habilitation",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "City",
+            "id": "2",
+            "code": "City",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+    ]
+}
+
+

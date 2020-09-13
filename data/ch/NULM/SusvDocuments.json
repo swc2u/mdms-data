@@ -1,0 +1,33 @@
+{
+  "tenantId": "ch",
+  "moduleName": "NULM",
+  "SusvDocuments": [
+	{
+      "code": "NULM_IDENTITY_PROOF",
+      "documentType": "NULM_IDENTITY_PROOF",
+      "required": true,
+	  "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Identity Proof"
+    },
+    {
+      "code": "NULM_ADDRESS_PRROF",
+      "documentType": "NULM_ADDRESS_PRROF",
+      "required": true,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Address Proof"
+    },
+	{
+      "code": "NULM_DISABILITY_PROOF",
+      "documentType": "NULM_DISABILITY_PROOF",
+      "required": false,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Disability Proof"
+    }
+  ]
+}

@@ -874,6 +874,13 @@
             "uniqueKeys": [
                 "$.code"
             ]
+        },
+		"BankDetails": {
+            "masterName": "BankDetails",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
         }
 	},
 	"ws-services-masters": {
@@ -907,6 +914,11 @@
 		},
 		"waterSourceWithSubSource": {
 		  "masterName": "waterSourceWithSubSource",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"WaterApplicationType": {
+		  "masterName": "WaterApplicationType",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
 		}
@@ -988,6 +1000,26 @@
 		  "isStateLevel": true,
 		  "uniqueKeys": []
 		},
+		"PipeSize": {
+		  "masterName": "PipeSize",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"WSTempConAppCharges": {
+		  "masterName": "WSTempConAppCharges",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"WSTempConBillingSlab": {
+		  "masterName": "WSTempConBillingSlab",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"RoadCutTaxSlab": {
+		  "masterName": "RoadCutTaxSlab",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},		
 		"CalculationAttribute": {
 		  "masterName": "CalculationAttribute",
 		  "isStateLevel": true,
@@ -1063,10 +1095,186 @@
 		  "isStateLevel": true,
 		  "uniqueKeys": []
 		},
+		"SWAppCharges": {
+		  "masterName": "SWAppCharges",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"RoadCutTaxSlab": {
+		  "masterName": "RoadCutTaxSlab",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
 		"CalculationAttribute": {
 		  "masterName": "CalculationAttribute",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
-		}		
+		},
+    "Booking": {
+        "PropertyType": {
+            "masterName": "PropertyType",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        },
+        "Category": {
+            "masterName": "Category",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        },
+        "Duration": {
+            "masterName": "Duration",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        },
+        "Area": {
+            "masterName": "Area",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        },
+        "CityType": {
+            "masterName": "CityType",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        },
+        "DocumentType": {
+            
+            "masterName": "DocumentType",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        },
+        "Documents": {
+                   
+                   "masterName": "Documents",
+                   "isStateLevel": true,
+                   "uniqueKeys": [
+                       "$.code"
+                   ]
+               },
+        "sector": {
+                          
+                          "masterName": "Documents",
+                          "isStateLevel": true,
+                          "uniqueKeys": [
+                              "$.code"
+                          ]
+                      },
+        "BookingType": {
+            
+            "masterName": "Documents",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        },
+        "Commerical_Ground_Cat": {
+                   
+                   "masterName": "Documents",
+                   "isStateLevel": true,
+                   "uniqueKeys": [
+                       "$.code"
+                   ]
+               },
+        "Booking_Vanue": {
+                   
+                   "masterName": "Documents",
+                   "isStateLevel": true,
+                   "uniqueKeys": [
+                       "$.code"
+                   ]
+               },
+        "VillageCity": {
+                          
+                          "masterName": "Documents",
+                          "isStateLevel": true,
+                          "uniqueKeys": [
+                              "$.code"
+                          ]
+                      },
+               "Type_of_Construction": {
+                          
+                          "masterName": "Documents",
+                          "isStateLevel": true,
+                          "uniqueKeys": [
+                              "$.code"
+                          ]
+                      },
+              
+               "ApplicationStatus": {
+                   
+                   "masterName": "Documents",
+                   "isStateLevel": true,
+                   "uniqueKeys": [
+                       "$.code"
+                   ]
+               },
+               "ApplicationType": {
+                                 
+                                 "masterName": "Documents",
+                                 "isStateLevel": true,
+                                 "uniqueKeys": [
+                                     "$.code"
+                                 ]
+                             },
+              "Com_Ground_Documents": {
+                  
+                  "masterName": "Documents",
+                  "isStateLevel": true,
+                  "uniqueKeys": [
+                      "$.code"
+                  ]
+              },
+              "OSUJM_Documents": {
+                  
+                  "masterName": "Documents",
+                  "isStateLevel": true,
+                  "uniqueKeys": [
+                      "$.code"
+                  ]
+              },
+        "OSWMCC_New_Loc_Documents": {
+            
+            "masterName": "Documents",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        },
+"Status": {
+            
+            "masterName": "Documents",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        },
+"bookingCancellationRefundCalc": {
+               
+                   "masterName": "Documents",
+                   "isStateLevel": true,
+                   "uniqueKeys": [
+                       "$.code"
+                   ]
+               },
+"PCC_DOCUMENT": {
+            
+            "masterName": "Documents",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+            ]
+        }		
     }
+}
 }

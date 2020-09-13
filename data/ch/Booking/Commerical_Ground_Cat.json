@@ -1,0 +1,57 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "Commerical_Ground_Cat": [
+        {
+            "name": "Individual",
+            "id": "1",
+            "code": "Individual",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Corporate",
+            "id": "2",
+            "code": "Corporate",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Society",
+            "id": "3",
+            "code": "Society",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Company",
+            "id": "4",
+            "code": "Company",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Government",
+            "id": "5",
+            "code": "Government",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+                "name": "Semi-Government",
+                   "id": "6",
+                   "code": "Semi-Government",
+                   "tenantId":"ch.chandigarh",
+                   "active":"true"
+               },
+        {
+            "name": "Municipal-corporation",
+            "id": "7",
+            "code": "Municipal-corporation",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+    ]
+}
+
+

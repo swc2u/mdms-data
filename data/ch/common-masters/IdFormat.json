@@ -528,7 +528,7 @@
 		"idname": "ch.nulm.suh"
 	},
 	{
-		"format": "SUSV/[fy:yyyy-yy]/[SEQ_NULM_SUSV_ID_GEN",
+		"format": "SUSV/[fy:yyyy-yy]/[SEQ_NULM_SUSV_ID_GEN]",
 		"idname": "ch.nulm.susv"
 	}
     ]

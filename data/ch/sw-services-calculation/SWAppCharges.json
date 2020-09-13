@@ -1,0 +1,87 @@
+{
+	"tenantId": "ch",
+	"moduleName": "sw-services-calculation",
+	"SWAppCharges": [{
+			"id": "1",
+			"buildingType": "DOMESTIC",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [{
+					"from": 0,
+					"to": 4500,
+					"code": "FLATS",
+					"charge": 1000
+				},
+				{
+					"from": 4500,
+					"to": 9000,
+					"code": "FLATS",
+					"charge": 2000
+				},
+				{
+					"from": 9000,
+					"to": 10000000000000000,
+					"code": "FLATS",
+					"charge": 4000
+				},
+				{
+					"from": 0,
+					"to": 2250,
+					"code": "MARLA_HOUSE",
+					"charge": 2000
+				},
+				{
+					"from": 2250,
+					"to": 4500,
+					"code": "MARLA_HOUSE",
+					"charge": 4000
+				},
+				{
+					"from": 4500,
+					"to": 10000000000000000,
+					"code": "MARLA_HOUSE",
+					"charge": 6000
+				}
+			]
+		},
+		{
+			"id": 2,
+			"buildingType": "COMMERCIAL",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [{
+				"from": 0,
+				"to": 100000000000000000,
+				"charge": 20000
+			}]
+		},
+		{
+			"id": 3,
+			"buildingType": "INSTITUTIONAL",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [{
+				"from": 0,
+				"to": 100000000000000000,
+				"charge": 20000
+			}]
+		},
+		{
+			"id": 4,
+			"buildingType": "INDUSTRIAL",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [{
+					"from": 0,
+					"to": 4500,
+					"charge": 10000
+				},
+				{
+					"from": 4500,
+					"to": 100000000000000000,
+					"charge": 20000
+				}
+			]
+		}
+	]
+}

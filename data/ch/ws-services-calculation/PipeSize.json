@@ -2,30 +2,115 @@
   "tenantId": "ch",
   "moduleName": "ws-services-calculation",
   "PipeSize": [
-    {
-      "id": "1",
-      "size":0.25,
-      "isActive": true
+	{
+	  "id": "1", 
+	  "size": "15",
+	  "isActive": true,
+      "charges" :[{
+        "security": 1000,
+        "ferrule": 1000,
+        "metertesting": 80,
+        "meterfitting": 50
+      }]
     },
     {
       "id": "2",
-      "size":0.50, 
-      "isActive": true
+      "size": "20",
+	  "isActive": true,
+      "charges" :[{
+        "security": null,
+        "ferrule": 1000,
+        "metertesting": 100,
+        "meterfitting": 120        
+      }]
     },
     {
       "id": "3",
-      "size":0.75,
-      "isActive": true
+      "size": "25",
+	  "isActive": true,
+      "charges" :[{
+        "security": null,
+        "ferrule": 1000 ,
+        "metertesting":100 ,
+        "meterfitting": 150        
+      }]
     },
     {
       "id": "4",
-       "size":1.00,
-      "isActive": true
+      "size": "40",
+	  "isActive": true,
+      "charges" :[{
+        "security": null,
+        "ferrule": 2000,
+        "metertesting": 120,
+        "meterfitting": 200        
+      }]
     },
-       {
+    {
       "id": "5",
-       "size":1.50,
-      "isActive": true
+      "size": "50",
+	  "isActive": true,
+      "charges" :[{
+        "security": null,
+        "ferrule": 2000,
+        "metertesting":140 ,
+        "meterfitting": 400        
+      }]
+    },
+    {
+      "id": "6",
+      "size": "80",
+	  "isActive": true,
+      "charges" :[{
+        "security": null,
+        "ferrule": 2000,
+        "metertesting": 140,
+        "meterfitting": 600        
+      }]
+    },
+    {
+      "id": "7",
+      "size": "100",
+	  "isActive": true,
+      "charges" :[{
+        "security": null,
+        "ferrule": 2000,
+        "metertesting": 160,
+        "meterfitting": 600        
+      }]
+    },
+    {
+      "id": "8",
+      "size": "120-160",
+	  "isActive": true,
+      "charges" :[{
+        "security": null,
+        "ferrule": 2000,
+        "metertesting": 180,
+        "meterfitting": 600        
+      }]
+    },
+    {
+      "id": "9",
+      "size": "180-200",
+	  "isActive": true,
+      "charges" :[{
+        "security": null,
+        "ferrule": 2000,
+        "metertesting": 180,
+        "meterfitting":1000        
+      }]
+    },
+    {
+      "id": "10",
+      "size": "250-400",
+	  "isActive": true,
+      "charges" :[{
+        "security": null,
+        "ferrule": 2000,
+        "metertesting": 200,
+        "meterfitting": 1000        
+      }]
     }
   ]
 }

@@ -228,11 +228,19 @@
         },
 		{
             "serviceCode": "DEP02_Roads_06",
-            "active": true,
+            "active": false,
             "keywords": "Water , stagnation",
             "department": "DEP_02",
             "slaHours": 0,
             "menuPath": "Roads"
+        },
+		{
+            "serviceCode": "DEP02_RoadBerm_01",
+            "active": true,
+            "keywords": "Road, Berm",
+            "department": "DEP_02",
+            "slaHours": 0,
+            "menuPath": "RoadBerm"
         },
         {
             "serviceCode": "DEP014_BuildingBranch_01",
@@ -1116,7 +1124,7 @@
         },
         {
             "serviceCode": "DEP03_Horticulture_06",
-            "active": true,
+            "active": false,
             "keywords": "grass, cutting",
             "department": "DEP_03",
             "slaHours": 0,
@@ -1124,7 +1132,7 @@
         },
         {
             "serviceCode": "DEP03_Horticulture_07",
-            "active": true,
+            "active": false,
             "keywords": "street , light , park",
             "department": "DEP_03",
             "slaHours": 0,
@@ -1148,7 +1156,7 @@
         },
         {
             "serviceCode": "DEP03_Horticulture_10",
-            "active": true,
+            "active": false,
             "keywords": "park, children , childrens, equipment,swing",
             "department": "DEP_03",
             "slaHours": 0,
@@ -1164,7 +1172,7 @@
         },
         {
             "serviceCode": "DEP03_Horticulture_12",
-            "active": true,
+            "active": false,
             "keywords": "railing,broken",
             "department": "DEP_03",
             "slaHours": 0,

@@ -1292,6 +1292,150 @@
 			"isAdvanceAllowed": false,
 			"demandUpdateTime": 86400000,
 			"isVoucherCreationEnabled": true
+		},
+		{
+		  "businessService": "OSBM",
+		  "code": "OSBM",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSBM",
+		  "code": "OSBM_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		}
+		,
+		 {
+		  "businessService": "BWT",
+		  "code": "BWT",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "BWT",
+		  "code": "BWT_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "GFCP",
+		  "code": "GFCP",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "GFCP",
+		  "code": "GFCP_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "GFCP",
+		  "code": "GFCP_ROUND_OFF",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSUJM",
+		  "code": "OSUJM",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSUJM",
+		  "code": "OSUJM_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSUJM",
+		  "code": "OSUJM_ROUND_OFF",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC_ROUND_OFF",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
 		}
 	]
 }

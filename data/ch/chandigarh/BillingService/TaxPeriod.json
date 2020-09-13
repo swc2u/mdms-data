@@ -506,23 +506,15 @@
          "code":"DMRD310YRS2019",
          "financialYear":"2019-29"
       },
-    {
-      "fromDate": 1554057001000,
-      "toDate": 1585593001000,
-      "periodCycle": "ANNUAL",
-      "service": "EC",
-      "code": "EC2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1617129000000,
-      "periodCycle": "ANNUAL",
-      "service": "EC",
-      "code": "EC2020",
-      "financialYear": "2020-21"
-    },
-		{
+     {
+      	"fromDate":"1522540801000",
+        "toDate":"1838159999000",
+      	"periodCycle": "TENYEARS",
+      	"service": "EC",
+      	"code": "EC10YRS2019",
+      	"financialYear": "2019-29"
+      },
+     {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
