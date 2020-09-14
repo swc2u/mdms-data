@@ -21590,6 +21590,18 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 5045,
+      "name": "AccountStatementExcelGenerationApi",
+      "url": "/rp-services/property/_accountstatementxlsx",
+      "displayName": "Account Statement Excel Generation API",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "AccountStatementExcelGenerationApi",
+      "code": "null",
+      "path": "AccountStatementExcelGenerationApi"
     }
   ]
 }
