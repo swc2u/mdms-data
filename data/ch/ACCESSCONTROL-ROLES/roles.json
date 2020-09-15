@@ -1061,6 +1061,26 @@
       "code": "PAYMENT_PROCESSING_AUTHORITY",
       "name": "PARK AND COMMUNITY PAYMENT PROCESSING AUTHORITY",
       "description": "Employee PAYMENT PROCESSING AUTHORITY"
+    },
+    {
+		"code": "WORKS_WORK_AGREEMENT",
+		"name": "WORKS_WORK_AGREEMENT",
+		"description": "WORKS_WORK_AGREEMENT"
+    },
+    {
+		"code": "WORKS_MASTER",
+		"name": "WORKS_MASTER",
+		"description": "WORKS_MASTER"
+    },
+    {
+		"code": "WORKS_MIS",
+		"name": "WORKS_MIS",
+		"description": "WORKS_MIS"
+    },
+    {
+		"code": "WORKS_BILL",
+		"name": "WORKS_BILL",
+		"description": "WORKS_BILL"
     }
   ]
 }

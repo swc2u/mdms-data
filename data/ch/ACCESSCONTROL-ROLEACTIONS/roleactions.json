@@ -50298,6 +50298,66 @@
 			"actionid": 5059,
 			"actioncode": "",
 			"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_WORK_AGREEMENT",
+				"actionid": 5045,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_WORK_AGREEMENT",
+				"actionid": 5046,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_WORK_AGREEMENT",
+				"actionid": 5047,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_WORK_AGREEMENT",
+				"actionid": 5048,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MASTER",
+				"actionid": 5049,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MASTER",
+				"actionid": 5050,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MASTER",
+				"actionid": 5051,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_BILL",
+				"actionid": 5052,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MIS",
+				"actionid": 5053,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MIS",
+				"actionid": 5054,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
