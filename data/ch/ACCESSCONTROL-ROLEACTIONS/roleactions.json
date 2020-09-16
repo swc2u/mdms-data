@@ -50036,6 +50036,24 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "CITIZEN",
+				"actionid": 4564,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULM_ADMIN",
+				"actionid": 4564,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULM_ADMIN",
+				"actionid": 4565,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "WORKS_CREATE_ESTIMATE",
 				"actionid": 4557,
 				"actioncode": "",

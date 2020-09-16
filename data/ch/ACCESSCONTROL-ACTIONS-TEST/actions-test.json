@@ -20999,6 +20999,36 @@
 		"rightIcon": ""
 	},
 	{
+		"id": 4564,
+		"name": "Registration of Vendor",
+		"url": "url",
+		"displayName": "Registration of Vendor",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-nulm",
+		"enabled": true,
+		"serviceCode": "NULM",
+		"code": "null",
+		"path": "NULM.SUSV Program.Registration of Vendor",
+		"navigationURL": "egov-nulm/search-susv",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
+	{
+		"id": 4565,
+		"name": "Transaction Tracking",
+		"url": "url",
+		"displayName": "Transaction Tracking",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-nulm",
+		"enabled": true,
+		"serviceCode": "NULM",
+		"code": "null",
+		"path": "NULM.SUSV Program.Transaction Tracking",
+		"navigationURL": "egov-nulm/search-susv-transaction",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
+	{
 		"id": 4557,
 		"name": "Create Estimate",
 		"url": "services/works/estimatePreparation/newform",

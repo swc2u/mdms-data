@@ -1083,11 +1083,6 @@
 		"description": "WORKS_BILL"
     },
 	{
-      "code": "NULMADMIN",
-      "name": "NULM Admin",
-      "description": "NULM Admin"
-    },
-	{
       "code": "NULMJA",
       "name": "Junior Assistant",
       "description": "NULM Junior Assistant"
