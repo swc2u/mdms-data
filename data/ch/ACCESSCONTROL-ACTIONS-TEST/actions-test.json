@@ -10465,6 +10465,30 @@
       "path": ""
     },
     {
+      "id": 1573,
+      "name": "PGService Initiate Refund",
+      "url": "/pg-service/transaction/v1/_refund",
+      "displayName": "Initiate Refund",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "pg-service",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1574,
+      "name": "PGService Update Refund",
+      "url": "/pg-service/transaction/v1/_updateRefund",
+      "displayName": "Update Refund",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "pg-service",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 9999,
       "name": "PGR LME Report",
       "url": "/customization/protected/reports/lmereport",
