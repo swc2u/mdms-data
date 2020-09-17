@@ -706,59 +706,84 @@
     },
 
     {
-      "code": "CCF",
-      "name": "CCF",
+      "code": "HC_CCF",
+      "name": "HC_CCF",
       "description": "Chief Conservator of Forest"
     },
      {
-      "code": "DCF",
-      "name": "DCF",
+      "code": "HC_DCF",
+      "name": "HC_DCF",
       "description": "Deputy Conservator of Forest"
     },
     {
-      "code": "FRO",
-      "name": "FRO",
+      "code": "HC_FRO",
+      "name": "HC_FRO",
       "description": "Forest Range Officer"
     },
      {
-      "code": "SRE",
-      "name": "SRE",
+      "code": "HC_SRE",
+      "name": "HC_SRE",
       "description": "Secretary Environment"
     },
      {
-      "code": "WA",
-      "name": "WA",
+      "code": "HC_WA",
+      "name": "HC_WA",
       "description": "Worthy Advisor"
     },
      {
-      "code": "FO",
-      "name": "FO",
+      "code": "HC_FO",
+      "name": "HC_FO",
       "description": "Forest Officer"
     },
     {
-      "code": "SDE",
-      "name": "SDE",
+      "code": "HC_SDE",
+      "name": "HC_SDE",
       "description": "Sub Divisional Engineer"
     },
     
     {
-      "code": "SEHE",
-      "name": "SEHE",
+      "code": "HC_SEHE",
+      "name": "HC_SEHE",
       "description": "Superintending Engineer(H&E)"
     },
+    {
+      "code": "HC_EE",
+      "name": "HC_EE",
+      "description": "EE"
+    },	  
+    {
+      "code": "HC_SDO",
+      "name": "HC_SDO",
+      "description": "SDO"
+    },	  
+    {
+      "code": "HC_JE",
+      "name": "HC_JE",
+      "description": "JE"
+    },	  
+    {
+      "code": "HC_SE",
+      "name": "HC_SE",
+      "description": "SE"
+    },	
+    {
+      "code": "HC_CE",
+      "name": "HC_CE",
+      "description": "CE"
+    },	  
 	{
-      "code": "CEMCC",
-      "name": "CEMCC",
+      "code": "HC_CEMCC",
+      "name": "HC_CEMCC",
       "description": "Chief Engineer(MCC)"
     },
       {
-      "code": "EEWE",
-      "name": "EEWE",
+      "code": "HC_EEWE",
+      "name": "HC_EEWE",
       "description": "Executive Engineer(W&E)"
     },
     {
-      "code": "COMMISSIONERMCC",
-      "name": "COMMISSIONERMCC",
+      "code": "HC_COMMISSIONERMCC",
+      "name": "HC_COMMISSIONERMCC",
       "description": "Commissioner(MCC)"
     },
 	{
