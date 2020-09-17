@@ -39852,6 +39852,12 @@
 			"tenantid": "ch"
 		},
 		{
+			"rolecode": "RP_APRO",
+			"actionid": 21810,
+			"actioncode": "",
+			"tenantid": "ch"
+		},
+		{
 			"rolecode": "CITIZEN",
 			"actionid": "21810",
 			"actioncode": "",
