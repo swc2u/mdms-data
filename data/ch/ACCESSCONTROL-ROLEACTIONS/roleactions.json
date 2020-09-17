@@ -23828,6 +23828,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_SDO",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
 			"rolecode": "SDO",
 			"actionid": "1864",
 			"actioncode": "",
@@ -23845,6 +23851,12 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
 		{
 			"rolecode": "SDO",
 			"actionid": "1834",
@@ -24098,6 +24110,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_SDO",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
 			"rolecode": "SDO",
 			"actionid": "2010",
 			"actioncode": "",
@@ -24295,6 +24313,12 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
 		{
 			"rolecode": "EE",
 			"actionid": "1730",
@@ -30919,32 +30943,32 @@
 			"tenantId": "ch"
 		}		
 		{
-			"rolecode": "SDO",
+			"rolecode": "HC_SDO",
 			"actionid": "2602",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SDO",
+			"rolecode": "HC_SDO",
 			"actionid": "2603",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 
 		{
-			"rolecode": "SDO",
+			"rolecode": "HC_SDO",
 			"actionid": "2604",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SDO",
+			"rolecode": "HC_SDO",
 			"actionid": "2605",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SDO",
+			"rolecode": "HC_SDO",
 			"actionid": "2606",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -30963,7 +30987,7 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SDO",
+			"rolecode": "HC_SDO",
 			"actionid": "2609",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -30974,6 +30998,12 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
 		{
 			"rolecode": "SDO",
 			"actionid": "1743",
@@ -30986,7 +31016,12 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
 
 		{
 			"rolecode": "CITIZEN",
