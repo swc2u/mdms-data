@@ -16662,6 +16662,18 @@
       "path": "UpdateCapturingTransiteSiteImagesApi"
     },
     {
+      "id": 4085,
+      "name": "AccountStatementXL",
+      "url": "/rp-services/property/_accountstatementxlsx",
+      "displayName": "update capturing transite site images api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "CapturingTransiteSiteImagesApi",
+      "code": "null",
+      "path": "UpdateCapturingTransiteSiteImagesApi"
+    },
+    {
       "id": 3000,
       "name": "OwnerShipTransferApplicationStatusReport",
       "url": "/report/rainmaker-rp/OTApplicationStatusReport/_get",
