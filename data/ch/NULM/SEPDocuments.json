@@ -50,7 +50,7 @@
 	{
       "code": "NULM_DISABILITY_CERTIFICATE",
       "documentType": "NULM_DISABILITY_CERTIFICATE",
-      "required": true,
+      "required": false,
       "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
