@@ -22018,6 +22018,20 @@
 		"path": "Works.MIS.Work Agreement",
 		"navigationURL": "services/works/searchEstimate/workOrderSearch",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+    {
+      "id": 5055,
+      "name": "verifyBudget_SO",
+      "navigationURL": "services/EGF/approvebudget/rejectedBudgetSO",
+      "url": "url",
+      "parentModule": "EGF",
+      "displayName": "Verify Uploaded Budget",
+      "orderNumber": 5,
+      "enabled": true,
+      "serviceCode": "FinanceBudget",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Budgeting.verifyBudgetSO"
+    }
   ]
 }

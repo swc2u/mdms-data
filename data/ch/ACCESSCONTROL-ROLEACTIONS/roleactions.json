@@ -50898,6 +50898,12 @@
 				"actionid": 5054,
 				"actioncode": "",
 				"tenantId": "ch"
-			}
+			},
+		{
+			"rolecode": "EGF_BUDGET_VERIFIER_SO",
+			"actionid": 5055,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
 	]
 }
