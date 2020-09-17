@@ -746,6 +746,31 @@
       "name": "HC_SEHE",
       "description": "Superintending Engineer(H&E)"
     },
+    {
+      "code": "HC_EE",
+      "name": "HC_EE",
+      "description": "EE"
+    },	  
+    {
+      "code": "HC_SDO",
+      "name": "HC_SDO",
+      "description": "SDO"
+    },	  
+    {
+      "code": "HC_JE",
+      "name": "HC_JE",
+      "description": "JE"
+    },	  
+    {
+      "code": "HC_SE",
+      "name": "HC_SE",
+      "description": "SE"
+    },	
+    {
+      "code": "HC_CE",
+      "name": "HC_CE",
+      "description": "CE"
+    },	  
 	{
       "code": "HC_CEMCC",
       "name": "HC_CEMCC",
