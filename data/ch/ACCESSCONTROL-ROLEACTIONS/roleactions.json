@@ -25754,6 +25754,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_CE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
 			"rolecode": "CITIZEN",
 			"actionid": "2047",
 			"actioncode": "",
@@ -31242,38 +31248,38 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CE",
+			"rolecode": "HC_CE",
 			"actionid": "2602",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CE",
+			"rolecode": "HC_CE",
 			"actionid": "2603",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 
 		{
-			"rolecode": "CE",
+			"rolecode": "HC_CE",
 			"actionid": "2604",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CE",
+			"rolecode": "HC_CE",
 			"actionid": "2605",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CE",
+			"rolecode": "HC_CE",
 			"actionid": "2606",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CE",
+			"rolecode": "HC_CE",
 			"actionid": "2609",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -31286,11 +31292,23 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_CE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
 			"rolecode": "CE",
 			"actionid": "1743",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
 		{
 			"rolecode": "CE",
 			"actionid": "2009",
@@ -31298,17 +31316,35 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_CE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
 			"rolecode": "CE",
 			"actionid": "1752",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_CE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
 			"rolecode": "CE",
 			"actionid": "1556",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
 		{
 			"rolecode": "HC_CCF",
 			"actionid": "2602",
