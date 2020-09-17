@@ -24770,6 +24770,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_EE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
 			"rolecode": "SE",
 			"actionid": "1730",
 			"actioncode": "",
@@ -30822,37 +30828,43 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EE",
+			"rolecode": "HC_EE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "HC_EE",
 			"actionid": "2602",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EE",
+			"rolecode": "HC_EE",
 			"actionid": "2603",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EE",
+			"rolecode": "HC_EE",
 			"actionid": "2604",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EE",
+			"rolecode": "HC_EE",
 			"actionid": "2605",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EE",
+			"rolecode": "HC_EE",
 			"actionid": "2606",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EE",
+			"rolecode": "HC_EE",
 			"actionid": "2609",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -30864,11 +30876,23 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_EE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
 			"rolecode": "EE",
 			"actionid": "2009",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
 
 		{
 			"rolecode": "EE",
@@ -30877,11 +30901,23 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_EE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
 			"rolecode": "EE",
 			"actionid": "1556",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		}		
 		{
 			"rolecode": "SDO",
 			"actionid": "2602",
