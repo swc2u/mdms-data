@@ -46,6 +46,15 @@
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
       "description": "Photo of the applicant"
+    },
+	{
+      "code": "NULM_DISABILITY_CERTIFICATE",
+      "documentType": "NULM_DISABILITY_CERTIFICATE",
+      "required": true,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Disability Certificate"
     }
   ]
 }
