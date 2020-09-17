@@ -534,6 +534,11 @@
       "description": "Employee who verifies the Trasit site and uploads the documents for capturing transite site images"
     },
     {
+      "code": "RP_APRO",
+      "name": "APRO",
+      "description": "Employee who manages the public relations for transit sites for rented properties"
+    },
+    {
       "code": "SI",
       "name": "SI",
       "description": "Sanitary Inspector"

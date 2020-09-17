@@ -39923,6 +39923,12 @@
 			"tenantid": "ch"
 		},
 		{
+			"rolecode": "RP_APRO",
+			"actionid": 21810,
+			"actioncode": "",
+			"tenantid": "ch"
+		},
+		{
 			"rolecode": "CITIZEN",
 			"actionid": "21810",
 			"actioncode": "",
@@ -39937,6 +39943,130 @@
 		{
 			"rolecode": "CITIZEN",
 			"actionid": "4084",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3000,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3001,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3002,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3003,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3004,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3005,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3006,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3007,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3008,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3009,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3011,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3010,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3012,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3014,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3013,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3015,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3017,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 3016,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": "4085",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "4085",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
