@@ -530,6 +530,30 @@
 	{
 		"format": "SUSV/[fy:yyyy-yy]/[SEQ_NULM_SUSV_ID_GEN]",
 		"idname": "ch.nulm.susv"
-	}
+    },
+    {
+        "idname": "rp.ot.aplnumber",
+        "format": "CH-RP-OT-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.dc.aplnumber",
+        "format": "CH-RP-DC-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.mg.aplnumber",
+        "format": "CH-RP-MG-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.pi.aplnumber",
+        "format": "CH-RP-PI-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.ng.memonumber",
+        "format": "CH-RP-NG-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.pm.allotmentnumber",
+        "format": "CH-RP-PM-[SEQ_RP_ID_NUM]"
+    }
     ]
 }
