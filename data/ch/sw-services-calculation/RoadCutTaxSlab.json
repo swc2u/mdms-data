@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "sw-services-calculation",
+  "RoadCutTaxSlab": [
+    {
+      "code": "GST",
+      "taxPercentage": "18",     
+      "isActive": true
+    },
+	{
+      "code": "SUPERVISION",
+      "taxPercentage": "15",     
+      "isActive": true
+    }
+  ]
+}

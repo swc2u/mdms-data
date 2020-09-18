@@ -1,0 +1,41 @@
+{
+   "tenantId":"ch",
+   "moduleName":"egec",
+   "IDProof":[
+      {
+         "id":"1",
+         "code":"Aadhar Card",
+         "tenantId":"ch",
+         "name":"Aadhar Card",
+         "active":true
+      },
+      {
+         "id":"2",
+         "code":"Driving License",
+         "tenantId":"ch",
+         "name":"Driving License",
+         "active":true
+      },
+      {
+         "id":"3",
+         "code":"Voter ID Card",
+         "tenantId":"ch",
+         "name":"Voter ID Card",
+         "active":true
+      },
+      {
+         "id":"4",
+         "code":"Passport",
+         "tenantId":"ch",
+         "name":"Passport",
+         "active":true
+      },
+      {
+         "id":"5",
+         "code":"Pan Card",
+         "tenantId":"ch",
+         "name":"Pan Card",
+         "active":true
+      }
+   ]
+}

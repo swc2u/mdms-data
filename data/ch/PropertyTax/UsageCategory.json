@@ -1,0 +1,122 @@
+{
+  "tenantId": "ch",
+  "moduleName": "PropertyTax",
+  "UsageCategory": [
+    {
+      "name": "Domestic",
+      "code": "DOMESTIC",
+      "active": true,
+      "fromFY": "2020-21"
+    },
+    {
+      "name": "Commercial",
+      "code": "COMMERCIAL",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },    
+    {
+      "name": "Institutional",
+      "code": "INSTITUTIONAL",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+	{
+      "name": "Industrial",
+      "code": "INDUSTRIAL",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+	{
+      "name": "Marla House",
+      "code": "DOMESTIC.MARLA_HOUSE",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "Chandigarh Hosing Board constructed flats",
+      "code": "DOMESTIC.FLATS",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 100,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "Hotels/Malls/Cinema",
+      "code": "COMMERCIAL.HOTELS_MALLS_CINEMA",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "General Booths",
+      "code": "COMMERCIAL.GENERAL_BOOTHS",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "SCF/SCO General Trade",
+      "code": "COMMERCIAL.SCF_SCO_GENERAL_TRADE",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+    {
+      "name": "SCF/SCO Water Consuming Business",
+      "code": "COMMERCIAL.SCF_SCO_WCB",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    },
+	{
+      "name": "Other Commercial",
+      "code": "COMMERCIAL.OTHER_COMMERCIAL",
+      "active": true,
+      "fromFY": "2020-21",
+      "exemption": {
+        "rate": 0,
+        "maxAmount": 0,
+        "flatAmount": 0
+      }
+    }
+  ]
+}

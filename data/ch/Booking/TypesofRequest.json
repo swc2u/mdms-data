@@ -1,0 +1,23 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "TypesofRequest": [
+        {
+            "name": "Normal Request(Paid Booking)",
+            "id": "1",
+            "code": "Normal Request(Paid Booking)",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Request due to water supply failure",
+            "id": "2",
+            "code": "Request due to water supply failure",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+       
+        
+    ]
+}
+
+

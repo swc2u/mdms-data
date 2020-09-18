@@ -1,0 +1,16 @@
+{   "tenantId": "ch"  ,
+"moduleName": "Booking",
+"OSUJM_Documents": [
+    {
+        "active": true,
+        "code": "OSUJM_DOCUMENT",
+        "description": "OSUJM_DOCUMENT_DESCRIPTION",
+        "documentType": "DOC",
+        "dropdownData": [],
+        "hasDropdown": false,
+        "required": false
+        
+    }
+    ]
+}
+

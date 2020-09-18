@@ -1,0 +1,40 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "DocumentType": [
+        {
+            "name": "Adhar Card",
+            "id": "1",
+            "code": "Adhar_Card",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Passport",
+            "id": "2",
+            "code": "Passport",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+            
+            
+        },
+        {
+            "name": "Voter Card",
+            "id": "2",
+            "code": "Voter_Card",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+            
+        },
+        {
+            "name": "Driving License",
+            "id": "2",
+            "code": "Driving_License",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+            
+        }
+        
+    ]
+}
+
+

@@ -1,0 +1,36 @@
+{
+  "tenantId": "ch",
+  "moduleName": "NULM",
+  "Qualification": [
+    {
+      "code": "10th Std",
+	  "name":"10th Std",
+      "active": true
+    },
+	{
+      "code": "12th Std",
+	  "name":"12th Std",
+      "active": true
+    },
+	{
+      "code": "Graduate",
+	  "name":"Graduate",
+      "active": true
+    },
+	{
+      "code": "Postgraduate",
+	  "name":"Postgraduate",
+      "active": true
+    },
+	{
+      "code": "Diploma",
+	  "name":"Diploma",
+      "active": true
+    },
+	{
+      "code": "others",
+	  "name":"others",
+      "active": true
+    }
+  ]
+}

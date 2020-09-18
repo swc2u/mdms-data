@@ -42,6 +42,11 @@
       "name": "Grievance Routing Officer",
       "description": "Grievance Routing Officer"
     },
+	{
+      "code": "GRO_ADMIN",
+      "name": "Grievance Routing Officer Admin",
+      "description": "Grievance Routing Officer Admin"
+    },
     {
       "code": "Asset Administrator",
       "name": "Asset Administrator",
@@ -337,6 +342,11 @@
       "name": "PGR Last Mile Employee",
       "description": "PGR Last mile employee to whom the request can be assigned"
     },
+	{
+      "code": "PGR_REPORTS_VIEWER",
+      "name": "PGR Reports Viewer",
+      "description": "PGR employee who can view all the reports"
+    },
     {
       "code": "TL_FIELD_INSPECTOR",
       "name": "TL Field Inspector",
@@ -493,6 +503,41 @@
       "name": "SI",
       "description": "Employee who verifies, rejects and approves the TL application which is approved by SA"
     },
+	{
+      "code": "RP_CLERK",
+      "name": "CLERK",
+      "description": "Employee who verifies, rejects and approves the RP application"
+    },
+    {
+      "code": "RP_JA",
+      "name": "JA",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by clerk"
+    },
+    {
+      "code": "RP_SA",
+      "name": "SA",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by clerk"
+    },
+    {
+      "code": "RP_SI",
+      "name": "SI",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by SA"
+    },
+	{
+      "code": "RP_CA",
+      "name": "CA",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by SI"
+    },
+    {
+      "code": "RP_SURVEYOR",
+      "name": "SURVEYOR",
+      "description": "Employee who verifies the Trasit site and uploads the documents for capturing transite site images"
+    },
+    {
+      "code": "RP_APRO",
+      "name": "APRO",
+      "description": "Employee who manages the public relations for transit sites for rented properties"
+    },
     {
       "code": "SI",
       "name": "SI",
@@ -574,6 +619,21 @@
       "description": "Agenda Branch report viewer can view the reports"
     },
 	{
+      "code": "AGENDA_MEETING_DEPARTMENT_USER",
+      "name": "AGENDA MEETING DEPARTMENT USER",
+      "description": "Department user who will get meeting invitation"
+    },
+	{
+      "code": "AGENDA_MEETING_SENIOR_OFFICER",
+      "name": "AGENDA MEETING SENIOR OFFICER",
+      "description": "Senior Officers like Add commissioner, joint commissioner, chief engg etc"
+    },
+	{
+      "code": "AGENDA_MEETING_SPECIAL_OFFICER",
+      "name": "AGENDA MEETING SPECIAL OFFICER",
+      "description": "Special Officers like commissioner, secretary etc"
+    },
+	{
 		"code": "APRO",
 		"name": "APRO",
 		"description": "Authorized Division User"
@@ -592,6 +652,11 @@
 		"code": "APNIMANDI_APPROVER",
 		"name": "Apnimandi Approver",
 		"description": "Apnimandi approver will forward, approve and reject the workflow of contractor and collection"
+	},
+	{
+		"code": "APNIMANDI_REPORT_VIEWER",
+		"name": "Apnimandi Report Viewer",
+		"description": "Apnimandi report viewer can view all kind of mis report of contractor and collection"
 	},
 	{
 		"code": "LCMS_ADMIN",
@@ -646,60 +711,426 @@
     },
 
     {
-      "code": "CCF",
-      "name": "CCF",
+      "code": "HC_CCF",
+      "name": "HC_CCF",
       "description": "Chief Conservator of Forest"
     },
      {
-      "code": "DCF",
-      "name": "DCF",
+      "code": "HC_DCF",
+      "name": "HC_DCF",
       "description": "Deputy Conservator of Forest"
     },
     {
-      "code": "FRO",
-      "name": "FRO",
+      "code": "HC_FRO",
+      "name": "HC_FRO",
       "description": "Forest Range Officer"
     },
      {
-      "code": "SRE",
-      "name": "SRE",
+      "code": "HC_SRE",
+      "name": "HC_SRE",
       "description": "Secretary Environment"
     },
      {
-      "code": "WA",
-      "name": "WA",
+      "code": "HC_WA",
+      "name": "HC_WA",
       "description": "Worthy Advisor"
     },
      {
-      "code": "FO",
-      "name": "FO",
+      "code": "HC_FO",
+      "name": "HC_FO",
       "description": "Forest Officer"
     },
     {
-      "code": "SDE",
-      "name": "SDE",
+      "code": "HC_SDE",
+      "name": "HC_SDE",
       "description": "Sub Divisional Engineer"
     },
     
     {
-      "code": "SEHE",
-      "name": "SEHE",
+      "code": "HC_SEHE",
+      "name": "HC_SEHE",
       "description": "Superintending Engineer(H&E)"
     },
+    {
+      "code": "HC_EE",
+      "name": "HC_EE",
+      "description": "EE"
+    },	  
+    {
+      "code": "HC_SDO",
+      "name": "HC_SDO",
+      "description": "SDO"
+    },	  
+    {
+      "code": "HC_JE",
+      "name": "HC_JE",
+      "description": "JE"
+    },	  
+    {
+      "code": "HC_SE",
+      "name": "HC_SE",
+      "description": "SE"
+    },	
+    {
+      "code": "HC_CE",
+      "name": "HC_CE",
+      "description": "CE"
+    },	  
 	{
-      "code": "CEMCC",
-      "name": "CEMCC",
+      "code": "HC_CEMCC",
+      "name": "HC_CEMCC",
       "description": "Chief Engineer(MCC)"
     },
       {
-      "code": "EEWE",
-      "name": "EEWE",
+      "code": "HC_EEWE",
+      "name": "HC_EEWE",
       "description": "Executive Engineer(W&E)"
     },
     {
-      "code": "COMMISSIONERMCC",
-      "name": "COMMISSIONERMCC",
+      "code": "HC_COMMISSIONERMCC",
+      "name": "HC_COMMISSIONERMCC",
       "description": "Commissioner(MCC)"
+    },
+	{
+      "code": "challanSI",
+      "name": "challanSI",
+      "description": "Sub Inspector"
+    },
+	{
+      "code": "challanEAO",
+      "name": "challanEAO",
+      "description": "Encroachment Admin Officer"
+    },
+	{
+      "code": "challanSM",
+      "name": "challanSM",
+      "description": "Store Manager"
+    },
+	{
+      "code": "challanHOD",
+      "name": "challanHOD",
+      "description": "Appellete Auth"
+    },
+	{
+      "code": "WS_CEMP",
+      "name": "WS Counter Employee",
+      "description": "WS counter employee can take action as citizen"
+    },
+    {
+      "code": "WS_JE",
+      "name": "WS Document Verifier & Release Connection",
+      "description": "WS Document Verifier & Release Connection"
+    },
+    {
+      "code": "WS_SDE_ROADS",
+      "name": "WS SDE Roads",
+      "description": "WS SDE Roads"
+    },
+    {
+      "code": "WS_SDE",
+      "name": "WS Approver",
+      "description": "WS Approver can approve the connection application"
+    },
+    {
+      "code": "WS_EE",
+      "name": "WS Executive Engineer",
+      "description": "WS EE who forward more than 15mm pipe connection"
+    },
+	{
+      "code": "WS_HDM",
+      "name": "WS HDM",
+      "description": "WS HDM who approves more than 15mm pipe connection"
+    },
+    {
+      "code": "SW_CEMP",
+      "name": "SW Counter Employee",
+      "description": "SW counter employee can take action as citizen"
+    },
+	{
+      "code": "SW_SDO",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+    {
+      "code": "SW_JE",
+      "name": "SW Document Verifier & Release Connection",
+      "description": "SW Document Verifier & Release Connection"
+    },
+    {
+      "code": "SW_JE_BR",
+      "name": "SW B&R JE",
+      "description": "SW B&R JE verify road cutting"
+    },
+    {
+      "code": "SW_EE",
+      "name": "SW Approver",
+      "description": "SW Approver can approve the connection application"
+    },
+    {
+      "code": "AUDIT_ADMIN",
+      "name": "AUDIT_ADMIN",
+      "description": "Audit admin for audit Search page"
+    },
+    {
+      "code": "AUDIT_POST",
+      "name": "AUDIT_POST",
+      "description": "Post Audit Inititation role"
+    },{
+      "code": "DOEE",
+      "name": "DO of Drawing Branch under EE",
+      "description": "DO of Drawing Branch under EE"
+    },{
+      "code": "DOSE",
+      "name": "Do of Drawing Branch under SE",
+      "description": "Do of Drawing Branch under SE"
+    },{
+      "code": "DOCE",
+      "name": "DO of Drawing Branch under CE",
+      "description": "DO of Drawing Branch under CE"
+    },{
+      "code": "WD",
+      "name": "W&D USER",
+      "description": "W&D USER"
+    },{
+      "code": "JC",
+      "name": "Joint Commissioner",
+      "description": "Joint Commissioner"
+    },{
+      "code": "SC",
+      "name": "Special commissioner",
+      "description": "Special commissioner"
+    },{
+      "code": "SEC",
+      "name": "Secretary",
+      "description": "Secretary"
+    },{
+      "code": "CA",
+      "name": "Chief Administrator",
+      "description": "Chief Administrator"
+    },{
+      "code": "NGO",
+      "name": "Non-Government Organizations",
+      "description": "Non-Government Organizations"
+    },{
+      "code": "SAJE",
+      "name": "Junior Engineer",
+      "description": "Store Asset Junior Engineer"
+    },{
+      "code": "SAEE",
+      "name": "Executive Engineer",
+      "description": "Store Asset Executive Engineer"
+    },{
+      "code": "SASE",
+      "name": "Senior Engineer",
+      "description": "Store Asset Senior Engineer"
+    },{
+      "code": "SACE",
+      "name": "Chief Engineer",
+      "description": "Store Asset Chief Engineer"
+    },{
+      "code": "SASDO",
+      "name": "SDO ",
+      "description": "Store Asset SDO"
+    },
+	{
+      "code": "SACOM",
+      "name": "COMMISSIONER",
+      "description": "Store Asset COMMISSIONER"
+    },
+	{
+      "code": "SACP",
+      "name": "Computer Programmer",
+      "description": "Store Asset Computer Programmer"
+    },
+	{
+      "code": "SASA",
+      "name": "Senior Assistant",
+      "description": "Store Asset Senior Assistant"
+    },
+	{
+      "code": "SASP",
+      "name": "SUPERINTENDENT",
+      "description": "Store Asset SUPERINTENDENT"
+    },
+	{
+      "code": "SASO",
+      "name": "Section Officer",
+      "description": "Store Asset Section Officer"
+    },
+	{
+      "code": "SACAO",
+      "name": "CAO",
+      "description": "Store Asset CAO"
+    },
+	{
+      "code": "SAACMC",
+      "name": "ACMC",
+      "description": "Store Asset ACMC"
+    },
+	{
+      "code": "SACT",
+      "name": "Caretaker",
+      "description": "Store Asset Caretaker"
+    },
+	{
+      "code": "SACSI",
+      "name": "CSI",
+      "description": "Store Asset CSI"
+    },
+	{
+      "code": "SAMOH",
+      "name": "MOH",
+      "description": "Store Asset MOH"
+    },
+    {
+      "code": "SAJC",
+      "name": "Jt COMMISSIONER",
+      "description": "Store Asset Jt COMMISSIONER"
+    },
+    {
+      "code": "NULM_ADMIN",
+      "name": "NULM Admin",
+      "description": "NULM Admin"
+    },
+    {
+		"code": "JA",
+		"name": "JA",
+		"description": "Junior Assistant"
+    },
+    {
+		"code": "ACMC",
+		"name": "ACMC",
+		"description": "ACMC"
+    },
+    {
+		"code": "WORKS_CREATE_ESTIMATE",
+		"name": "WORKS_CREATE_ESTIMATE",
+		"description": "WORKS_CREATE_ESTIMATE"
+    },
+    {
+		"code": "WORKS_SEARCH_ESTIMATE",
+		"name": "WORKS_SEARCH_ESTIMATE",
+		"description": "WORKS_SEARCH_ESTIMATE"
+    },
+    {
+		"code": "WORKS_CREATE_TENDER",
+		"name": "WORKS_CREATE_TENDER",
+		"description": "WORKS_CREATE_TENDER"
+    },
+    {
+		"code": "WORKS_SEARCH_TENDER",
+		"name": "WORKS_SEARCH_TENDER",
+		"description": "WORKS_SEARCH_TENDER"
+    },
+    {
+		"code": "WORKS_CREATE_BG",
+		"name": "WORKS_CREATE_BG",
+		"description": "WORKS_CREATE_BG"
+    },
+    {
+		"code": "WORKS_SEARCH_BG",
+		"name": "WORKS_SEARCH_BG",
+		"description": "WORKS_SEARCH_BG"
+    },
+    {
+		"code": "WORKS_APPROVER",
+		"name": "WORKS_APPROVER",
+		"description": "WORKS_APPROVER"
+    },
+    {
+      "code": "OSBM_APPROVER",
+      "name": "OSBM APPROVER",
+      "description": "Employee who approves the open space booking for building material"
+    },
+    {
+      "code": "MCC_APPROVER",
+      "name": "MCC JURISDICTION VERIFIER",
+      "description": "Employee who verifies Open space under jurisdiction"
+    },
+    {
+      "code": "OSD_APPROVER",
+      "name": "MCC NEW LOCATION VERIFIER",
+      "description": "Employee who verifies new location under jurisdiction"
+    },
+    {
+      "code": "ADMIN_APPROVER",
+      "name": "MCC NEW LOCATION VERIFIER 2",
+      "description": "Employee who verifies new location under jurisdiction"
+    },
+    {
+      "code": "BOOKING_ADMIN",
+      "name": "BOOKING CREATOR",
+      "description": "Employee who creates master data"
+    },
+    {
+      "code": "CLERK",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who verifies PARK and Community Request"
+    },	
+    {
+      "code": "DEO",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who verifies PARK and Community Request"
+    },
+    {
+      "code": "SENIOR_ASSISTANT",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who verifies PARK and Community Request"
+    },
+    {
+      "code": "AUDIT_DEPARTMENT",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who audit PARK and Community Request"
+    },
+    {
+      "code": "CHIEF_ACCOUNT_OFFICER",
+      "name": "PARK AND COMMUNITY VERIFIER",
+      "description": "Employee who verifies PARK and Community Request"
+    },
+    {
+      "code": "PAYMENT_PROCESSING_AUTHORITY",
+      "name": "PARK AND COMMUNITY PAYMENT PROCESSING AUTHORITY",
+      "description": "Employee PAYMENT PROCESSING AUTHORITY"
+    },
+    {
+		"code": "WORKS_WORK_AGREEMENT",
+		"name": "WORKS_WORK_AGREEMENT",
+		"description": "WORKS_WORK_AGREEMENT"
+    },
+    {
+		"code": "WORKS_MASTER",
+		"name": "WORKS_MASTER",
+		"description": "WORKS_MASTER"
+    },
+    {
+		"code": "WORKS_MIS",
+		"name": "WORKS_MIS",
+		"description": "WORKS_MIS"
+    },
+    {
+		"code": "WORKS_BILL",
+		"name": "WORKS_BILL",
+		"description": "WORKS_BILL"
+    },
+	{
+      "code": "NULMJA",
+      "name": "Junior Assistant",
+      "description": "NULM Junior Assistant"
+    },
+	{
+      "code": "NULMSDO",
+      "name": "SDO",
+      "description": "NULM SDO"
+    },
+	{
+      "code": "NULMACMC",
+      "name": "ACMC",
+      "description": "NULM ACMC"
+    },
+	{
+      "code": "EGF_BUDGET_VERIFIER_SO",
+      "name": "EGF_BUDGET_VERIFIER_SO",
+      "description": "EGF_BUDGET_VERIFIER_SO"
     }
   ]
 }

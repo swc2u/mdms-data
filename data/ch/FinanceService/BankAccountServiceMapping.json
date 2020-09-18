@@ -69,13 +69,37 @@
          "bankBranch":"OBC01"
       },
     {
-      "businessDetails": "RehriRC",
+      "businessDetails": "CTL.REHRI_REGISTRATION",
       "bankAccount": "000000000001",
       "bank": "Allahabad UP Gramin Bank",
       "bankBranch": "001"
     },
     {
-      "businessDetails": "RehriDL",
+      "businessDetails": "CTL.REHRI_DRIVING_LICENSE",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "CTL.DHOBI_GHAT",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "CTL.OLD_BOOK_MARKET",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "OPMS.PETNOC",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+    {
+      "businessDetails": "EC",
       "bankAccount": "000000000001",
       "bank": "Allahabad UP Gramin Bank",
       "bankBranch": "001"

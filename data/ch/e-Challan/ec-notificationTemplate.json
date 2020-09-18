@@ -1,0 +1,36 @@
+{
+   "tenantId":"ch",
+   "moduleName":"egec",
+   "NotificationTemplate":[
+      {
+         "code":"Challan Generated",
+         "subject":"Challan Issued",
+         "body":"Dear <violator>,<br> Seizure memo <ChallanId> has been generated for <EnchroachmentType> violation on <Date and Time>. Kindly visit the link to view details <Link>.<br><br>Regards,<br>Enforcement Wing, MCC",
+         "attachments":[
+            {
+               "name":"Seizure Memo",
+               "url":"",
+               "mimeType":"application/pdf"
+            }
+         ],
+         "message":"Seizure memo <ChallanId> has been generated for <EnchroachmentType> violation on <Date and Time>. Kindly visit the link to view details <Link>",
+         "isHtml":true,
+         "emailAddress":""
+      },
+      {
+         "code":"Payment Successful",
+         "subject":"Payment Successful",
+         "body":"Dear <violator>,<br> Payment has been done for Seizure memo <ChallanId>. Kindly refer attached payment receipt.<br><br>Regards,<br>Enforcement Wing, MCC",
+         "attachments":[
+            {
+               "name":"Challan Payment Receipt",
+               "url":"",
+               "mimeType":"application/pdf"
+            }
+         ],
+         "message":"Payment has been done for Seizure memo <ChallanId>. Kindly refer attached payment receipt.",
+         "isHtml":true,
+         "emailAddress":""
+      }
+   ]
+}

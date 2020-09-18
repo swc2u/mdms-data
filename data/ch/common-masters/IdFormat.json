@@ -474,7 +474,86 @@
         {
             "format": "CH-HC-[cy:yyyy-MM-dd]-[SEQ_EG_HC_APL]",
             "idname": "ch.hc"
-        }                    
-
+        },
+		{
+            "format": "MCC-EC-[SEQ_EG_EC_APL]",
+            "idname": "ch.ec"
+        },
+	{
+		"format": "WS_AP/[fy:yyyy-yy]/[SEQ_WS_APP]",
+		"idname": "waterservice.application.id"
+	},
+	{
+		"format": "SW_AP/[fy:yyyy-yy]/[SEQ_SW_APP]",
+		"idname": "sewerageservice.application.id"
+	},  
+	{
+		"format": "WS/[fy:yyyy-yy]/[SEQ_WS_CON]",
+		"idname": "waterservice.connection.id"
+	},
+	{
+		"format": "SW/[fy:yyyy-yy]/[SEQ_SW_CON]",
+		"idname": "sewerageservice.connection.id"
+	},
+	 {
+		"format": "WS.ONE_TIME_FEE/[fy:yyyy-yy]/[SEQ_WS_FEE_RCPT]",
+		"idname": "ws.one_time_fee.receipt.id"
+	},
+	{
+		"format": "SW.ONE_TIME_FEE/[fy:yyyy-yy]/[SEQ_SW_FEE_RCPT]",
+		"idname": "sw.one_time_fee.receipt.id"
+	},
+	{
+		"format": "WS/[fy:yyyy-yy]/[SEQ_WS_BILL_RCPT]",
+		"idname": "ws.receipt.id"
+	},
+	{
+		"format": "SW/[fy:yyyy-yy]/[SEQ_SW_BILL_RCPT]",
+		"idname": "sw.receipt.id"
+	},
+	{
+		"format": "SEP/[fy:yyyy-yy]/[SEQ_NULM_SEP_ID_GEN]",
+		"idname": "ch.nulm.sep"
+	},
+	{
+		"format": "SMID/[fy:yyyy-yy]/[SEQ_NULM_SMID_ID_GEN]",
+		"idname": "ch.nulm.smid"
+	},		 
+	{
+		"format": "SHG/[fy:yyyy-yy]/[SEQ_NULM_SMID_SHG_ID_GEN]",
+		"idname": "ch.nulm.smid.shg"
+	},
+	{ 
+		"format": "SUH/[fy:yyyy-yy]/[SEQ_NULM_SUH_ID_GEN]",
+		"idname": "ch.nulm.suh"
+	},
+	{
+		"format": "SUSV/[fy:yyyy-yy]/[SEQ_NULM_SUSV_ID_GEN]",
+		"idname": "ch.nulm.susv"
+    },
+    {
+        "idname": "rp.ot.aplnumber",
+        "format": "CH-RP-OT-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.dc.aplnumber",
+        "format": "CH-RP-DC-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.mg.aplnumber",
+        "format": "CH-RP-MG-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.pi.aplnumber",
+        "format": "CH-RP-PI-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.ng.memonumber",
+        "format": "CH-RP-NG-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "rp.pm.allotmentnumber",
+        "format": "CH-RP-PM-[SEQ_RP_ID_NUM]"
+    }
     ]
 }

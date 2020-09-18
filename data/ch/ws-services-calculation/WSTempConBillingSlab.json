@@ -1,0 +1,95 @@
+{
+	"tenantId": "ch",
+	"moduleName": "ws-services-calculation",
+	"WSTempConBillingSlab": [{
+			"id": "1",
+			"buildingType": "DOMESTIC",
+			"calculationAttribute": "Temporary Water consumption",
+			"isActive": true,
+			"slabs": [{
+					"from": 0,
+					"to": 450,
+					"charge": 500
+				},
+				{
+					"from": 450,
+					"to": 1350,
+					"charge": 700
+				},
+				{
+					"from": 1350,
+					"to": 2700,
+					"charge": 1000
+				},
+				{
+					"from": 2700,
+					"to": 4500,
+					"charge": 1500
+				},
+				{
+					"from": 4500,
+					"to": 9000,
+					"charge": 2000
+				},
+				{
+					"from": 9000,
+					"to": 100000000000,
+					"charge": 2500
+				}
+			]
+		},
+		{
+			"id": 2,
+			"buildingType": "COMMERCIAL",
+			"calculationAttribute": "Temporary Water consumption",
+			"isActive": true,
+			"slabs": [{
+					"from": 0,
+					"to": 100000000000,
+					"code": "GENERAL_BOOTHS",
+					"charge": 500
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
+					"code": "SCF_SCO_GENERAL_TRADE",
+					"charge": 700
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
+					"code": "SCF_SCO_WCB",
+					"charge": 700
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
+					"code": "HOTELS_MALLS_CINEMA",
+					"charge": 1500
+				}
+			]
+		},
+		{
+			"id": 3,
+			"buildingType": "INSTITUTIONAL",
+			"calculationAttribute": "Temporary Water consumption",
+			"isActive": true,
+			"slabs": [{
+				"from": 0,
+				"to": 100000000000000000,
+				"charge": 2000
+			}]
+		},
+		{
+			"id": 4,
+			"buildingType": "INDUSTRIAL",
+			"calculationAttribute": "Temporary Water consumption",
+			"isActive": true,
+			"slabs": [{
+				"from": 0,
+				"to": 100000000000000000,
+				"charge": 2000
+			}]
+		}
+	]
+}

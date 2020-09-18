@@ -31,7 +31,88 @@
         "longitude": null,
         "latitude": null,
         "label": "City",
-        "code": "ch.chandigarh"
+        "code": "ch.chandigarh",
+		"children": [
+          {
+            "id": "2d0d0f02-32e5-4c92-9d25-8249e208a117",
+            "boundaryNum": 1,
+            "name": "Sector 1",
+            "localname": "Sector 1",
+            "longitude": null,
+            "latitude": null,
+            "label": "Sector",
+            "code": "SECTOR-1",
+            "children": [
+              {
+                "id": "c80e49dc-c9f5-477a-ac68-88995979013b",
+                "boundaryNum": 1,
+                "name": "Local Area 1",
+                "localname": "Local Area 1",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "DB_1",
+                "children": []
+              },
+              {
+                "id": "c07c6725-70c9-4078-9884-81eca09e98a1",
+                "boundaryNum": 1,
+                "name": "Local Area 2",
+                "localname": "Local Area 2",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "DB_2",
+                "children": []
+              }
+			]
+		},
+		{
+            "id": "a78fc723-1911-4da5-8778-6c17bcbc7774",
+            "boundaryNum": 2,
+            "name": "Sector 2",
+            "localname": "Sector 2",
+            "longitude": null,
+            "latitude": null,
+            "label": "Sector",
+            "code": "SECTOR-2",
+            "children": [
+              {
+                "id": "c80e49dc-c9f5-477a-ac68-88995979013b",
+                "boundaryNum": 1,
+                "name": "Local Area 3",
+                "localname": "Local Area 3",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "DB_3",
+                "children": []
+              },
+              {
+                "id": "27845f12-5430-4d5c-840a-8c812b507ac1",
+                "boundaryNum": 1,
+                "name": "Local Area 4",
+                "localname": "Local Area 4",
+                "longitude": null,
+                "latitude": null,
+                "label": "Locality",
+                "code": "DB_4",
+                "children": []
+              }
+			]
+		},
+		{
+            "id": "a78fc723-1911-4da5-8778-6c17bcbc7774",
+            "boundaryNum": 2,
+            "name": "Sector 3",
+            "localname": "Sector 3",
+            "longitude": null,
+            "latitude": null,
+            "label": "Sector",
+            "code": "SECTOR-3",
+            "children": []
+		}
+		]
       }
     }    
   ]

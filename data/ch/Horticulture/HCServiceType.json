@@ -3,26 +3,25 @@
     "moduleName": "eg-horticulture",
     "ServiceType": [
         {
-             "name": "Pruning of Trees Girth less than or equal to 90 cms", 
-            "code": "PRUNINGUPTONINETY",
+             "name": "Pruning of Trees Girth less than 90 cms", 
+            "code": "PRUNING OF TREES GIRTH LESS THAN OR EQUAL TO 90 CMS",
             "active": true
         },
         {
-             "name": "Pruning of Trees Girth greater than 90 cms",
-            "code": "PRUNINGMORENINETY",
+             "name": "Pruning of Trees Girth greater than or equal to 90 cms",
+            "code": "PRUNING OF TREES GIRTH GREATER THAN 90 CMS",
             "active": true
         },
-        {
-             "name": "Removal of Overgrown/Green Trees",
-            "code": "PRUNINGOVERGREENTREES",
-            "active": true
-        },
+        
          {
              "name": "Removal of Dead/Dangerous/Dry Trees",
-            "code": "PRUNINGDEADTREES",
+            "code": "REMOVAL OF DEAD/DANGEROUS/DRY TREES",
+            "active": true
+        },
+	{
+             "name": "Removal of Green Trees",
+            "code": "REMOVAL OF GREEN TREES",
             "active": true
         }
     ]
 }
-
-  

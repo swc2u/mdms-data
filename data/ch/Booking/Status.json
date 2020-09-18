@@ -1,0 +1,183 @@
+
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "Status": [
+        {
+            "name": "Open space for building material",
+            "id": "1",
+            "code": "OSBM",
+            "tenantId":"ch.chandigarh",
+            "active":"true",
+            "status": [
+                   {
+                       "name": "Initiate",
+                       "code": "INITIATE",
+                       "active": true
+                   },
+                   {
+                       "name": "Approved",
+                       "code": "APPROVED",
+                       "active": true
+                   },
+                   {
+                       "name": "Rejected",
+                       "code": "REJECT",
+                       "active": true
+                   },
+                   {
+                       "name": "Panding Payment",
+                       "code": "PENDINGPAYMENT",
+                       "active": true
+                   },
+                   {
+                       "name": "Panding Approval",
+                       "code": "PENDINGAPPROVAL",
+                       "active": true
+                   }
+               ]
+            
+        },
+        {
+            "name": "Water tanker",
+            "id": "2",
+            "code": "BWT",
+            "tenantId":"ch.chandigarh",
+            "active":"true",
+            "status":[
+                {
+                    "name": "Initiate",
+                    "code": "INITIATE",
+                    "active": true
+                },
+                {
+                    "name": "Request Verification Pending",
+                    "code": "PENDINGASSIGNMENTDRIVER",
+                    "active": true
+                },
+                {
+                    "name": "Out for Delivery",
+                    "code": "PENDINGUPDATE",
+                    "active": true
+                },
+                {
+                    "name": "Processed",
+                    "code": "DELIVERED",
+                    "active": true
+                },
+                {
+                    "name": "Rejected",
+                    "code": "REJECT",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "name": "MCC Open Space Booking",
+            "id": "3",
+            "code": "OSUJM",
+            "tenantId":"ch.chandigarh",
+            "active":"true",
+            "status":[
+                     {
+                    "name": "Initiated",
+                    "code": "INITIATED",
+                    "active": true
+                },
+                {
+                    "name": "Approved",
+                    "code": "APPROVED",
+                    "active": true
+                },
+                {
+                    "name": "Rejected",
+                    "code": "REJECTED",
+                    "active": true
+                },
+                {
+                    "name": "Panding Payment",
+                    "code": "PENDINGPAYMENT",
+                    "active": true
+                },
+                {
+                    "name": "Panding Approval",
+                    "code": "PENDINGAPPROVAL",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "name": "Ground For Commercial Purpose",
+            "id": "4",
+            "code": "GFCP",
+            "tenantId":"ch.chandigarh",
+            "active":"true",
+            "status":[
+                {
+                    "name": "Initiate",
+                    "code": "INITIATE",
+                    "active": true
+                },
+                {
+                    "name": "Applied",
+                    "code": "APPLIED",
+                    "active": true
+                }
+            ]
+        },
+        {
+            "name": "MCC New Location",
+            "id": "5",
+            "code": "NLUJM",
+            "tenantId":"ch.chandigarh",
+            "active":"true",
+            "status":[
+                     {
+                    "name": "Initiated",
+                    "code": "INITIATED",
+                    "active": true
+                },
+                {
+                    "name": "Approved",
+                    "code": "APPROVED",
+                    "active": true
+                },
+                {
+                    "name": "Rejected",
+                    "code": "REJECTED",
+                    "active": true
+                },
+                {
+                    "name": "Panding Payment",
+                    "code": "PENDINGPAYMENT",
+                    "active": true
+                },
+                {
+                    "name": "Panding Approval",
+                    "code": "PENDINGAPPROVAL",
+                    "active": true
+                },
+                        {
+                    "name": "Pending Approval OSD",
+                    "code": "PENDINGAPPROVALOSD",
+                    "active": true
+                },
+                       {
+                    "name": "Pending publish",
+                    "code": "PENDINGPUBLISH",
+                    "active": true
+                },
+                        {
+                    "name": "published",
+                    "code": "PUBLISHED",
+                    "active": true
+                }
+
+            ]
+        }
+        
+       
+        
+    ]
+}
+
+

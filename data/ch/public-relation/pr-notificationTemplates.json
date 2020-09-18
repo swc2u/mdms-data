@@ -8,7 +8,7 @@
 		"moduleCode": "PR",
 		"emailSubject":"Announcing [:eventTitle:]",
 		"emailReceiver": "Dear [:contactName:],<br/>",
-		"emailBody": "<p>You are invited to [:eventTitle:] on [:eventDate:] at [:location:].</p><br/><p>More details Please check</p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
+		"emailBody": "<p>You are invited to [:eventTitle:] on [:eventDate:] at [:location:].</p><br/><p>More details Please check</p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Public Relations Department, MCC, Chandigarh",
 		"smsContent":"You are invited to [:eventTitle:] on [:eventDate:] at [:location:].More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
 		"active": true
 	},
@@ -18,8 +18,8 @@
 		"moduleCode": "PR",
 		"emailSubject":"Reminder",
 		"emailReceiver": "Dear [:contactName:],<br/>",
-		"emailBody": "<p>This is remind you only 2 days left for [:eventTitle:] at [:location:].</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
-		"smsContent":"This is remind you only 2 days left for [:eventTitle:] at [:location:].More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
+		"emailBody": "<p>This is to remind that only 2 days are left for [:eventTitle:] at [:location:].</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Public Relations Department, MCC, Chandigarh",
+		"smsContent":"This is to remind that only 2 days are left for [:eventTitle:] at [:location:].More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
 		"active": true
 	},
 	{
@@ -28,7 +28,7 @@
 		"moduleCode": "PR",
 		"emailSubject":"Event Updated: [:eventTitle:]",
 		"emailReceiver": "Dear [:contactName:],<br/>",
-		"emailBody": "<p>The [:eventTitle:] on [:eventDate:] at [:location:] has been updated.</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
+		"emailBody": "<p>The [:eventTitle:] on [:eventDate:] at [:location:] has been updated.</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Public Relations Department, MCC, Chandigarh",
 		"smsContent":"The [:eventTitle:] on [:eventDate:] at [:location:] has been updated.More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
 		"active": true
 	},
@@ -38,8 +38,8 @@
 		"moduleCode": "PR",
 		"emailSubject":"",
 		"emailReceiver": "Dear [:contactName:],<br/>",
-		"emailBody": "<p>Please check the attached Press Release.</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
-		"smsContent":"Please check the Press Release.Yours Sincerely,Public and Relation Department, MCC, Chandigarh",
+		"emailBody": "<p>Please check the attached Press Release.</p><br/>Yours Sincerely,<br/>Public Relations Department, MCC, Chandigarh",
+		"smsContent":"Please check the Press Release.Yours Sincerely,Public Relations Department, MCC, Chandigarh",
 		"active": true
 	},
 	{
@@ -48,8 +48,8 @@
 		"moduleCode": "PR",
 		"emailSubject":"",
 		"emailReceiver": "Dear [:contactName:],<br/>",
-		"emailBody": "<p>Please check the attached Tender Notice.</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
-		"smsContent":"Please check the Tender Notice.Yours Sincerely,Public and Relation Department, MCC, Chandigarh",
+		"emailBody": "<p>Please check the attached Tender Notice.</p><br/>Yours Sincerely,<br/>Public Relations Department, MCC, Chandigarh",
+		"smsContent":"Please check the Tender Notice.Yours Sincerely,Public Relations Department, MCC, Chandigarh",
 		"active": true
 	},
 	{
@@ -68,8 +68,8 @@
 		"moduleCode": "SCP",
 		"emailSubject":"Reminder",
 		"emailReceiver": "Dear [:contactName:],<br/>",
-		"emailBody": "<p>This is remind you only 2 days left for [:eventTitle:] at [:location:].</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Sports and Cultural Department, MCC, Chandigarh",
-		"smsContent":"This is remind you only 2 days left for [:eventTitle:] at [:location:].More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
+		"emailBody": "<p>This is to remind that only 2 days are left for [:eventTitle:] at [:location:].</p><br/><p>More details Please check </p><br/><p>[:FacebookLink:],[:TwitterLink:],[:InstagramLink:]</p><br/>Yours Sincerely,<br/>Sports and Cultural Department, MCC, Chandigarh",
+		"smsContent":"This is to remind that only 2 days are left for [:eventTitle:] at [:location:].More details Please check [:FacebookLink:],[:TwitterLink:],[:InstagramLink:]",
 		"active": true
 	},
 	{
@@ -108,8 +108,8 @@
 		"moduleCode": "PR",
 		"emailSubject":"New Media Upload for [:eventTitle:]",
 		"emailReceiver": "Dear [:contactName:],<br/>",
-		"emailBody": "<p>New Media is available for [:eventTitle:]. Please login to the MCC Portal to view.</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
-		"smsContent":"New Media is available for [:eventTitle:]. Please login to the MCC Portal to view. Yours Sincerely,Public and Relation Department, MCC, Chandigarh",
+		"emailBody": "<p>New Media is available for [:eventTitle:]. Please login to the MCC Portal to view.</p><br/>Yours Sincerely,<br/>Public Relations Department, MCC, Chandigarh",
+		"smsContent":"New Media is available for [:eventTitle:]. Please login to the MCC Portal to view. Yours Sincerely,Public Relations Department, MCC, Chandigarh",
 		"active": true
 	},
 	{
@@ -118,8 +118,8 @@
 		"moduleCode": "PR",
 		"emailSubject":"Event Cancelled: [:eventTitle:]",
 		"emailReceiver": "Dear [:contactName:],<br/>",
-		"emailBody": "<p>This is to notify that [:eventTitle:] has been cancelled.</p><br/>Yours Sincerely,<br/>Public and Relation Department, MCC, Chandigarh",
-		"smsContent":"This is to notify that [:eventTitle:] has been cancelled.Yours Sincerely,Public and Relation Department, MCC, Chandigarh",
+		"emailBody": "<p>This is to notify that [:eventTitle:] has been cancelled.</p><br/>Yours Sincerely,<br/>Public Relations Department, MCC, Chandigarh",
+		"smsContent":"This is to notify that [:eventTitle:] has been cancelled.Yours Sincerely,Public Relations Department, MCC, Chandigarh",
 		"active": true
 	},
 	{

@@ -1,0 +1,29 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "PropertyType": [
+        {
+            "name": "Residential Building in The City",
+            "id": "1",
+            "code": "Residential_Building_City",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Residential Buildings in the Village/re-habitation colonies",
+            "id": "2",
+            "code": "Residential_Buildings_colonies",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Commercial Buildings like Booths/SCFs/SCOs in the City",
+            "id": "3",
+            "code": "Commercial_Buildings_City",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+    ]
+}
+
+

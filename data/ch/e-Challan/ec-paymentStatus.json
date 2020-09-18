@@ -1,0 +1,27 @@
+{
+   "tenantId":"ch",
+   "moduleName":"egec",
+   "paymentStatus":[
+      {
+         "id":"1",
+         "code":"All",
+         "tenantId":"ch",
+         "name":"All",
+         "active":true
+      },
+	  {
+         "id":"2",
+         "code":"Paid",
+         "tenantId":"ch",
+         "name":"Paid",
+         "active":true
+      },
+      {
+         "id":"3",
+         "code":"Unpaid",
+         "tenantId":"ch",
+         "name":"Unpaid",
+         "active":true
+      }
+   ]
+}

@@ -1,0 +1,30 @@
+{
+  "tenantId": "ch",
+  "moduleName": "RAINMAKER-PR",
+  "TenderStatusCheck": [
+    {
+	   "isRole":"APRO",
+      "Status": "CREATED",
+	  "btnName":["publishedButton"],
+	  "isEdit":true,
+	  "isResendGrid":false,
+	  "TenderListStatus":""
+    },
+	 {
+      "isRole": "APRO",
+	  "Status":"PUBLISHED",
+	  "btnName":["resendbutton"],
+	  "isEdit":false,
+	  "isResendGrid":true,
+	  "TenderListStatus":""
+    },
+	 {
+      "isRole": "DEPARTMENTUSER",
+	  "Status":"",
+	  "btnName":[],
+	  "isEdit":false,
+	  "isResendGrid":false,
+	  "TenderListStatus":"CREATED"
+    }
+  ]
+}

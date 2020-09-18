@@ -93,7 +93,7 @@
          "function":"",
          "department":"427",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -105,7 +105,7 @@
          "function":"",
          "department":"427",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -117,7 +117,7 @@
          "function":"",
          "department":"428",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -129,7 +129,7 @@
          "function":"",
          "department":"428",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -141,7 +141,7 @@
          "function":"",
          "department":"429",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -153,7 +153,7 @@
          "function":"",
          "department":"429",
          "functionary":"",
-         "scheme":"  ",
+         "scheme":"",
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
@@ -181,6 +181,117 @@
       "subscheme":"",
       "validFrom":1234567890,
       "validTo":2345678901
-    }
+    },
+    {
+      "code": "CTL.DHOBI_GHAT",
+      "voucherCreationEnabled":true,
+      "fund":"01",
+      "function":"000300",
+      "department":"390",
+      "functionary":"",
+      "scheme":"",
+      "subscheme":"",
+      "validFrom":1234567890,
+      "validTo":2345678901
+    },
+    {
+      "code": "CTL.OLD_BOOK_MARKET",
+      "voucherCreationEnabled":true,
+      "fund":"01",
+      "function":"000300",
+      "department":"390",
+      "functionary":"",
+      "scheme":"",
+      "subscheme":"",
+      "validFrom":1234567890,
+      "validTo":2345678901
+    },
+    {
+      "code":"OPMS.PETNOC",
+      "voucherCreationEnabled":true,
+      "fund":"01",
+      "function":"000300",
+      "department":"390",
+      "functionary":"",
+      "scheme":"",
+      "subscheme":"",
+      "validFrom":1522540801000,
+      "validTo":1838159999000
+    },
+    {
+      "code":"EC",
+      "voucherCreationEnabled":true,
+      "fund":"01",
+      "function":"000300",
+      "department":"390",
+      "functionary":"",
+      "scheme":"",
+      "subscheme":"",
+      "validFrom":1522540801000,
+      "validTo":1838159999000
+    },
+    
+    {
+      "code":"OSBM",
+      "voucherCreationEnabled":true,
+      "fund":"01",
+      "function":"000201",
+      "department":"DEPT_25",
+      "functionary":"",
+      "scheme":"",
+      "subscheme":"",
+      "validFrom":1554057000000,
+      "validTo":1869676199000
+    },
+    {
+      "code":"BWT",
+      "voucherCreationEnabled":true,
+      "fund":"01",
+      "function":"000201",
+      "department":"DEPT_13",
+      "functionary":"",
+      "scheme":"",
+      "subscheme":"",
+      "validFrom":1554057000000,
+      "validTo":1869676199000
+    },
+    {
+      "code":"GFCP",
+      "voucherCreationEnabled":true,
+      "fund":"01",
+      "function":"000201",
+      "department":"DEPT_13",
+      "functionary":"",
+      "scheme":"",
+      "subscheme":"",
+      "validFrom":1554057000000,
+      "validTo":1869676199000
+    },
+    
+    {
+      "code":"OSUJM",
+      "voucherCreationEnabled":true,
+      "fund":"01",
+      "function":"000201",
+      "department":"DEPT_13",
+      "functionary":"",
+      "scheme":"",
+      "subscheme":"",
+      "validFrom":1554057000000,
+      "validTo":1869676199000
+    },
+    
+    {
+      "code":"PACC",
+      "voucherCreationEnabled":true,
+      "fund":"01",
+      "function":"000201",
+      "department":"DEPT_25",
+      "functionary":"",
+      "scheme":"",
+      "subscheme":"",
+      "validFrom":1554057000000,
+      "validTo":1869676199000
+     }
   ]
 }
