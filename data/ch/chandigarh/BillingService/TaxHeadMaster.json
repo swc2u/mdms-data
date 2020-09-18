@@ -2863,15 +2863,15 @@
 			"isRequired": false
 		},
 		{
-			"category": "TAX",
+			"category": "CHARGES",
 			"service": "OPMS.PETNOC",
 			"name": "Pet NOC Tax",
-			"code": "PETNOC_TAX",
+			"code": "PETNOC_POSTAL_CHARGES",
 			"isDebit": false,
 			"isActualDemand": true,
 			"order": "2",
 			"isRequired": false,
-			"taxAmount": "0"
+			"taxAmount": "25"
 		},
 		{
 			"category": "FEE",
