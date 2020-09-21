@@ -1024,6 +1024,11 @@
 		  "masterName": "CalculationAttribute",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
+		},
+		"WaterActivity": {
+		  "masterName": "WaterActivity",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
 		}
 	  },
 	  "sw-services-calculation": {
