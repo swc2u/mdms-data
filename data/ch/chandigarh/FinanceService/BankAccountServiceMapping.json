@@ -657,6 +657,12 @@
          "bankBranch":"OBC01"
       },
       {
+         "businessDetails":"ESTATE_BRANCH.SALE_AUCTION_BLDN_LAND_ETC",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
          "businessDetails":"ESTATE_BRANCH.MISC_RECEIPT",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
