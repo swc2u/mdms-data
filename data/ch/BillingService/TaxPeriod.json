@@ -870,6 +870,14 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"ESTATE_BRANCH.SALE_AUCTION_BLDN_LAND_ETC",
+         "code":"EBLBL10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"ESTATE_BRANCH.MISC_RECEIPT",
          "code":"EBMR10YRS2019",
          "financialYear":"2019-29"
