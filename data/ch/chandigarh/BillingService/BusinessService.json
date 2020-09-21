@@ -1009,6 +1009,33 @@
          "isVoucherCreationEnabled":true,
          "isActive":true,
          "type":"Adhoc"
+      },
+      {
+         "businessService":"Cess.Cow Cess",
+         "code":"CESS.COW_CESS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Cess.Covid Cess",
+         "code":"CESS.COVID_CESS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Cess.MC Cess on electricity charges",
+         "code":"CESS.MC_CESS_ELEC_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
       }
    ]
 }
