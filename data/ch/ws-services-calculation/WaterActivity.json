@@ -1,0 +1,31 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-calculation",
+  "WaterActivity": [
+    {      
+      "code": "PERMANENT_DISCONNECTION",
+      "unitCost": 50,
+      "isActive": true
+    },
+    {      
+      "code": "TEMPORARY_DISCONNECTION",
+      "unitCost": 50,
+      "isActive": true
+    },
+    { 
+      "code": "REACTIVATE_CONNECTION",
+      "unitCost": 0,
+      "isActive": true
+    },
+    { 
+      "code": "CONNECTION_CONVERSION",
+      "unitCost": 0,
+      "isActive": true
+    },
+    { 
+      "code": "UPDATE_CONNECTION_HOLDER_INFO",
+      "unitCost": 500,
+      "isActive": true
+    }
+  ]
+}
