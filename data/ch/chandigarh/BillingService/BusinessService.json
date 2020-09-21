@@ -983,7 +983,16 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
+         "businessService":"Estate Branch.Sale/Auction of Buildings, land etc",
+         "code":"ESTATE_BRANCH.SALE_AUCTION_BLDN_LAND_ETC",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Estate Branch.Unspecified Receipt/Miscellaneous Receipts",
          "code":"ESTATE_BRANCH.MISC_RECEIPT",
          "partPaymentAllowed":false,
