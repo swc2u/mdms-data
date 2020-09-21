@@ -3174,6 +3174,26 @@
       },
       {
          "category":"FEE",
+         "service":"ESTATE_BRANCH.SALE_AUCTION_BLDN_LAND_ETC",
+         "name":"Auction - Store Materials/Booths/Land/Building etc",
+         "code":"SALE_AUCTION_BLDN_LAND_EST",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_BRANCH.SALE_AUCTION_BLDN_LAND_ETC",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_SALE_AUCTION_BLDN_LAND_EST",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
          "service":"ESTATE_BRANCH.MISC_RECEIPT",
          "name":"Miscellaneous Receipt",
          "code":"MISC_RECEIPT_EST",
