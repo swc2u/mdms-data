@@ -50809,9 +50809,27 @@
 				"actioncode": "",
 				"tenantId": "ch"
 			},
+			{
+				"rolecode": "EGF_BUDGET_VERIFIER_SO",
+				"actionid": 5055,
+				"actioncode": "",
+				"tenantId": "ch"
+			},			
 		{
-			"rolecode": "EGF_BUDGET_VERIFIER_SO",
-			"actionid": 5055,
+			"rolecode": "EMPLOYEE",
+			"actionid": 6000,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6001,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 6002,
 			"actioncode": "",
 			"tenantId": "ch"
 		}

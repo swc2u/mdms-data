@@ -21915,6 +21915,42 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Budgeting.verifyBudgetSO"
-    }
+    },
+	{
+		"id": 6000,
+		"name": "getrti",
+		"url": "/integration-services/rti/v1/_get",
+		"displayName": "Get Rti",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6001,
+		"name": "getDepartment",
+		"url": "/integration-services/rti/v1/_getDepartment",
+		"displayName": "Get Department",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6002,
+		"name": "getpt",
+		"url": "/integration-services/pt/v1/_get",
+		"displayName": "Get PT",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	}
   ]
 }
