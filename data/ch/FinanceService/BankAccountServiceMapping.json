@@ -673,6 +673,24 @@
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"CESS.COW_CESS",
+         "bankAccount":"56930100001976",
+         "bank":"Bank of Baroda",
+         "bankBranch":"BOB01(Cow Cess)"
+      },
+	   {
+         "businessDetails":"CESS.COVID_CESS",
+         "bankAccount":"22522612000017",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+	   {
+         "businessDetails":"CESS.MC_CESS_ELEC_CHARGES",
+         "bankAccount":"22522122000662",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
       }
    ]
 }
