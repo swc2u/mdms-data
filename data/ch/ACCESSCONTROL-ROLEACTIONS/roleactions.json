@@ -17486,25 +17486,25 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 21786,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 21787,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 21788,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 21789,
 			"actioncode": "",
 			"tenantId": "ch"
