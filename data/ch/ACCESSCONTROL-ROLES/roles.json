@@ -508,6 +508,11 @@
       "name": "COMMISSIONER",
       "description": "Employee who verifies, rejects and approves the TL application which is approved by SI"
     },
+    {
+      "code": "CTL_ADMIN",
+      "name": "Trade License Admin",
+      "description": "Trade License Admin"
+    },	  
 	{
       "code": "RP_CLERK",
       "name": "CLERK",
