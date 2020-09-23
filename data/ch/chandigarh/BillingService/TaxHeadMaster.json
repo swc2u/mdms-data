@@ -3222,7 +3222,7 @@
          "order":"0",
          "isRequired":false
       },
-	  {
+      {
          "category":"TAX",
          "service":"CESS.COVID_CESS",
          "name":"Covid Cess",
@@ -3232,7 +3232,7 @@
          "order":"0",
          "isRequired":false
       },
-	  {
+      {
          "category":"TAX",
          "service":"CESS.MC_CESS_ELEC_CHARGES",
          "name":"MC cess on electricity charges",
