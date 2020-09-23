@@ -889,6 +889,30 @@
          "service":"ESTATE_BRANCH.RTI",
          "code":"EBRTI10YRS2019",
          "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"CESS.COW_CESS",
+         "code":"COWCESS10YRS2019",
+         "financialYear":"2019-29"
+      }
+	  {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"CESS.COVID_CESS",
+         "code":"COVIDCESS10YRS2019",
+         "financialYear":"2019-29"
+      }
+	  {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"CESS.MC_CESS_ELEC_CHARGES",
+         "code":"MCELECCESS10YRS2019",
+         "financialYear":"2019-29"
       }
    ]
 }
