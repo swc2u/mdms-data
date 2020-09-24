@@ -6,7 +6,7 @@
       "id": "1",
 	  "code":"LAYING_OPTICAL_CABLE",
       "tenantId": "ch.chandigarh",
-      "name": "Laying Optical cable",
+      "name": "Laying Optical Cable /OFC line for Telecom",
       "active": true
     },
 	{
@@ -27,7 +27,7 @@
       "id": "4",
 	  "code":"LAYING_SEWER_LINE_REPAIR_OF_SEWER_LINE",
       "tenantId": "ch.chandigarh",
-      "name": "Laying sewer line/Repair of sewer line",
+      "name": "Laying / Repair of Water / Sewer / Storm line",
       "active": true
     },
 	{
@@ -35,6 +35,13 @@
 	  "code":"LAYING_NATURAL_GAS_MDPE_PIPELINE",
       "tenantId": "ch.chandigarh",
       "name": "Laying Natural Gas MDPE Pipeline",
+      "active": true
+    },
+	{
+      "id": "6",
+	  "code":"OTHERS",
+      "tenantId": "ch.chandigarh",
+      "name": "Others",
       "active": true
     }
   ]
