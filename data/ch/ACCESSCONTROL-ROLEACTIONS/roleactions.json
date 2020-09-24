@@ -16808,13 +16808,13 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1706,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1707,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16862,19 +16862,19 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1715,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1716,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1717,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -19322,37 +19322,19 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1905,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1905,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CITIZEN",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1906,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1906,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CITIZEN",
-			"actionid": 1907,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1907,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -19406,32 +19388,14 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
-			"actionid": 1915,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
 			"rolecode": "EMPLOYEE",
 			"actionid": 1915,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
-			"actionid": 1916,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
 			"rolecode": "EMPLOYEE",
 			"actionid": 1916,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CITIZEN",
-			"actionid": 1917,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
