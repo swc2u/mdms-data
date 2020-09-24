@@ -50832,6 +50832,18 @@
 			"actionid": 6002,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RTIADMIN",
+			"actionid": 6004,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 6005,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }

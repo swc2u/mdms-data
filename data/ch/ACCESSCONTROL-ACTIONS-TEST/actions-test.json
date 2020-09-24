@@ -21951,6 +21951,36 @@
 		"serviceCode": "integration-services",
 		"code": "null",
 		"path": ""
-	}
+	},
+	{
+        "id": 6004,
+        "name": "RTI",
+        "url": "url",
+        "displayName": "RTI",
+        "orderNumber": 5,
+        "parentModule": "rainmaker-rti",
+        "enabled": true,
+        "serviceCode": "RTI",
+        "code": "null",
+        "path": "RTI.Right to Information",
+        "navigationURL": "egov-rti/rtidata",
+        "leftIcon": "action:assignment",
+        "rightIcon": ""
+	},
+	{
+        "id": 6005,
+        "name": "Property Tax",
+        "url": "url",
+        "displayName": "Property Tax",
+        "orderNumber": 5,
+        "parentModule": "rainmaker-integration",
+        "enabled": true,
+        "serviceCode": "INTIGRATION",
+        "code": "null",
+        "path": "Integration.Dashboard PT",
+        "navigationURL": "egov-integration/dashboardPT",
+        "leftIcon": "action:assignment",
+        "rightIcon": ""
+    }
   ]
 }
