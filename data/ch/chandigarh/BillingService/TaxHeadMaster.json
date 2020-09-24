@@ -2975,6 +2975,179 @@
 			"isActualDemand": true,
 			"order": "3",
 			"isRequired": false
-		}
+		},
+	   {
+		 "category": "CHARGES",
+		 "service": "OSBM",
+		 "name": "Open Space Building Material",
+		 "code": "OSBM",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+	   },
+		{
+		  "category": "TAX",
+		  "service": "OSBM",
+		  "name": "Open Space Building Material",
+		  "code": "OSBM_TAX",
+		  "isDebit": false,
+		  "isActualDemand": true,
+		  "order": "0",
+		  "isRequired": false,
+		   "taxAmount" : "18"
+		},
+		 {
+		  "category": "TAX",
+		  "service": "OSBM",
+		  "name": "Open Space Building Material",
+		  "code": "OSBM_ROUND_OFF",
+		  "isDebit": false,
+		  "isActualDemand": true,
+		  "order": "0",
+		  "isRequired": false,
+		   "taxAmount" : "18"
+		},
+		
+		{
+		 "category": "CHARGES",
+		 "service": "BWT",
+		 "name": "Water Tanker",
+		 "code": "BWT",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "350"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "BWT",
+		 "name": "Water Tanker",
+		 "code": "BWT_TAX",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "18"
+	   },
+	   {
+		 "category": "CHARGES",
+		 "service": "GFCP",
+		 "name": "COMMERCIAL GROUND",
+		 "code": "GFCP",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "GFCP",
+		 "name": "COMMERCIAL GROUND",
+		 "code": "GFCP_TAX",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "18"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "GFCP",
+		 "name": "COMMERCIAL GROUND TAX",
+		 "code": "GFCP_ROUND_OFF",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   },
+	   {
+		 "category": "CHARGES",
+		 "service": "OSUJM",
+		 "name": "OPEN SPACES UNDER THE JURISDICTION OF MCC",
+		 "code": "OSUJM",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "OSUJM",
+		 "name": "OPEN SPACES UNDER THE JURISDICTION OF MCC TAX",
+		 "code": "OSUJM_TAX",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "18"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "OSUJM",
+		 "name": "OPEN SPACES UNDER THE JURISDICTION OF MCC ROUND OFF",
+		 "code": "OSUJM_ROUND_OFF",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   },
+	   {
+		 "category": "CHARGES",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE",
+		 "code": "PACC",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE TAX",
+		 "code": "PACC_TAX",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "18"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE ROUND OFF",
+		 "code": "PACC_ROUND_OFF",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE UGST TAX",
+		 "code": "PACC_CGST",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "18"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE CGST TAX",
+		 "code": "PACC_UGST",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   }
   ]
 }
