@@ -19988,19 +19988,19 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 11682,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 11683,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 11684,
 			"actioncode": "",
 			"tenantId": "ch"
