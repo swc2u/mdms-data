@@ -1593,6 +1593,14 @@
             "department": "DEP_01",
             "slaHours": 0,
             "menuPath": "Metering"
+        },		
+        {
+            "serviceCode": "DEP01_WaterSupply_06",
+            "active": true,
+            "keywords": "money, billing, excess",
+            "department": "DEP_01",
+            "slaHours": 0,
+            "menuPath": "Metering"
         },
         {
             "serviceCode": "DEP01_publicCommunityToilet_01",
@@ -1800,14 +1808,6 @@
             "keywords": "commercial, domestic",
             "department": "DEP_01",
             "slaHours": 360,
-            "menuPath": "WaterSupply"
-        },
-        {
-            "serviceCode": "DEP01_WaterSupply_06",
-            "active": true,
-            "keywords": "money, billing, excess",
-            "department": "DEP_01",
-            "slaHours": 0,
             "menuPath": "WaterSupply"
         },
         {
