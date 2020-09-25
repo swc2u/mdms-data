@@ -135,7 +135,7 @@
     {
       "category": "FEE",
       "service": "CTL.REHRI_REGISTRATION",
-      "name": "Rehri Registration fee",
+      "name": "Rehri Registration Plate charges",
       "code": "CTL.REHRI_REGISTRATION_CHARGES",
       "isDebit": false,
       "isActualDemand": true,
