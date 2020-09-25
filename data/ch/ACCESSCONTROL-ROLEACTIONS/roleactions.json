@@ -19388,19 +19388,19 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1915,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1916,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1917,
 			"actioncode": "",
 			"tenantId": "ch"
