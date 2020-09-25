@@ -28274,6 +28274,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "APNIMANDI_REPORT_VIEWER",
 			"actionid": 4107,
 			"actioncode": "",
