@@ -1,0 +1,25 @@
+{
+  "tenantId": "ch",
+  "moduleName": "NULM",
+  "SMIDDocuments": [
+    {
+      "code": "NULM_SMID_DOCUMENT_GOVT_ID",
+      "documentType": "NULM_SMID_DOCUMENT_GOVT_ID",
+      "required": true,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Govt ID & Address Proof"
+    },
+    {
+      "code": "NULM_SMID_DOCUMENT_PHOTO_APPLICANT",
+      "documentType": "NULM_SMID_DOCUMENT_PHOTO_APPLICANT",
+      "required": true,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Photo of the applicant"
+    }
+      
+  ]
+}

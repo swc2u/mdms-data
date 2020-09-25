@@ -9,37 +9,37 @@
 			"slabs": [{
 					"from": 0,
 					"to": 4500,
-					"code": "FLATS",
+					"code": "DOMESTIC.FLATS",
 					"charge": 1000
 				},
 				{
 					"from": 4500,
 					"to": 9000,
-					"code": "FLATS",
+					"code": "DOMESTIC.FLATS",
 					"charge": 2000
 				},
 				{
 					"from": 9000,
 					"to": 10000000000000000,
-					"code": "FLATS",
+					"code": "DOMESTIC.FLATS",
 					"charge": 4000
 				},
 				{
 					"from": 0,
 					"to": 2250,
-					"code": "MARLA_HOUSE",
+					"code": "DOMESTIC.MARLA_HOUSE",
 					"charge": 2000
 				},
 				{
 					"from": 2250,
 					"to": 4500,
-					"code": "MARLA_HOUSE",
+					"code": "DOMESTIC.MARLA_HOUSE",
 					"charge": 4000
 				},
 				{
 					"from": 4500,
 					"to": 10000000000000000,
-					"code": "MARLA_HOUSE",
+					"code": "DOMESTIC.MARLA_HOUSE",
 					"charge": 6000
 				}
 			]

@@ -1151,6 +1151,16 @@
       "code": "RTIADMIN",
       "name": "RTIADMIN",
       "description": "RTI Admin"
+    },
+	{
+      "code": "MCC_HELPDESK_USER",
+      "name": "WATER TANKER APPROVER",
+      "description": "Employee who verifies water tanker"
+    },
+	{
+      "code": "COMMERCIAL_GROUND_VIEWER",
+      "name": "COMMERCIAL GROUND VIEWER",
+      "description": "Employee who views commercial ground Booking"
     }
   ]
 }
