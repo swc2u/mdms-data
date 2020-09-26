@@ -21016,6 +21016,54 @@
 		"path": ""
 	},
 	{
+		"id": 4535,
+		"name": "SUHShelterName",
+		"url": "/nulm-services/v1/suh/_getShelterName",
+		"displayName": "SUH Shelter Name",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},	
+	{
+		"id": 4536,
+		"name": "SUHCitizenCreate",
+		"url": "/nulm-services/v1/suh/citizen/_create",
+		"displayName": "SUH Citizen Create",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4537,
+		"name": "SUHCitizenUpdate",
+		"url": "/nulm-services/v1/suh/citizen/_update",
+		"displayName": "SUH Citizen Update",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 4538,
+		"name": "SUHCitizenGet",
+		"url": "/nulm-services/v1/suh/citizen/_get",
+		"displayName": "SUH Citizen Get",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+	},	
+	{
 	      "id": 1961,
 	      "name": "VoucherSearchbyServiceandReference",
 	      "url": "/services/EGF/rest/voucher/_searchbyserviceandreference",

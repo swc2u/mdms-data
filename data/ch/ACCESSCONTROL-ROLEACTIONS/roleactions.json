@@ -49710,6 +49710,30 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4522,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4525,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4526,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4527,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "CITIZEN",
 				"actionid": 4528,
 				"actioncode": "",
@@ -49945,7 +49969,55 @@
 				"actionid": 4534,
 				"actioncode": "",
 				"tenantId": "ch"
+			},			
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4535,
+				"actioncode": "",
+				"tenantId": "ch"
 			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4536,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4537,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4538,
+				"actioncode": "",
+				"tenantId": "ch"
+			},			
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4535,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4536,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4537,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4538,
+				"actioncode": "",
+				"tenantId": "ch"
+			},			
 			{
 				"rolecode": "SAJE",
 				"actionid": 4423,
@@ -50153,12 +50225,6 @@
 			{
 				"rolecode": "SAJE",
 				"actionid": 4427,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "NGO",
-				"actionid": 4555,
 				"actioncode": "",
 				"tenantId": "ch"
 			},
