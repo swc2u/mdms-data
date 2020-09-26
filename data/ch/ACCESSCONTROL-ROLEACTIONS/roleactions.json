@@ -50880,6 +50880,18 @@
 			"actionid": 6005,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 6006,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NULM_ADMIN",
+			"actionid": 6006,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }

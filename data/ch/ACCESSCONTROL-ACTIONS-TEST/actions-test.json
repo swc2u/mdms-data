@@ -22029,6 +22029,21 @@
         "navigationURL": "egov-integration/dashboardPT",
         "leftIcon": "action:assignment",
         "rightIcon": ""
-    }
+    },
+	{
+		"id": 6006,
+		"name": "Selter Request Search",
+		"url": "url",
+		"displayName": "Selter Request Search",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-nulm",
+		"enabled": true,
+		"serviceCode": "NULM",
+		"code": "null",
+		"path": "NULM.Selter Search",
+		"navigationURL": "egov-nulm/searchSuh",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	}
   ]
 }
