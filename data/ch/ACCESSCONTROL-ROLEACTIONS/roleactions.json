@@ -9182,6 +9182,108 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 740,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 184,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 752,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 756,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 764,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 788,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 760,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 765,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 771,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 168,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 615,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 818,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 819,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 820,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 821,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 915,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 916,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CREATOR",
 			"actionid": 740,
 			"actioncode": "",
@@ -16400,6 +16502,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1687,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_APPROVER",
 			"actionid": 1688,
 			"actioncode": "",
@@ -16407,6 +16515,12 @@
 		},
 		{
 			"rolecode": "TL_CEMP",
+			"actionid": 1688,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1688,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16419,6 +16533,12 @@
 		},
 		{
 			"rolecode": "TL_CEMP",
+			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1689,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16431,6 +16551,12 @@
 		},
 		{
 			"rolecode": "TL_CEMP",
+			"actionid": 1592,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1592,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16443,6 +16569,12 @@
 		},
 		{
 			"rolecode": "TL_CEMP",
+			"actionid": 1429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1429,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16455,6 +16587,12 @@
 		},
 		{
 			"rolecode": "TL_CEMP",
+			"actionid": 1522,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1522,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16467,6 +16605,12 @@
 		},
 		{
 			"rolecode": "TL_CEMP",
+			"actionid": 1523,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1523,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16479,6 +16623,12 @@
 		},
 		{
 			"rolecode": "TL_CEMP",
+			"actionid": 605,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 605,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16520,6 +16670,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1690,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1690,
 			"actioncode": "",
@@ -16538,6 +16694,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 870,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 870,
 			"actioncode": "",
@@ -16556,6 +16718,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1589,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1589,
 			"actioncode": "",
@@ -16563,6 +16731,12 @@
 		},
 		{
 			"rolecode": "TL_APPROVER",
+			"actionid": 1590,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1590,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -17342,6 +17516,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "GRO",
 			"actionid": 1752,
 			"actioncode": "",
@@ -17475,6 +17655,12 @@
 		},
 		{
 			"rolecode": "TL_APPROVER",
+			"actionid": 1778,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1778,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -18500,6 +18686,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1778,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SUPERUSER",
 			"actionid": 1837,
 			"actioncode": "",
@@ -18860,6 +19052,18 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1846,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1847,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1846,
 			"actioncode": "",
@@ -18879,6 +19083,12 @@
 		},
 		{
 			"rolecode": "TL_APPROVER",
+			"actionid": 1752,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1752,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -19124,6 +19334,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1875,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1875,
 			"actioncode": "",
@@ -19137,6 +19353,12 @@
 		},
 		{
 			"rolecode": "TL_APPROVER",
+			"actionid": 1876,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1876,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -19161,6 +19383,12 @@
 		},
 		{
 			"rolecode": "TL_APPROVER",
+			"actionid": 1877,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1877,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -19208,6 +19436,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 1878,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1878,
 			"actioncode": "",
@@ -19233,6 +19467,12 @@
 		},
 		{
 			"rolecode": "TL_APPROVER",
+			"actionid": 1879,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1879,
 			"actioncode": "",
 			"tenantId": "ch"
