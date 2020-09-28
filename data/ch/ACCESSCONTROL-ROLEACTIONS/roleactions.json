@@ -17515,12 +17515,7 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		{
-			"rolecode": "CTL_ADMIN",
-			"actionid": 1766,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
+
 		{
 			"rolecode": "GRO",
 			"actionid": 1752,
