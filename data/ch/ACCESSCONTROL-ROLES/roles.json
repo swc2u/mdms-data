@@ -549,11 +549,6 @@
       "description": "Employee who manages the public relations for transit sites for rented properties"
     },
     {
-      "code": "RP_APPROVER",
-      "name": "RP Approver",
-      "description": "Employees who have access to Rented Properties Workflow"
-    },
-    {
       "code": "SI",
       "name": "SI",
       "description": "Sanitary Inspector"
