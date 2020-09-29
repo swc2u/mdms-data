@@ -15,8 +15,8 @@
         {
             "code": "TRANSIT_SITE_IMAGES",
             "required": true,
-            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-            "fileType": "ALLTYPES",
+            "accept": "image/*",
+            "fileType": "IMAGEONLY",
             "description": "TRANSIT_SITE_IMAGES_DESCRIPTION",
             "minCount": 1,
             "maxCount": 6
