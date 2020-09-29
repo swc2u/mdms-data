@@ -20,43 +20,43 @@
 			"slabs": [{
 					"from": 0,
 					"to": 810,
-					"code": "GENERAL_BOOTHS",
+					"code": "COMMERCIAL.GENERAL_BOOTHS",
 					"charge": 15
 				},
 				{
 					"from": 0,
 					"to": 810,
-					"code": "SCF_SCO_GENERAL_TRADE",
+					"code": "COMMERCIAL.SCF_SCO_GENERAL_TRADE",
 					"charge": 15
 				},
 				{
 					"from": 0,
 					"to": 810,
-					"code": "SCF_SCO_WCB",
+					"code": "COMMERCIAL.SCF_SCO_WCB",
 					"charge": 15
 				},
 				{
 					"from": 810,
 					"to": 100000000000000000,
-					"code": "GENERAL_BOOTHS",
+					"code": "COMMERCIAL.GENERAL_BOOTHS",
 					"charge": 25
 				},
 				{
 					"from": 810,
 					"to": 100000000000000000,
-					"code": "SCF_SCO_GENERAL_TRADE",
+					"code": "COMMERCIAL.SCF_SCO_GENERAL_TRADE",
 					"charge": 25
 				},
 				{
 					"from": 810,
 					"to": 100000000000000000,
-					"code": "SCF_SCO_WCB",
+					"code": "COMMERCIAL.SCF_SCO_WCB",
 					"charge": 25
 				},
 				{
 					"from": 0,
 					"to": 100000000000000000,
-					"code": "HOTELS_MALLS_CINEMA",
+					"code": "COMMERCIAL.HOTELS_MALLS_CINEMA",
 					"charge": 35
 				}
 			]
