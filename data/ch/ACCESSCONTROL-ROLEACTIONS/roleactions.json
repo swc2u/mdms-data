@@ -15560,24 +15560,6 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1685,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1686,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1687,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
 			"rolecode": "CITIZEN",
 			"actionid": 1685,
 			"actioncode": "",
@@ -15676,36 +15658,6 @@
 		{
 			"rolecode": "SUPERUSER",
 			"actionid": 1681,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "SUPERUSER",
-			"actionid": 1682,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "SUPERUSER",
-			"actionid": 1683,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "SUPERUSER",
-			"actionid": 1684,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1684,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1688,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -16454,7 +16406,7 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "TL_CEMP",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1684,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16467,18 +16419,12 @@
 		},
 		{
 			"rolecode": "TL_APPROVER",
-			"actionid": 1685,
+			"actionid": 1686,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "TL_CEMP",
-			"actionid": 1685,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "TL_APPROVER",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1686,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16496,13 +16442,13 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "TL_CEMP",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1687,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_ADMIN",
+			"rolecode": "TL_CEMP",
 			"actionid": 1687,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -16514,13 +16460,13 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "TL_CEMP",
+			"rolecode": "CTL_ADMIN",
 			"actionid": 1688,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CTL_ADMIN",
+			"rolecode": "TL_CEMP",
 			"actionid": 1688,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -17607,7 +17553,7 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "PGR_LME",
 			"actionid": 1775,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -19305,31 +19251,7 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "SUPERUSER",
-			"actionid": 1874,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
 			"rolecode": "CITIZEN",
-			"actionid": 1875,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1875,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "TL_APPROVER",
-			"actionid": 1875,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CTL_ADMIN",
 			"actionid": 1875,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -19337,24 +19259,6 @@
 		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1875,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1876,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "TL_APPROVER",
-			"actionid": 1876,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CTL_ADMIN",
-			"actionid": 1876,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -19367,24 +19271,6 @@
 		{
 			"rolecode": "CITIZEN",
 			"actionid": 1876,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1877,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "TL_APPROVER",
-			"actionid": 1877,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CTL_ADMIN",
-			"actionid": 1877,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -19414,24 +19300,6 @@
 		},
 		{
 			"rolecode": "CITIZEN",
-			"actionid": 1878,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1878,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "TL_APPROVER",
-			"actionid": 1878,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CTL_ADMIN",
 			"actionid": 1878,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -20217,7 +20085,19 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "TL_APPROVER",
+			"actionid": 11687,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 11687,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "TL_CEMP",
 			"actionid": 11687,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -33373,7 +33253,7 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "WS_COMMON",
 			"actionid": 4050,
 			"actioncode": "",
 			"tenantId": "ch"
