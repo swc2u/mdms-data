@@ -50844,6 +50844,36 @@
 			"actionid": 6005,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "OSBM_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "MCC_HELPDESK_USER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "MCC_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "OSD_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ADMIN_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }
