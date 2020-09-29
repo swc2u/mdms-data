@@ -17608,7 +17608,7 @@
 		},
 		{
 			"rolecode": "EMPLOYEE",
-			"actionid": 1775,
+			"actionid": PGR_LME,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
