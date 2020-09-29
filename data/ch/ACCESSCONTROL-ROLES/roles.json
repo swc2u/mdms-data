@@ -827,6 +827,11 @@
       "description": "Appellete Auth"
     },
 	{
+      "code": "WS_COMMON",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
       "code": "WS_CEMP",
       "name": "WS Counter Employee",
       "description": "WS counter employee can take action as citizen"
