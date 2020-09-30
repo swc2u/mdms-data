@@ -24351,6 +24351,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "HC_EE",
+		"actionid": "1743",
+		"actioncode": "",
+		"tenantId": "ch"
+	},	  
+	{
 		"rolecode": "EE",
 		"actionid": "1834",
 		"actioncode": "",
@@ -28408,18 +28414,7 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		{
-			"rolecode": "EE",
-			"actionid": "1743",
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "HC_EE",
-			"actionid": "1743",
-			"actioncode": "",
-			"tenantId": "ch"
-		},		
+		
 		{
 			"rolecode": "HC_EE",
 			"actionid": "2602",
