@@ -627,6 +627,87 @@
 		"code": "APNIMANDI_REPORT_VIEWER",
 		"name": "Apnimandi Report Viewer",
 		"description": "Apnimandi report viewer can view all kind of mis report of contractor and collection"
-      }
+      },
+      {
+      "code": "HC_CCF",
+      "name": "HC_CCF",
+      "description": "Chief Conservator of Forest"
+    },
+     {
+      "code": "HC_DCF",
+      "name": "HC_DCF",
+      "description": "Deputy Conservator of Forest"
+    },
+    {
+      "code": "HC_FRO",
+      "name": "HC_FRO",
+      "description": "Forest Range Officer"
+    },
+     {
+      "code": "HC_SRE",
+      "name": "HC_SRE",
+      "description": "Secretary Environment"
+    },
+     {
+      "code": "HC_WA",
+      "name": "HC_WA",
+      "description": "Worthy Advisor"
+    },
+     {
+      "code": "HC_FO",
+      "name": "HC_FO",
+      "description": "Forest Officer"
+    },
+    {
+      "code": "HC_SDE",
+      "name": "HC_SDE",
+      "description": "Sub Divisional Engineer"
+    },
+    
+    {
+      "code": "HC_SEHE",
+      "name": "HC_SEHE",
+      "description": "Superintending Engineer(H&E)"
+    },
+    {
+      "code": "HC_EE",
+      "name": "HC_EE",
+      "description": "EE"
+    },	  
+    {
+      "code": "HC_SDO",
+      "name": "HC_SDO",
+      "description": "SDO"
+    },	  
+    {
+      "code": "HC_JE",
+      "name": "HC_JE",
+      "description": "JE"
+    },	  
+    {
+      "code": "HC_SE",
+      "name": "HC_SE",
+      "description": "SE"
+    },	
+    {
+      "code": "HC_CE",
+      "name": "HC_CE",
+      "description": "CE"
+    },	  
+	{
+      "code": "HC_CEMCC",
+      "name": "HC_CEMCC",
+      "description": "Chief Engineer(MCC)"
+    },
+      {
+      "code": "HC_EEWE",
+      "name": "HC_EEWE",
+      "description": "Executive Engineer(W&E)"
+    },
+    {
+      "code": "HC_COMMISSIONERMCC",
+      "name": "HC_COMMISSIONERMCC",
+      "description": "Commissioner(MCC)"
+    }	   
    ]
 }
