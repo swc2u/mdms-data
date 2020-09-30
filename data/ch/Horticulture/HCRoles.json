@@ -6,7 +6,12 @@
       "code": "HC_JE",
       "name": "JE",
       "description": "Junior Engineer"
-    },		
+    },	
+   {	
+      "code": "HC_SDO",	
+      "name": "SDO",	
+      "description": "Sub Divisional Officer"	
+    },	    
 	{
       "code": "HC_EE",
       "name": "EE",
@@ -40,11 +45,7 @@
       "description": "Worthy Advisor"
     },
 
-    {
-      "code": "HC_SDE",
-      "name": "Sub Divisional Engineer",
-      "description": "Sub Divisional Engineer"
-    },
+
     
     {
       "code": "HC_SEHE",
