@@ -28245,6 +28245,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_SURVEYOR",
+			"actionid": 4036,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "CITIZEN",
 			"actionid": 4036,
 			"actioncode": "",
