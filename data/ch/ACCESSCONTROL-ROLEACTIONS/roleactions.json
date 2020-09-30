@@ -24111,6 +24111,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "HC_SDO",
+		"actionid": "2009",
+		"actioncode": "",
+		"tenantId": "ch"
+	},	  
+	{
 		"rolecode": "SDO",
 		"actionid": "2010",
 		"actioncode": "",
