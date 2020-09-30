@@ -28292,6 +28292,1363 @@
 			"actionid": 4108,
 			"actioncode": "",
 			"tenantId": "ch"
-		}
+		},
+   		{
+			"rolecode": "CITIZEN",
+			"actionid": "2601",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+
+		{
+			"rolecode": "SI",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+
+		{
+			"rolecode": "SI",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+
+		{
+			"rolecode": "SI",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "2607",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "2610",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "2608",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "HC_EE",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "EE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+
+		{
+			"rolecode": "EE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "EE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SDO",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "SDO",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SDO",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "SDO",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SDO",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDO",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+
+		{
+			"rolecode": "HC_JE",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_JE",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "HC_JE",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_JE",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_JE",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+
+		{
+			"rolecode": "JE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_JE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "JE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_JE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "JE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_JE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "JE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_JE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "HC_JE",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "JE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_JE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "HC_SE",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "HC_SE",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+
+		{
+			"rolecode": "SE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "SE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "SE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "SE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "SE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "HC_CE",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "CE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "CE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "CE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "CE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "CE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CCF",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_DCF",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FRO",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SRE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+
+		{
+			"rolecode": "HC_WA",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_WA",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_FO",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SEHE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CEMCC",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "2602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "2603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "2604",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "2605",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "2606",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "2609",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		}	  
   ]
 }
