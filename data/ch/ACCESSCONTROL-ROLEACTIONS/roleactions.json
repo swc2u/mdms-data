@@ -24795,6 +24795,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "HC_EE",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},	  
+	{
 		"rolecode": "SE",
 		"actionid": "1730",
 		"actioncode": "",
@@ -25269,6 +25275,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "HC_SE",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},	  
+	{
 		"rolecode": "CE",
 		"actionid": "1730",
 		"actioncode": "",
@@ -25742,6 +25754,12 @@
 		"actioncode": "",
 		"tenantId": "ch"
 	},
+	{
+		"rolecode": "HC_CE",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},	  
 		{
 		"rolecode": "CITIZEN",
 		"actionid": "2047",
@@ -28674,7 +28692,13 @@
 			"actionid": "1556",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
+		{
+			"rolecode": "HC_JE",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},	  
 		{
 			"rolecode": "HC_SE",
 			"actionid": "2602",
