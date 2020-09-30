@@ -24315,6 +24315,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "HC_SDO",
+		"actionid": "1766",
+		"actioncode": "",
+		"tenantId": "ch"
+	},	  
+	{
 		"rolecode": "EE",
 		"actionid": "1730",
 		"actioncode": "",
