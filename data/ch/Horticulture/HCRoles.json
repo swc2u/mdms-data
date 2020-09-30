@@ -7,26 +7,18 @@
       "name": "JE",
       "description": "Junior Engineer"
     },	
-	{
-      "code": "HC_SDO",
-      "name": "SDO",
-      "description": "Sub Divisional Officer"
-    },
+   {	
+      "code": "HC_SDO",	
+      "name": "SDO",	
+      "description": "Sub Divisional Officer"	
+    },	    
 	{
       "code": "HC_EE",
       "name": "EE",
       "description": "Executive Engineer"
     },
-	{
-      "code": "HC_SE",
-      "name": "Superintending Engineer",
-      "description": "Superintending Engineer"
-    },
-	{
-      "code": "HC_CE",
-      "name": "CE",
-      "description": "Chief Engineer"
-    },
+	
+
     {
       "code": "HC_CCF",
       "name": "Chief Conservator of Forest",
@@ -52,16 +44,8 @@
       "name": "Worthy Advisor",
       "description": "Worthy Advisor"
     },
-     {
-      "code": "HC_FO",
-      "name": "Forest Officer",
-      "description": "Forest Officer"
-    },
-    {
-      "code": "HC_SDE",
-      "name": "Sub Divisional Engineer",
-      "description": "Sub Divisional Engineer"
-    },
+
+
     
     {
       "code": "HC_SEHE",

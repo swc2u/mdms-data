@@ -51351,14 +51351,32 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
-			"actionid": 6006,
+			"rolecode": "OSBM_APPROVER",
+			"actionid": 1766,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "NULM_ADMIN",
-			"actionid": 6006,
+			"rolecode": "MCC_HELPDESK_USER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "MCC_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "OSD_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ADMIN_APPROVER",
+			"actionid": 1766,
 			"actioncode": "",
 			"tenantId": "ch"
 		}
