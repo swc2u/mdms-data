@@ -651,6 +651,24 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Horticulture Division 1 Services.Composite Sale",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.COMPOSITE_SALE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Rent From Verka booth/Vita Umeed",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Horticulture Division 2 Services.Mango Garden",
          "code":"HORTICULTURE_DIVISION_2_SERVICES.MANGO_GARDEN",
          "partPaymentAllowed":false,
@@ -707,6 +725,24 @@
       {
          "businessService":"Horticulture Division 2 Services.RTI",
          "code":"HORTICULTURE_DIVISION_2_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Composite Sale",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.COMPOSITE_SALE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Rent From Verka booth/Vita Umeed",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
