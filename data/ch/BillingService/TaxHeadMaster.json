@@ -274,59 +274,9 @@
       },
       {
          "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.TENDER_FEES",
-         "name":"Sale of Tender Forms",
-         "code":"TENDER_FORMS_FEE_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.TENDER_FEES",
-         "name":"Sale of Tender Forms",
-         "code":"TENDER_FORMS_FEE_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.TENDER_FEES",
-         "name":"Sale of Tender Forms",
-         "code":"TENDER_FORMS_FEE_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.ENLISTMENT_FEES",
-         "name":"Enlistment Fees",
-         "code":"ENLISTMENT_FEES_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.ENLISTMENT_FEES",
-         "name":"Enlistment Fees",
-         "code":"ENLISTMENT_FEES_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.ENLISTMENT_FEES",
-         "name":"Enlistment Fees",
-         "code":"ENLISTMENT_FEES_RD3",
+         "service":"CTL.REHRI_REGISTRATION",
+         "name":"Registration Fee - Carts/ Rehri and Rec",
+         "code":"CTL.REHRI_REGISTRATION_FEE",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -334,189 +284,39 @@
       },
       {
          "category":"CHARGES",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.PENALTY",
-         "name":"Penalities/Fines - Others",
-         "code":"PENALITIES_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"CHARGES",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.PENALTY",
-         "name":"Penalities/Fines - Others",
-         "code":"PENALITIES_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"CHARGES",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.PENALTY",
-         "name":"Penalities/Fines - Others",
-         "code":"PENALITIES_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.MISC_RECEIPT",
-         "name":"Miscellaneous Receipt",
-         "code":"MISC_RECEIPT_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.MISC_RECEIPT",
-         "name":"Miscellaneous Receipt",
-         "code":"MISC_RECEIPT_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.MISC_RECEIPT",
-         "name":"Miscellaneous Receipt",
-         "code":"MISC_RECEIPT_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.RTI",
-         "name":"RTI Fees",
-         "code":"RTI_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.RTI",
-         "name":"RTI Fees",
-         "code":"RTI_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.RTI",
-         "name":"RTI Fees",
-         "code":"RTI_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"Ground Rent Boths/ Mc Office",
-         "code":"GRND_RENT_MC_OFC_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"CGST and UTGST",
-         "code":"VITA_UMEED_CGST_UTGST_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"IGST",
-         "code":"VITA_UMEED_IGST_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"Ground Rent Boths/ Mc Office",
-         "code":"GRND_RENT_MC_OFC_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"CGST and UTGST",
-         "code":"VITA_UMEED_CGST_UTGST_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"IGST",
-         "code":"VITA_UMEED_IGST_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"Ground Rent Boths/ Mc Office",
-         "code":"GRND_RENT_MC_OFC_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"CGST and UTGST",
-         "code":"VITA_UMEED_CGST_UTGST_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"IGST",
-         "code":"VITA_UMEED_IGST_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.REGISTRATION_CERTIFICATE_OF_PEDAL_RICKSHAW_LOADING_REHRI",
+         "service":"CTL.REHRI_REGISTRATION",
          "name":"Registration Charges - Carts/ Rehri and Rec",
-         "code":"REGISTRATION_CERTIFICATE_CHARGES_CARTS_REHRI_REC",
+         "code":"CTL.REHRI_REGISTRATION_CHARGES",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"CTL.REHRI_REGISTRATION",
+         "name":"Registration Penalty - Carts/ Rehri and Rec",
+         "code":"CTL.REHRI_REGISTRATION_PENALTY",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"CTL.REHRI_REGISTRATION",
+         "name":"Registration Tax - Carts/ Rehri and Rec",
+         "code":"CTL.REHRI_REGISTRATION_TAX",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"CTL.REHRI_REGISTRATION",
+         "name":"Registration Roundoff - Carts/ Rehri and Rec",
+         "code":"CTL.REHRI_REGISTRATION_ROUNDOFF",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -524,9 +324,39 @@
       },
       {
          "category":"FEE",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.ISSUANCE_OF_NEW_RENEWAL_OF_DRIVING_LICENSE_FOR_PEDAL_RICKSHAW_LOADING_REHRI",
-         "name":"Registration Charges - Carts/ Rehri and Rec",
-         "code":"DRIVING_LICENSE_CHARGES_CARTS_REHRI_REC",
+         "service":"CTL.REHRI_DRIVING_LICENSE",
+         "name":"Driving License Fee - Carts/ Rehri and Rec",
+         "code":"CTL.REHRI_DRIVING_LICENSE_FEE",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"CTL.REHRI_DRIVING_LICENSE",
+         "name":"Driving License Penalty - Carts/ Rehri and Rec",
+         "code":"CTL.REHRI_DRIVING_LICENSE_PENALTY",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"CTL.REHRI_DRIVING_LICENSE",
+         "name":"Driving License Tax - Carts/ Rehri and Rec",
+         "code":"CTL.REHRI_DRIVING_LICENSE_TAX",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"CTL.REHRI_DRIVING_LICENSE",
+         "name":"Driving License Roundoff - Carts/ Rehri and Rec",
+         "code":"CTL.REHRI_DRIVING_LICENSE_ROUNDOFF",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -534,9 +364,39 @@
       },
       {
          "category":"FEE",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
-         "name":"Rent- Dhobi Ghat",
-         "code":"RENT_DHOBI_GHAT",
+         "service":"CTL.DHOBI_GHAT",
+         "name":"Dhobi Ghat Fee",
+         "code":"CTL.DHOBI_GHAT_FEE",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"CTL.DHOBI_GHAT",
+         "name":"Dhobi Ghat Penalty",
+         "code":"CTL.DHOBI_GHAT_PENALTY",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"CTL.DHOBI_GHAT",
+         "name":"Dhobi Ghat Tax",
+         "code":"CTL.DHOBI_GHAT_TAX",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"CTL.DHOBI_GHAT",
+         "name":"Dhobi Ghat Roundoff",
+         "code":"CTL.DHOBI_GHAT_ROUNDOFF",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -544,9 +404,9 @@
       },
       {
          "category":"FEE",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
+         "service":"CTL.OLD_BOOK_MARKET",
          "name":"Rent Old Books Market",
-         "code":"RENT_OLD_BOOKS_MARKET",
+         "code":"CTL.BOOK_SHOP_FEE",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -554,9 +414,9 @@
       },
       {
          "category":"CHARGES",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
+         "service":"CTL.OLD_BOOK_MARKET",
          "name":"Security Old Book Market",
-         "code":"SECURITY_OLD_BOOK_MARKET",
+         "code":"CTL.BOOK_SHOP_SECURITY",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -564,9 +424,19 @@
       },
       {
          "category":"TAX",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
-         "name":"CGST & UTGST",
-         "code":"CGST_UTGST_OLD_BOOK_MARKET",
+         "service":"CTL.OLD_BOOK_MARKET",
+         "name":"CGST and UTGST",
+         "code":"CTL.BOOK_SHOP_TAX",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"CTL.OLD_BOOK_MARKET",
+         "name":"Rent Penalty Old Book Market",
+         "code":"CTL.BOOK_SHOP_PENALTY",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -574,9 +444,9 @@
       },
       {
          "category":"TAX",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
-         "name":"IGST",
-         "code":"IGST_OLD_BOOK_MARKET",
+         "service":"CTL.OLD_BOOK_MARKET",
+         "name":"Roundoff Old Book Market",
+         "code":"CTL.BOOK_SHOP_ROUNDOFF",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -584,9 +454,9 @@
       },
       {
          "category":"FEE",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.MISC_RECEIPT",
+         "service":"CTL.MISC_RECEIPT",
          "name":"Miscellaneous Receipt",
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET_MISC_RECEIPT",
+         "code":"CTL_MISC_RECEIPT",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -594,9 +464,9 @@
       },
       {
          "category":"FEE",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.RTI",
+         "service":"CTL.RTI",
          "name":"RTI Fees",
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET_RTI",
+         "code":"CTL_RTI",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -604,7 +474,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"SALES- WATER METER",
          "code":"SALES_WATER_METER_PHD1",
          "isDebit":false,
@@ -614,7 +484,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"PROPERTY TRANSFER CHARGES/CHANGE OF OWNERSHIP",
          "code":"PROPERTY_TRANSFER_CHARGESCHANGE_OF_OWNERSHIP_PHD1",
          "isDebit":false,
@@ -624,7 +494,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"CONST. CHARGES - WATER SUPPLY",
          "code":"CONST_CHARGES_WATER_SUPPLY_PHD1",
          "isDebit":false,
@@ -634,7 +504,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"CONNECTION CHARGES - WATER SUPPLY",
          "code":"CONNECTION_CHARGES_WATER_SUPPLY_PHD1",
          "isDebit":false,
@@ -644,7 +514,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"DISCONNECTION CHARGES - WATER SUPPLY",
          "code":"DISCONNECTION_CHARGES_WATER_SUPPLY_PHD1",
          "isDebit":false,
@@ -654,7 +524,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"ENLISTMENT FEES",
          "code":"ENLISTMENT_FEES_PHD1",
          "isDebit":false,
@@ -664,7 +534,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"FERRULE CHARGES - WATER SUPPLY",
          "code":"FERRULE_CHARGES_WATER_SUPPLY_PHD1",
          "isDebit":false,
@@ -674,7 +544,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"LABOUR CHARGES - WATER SUPPLY",
          "code":"LABOUR_CHARGES_WATER_SUPPLY_PHD1",
          "isDebit":false,
@@ -684,7 +554,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"RESTORATION FEES/CHARGES",
          "code":"RESTORATION_FEESCHARGES_PHD1",
          "isDebit":false,
@@ -694,7 +564,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"RENT - WATER METER",
          "code":"RENT_WATER_METER_PHD1",
          "isDebit":false,
@@ -704,7 +574,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"RENEWAL CHARGES",
          "code":"RENEWAL_CHARGES_PHD1",
          "isDebit":false,
@@ -714,7 +584,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"SEWERAGE CONNECTION FEE",
          "code":"SEWERAGE_CONNECTION_FEE_PHD1",
          "isDebit":false,
@@ -724,7 +594,7 @@
       },
       {
          "category":"TAX",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"SEWERAGE CESS",
          "code":"SEWERAGE_CESS_PHD1",
          "isDebit":false,
@@ -734,7 +604,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"SECURITY DEPOSIT - WATER METER",
          "code":"SECURITY_DEPOSIT_WATER_METER_PHD1",
          "isDebit":false,
@@ -744,7 +614,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"OTHER CHARGES",
          "code":"OTHER_CHARGES_PHD1",
          "isDebit":false,
@@ -754,8 +624,8 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
-         "name":"TESTING CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
+         "name":"Water/Meter Testing Charges",
          "code":"TESTING_CHARGES_PHD1",
          "isDebit":false,
          "isActualDemand":false,
@@ -764,7 +634,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"Water Charges",
          "code":"WATER_CHARGES_PHD1",
          "isDebit":false,
@@ -774,7 +644,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "name":"Miscellaneous Receipt",
          "code":"WATER_RELATED_MISC_RECEIPT_PHD1",
          "isDebit":false,
@@ -784,8 +654,8 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
-         "name":"RTI",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
+         "name":"RTI Fees",
          "code":"WATER_RELATED_RTI_PHD1",
          "isDebit":false,
          "isActualDemand":false,
@@ -794,7 +664,17 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
+         "name":"Mobile Toilet Van Rent",
+         "code":"MOBILE_TOILET_VAN_RENT_PHD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"SALES- WATER METER",
          "code":"SALES_WATER_METER_PHD2",
          "isDebit":false,
@@ -804,7 +684,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"PROPERTY TRANSFER CHARGES/CHANGE OF OWNERSHIP",
          "code":"PROPERTY_TRANSFER_CHARGESCHANGE_OF_OWNERSHIP_PHD2",
          "isDebit":false,
@@ -814,7 +694,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"CONST. CHARGES - WATER SUPPLY",
          "code":"CONST_CHARGES_WATER_SUPPLY_PHD2",
          "isDebit":false,
@@ -824,7 +704,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"CONNECTION CHARGES - WATER SUPPLY",
          "code":"CONNECTION_CHARGES_WATER_SUPPLY_PHD2",
          "isDebit":false,
@@ -834,7 +714,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"DISCONNECTION CHARGES - WATER SUPPLY",
          "code":"DISCONNECTION_CHARGES_WATER_SUPPLY_PHD2",
          "isDebit":false,
@@ -844,7 +724,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"ENLISTMENT FEES",
          "code":"ENLISTMENT_FEES_PHD2",
          "isDebit":false,
@@ -854,7 +734,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"FERRULE CHARGES - WATER SUPPLY",
          "code":"FERRULE_CHARGES_WATER_SUPPLY_PHD2",
          "isDebit":false,
@@ -864,7 +744,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"LABOUR CHARGES - WATER SUPPLY",
          "code":"LABOUR_CHARGES_WATER_SUPPLY_PHD2",
          "isDebit":false,
@@ -874,7 +754,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"RESTORATION FEES/CHARGES",
          "code":"RESTORATION_FEESCHARGES_PHD2",
          "isDebit":false,
@@ -884,7 +764,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"RENT - WATER METER",
          "code":"RENT_WATER_METER_PHD2",
          "isDebit":false,
@@ -894,7 +774,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"RENEWAL CHARGES",
          "code":"RENEWAL_CHARGES_PHD2",
          "isDebit":false,
@@ -904,7 +784,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"SEWERAGE CONNECTION FEE",
          "code":"SEWERAGE_CONNECTION_FEE_PHD2",
          "isDebit":false,
@@ -914,7 +794,7 @@
       },
       {
          "category":"TAX",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"SEWERAGE CESS",
          "code":"SEWERAGE_CESS_PHD2",
          "isDebit":false,
@@ -924,7 +804,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"SECURITY DEPOSIT - WATER METER",
          "code":"SECURITY_DEPOSIT_WATER_METER_PHD2",
          "isDebit":false,
@@ -934,7 +814,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"OTHER CHARGES",
          "code":"OTHER_CHARGES_PHD2",
          "isDebit":false,
@@ -944,8 +824,8 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
-         "name":"TESTING CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"Water/Meter Testing Charges",
          "code":"TESTING_CHARGES_PHD2",
          "isDebit":false,
          "isActualDemand":false,
@@ -954,7 +834,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"Water Charges",
          "code":"WATER_CHARGES_PHD2",
          "isDebit":false,
@@ -964,7 +844,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "name":"Miscellaneous Receipt",
          "code":"WATER_RELATED_MISC_RECEIPT_PHD2",
          "isDebit":false,
@@ -974,8 +854,8 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
-         "name":"RTI",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"RTI Fees",
          "code":"WATER_RELATED_RTI_PHD2",
          "isDebit":false,
          "isActualDemand":false,
@@ -984,7 +864,17 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"Mobile Toilet Van Rent",
+         "code":"MOBILE_TOILET_VAN_RENT_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"SALES- WATER METER",
          "code":"SALES_WATER_METER_PHD3",
          "isDebit":false,
@@ -994,7 +884,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"PROPERTY TRANSFER CHARGES/CHANGE OF OWNERSHIP",
          "code":"PROPERTY_TRANSFER_CHARGESCHANGE_OF_OWNERSHIP_PHD3",
          "isDebit":false,
@@ -1004,7 +894,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"CONST. CHARGES - WATER SUPPLY",
          "code":"CONST_CHARGES_WATER_SUPPLY_PHD3",
          "isDebit":false,
@@ -1014,7 +904,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"CONNECTION CHARGES - WATER SUPPLY",
          "code":"CONNECTION_CHARGES_WATER_SUPPLY_PHD3",
          "isDebit":false,
@@ -1024,7 +914,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"DISCONNECTION CHARGES - WATER SUPPLY",
          "code":"DISCONNECTION_CHARGES_WATER_SUPPLY_PHD3",
          "isDebit":false,
@@ -1034,7 +924,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"ENLISTMENT FEES",
          "code":"ENLISTMENT_FEES_PHD3",
          "isDebit":false,
@@ -1044,7 +934,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"FERRULE CHARGES - WATER SUPPLY",
          "code":"FERRULE_CHARGES_WATER_SUPPLY_PHD3",
          "isDebit":false,
@@ -1054,7 +944,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"LABOUR CHARGES - WATER SUPPLY",
          "code":"LABOUR_CHARGES_WATER_SUPPLY_PHD3",
          "isDebit":false,
@@ -1064,7 +954,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"RESTORATION FEES/CHARGES",
          "code":"RESTORATION_FEESCHARGES_PHD3",
          "isDebit":false,
@@ -1074,7 +964,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"RENT - WATER METER",
          "code":"RENT_WATER_METER_PHD3",
          "isDebit":false,
@@ -1084,7 +974,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"RENEWAL CHARGES",
          "code":"RENEWAL_CHARGES_PHD3",
          "isDebit":false,
@@ -1094,7 +984,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"SEWERAGE CONNECTION FEE",
          "code":"SEWERAGE_CONNECTION_FEE_PHD3",
          "isDebit":false,
@@ -1104,7 +994,7 @@
       },
       {
          "category":"TAX",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"SEWERAGE CESS",
          "code":"SEWERAGE_CESS_PHD3",
          "isDebit":false,
@@ -1114,7 +1004,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"SECURITY DEPOSIT - WATER METER",
          "code":"SECURITY_DEPOSIT_WATER_METER_PHD3",
          "isDebit":false,
@@ -1124,7 +1014,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"OTHER CHARGES",
          "code":"OTHER_CHARGES_PHD3",
          "isDebit":false,
@@ -1134,8 +1024,8 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
-         "name":"TESTING CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
+         "name":"Water/Meter Testing Charges",
          "code":"TESTING_CHARGES_PHD3",
          "isDebit":false,
          "isActualDemand":false,
@@ -1144,7 +1034,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"Water Charges",
          "code":"WATER_CHARGES_PHD3",
          "isDebit":false,
@@ -1154,7 +1044,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "name":"Miscellaneous Receipt",
          "code":"WATER_RELATED_MISC_RECEIPT_PHD3",
          "isDebit":false,
@@ -1164,8 +1054,8 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
-         "name":"RTI",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
+         "name":"RTI Fees",
          "code":"WATER_RELATED_RTI_PHD3",
          "isDebit":false,
          "isActualDemand":false,
@@ -1174,7 +1064,17 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
+         "name":"Mobile Toilet Van Rent",
+         "code":"MOBILE_TOILET_VAN_RENT_PHD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"SALES- WATER METER",
          "code":"SALES_WATER_METER_PHD4",
          "isDebit":false,
@@ -1184,7 +1084,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"PROPERTY TRANSFER CHARGES/CHANGE OF OWNERSHIP",
          "code":"PROPERTY_TRANSFER_CHARGESCHANGE_OF_OWNERSHIP_PHD4",
          "isDebit":false,
@@ -1194,7 +1094,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"CONST. CHARGES - WATER SUPPLY",
          "code":"CONST_CHARGES_WATER_SUPPLY_PHD4",
          "isDebit":false,
@@ -1204,7 +1104,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"CONNECTION CHARGES - WATER SUPPLY",
          "code":"CONNECTION_CHARGES_WATER_SUPPLY_PHD4",
          "isDebit":false,
@@ -1214,7 +1114,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"DISCONNECTION CHARGES - WATER SUPPLY",
          "code":"DISCONNECTION_CHARGES_WATER_SUPPLY_PHD4",
          "isDebit":false,
@@ -1224,7 +1124,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"ENLISTMENT FEES",
          "code":"ENLISTMENT_FEES_PHD4",
          "isDebit":false,
@@ -1234,7 +1134,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"FERRULE CHARGES - WATER SUPPLY",
          "code":"FERRULE_CHARGES_WATER_SUPPLY_PHD4",
          "isDebit":false,
@@ -1244,7 +1144,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"LABOUR CHARGES - WATER SUPPLY",
          "code":"LABOUR_CHARGES_WATER_SUPPLY_PHD4",
          "isDebit":false,
@@ -1254,7 +1154,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"RESTORATION FEES/CHARGES",
          "code":"RESTORATION_FEESCHARGES_PHD4",
          "isDebit":false,
@@ -1264,7 +1164,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"RENT - WATER METER",
          "code":"RENT_WATER_METER_PHD4",
          "isDebit":false,
@@ -1274,7 +1174,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"RENEWAL CHARGES",
          "code":"RENEWAL_CHARGES_PHD4",
          "isDebit":false,
@@ -1284,7 +1184,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"SEWERAGE CONNECTION FEE",
          "code":"SEWERAGE_CONNECTION_FEE_PHD4",
          "isDebit":false,
@@ -1294,7 +1194,7 @@
       },
       {
          "category":"TAX",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"SEWERAGE CESS",
          "code":"SEWERAGE_CESS_PHD4",
          "isDebit":false,
@@ -1304,7 +1204,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"SECURITY DEPOSIT - WATER METER",
          "code":"SECURITY_DEPOSIT_WATER_METER_PHD4",
          "isDebit":false,
@@ -1314,7 +1214,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"OTHER CHARGES",
          "code":"OTHER_CHARGES_PHD4",
          "isDebit":false,
@@ -1324,8 +1224,8 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
-         "name":"TESTING CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"Water/Meter Testing Charges",
          "code":"TESTING_CHARGES_PHD4",
          "isDebit":false,
          "isActualDemand":false,
@@ -1334,7 +1234,7 @@
       },
       {
          "category":"CHARGES",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"Water Charges",
          "code":"WATER_CHARGES_PHD4",
          "isDebit":false,
@@ -1344,7 +1244,7 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "name":"Miscellaneous Receipt",
          "code":"WATER_RELATED_MISC_PHD4",
          "isDebit":false,
@@ -1354,8 +1254,8 @@
       },
       {
          "category":"FEE",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
-         "name":"RTI",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"RTI Fees",
          "code":"WATER_RELATED_RTI_PHD4",
          "isDebit":false,
          "isActualDemand":false,
@@ -1364,7 +1264,17 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.ROAD_CUT_CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"Mobile Toilet Van Rent",
+         "code":"MOBILE_TOILET_VAN_RENT_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD1.ROAD_CUT_CHARGES",
          "name":"Road damage/Road cut charges",
          "code":"ROAD_DAMAGE_ROAD_CUT_CHARGES_RD1",
          "isDebit":false,
@@ -1374,7 +1284,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD1.ROAD_CUT_CHARGES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_ROAD_CUT_CHARGES_RD1",
          "isDebit":false,
@@ -1384,7 +1294,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD1.ROAD_CUT_CHARGES",
          "name":"IGST",
          "code":"IGST_ROAD_CUT_CHARGES_RD1",
          "isDebit":false,
@@ -1394,7 +1304,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
          "name":"Road damage/Road cut charges",
          "code":"ROAD_DAMAGE_ROAD_CUT_CHARGES_RD2",
          "isDebit":false,
@@ -1404,7 +1314,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_ROAD_CUT_CHARGES_RD2",
          "isDebit":false,
@@ -1414,7 +1324,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
          "name":"IGST",
          "code":"IGST_ROAD_CUT_CHARGES_RD2",
          "isDebit":false,
@@ -1424,7 +1334,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD3.ROAD_CUT_CHARGES",
          "name":"Road damage/Road cut charges",
          "code":"ROAD_DAMAGE_ROAD_CUT_CHARGES_RD3",
          "isDebit":false,
@@ -1434,7 +1344,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD3.ROAD_CUT_CHARGES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_ROAD_CUT_CHARGES_RD3",
          "isDebit":false,
@@ -1444,7 +1354,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD3.ROAD_CUT_CHARGES",
          "name":"IGST",
          "code":"IGST_ROAD_CUT_CHARGES_RD3",
          "isDebit":false,
@@ -1454,7 +1364,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD1.TELECOM_TOWER",
          "name":"Rent - Telecom Towers Land Lease",
          "code":"RENT_TELECOM_TOWERS_LAND_LEASE_RD1",
          "isDebit":false,
@@ -1464,7 +1374,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD1.TELECOM_TOWER",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_TELECOM_TOWER_RD1",
          "isDebit":false,
@@ -1474,7 +1384,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD1.TELECOM_TOWER",
          "name":"IGST",
          "code":"IGST_TELECOM_TOWER_RD1",
          "isDebit":false,
@@ -1484,7 +1394,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD2.TELECOM_TOWER",
          "name":"Rent - Telecom Towers Land Lease",
          "code":"RENT_TELECOM_TOWERS_LAND_LEASE_RD2",
          "isDebit":false,
@@ -1494,7 +1404,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD2.TELECOM_TOWER",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_TELECOM_TOWER_RD2",
          "isDebit":false,
@@ -1504,7 +1414,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD2.TELECOM_TOWER",
          "name":"IGST",
          "code":"IGST_TELECOM_TOWER_RD2",
          "isDebit":false,
@@ -1514,7 +1424,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD3.TELECOM_TOWER",
          "name":"Rent - Telecom Towers Land Lease",
          "code":"RENT_TELECOM_TOWERS_LAND_LEASE_RD3",
          "isDebit":false,
@@ -1524,7 +1434,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD3.TELECOM_TOWER",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_TELECOM_TOWER_RD3",
          "isDebit":false,
@@ -1534,7 +1444,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD3.TELECOM_TOWER",
          "name":"IGST",
          "code":"IGST_TELECOM_TOWER_RD3",
          "isDebit":false,
@@ -1544,7 +1454,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD1.TOILET_BLOCKS_LEASE",
          "name":"Rent - Toilet Blocks Lease",
          "code":"RENT_TOILET_BLOCKS_LEASE_RD1",
          "isDebit":false,
@@ -1554,7 +1464,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD1.TOILET_BLOCKS_LEASE",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_TOILET_BLOCKS_LEASE_RD1",
          "isDebit":false,
@@ -1564,7 +1474,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD1.TOILET_BLOCKS_LEASE",
          "name":"IGST",
          "code":"IGST_TOILET_BLOCKS_LEASE_RD1",
          "isDebit":false,
@@ -1574,7 +1484,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD2.TOILET_BLOCKS_LEASE",
          "name":"Rent - Toilet Blocks Lease",
          "code":"RENT_TOILET_BLOCKS_LEASE_RD2",
          "isDebit":false,
@@ -1584,7 +1494,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD2.TOILET_BLOCKS_LEASE",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_TOILET_BLOCKS_LEASE_RD2",
          "isDebit":false,
@@ -1594,7 +1504,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD2.TOILET_BLOCKS_LEASE",
          "name":"IGST",
          "code":"IGST_TOILET_BLOCKS_LEASE_RD2",
          "isDebit":false,
@@ -1604,7 +1514,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD3.TOILET_BLOCKS_LEASE",
          "name":"Rent - Toilet Blocks Lease",
          "code":"RENT_TOILET_BLOCKS_LEASE_RD3",
          "isDebit":false,
@@ -1614,7 +1524,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD3.TOILET_BLOCKS_LEASE",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_TOILET_BLOCKS_LEASE_RD3",
          "isDebit":false,
@@ -1624,7 +1534,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD3.TOILET_BLOCKS_LEASE",
          "name":"IGST",
          "code":"IGST_TOILET_BLOCKS_LEASE_RD3",
          "isDebit":false,
@@ -1634,7 +1544,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.BARRICADES",
+         "service":"ROAD_SERVICES_RD1.BARRICADES",
          "name":"Hire charges - Barricades",
          "code":"HIRE_CHARGES_BARRICADES_RD1",
          "isDebit":false,
@@ -1644,7 +1554,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.BARRICADES",
+         "service":"ROAD_SERVICES_RD1.BARRICADES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_BARRICADES_RD1",
          "isDebit":false,
@@ -1654,7 +1564,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.BARRICADES",
+         "service":"ROAD_SERVICES_RD1.BARRICADES",
          "name":"IGST",
          "code":"IGST_BARRICADES_RD1",
          "isDebit":false,
@@ -1664,7 +1574,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.BARRICADES",
+         "service":"ROAD_SERVICES_RD2.BARRICADES",
          "name":"Hire charges - Barricades",
          "code":"HIRE_CHARGES_BARRICADES_RD2",
          "isDebit":false,
@@ -1674,7 +1584,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.BARRICADES",
+         "service":"ROAD_SERVICES_RD2.BARRICADES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_BARRICADES_RD2",
          "isDebit":false,
@@ -1684,7 +1594,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.BARRICADES",
+         "service":"ROAD_SERVICES_RD2.BARRICADES",
          "name":"IGST",
          "code":"IGST_BARRICADES_RD2",
          "isDebit":false,
@@ -1694,7 +1604,7 @@
       },
       {
          "category":"FEE",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.BARRICADES",
+         "service":"ROAD_SERVICES_RD3.BARRICADES",
          "name":"Hire charges - Barricades",
          "code":"HIRE_CHARGES_BARRICADES_RD3",
          "isDebit":false,
@@ -1704,7 +1614,7 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.BARRICADES",
+         "service":"ROAD_SERVICES_RD3.BARRICADES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_BARRICADES_RD3",
          "isDebit":false,
@@ -1714,9 +1624,309 @@
       },
       {
          "category":"TAX",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.BARRICADES",
+         "service":"ROAD_SERVICES_RD3.BARRICADES",
          "name":"IGST",
          "code":"IGST_BARRICADES_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD1.TENDER_FEES",
+         "name":"Sale of Tender Forms",
+         "code":"TENDER_FORMS_FEE_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD2.TENDER_FEES",
+         "name":"Sale of Tender Forms",
+         "code":"TENDER_FORMS_FEE_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD3.TENDER_FEES",
+         "name":"Sale of Tender Forms",
+         "code":"TENDER_FORMS_FEE_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD1.ENLISTMENT_FEES",
+         "name":"Enlistment Fees",
+         "code":"ENLISTMENT_FEES_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD2.ENLISTMENT_FEES",
+         "name":"Enlistment Fees",
+         "code":"ENLISTMENT_FEES_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD3.ENLISTMENT_FEES",
+         "name":"Enlistment Fees",
+         "code":"ENLISTMENT_FEES_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD1.PENALTY",
+         "name":"Penalities/Fines - Others",
+         "code":"PENALITIES_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD2.PENALTY",
+         "name":"Penalities/Fines - Others",
+         "code":"PENALITIES_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD3.PENALTY",
+         "name":"Penalities/Fines - Others",
+         "code":"PENALITIES_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD1.MISC_RECEIPT",
+         "name":"Miscellaneous Receipt",
+         "code":"MISC_RECEIPT_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD2.MISC_RECEIPT",
+         "name":"Miscellaneous Receipt",
+         "code":"MISC_RECEIPT_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD3.MISC_RECEIPT",
+         "name":"Miscellaneous Receipt",
+         "code":"MISC_RECEIPT_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD1.RTI",
+         "name":"RTI Fees",
+         "code":"RTI_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD2.RTI",
+         "name":"RTI Fees",
+         "code":"RTI_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD3.RTI",
+         "name":"RTI Fees",
+         "code":"RTI_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"Ground Rent Boths/ Mc Office",
+         "code":"GRND_RENT_MC_OFC_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"CGST and UTGST",
+         "code":"VITA_UMEED_CGST_UTGST_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"IGST",
+         "code":"VITA_UMEED_IGST_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"Ground Rent Boths/ Mc Office",
+         "code":"GRND_RENT_MC_OFC_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"CGST and UTGST",
+         "code":"VITA_UMEED_CGST_UTGST_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"IGST",
+         "code":"VITA_UMEED_IGST_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"Ground Rent Boths/ Mc Office",
+         "code":"GRND_RENT_MC_OFC_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"CGST and UTGST",
+         "code":"VITA_UMEED_CGST_UTGST_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"IGST",
+         "code":"VITA_UMEED_IGST_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD1.PAID_PARKING_SERVICES",
+         "name":"LICENSING - PPA/PARKING",
+         "code":"LICENSING_PPA_PARKING_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD1.PAID_PARKING_SERVICES",
+         "name":"CGST and UTGST",
+         "code":"PAID_PARKING_CGST_UTGST_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD2.PAID_PARKING_SERVICES",
+         "name":"LICENSING - PPA/PARKING",
+         "code":"LICENSING_PPA_PARKING_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD2.PAID_PARKING_SERVICES",
+         "name":"CGST and UTGST",
+         "code":"PAID_PARKING_CGST_UTGST_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD3.PAID_PARKING_SERVICES",
+         "name":"LICENSING - PPA/PARKING",
+         "code":"LICENSING_PPA_PARKING_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD3.PAID_PARKING_SERVICES",
+         "name":"CGST and UTGST",
+         "code":"PAID_PARKING_CGST_UTGST_RD3",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -1957,6 +2167,16 @@
          "service":"BUILDING_BRANCH_SERVICES",
          "name":"RTI Fees",
          "code":"BUILDING_RTI",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BUILDING_BRANCH_SERVICES",
+         "name":"Devlopment Charges",
+         "code":"BUILDING_DEVELOPMENT_CHRGS",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2313,6 +2533,66 @@
          "isRequired":false
       },
       {
+         "category":"FEE",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.COMPOSITE_SALE",
+         "name":"Composite Sale",
+         "code":"COMPOSITE_SALE_HD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.COMPOSITE_SALE",
+         "name":"Composite Sale",
+         "code":"COMPOSITE_SALE_HD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"Ground Rent Booths/ Mc Office",
+         "code":"GRND_RENT_BOOTH_MCOFC_HD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_GRND_RENT_BOOTH_MCOFC_HD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"Ground Rent Booths/ Mc Office",
+         "code":"GRND_RENT_BOOTH_MCOFC_HD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_GRND_RENT_BOOTH_MCOFC_HD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"CHARGES",
          "service":"MOH_SERVICES",
          "name":"GARBAGE COLLECTION/SANITATION CHARGES",
@@ -2405,16 +2685,6 @@
       {
          "category":"FEE",
          "service":"MOH_SERVICES",
-         "name":"Carcases utilization centre",
-         "code":"CARCASES_UTILIZATION_MOH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"MOH_SERVICES",
          "name":"Anti Rabies Vaccination",
          "code":"ANTI_RABIES_VACCINATION_MOH",
          "isDebit":false,
@@ -2437,6 +2707,16 @@
          "service":"MOH_SERVICES",
          "name":"Interest (MOH)",
          "code":"INTEREST_MOH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"MOH_SERVICES",
+         "name":"Cow Cess",
+         "code":"COW_CESS_MOH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2625,7 +2905,7 @@
       {
          "category":"FEE",
          "service":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
-         "name":"Ground Rent - Exhibitions & Bazaars",
+         "name":"Ground Rent - Exhibitions and Bazaars",
          "code":"GROUND_RENT_SCOOTER_BAZAAR_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
