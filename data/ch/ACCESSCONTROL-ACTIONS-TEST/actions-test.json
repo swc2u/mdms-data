@@ -16403,7 +16403,7 @@
 			"displayName": "Horticulture",
 			"orderNumber": 14,
 			"parentModule": "",
-			"enabled": true,
+			"enabled": false,
 			"serviceCode": "Horticulture",
 			"code": "null",
 			"path": "Horticulture",
