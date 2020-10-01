@@ -2546,7 +2546,7 @@
          "category":"FEE",
          "service":"HORTICULTURE_DIVISION_2_SERVICES.COMPOSITE_SALE",
          "name":"Composite Sale",
-         "code":"COMPOSITE_SALE_HD1",
+         "code":"COMPOSITE_SALE_HD2",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
