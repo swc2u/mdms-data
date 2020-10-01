@@ -22,48 +22,48 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.TENDER_FEES",
-         "code":"AMTFRD110YRS2019",
+         "service":"ROAD_SERVICES_RD1.TENDER_FEES",
+         "code":"RSTFRD110YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.ENLISTMENT_FEES",
-         "code":"AMEFRD110YRS2019",
+         "service":"ROAD_SERVICES_RD1.ENLISTMENT_FEES",
+         "code":"RSEFRD110YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.PENALTY",
-         "code":"AMPRD110YRS2019",
+         "service":"ROAD_SERVICES_RD1.PENALTY",
+         "code":"RSPRD110YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.MISC_RECEIPT",
-         "code":"AMMRRD110YRS2019",
+         "service":"ROAD_SERVICES_RD1.MISC_RECEIPT",
+         "code":"RSMRRD110YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.RTI",
-         "code":"AMRTIRD110YRS2019",
+         "service":"ROAD_SERVICES_RD1.RTI",
+         "code":"RSRTIRD110YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
-         "code":"AMRVRD110YRS2019",
+         "service":"ROAD_SERVICES_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"RSRVRD110YRS2019",
          "financialYear":"2019-29"
       },
       {
@@ -86,48 +86,48 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.TENDER_FEES",
-         "code":"AMTFRD210YRS2019",
+         "service":"ROAD_SERVICES_RD2.TENDER_FEES",
+         "code":"RSTFRD210YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.ENLISTMENT_FEES",
-         "code":"AMEFRD210YRS2019",
+         "service":"ROAD_SERVICES_RD2.ENLISTMENT_FEES",
+         "code":"RSEFRD210YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.PENALTY",
-         "code":"AMPRD210YRS2019",
+         "service":"ROAD_SERVICES_RD2.PENALTY",
+         "code":"RSPRD210YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.MISC_RECEIPT",
-         "code":"AMMRRD210YRS2019",
+         "service":"ROAD_SERVICES_RD2.MISC_RECEIPT",
+         "code":"RSMRRD210YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.RTI",
-         "code":"AMRTIRD210YRS2019",
+         "service":"ROAD_SERVICES_RD2.RTI",
+         "code":"RSRTIRD210YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
-         "code":"AMRVRD210YRS2019",
+         "service":"ROAD_SERVICES_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"RSRVRD210YRS2019",
          "financialYear":"2019-29"
       },
       {
@@ -150,55 +150,55 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.TENDER_FEES",
-         "code":"AMTFRD310YRS2019",
+         "service":"ROAD_SERVICES_RD3.TENDER_FEES",
+         "code":"RSTFRD310YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.ENLISTMENT_FEES",
-         "code":"AMEFRD310YRS2019",
+         "service":"ROAD_SERVICES_RD3.ENLISTMENT_FEES",
+         "code":"RSEFRD310YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.PENALTY",
-         "code":"AMPRD310YRS2019",
+         "service":"ROAD_SERVICES_RD3.PENALTY",
+         "code":"RSPRD310YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.MISC_RECEIPT",
-         "code":"AMMRRD310YRS2019",
+         "service":"ROAD_SERVICES_RD3.MISC_RECEIPT",
+         "code":"RSMRRD310YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.RTI",
-         "code":"AMRTIRD310YRS2019",
+         "service":"ROAD_SERVICES_RD3.RTI",
+         "code":"RSRTIRD310YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"APNI_MANDI_DAY_MARKET_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
-         "code":"AMRVRD310YRS2019",
+         "service":"ROAD_SERVICES_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"RSRVRD310YRS2019",
          "financialYear":"2019-29"
       },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.REGISTRATION_CERTIFICATE_OF_PEDAL_RICKSHAW_LOADING_REHRI",
+         "service":"CTL.REHRI_REGISTRATION",
          "code":"PRRC10YRS2019",
          "financialYear":"2019-29"
       },
@@ -206,7 +206,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.ISSUANCE_OF_NEW_RENEWAL_OF_DRIVING_LICENSE_FOR_PEDAL_RICKSHAW_LOADING_REHRI",
+         "service":"CTL.REHRI_DRIVING_LICENSE",
          "code":"PRDL10YRS2019",
          "financialYear":"2019-29"
       },
@@ -214,7 +214,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
+         "service":"CTL.DHOBI_GHAT",
          "code":"PRDG10YRS2019",
          "financialYear":"2019-29"
       },
@@ -222,7 +222,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
+         "service":"CTL.OLD_BOOK_MARKET",
          "code":"PROBM10YRS2019",
          "financialYear":"2019-29"
       },
@@ -230,7 +230,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.MISC_RECEIPT",
+         "service":"CTL.MISC_RECEIPT",
          "code":"PRMR10YRS2019",
          "financialYear":"2019-29"
       },
@@ -238,7 +238,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.RTI",
+         "service":"CTL.RTI",
          "code":"PRRTI10YRS2019",
          "financialYear":"2019-29"
       },
@@ -246,7 +246,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV1",
          "code":"WCPHD110YRS2019",
          "financialYear":"2019-29"
       },
@@ -254,7 +254,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "code":"WCPHD210YRS2019",
          "financialYear":"2019-29"
       },
@@ -262,7 +262,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV3",
          "code":"WCPHD310YRS2019",
          "financialYear":"2019-29"
       },
@@ -270,7 +270,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "code":"WCPHD410YRS2019",
          "financialYear":"2019-29"
       },
@@ -278,7 +278,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD1.ROAD_CUT_CHARGES",
          "code":"RCRCRD110YRS2019",
          "financialYear":"2019-29"
       },
@@ -286,7 +286,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD1.TELECOM_TOWER",
          "code":"RDTTRD110YRS2019",
          "financialYear":"2019-29"
       },
@@ -294,7 +294,15 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD1.PAID_PARKING_SERVICES",
+         "code":"RDPPRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_SERVICES_RD1.TOILET_BLOCKS_LEASE",
          "code":"RCTBLRD110YRS2019",
          "financialYear":"2019-29"
       },
@@ -302,7 +310,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.BARRICADES",
+         "service":"ROAD_SERVICES_RD1.BARRICADES",
          "code":"RCBARRD110YRS2019",
          "financialYear":"2019-29"
       },
@@ -310,7 +318,15 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD2.PAID_PARKING_SERVICES",
+         "code":"RDPPRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
          "code":"RCRCRD210YRS2019",
          "financialYear":"2019-29"
       },
@@ -318,7 +334,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD2.TELECOM_TOWER",
          "code":"RCTTRD210YRS2019",
          "financialYear":"2019-29"
       },
@@ -326,7 +342,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD2.TOILET_BLOCKS_LEASE",
          "code":"RCTBLRD210YRS2019",
          "financialYear":"2019-29"
       },
@@ -334,7 +350,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.BARRICADES",
+         "service":"ROAD_SERVICES_RD2.BARRICADES",
          "code":"RCBARRD210YRS2019",
          "financialYear":"2019-29"
       },
@@ -342,7 +358,15 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.ROAD_CUT_CHARGES",
+         "service":"ROAD_SERVICES_RD3.PAID_PARKING_SERVICES",
+         "code":"RDPPRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_SERVICES_RD3.ROAD_CUT_CHARGES",
          "code":"RCRCRD310YRS2019",
          "financialYear":"2019-29"
       },
@@ -350,7 +374,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TELECOM_TOWER",
+         "service":"ROAD_SERVICES_RD3.TELECOM_TOWER",
          "code":"RCTTRD310YRS2019",
          "financialYear":"2019-29"
       },
@@ -358,7 +382,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TOILET_BLOCKS_LEASE",
+         "service":"ROAD_SERVICES_RD3.TOILET_BLOCKS_LEASE",
          "code":"RCTBLRD310YRS2019",
          "financialYear":"2019-29"
       },
@@ -366,7 +390,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.BARRICADES",
+         "service":"ROAD_SERVICES_RD3.BARRICADES",
          "code":"RCBARRD310YRS2019",
          "financialYear":"2019-29"
       },
@@ -552,6 +576,38 @@
          "periodCycle":"TENYEARS",
          "service":"HORTICULTURE_DIVISION_1_SERVICES.RTI",
          "code":"RTIHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.COMPOSITE_SALE",
+         "code":"CSHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"RVBHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.COMPOSITE_SALE",
+         "code":"CSHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"RVBHD210YRS2019",
          "financialYear":"2019-29"
       },
       {
