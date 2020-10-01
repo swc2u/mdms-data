@@ -27,7 +27,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD1.TENDER_FEES",
+         "code":"ROAD_SERVICES_RD1.TENDER_FEES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -39,7 +39,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD1.ENLISTMENT_FEES",
+         "code":"ROAD_SERVICES_RD1.ENLISTMENT_FEES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -51,7 +51,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD1.PENALTY",
+         "code":"ROAD_SERVICES_RD1.PENALTY",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -63,7 +63,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD1.MISC_RECEIPT",
+         "code":"ROAD_SERVICES_RD1.MISC_RECEIPT",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -75,7 +75,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD1.RTI",
+         "code":"ROAD_SERVICES_RD1.RTI",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -87,7 +87,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"ROAD_SERVICES_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -123,7 +123,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD2.TENDER_FEES",
+         "code":"ROAD_SERVICES_RD2.TENDER_FEES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -135,7 +135,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD2.ENLISTMENT_FEES",
+         "code":"ROAD_SERVICES_RD2.ENLISTMENT_FEES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -147,7 +147,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD2.PENALTY",
+         "code":"ROAD_SERVICES_RD2.PENALTY",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -159,7 +159,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD2.MISC_RECEIPT",
+         "code":"ROAD_SERVICES_RD2.MISC_RECEIPT",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -171,7 +171,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD2.RTI",
+         "code":"ROAD_SERVICES_RD2.RTI",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -183,7 +183,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"ROAD_SERVICES_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -219,7 +219,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD3.TENDER_FEES",
+         "code":"ROAD_SERVICES_RD3.TENDER_FEES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -231,7 +231,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD3.ENLISTMENT_FEES",
+         "code":"ROAD_SERVICES_RD3.ENLISTMENT_FEES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -243,7 +243,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD3.PENALTY",
+         "code":"ROAD_SERVICES_RD3.PENALTY",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -255,7 +255,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD3.MISC_RECEIPT",
+         "code":"ROAD_SERVICES_RD3.MISC_RECEIPT",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -267,7 +267,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD3.RTI",
+         "code":"ROAD_SERVICES_RD3.RTI",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -279,7 +279,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"APNI_MANDI_DAY_MARKET_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
+         "code":"ROAD_SERVICES_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -291,7 +291,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.REGISTRATION_CERTIFICATE_OF_PEDAL_RICKSHAW_LOADING_REHRI",
+         "code":"CTL.REHRI_REGISTRATION",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -303,7 +303,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.ISSUANCE_OF_NEW_RENEWAL_OF_DRIVING_LICENSE_FOR_PEDAL_RICKSHAW_LOADING_REHRI",
+         "code":"CTL.REHRI_DRIVING_LICENSE",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -315,7 +315,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI,_DHOBI_GHAT_AND_OLD_BOOK_MARKET.DHOBI_GHAT",
+         "code":"CTL.DHOBI_GHAT",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -327,7 +327,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.OLD_BOOK_MARKET",
+         "code":"CTL.OLD_BOOK_MARKET",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -339,7 +339,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.MISC_RECEIPT",
+         "code":"CTL.MISC_RECEIPT",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -351,7 +351,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"PEDAL_RICKSHAW_LOADING_REHRI_DHOBI_GHAT_AND_OLD_BOOK_MARKET.RTI",
+         "code":"CTL.RTI",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -363,7 +363,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV1",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV1",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -375,7 +375,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV2",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV2",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -387,7 +387,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV3",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV3",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -399,7 +399,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"WATER_RELATED_CHARGES_PUBLIC_HEALTH_DIV4",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV4",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -411,7 +411,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.ROAD_CUT_CHARGES",
+         "code":"ROAD_SERVICES_RD1.ROAD_CUT_CHARGES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -423,7 +423,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TELECOM_TOWER",
+         "code":"ROAD_SERVICES_RD1.TELECOM_TOWER",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -435,7 +435,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.TOILET_BLOCKS_LEASE",
+         "code":"ROAD_SERVICES_RD1.TOILET_BLOCKS_LEASE",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -447,7 +447,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD1.BARRICADES",
+         "code":"ROAD_SERVICES_RD1.BARRICADES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -459,7 +459,43 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.ROAD_CUT_CHARGES",
+         "code":"ROAD_SERVICES_RD1.PAID_PARKING_SERVICES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"ROAD_SERVICES_RD2.PAID_PARKING_SERVICES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"ROAD_SERVICES_RD3.PAID_PARKING_SERVICES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -471,7 +507,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TELECOM_TOWER",
+         "code":"ROAD_SERVICES_RD2.TELECOM_TOWER",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -483,7 +519,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.TOILET_BLOCKS_LEASE",
+         "code":"ROAD_SERVICES_RD2.TOILET_BLOCKS_LEASE",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -495,7 +531,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD2.BARRICADES",
+         "code":"ROAD_SERVICES_RD2.BARRICADES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -507,7 +543,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.ROAD_CUT_CHARGES",
+         "code":"ROAD_SERVICES_RD3.ROAD_CUT_CHARGES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -519,7 +555,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TELECOM_TOWER",
+         "code":"ROAD_SERVICES_RD3.TELECOM_TOWER",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -531,7 +567,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.TOILET_BLOCKS_LEASE",
+         "code":"ROAD_SERVICES_RD3.TOILET_BLOCKS_LEASE",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -543,7 +579,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"ROAD_CUT_CHARGES_TELECOM_TOWER_AND_BARRICADES_RD3.BARRICADES",
+         "code":"ROAD_SERVICES_RD3.BARRICADES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -824,6 +860,54 @@
          "fund":"01",
          "function":"000300",
          "department":"433",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"433",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.COMPOSITE_SALE",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"433",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.COMPOSITE_SALE",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"434",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"434",
          "functionary":"",
          "scheme":"",
          "subscheme":"",
@@ -1358,7 +1442,7 @@
          "validFrom":1522540801000,
          "validTo":1838159999000
       },
-	  {
+      {
          "code":"CESS.COVID_CESS",
          "voucherCreationEnabled":true,
          "fund":"01",
@@ -1370,7 +1454,7 @@
          "validFrom":1522540801000,
          "validTo":1838159999000
       },
-	  {
+      {
          "code":"CESS.MC_CESS_ELEC_CHARGES",
          "voucherCreationEnabled":true,
          "fund":"01",
