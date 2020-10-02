@@ -14072,7 +14072,7 @@
       "displayName": "Trade License",
       "orderNumber": 13,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "TradeLicense",
       "code": "null",
       "navigationURL": "tradelicense-citizen/home",
