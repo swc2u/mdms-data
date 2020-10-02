@@ -508,6 +508,31 @@
          "description":"BPA Services workflow document & field inspection verifier"
       },
       {
+         "code": "CTL_CLERK",
+         "name": "CLERK",
+         "description": "Employee who verifies, rejects and approves the TL application"
+       },
+       {
+         "code": "CTL_SA",
+         "name": "SA",
+         "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"
+       },
+       {
+         "code": "CTL_SI",
+         "name": "SI",
+         "description": "Employee who verifies, rejects and approves the TL application which is approved by SA"
+       },
+       {
+         "code": "CTL_CO",
+         "name": "COMMISSIONER",
+         "description": "Employee who verifies, rejects and approves the TL application which is approved by SI"
+       },
+       {
+         "code": "CTL_ADMIN",
+         "name": "Trade License Admin",
+         "description": "Trade License Admin"
+       },	  
+      {
          "code":"ESCALATION_OFFICER1",
          "name":"Escalation Officer1",
          "description":"Role For 1st level escalation(PGR)"
