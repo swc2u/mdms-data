@@ -33395,6 +33395,90 @@
 			"actionid": 4056,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_SCC",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},		
+		{
+			"rolecode": "WS_SCC",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CMR",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CMR",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_SDC",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_SDC",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_SUPERINTENDENT",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_SUPERINTENDENT",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CE",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CE",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMISSIONER",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMISSIONER",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_FINANCE",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_FINANCE",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
 		},		
 		{
 			"rolecode": "EMPLOYEE",
@@ -33626,6 +33710,48 @@
 		},
 		{
 			"rolecode": "WS_HDM",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_SCC",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CMR",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_SDC",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_SUPERINTENDENT",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CE",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMISSIONER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_FINANCE",
 			"actionid": 1766,
 			"actioncode": "",
 			"tenantId": "ch"
