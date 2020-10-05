@@ -147,13 +147,13 @@
          "bankBranch":"OBC01"
       },
       {
-         "businessDetails":"CTL.REGISTRATION_CERTIFICATE_OF_PEDAL_RICKSHAW_LOADING_REHRI",
+         "businessDetails":"CTL.REHRI_REGISTRATION",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
       },
       {
-         "businessDetails":"CTL.ISSUANCE_OF_NEW_RENEWAL_OF_DRIVING_LICENSE_FOR_PEDAL_RICKSHAW_LOADING_REHRI",
+         "businessDetails":"CTL.REHRI_DRIVING_LICENSE",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
@@ -166,6 +166,12 @@
       },
       {
          "businessDetails":"CTL.OLD_BOOK_MARKET",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"CTL.REHRI_MARKET_RENT",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
@@ -657,25 +663,31 @@
          "bankBranch":"OBC01"
       },
       {
-         "businessDetails":"PORPERTY_TAX.PROPERTY_TAX_COMMERCIAL",
+         "businessDetails":"HEAD_OFC_SERVICES.PROPERTY_TAX_COMMERCIAL",
          "bankAccount":"00382011000560",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
       },
       {
-         "businessDetails":"PORPERTY_TAX.PROPERTY_TAX_RESIDENTIAL",
+         "businessDetails":"HEAD_OFC_SERVICES.PROPERTY_TAX_RESIDENTIAL",
          "bankAccount":"00382191008271",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
       },
       {
-         "businessDetails":"PORPERTY_TAX.MISC_RECEIPT",
+         "businessDetails":"HEAD_OFC_SERVICES.MISC_RECEIPT",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
       },
       {
-         "businessDetails":"PORPERTY_TAX.RTI",
+         "businessDetails":"HEAD_OFC_SERVICES.RTI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HEAD_OFC_SERVICES.RECOVERY_LICENSE_FEES",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
