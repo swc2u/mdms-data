@@ -444,6 +444,36 @@
       },
       {
          "category":"FEE",
+         "service":"CTL.REHRI_MARKET_RENT",
+         "name":"Rehri Market Rent (Shed Rent)",
+         "code":"CTL.REHRI_MARKET_SHED_RENT",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"CTL.REHRI_MARKET_RENT",
+         "name":"CGST and UTGST",
+         "code":"CTL.REHRI_MARKET_RENT_TAX",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"CTL.REHRI_MARKET_RENT",
+         "name":"Interest on Rental Income",
+         "code":"CTL.INTEREST_REHRI_MARKET_RENT",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
          "service":"CTL.MISC_RECEIPT",
          "name":"Miscellaneous Receipt",
          "code":"CTL_MISC_RECEIPT",
@@ -1283,16 +1313,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD1.ROAD_CUT_CHARGES",
-         "name":"IGST",
-         "code":"IGST_ROAD_CUT_CHARGES_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
          "name":"Road damage/Road cut charges",
@@ -1307,16 +1327,6 @@
          "service":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_ROAD_CUT_CHARGES_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
-         "name":"IGST",
-         "code":"IGST_ROAD_CUT_CHARGES_RD2",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -1343,16 +1353,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD3.ROAD_CUT_CHARGES",
-         "name":"IGST",
-         "code":"IGST_ROAD_CUT_CHARGES_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"ROAD_SERVICES_RD1.TELECOM_TOWER",
          "name":"Rent - Telecom Towers Land Lease",
@@ -1367,16 +1367,6 @@
          "service":"ROAD_SERVICES_RD1.TELECOM_TOWER",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_TELECOM_TOWER_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD1.TELECOM_TOWER",
-         "name":"IGST",
-         "code":"IGST_TELECOM_TOWER_RD1",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -1403,16 +1393,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD2.TELECOM_TOWER",
-         "name":"IGST",
-         "code":"IGST_TELECOM_TOWER_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"ROAD_SERVICES_RD3.TELECOM_TOWER",
          "name":"Rent - Telecom Towers Land Lease",
@@ -1427,16 +1407,6 @@
          "service":"ROAD_SERVICES_RD3.TELECOM_TOWER",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_TELECOM_TOWER_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD3.TELECOM_TOWER",
-         "name":"IGST",
-         "code":"IGST_TELECOM_TOWER_RD3",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -1463,16 +1433,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD1.TOILET_BLOCKS_LEASE",
-         "name":"IGST",
-         "code":"IGST_TOILET_BLOCKS_LEASE_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"ROAD_SERVICES_RD2.TOILET_BLOCKS_LEASE",
          "name":"Rent - Toilet Blocks Lease",
@@ -1487,16 +1447,6 @@
          "service":"ROAD_SERVICES_RD2.TOILET_BLOCKS_LEASE",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_TOILET_BLOCKS_LEASE_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD2.TOILET_BLOCKS_LEASE",
-         "name":"IGST",
-         "code":"IGST_TOILET_BLOCKS_LEASE_RD2",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -1523,16 +1473,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD3.TOILET_BLOCKS_LEASE",
-         "name":"IGST",
-         "code":"IGST_TOILET_BLOCKS_LEASE_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"ROAD_SERVICES_RD1.BARRICADES",
          "name":"Hire charges - Barricades",
@@ -1547,16 +1487,6 @@
          "service":"ROAD_SERVICES_RD1.BARRICADES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_BARRICADES_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD1.BARRICADES",
-         "name":"IGST",
-         "code":"IGST_BARRICADES_RD1",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -1583,16 +1513,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD2.BARRICADES",
-         "name":"IGST",
-         "code":"IGST_BARRICADES_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"ROAD_SERVICES_RD3.BARRICADES",
          "name":"Hire charges - Barricades",
@@ -1607,16 +1527,6 @@
          "service":"ROAD_SERVICES_RD3.BARRICADES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_BARRICADES_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD3.BARRICADES",
-         "name":"IGST",
-         "code":"IGST_BARRICADES_RD3",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -1793,16 +1703,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"IGST",
-         "code":"VITA_UMEED_IGST_RD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"ROAD_SERVICES_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
          "name":"Ground Rent Boths/ Mc Office",
@@ -1823,16 +1723,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"IGST",
-         "code":"VITA_UMEED_IGST_RD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"ROAD_SERVICES_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
          "name":"Ground Rent Boths/ Mc Office",
@@ -1847,16 +1737,6 @@
          "service":"ROAD_SERVICES_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
          "name":"CGST and UTGST",
          "code":"VITA_UMEED_CGST_UTGST_RD3",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ROAD_SERVICES_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
-         "name":"IGST",
-         "code":"VITA_UMEED_IGST_RD3",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -1943,16 +1823,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
-         "name":"IGST",
-         "code":"IGST_AUCTION_PARKING_LOTS",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
          "name":"Ground rent - cable networks",
@@ -1977,16 +1847,6 @@
          "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_TAXI_STANDS",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_RENT_TAXI_STANDS",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_TAXI_STANDS",
-         "name":"IGST",
-         "code":"IGST_RENT_TAXI_STANDS",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2037,16 +1897,6 @@
          "service":"ENFORCEMENT_BRANCH_SERVICES.AUCTION_CONFISCATED_GOODS",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_AUCTION_CONFISCATED_GOODS",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ENFORCEMENT_BRANCH_SERVICES.AUCTION_CONFISCATED_GOODS",
-         "name":"IGST",
-         "code":"IGST_AUCTION_CONFISCATED_GOODS",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2343,16 +2193,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"HORTICULTURE_DIVISION_1_SERVICES.POLES_FLAGS",
-         "name":"IGST",
-         "code":"IGST_POLES_FLAGS_HD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"HORTICULTURE_DIVISION_2_SERVICES.POLES_FLAGS",
          "name":"Rent Poles and Flags",
@@ -2367,16 +2207,6 @@
          "service":"HORTICULTURE_DIVISION_2_SERVICES.POLES_FLAGS",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_POLES_FLAGS_HD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"HORTICULTURE_DIVISION_2_SERVICES.POLES_FLAGS",
-         "name":"IGST",
-         "code":"IGST_POLES_FLAGS_HD2",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2443,16 +2273,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"HORTICULTURE_DIVISION_1_SERVICES.AUCTION_DEAD_OLD_TREES",
-         "name":"IGST",
-         "code":"IGST_AUCTION_DEAD_OLD_TREES_HD1",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"HORTICULTURE_DIVISION_2_SERVICES.AUCTION_DEAD_OLD_TREES",
          "name":"Sales of Old Or Dead Trees",
@@ -2467,16 +2287,6 @@
          "service":"HORTICULTURE_DIVISION_2_SERVICES.AUCTION_DEAD_OLD_TREES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_AUCTION_DEAD_OLD_TREES_HD2",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"HORTICULTURE_DIVISION_2_SERVICES.AUCTION_DEAD_OLD_TREES",
-         "name":"IGST",
-         "code":"IGST_AUCTION_DEAD_OLD_TREES_HD2",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2823,16 +2633,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
-         "name":"IGST",
-         "code":"IGST_ADVERTISEMENT_FEES_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
          "name":"Sales - Debris/Bldg Material/Malba",
@@ -2847,16 +2647,6 @@
          "service":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_SALES_BUILDING_MATERIAL_MALBA_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
-         "name":"IGST",
-         "code":"IGST_SALES_BUILDING_MATERIAL_MALBA_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2883,16 +2673,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
-         "name":"IGST",
-         "code":"IGST_GROUND_RENT_CAR_BAZAAR_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
          "name":"Ground Rent - Exhibitions and Bazaars",
@@ -2907,16 +2687,6 @@
          "service":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_SCOOTER_BAZAAR_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
-         "name":"IGST",
-         "code":"IGST_SCOOTER_BAZAAR_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2953,16 +2723,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
-         "name":"IGST",
-         "code":"IGST_WATER_MELON_SITES_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
          "name":"Rent - Coconut Water sites",
@@ -2993,16 +2753,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
-         "name":"IGST",
-         "code":"IGST_COCONUT_WATER_SITES_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
          "name":"Rent - Eating Joints",
@@ -3027,16 +2777,6 @@
          "service":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_EATING_JOINTS_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
-         "name":"IGST",
-         "code":"IGST_EATING_JOINTS_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3083,16 +2823,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
-         "name":"IGST",
-         "code":"IGST_MANUAL_OPEN_SPACE_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
          "name":"Sales - Tender/Other forms",
@@ -3107,16 +2837,6 @@
          "service":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_SALE_OF_FORMS_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
-         "name":"IGST",
-         "code":"IGST_SALE_OF_FORMS_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3143,16 +2863,6 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
-         "name":"IGST",
-         "code":"IGST_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
          "category":"FEE",
          "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
          "name":"Ground Rent - Boths/Mc Office",
@@ -3167,16 +2877,6 @@
          "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_GROUND_RENT_BOTHS_MC_OFFICE_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
-         "name":"IGST",
-         "code":"IGSTGROUND_RENT_BOTHS_MC_OFFICE_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3207,16 +2907,6 @@
          "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_GROUND_OPEN_SPACES_BOOKING_BRANCH",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
-         "name":"IGST",
-         "code":"IGST_GROUND_OPEN_SPACES_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3314,7 +3004,7 @@
       },
       {
          "category":"TAX",
-         "service":"PORPERTY_TAX.PROPERTY_TAX_COMMERCIAL",
+         "service":"HEAD_OFC_SERVICES.PROPERTY_TAX_COMMERCIAL",
          "name":"Property tax - Commercial",
          "code":"PROPERTY_TAX_COMMERCIAL",
          "isDebit":false,
@@ -3324,7 +3014,7 @@
       },
       {
          "category":"TAX",
-         "service":"PORPERTY_TAX.PROPERTY_TAX_RESIDENTIAL",
+         "service":"HEAD_OFC_SERVICES.PROPERTY_TAX_RESIDENTIAL",
          "name":"Property Tax - Residential",
          "code":"PROPERTY_TAX_RESIDENTIAL",
          "isDebit":false,
@@ -3334,9 +3024,9 @@
       },
       {
          "category":"FEE",
-         "service":"PORPERTY_TAX.MISC_RECEIPT",
+         "service":"HEAD_OFC_SERVICES.MISC_RECEIPT",
          "name":"Miscellaneous Receipt",
-         "code":"MISC_RECEIPT_PORPERTY_TAX",
+         "code":"MISC_RECEIPT_HEAD_OFC_SERVICES",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3344,9 +3034,39 @@
       },
       {
          "category":"FEE",
-         "service":"PORPERTY_TAX.RTI",
+         "service":"HEAD_OFC_SERVICES.RTI",
          "name":"RTI Fees",
-         "code":"RTI_PORPERTY_TAX",
+         "code":"RTI_HEAD_OFC_SERVICES",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEES",
+         "service":"HEAD_OFC_SERVICES.RECOVERY_LICENSE_FEES",
+         "name":"License Fees- MC Quarters",
+         "code":"LICENSE_FEE_MC_QUARTERS",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"PENALTY",
+         "service":"HEAD_OFC_SERVICES.RECOVERY_LICENSE_FEES",
+         "name":"Penalities/Fines Others",
+         "code":"PENALTY_LICENSE_FEE_MC_QUARTERS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"HEAD_OFC_SERVICES.RECOVERY_LICENSE_FEES",
+         "name":"Interest on License Fees - MC Quarters",
+         "code":"INTEREST_LICENSE_FEE_MC_QUARTERS",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3373,10 +3093,20 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
+         "category":"CHARGES",
          "service":"ESTATE_BRANCH.RENT_SHOPPING_COMPLEX_CAFES_ETC",
-         "name":"IGST",
-         "code":"IGST_RENT_SHOPPING_COMPLEX_CAFES_EST",
+         "name":"Interest on Rental Income",
+         "code":"INTEREST_RENT_SHOPPING_COMPLEX_CAFES_EST",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"PENALTY",
+         "service":"ESTATE_BRANCH.RENT_SHOPPING_COMPLEX_CAFES_ETC",
+         "name":"Penalities/Fines Others",
+         "code":"PENALTY_RENT_SHOPPING_COMPLEX_CAFES_EST",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3403,10 +3133,20 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
+         "category":"CHARGES",
          "service":"ESTATE_BRANCH.RENT_NRB",
-         "name":"IGST",
-         "code":"IGST_RENT_NRB_EST",
+         "name":"Interest on Rental Income",
+         "code":"INTEREST_RENT_NRB_EST",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"PENALTY",
+         "service":"ESTATE_BRANCH.RENT_NRB",
+         "name":"Penalities/Fines Others",
+         "code":"PENALTY_RENT_NRB_EST",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3433,10 +3173,20 @@
          "isRequired":false
       },
       {
-         "category":"TAX",
+         "category":"CHARGES",
          "service":"ESTATE_BRANCH.LEASE_BUILDING_LAND_ETC",
-         "name":"IGST",
-         "code":"IGST_LEASE_BUILDING_LAND_EST",
+         "name":"Interest on Rental Income",
+         "code":"INTEREST_LEASE_BUILDING_LAND_EST",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"PENALTY",
+         "service":"ESTATE_BRANCH.LEASE_BUILDING_LAND_ETC",
+         "name":"Penalities/Fines Others",
+         "code":"PENALTY_LEASE_BUILDING_LAND_EST",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3457,6 +3207,16 @@
          "service":"ESTATE_BRANCH.SALE_AUCTION_BLDN_LAND_ETC",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_SALE_AUCTION_BLDN_LAND_EST",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"ESTATE_BRANCH.SALE_AUCTION_BLDN_LAND_ETC",
+         "name":"Penalities/Fines Others",
+         "code":"PENALTY_SALE_AUCTION_BLDN_LAND_EST",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
