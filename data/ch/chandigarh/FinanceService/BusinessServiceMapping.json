@@ -339,6 +339,18 @@
          "validTo":1838159999000
       },
       {
+         "code":"CTL.REHRI_MARKET_RENT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"396",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
          "code":"CTL.MISC_RECEIPT",
          "voucherCreationEnabled":true,
          "fund":"01",
@@ -1311,7 +1323,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"PORPERTY_TAX.PROPERTY_TAX_COMMERCIAL",
+         "code":"HEAD_OFC_SERVICES.PROPERTY_TAX_COMMERCIAL",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -1323,7 +1335,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"PORPERTY_TAX.PROPERTY_TAX_RESIDENTIAL",
+         "code":"HEAD_OFC_SERVICES.PROPERTY_TAX_RESIDENTIAL",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -1335,7 +1347,7 @@
          "validTo":1838159999000
       },
       {
-         "code":"PORPERTY_TAX.MISC_RECEIPT",
+         "code":"HEAD_OFC_SERVICES.MISC_RECEIPT",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -1347,7 +1359,19 @@
          "validTo":1838159999000
       },
       {
-         "code":"PORPERTY_TAX.RTI",
+         "code":"HEAD_OFC_SERVICES.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"390",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HEAD_OFC_SERVICES.RECOVERY_LICENSE_FEES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
