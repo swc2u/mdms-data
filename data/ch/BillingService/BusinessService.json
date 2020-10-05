@@ -92,7 +92,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Trade License.Rehri Market Rent (Shed Rent)",
          "code":"CTL.REHRI_MARKET_RENT",
          "partPaymentAllowed":false,
@@ -1028,7 +1028,7 @@
          "isActive":true,
          "type":"Adhoc"
       },
-	  {
+      {
          "businessService":"Head Office Services.Recovery of License fees (Rent)",
          "code":"HEAD_OFC_SERVICES.RECOVERY_LICENSE_FEES",
          "partPaymentAllowed":false,
