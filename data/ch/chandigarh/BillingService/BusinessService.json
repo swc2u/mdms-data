@@ -93,6 +93,15 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Trade License.Rehri Market Rent (Shed Rent)",
+         "code":"CTL.REHRI_MARKET_RENT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Trade License.Unspecified Receipt/Miscellaneous Receipts",
          "code":"CTL.MISC_RECEIPT",
          "partPaymentAllowed":false,
@@ -984,8 +993,8 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Porperty Tax.PROPERTY TAX - COMMERCIAL",
-         "code":"PORPERTY_TAX.PROPERTY_TAX_COMMERCIAL",
+         "businessService":"Head Office Services.PROPERTY TAX - COMMERCIAL",
+         "code":"HEAD_OFC_SERVICES.PROPERTY_TAX_COMMERCIAL",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
@@ -993,8 +1002,8 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Porperty Tax.PROPERTY TAX - RESIDENTIAL",
-         "code":"PORPERTY_TAX.PROPERTY_TAX_RESIDENTIAL",
+         "businessService":"Head Office Services.PROPERTY TAX - RESIDENTIAL",
+         "code":"HEAD_OFC_SERVICES.PROPERTY_TAX_RESIDENTIAL",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
@@ -1002,8 +1011,8 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Porperty Tax.Unspecified Receipt/Miscellaneous Receipts",
-         "code":"PORPERTY_TAX.MISC_RECEIPT",
+         "businessService":"Head Office Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"HEAD_OFC_SERVICES.MISC_RECEIPT",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
@@ -1011,8 +1020,17 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Porperty Tax.RTI",
-         "code":"PORPERTY_TAX.RTI",
+         "businessService":"Head Office Services.RTI",
+         "code":"HEAD_OFC_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Head Office Services.Recovery of License fees (Rent)",
+         "code":"HEAD_OFC_SERVICES.RECOVERY_LICENSE_FEES",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
