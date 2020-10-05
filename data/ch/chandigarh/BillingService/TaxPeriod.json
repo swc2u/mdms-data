@@ -230,6 +230,14 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"CTL.REHRI_MARKET_RENT",
+         "code":"PRRMR10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"CTL.MISC_RECEIPT",
          "code":"PRMR10YRS2019",
          "financialYear":"2019-29"
@@ -870,7 +878,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PORPERTY_TAX.PROPERTY_TAX_COMMERCIAL",
+         "service":"HEAD_OFC_SERVICES.PROPERTY_TAX_COMMERCIAL",
          "code":"PTC10YRS2019",
          "financialYear":"2019-29"
       },
@@ -878,7 +886,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PORPERTY_TAX.PROPERTY_TAX_RESIDENTIAL",
+         "service":"HEAD_OFC_SERVICES.PROPERTY_TAX_RESIDENTIAL",
          "code":"PTR10YRS2019",
          "financialYear":"2019-29"
       },
@@ -886,7 +894,7 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PORPERTY_TAX.MISC_RECEIPT",
+         "service":"HEAD_OFC_SERVICES.MISC_RECEIPT",
          "code":"PTMR10YRS2019",
          "financialYear":"2019-29"
       },
@@ -894,8 +902,16 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"PORPERTY_TAX.RTI",
+         "service":"HEAD_OFC_SERVICES.RTI",
          "code":"PTRTI10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HEAD_OFC_SERVICES.RECOVERY_LICENSE_FEES",
+         "code":"PTRLF10YRS2019",
          "financialYear":"2019-29"
       },
       {
