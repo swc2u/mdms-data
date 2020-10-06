@@ -71,7 +71,7 @@
 			"isVoucherCreationEnabled": true
     },
     {
-      "businessService": "RentedProperties.OwnershipTransfer",
+      "businessService": "Rented Properties.Ownership Transfer",
       "code": "RentedProperties.OwnershipTransfer",
       "collectionModesNotAllowed": [
         "DD"
@@ -82,7 +82,7 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "RentedProperties.Rent",
+      "businessService": "Rented Properties.Rent",
       "code": "RentedProperties.Rent",
       "collectionModesNotAllowed": [
           "DD"
@@ -93,7 +93,7 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "RentedProperties.DuplicateAllotmentLetter",
+      "businessService": "Rented Properties.Duplicate Allotment Letter",
       "code": "RentedProperties.DuplicateAllotmentLetter",
       "collectionModesNotAllowed": [
         "DD"
