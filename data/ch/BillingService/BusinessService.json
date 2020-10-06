@@ -92,7 +92,7 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "Rented Properties.Duplicate AllotmentLetter",
+			"businessService": "Rented Properties.Duplicate Allotment Letter",
 			"code": "RentedProperties.DuplicateAllotmentLetter",
 			"collectionModesNotAllowed": [
 				"DD"
