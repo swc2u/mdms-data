@@ -17461,6 +17461,42 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "RP_CLERK",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_SA",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_SI",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_CA",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_APRO",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
 
 		{
 			"rolecode": "GRO",
