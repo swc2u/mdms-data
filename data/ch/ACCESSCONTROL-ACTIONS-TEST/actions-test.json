@@ -19090,6 +19090,30 @@
 		"path": ""
 	 },
 	 {
+		"id": 4382,
+		"name": "OpeningbalanceCreate",
+		"url": "/store-asset-services/openingbalance/_updateStatus",
+		"displayName": "Openingbalance Update Status",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	 {
+		"id": 4383,
+		"name": "IndentCreatorList",
+		"url": "/store-asset-services/indents/_creatorList",
+		"displayName": "Indent Creator List",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	 {
 			"id": 2601,
 			"name": "Horticulture",
 			"url": "card",
@@ -19104,10 +19128,7 @@
 			"leftIcon": "custom:hcIcon",
 			"rightIcon": ""
 			
-		},
-
-
-                   
+		},        
 		{
 			"id": 2602,
 			"name": "Horticulture",
@@ -22174,18 +22195,23 @@
 	},
 	{
         "id": 6005,
-        "name": "Property Tax",
-        "url": "url",
-        "displayName": "Property Tax",
-        "orderNumber": 5,
-        "parentModule": "rainmaker-integration",
-        "enabled": true,
-        "serviceCode": "INTIGRATION",
-        "code": "null",
-        "path": "Integration.Dashboard PT",
-        "navigationURL": "egov-integration/dashboardPT",
-        "leftIcon": "action:assignment",
-        "rightIcon": ""
+        "name": "rainmaker-common-egov-integration",
+		"url": "card",
+		"displayName": "Prorperty Tax Search",
+		"orderNumber": 2,
+		"queryParams": "",
+		"parentModule": "",
+		"enabled": true,
+		"serviceCode": "",
+		"tenantId": "ch",
+		"createdDate": null,
+		"createdBy": null,
+		"lastModifiedDate": null,
+		"lastModifiedBy": null,
+		"path": "",
+		"navigationURL": "egov-integration/dashboardPT",
+		"leftIcon": "social:assignment",
+		"rightIcon": ""
     },
 	{
 		"id": 6006,
