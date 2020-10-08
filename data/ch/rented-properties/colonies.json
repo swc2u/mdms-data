@@ -3,7 +3,7 @@
     "moduleName": "RentedProperties",
     "colonies": [
         {
-            "code": "COLONY.MILK",
+            "code": "COLONY_MILK",
             "active": true,
             "costPerSqyd" : 2,
             "interestRateOrYear": 24,
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "code": "COLONY.KUMHAR",
+            "code": "COLONY_KUMHAR",
             "active": true,
             "costPerSqyd" : 4,
             "interestRateOrYear": 24,
@@ -38,7 +38,7 @@
             ]
         },
         {
-            "code": "COLONY.SECTOR_52_53",
+            "code": "COLONY_SECTOR_52_53",
             "active": true,
             "interestRateOrYear": 0,
             "rentIncrementPercentage": 5,
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "code": "COLONY.VIKAR_NAGAR",
+            "code": "COLONY_VIKAS_NAGAR",
             "active": true,
             "interestRateOrYear": 0,
             "rentIncrementPercentage": 5,
