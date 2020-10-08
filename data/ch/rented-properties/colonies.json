@@ -4,6 +4,7 @@
     "colonies": [
         {
             "code": "COLONY_MILK",
+            "name": "Milk Colony, Moloya, UT Chandigarh",
             "active": true,
             "costPerSqyd" : 2,
             "interestRateOrYear": 24,
@@ -24,6 +25,7 @@
         },
         {
             "code": "COLONY_KUMHAR",
+            "name": "Kumhar Colony, UT Chandigarh",
             "active": true,
             "costPerSqyd" : 4,
             "interestRateOrYear": 24,
@@ -39,6 +41,7 @@
         },
         {
             "code": "COLONY_SECTOR_52_53",
+            "name": "Sector 52-53, UT Chandigarh",
             "active": true,
             "interestRateOrYear": 0,
             "rentIncrementPercentage": 5,
@@ -53,6 +56,7 @@
         },
         {
             "code": "COLONY_VIKAS_NAGAR",
+            "name": "Vikas Nagar, Mauli Jagaran, UT Chandigarh",
             "active": true,
             "interestRateOrYear": 0,
             "rentIncrementPercentage": 5,
