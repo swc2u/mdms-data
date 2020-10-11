@@ -22227,6 +22227,30 @@
 		"navigationURL": "egov-nulm/searchSuh",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
+	},
+	{
+		"id": 6007,
+		"name": "savePTMapping",
+		"url": "/integration-services/pt-mapping/v1/_save",
+		"displayName": "Save PT Mapping",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6008,
+		"name": "getPTMapping",
+		"url": "/integration-services/pt-mapping/v1/_get",
+		"displayName": "Get PT Mapping",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
 	}
   ]
 }

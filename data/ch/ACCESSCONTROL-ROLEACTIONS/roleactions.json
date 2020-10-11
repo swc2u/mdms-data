@@ -51783,6 +51783,30 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CITIZEN",
+			"actionid": 6006,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NULM_ADMIN",
+			"actionid": 6006,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 6007,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 6008,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "OSBM_APPROVER",
 			"actionid": 1766,
 			"actioncode": "",
