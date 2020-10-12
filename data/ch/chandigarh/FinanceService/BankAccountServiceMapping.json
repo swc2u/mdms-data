@@ -97,6 +97,78 @@
       "bankAccount": "000000000001",
       "bank": "Allahabad UP Gramin Bank",
       "bankBranch": "001"
+    },
+    {
+      "businessDetails": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_MILK.RENT",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
+    },
+	{
+      "businessDetails": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
+      "bankAccount": "000000000001",
+      "bank": "Allahabad UP Gramin Bank",
+      "bankBranch": "001"
     }
   ]
 }

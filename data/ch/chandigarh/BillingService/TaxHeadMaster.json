@@ -526,7 +526,7 @@
       "category": "ADVANCE_COLLECTION",
       "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
       "name": "Advance Rent Amount (Sector 52-53) ",
-      "code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT_COLLECTION",
+      "code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT_ADVANCE_COLLECTION",
       "isDebit": false,
       "isActualDemand": true,
       "order": "3",
