@@ -16877,7 +16877,7 @@
       "serviceCode": "RP",
       "code": "null",
       "path": "RP RentedProperties.RP Registry Reports.Duplicate Copy",
-      "navigationURL": "report/rainmaker-rp/DCCollectionReport",
+      "navigationURL": "report/rainmaker-rp/DCRegistryReport",
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
