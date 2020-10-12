@@ -13331,6 +13331,17 @@
       "tenantId": "ch",
       "url": "card"
     },
+    { 
+      "displayName": "Estate Properties",
+      "enabled": true,
+      "id": 21811,
+      "leftIcon": "action:announcement",
+      "name": "rainmaker-citizen-estate-properties",
+      "navigationURL": "estate/home",
+      "orderNumber": 2,
+      "tenantId": "ch",
+      "url": "card"
+    },
     {
       "id": 30000,
       "name": "CreatePropertyMasterApi",
