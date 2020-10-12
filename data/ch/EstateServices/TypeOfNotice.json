@@ -1,0 +1,21 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "typeOfNotice": [
+      {
+        "name": "Non Payment of Rent",
+        "code": "TYPE_OF_NOTICE.NONPAYMENTRENT",
+        "active": true
+      },
+      {
+        "name": "Violation",
+        "code": "TYPE_OF_NOTICE.VIOLATION",
+        "active": true
+      },
+      {
+        "name": "Occupancy Certificate",
+        "code": "TYPE_OF_NOTICE.OCCUPANCYCERTIFICATE",
+        "active": true
+      }
+    ]
+  }

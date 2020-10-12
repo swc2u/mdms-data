@@ -1,0 +1,16 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "typeOfExecution": [
+      {
+        "name": "Lease Deed",
+        "code": "TYPE_OF_EXECUTION.LEASEDEED",
+        "active": true
+      },
+      {
+        "name": "Deed of Conveyance",
+        "code": "TYPE_OF_EXECUTION.DEEDOFCONVEYANCE",
+        "active": true
+      }
+    ]
+  }

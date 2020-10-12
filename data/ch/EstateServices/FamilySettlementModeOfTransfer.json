@@ -1,0 +1,16 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "familySettlementModeOfTransfer": [
+      {
+        "name": "Family Settlement",
+        "code": "FAMILYTRANSFER_MODE_OF_TRANSFER_FAMILYSETTLEMENT",
+        "active": true
+      },
+      {
+        "name": "Court Decree",
+        "code": "FAMILYTRANSFER_MODE_OF_TRANSFER_COURTDECREE",
+        "active": true
+      }
+    ]
+  }

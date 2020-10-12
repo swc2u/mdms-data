@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstateServices",
+  "generationType": [
+    {
+      "name": "Annually",
+      "code": "GENERATION_TYPE.ANNUALLY",
+      "active": true
+    },
+    {
+      "name": "Monthly",
+      "code": "GENERATION_TYPE.MONTHLY",
+      "active": true
+    }
+  ]
+}

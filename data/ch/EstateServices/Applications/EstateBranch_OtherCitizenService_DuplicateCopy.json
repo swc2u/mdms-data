@@ -1,0 +1,162 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "EstateBranch_OtherCitizenService_DuplicateCopy": [
+      {
+        "fields": [
+          {
+            "path": "owner",
+            "required": true,
+            "validations": [
+              {
+                "type": "object"
+              }
+            ]
+          },
+          {
+            "path": "owner.id",
+            "required": true,
+            "validations": [
+              {
+                "type": "owner"
+              }
+            ]
+          },
+          {
+            "path": "typeOfLetter",
+            "required": true,
+            "validations": [
+              {
+                "type": "mdms",
+                "params": {
+                  "moduleName": "EstateServices",
+                  "masterName": "typeOfLetter",
+                  "filter": "typeOfLetter..code"
+                }
+              }
+            ]
+          },
+          {
+            "path": "documentsReceivedDate",
+            "required": false,
+            "validations": [
+              {
+                "type": "date-range",
+                "params": {
+                  "start": {
+                    "unit": "year",
+                    "value": -1
+                  },
+                  "end": {
+                    "unit": "second",
+                    "value": 0
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "path": "courtCases",
+            "required": false,
+            "validations": [
+              {
+                "type": "object"
+              }
+            ]
+          },
+          {
+            "path": "courtCases.estateOfficerCourt",
+            "required": false,
+            "validations": [
+              {
+                "type": "length",
+                "params": {
+                  "min": 0,
+                  "max": 250
+                }
+              }
+            ]
+          },
+          {
+            "path": "courtCases.commissionersCourt",
+            "required": false,
+            "validations": [
+              {
+                "type": "length",
+                "params": {
+                  "min": 0,
+                  "max": 250
+                }
+              }
+            ]
+          },
+          {
+            "path": "courtCases.chiefAdministratorsCourt",
+            "required": false,
+            "validations": [
+              {
+                "type": "length",
+                "params": {
+                  "min": 0,
+                  "max": 250
+                }
+              }
+            ]
+          },
+          {
+            "path": "courtCases.advisorToAdminCourt",
+            "required": false,
+            "validations": [
+              {
+                "type": "length",
+                "params": {
+                  "min": 0,
+                  "max": 250
+                }
+              }
+            ]
+          },
+          {
+            "path": "courtCases.honbleDistrictCourt",
+            "required": false,
+            "validations": [
+              {
+                "type": "length",
+                "params": {
+                  "min": 0,
+                  "max": 250
+                }
+              }
+            ]
+          },
+          {
+            "path": "courtCases.honbleHighCourt",
+            "required": false,
+            "validations": [
+              {
+                "type": "length",
+                "params": {
+                  "min": 0,
+                  "max": 250
+                }
+              }
+            ]
+          },
+          {
+            "path": "courtCases.honbleSupremeCourt",
+            "required": false,
+            "validations": [
+              {
+                "type": "length",
+                "params": {
+                  "min": 0,
+                  "max": 250
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
