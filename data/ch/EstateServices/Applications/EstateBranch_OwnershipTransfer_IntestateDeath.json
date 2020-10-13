@@ -135,13 +135,11 @@
           "validations": [
             {
               "type": "mdms",
-              "params": [
-                {
-                  "moduleName": "EstateServices",
-                  "masterName": "legaHeirRelationShipWithDeceased",
-                  "filter": "legaHeirRelationShipWithDeceased..code"
-                }
-              ]
+              "params": {
+                "moduleName": "EstateServices",
+                "masterName": "legaHeirRelationShipWithDeceased",
+                "filter": "legaHeirRelationShipWithDeceased..code"
+              }
             }
           ]
         },
