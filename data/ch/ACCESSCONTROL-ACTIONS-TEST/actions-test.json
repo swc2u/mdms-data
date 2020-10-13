@@ -22313,7 +22313,7 @@
 	},
 	{
         "id": 6005,
-        "name": "rainmaker-common-egov-integration",
+        "name": "rainmaker-citizen-egov-integration",
 		"url": "card",
 		"displayName": "Prorperty Tax Search",
 		"orderNumber": 2,
