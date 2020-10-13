@@ -227,7 +227,7 @@
           ]
         },
         {
-          "path": "witness.name",
+          "path": "witness..name",
           "required": true,
           "validations": [
             {
@@ -240,7 +240,7 @@
           ]
         },
         {
-          "path": "witness.dob",
+          "path": "witness..dob",
           "required": true,
           "validations": [
             {
@@ -259,7 +259,7 @@
           ]
         },
         {
-          "path": "witness.mobileNo",
+          "path": "witness..mobileNo",
           "required": false,
           "validations": [
             {
@@ -268,7 +268,7 @@
           ]
         },
         {
-          "path": "witness.address",
+          "path": "witness..address",
           "required": true,
           "validations": [
             {
