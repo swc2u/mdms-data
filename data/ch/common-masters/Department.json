@@ -277,6 +277,16 @@
 		"name" : "Forest",
 		"code" : "468",
 		"active" : true
-	}	  
+	},
+	{
+		"name" : "Petrol Pump - Sector 51",
+		"code" : "469",
+		"active" : true
+	},
+	{
+		"name" : "Petrol Pump - Industrial Area",
+		"code" : "470",
+		"active" : true
+	}
     ]
 }
