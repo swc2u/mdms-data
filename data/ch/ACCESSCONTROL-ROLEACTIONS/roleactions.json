@@ -16996,6 +16996,12 @@
       "tenantId": "ch"
     },
     {
+      "rolecode": "SYS_INTEGRATOR_FINANCE",
+      "actionid": 1800,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 1694,
       "actioncode": "",
@@ -17016,6 +17022,12 @@
     {
       "rolecode": "SUPERUSER",
       "actionid": 1697,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1800,
       "actioncode": "",
       "tenantId": "ch"
     },
