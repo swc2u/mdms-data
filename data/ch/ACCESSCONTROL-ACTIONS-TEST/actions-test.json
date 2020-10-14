@@ -11965,6 +11965,18 @@
       "path": ""
     },
     {
+      "id": 1800,
+      "name": "Get Remittance Deposit Work",
+      "url": "/collection-services/remittances/_getdepositWork",
+      "displayName": "Get Remittance Deposit Work",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "COLLECTION",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1698,
       "name": "Cash Remittance",
       "url": "url",
