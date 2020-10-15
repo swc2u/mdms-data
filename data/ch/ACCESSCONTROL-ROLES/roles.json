@@ -1161,6 +1161,11 @@
       "code": "COMMERCIAL_GROUND_VIEWER",
       "name": "COMMERCIAL GROUND VIEWER",
       "description": "Employee who views commercial ground Booking"
+    },
+	{
+      "code": "COLL_RECEIPT_REPORT",
+      "name": "COLL_RECEIPT_REPORT",
+      "description": "COLL_RECEIPT_REPORT"
     }
   ]
 }

@@ -51859,6 +51859,12 @@
 			"actionid": 1766,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "COLL_RECEIPT_REPORT",
+			"actionid": 6009,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }
