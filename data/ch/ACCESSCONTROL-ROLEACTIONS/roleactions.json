@@ -33883,6 +33883,18 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4099,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4099,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SYSTEM",
 			"actionid": 4078,
 			"actioncode": "",

@@ -19624,6 +19624,17 @@
       "path": ""
     },
 	{
+      "id": 4099,
+      "name": "Fetch Property details from external API",
+      "url": "/property-services/property/_propertydetails",
+      "displayName": "Fetch Property Details",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "property-services",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 4078,
       "name": "WS Calculator scheduler",
       "url": "/ws-calculator/waterCalculator/_jobscheduler",
