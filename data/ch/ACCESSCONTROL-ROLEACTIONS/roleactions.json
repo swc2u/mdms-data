@@ -40870,6 +40870,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 30009,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SASO",
 			"actionid": 4302,
 			"actioncode": "",
