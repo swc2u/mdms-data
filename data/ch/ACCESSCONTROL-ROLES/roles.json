@@ -822,6 +822,11 @@
       "description": "Appellete Auth"
     },
 	{
+      "code": "WS_COMMON",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
       "code": "WS_CEMP",
       "name": "WS Counter Employee",
       "description": "WS counter employee can take action as citizen"
@@ -1146,6 +1151,21 @@
       "code": "RTIADMIN",
       "name": "RTIADMIN",
       "description": "RTI Admin"
+    },
+	{
+      "code": "MCC_HELPDESK_USER",
+      "name": "WATER TANKER APPROVER",
+      "description": "Employee who verifies water tanker"
+    },
+	{
+      "code": "COMMERCIAL_GROUND_VIEWER",
+      "name": "COMMERCIAL GROUND VIEWER",
+      "description": "Employee who views commercial ground Booking"
+    },
+	{
+      "code": "COLL_RECEIPT_REPORT",
+      "name": "COLL_RECEIPT_REPORT",
+      "description": "COLL_RECEIPT_REPORT"
     }
   ]
 }

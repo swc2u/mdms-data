@@ -71,38 +71,137 @@
 			"isVoucherCreationEnabled": true
     },
     {
-      "businessService": "RentedProperties.OwnershipTransfer",
-      "code": "RentedProperties.OwnershipTransfer",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
-    {
-      "businessService": "RentedProperties.Rent",
-      "code": "RentedProperties.Rent",
-      "collectionModesNotAllowed": [
-          "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
-    {
-      "businessService": "RentedProperties.DuplicateAllotmentLetter",
-      "code": "RentedProperties.DuplicateAllotmentLetter",
-      "collectionModesNotAllowed": [
-        "DD"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
+			"businessService": "Rented Properties (Milk Colony).Ownership Transfer",
+			"code": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Kumhar Colony).Ownership Transfer",
+			"code": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Sector 52-53).Ownership Transfer",
+			"code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Vikas Nagar).Ownership Transfer",
+			"code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Milk Colony).Rent",
+			"code": "RENTED_PROPERTIES_COLONY_MILK.RENT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Kumhar Colony).Rent",
+			"code": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Sector 52-53).Rent",
+			"code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Vikas Nagar).Rent",
+			"code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Milk Colony).Duplicate Allotment Letter",
+			"code": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Kumhar Colony).Duplicate Allotment Letter",
+			"code": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Sector 52-53).Duplicate Allotment Letter",
+			"code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Rented Properties (Vikas Nagar).Duplicate Allotment Letter",
+			"code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
 	  {
       "businessService": "WaterCharges.Metered",
       "code": "WaterCharges.Metered",
@@ -1293,6 +1392,150 @@
       "isAdvanceAllowed": false,
       "demandUpdateTime": 86400000,
       "isVoucherCreationEnabled": true
-    }
+    },
+		{
+		  "businessService": "OSBM",
+		  "code": "OSBM",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSBM",
+		  "code": "OSBM_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		}
+		,
+		 {
+		  "businessService": "BWT",
+		  "code": "BWT",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "BWT",
+		  "code": "BWT_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "GFCP",
+		  "code": "GFCP",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "GFCP",
+		  "code": "GFCP_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "GFCP",
+		  "code": "GFCP_ROUND_OFF",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSUJM",
+		  "code": "OSUJM",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSUJM",
+		  "code": "OSUJM_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "OSUJM",
+		  "code": "OSUJM_ROUND_OFF",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC_ROUND_OFF",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		}
   ]
 }
