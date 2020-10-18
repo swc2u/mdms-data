@@ -733,6 +733,11 @@
       "code": "HC_COMMISSIONERMCC",
       "name": "HC_COMMISSIONERMCC",
       "description": "Commissioner(MCC)"
+    },
+	{
+      "code": "COLL_RECEIPT_REPORT",
+      "name": "COLL_RECEIPT_REPORT",
+      "description": "COLL_RECEIPT_REPORT"
     }	   
    ]
 }
