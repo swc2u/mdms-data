@@ -1,0 +1,21 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "patnershipModeOfTransfer": [
+      {
+        "name": "Partnership Deed",
+        "code": "PARTNERSHIP_MODE_OF_TRANSFER.PARTNERSHIPDEED",
+        "active": true
+      },
+      {
+        "name": "Dissolution Deed",
+        "code": "PARTNERSHIP_MODE_OF_TRANSFER.DISSOLUTIONDEED",
+        "active": true
+      },
+      {
+        "name": "Change of Director",
+        "code": "PARTNERSHIP_MODE_OF_TRANSFER.CHANGEOFDIRECTOR",
+        "active": true
+      }
+    ]
+  }

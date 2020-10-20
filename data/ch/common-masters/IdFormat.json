@@ -486,7 +486,7 @@
 	{
 		"format": "SW_AP/[fy:yyyy-yy]/[SEQ_SW_APP]",
 		"idname": "sewerageservice.application.id"
-	},  
+	},
 	{
 		"format": "WS/[fy:yyyy-yy]/[SEQ_WS_CON]",
 		"idname": "waterservice.connection.id"
@@ -518,12 +518,12 @@
 	{
 		"format": "SMID/[fy:yyyy-yy]/[SEQ_NULM_SMID_ID_GEN]",
 		"idname": "ch.nulm.smid"
-	},		 
+	},
 	{
 		"format": "SHG/[fy:yyyy-yy]/[SEQ_NULM_SMID_SHG_ID_GEN]",
 		"idname": "ch.nulm.smid.shg"
 	},
-	{ 
+	{
 		"format": "SUH/[fy:yyyy-yy]/[SEQ_NULM_SUH_ID_GEN]",
 		"idname": "ch.nulm.suh"
 	},
@@ -554,6 +554,10 @@
     {
         "idname": "rp.pm.allotmentnumber",
         "format": "CH-RP-PM-[SEQ_RP_ID_NUM]"
+    },
+    {
+        "idname": "es.aplnumber",
+        "format": "CH-ES-APPL-[cy:yyyy-MM-dd]-[SEQ_ES_ID_NUM]"
     }
     ]
 }

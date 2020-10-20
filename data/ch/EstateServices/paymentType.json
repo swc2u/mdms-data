@@ -1,0 +1,31 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "paymentType": [
+        {
+            "name": "Advance rent",
+            "code": "PAYMENTTYPE.ADVANCERENT",
+            "active": true
+        },
+        {
+            "name": "Security deposit",
+            "code": "PAYMENTTYPE.SECURITYDEPOSIT",
+            "active": true
+        },
+        {
+            "name": "Penalty for Cheque bounce",
+            "code": "PAYMENTTYPE.PENALTYFORCHEQUEBOUNCE",
+            "active": true
+        },
+        {
+            "name": "Penalty for violation of T&C",
+            "code": "PAYMENTTYPE.PENALTYVIOLATION",
+            "active": true
+        },
+        {
+            "name": "EMD amount",
+            "code": "PAYMENTTYPE.EMDAMOUNT",
+            "active": true
+        }
+    ]
+  }

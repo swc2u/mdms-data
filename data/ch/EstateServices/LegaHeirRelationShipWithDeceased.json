@@ -1,0 +1,16 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "legaHeirRelationShipWithDeceased": [
+      {
+        "name": "Spouse",
+        "code": "LEGALHEIR_RELATIONSHIP_WITH_DECEASED.SPOUSE",
+        "active": true
+      },
+      {
+        "name": "Children",
+        "code": "LEGALHEIR_RELATIONSHIP_WITH_DECEASED.CHILDREN",
+        "active": true
+      }
+    ]
+  }
