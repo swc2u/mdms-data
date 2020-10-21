@@ -202,6 +202,182 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
+			"businessService": "EstateService.EstateBranch.SaleDeed",
+			"code": "EstateService.EstateBranch.SaleDeed",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.RegisteredWill",
+			"code": "EstateService.EstateBranch.RegisteredWill",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.UnRegisteredWill",
+			"code": "EstateService.EstateBranch.UnRegisteredWill",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.IntestateDeath",
+			"code": "EstateService.EstateBranch.IntestateDeath",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.FamilySettlement",
+			"code": "EstateService.EstateBranch.FamilySettlement",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.PatnershipDeed",
+			"code": "EstateService.EstateBranch.PatnershipDeed",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.Mortgage",
+			"code": "EstateService.EstateBranch.Mortgage",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.NOC",
+			"code": "EstateService.EstateBranch.NOC",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.NDC",
+			"code": "EstateService.EstateBranch.NDC",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.LeaseDeed ",
+			"code": "EstateService.EstateBranch.LeaseDeed",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.DuplicateCopy",
+			"code": "EstateService.EstateBranch.DuplicateCopy",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.LeaseholdToFreehold",
+			"code": "EstateService.EstateBranch.LeaseholdToFreehold",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.ScfToSco",
+			"code": "EstateService.EstateBranch.ScfToSco",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.ChangeInTrade",
+			"code": "EstateService.EstateBranch.ChangeInTrade",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.IssuanceOfNotice",
+			"code": "EstateService.EstateBranch.IssuanceOfNotice",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "EstateService.EstateBranch.AllotmentOfSite",
+			"code": "EstateService.EstateBranch.AllotmentOfSite",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
 			"businessService": "WaterCharges.Metered",
 			"code": "WaterCharges.Metered",
 			"collectionModesNotAllowed": [

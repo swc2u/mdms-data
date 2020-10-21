@@ -1,0 +1,16 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "companyDetails": [
+      {
+        "name": "partnership",
+        "code": "COMPANY_DETAILS.PARTNERSHIP",
+        "active": true
+      },
+      {
+        "name": " proprietorship",
+        "code": "COMPANY_DETAILS.PROPRIETORSHIP",
+        "active": true
+      }
+    ]
+  }

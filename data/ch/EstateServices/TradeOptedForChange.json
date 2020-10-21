@@ -1,0 +1,16 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "tradeOptedForChange": [
+      {
+        "name": "Special",
+        "code": "TRADE_OPTED_FOR_CHANGE.SPECIAL",
+        "active": true
+      },
+      {
+        "name": "General",
+        "code": "TRADE_OPTED_FOR_CHANGE.GENERAL",
+        "active": true
+      }
+    ]
+  }

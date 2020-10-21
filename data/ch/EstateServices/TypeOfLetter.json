@@ -1,0 +1,16 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "typeOfLetter": [
+      {
+        "name": "Allotment Letter",
+        "code": "TYPE_OF_LETTER.ALLOTMENTLETTER",
+        "active": true
+      },
+      {
+        "name": "Possession Letter",
+        "code": "TYPE_OF_LETTER.POSSESIONLETTER",
+        "active": true
+      }
+    ]
+  }
