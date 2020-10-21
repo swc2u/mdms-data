@@ -13460,6 +13460,18 @@
       "code": "null",
       "path": "ApplicationStatesSearch"
   },
+  {
+    "id": 30010,
+    "name": "GeneratingAccountStatement",
+    "url": "/est-services/property-master/_accountstatement",
+    "displayName": "Generating Account Statement api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "GeneratingAccountStatementApi",
+    "code": "null",
+    "path": "GeneratingAccountStatementApi"
+  },
     {
       "id": 1812,
       "name": "UC Report",
