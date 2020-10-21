@@ -1,0 +1,13 @@
+{
+	"tenantId": "ch",
+	"moduleName": "egec",
+	"AuctionNotificationTemplate" :[{
+		"code": "Auction Reminder",
+		"subject": "Auction Reminder",
+		"body": "Kindly refer attached list of challans eligible for Auction.",
+		"attachmentUrls": "",
+		"message": "Kindly refer attached list of challans eligible for Auction.",
+		"isHtml": true,
+		"emailAddress":"echallan123@gmail.com"
+	}]
+}

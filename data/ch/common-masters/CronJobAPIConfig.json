@@ -13,6 +13,78 @@
       "header": {
         "Content-Type": "application/json"
       }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://ec-services.egov:8080/ec-services/scheduler/_updateChallanStatus?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://ec-services.egov:8080/ec-services/scheduler/_auctionReminder?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://ec-services.egov:8080/ec-services/scheduler/_updatePenalty?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://ec-services.egov:8080/ec-services/scheduler/_updateAuctionStatus?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://prscp-services.egov:8080/prscp-services/v1/template/crone/job/eventReminder?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
+      "url": "http://hc-services.egov:8080/hc-services/serviceRequest/_scheduler?tenantId=ch.chandigarh",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
     }
   ]
 }

@@ -1,0 +1,48 @@
+{
+   "tenantId":"ch",
+   "moduleName":"egec",
+   "ChallanStatus":[
+      {
+         "id":"1",
+         "code":"CHALLAN ISSUED",
+         "tenantId":"ch",
+         "name":"CHALLAN ISSUED",
+         "active":true
+      },
+      {
+         "id":"2",
+         "code":"SENT TO STORE",
+         "tenantId":"ch",
+         "name":"SENT TO STORE",
+         "active":true
+      },
+      {
+         "id":"3",
+         "code":"ADDED TO STORE",
+         "tenantId":"ch",
+         "name":"ADDED TO STORE",
+         "active":true
+      },
+      {
+         "id":"4",
+         "code":"PENDING FOR AUCTION",
+         "tenantId":"ch",
+         "name":"PENDING FOR AUCTION",
+         "active":true
+      },
+      {
+         "id":"5",
+         "code":"RELEASED FROM STORE",
+         "tenantId":"ch",
+         "name":"RELEASED FROM STORE",
+         "active":true
+      },
+      {
+         "id":"6",
+         "code":"RELEASED ON GROUND",
+         "tenantId":"ch",
+         "name":"RELEASED ON GROUND",
+         "active":true
+      }
+   ]
+}
