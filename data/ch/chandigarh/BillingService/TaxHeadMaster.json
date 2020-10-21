@@ -3271,6 +3271,26 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"EC",
+         "name":"REMOVAL CHARGES",
+         "code":"EC_ECHALLAN_FEE",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"EC",
+         "name":"Storage basis charges",
+         "code":"EC_ECHALLAN_PENALTY",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
       }
    ]
 }
