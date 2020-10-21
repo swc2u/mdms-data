@@ -1117,6 +1117,15 @@
          "isVoucherCreationEnabled":true,
          "isActive":true,
          "type":"Adhoc"
+      },
+      {
+         "businessService":"ECHALLAN REMOVAL CHARGES - CONFISCATED GOODS",
+         "code":"EC",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
       }
    ]
 }
