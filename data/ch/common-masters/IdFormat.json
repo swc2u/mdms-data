@@ -476,7 +476,7 @@
             "idname": "ch.hc"
         },
                         {
-            "format": "MCC-EC-[SEQ_EG_EC_APL]",
+            "format": "MCC-EC-[SEQ_EG_HC_APL]",
             "idname": "ch.ec"
         }
     ]
