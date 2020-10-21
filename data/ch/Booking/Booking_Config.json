@@ -4,7 +4,7 @@
          "Booking_Config": [
          {
             "Key": "PACC_IMAGES_PATH",
-            "Value": "https://zfunds3.s3.ap-south-1.amazonaws.com/images"
+            "Value": "https://s3.ap-south-1.amazonaws.com/images"
            
         },
 	{
