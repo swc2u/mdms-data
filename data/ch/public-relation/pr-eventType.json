@@ -46,6 +46,11 @@
       "code": "SECTOR_OTHERS",
 	  "name":"Others",
       "active": true
-    }
+    },
+    {
+      "code": "EVENT_NEWSPAPER_CLIPPING",
+      "name":"Newspaper Clipping",
+      "active": true
+    }	  
   ]
 }
