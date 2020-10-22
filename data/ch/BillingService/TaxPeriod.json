@@ -198,6 +198,30 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"ROAD_SERVICES_RD1.RENT_MC_BLD_NRB",
+         "code":"RSRBNRD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_SERVICES_RD2.RENT_MC_BLD_NRB",
+         "code":"RSRBNRD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_SERVICES_RD3.RENT_MC_BLD_NRB",
+         "code":"RSRBNRD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"CTL.REHRI_REGISTRATION",
          "code":"PRRC10YRS2019",
          "financialYear":"2019-29"
@@ -462,8 +486,8 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
-         "service":"ENFORCEMENT_BRANCH_SERVICES.REMOVAL_CHARGES_CONFISCATED_GOODS",
-         "code":"EBRCCG10YRS2019",
+         "service":"ENFORCEMENT_BRANCH_SERVICES.TCS",
+         "code":"EBTCS10YRS2019",
          "financialYear":"2019-29"
       },
       {
@@ -606,6 +630,30 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.RENT_HEDGES_FENCING",
+         "code":"RHFHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "code":"SEWGHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.ARREAR_ELEC_BILL",
+         "code":"AEBHD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"HORTICULTURE_DIVISION_2_SERVICES.COMPOSITE_SALE",
          "code":"CSHD210YRS2019",
          "financialYear":"2019-29"
@@ -672,6 +720,30 @@
          "periodCycle":"TENYEARS",
          "service":"HORTICULTURE_DIVISION_2_SERVICES.RTI",
          "code":"RTIHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.RENT_HEDGES_FENCING",
+         "code":"RHFHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "code":"SEWGHD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.ARREAR_ELEC_BILL",
+         "code":"AEBHD210YRS2019",
          "financialYear":"2019-29"
       },
       {
