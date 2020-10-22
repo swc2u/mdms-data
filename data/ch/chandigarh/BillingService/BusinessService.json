@@ -255,6 +255,15 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Road Department Services (Road Div 1).Rent from MC Building (NRB)",
+         "code":"ROAD_SERVICES_RD1.RENT_MC_BLD_NRB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Road Department Services (Road Div 2).Road Cut Charges",
          "code":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
          "partPaymentAllowed":false,
@@ -347,6 +356,15 @@
       {
          "businessService":"Road Department Services (Road Div 2).Rent From Verka booth/Vita Umeed",
          "code":"ROAD_SERVICES_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Rent from MC Building (NRB)",
+         "code":"ROAD_SERVICES_RD2.RENT_MC_BLD_NRB",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
@@ -453,6 +471,15 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Road Department Services (Road Div 3).Rent from MC Building (NRB)",
+         "code":"ROAD_SERVICES_RD3.RENT_MC_BLD_NRB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Parking Branch Related Services.AUCTION - PARKING LOTS",
          "code":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
          "partPaymentAllowed":false,
@@ -516,8 +543,8 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Enforcement Branch Services.REMOVAL CHARGES - CONFISCATED GOODS",
-         "code":"ENFORCEMENT_BRANCH_SERVICES.REMOVAL_CHARGES_CONFISCATED_GOODS",
+         "businessService":"Enforcement Branch Services.TCS",
+         "code":"ENFORCEMENT_BRANCH_SERVICES.TCS",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
@@ -678,6 +705,33 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Horticulture Division 1 Services.Rent of Hedges & Fencing",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.RENT_HEDGES_FENCING",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Surcharge on Electricity/Water Supply Bill",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Arrear of electricity Bill",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.ARREAR_ELEC_BILL",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Horticulture Division 2 Services.Mango Garden",
          "code":"HORTICULTURE_DIVISION_2_SERVICES.MANGO_GARDEN",
          "partPaymentAllowed":false,
@@ -752,6 +806,33 @@
       {
          "businessService":"Horticulture Division 2 Services.Rent From Verka booth/Vita Umeed",
          "code":"HORTICULTURE_DIVISION_2_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Rent of Hedges & Fencing",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.RENT_HEDGES_FENCING",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Surcharge on Electricity/Water Supply Bill",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Arrear of electricity Bill",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.ARREAR_ELEC_BILL",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
