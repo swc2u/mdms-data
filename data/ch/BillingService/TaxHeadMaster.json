@@ -1804,6 +1804,156 @@
       },
       {
          "category":"FEE",
+         "service":"ROAD_SERVICES_RD1.RENT_MC_BLD_NRB",
+         "name":"Rent NRB",
+         "code":"RENT_NRB_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD1.RENT_MC_BLD_NRB",
+         "name":"CGST and UTGST",
+         "code":"RENT_NRB_CGST_UTGST_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+	   {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD1.RENT_MC_BLD_NRB",
+         "name":"Interest on GST",
+         "code":"RENT_NRB_INT_GST_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD1.RENT_MC_BLD_NRB",
+         "name":"Interest on Rental Income",
+         "code":"RENT_NRB_INT_RENTAL_INCOME_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+	   {
+         "category":"PENALTY",
+         "service":"ROAD_SERVICES_RD1.RENT_MC_BLD_NRB",
+         "name":"Penalities/Fines  Others",
+         "code":"RENT_NRB_PENALITIES_FINE_OTHS_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD2.RENT_MC_BLD_NRB",
+         "name":"Rent NRB",
+         "code":"RENT_NRB_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD2.RENT_MC_BLD_NRB",
+         "name":"CGST and UTGST",
+         "code":"RENT_NRB_CGST_UTGST_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+	   {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD2.RENT_MC_BLD_NRB",
+         "name":"Interest on GST",
+         "code":"RENT_NRB_INT_GST_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD2.RENT_MC_BLD_NRB",
+         "name":"Interest on Rental Income",
+         "code":"RENT_NRB_INT_RENTAL_INCOME_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+	   {
+         "category":"PENALTY",
+         "service":"ROAD_SERVICES_RD2.RENT_MC_BLD_NRB",
+         "name":"Penalities/Fines  Others",
+         "code":"RENT_NRB_PENALITIES_FINE_OTHS_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD3.RENT_MC_BLD_NRB",
+         "name":"Rent NRB",
+         "code":"RENT_NRB_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD3.RENT_MC_BLD_NRB",
+         "name":"CGST and UTGST",
+         "code":"RENT_NRB_CGST_UTGST_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+	   {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD3.RENT_MC_BLD_NRB",
+         "name":"Interest on GST",
+         "code":"RENT_NRB_INT_GST_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD3.RENT_MC_BLD_NRB",
+         "name":"Interest on Rental Income",
+         "code":"RENT_NRB_INT_RENTAL_INCOME_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+	   {
+         "category":"PENALTY",
+         "service":"ROAD_SERVICES_RD3.RENT_MC_BLD_NRB",
+         "name":"Penalities/Fines  Others",
+         "code":"RENT_NRB_PENALITIES_FINE_OTHS_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
          "service":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
          "name":"LICENSING - PPA/PARKING",
          "code":"LICENSING_PPA_PARKING",
