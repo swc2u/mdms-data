@@ -1973,10 +1973,50 @@
          "isRequired":false
       },
       {
+         "category":"CHARGES",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
+         "name":"Interest on GST",
+         "code":"INTEREST_GST_AUCTION_PARKING_LOTS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
+         "name":"Penalities/Fines  Others",
+         "code":"PENALITIES_AUCTION_PARKING_LOTS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },   
+      {
          "category":"FEE",
          "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
          "name":"Ground rent - cable networks",
          "code":"GROUND_RENT_CABLE_NETWORKS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
+         "name":"Interest on Rental Income",
+         "code":"INT_RENTAL_INCOME_CABLE_OPERATORS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      }, 
+      {
+         "category":"PENALTY",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
+         "name":"Penalities/Fines  Others",
+         "code":"PENALITIES_CABLE_OPERATORS",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2003,10 +2043,60 @@
          "isRequired":false
       },
       {
+         "category":"CHARGES",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_TAXI_STANDS",
+         "name":"Interest on GST",
+         "code":"INTEREST_GST_RENT_TAXI_STANDS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_TAXI_STANDS",
+         "name":"Interest on Rental Income",
+         "code":"INT_RENTAL_INCOME_RENT_TAXI_STANDS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      }, 
+      {
+         "category":"PENALTY",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_TAXI_STANDS",
+         "name":"Penalities/Fines  Others",
+         "code":"PENALITIES_RENT_TAXI_STANDS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"PARKING_BRANCH_RELATED_SERVICES.PAID_PARKING_AREA_RECEIPTS(PPA)",
          "name":"Parking charges",
          "code":"PARKING_CHARGES",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.PAID_PARKING_AREA_RECEIPTS(PPA)",
+         "name":"Interest on Rental Income",
+         "code":"INT_RENTAL_INCOME_PAID_PARKING_AREA_RECEIPTS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      }, 
+      {
+         "category":"PENALTY",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.PAID_PARKING_AREA_RECEIPTS(PPA)",
+         "name":"Penalities/Fines  Others",
+         "code":"PENALITIES_PAID_PARKING_AREA_RECEIPTS",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2054,9 +2144,9 @@
       },
       {
          "category":"FEE",
-         "service":"ENFORCEMENT_BRANCH_SERVICES.REMOVAL_CHARGES_CONFISCATED_GOODS",
-         "name":"Removal charges",
-         "code":"REMOVAL_CHARGES",
+         "service":"ENFORCEMENT_BRANCH_SERVICES.TCS",
+         "name":"TCS",
+         "code":"TCS_FEE",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -2543,6 +2633,66 @@
          "isRequired":false
       },
       {
+         "category":"FEE",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.RENT_HEDGES_FENCING",
+         "name":"Rent of Hedges & Fencing",
+         "code":"RENT_HEDGES_FENCING_HD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "name":"Penalities Non Payment Cess",
+         "code":"PEN_NON_PYMT_CESS_SURCHARGE_ELEC_WATER_SUPP_HD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.ARREAR_ELEC_BILL",
+         "name":"Penalities Non Payment Cess",
+         "code":"PEN_NON_PYMT_CESS_ARREAR_ELEC_BILL_HD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.RENT_HEDGES_FENCING",
+         "name":"Rent of Hedges & Fencing",
+         "code":"RENT_HEDGES_FENCING_HD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "name":"Penalities Non Payment Cess",
+         "code":"PEN_NON_PYMT_CESS_SURCHARGE_ELEC_WATER_SUPP_HD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.ARREAR_ELEC_BILL",
+         "name":"Penalities Non Payment Cess",
+         "code":"PEN_NON_PYMT_CESS_ARREAR_ELEC_BILL_HD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"CHARGES",
          "service":"MOH_SERVICES",
          "name":"GARBAGE COLLECTION/SANITATION CHARGES",
@@ -3007,6 +3157,16 @@
          "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "name":"Cleaning Charges",
+         "code":"CLEANING_CHRGS_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
