@@ -181,12 +181,20 @@
       ],
       "wfDocumentList": [
         {
-          "code": "WF_DOCS_NOTICE",
+          "code": "WF_DOCS_TEMPLATE",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "WF_DOCS_NOTICE_DESCRIPTIONS",
-          "filter": "application.state === 'ES_PENDING_CITIZEN_NOTICE_DOCUMENTS'"
+          "description": "WF_DOCS_TEMPLATE_DESCRIPTION",
+          "filter": "application.state === 'ES_PENDING_SO_TEMPLATE_CREATION'"
+        },
+        {
+          "code": "WF_DOCS_TEMPLATE_SUBMISSION",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "WF_DOCS_TEMPLATE_SUBMISSION_DESCRIPTION",
+          "filter": "application.state === 'ES_PENDING_CITIZEN_TEMPLATE_SUBMISSION'"
         }
       ],
       "uiConfig": {
