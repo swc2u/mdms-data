@@ -147,6 +147,12 @@
          "bankBranch":"OBC01"
       },
       {
+         "businessDetails":"ROAD_SERVICES_RD1.RENT_MC_BLD_NRB",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
          "businessDetails":"CTL.REHRI_REGISTRATION",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
@@ -345,7 +351,13 @@
          "bankBranch":"OBC01"
       },
       {
-         "businessDetails":"ENFORCEMENT_BRANCH_SERVICES.REMOVAL_CHARGES_CONFISCATED_GOODS",
+         "businessDetails":"ENFORCEMENT_BRANCH_SERVICES.TCS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"EC",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
@@ -502,6 +514,42 @@
       },
       {
          "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.RTI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.RENT_HEDGES_FENCING",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.RENT_HEDGES_FENCING",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+	   {
+         "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+	   {
+         "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.ARREAR_ELEC_BILL",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.ARREAR_ELEC_BILL",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
