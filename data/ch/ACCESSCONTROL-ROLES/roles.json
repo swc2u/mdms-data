@@ -735,6 +735,11 @@
       "description": "Commissioner(MCC)"
     },
     {
+      "code": "HC_VIEWER",
+      "name": "HC_VIEWER",
+      "description": "Horticulture Viewer Employee"
+    },	   
+    {
       "code": "COLL_RECEIPT_REPORT",
       "name": "COLL_RECEIPT_REPORT",
       "description": "COLL_RECEIPT_REPORT"
