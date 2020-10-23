@@ -13473,6 +13473,18 @@
     "path": "GeneratingAccountStatementApi"
   },
     {
+    "id": 30011,
+    "name": "ApplicationCollectPayment",
+    "url": "/est-services/application/_collect_payment",
+    "displayName": "Application Collect Payment api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "ApplicationCollectPaymentApi",
+    "code": "null",
+    "path": "ApplicationCollectPaymentApi"
+  },
+    {
       "id": 1812,
       "name": "UC Report",
       "url": "/report/rainmaker-common/_get",
