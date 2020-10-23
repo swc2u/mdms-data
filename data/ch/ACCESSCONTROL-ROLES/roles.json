@@ -801,6 +801,11 @@
       "name": "HC_COMMISSIONERMCC",
       "description": "Commissioner(MCC)"
     },
+    {
+      "code": "HC_VIEWER",
+      "name": "HC_VIEWER",
+      "description": "Horticulture Viewer Employee"
+    },
 	{
       "code": "challanSI",
       "name": "challanSI",
