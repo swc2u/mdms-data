@@ -801,6 +801,11 @@
       "name": "HC_COMMISSIONERMCC",
       "description": "Commissioner(MCC)"
     },
+    {
+      "code": "HC_VIEWER",
+      "name": "HC_VIEWER",
+      "description": "Horticulture Viewer Employee"
+    },
 	{
       "code": "challanSI",
       "name": "challanSI",
@@ -1161,6 +1166,11 @@
       "code": "COMMERCIAL_GROUND_VIEWER",
       "name": "COMMERCIAL GROUND VIEWER",
       "description": "Employee who views commercial ground Booking"
+    },
+	{
+      "code": "COLL_RECEIPT_REPORT",
+      "name": "COLL_RECEIPT_REPORT",
+      "description": "COLL_RECEIPT_REPORT"
     }
   ]
 }

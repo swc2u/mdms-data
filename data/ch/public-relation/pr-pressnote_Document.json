@@ -5,7 +5,7 @@
     {
       "code": "PR_PRESSNOTE.PRESSNOTE_FILE_DOCUMENT",
       "documentType": "",
-      "required": true,
+      "required": false,
       "active": true,
       "hasDropdown": false,
       "dropdownData": [   
