@@ -491,8 +491,8 @@
             }
           }
         }
-        },
-     "fees": [
+      ],
+      "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
@@ -519,11 +519,11 @@
           "amount": 0.0
         },
         {
-          "category" : "*",
-          "subCategory" : "*",
-          "amount" : 100.0
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
         }
       ]
-	 }
-    ]
-  }
+    }
+  ]
+}
