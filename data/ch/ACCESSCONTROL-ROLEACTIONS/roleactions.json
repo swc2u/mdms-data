@@ -30820,6 +30820,12 @@
 		"actionid": "2417",
 		"actioncode": "",
 		"tenantId": "ch"
+	},	  
+	{
+		"rolecode": "challanSI",
+		"actionid": 605,
+		"actioncode": "",
+		"tenantId": "ch"
 	}
   ]
 }
