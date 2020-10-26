@@ -514,6 +514,38 @@
           }
       }
       ]
-    }
+	 ,"fees": [
+        {
+          "category": "CAT.RESIDENTIAL",
+          "subCategory": "*",
+          "amount": 5000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.BOOTH",
+          "amount": 5000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.SCF",
+          "amount": 5000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.SCO",
+          "amount": 5000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "*",
+          "amount": 0.0
+        },
+        {
+          "category" : "*",
+          "subCategory" : "*",
+          "amount" : 100.0
+        }
+      ]
+	}
   ]
 }
