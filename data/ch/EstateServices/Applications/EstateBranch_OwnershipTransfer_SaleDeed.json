@@ -861,7 +861,11 @@
           }
       }
       ],
-      "feePercentGST" : 18.0,
+      "feePercentGST" : [
+		{
+			"gst":18.0
+		}
+	  ],
       "fees": [
         {
           "category": "CAT.RESIDENTIAL",
