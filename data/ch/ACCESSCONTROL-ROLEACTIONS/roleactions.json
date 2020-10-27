@@ -52111,6 +52111,18 @@
 			"actionid": 6009,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_CLOSURE",
+			"actionid": 6010,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_PROGRESS_UPDATE",
+			"actionid": 6011,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }
