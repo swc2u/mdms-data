@@ -108,6 +108,11 @@
       "description": "Who has a access to Trade License Services"
     },
     {
+      "code": "CTL_VIEWER",
+      "name": "CTL_VIEWER",
+      "description": "TradeLicense Viewer Employee"
+    },
+    {
       "code": "COLL_OPERATOR",
       "name": "Collection Operator",
       "description": "Can Create, Search and Update Receipt"
