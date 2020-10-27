@@ -22417,6 +22417,34 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Receipt Report",
       "navigationURL": "services/collection/receipts/daybookReport.action"
-    }
+    },
+	{
+		"id": 6010,
+		"name": "Work Agreement Closure",
+		"url": "services/works/boq/closuresearchPage",
+		"displayName": "Work Agreement Closure",
+		"orderNumber": "5",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Work Agreement.Work Agreement Closure",
+		"navigationURL": "services/works/boq/closuresearchPage",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6011,
+		"name": "Work Agreement Progress Update",
+		"url": "services/works/boq/progressUpdate",
+		"displayName": "Create Estimate",
+		"orderNumber": "6",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Work Agreement.Work Agreement Progress Update",
+		"navigationURL": "services/works/boq/progressUpdate",
+		"leftIcon": "editor:insert-chart"
+	}
   ]
 }
