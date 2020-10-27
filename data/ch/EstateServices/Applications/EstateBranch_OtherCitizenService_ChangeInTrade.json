@@ -514,6 +514,7 @@
           }
       }
       ]
+	 ,"feePercentGST" : []	
 	 ,"fees": [
         {
           "category": "CAT.RESIDENTIAL",
