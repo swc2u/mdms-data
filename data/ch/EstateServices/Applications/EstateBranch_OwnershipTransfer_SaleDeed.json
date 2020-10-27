@@ -628,7 +628,13 @@
                   "type": "TEXT_FIELD",
                   "disabled": true,
                   "prefillValue": "!!application.applicationDetails.transferee.percentageOfShareTransferred && !!selectedOwner.share ? selectedOwner.share - (selectedOwner.share * application.applicationDetails.transferee.percentageOfShareTransferred / 100) : ''"
-                },
+                }
+              ]
+            },
+            {
+              "header": "ES_REGISTRATION_DETAILS_HEADER",
+              "type": "FORM",
+              "fields": [
                 {
                   "label": "ES_MODE_OF_TRANSFER_LABEL",
                   "placeholder": "ES_MODE_OF_TRANSFER_PLACEHOLDER",
@@ -754,10 +760,16 @@
                       {
                           "label": "ES_PERCENTAGE_SHARED_LABEL",
                           "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred"
-                      },
+                      }
+                  ]
+              },
+              {
+                  "header": "ES_REGISTRATION_DETAILS_HEADER",
+                  "step": 0,
+                  "fields": [
                       {
-                          "label": "ES_MODE_OF_TRANSFER_LABEL",
-                          "jsonPath": "Applications[0].applicationDetails.modeOfTransfer"
+                        "label": "ES_MODE_OF_TRANSFER_LABEL",
+                        "jsonPath": "Applications[0].applicationDetails.modeOfTransfer"
                       },
                       {
                           "label": "ES_REGISTRATION_NUMBER_LABEL",
