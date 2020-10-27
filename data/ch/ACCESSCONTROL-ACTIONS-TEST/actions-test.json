@@ -22436,7 +22436,7 @@
 		"id": 6011,
 		"name": "Work Agreement Progress Update",
 		"url": "services/works/boq/progressUpdate",
-		"displayName": "Create Estimate",
+		"displayName": "Work Agreement Progress Update",
 		"orderNumber": "6",
 		"parentModule": "works",
 		"enabled": true,
