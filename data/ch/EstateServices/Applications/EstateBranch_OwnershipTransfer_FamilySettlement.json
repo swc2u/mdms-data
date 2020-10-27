@@ -869,7 +869,7 @@
               "fields": [
                 {
                   "label": "ES_FAMILILY_SETTLEMENT",
-                  "jsonPath": "Applications[0].modeOfTransfer"
+                  "jsonPath": "Applications[0].applicationDetails.modeOfTransfer"
                 }
               ]
             },
@@ -878,16 +878,16 @@
               "step": 0,
               "fields": [
                 {
-                  "label": "ES_FAMILY_SETTLEMENT_DATE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.familysettlementdate"
+                  "label": "ES_FAMILY_SETTLEMENT_COURT_DECREE_DATE_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.decreeDate"
                 },
                 {
                   "label": "ES_PASSED_BY_COURT_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.purchaser.passedbycourt"
+                  "jsonPath": "Applications[0].applicationDetails.courtDetails"
                 },
                 {
                   "label": "ES_IN_CIVIL_SUIT_TITLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.purchaser.civilsuittitle"
+                  "jsonPath": "Applications[0].applicationDetails.civilTitledAs"
                 }
               ]
             },
