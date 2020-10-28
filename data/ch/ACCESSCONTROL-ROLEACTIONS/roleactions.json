@@ -41344,6 +41344,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ES_EB_FINANCIAL_OFFICER",
+			"actionid": 30022,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SASO",
 			"actionid": 4302,
 			"actioncode": "",
