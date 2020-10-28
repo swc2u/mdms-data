@@ -13347,7 +13347,7 @@
       "displayName": "Estate Properties",
       "enabled": true,
       "id": 21811,
-      "leftIcon": "action:announcement",
+      "leftIcon": "custom:estatebranch",
       "name": "rainmaker-citizen-estate-properties",
       "navigationURL": "estate/home",
       "orderNumber": 2,
@@ -13505,7 +13505,7 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "navigationURL": "/estate/search",
-    "leftIcon": "social:people"
+    "leftIcon": "social:location-city"
   },
   {
     "id": 30013,
@@ -13516,7 +13516,7 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "navigationURL": "/estate/search-application",
-    "leftIcon": "social:people"
+    "leftIcon": "custom:library-books"
   },
   {
     "id": 30014,
@@ -13528,7 +13528,7 @@
     "enabled": true,
     "queryParams": "tenantId=ch.chandigarh",
     "navigationURL": "allotment",
-    "leftIcon": "social:people"
+    "leftIcon": "social:location-city"
   },
   {
     "id": 30015,
@@ -13540,7 +13540,7 @@
     "enabled": true,
     "queryParams": "type=refund",
     "navigationURL": "/estate/search",
-    "leftIcon": "social:people"
+    "leftIcon": "editor:attach-money"
   },
   {
     "id": 30016,
@@ -13552,7 +13552,7 @@
     "enabled": true,
     "queryParams": "type=EstateBranch_InternalServices_IssuanceOfNotice",
     "navigationURL": "/estate/property-search",
-    "leftIcon": "social:people"
+    "leftIcon": "editor:border-color"
   },
   {
     "id": 30017,
@@ -13563,7 +13563,7 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "navigationURL": "/estate/estate-search-account-statement",
-    "leftIcon": "social:people"
+    "leftIcon": "action:assessment"
   },
   {
     "id": 30018,
@@ -13575,7 +13575,7 @@
     "enabled": true,
     "queryParams": "type=payment",
     "navigationURL": "/estate/property-search",
-    "leftIcon": "social:people"
+    "leftIcon": "action:payment"
   },
   {
     "id": 30019,
@@ -13586,7 +13586,7 @@
     "parentModule": "building-branch",
     "enabled": true,
     "navigationURL": "/estate/search",
-    "leftIcon": "social:people"
+    "leftIcon": "social:location-city"
   },
   {
     "id": 30020,
@@ -13597,7 +13597,7 @@
     "parentModule": "building-branch",
     "enabled": true,
     "navigationURL": "/estate/search",
-    "leftIcon": "social:people"
+    "leftIcon": "custom:library-books"
   },
   {
     "id": 30021,
@@ -13608,7 +13608,19 @@
     "parentModule": "building-branch",
     "enabled": true,
     "navigationURL": "/estate/search",
-    "leftIcon": "social:people"
+    "leftIcon": "editor:border-color"
+  },
+  {
+    "id": 30022,
+    "name": "penalty",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_PENALTY_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "type=penalty",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:gavel"
   },
     {
       "id": 1812,
