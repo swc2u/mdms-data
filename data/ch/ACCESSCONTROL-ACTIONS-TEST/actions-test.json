@@ -13496,6 +13496,120 @@
     "code": "null",
     "path": "ApplicationCollectPaymentApi"
   },
+  {
+    "id": 30012,
+    "name": "propertyMaster",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:people"
+  },
+  {
+    "id": 30013,
+    "name": "search-applications",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_SEARCH_APPLICATION_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search-application",
+    "leftIcon": "social:people"
+  },
+  {
+    "id": 30014,
+    "name": "allotment",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_ALLOTMENT_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "tenantId=ch.chandigarh",
+    "navigationURL": "allotment",
+    "leftIcon": "social:people"
+  },
+  {
+    "id": 30015,
+    "name": "refund",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_REFUND_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "type=refund",
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:people"
+  },
+  {
+    "id": 30016,
+    "name": "issuing-notice",
+    "url": "estate-card",
+    "displayName": "ES_PROPERTY_MASTER_ISSUING_NOTICE_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "type=EstateBranch_InternalServices_IssuanceOfNotice",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "social:people"
+  },
+  {
+    "id": 30017,
+    "name": "account-statement-generation",
+    "url": "estate-card",
+    "displayName": "ES_ACCOUNT_STATEMENT_GENERATION_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "navigationURL": "/estate/estate-search-account-statement",
+    "leftIcon": "social:people"
+  },
+  {
+    "id": 30018,
+    "name": "rent-payment",
+    "url": "estate-card",
+    "displayName": "ES_RENT_PAYMENT_HEADER",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "type=payment",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "social:people"
+  },
+  {
+    "id": 30019,
+    "name": "property-master",
+    "url": "estate-card",
+    "displayName": "Property Master",
+    "orderNumber": 2,
+    "parentModule": "building-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:people"
+  },
+  {
+    "id": 30020,
+    "name": "search-applications",
+    "url": "estate-card",
+    "displayName": "Search Applications",
+    "orderNumber": 2,
+    "parentModule": "building-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:people"
+  },
+  {
+    "id": 30021,
+    "name": "issuance-of-notice",
+    "url": "estate-card",
+    "displayName": "Issuing Notice",
+    "orderNumber": 2,
+    "parentModule": "building-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:people"
+  },
     {
       "id": 1812,
       "name": "UC Report",
@@ -22441,90 +22555,6 @@
     "leftIcon": "editor:insert-chart",
     "path": "Finance.Reports.MIS Reports.Receipt Report",
     "navigationURL": "services/collection/receipts/daybookReport.action"
-  },
-  {
-    "id": 30012,
-    "name": "propertyMaster",
-    "url": "estate-card",
-    "displayName": "Property Master",
-    "orderNumber": 2,
-    "parentModule": "",
-    "enabled": true,
-    "navigationURL": "/estate/search",
-    "leftIcon": "social:people",
-    "branchType": "estate"
-  },
-  {
-    "id": 30013,
-    "name": "search-applications",
-    "url": "estate-card",
-    "displayName": "Search Applications",
-    "orderNumber": 2,
-    "parentModule": "",
-    "enabled": true,
-    "navigationURL": "/estate/search-application",
-    "leftIcon": "social:people",
-    "branchType": "estate"
-  },
-  {
-    "id": 30014,
-    "name": "allotment",
-    "url": "estate-card",
-    "displayName": "Allotment",
-    "orderNumber": 2,
-    "parentModule": "",
-    "enabled": true,
-    "navigationURL": "allotment?tenantId=ch.chandigarh",
-    "leftIcon": "social:people",
-    "branchType": "estate"
-  },
-  {
-    "id": 30015,
-    "name": "refund",
-    "url": "estate-card",
-    "displayName": "Refund",
-    "orderNumber": 2,
-    "parentModule": "",
-    "enabled": true,
-    "navigationURL": "/estate/search?type=refund",
-    "leftIcon": "social:people",
-    "branchType": "estate"
-  },
-  {
-    "id": 30016,
-    "name": "issuing-notice",
-    "url": "estate-card",
-    "displayName": "Issuing Notice",
-    "orderNumber": 2,
-    "parentModule": "",
-    "enabled": true,
-    "navigationURL": "/estate/property-search?type=EstateBranch_InternalServices_IssuanceOfNotice",
-    "leftIcon": "social:people",
-    "branchType": "estate"
-  },
-  {
-    "id": 30017,
-    "name": "account-statement-generation",
-    "url": "estate-card",
-    "displayName": "Account Statement Generation",
-    "orderNumber": 2,
-    "parentModule": "",
-    "enabled": true,
-    "navigationURL": "/estate/estate-search-account-statement",
-    "leftIcon": "social:people",
-    "branchType": "estate"
-  },
-  {
-    "id": 30018,
-    "name": "rent-payment",
-    "url": "estate-card",
-    "displayName": "Rent Payment",
-    "orderNumber": 2,
-    "parentModule": "",
-    "enabled": true,
-    "navigationURL": "/estate/property-search?type=payment",
-    "leftIcon": "social:people",
-    "branchType": "estate"
   }
   ]
 }

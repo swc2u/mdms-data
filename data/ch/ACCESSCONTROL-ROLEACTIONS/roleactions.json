@@ -41086,6 +41086,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ES_BB_ADDITIONAL_COMMISSIONER",
+			"actionid": 30012,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "ES_EB_FINANCIAL_OFFICER",
 			"actionid": 30012,
 			"actioncode": "",
@@ -41117,6 +41123,12 @@
 		},
 		{
 			"rolecode": "ES_EB_ADDITIONAL_COMMISSIONER",
+			"actionid": 30013,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_ADDITIONAL_COMMISSIONER",
 			"actionid": 30013,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -41164,43 +41176,19 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ES_BB_ADDITIONAL_COMMISSIONER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "ES_EB_FINANCIAL_OFFICER",
 			"actionid": 30015,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "ES_EB_DISPATCH_OFFICER",
-			"actionid": 30016,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
 			"rolecode": "ES_EB_DEALING_ASSISTANT",
-			"actionid": 30016,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "ES_EB_SECTION_OFFICER",
-			"actionid": 30016,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "ES_EB_SR_ASSISTANT",
-			"actionid": 30016,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "ES_EB_ADDITIONAL_COMMISSIONER",
-			"actionid": 30016,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "ES_EB_FINANCIAL_OFFICER",
 			"actionid": 30016,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -41236,44 +41224,122 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ES_BB_ADDITIONAL_COMMISSIONER",
+			"actionid": 30017,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "ES_EB_FINANCIAL_OFFICER",
 			"actionid": 30017,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "ES_EB_DISPATCH_OFFICER",
+			"rolecode": "ES_EB_FINANCIAL_OFFICER",
 			"actionid": 30018,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "ES_EB_DEALING_ASSISTANT",
-			"actionid": 30018,
+			"rolecode": "ES_BB_DISPATCH_OFFICER",
+			"actionid": 30019,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "ES_EB_SECTION_OFFICER",
-			"actionid": 30018,
+			"rolecode": "ES_BB_DEALING_ASSISTANT",
+			"actionid": 30019,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "ES_EB_SR_ASSISTANT",
-			"actionid": 30018,
+			"rolecode": "ES_BB_JUNIOR_ENGINEER",
+			"actionid": 30019,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_DRAFTSMAN",
+			"actionid": 30019,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_SDE",
+			"actionid": 30019,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_ADDITIONAL_COMMISSIONER",
+			"actionid": 30019,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
 			"rolecode": "ES_EB_ADDITIONAL_COMMISSIONER",
-			"actionid": 30018,
+			"actionid": 30019,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "ES_EB_FINANCIAL_OFFICER",
-			"actionid": 30018,
+			"rolecode": "ES_BB_FINANCIAL_OFFICER",
+			"actionid": 30019,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_DISPATCH_OFFICER",
+			"actionid": 30020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_DEALING_ASSISTANT",
+			"actionid": 30020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_JUNIOR_ENGINEER",
+			"actionid": 30020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_DRAFTSMAN",
+			"actionid": 30020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_SDE",
+			"actionid": 30020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_ADDITIONAL_COMMISSIONER",
+			"actionid": 30020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_EB_ADDITIONAL_COMMISSIONER",
+			"actionid": 30020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_FINANCIAL_OFFICER",
+			"actionid": 30020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ES_BB_DEALING_ASSISTANT",
+			"actionid": 30021,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
