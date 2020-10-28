@@ -108,6 +108,11 @@
       "description": "Who has a access to Trade License Services"
     },
     {
+      "code": "CTL_VIEWER",
+      "name": "CTL_VIEWER",
+      "description": "TradeLicense Viewer Employee"
+    },
+    {
       "code": "COLL_OPERATOR",
       "name": "Collection Operator",
       "description": "Can Create, Search and Update Receipt"
@@ -1276,6 +1281,16 @@
       "code": "ES_MM_TAX_CONTROLLER_MANIMAJRA",
       "name": "Tax Controller Officer",
       "description": "Manimajra Branch Tax Controller Officer"
+    },
+	{
+      "code": "WORKS_CLOSURE",
+      "name": "WORKS_CLOSURE",
+      "description": "WORKS_CLOSURE"
+    },
+	{
+      "code": "WORKS_PROGRESS_UPDATE",
+      "name": "WORKS_PROGRESS_UPDATE",
+      "description": "WORKS_PROGRESS_UPDATE"
     }
   ]
 }

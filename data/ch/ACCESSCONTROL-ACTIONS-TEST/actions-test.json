@@ -22554,19 +22554,47 @@
 		"code": "null",
 		"path": ""
 	},
-  {
-    "id": 6009,
-    "name": "Receipt Report",
-    "url": "/services/collection/receipts/daybookReport.action",
-    "parentModule": "",
-    "displayName": "Receipt Report",
-    "orderNumber": 1,
-    "enabled": true,
-    "serviceCode": "FinanceReport",
-    "code": "null",
-    "leftIcon": "editor:insert-chart",
-    "path": "Finance.Reports.MIS Reports.Receipt Report",
-    "navigationURL": "services/collection/receipts/daybookReport.action"
-  }
+    {
+      "id": 6009,
+      "name": "Receipt Report",
+      "url": "/services/collection/receipts/daybookReport.action",
+      "parentModule": "",
+      "displayName": "Receipt Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.MIS Reports.Receipt Report",
+      "navigationURL": "services/collection/receipts/daybookReport.action"
+    },
+	{
+		"id": 6010,
+		"name": "Work Agreement Closure",
+		"url": "services/works/boq/closuresearchPage",
+		"displayName": "Work Agreement Closure",
+		"orderNumber": "5",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Work Agreement.Work Agreement Closure",
+		"navigationURL": "services/works/boq/closuresearchPage",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6011,
+		"name": "Work Agreement Progress Update",
+		"url": "services/works/boq/progressUpdate",
+		"displayName": "Work Agreement Progress Update",
+		"orderNumber": "6",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Work Agreement.Work Agreement Progress Update",
+		"navigationURL": "services/works/boq/progressUpdate",
+		"leftIcon": "editor:insert-chart"
+	}
   ]
 }
