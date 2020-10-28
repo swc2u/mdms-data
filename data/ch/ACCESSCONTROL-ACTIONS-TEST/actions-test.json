@@ -13343,17 +13343,6 @@
       "tenantId": "ch",
       "url": "card"
     },
-    { 
-      "displayName": "Estate Properties",
-      "enabled": true,
-      "id": 21811,
-      "leftIcon": "custom:estatebranch",
-      "name": "rainmaker-citizen-estate-properties",
-      "navigationURL": "estate/home",
-      "orderNumber": 2,
-      "tenantId": "ch",
-      "url": "card"
-    },
     {
       "id": 30000,
       "name": "CreatePropertyMasterApi",
@@ -13621,6 +13610,17 @@
     "queryParams": "type=penalty",
     "navigationURL": "/estate/property-search",
     "leftIcon": "action:gavel"
+  },
+  { 
+    "displayName": "Estate Properties",
+    "enabled": true,
+    "id": 30023,
+    "leftIcon": "custom:estatebranch",
+    "name": "rainmaker-citizen-estate-properties",
+    "navigationURL": "estate/home",
+    "orderNumber": 2,
+    "tenantId": "ch",
+    "url": "card"
   },
     {
       "id": 1812,
