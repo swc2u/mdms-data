@@ -13574,7 +13574,7 @@
     "orderNumber": 2,
     "parentModule": "building-branch",
     "enabled": true,
-    "navigationURL": "/estate/search",
+    "navigationURL": "/estate/search-building-branch",
     "leftIcon": "social:location-city"
   },
   {
