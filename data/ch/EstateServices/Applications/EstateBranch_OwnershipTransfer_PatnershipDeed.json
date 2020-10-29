@@ -778,13 +778,17 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
-                  "errorMessage": "ES_ERR_REGISTRATION_NUMBER"
+                  "errorMessage": "ES_ERR_REGISTRATION_NUMBER",
+                  "disabled": true,
+                  "prefillValue": "property.propertyDetails.companyRegistrationNumber"
                 },
                 {
                   "label": "ES_REGISTRATION_DATE",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
-                  "path": "dateOfRegistration"
+                  "path": "dateOfRegistration",
+                  "disabled": true,
+                  "prefillValue": "property.propertyDetails.companyRegistrationDate"
                 },
                 {
                   "label": "ES_PRIVATE_LIMITED_COMPANY_NAME",
