@@ -582,6 +582,7 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferee.type",
                   "path": "transferee.type",
+                  "required": true,
                   "dataSource": "typesOfOwner",
                   "visibility": "owners.length > 1 && purchasers.length > 0"
                 },
