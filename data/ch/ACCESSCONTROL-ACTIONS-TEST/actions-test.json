@@ -16583,12 +16583,12 @@
       "url": "/services/collection/receipts/daybookReport.action",
       "parentModule": "",
       "displayName": "Receipt Report",
-      "orderNumber": 1,
+      "orderNumber": 8,
       "enabled": true,
       "serviceCode": "FinanceReport",
       "code": "null",
       "leftIcon": "editor:insert-chart",
-      "path": "Finance.Reports.MIS Reports.Receipt Report",
+      "path": "Finance.Revenue/Collections.Receipt Report",
       "navigationURL": "services/collection/receipts/daybookReport.action"
     },
     {
