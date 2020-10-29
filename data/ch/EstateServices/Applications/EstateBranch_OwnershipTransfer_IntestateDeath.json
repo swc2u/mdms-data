@@ -596,6 +596,7 @@
                   "dataValue": "purchasers",
                   "prefillValue": "selectedPurchaser ? selectedPurchaser.id : ''",
                   "visible": false,
+                  "required": true,
                   "visibility": "application.applicationDetails.transferee.type == 'Existing'"
                 },
                 {

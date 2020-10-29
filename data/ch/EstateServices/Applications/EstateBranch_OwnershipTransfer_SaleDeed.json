@@ -553,6 +553,7 @@
                   "type": "DROP_DOWN",
                   "visible": false,
                   "visibility": "application.applicationDetails.transferee.type == 'Existing'",
+                  "required": true,
                   "jsonPath": "Applications[0].applicationDetails.transferee.id",
                   "path": "transferee.id",
                   "dataValue": "purchasers",

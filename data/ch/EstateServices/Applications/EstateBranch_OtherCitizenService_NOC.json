@@ -500,6 +500,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.id",
                   "visibility": "application.applicationDetails.transferee.type == 'Existing'",
                   "path": "transferee.id",
+                  "required": true,
                   "dataSource": "owners",
                   "dataValue": "purchasers",
                   "prefillValue": "selectedPurchaser ? selectedPurchaser.id : ''"
