@@ -13494,7 +13494,8 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "navigationURL": "/estate/search",
-    "leftIcon": "social:location-city"
+    "leftIcon": "social:location-city",
+    "queryParams": "branchType=ESTATE_BRANCH"
   },
   {
     "id": 30013,
@@ -13574,8 +13575,9 @@
     "orderNumber": 2,
     "parentModule": "building-branch",
     "enabled": true,
-    "navigationURL": "/estate/search-building-branch",
-    "leftIcon": "social:location-city"
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:location-city",
+    "queryParams": "branchType=BUILDING_BRANCH"
   },
   {
     "id": 30020,
