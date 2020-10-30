@@ -13624,6 +13624,18 @@
     "tenantId": "ch",
     "url": "card"
   },
+   {
+    "id": 30024,
+    "name": "PropertyPayRent",
+    "url": "/est-services/property-master/_payrent",
+    "displayName": "Property Pay Rent api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "PropertyPayRentApi",
+    "code": "null",
+    "path": "PropertyPayRentApi"
+    },
     {
       "id": 1812,
       "name": "UC Report",
