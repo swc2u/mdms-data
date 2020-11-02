@@ -553,6 +553,7 @@
                   "type": "DROP_DOWN",
                   "visible": false,
                   "visibility": "application.applicationDetails.transferee.type == 'Existing'",
+                  "required": true,
                   "jsonPath": "Applications[0].applicationDetails.transferee.id",
                   "path": "transferee.id",
                   "dataValue": "purchasers",
@@ -584,7 +585,9 @@
                   "placeholder": "ES_DOB_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferee.dob",
-                  "path": "transferee.dob"
+                  "path": "transferee.dob",
+                  "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.dob : application.applicationDetails.transferee.dob "
                 },
                 {
                   "label": "ES_RELATION_SHIP_LABEL",
@@ -628,7 +631,13 @@
                   "type": "TEXT_FIELD",
                   "disabled": true,
                   "prefillValue": "!!application.applicationDetails.transferee.percentageOfShareTransferred && !!selectedOwner.share ? selectedOwner.share - (selectedOwner.share * application.applicationDetails.transferee.percentageOfShareTransferred / 100) : ''"
-                },
+                }
+              ]
+            },
+            {
+              "header": "ES_REGISTRATION_DETAILS_HEADER",
+              "type": "FORM",
+              "fields": [
                 {
                   "label": "ES_MODE_OF_TRANSFER_LABEL",
                   "placeholder": "ES_MODE_OF_TRANSFER_PLACEHOLDER",
@@ -754,10 +763,16 @@
                       {
                           "label": "ES_PERCENTAGE_SHARED_LABEL",
                           "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred"
-                      },
+                      }
+                  ]
+              },
+              {
+                  "header": "ES_REGISTRATION_DETAILS_HEADER",
+                  "step": 0,
+                  "fields": [
                       {
-                          "label": "ES_MODE_OF_TRANSFER_LABEL",
-                          "jsonPath": "Applications[0].applicationDetails.modeOfTransfer"
+                        "label": "ES_MODE_OF_TRANSFER_LABEL",
+                        "jsonPath": "Applications[0].applicationDetails.modeOfTransfer"
                       },
                       {
                           "label": "ES_REGISTRATION_NUMBER_LABEL",
@@ -860,6 +875,43 @@
               }
           }
       }
+      ],
+      "feePercentGST" : [
+		{
+			"gst":18.0
+		}
+	  ],
+      "fees": [
+        {
+          "category": "CAT.RESIDENTIAL",
+          "subCategory": "*",
+          "amount": 6000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.BOOTH",
+          "amount": 5000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.SCF",
+          "amount": 10000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.SCO",
+          "amount": 10000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "*",
+          "amount": 0.0
+        },
+        {
+          "category" : "*",
+          "subCategory" : "*",
+          "amount" : 100.0
+        }
       ]
     }
   ]

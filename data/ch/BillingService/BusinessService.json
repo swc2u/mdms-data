@@ -202,8 +202,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.SaleDeed",
-			"code": "EstateService.EstateBranch.SaleDeed",
+			"businessService": "Estate branch Ownership transfer with Sale deed",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -213,8 +213,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.RegisteredWill",
-			"code": "EstateService.EstateBranch.RegisteredWill",
+			"businessService": "Estate branch Ownership transfer with Registered will",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -224,8 +224,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.UnRegisteredWill",
-			"code": "EstateService.EstateBranch.UnRegisteredWill",
+			"businessService": "Estate branch Ownership transfer with Unregistered will",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -235,8 +235,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.IntestateDeath",
-			"code": "EstateService.EstateBranch.IntestateDeath",
+			"businessService": "Estate branch Ownership transfer with Intestate death",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -246,8 +246,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.FamilySettlement",
-			"code": "EstateService.EstateBranch.FamilySettlement",
+			"businessService": "Estate branch Ownership transfer with Family settlement",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -257,8 +257,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.PatnershipDeed",
-			"code": "EstateService.EstateBranch.PatnershipDeed",
+			"businessService": "Estate branch Ownership transfer with Patnership deed",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -268,8 +268,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.Mortgage",
-			"code": "EstateService.EstateBranch.Mortgage",
+			"businessService": "Estate branch Other citizen service with Mortgage",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -279,8 +279,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.NOC",
-			"code": "EstateService.EstateBranch.NOC",
+			"businessService": "Estate branch Other citizen service with NOC",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.NOC",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -290,8 +290,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.NDC",
-			"code": "EstateService.EstateBranch.NDC",
+			"businessService": "Estate branch Other citizen service with NDC",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.NDC",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -301,8 +301,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.LeaseDeed ",
-			"code": "EstateService.EstateBranch.LeaseDeed",
+			"businessService": "Estate branch Other citizen service with Lease deed ",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -312,8 +312,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.DuplicateCopy",
-			"code": "EstateService.EstateBranch.DuplicateCopy",
+			"businessService": "Estate branch Other citizen service with Duplicate copy",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -323,8 +323,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.LeaseholdToFreehold",
-			"code": "EstateService.EstateBranch.LeaseholdToFreehold",
+			"businessService": "Estate branch Other citizen service with Leasehold to Freehold",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -334,8 +334,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.ScfToSco",
-			"code": "EstateService.EstateBranch.ScfToSco",
+			"businessService": "Estate branch Other citizen service with Scf to Sco",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -345,8 +345,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.ChangeInTrade",
-			"code": "EstateService.EstateBranch.ChangeInTrade",
+			"businessService": "Estate branch Other citizen service with Change in trade",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -356,8 +356,8 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.IssuanceOfNotice",
-			"code": "EstateService.EstateBranch.IssuanceOfNotice",
+			"businessService": "Estate branch Other citizen service with Issuance of notice",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
@@ -367,8 +367,19 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
-			"businessService": "EstateService.EstateBranch.AllotmentOfSite",
-			"code": "EstateService.EstateBranch.AllotmentOfSite",
+			"businessService": "Estate branch Other citizen service with Allotment of site",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Estate branch rent for property master",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
 			"collectionModesNotAllowed": [
 				"DD"
 			],
