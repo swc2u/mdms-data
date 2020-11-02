@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "BuildingBranch_OtherCitizenService_NOC": [
+  "BuildingBranch_CitizenService_NOC": [
     {
       "fields": [
         {
@@ -178,7 +178,7 @@
                 {
                   "label": "ES_NOC_LABEL",
                   "placeholder": "ES_SELECT_NOC_TYPE_PLACEHOLDER",
-                  "type": "DROP_DOWN",
+                  "type": "MULTI_SELECT",
                   "jsonPath": "Applications[0].applicationDetails.nocType",
                   "path": "nocType",
                   "dataSource": "nocTypes"
