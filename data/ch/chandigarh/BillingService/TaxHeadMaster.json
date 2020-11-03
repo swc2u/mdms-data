@@ -723,6 +723,156 @@
       "isRequired": false
     },
     {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+      "name": "Estate branch Ownership transfer Sale deed Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+      "name": "Estate branch Ownership transfer Registered will Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+      "name": "Estate branch Ownership transfer Unregistered will Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+      "name": "Estate branch Ownership transfer Intestate death Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+      "name": "Estate branch Ownership transfer Family settlement Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
+      "name": "Estate branch Ownership transfer Patnership deed Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+      "name": "Estate branch Other citizen service Mortgage Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+      "name": "Estate branch Other citizen service NOC Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.NOC_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+      "name": "Estate branch Other citizen service NDC Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.NDC_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+      "name": "Estate branch Other citizen service Lease deed Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+      "name": "Estate branch Other citizen service Duplicate copy Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+      "name": "Estate branch Other citizen service Leasehold to Freehold Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+      "name": "Estate branch Other citizen service SCF to SCO Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+      "name": "Estate branch Other citizen service Change in trade Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "TAX",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+      "name": "Estate branch Other citizen service Issuance of notice Application tax",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_APPLICATION_TAX",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
       "category": "FEE",
       "service": "ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE",
       "name": "Estate branch Other citizen service Allotment of site Application fee",
