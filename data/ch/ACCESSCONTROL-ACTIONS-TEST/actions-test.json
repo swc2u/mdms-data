@@ -13552,7 +13552,8 @@
     "orderNumber": 2,
     "parentModule": "estate-branch",
     "enabled": true,
-    "navigationURL": "/estate/estate-search-account-statement",
+    "queryParams": "type=account-statement",
+    "navigationURL": "/estate/property-search",
     "leftIcon": "action:assessment"
   },
   {
