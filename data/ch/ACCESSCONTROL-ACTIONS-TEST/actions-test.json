@@ -21696,7 +21696,7 @@
 		"enabled": true,
 		"serviceCode": "NULM",
 		"code": "null",
-		"path": "NULM.SUSV Program.Transaction Tracking",
+		"path": "NULM.Transaction Tracking",
 		"navigationURL": "egov-nulm/search-susv-transaction",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
