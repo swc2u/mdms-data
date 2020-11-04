@@ -13507,7 +13507,7 @@
     "enabled": true,
     "navigationURL": "/estate/search-application",
     "leftIcon": "custom:library-books",
-    "queryParams": "branchType=ESTATE_BRANCH"
+    "queryParams": "branchType=EstateBranch"
   },
   {
     "id": 30014,
@@ -13591,7 +13591,7 @@
     "enabled": true,
     "navigationURL": "/estate/search-application",
     "leftIcon": "custom:library-books",
-    "queryParams": "branchType=BUILDING_BRANCH"
+    "queryParams": "branchType=BuildingBranch"
   },
   {
     "id": 30021,
