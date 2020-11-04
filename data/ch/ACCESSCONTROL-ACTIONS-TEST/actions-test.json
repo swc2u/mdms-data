@@ -13506,7 +13506,8 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "navigationURL": "/estate/search-application",
-    "leftIcon": "custom:library-books"
+    "leftIcon": "custom:library-books",
+    "queryParams": "branchType=ESTATE_BRANCH"
   },
   {
     "id": 30014,
@@ -13588,8 +13589,9 @@
     "orderNumber": 2,
     "parentModule": "building-branch",
     "enabled": true,
-    "navigationURL": "/estate/search",
-    "leftIcon": "custom:library-books"
+    "navigationURL": "/estate/search-application",
+    "leftIcon": "custom:library-books",
+    "queryParams": "branchType=BUILDING_BRANCH"
   },
   {
     "id": 30021,
