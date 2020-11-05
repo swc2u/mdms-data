@@ -21688,15 +21688,15 @@
 	},
 	{
 		"id": 4566,
-		"name": "Vender Registration Update",
+		"name": "Vendor Registration Update",
 		"url": "url",
-		"displayName": "Vender Registration Update",
+		"displayName": "Vendor Registration Update",
 		"orderNumber": 5,
 		"parentModule": "rainmaker-nulm",
 		"enabled": true,
 		"serviceCode": "NULM",
 		"code": "null",
-		"path": "NULM.SUSV Program.Vender Registration Update",
+		"path": "NULM.SUSV Program.Vendor Registration Update",
 		"navigationURL": "egov-nulm/search-svru",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
