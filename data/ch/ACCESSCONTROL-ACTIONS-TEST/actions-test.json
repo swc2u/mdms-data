@@ -21687,6 +21687,21 @@
 		"rightIcon": ""
 	},
 	{
+		"id": 4566,
+		"name": "Vender Registration Update",
+		"url": "url",
+		"displayName": "Vender Registration Update",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-nulm",
+		"enabled": true,
+		"serviceCode": "NULM",
+		"code": "null",
+		"path": "NULM.SUSV Program.Vender Registration Update",
+		"navigationURL": "egov-nulm/search-svru",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
+	{
 		"id": 4565,
 		"name": "Transaction Tracking",
 		"url": "url",
