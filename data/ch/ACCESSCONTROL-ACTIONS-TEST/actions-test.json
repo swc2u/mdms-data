@@ -13595,14 +13595,15 @@
   },
   {
     "id": 30021,
-    "name": "issuance-of-notice",
+    "name": "issuing-notice",
     "url": "estate-card",
-    "displayName": "Issuing Notice",
+    "displayName": "ES_PROPERTY_MASTER_ISSUING_NOTICE_HEADER",
     "orderNumber": 2,
     "parentModule": "building-branch",
     "enabled": true,
-    "navigationURL": "/estate/search",
-    "leftIcon": "editor:border-color"
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "editor:border-color",
+    "queryParams": "branchType=BuildingBranch_CitizenServices_IssuanceOfNotice"
   },
   {
     "id": 30022,
