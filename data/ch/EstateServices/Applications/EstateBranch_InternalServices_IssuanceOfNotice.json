@@ -539,26 +539,27 @@
                 {
                   "label": "ES_BALANCE_RENT_LABEL",
                   "jsonPath": "property.estateRentSummary.balanceRent",
-                  "visibility": "application.applicationDetails.typeOfNotice === 'TYPE_OF_NOTICE.NONPAYMENTRENT'"
+                  "visibility": "!!application.applicationDetails && application.applicationDetails.typeOfNotice === 'TYPE_OF_NOTICE.NONPAYMENTRENT'"
                 },
                 {
                   "label": "ES_BALANCE_GST_LABEL",
                   "jsonPath": "property.estateRentSummary.balanceGST",
-                  "visibility": "application.applicationDetails.typeOfNotice === 'TYPE_OF_NOTICE.NONPAYMENTRENT'"
+                  "visibility": "!!application.applicationDetails && application.applicationDetails.typeOfNotice === 'TYPE_OF_NOTICE.NONPAYMENTRENT'"
                 },
                 {
                   "label": "ES_BALANCE_GST_PENALTY_LABEL",
                   "jsonPath": "property.estateRentSummary.balanceGSTPenalty",
-                  "visibility": "application.applicationDetails.typeOfNotice === 'TYPE_OF_NOTICE.NONPAYMENTRENT'"
+                  "visibility": "!!application.applicationDetails && application.applicationDetails.typeOfNotice === 'TYPE_OF_NOTICE.NONPAYMENTRENT'"
                 },
                 {
                   "label": "ES_BALANCE_RENT_PENALTY_LABEL",
                   "jsonPath": "property.estateRentSummary.balanceRentPenalty",
-                  "visibility": "application.applicationDetails.typeOfNotice === 'TYPE_OF_NOTICE.NONPAYMENTRENT'"
+                  "visibility": "!!application.applicationDetails && application.applicationDetails.typeOfNotice === 'TYPE_OF_NOTICE.NONPAYMENTRENT'"
                 },
                 {
                   "label": "ES_BALANCE_AMOUNT_LABEL",
-                  "jsonPath": "property.estateRentSummary.balanceAmount"
+                  "jsonPath": "property.estateRentSummary.balanceAmount",
+                  "visibility": "!!application.applicationDetails && application.applicationDetails.typeOfNotice === 'TYPE_OF_NOTICE.NONPAYMENTRENT'"
                 },
                 {
                   "label": "ES_DATE_OF_HEARING_LABEL",
