@@ -9,7 +9,7 @@
       "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
-      "description": "BPL Yellow Ration card"
+      "description": "Copy of Ration card / Priority household card"
     },
     {
       "code": "NULM_VOTER_ID_CARD",
@@ -18,7 +18,7 @@
       "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
-      "description": "Voter id card"
+      "description": "Copy of Voter ID"
     },
 	{
       "code": "NULM_ADHAR_CARD",
@@ -27,16 +27,16 @@
 	  "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
-      "description": "Adhar card"
+      "description": "Copy of Aadhar card"
     },
 	{
       "code": "NULM_PAN_CARD",
       "documentType": "NULM_PAN_CARD",
-      "required": true,
+      "required": false,
       "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE", 
-      "description": "Pan card"
+      "description": "Copy of Pan Card"
     },
 	{
       "code": "NULM_PHOTO_COPY_OF_APPLICANT",
@@ -45,7 +45,7 @@
       "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
-      "description": "Photo of the applicant"
+      "description": "Applicant Photo – Passport Size"
     },
 	{
       "code": "NULM_DISABILITY_CERTIFICATE",
