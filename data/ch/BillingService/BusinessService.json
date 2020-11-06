@@ -411,6 +411,28 @@
 			"isVoucherCreationEnabled": true
 		},
 		{
+			"businessService": "Estate branch penalty for violation on property",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_VIOLATION",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Building branch penalty for violation on property",
+			"code": "ESTATE_SERVICE_BUILDING_BRANCH.PROPERTY_VIOLATION",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
 			"businessService": "WaterCharges.Metered",
 			"code": "WaterCharges.Metered",
 			"collectionModesNotAllowed": [

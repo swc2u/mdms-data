@@ -13641,6 +13641,18 @@
     "path": "PropertyPayRentApi"
     },
     {
+    "id": 30025,
+    "name": "PropertyViolationPenalty",
+    "url": "/est-services/violation/_penalty",
+    "displayName": "Property Violation Penalty api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "PropertyViolationPenaltyApi",
+    "code": "null",
+    "path": "PropertyViolationPenaltyApi"
+    },
+    {
       "id": 1812,
       "name": "UC Report",
       "url": "/report/rainmaker-common/_get",

@@ -951,7 +951,27 @@
       "isActualDemand": true,
       "order": "0",
       "isRequired": false
-    },    
+    },   
+    {
+      "category": "PENALTY",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_VIOLATION",
+      "name": "Estate branch penalty for violation on property",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_VIOLATION_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "PENALTY",
+      "service": "ESTATE_SERVICE_BUILDING_BRANCH.PROPERTY_VIOLATION",
+      "name": "Building branch penalty for violation on property",
+      "code": "ESTATE_SERVICE_BUILDING_BRANCH.PROPERTY_VIOLATION_PENALTY",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    }, 
     {
       "category": "TAX",
       "service": "TL",
