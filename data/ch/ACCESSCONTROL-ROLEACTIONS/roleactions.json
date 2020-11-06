@@ -41278,6 +41278,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_BB_JUNIOR_ENGINEER",
+			"actionid": 30003,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "CITIZEN",
 			"actionid": 30003,
 			"actioncode": "",
