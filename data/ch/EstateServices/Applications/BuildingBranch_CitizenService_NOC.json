@@ -291,6 +291,16 @@
               ]
             },
             {
+              "header": "ES_NOC_DETAILS_HEADER",
+              "isEditable": false,
+              "fields": [
+                {
+                  "label": "ES_NOC_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.nocType"
+                }
+              ]
+            },
+            {
               "header": "ES_APPLICANT_DETAILS_HEADER",
               "step": 0,
               "fields": [
