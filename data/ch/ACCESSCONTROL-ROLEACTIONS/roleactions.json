@@ -52606,6 +52606,54 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4567,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4567,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4568,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4568,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4569,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4569,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "EMPLOYEE",
+				"actionid": 4570,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "CITIZEN",
+				"actionid": 4570,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "WORKS_CREATE_ESTIMATE",
 				"actionid": 4557,
 				"actioncode": "",
