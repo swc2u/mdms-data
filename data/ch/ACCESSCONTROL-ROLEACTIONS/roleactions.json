@@ -42219,6 +42219,18 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
+		  {
+			"rolecode": "EMPLOYEE",
+			"actionid": 30026,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CITIZEN",
+			"actionid": 30026,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
 		{
 			"rolecode": "SASO",
 			"actionid": 4302,

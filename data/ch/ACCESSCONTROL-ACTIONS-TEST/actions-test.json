@@ -13653,6 +13653,18 @@
     "path": "PropertyViolationPenaltyApi"
     },
     {
+    "id": 30026,
+    "name": "GeneratingAccountStatementExcel",
+    "url": "/est-services/property-master/_accountstatementxlsx",
+    "displayName": "Generating Account Statement Excel api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "GeneratingAccountStatementExcelApi",
+    "code": "null",
+    "path": "GeneratingAccountStatementExcelApi"
+    },
+    {
       "id": 1812,
       "name": "UC Report",
       "url": "/report/rainmaker-common/_get",
