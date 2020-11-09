@@ -21743,7 +21743,7 @@
 	{
 		"id": 4569,
 		"name": "update susvr application",
-		"url": "/nulm-services//v1/susv/renew/_update",
+		"url": "/nulm-services/v1/susv/renew/_update",
 		"displayName": "update susv application",
 		"orderNumber": 1,
 		"parentModule": "",
