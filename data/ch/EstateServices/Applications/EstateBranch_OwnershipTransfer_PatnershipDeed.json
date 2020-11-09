@@ -828,7 +828,7 @@
                   "path": "company.type",
                   "dataSource": "companyType",
                   "disabled": true,
-                  "prefillValue": "property.propertyDetails.companyType"
+                  "prefillValue": "property.propertyDetails.entityType"
                 }
               ]
             },
@@ -1094,8 +1094,8 @@
           }
         }
       ],
-      "feePercentGST" : [],
-	  "fees": [
+      "feePercentGST": [],
+      "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
@@ -1122,9 +1122,9 @@
           "amount": 0.0
         },
         {
-          "category" : "*",
-          "subCategory" : "*",
-          "amount" : 100.0
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
         }
       ]
     }

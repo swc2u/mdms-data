@@ -1,16 +1,22 @@
 {
-    "tenantId": "ch",
-    "moduleName": "EstateServices",
-    "companyDetails": [
-      {
-        "name": "partnership",
-        "code": "COMPANY_DETAILS.PARTNERSHIP",
-        "active": true
-      },
-      {
-        "name": " proprietorship",
-        "code": "COMPANY_DETAILS.PROPRIETORSHIP",
-        "active": true
-      }
-    ]
-  }
+  "tenantId": "ch",
+  "moduleName": "EstateServices",
+  "companyDetails": [
+    {
+      "code": "ET.PUBLIC_LIMITED_COMPANY",
+      "name": "Public ltd company",
+      "active": true
+    },
+    {
+      "code": "ET.PRIVATE_LIMITED_COMPANY",
+      "name": "Private ltd company",
+      "active": true
+    },
+    {
+      "code": "ET.PARTNERSHIP_FIRM",
+      "name": "Partnership firm",
+      "active": true
+    },
+    { "code": "ET.PROPRIETORSHIP", "name": "Proprietorship", "active": true }
+  ]
+}
