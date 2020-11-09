@@ -882,7 +882,8 @@
               "fields": [
                 {
                   "label": "ES_FAMILY_SETTLEMENT_COURT_DECREE_DATE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.decreeDate"
+                  "jsonPath": "Applications[0].applicationDetails.decreeDate",
+                  "type": "date"
                 },
                 {
                   "label": "ES_PASSED_BY_COURT_LABEL",
@@ -985,8 +986,8 @@
           }
         }
       ],
-      "feePercentGST" : [],
-	  "fees": [
+      "feePercentGST": [],
+      "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
@@ -1013,9 +1014,9 @@
           "amount": 0.0
         },
         {
-          "category" : "*",
-          "subCategory" : "*",
-          "amount" : 100.0
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
         }
       ]
     }
