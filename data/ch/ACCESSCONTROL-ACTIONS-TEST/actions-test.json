@@ -22673,6 +22673,34 @@
 		"path": "Works.Work Agreement.Work Agreement Progress Update",
 		"navigationURL": "services/works/boq/progressUpdate",
 		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6012,
+		"name": "Manage Auditor/RSA",
+		"url": "services/audit/manageAuditor/manageAudform",
+		"displayName": "Manage Auditor/RSA",
+		"orderNumber": "1",
+		"parentModule": "audit",
+		"enabled": true,
+		"serviceCode": "audit",
+		"code": "",
+		"path": "Audit.Manage Auditor/RSA",
+		"navigationURL": "services/audit/manageAuditor/manageAudform",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6013,
+		"name": "Manage Audit Task",
+		"url": "services/audit/createAudit/post/auditStateSearch",
+		"displayName": "Manage Audit Task",
+		"orderNumber": "1",
+		"parentModule": "audit",
+		"enabled": true,
+		"serviceCode": "audit",
+		"code": "",
+		"path": "Audit.Manage Audit Task",
+		"navigationURL": "services/audit/createAudit/post/auditStateSearch",
+		"leftIcon": "editor:insert-chart"
 	}
   ]
 }

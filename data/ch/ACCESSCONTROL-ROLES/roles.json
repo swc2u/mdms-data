@@ -1291,6 +1291,11 @@
       "code": "WORKS_PROGRESS_UPDATE",
       "name": "WORKS_PROGRESS_UPDATE",
       "description": "WORKS_PROGRESS_UPDATE"
+    },
+	{
+      "code": "AUDIT_MASTER",
+      "name": "AUDIT_MASTER",
+      "description": "AUDIT_MASTER"
     }
   ]
 }
