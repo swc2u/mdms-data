@@ -483,21 +483,14 @@
       "uiConfig": {
         "dataSources": [
           {
-            "name": "nocTypes",
-            "type": "local",
+            "name": "typeOfNocBb",
+            "type": "mdms",
             "cacheable": true,
             "lazyload": true,
-            "values": [
-              {
-                "code": "Electricity"
-              },
-              {
-                "code": "Water"
-              },
-              {
-                "code": "Sewarage"
-              }
-            ]
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "typeOfNocBb"
+            }
           },
           {
             "name": "owners",
@@ -578,9 +571,9 @@
                   "label": "ES_NOC_LABEL",
                   "placeholder": "ES_SELECT_NOC_TYPE_PLACEHOLDER",
                   "type": "MULTI_SELECT",
-                  "jsonPath": "Applications[0].applicationDetails.nocType",
+                  "jsonPath": "Applications[0].applicationDetails.typeOfNoc",
                   "path": "nocType",
-                  "dataSource": "nocTypes"
+                  "dataSource": "typeOfNocBb"
                 }
               ]
             },
@@ -676,8 +669,7 @@
                 },
                 {
                   "label": "ES_VILLAGE_LABEL",
-                  "jsonPath": "Applications[0].property.propertyDetails.village",
-                  "type": "date"
+                  "jsonPath": "Applications[0].property.propertyDetails.village"
                 },
                 {
                   "label": "ES_MOHALLA_LABEL",
@@ -691,11 +683,11 @@
             },
             {
               "header": "ES_NOC_DETAILS_HEADER",
-              "isEditable": false,
+              "step": 0,
               "fields": [
                 {
                   "label": "ES_NOC_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.nocType"
+                  "jsonPath": "Applications[0].applicationDetails.typeOfNoc"
                 }
               ]
             },
