@@ -385,7 +385,7 @@
           ]
         },
         {
-          "path": "ArchitectsReport",
+          "path": "architectsReport",
           "required": true,
           "validations": [
             {
@@ -403,7 +403,7 @@
           ]
         },
         {
-          "path": "dateOfVistt",
+          "path": "dateOfVist",
           "required": false,
           "validations": [
             {
