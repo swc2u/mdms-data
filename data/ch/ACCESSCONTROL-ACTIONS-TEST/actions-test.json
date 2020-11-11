@@ -13652,6 +13652,30 @@
     "code": "null",
     "path": "PropertyViolationPenaltyApi"
     },
+	{
+	"id": 30026,
+    "name": "GeneratingAccountStatementExcel",
+    "url": "/est-services/property-master/_accountstatementxlsx",
+    "displayName": "Generating Account Statement Excel api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "GeneratingAccountStatementExcelApi",
+    "code": "null",
+    "path": "GeneratingAccountStatementExcelApi"
+    },
+    {
+    "id": 30027,
+    "name": "PropertyViolationPenaltyPayment",
+    "url": "/est-services/violation/_penalty_payment",
+    "displayName": "Property Violation Penalty Payment api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "PropertyViolationPenaltyPaymentApi",
+    "code": "null",
+    "path": "PropertyViolationPenaltyPaymentApi"
+	},
     {
     "id": 30026,
     "name": "GeneratingAccountStatementExcel",
