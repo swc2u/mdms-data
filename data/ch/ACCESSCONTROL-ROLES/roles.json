@@ -1177,6 +1177,111 @@
       "name": "COLL_RECEIPT_REPORT",
       "description": "COLL_RECEIPT_REPORT"
     },
+    {
+      "code": "ES_ADDITIONAL_COMMISSIONER",
+      "name": "Additional Comissioner",
+      "description": "Estate Module Additional Comissioner"
+    },
+    {
+      "code": "ES_BB_DEALING_ASSISTANT",
+      "name": "Dealing Assistant",
+      "description": "Building Branch Dealing Assistant"
+    },
+    {
+      "code": "ES_BB_DISPATCH_OFFICER",
+      "name": "Dispatch Section Officer",
+      "description": "Building Branch Dispatch Section Officer"
+    },
+    {
+      "code": "ES_BB_DRAFTSMAN",
+      "name": "Draftsman",
+      "description": "Building Branch Draftsman"
+    },
+    {
+      "code": "ES_BB_FINANCIAL_OFFICER",
+      "name": "Financial Department Officer",
+      "description": "Building Branch Financial Department Officer"
+    },
+    {
+      "code": "ES_BB_JUNIOR_ENGINEER",
+      "name": "Junior Engineer",
+      "description": "Building Branch Junior Engineer"
+    },
+    {
+      "code": "ES_BB_SDE",
+      "name": "SDE",
+      "description": "Building Branch SDE"
+    },
+    {
+      "code": "ES_EB_CHEIF_ACCOUNTS_OFFICER",
+      "name": "Cheif Accounts Officer",
+      "description": "Estate Branch Cheif Accounts Officer"
+    },
+    {
+      "code": "ES_EB_DEALING_ASSISTANT",
+      "name": "Dealing Assistant",
+      "description": "Estate Branch Dealing Assistant"
+    },
+    {
+      "code": "ES_EB_DISPATCH_OFFICER",
+      "name": "Dispatch Section Officer",
+      "description": "Estate Branch Dispatch Section Officer"
+    },
+    {
+      "code": "ES_EB_FINANCIAL_OFFICER",
+      "name": "Financial Department Officer",
+      "description": "Estate Branch Financial Department Officer"
+    },
+    {
+      "code": "ES_EB_LOCAL_AUDIT_OFFICER",
+      "name": "Local Audit Officer",
+      "description": "Estate Branch Local Audit Officer"
+    },
+    {
+      "code": "ES_EB_SECTION_OFFICER",
+      "name": "Section Officer",
+      "description": "Estate Branch Section Officer"
+    },
+    {
+      "code": "ES_EB_SR_ASSISTANT",
+      "name": "Senior Assistant",
+      "description": "Estate Branch Senior Assistant"
+    },
+    {
+      "code": "ES_MM_BUILDING_INSPECTOR",
+      "name": "Building Inspector",
+      "description": "Manimajra Branch Building Inspector"
+    },
+    {
+      "code": "ES_MM_DEALING_ASSISTANT",
+      "name": "Dealing Assistant",
+      "description": "Manimajra Branch Dealing Assistant"
+    },
+    {
+      "code": "ES_MM_DISPATCH_OFFICER",
+      "name": "Dispatch Section Officer",
+      "description": "Manimajra Branch Dispatch Section Officer"
+    },
+    {
+      "code": "ES_MM_FINANCIAL_OFFICER",
+      "name": "Financial Department Officer",
+      "description": "Manimajra Branch Financial Department Officer"
+    },
+    {
+      "code": "ES_MM_SECTION_OFFICER",
+      "name": "Section Officer",
+      "description": "Manimajra Branch Section Officer"
+    },
+    {
+      "code": "ES_MM_SR_ASSISTANT",
+      "name": "Senior Assistant",
+      "description": "Manimajra Branch Senior Assistant"
+    },
+    {
+      "code": "ES_MM_TAX_CONTROLLER_MANIMAJRA",
+      "name": "Tax Controller Officer",
+      "description": "Manimajra Branch Tax Controller Officer"
+    },
 	{
       "code": "WORKS_CLOSURE",
       "name": "WORKS_CLOSURE",
@@ -1186,6 +1291,11 @@
       "code": "WORKS_PROGRESS_UPDATE",
       "name": "WORKS_PROGRESS_UPDATE",
       "description": "WORKS_PROGRESS_UPDATE"
+    },
+	{
+      "code": "AUDIT_MASTER",
+      "name": "AUDIT_MASTER",
+      "description": "AUDIT_MASTER"
     }
   ]
 }

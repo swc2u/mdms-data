@@ -550,7 +550,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.SaleDeed",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
       "code": "ESEBSD10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -558,7 +558,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.RegisteredWill",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
       "code": "ESEBRW10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -566,7 +566,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.UnRegisteredWill",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
       "code": "ESEBURW10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -574,7 +574,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.IntestateDeath",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
       "code": "ESEBID10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -582,7 +582,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.FamilySettlement",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
       "code": "ESEBFS10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -590,7 +590,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.PatnershipDeed",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
       "code": "ESEBPD10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -598,7 +598,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.Mortgage",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
       "code": "ESEBMG10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -606,7 +606,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.NOC",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.NOC",
       "code": "ESEBNOC10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -614,7 +614,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.NDC",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.NDC",
       "code": "ESEBNDC10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -622,7 +622,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.LeaseDeed",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
       "code": "ESEBLD10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -630,7 +630,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.DuplicateCopy",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
       "code": "ESEBDC10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -638,7 +638,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.LeaseholdToFreehold",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
       "code": "ESEBLTF10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -646,7 +646,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.ScfToSco",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
       "code": "ESEBSCFSCO10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -654,7 +654,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.ChangeInTrade",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
       "code": "ESEBCT10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -662,7 +662,7 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.IssuanceOfNotice",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
       "code": "ESEBIN10YRS2020",
       "financialYear": "2020-30"
     }, 
@@ -670,7 +670,15 @@
       "fromDate": 1585679400000,
       "toDate": 1901298599000,
       "periodCycle": "TENYEARS",
-      "service": "EstateService.EstateBranch.AllotmentOfSite",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE",
+      "code": "ESEBAS10YRS2020",
+      "financialYear": "2020-30"
+    }, 
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
       "code": "ESEBAS10YRS2020",
       "financialYear": "2020-30"
     }, 
