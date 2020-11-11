@@ -22701,6 +22701,54 @@
 		"path": "Audit.Manage Audit Task",
 		"navigationURL": "services/audit/createAudit/post/auditStateSearch",
 		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6014,
+		"name": "getotp",
+		"url": "/integration-services/pt/v1/_getOTP",
+		"displayName": "Get OTP",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6015,
+		"name": "verifyotp",
+		"url": "/integration-services/pt/v1/_verifyOTP",
+		"displayName": "Verify OTP",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6016,
+		"name": "getSectorList",
+		"url": "/integration-services/pt/v1/_getSectorList",
+		"displayName": "getSectorList",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6017,
+		"name": "getPropertyByPID",
+		"url": "/integration-services/pt/v1/_getPropertyByPID",
+		"displayName": "getPropertyByPID",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
 	}
   ]
 }
