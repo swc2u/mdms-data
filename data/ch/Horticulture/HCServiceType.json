@@ -3,23 +3,23 @@
     "moduleName": "eg-horticulture",
     "ServiceType": [
         {
-             "name": "Pruning of Trees Girth less than 90 cms", 
+             "name": "Pruning of trees girth upto 90 cm", 
             "code": "PRUNING OF TREES GIRTH LESS THAN OR EQUAL TO 90 CMS",
             "active": true
         },
         {
-             "name": "Pruning of Trees Girth greater than or equal to 90 cms",
+             "name": "Pruning of trees girth beyond 90 cm",
             "code": "PRUNING OF TREES GIRTH GREATER THAN 90 CMS",
             "active": true
         },
         
          {
-             "name": "Removal of Dead/Dangerous/Dry Trees",
+             "name": "Removal of Dead/Dangerous/Dry Trees or Pollarding of trees",
             "code": "REMOVAL OF DEAD/DANGEROUS/DRY TREES",
             "active": true
         },
 	{
-             "name": "Removal of Green Trees",
+             "name": "Felling of Trees (Green trees, including Transplantation cases)",
             "code": "REMOVAL OF GREEN TREES",
             "active": true
         }
