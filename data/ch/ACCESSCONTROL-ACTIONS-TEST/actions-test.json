@@ -13677,17 +13677,17 @@
     "path": "PropertyViolationPenaltyPaymentApi"
 	},
     {
-    "id": 30026,
-    "name": "GeneratingAccountStatementExcel",
-    "url": "/est-services/property-master/_accountstatementxlsx",
-    "displayName": "Generating Account Statement Excel api",
+    "id": 30028,
+    "name": "PropertyViolationPenaltyStatement",
+    "url": "/est-services/violation/_penalty_statement",
+    "displayName": "Property Violation Penalty Statement api",
     "orderNumber": 0,
     "parentModule": "",
     "enabled": true,
-    "serviceCode": "GeneratingAccountStatementExcelApi",
+    "serviceCode": "PropertyViolationPenaltyStatementApi",
     "code": "null",
-    "path": "GeneratingAccountStatementExcelApi"
-    },
+    "path": "PropertyViolationPenaltyStatementApi"
+	},
     {
       "id": 1812,
       "name": "UC Report",
