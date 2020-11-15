@@ -20649,7 +20649,7 @@
 		"enabled": true,
 		"serviceCode": "STORE",
 		"code": "null",
-		"path": "Store.Store Asset Master.Opening Balance",
+		"path": "Store.Opening Balance",
 		"navigationURL": "egov-store-asset/search-opening-balence",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
