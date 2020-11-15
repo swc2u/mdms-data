@@ -19953,6 +19953,17 @@
       "path": ""
     },
 	{
+      "id": 4095,
+      "name": "Water insert bill data",
+      "url": "/ws-services/billGeneration/_saveBilling",
+      "displayName": "Water insert bill data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",
