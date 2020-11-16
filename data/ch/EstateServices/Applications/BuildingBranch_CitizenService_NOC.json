@@ -57,7 +57,7 @@
         },
         {
           "path": "wholeHousePurchased",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -79,7 +79,7 @@
         },
         {
           "path": "khasraNo",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -92,7 +92,7 @@
         },
         {
           "path": "hadbastNo",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -105,7 +105,7 @@
         },
         {
           "path": "khewatNo",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -118,7 +118,7 @@
         },
         {
           "path": "boundedOnEast",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -131,7 +131,7 @@
         },
         {
           "path": "boundedOnWest",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -144,7 +144,7 @@
         },
         {
           "path": "boundedOnNorth",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -157,7 +157,7 @@
         },
         {
           "path": "boundedOnSouth",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -170,7 +170,7 @@
         },
         {
           "path": "frontElevationWidth",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -183,7 +183,7 @@
         },
         {
           "path": "streetWidth",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -196,7 +196,7 @@
         },
         {
           "path": "mutationNo",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -209,7 +209,7 @@
         },
         {
           "path": "otherSideStreet",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -227,7 +227,7 @@
         },
         {
           "path": "areaIsSame",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -249,7 +249,7 @@
         },
         {
           "path": "lalLakirOrUnacquiredAbadi",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -258,7 +258,7 @@
         },
         {
           "path": "electricityMeterExists",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -267,7 +267,7 @@
         },
         {
           "path": "waterMeterExists",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -276,7 +276,7 @@
         },
         {
           "path": "heightExcludingMumty",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -302,7 +302,7 @@
         },
         {
           "path": "milkCattleInPremises",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -311,7 +311,7 @@
         },
         {
           "path": "cantileverOrprojection",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -333,7 +333,7 @@
         },
         {
           "path": "commercialActivity",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -342,7 +342,7 @@
         },
         {
           "path": "basement",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -364,7 +364,7 @@
         },
         {
           "path": "issueOfNoc",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -386,7 +386,7 @@
         },
         {
           "path": "architectsReport",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
@@ -395,7 +395,7 @@
         },
         {
           "path": "fireNoc",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "boolean"
