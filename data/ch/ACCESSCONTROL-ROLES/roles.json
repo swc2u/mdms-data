@@ -832,6 +832,11 @@
       "description": "Appellete Auth"
     },
 	{
+      "code": "WS_BILL_UPLOAD",
+      "name": "WS demand file upload",
+      "description": "WS demand file upload"
+    },
+	{
       "code": "WS_COMMON",
       "name": "WS Common role",
       "description": "Common role for water & sewerage"
@@ -1291,6 +1296,11 @@
       "code": "WORKS_PROGRESS_UPDATE",
       "name": "WORKS_PROGRESS_UPDATE",
       "description": "WORKS_PROGRESS_UPDATE"
+    },
+	{
+      "code": "AUDIT_MASTER",
+      "name": "AUDIT_MASTER",
+      "description": "AUDIT_MASTER"
     }
   ]
 }
