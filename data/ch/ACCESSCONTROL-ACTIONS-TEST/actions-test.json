@@ -13806,6 +13806,17 @@
       "path": "Billing Service.GenerateBill"
     },
     {
+      "id": 1895,
+      "name": "Collection Cancel Reciept",
+      "url": "/collection-services/payments/_cancel",
+      "displayName": "Cancel Payment",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "COLLECTION",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1863,
       "name": "Collection Create Reciept",
       "url": "/collection-services/payments/_create",
