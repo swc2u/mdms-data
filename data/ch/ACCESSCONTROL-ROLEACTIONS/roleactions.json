@@ -19751,18 +19751,6 @@
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 1895,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1895,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "CITIZEN",
       "actionid": 1896,
       "actioncode": "",
       "tenantId": "ch"
@@ -20072,6 +20060,18 @@
       "actionid": 1940,
       "actioncode": "",
       "tenantId": "ch"
+     },
+     {
+       "rolecode": "COLL_RECEIPT_CREATOR",
+       "actionid": 1895,
+       "actioncode": "",
+       "tenantId": "ch"
+     },
+     {
+       "rolecode": "COLL_REMIT_TO_BANK",
+       "actionid": 1895,
+       "actioncode": "",
+       "tenantId": "ch"
     },
     {
       "rolecode": "EGF_PAYMENT_CREATOR",
