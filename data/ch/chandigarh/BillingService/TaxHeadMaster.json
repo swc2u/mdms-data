@@ -3398,7 +3398,7 @@
 		 "isActualDemand": true,
 		 "order": "10",
 		 "isRequired": false,
-		 "taxAmount" : "350"
+		 "taxAmount" : "600"
 	   },
 	   {
 		 "category": "TAX",
@@ -3409,7 +3409,7 @@
 		 "isActualDemand": true,
 		 "order": "10",
 		 "isRequired": false,
-		 "taxAmount" : "18"
+		 "taxAmount" : "0"
 	   },
 	   {
 		 "category": "CHARGES",
