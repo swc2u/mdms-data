@@ -882,7 +882,8 @@
               "fields": [
                 {
                   "label": "ES_FAMILY_SETTLEMENT_COURT_DECREE_DATE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.decreeDate"
+                  "jsonPath": "Applications[0].applicationDetails.decreeDate",
+                  "type": "date"
                 },
                 {
                   "label": "ES_PASSED_BY_COURT_LABEL",
@@ -920,7 +921,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -940,7 +941,8 @@
             },
             "event": {
               "enabled": true,
-              "to": "{owner.id}"
+              "to": "{createdBy.uuid}",
+             "isPayLink" : true
             }
           }
         },
@@ -960,7 +962,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -980,13 +982,13 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         }
       ],
-      "feePercentGST" : [],
-	  "fees": [
+      "feePercentGST": [],
+      "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
@@ -1013,9 +1015,9 @@
           "amount": 0.0
         },
         {
-          "category" : "*",
-          "subCategory" : "*",
-          "amount" : 100.0
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
         }
       ]
     }

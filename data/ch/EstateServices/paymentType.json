@@ -3,6 +3,11 @@
     "moduleName": "EstateServices",
     "paymentType": [
         {
+            "name": "Rent",
+            "code": "PAYMENTTYPE.RENT",
+            "active": true
+        },
+        {
             "name": "Advance rent",
             "code": "PAYMENTTYPE.ADVANCERENT",
             "active": true
@@ -20,11 +25,6 @@
         {
             "name": "Penalty for violation of T&C",
             "code": "PAYMENTTYPE.PENALTYVIOLATION",
-            "active": true
-        },
-        {
-            "name": "EMD amount",
-            "code": "PAYMENTTYPE.EMDAMOUNT",
             "active": true
         }
     ]

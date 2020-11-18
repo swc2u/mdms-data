@@ -469,7 +469,8 @@
                 },
                 "event" : {
                     "enabled" : true,
-                    "to" : "{owner.id}"
+                    "to" : "{owner.mobileNumber}",
+                   "isPayLink" : true
                 }
             }
         },

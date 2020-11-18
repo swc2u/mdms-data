@@ -403,7 +403,7 @@
                   "path": "company.type",
                   "dataSource": "TypeOfLetter",
                   "disabled": true,
-                  "prefillValue": "property.propertyDetails.companyType"
+                  "prefillValue": "property.propertyDetails.entityType"
                 }
               ]
             }
@@ -532,7 +532,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -552,7 +552,8 @@
             },
             "event": {
               "enabled": true,
-              "to": "{owner.id}"
+              "to": "{createdBy.uuid}",
+             "isPayLink" : true
             }
           }
         },
@@ -572,7 +573,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -592,13 +593,13 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         }
       ],
-      "feePercentGST" : [],
-	  "fees": [
+      "feePercentGST": [],
+      "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
@@ -625,9 +626,9 @@
           "amount": 0.0
         },
         {
-          "category" : "*",
-          "subCategory" : "*",
-          "amount" : 100.0
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
         }
       ]
     }

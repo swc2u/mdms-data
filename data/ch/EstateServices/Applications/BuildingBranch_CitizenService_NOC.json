@@ -5,7 +5,7 @@
     {
       "fields": [
         {
-          "path": "owner",
+          "path": "transferor",
           "required": true,
           "validations": [
             {
@@ -14,11 +14,410 @@
           ]
         },
         {
-          "path": "owner.id",
+          "path": "transferor.id",
           "required": true,
           "validations": [
             {
               "type": "owner"
+            }
+          ]
+        },
+        {
+          "path": "documentsReceivedDate",
+          "required": false,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -1
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "path": "typeOfNoc",
+          "required": true,
+          "validations": [
+            {
+              "type": "mdms",
+              "params": {
+                "moduleName": "EstateServices",
+                "masterName": "typeOfNocBb",
+                "filter": "typeOfNocBb..code"
+              }
+            }
+          ]
+        },
+        {
+          "path": "wholeHousePurchased",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "areaPurchased",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "khasraNo",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "hadbastNo",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "khewatNo",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "boundedOnEast",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "boundedOnWest",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "boundedOnNorth",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "boundedOnSouth",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "frontElevationWidth",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "streetWidth",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "mutationNo",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "otherSideStreet",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "sameWidthOfSideStreet",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "areaIsSame",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "varations",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "lalLakirOrUnacquiredAbadi",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "electricityMeterExists",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "waterMeterExists",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "heightExcludingMumty",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 2,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "heightofMumty",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 1,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "milkCattleInPremises",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "cantileverOrprojection",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "cantileverOrprojectionDetails",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "commercialActivity",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "basement",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "otherViolations",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "issueOfNoc",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "issueOfNocDetails",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "architectsReport",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "fireNoc",
+          "required": false,
+          "validations": [
+            {
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "path": "dateOfVist",
+          "required": false,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -5
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
             }
           ]
         }
@@ -84,21 +483,14 @@
       "uiConfig": {
         "dataSources": [
           {
-            "name": "nocTypes",
-            "type": "local",
+            "name": "typeOfNocBb",
+            "type": "mdms",
             "cacheable": true,
             "lazyload": true,
-            "values": [
-              {
-                "code": "Electricity"
-              },
-              {
-                "code": "Water"
-              },
-              {
-                "code": "Sewarage"
-              }
-            ]
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "typeOfNocBb"
+            }
           },
           {
             "name": "owners",
@@ -179,9 +571,9 @@
                   "label": "ES_NOC_LABEL",
                   "placeholder": "ES_SELECT_NOC_TYPE_PLACEHOLDER",
                   "type": "MULTI_SELECT",
-                  "jsonPath": "Applications[0].applicationDetails.nocType",
+                  "jsonPath": "Applications[0].applicationDetails.typeOfNoc",
                   "path": "nocType",
-                  "dataSource": "nocTypes"
+                  "dataSource": "typeOfNocBb"
                 }
               ]
             },
@@ -277,8 +669,7 @@
                 },
                 {
                   "label": "ES_VILLAGE_LABEL",
-                  "jsonPath": "Applications[0].property.propertyDetails.village",
-                  "type": "date"
+                  "jsonPath": "Applications[0].property.propertyDetails.village"
                 },
                 {
                   "label": "ES_MOHALLA_LABEL",
@@ -287,6 +678,16 @@
                 {
                   "label": "ES_SIZE_OF_AREA_PURCHASED_LABEL",
                   "jsonPath": "Applications[0].property.propertyDetails.areaSqft"
+                }
+              ]
+            },
+            {
+              "header": "ES_NOC_DETAILS_HEADER",
+              "step": 0,
+              "fields": [
+                {
+                  "label": "ES_NOC_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.typeOfNoc"
                 }
               ]
             },
@@ -346,7 +747,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -366,7 +767,8 @@
             },
             "event": {
               "enabled": true,
-              "to": "{owner.id}"
+              "to" : "{owner.mobileNumber}",
+             "isPayLink" : true
             }
           }
         },
@@ -386,7 +788,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -406,13 +808,13 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         }
       ],
-      "feePercentGST" : [],
-	  "fees": [
+      "feePercentGST": [],
+      "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
@@ -439,9 +841,9 @@
           "amount": 0.0
         },
         {
-          "category" : "*",
-          "subCategory" : "*",
-          "amount" : 100.0
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
         }
       ]
     }

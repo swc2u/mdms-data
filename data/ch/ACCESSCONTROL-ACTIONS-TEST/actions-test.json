@@ -13506,7 +13506,8 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "navigationURL": "/estate/search-application",
-    "leftIcon": "custom:library-books"
+    "leftIcon": "custom:library-books",
+    "queryParams": "branchType=EstateBranch"
   },
   {
     "id": 30014,
@@ -13588,19 +13589,21 @@
     "orderNumber": 2,
     "parentModule": "building-branch",
     "enabled": true,
-    "navigationURL": "/estate/search",
-    "leftIcon": "custom:library-books"
+    "navigationURL": "/estate/search-application",
+    "leftIcon": "custom:library-books",
+    "queryParams": "branchType=BuildingBranch"
   },
   {
     "id": 30021,
-    "name": "issuance-of-notice",
+    "name": "issuing-notice",
     "url": "estate-card",
-    "displayName": "Issuing Notice",
+    "displayName": "ES_PROPERTY_MASTER_ISSUING_NOTICE_HEADER",
     "orderNumber": 2,
     "parentModule": "building-branch",
     "enabled": true,
-    "navigationURL": "/estate/search",
-    "leftIcon": "editor:border-color"
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "editor:border-color",
+    "queryParams": "branchType=BUILDING_BRANCH&type=BuildingBranch_CitizenService_IssuanceOfNotice"
   },
   {
     "id": 30022,
@@ -13637,6 +13640,54 @@
     "code": "null",
     "path": "PropertyPayRentApi"
     },
+    {
+    "id": 30025,
+    "name": "PropertyViolationPenalty",
+    "url": "/est-services/violation/_penalty",
+    "displayName": "Property Violation Penalty api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "PropertyViolationPenaltyApi",
+    "code": "null",
+    "path": "PropertyViolationPenaltyApi"
+    },
+	{
+	"id": 30026,
+    "name": "GeneratingAccountStatementExcel",
+    "url": "/est-services/property-master/_accountstatementxlsx",
+    "displayName": "Generating Account Statement Excel api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "GeneratingAccountStatementExcelApi",
+    "code": "null",
+    "path": "GeneratingAccountStatementExcelApi"
+    },
+    {
+    "id": 30027,
+    "name": "PropertyViolationPenaltyPayment",
+    "url": "/est-services/violation/_penalty_payment",
+    "displayName": "Property Violation Penalty Payment api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "PropertyViolationPenaltyPaymentApi",
+    "code": "null",
+    "path": "PropertyViolationPenaltyPaymentApi"
+	},
+    {
+    "id": 30028,
+    "name": "PropertyViolationPenaltyStatement",
+    "url": "/est-services/violation/_penalty_statement",
+    "displayName": "Property Violation Penalty Statement api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "PropertyViolationPenaltyStatementApi",
+    "code": "null",
+    "path": "PropertyViolationPenaltyStatementApi"
+	},
     {
       "id": 1812,
       "name": "UC Report",
