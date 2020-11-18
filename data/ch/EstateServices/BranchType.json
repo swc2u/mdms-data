@@ -1,0 +1,18 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "branchType": [
+        {
+            "code" : "BRANCH_ESTATE",
+            "role" : "ES_EB_APPROVER"
+        },
+        {
+            "code" : "BRANCH_BUILDING",
+            "role" : "ES_BB_APPROVER"
+        },
+        {
+            "code" : "BRANCH_MANIMAJRA",
+            "role" : "ES_MM_APPROVER"
+        }
+    ]
+}

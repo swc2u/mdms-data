@@ -1,0 +1,46 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "egpm",
+  "roadCutType": [
+    {
+		"name": "V-3,V-4,V-5 Road",
+		"code": "V3_V4_V5_ROAD",
+		"active": true
+	},
+	{
+		"name": "V-5,Parking and Internal Road",
+		"code": "V5_PARKING_AND_INTERNAL_ROAD",
+		"active": true
+	},
+	{
+		"name": "Paver Block",
+		"code": "PAVER_BLOCK",
+		"active": true
+	},
+	{
+		"name": "Katcha Berm",
+		"code": "KATCHA_BERM",
+		"active": true
+	},
+	{
+		"name": "Man Hole",
+		"code": "MAN_HOLE",
+		"active": true
+	},
+	{
+		"name": "Pit on Kalcha",
+		"code": "PIT_ON_KALCHA",
+		"active": true
+	},
+	{
+		"name": "Pit on Paver",
+		"code": "PIT_ON_PAVER",
+		"active": true
+	},
+	{
+		"name": "Pit on  V-3,V-4,V-5 Road And Main Road",
+		"code": "PIT_ON_V3_V4_V5_ROAD_MAIN_ROAD",
+		"active": true
+	}
+  ]
+}

@@ -84,7 +84,7 @@
       "code": "PLUMBER_REPORT_DRAWING",
       "documentType": "PLUMBER_REPORT_DRAWING",
       "active": true,
-      "required": true,
+      "required": false,
        "hasDropdown": true,
       "dropdownData": [
         {

@@ -607,6 +607,36 @@
 		"code": "270",
 		"description": "MTS",
 		"active": true
-	}
+	},
+	{
+		"name": "Forest Range Officer",
+		"code": "271",
+		"description": "Forest Range Officer",
+		"active": true
+	},
+	{
+		"name": "Deputy Conservator of Forest",
+		"code": "272",
+		"description": "Deputy Conservator of Forest",
+		"active": true
+	},
+	{
+		"name": "Chief Conservator of Forest",
+		"code": "273",
+		"description": "Chief Conservator of Forest",
+		"active": true
+	},
+	{
+		"name": "Principal Secretary Environment",
+		"code": "274",
+		"description": "Principal Secretary Environment",
+		"active": true
+	},
+	{
+		"name": "Executive Engineer (W&E)",
+		"code": "275",
+		"description": "Executive Engineer (W&E)",
+		"active": true
+	}	  
   ]
 }

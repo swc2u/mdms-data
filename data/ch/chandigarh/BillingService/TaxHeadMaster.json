@@ -135,7 +135,7 @@
     {
       "category": "FEE",
       "service": "CTL.REHRI_REGISTRATION",
-      "name": "Rehri Registration fee",
+      "name": "Rehri Registration Plate charges",
       "code": "CTL.REHRI_REGISTRATION_CHARGES",
       "isDebit": false,
       "isActualDemand": true,
@@ -291,7 +291,477 @@
       "isActualDemand": true,
       "order": "3",
       "isRequired": false
-    },	  
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
+      "name": "Ownership Transfer Application Charges (Milk Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
+      "name": "Ownership Transfer APRO Charges (Milk Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER_PUBLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
+      "name": "Ownership Transfer Application Charges (Kumhar Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
+      "name": "Ownership Transfer APRO Charges (Kumhar Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER_PUBLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
+      "name": "Ownership Transfer Application Charges (Sector 52-53)",
+      "code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
+      "name": "Ownership Transfer APRO Charges (Sector 52-53)",
+      "code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER_PUBLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
+      "name": "Ownership Transfer Application Charges (Vikas Nagar)",
+      "code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
+      "name": "Ownership Transfer APRO Charges (Vikas Nagar)",
+      "code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER_PUBLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
+      "name": "Duplicate Copy Application Charges (Milk Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
+      "name": "Duplicate Copy APRO Charges (Milk Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
+      "name": "Duplicate Copy Application Charges (Kumhar Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
+      "name": "Duplicate Copy APRO Charges (Kumhar Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
+      "name": "Duplicate Copy Application Charges (Sector 52-53)",
+      "code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
+      "name": "Duplicate Copy APRO Charges (Sector 52-53)",
+      "code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
+      "name": "Duplicate Copy Application Charges (Vikas Nagar)",
+      "code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
+      "name": "Duplicate Copy APRO Charges (Vikas Nagar)",
+      "code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    },
+    {
+      "category": "PRINCIPAL",
+      "service": "RENTED_PROPERTIES_COLONY_MILK.RENT",
+      "name": "Principal Rent Amount (Milk Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_MILK.RENT_PRINCIPAL",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    }, 
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "RENTED_PROPERTIES_COLONY_MILK.RENT",
+      "name": "Advance Rent Amount (Milk Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_MILK.RENT_ADVANCE_COLLECTION",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    }, 
+    {
+      "category": "INTEREST",
+      "service": "RENTED_PROPERTIES_COLONY_MILK.RENT",
+      "name": "Interest rent amount (Milk Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_MILK.RENT_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PRINCIPAL",
+      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
+      "name": "Principal Rent Amount (Kumhar Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT_PRINCIPAL",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    }, 
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
+      "name": "Advance Rent Amount (Kumhar Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT_ADVANCE_COLLECTION",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    }, 
+    {
+      "category": "INTEREST",
+      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
+      "name": "Interest rent amount (Kumhar Colony)",
+      "code": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PRINCIPAL",
+      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
+      "name": "Principal Rent Amount (Sector 52-53)",
+      "code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT_PRINCIPAL",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    }, 
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
+      "name": "Advance Rent Amount (Sector 52-53) ",
+      "code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT_ADVANCE_COLLECTION",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    }, 
+    {
+      "category": "INTEREST",
+      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
+      "name": "Interest rent amount (Sector 52-53)",
+      "code": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "PRINCIPAL",
+      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
+      "name": "Principal Rent Amount (Vikas Nagar)",
+      "code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT_PRINCIPAL",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "1",
+      "isRequired": false
+    }, 
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
+      "name": "Advance Rent Amount (Vikas Nagar)",
+      "code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT_ADVANCE_COLLECTION",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "3",
+      "isRequired": false
+    }, 
+    {
+      "category": "INTEREST",
+      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
+      "name": "Interest rent amount (Vikas Nagar)",
+      "code": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "2",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+      "name": "Estate branch Ownership transfer Sale deed Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+      "name": "Estate branch Ownership transfer Registered will Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+      "name": "Estate branch Ownership transfer Unregistered will Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+      "name": "Estate branch Ownership transfer Intestate death Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+      "name": "Estate branch Ownership transfer Family settlement Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
+      "name": "Estate branch Ownership transfer Patnership deed Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+      "name": "Estate branch Other citizen service Mortgage Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+      "name": "Estate branch Other citizen service NOC Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.NOC_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+      "name": "Estate branch Other citizen service NDC Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.NDC_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+      "name": "Estate branch Other citizen service Lease deed Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+      "name": "Estate branch Other citizen service Duplicate copy Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+      "name": "Estate branch Other citizen service Leasehold to Freehold Application fee ",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+      "name": "Estate branch Other citizen service SCF to SCO Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+      "name": "Estate branch Other citizen service Change in trade Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+      "name": "Estate branch Other citizen service Issuance of notice Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE",
+      "name": "Estate branch Other citizen service Allotment of site Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE_APPLICATION_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "INTEREST",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
+      "name": "Estate branch Other citizen service Allotment of site Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER_INTEREST",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    }, 
+    {
+      "category": "PRINCIPAL",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
+      "name": "Estate branch Other citizen service Allotment of site Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER_PRINCIPAL",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    }, 
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
+      "name": "Estate branch Other citizen service Allotment of site Application fee",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER_ADVANCE_COLLECTION",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },      
     {
       "category": "TAX",
       "service": "TL",
@@ -2331,6 +2801,26 @@
       "order": "4",
       "isRequired": false
     },
+	{
+	  "category": "CHARGES",
+	  "service": "WS.ONE_TIME_FEE",
+	  "name": "Water meter testing charge",
+	  "code": "WS_METER_TESTING_CHARGE",
+	  "isDebit": false,
+	  "isActualDemand": true,
+	  "order": "5",
+	  "isRequired": false
+	},
+	{
+	  "category": "CHARGES",
+	  "service": "WS.ONE_TIME_FEE",
+	  "name": "Water ferrule charge",
+	  "code": "WS_FERRULE_CHARGE",
+	  "isDebit": false,
+	  "isActualDemand": true,
+	  "order": "6",
+	  "isRequired": false
+	},
     {
       "category": "CHARGES",
       "service": "WS.ONE_TIME_FEE",
@@ -2338,7 +2828,7 @@
       "code": "WS_SECURITY_CHARGE",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "5",
+      "order": "7",
       "isRequired": false
     },
     {
@@ -2348,7 +2838,7 @@
       "code": "WS_OTHER_CHARGE",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "6",
+      "order": "8",
       "isRequired": false
     },
     {
@@ -2358,7 +2848,7 @@
       "code": "WS_TAX_AND_CESS",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "7",
+      "order": "9",
       "isRequired": false
     },
     {
@@ -2368,7 +2858,7 @@
       "code": "WS_FEE_ROUND_OFF",
       "isDebit": false,
       "isActualDemand": true,
-      "order": "8",
+      "order": "10",
       "isRequired": false
     },
     {
@@ -2378,7 +2868,7 @@
      "code": "WS_ADHOC_PENALTY",
      "isDebit": false,
      "isActualDemand": true,
-     "order": "9",
+     "order": "11",
      "isRequired": false
    },
    {
@@ -2388,7 +2878,7 @@
      "code": "WS_ADHOC_REBATE",
      "isDebit": false,
      "isActualDemand": true,
-     "order": "10",
+     "order": "12",
      "isRequired": false
    },
     {
@@ -2753,15 +3243,15 @@
 			"isRequired": false
 		},
 		{
-			"category": "TAX",
+			"category": "CHARGES",
 			"service": "OPMS.PETNOC",
 			"name": "Pet NOC Tax",
-			"code": "PETNOC_TAX",
+			"code": "PETNOC_POSTAL_CHARGES",
 			"isDebit": false,
 			"isActualDemand": true,
 			"order": "2",
 			"isRequired": false,
-			"taxAmount": "0"
+			"taxAmount": "25"
 		},
 		{
 			"category": "FEE",
@@ -2865,6 +3355,179 @@
 			"isActualDemand": true,
 			"order": "3",
 			"isRequired": false
-		}
+		},
+	   {
+		 "category": "CHARGES",
+		 "service": "OSBM",
+		 "name": "Open Space Building Material",
+		 "code": "OSBM",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+	   },
+		{
+		  "category": "TAX",
+		  "service": "OSBM",
+		  "name": "Open Space Building Material",
+		  "code": "OSBM_TAX",
+		  "isDebit": false,
+		  "isActualDemand": true,
+		  "order": "0",
+		  "isRequired": false,
+		   "taxAmount" : "18"
+		},
+		 {
+		  "category": "TAX",
+		  "service": "OSBM",
+		  "name": "Open Space Building Material",
+		  "code": "OSBM_ROUND_OFF",
+		  "isDebit": false,
+		  "isActualDemand": true,
+		  "order": "0",
+		  "isRequired": false,
+		   "taxAmount" : "18"
+		},
+		
+		{
+		 "category": "CHARGES",
+		 "service": "BWT",
+		 "name": "Water Tanker",
+		 "code": "BWT",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "600"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "BWT",
+		 "name": "Water Tanker",
+		 "code": "BWT_TAX",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "0"
+	   },
+	   {
+		 "category": "CHARGES",
+		 "service": "GFCP",
+		 "name": "COMMERCIAL GROUND",
+		 "code": "GFCP",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "GFCP",
+		 "name": "COMMERCIAL GROUND",
+		 "code": "GFCP_TAX",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "18"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "GFCP",
+		 "name": "COMMERCIAL GROUND TAX",
+		 "code": "GFCP_ROUND_OFF",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   },
+	   {
+		 "category": "CHARGES",
+		 "service": "OSUJM",
+		 "name": "OPEN SPACES UNDER THE JURISDICTION OF MCC",
+		 "code": "OSUJM",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "OSUJM",
+		 "name": "OPEN SPACES UNDER THE JURISDICTION OF MCC TAX",
+		 "code": "OSUJM_TAX",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "18"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "OSUJM",
+		 "name": "OPEN SPACES UNDER THE JURISDICTION OF MCC ROUND OFF",
+		 "code": "OSUJM_ROUND_OFF",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   },
+	   {
+		 "category": "CHARGES",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE",
+		 "code": "PACC",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE TAX",
+		 "code": "PACC_TAX",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "18"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE ROUND OFF",
+		 "code": "PACC_ROUND_OFF",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE UGST TAX",
+		 "code": "PACC_CGST",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "10",
+		 "isRequired": false,
+		 "taxAmount" : "18"
+	   },
+	   {
+		 "category": "TAX",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE CGST TAX",
+		 "code": "PACC_UGST",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   }
   ]
 }

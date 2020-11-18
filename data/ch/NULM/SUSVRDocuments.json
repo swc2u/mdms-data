@@ -1,0 +1,42 @@
+{
+  "tenantId": "ch",
+  "moduleName": "NULM",
+  "SUSVRDocuments": [
+    {
+      "code": "NULM_CERTIFICATE_VENDING",
+      "documentType": "NULM_CERTIFICATE_VENDING",
+      "required": true,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Photo Copy of Certificate of Vending"
+    },
+    {
+      "code": "NULM_GOVT_ID_PROOF",
+      "documentType": "NULM_GOVT_ID_PROOF",
+      "required": true,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Photo Copy of Govt. ID Proof"
+    },
+	{
+      "code": "NULM_RESIDENTIAL_ADDRESS_PROOF",
+      "documentType": "NULM_RESIDENTIAL_ADDRESS_PROOF",
+      "required": false,
+	  "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE",
+      "description": "Proof of Current Residential Address"
+    },
+	{
+      "code": "NULM_NOC_DEPENDENT_FAMILY_MEMBER",
+      "documentType": "NULM_NOC_DEPENDENT_FAMILY_MEMBER",
+      "required": false,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE", 
+      "description": "NOC From Other Dependent Family Member"
+    }
+  ]
+}

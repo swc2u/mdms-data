@@ -6,8 +6,8 @@
       "id": "1",
 	  "code":"DOMESTIC_CUM_RESIDENTIAL",
       "tenantId": "ch.chandigarh",
-      "type": "Domestic cum residential",
-	  "name": "Domestic cum residential",
+      "type": "Domestic / Residential",
+	  "name": "Domestic / Residential",
       "active": true
     },
 	{
@@ -24,6 +24,14 @@
       "tenantId": "ch.chandigarh",
       "type": "Natural gas pipeline (PNG)",
 	  "name": "Natural gas pipeline (PNG)",
+      "active": true
+    },
+	{
+      "id": "4",
+	  "code":"GOVT_OR_SERVICE_AGENCY",
+      "tenantId": "ch.chandigarh",
+      "type": "Govt. or Service Agency",
+	  "name": "Govt. or Service Agency",
       "active": true
     }
   ]

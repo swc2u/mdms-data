@@ -661,7 +661,7 @@
                         {
                           "preConditions": [
                             {
-                              "key": "((|LPD|) * 50/100 * |YEAR_OF_SERVICE|/25)",
+                              "key": "((|LPD|) * 50/100 * |HALF_YEAR_OF_SERVICE|/50)",
                               "operator": "<",
                               "value": 3500
                             }
@@ -672,12 +672,12 @@
                         {
                           "preConditions": [
                             {
-                              "key": "((|LPD|) * 50/100 * |YEAR_OF_SERVICE|/25)",
+                              "key": "((|LPD|) * 50/100 * |HALF_YEAR_OF_SERVICE|/50)",
                               "operator": ">=",
                               "value": 3500
                             }
                           ],
-                          "formula": "((|LPD|) * 50/100 * |YEAR_OF_SERVICE|/25)",
+                          "formula": "((|LPD|) * 50/100 * |HALF_YEAR_OF_SERVICE|/50)",
                           "values": null
                         }
                       ]
@@ -768,7 +768,7 @@
                             {
                               "preConditions": [
                                 {
-                                  "key": "((|LPD|) * 50/100 * |YEAR_OF_SERVICE|/25)",
+                                  "key": "((|LPD|) * 50/100 * |HALF_YEAR_OF_SERVICE|/50)",
                                   "operator": "<",
                                   "value": 3500
                                 }
@@ -779,12 +779,12 @@
                             {
                               "preConditions": [
                                 {
-                                  "key": "((|LPD|) * 50/100 * |YEAR_OF_SERVICE|/25)",
+                                  "key": "((|LPD|) * 50/100 * |HALF_YEAR_OF_SERVICE|/50)",
                                   "operator": ">=",
                                   "value": 3500
                                 }
                               ],
-                              "formula": "((|LPD|) * 50/100 * |YEAR_OF_SERVICE|/25)",
+                              "formula": "((|LPD|) * 50/100 * |HALF_YEAR_OF_SERVICE|/50)",
                               "values": null
                             }
                           ]
@@ -1040,31 +1040,8 @@
                       "value": "VRS"
                     }
                   ],
-                  "formula": null,
-                  "values": [
-                    {
-                      "preConditions": [
-                        {
-                          "key": "YEAR_OF_SERVICE",
-                          "operator": "<",
-                          "value": 25
-                        }
-                      ],
-                      "formula": "((|LPD|) * 50/100 * |YEAR_OF_SERVICE|/25 * |COMMUTATION_PERCENTAGE|/100)",
-                      "values": null
-                    },
-                    {
-                      "preConditions": [
-                        {
-                          "key": "YEAR_OF_SERVICE",
-                          "operator": ">=",
-                          "value": 25
-                        }
-                      ],
-                      "formula": "(|LPD| * 50/100 * |COMMUTATION_PERCENTAGE|/100)",
-                      "values": null
-                    }
-                  ]
+                  "formula": "(|BASIC_PENSION| * |COMMUTATION_PERCENTAGE|/100)",
+                  "values": null
                 }
               ]
             },
@@ -1096,31 +1073,8 @@
                           "value": "TRUE"
                         }
                       ],
-                      "formula": null,
-                      "values": [
-                        {
-                          "preConditions": [
-                            {
-                              "key": "YEAR_OF_SERVICE",
-                              "operator": "<",
-                              "value": 25
-                            }
-                          ],
-                          "formula": "((|LPD|) * 50/100 * |YEAR_OF_SERVICE|/25 * |COMMUTATION_PERCENTAGE|/100)",
-                          "values": null
-                        },
-                        {
-                          "preConditions": [
-                            {
-                              "key": "YEAR_OF_SERVICE",
-                              "operator": ">=",
-                              "value": 25
-                            }
-                          ],
-                          "formula": "(|LPD| * 50/100 * |COMMUTATION_PERCENTAGE|/100)",
-                          "values": null
-                        }
-                      ]
+                      "formula": "(|BASIC_PENSION| * |COMMUTATION_PERCENTAGE|/100)",
+                      "values": null
                     }
                   ]
                 }
@@ -2088,7 +2042,7 @@
       "postConditions": null
     },
     {
-      "benefitCode": "FAMILY_PENSION_2_START_DATE",
+      "benefitCode": "FAMILY_PENSION_1_END_DATE",
       "preConditions": [
         {
           "preConditions": [
@@ -2144,7 +2098,7 @@
                           "value": "|DOB| |+Y| |65|"
                         }
                       ],
-                      "formula": "|DOB| |+Y| |65|",
+                      "formula": "|DOB| |+Y-D| |65| |1|",
                       "values": null
                     }
                   ]
@@ -2168,7 +2122,7 @@
       "postConditions": null
     },
     {
-      "benefitCode": "FAMILY_PENSION_1_END_DATE",
+      "benefitCode": "FAMILY_PENSION_2_START_DATE",
       "preConditions": [
         {
           "preConditions": [
@@ -2193,7 +2147,7 @@
                   "value": "DEATH_AS_EMPLOYEE"
                 }
               ],
-              "formula": "|FAMILY_PENSION_2_START_DATE| |-D| |1|",
+              "formula": "|FAMILY_PENSION_1_END_DATE| |+D| |1|",
               "values": null
             }
           ]

@@ -916,6 +916,11 @@
 		  "masterName": "waterSourceWithSubSource",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
+		},
+		"WaterApplicationType": {
+		  "masterName": "WaterApplicationType",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
 		}
 	  },
 	  "ws-services-calculation": {
@@ -995,8 +1000,33 @@
 		  "isStateLevel": true,
 		  "uniqueKeys": []
 		},
+		"PipeSize": {
+		  "masterName": "PipeSize",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"WSTempConAppCharges": {
+		  "masterName": "WSTempConAppCharges",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"WSTempConBillingSlab": {
+		  "masterName": "WSTempConBillingSlab",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"RoadCutTaxSlab": {
+		  "masterName": "RoadCutTaxSlab",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},		
 		"CalculationAttribute": {
 		  "masterName": "CalculationAttribute",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"WaterActivity": {
+		  "masterName": "WaterActivity",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
 		}
@@ -1067,6 +1097,16 @@
 		},
 		"RoadType": {
 		  "masterName": "RoadType",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"SWAppCharges": {
+		  "masterName": "SWAppCharges",
+		  "isStateLevel": true,
+		  "uniqueKeys": []
+		},
+		"RoadCutTaxSlab": {
+		  "masterName": "RoadCutTaxSlab",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
 		},
@@ -1239,7 +1279,15 @@
             "uniqueKeys": [
                 "$.code"
             ]
-        }		
+        },
+"Booking_Config": {
+                   
+                   "masterName": "Documents",
+                   "isStateLevel": true,
+                   "uniqueKeys": [
+                       "$.code"
+                   ]
+               }
     }
 }
 }
