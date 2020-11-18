@@ -16292,6 +16292,24 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "COLL_RECEIPT_CREATOR",
+			"actionid": 1895,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "COLL_REMIT_TO_BANK",
+			"actionid": 1895,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SUPERUSER",
+			"actionid": 1895,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "COLL_REMIT_TO_BANK",
 			"actionid": 709,
 			"actioncode": "",

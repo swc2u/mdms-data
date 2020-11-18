@@ -14201,6 +14201,17 @@
       "path": ""
     },
     {
+      "id": 1895,
+      "name": "Collection Cancel Reciept",
+      "url": "/collection-services/payments/_cancel",
+      "displayName": "Cancel Payment",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "COLLECTION",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1864,
       "name": "Collection Saerch Reciept",
       "url": "/collection-services/payments/_search",
