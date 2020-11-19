@@ -23,6 +23,15 @@
           ]
         },
         {
+          "path": "owner.id",
+          "required": true,
+          "validations": [
+            {
+              "type": "owner"
+            }
+          ]
+        },
+        {
           "path": "documentsReceivedDate",
           "required": false,
           "validations": [
@@ -572,7 +581,7 @@
                   "placeholder": "ES_SELECT_NOC_TYPE_PLACEHOLDER",
                   "type": "MULTI_SELECT",
                   "jsonPath": "Applications[0].applicationDetails.typeOfNoc",
-                  "path": "nocType",
+                  "path": "typeOfNoc",
                   "dataSource": "typeOfNocBb"
                 }
               ]
