@@ -1,0 +1,21 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstateServices",
+  "propertyType": [
+    {
+      "name": "Janta Ready Market Manimajra",
+      "code": "PROPERTY_TYPE.JANTA_READY_MARKET",
+      "active": true
+    },
+    {
+      "name": "Punjab Agro Juice Site",
+      "code": "PROPERTY_TYPE.PUNJAB_AGRO_JUICE",
+      "active": true
+    },
+    {
+      "name": "Others",
+      "code": "PROPERTY_TYPE.OTHERS",
+      "active": true
+    }
+  ]
+}
