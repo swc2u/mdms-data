@@ -20026,6 +20026,28 @@
       "path": ""
     },
 	{
+      "id": 4096,
+      "name": "User and Water Connection mapping add",
+      "url": "/ws-services/wc/_addConnectionMapping",
+      "displayName": "User and Water Connection mapping add",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4097,
+      "name": "User and Water Connection mapping delete",
+      "url": "/ws-services/wc/_deleteConnectionMapping",
+      "displayName": "User and Water Connection mapping delete",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",
