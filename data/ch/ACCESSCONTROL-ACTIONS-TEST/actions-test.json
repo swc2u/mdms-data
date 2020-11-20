@@ -13609,12 +13609,11 @@
     "id": 30022,
     "name": "penalty",
     "url": "estate-card",
-    "displayName": "ES_PROPERTY_MASTER_PENALTY_HEADER",
+    "displayName": "ES_PENALTY_FEE_HEADER",
     "orderNumber": 2,
     "parentModule": "estate-branch",
     "enabled": true,
-    "queryParams": "type=penalty",
-    "navigationURL": "/estate/property-search",
+    "navigationURL": "/estate/penalty-fee",
     "leftIcon": "action:gavel"
   },
   { 
@@ -13687,7 +13686,31 @@
     "serviceCode": "PropertyViolationPenaltyStatementApi",
     "code": "null",
     "path": "PropertyViolationPenaltyStatementApi"
-	},
+  },
+  {
+    "id": 30029,
+    "name": "property-master",
+    "url": "estate-card",
+    "displayName": "Property Master",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search",
+    "leftIcon": "social:location-city",
+    "queryParams": "branchType=MANIMAJRA_BRANCH"
+  },
+  {
+    "id": 30030,
+    "name": "search-applications",
+    "url": "estate-card",
+    "displayName": "Search Applications",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "navigationURL": "/estate/search-application",
+    "leftIcon": "custom:library-books",
+    "queryParams": "branchType=ManimajraBranch"
+  },
     {
       "id": 1812,
       "name": "UC Report",
