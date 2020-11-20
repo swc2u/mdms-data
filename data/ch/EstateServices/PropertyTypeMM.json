@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "propertyType": [
+  "propertyTypeMM": [
     {
       "name": "Janta Ready Market Manimajra",
       "code": "PROPERTY_TYPE.JANTA_READY_MARKET",
