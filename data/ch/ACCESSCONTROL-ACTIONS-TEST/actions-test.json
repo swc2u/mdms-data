@@ -13686,7 +13686,7 @@
     "serviceCode": "PropertyViolationPenaltyStatementApi",
     "code": "null",
     "path": "PropertyViolationPenaltyStatementApi"
-  },
+	},
   {
     "id": 30029,
     "name": "property-master",
@@ -13711,6 +13711,42 @@
     "leftIcon": "custom:library-books",
     "queryParams": "branchType=ManimajraBranch"
   },
+  	{
+    "id": 30031,
+    "name": "ExtensionFeeCreate",
+    "url": "/est-services/extension-fee/_create",
+    "displayName": "Extension Fee Create api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "ExtensionFeeCreateApi",
+    "code": "null",
+    "path": "ExtensionFeeCreateApi"
+    },
+    {
+    "id": 30032,
+    "name": "ExtensionFeePayment",
+    "url": "/est-services/extension-fee/_payment",
+    "displayName": "Extension Fee Payment api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "ExtensionFeePaymentApi",
+    "code": "null",
+    "path": "ExtensionFeePaymentApi"
+    },
+    {
+    "id": 30033,
+    "name": "ExtensionFeeStatement",
+    "url": "/est-services/extension-fee/_statement",
+    "displayName": "Extension Fee Statement api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "ExtensionFeeStatementApi",
+    "code": "null",
+    "path": "ExtensionFeeStatementApi"
+    },
     {
       "id": 1812,
       "name": "UC Report",
