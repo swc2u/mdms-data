@@ -1009,7 +1009,7 @@
                 },
                 {
                   "label": "ES_MOBILE_NUMBER_LABEL",
-                  "jsonPath": "phone"
+                  "jsonPath": "mobileNo"
                 }
               ]
             },
