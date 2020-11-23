@@ -1953,6 +1953,96 @@
          "isRequired":false
       },
       {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD1.C_AND_D_USER_CHRGS",
+         "name":"C&D Charges",
+         "code":"C_AND_D_CHRGS_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD1.C_AND_D_USER_CHRGS",
+         "name":"CGST and UTGST",
+         "code":"C_AND_D_CHRGS_CGST_UTGST_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"ROAD_SERVICES_RD1.C_AND_D_USER_CHRGS",
+         "name":"Penalities/Fines  Others",
+         "code":"C_AND_D_CHRGS_PENALITIES_FINE_OTHS_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD2.C_AND_D_USER_CHRGS",
+         "name":"C&D Charges",
+         "code":"C_AND_D_CHRGS_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD2.C_AND_D_USER_CHRGS",
+         "name":"CGST and UTGST",
+         "code":"C_AND_D_CHRGS_CGST_UTGST_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"ROAD_SERVICES_RD2.C_AND_D_USER_CHRGS",
+         "name":"Penalities/Fines  Others",
+         "code":"C_AND_D_CHRGS_PENALITIES_FINE_OTHS_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ROAD_SERVICES_RD3.C_AND_D_USER_CHRGS",
+         "name":"C&D Charges",
+         "code":"C_AND_D_CHRGS_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ROAD_SERVICES_RD3.C_AND_D_USER_CHRGS",
+         "name":"CGST and UTGST",
+         "code":"C_AND_D_CHRGS_CGST_UTGST_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"ROAD_SERVICES_RD3.C_AND_D_USER_CHRGS",
+         "name":"Penalities/Fines  Others",
+         "code":"C_AND_D_CHRGS_PENALITIES_FINE_OTHS_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
          "name":"LICENSING - PPA/PARKING",
