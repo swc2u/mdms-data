@@ -153,6 +153,24 @@
          "bankBranch":"OBC01"
       },
       {
+         "businessDetails":"ROAD_SERVICES_RD1.C_AND_D_USER_CHRGS",
+         "bankAccount":"22522413000245",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_SERVICES_RD2.C_AND_D_USER_CHRGS",
+         "bankAccount":"22522413000245",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"ROAD_SERVICES_RD3.C_AND_D_USER_CHRGS",
+         "bankAccount":"22522413000245",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
          "businessDetails":"CTL.REHRI_REGISTRATION",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
