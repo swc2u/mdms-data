@@ -681,6 +681,30 @@
       "service": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
       "code": "ESEBAS10YRS2020",
       "financialYear": "2020-30"
+    },  
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "ESTATE_SERVICE_BUILDING_BRANCH.NOC",
+      "code": "ESBBNOC10YRS2020",
+      "financialYear": "2020-30"
+    },  
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "ESTATE_SERVICE_BUILDING_BRANCH.ISSUANCE_OF_NOTICE",
+      "code": "ESBBIN10YRS2020",
+      "financialYear": "2020-30"
+    },
+     {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_VIOLATION",
+      "code": "ESEBPV10YRS2020",
+      "financialYear": "2020-30"
     }, 
       {
          "fromDate":"1522540801000",

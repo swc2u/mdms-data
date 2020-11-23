@@ -562,6 +562,10 @@
     {
         "idname": "es.aplnumber",
         "format": "CH-ES-APPL-[cy:yyyy-MM-dd]-[SEQ_ES_ID_NUM]"
+    },
+    {
+        "idname": "es.penaltynumber",
+        "format": "CH-ES-PN-[cy:yyyy-MM-dd]-[SEQ_ES_ID_NUM]"
     }
     ]
 }
