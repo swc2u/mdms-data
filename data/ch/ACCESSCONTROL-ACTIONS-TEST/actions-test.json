@@ -13931,7 +13931,7 @@
     "enabled": true,
     "navigationURL": "/estate/search",
     "leftIcon": "social:location-city",
-    "queryParams": "branchType=MANIMAJRA_BRANCH"
+    "queryParams": "branchType=MANI_MAJRA"
   },
   {
     "id": 30030,
@@ -13943,7 +13943,7 @@
     "enabled": true,
     "navigationURL": "/estate/search-application",
     "leftIcon": "custom:library-books",
-    "queryParams": "branchType=ManimajraBranch"
+    "queryParams": "branchType=Mani_Majra"
   },
   	{
     "id": 30031,
