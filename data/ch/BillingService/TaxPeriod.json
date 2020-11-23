@@ -223,7 +223,7 @@
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"ROAD_SERVICES_RD1.C_AND_D_USER_CHRGS",
-         "code":"RSRBNRD310YRS2019",
+         "code":"RSCDRD110YRS2019",
          "financialYear":"2019-29"
       },
       {
@@ -231,7 +231,7 @@
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"ROAD_SERVICES_RD2.C_AND_D_USER_CHRGS",
-         "code":"RSRBNRD310YRS2019",
+         "code":"RSCDRD210YRS2019",
          "financialYear":"2019-29"
       },
       {
@@ -239,7 +239,7 @@
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"ROAD_SERVICES_RD3.C_AND_D_USER_CHRGS",
-         "code":"RSRBNRD310YRS2019",
+         "code":"RSCDRD310YRS2019",
          "financialYear":"2019-29"
       },
       {
