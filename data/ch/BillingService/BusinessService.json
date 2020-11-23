@@ -480,6 +480,33 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Road Department Services (Road Div 1).C&D User Charges",
+         "code":"ROAD_SERVICES_RD1.C_AND_D_USER_CHRGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).C&D User Charges",
+         "code":"ROAD_SERVICES_RD2.C_AND_D_USER_CHRGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).C&D User Charges",
+         "code":"ROAD_SERVICES_RD3.C_AND_D_USER_CHRGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Parking Branch Related Services.AUCTION - PARKING LOTS",
          "code":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
          "partPaymentAllowed":false,
