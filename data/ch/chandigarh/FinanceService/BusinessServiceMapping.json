@@ -327,6 +327,42 @@
          "validTo":1838159999000
       },
       {
+         "code":"ROAD_SERVICES_RD1.C_AND_D_USER_CHRGS",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"427",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"ROAD_SERVICES_RD2.C_AND_D_USER_CHRGS",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"428",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"ROAD_SERVICES_RD3.C_AND_D_USER_CHRGS",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"429",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
          "code":"CTL.REHRI_REGISTRATION",
          "voucherCreationEnabled":true,
          "fund":"01",
