@@ -433,6 +433,28 @@
 			"demandUpdateTime": 604800000,
 			"isVoucherCreationEnabled": true
 		},
+		{
+			"businessService": "Estate branch extension fee on property",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.EXTENSION_FEE",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Building branch extension fee on property",
+			"code": "ESTATE_SERVICE_BUILDING_BRANCH.EXTENSION_FEE",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
 	  {
       "businessService": "WaterCharges.Metered",
       "code": "WaterCharges.Metered",

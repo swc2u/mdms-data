@@ -971,7 +971,27 @@
       "isActualDemand": true,
       "order": "0",
       "isRequired": false
-    },     
+    },   
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.EXTENSION_FEE",
+      "name": "Estate branch extension fee on property",
+      "code": "ESTATE_SERVICE_ESTATE_BRANCH.EXTENSION_FEE_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "FEE",
+      "service": "ESTATE_SERVICE_BUILDING_BRANCH.EXTENSION_FEE",
+      "name": "Building branch extension fee on property",
+      "code": "ESTATE_SERVICE_BUILDING_BRANCH.EXTENSION_FEE_FEE",
+      "isDebit": false,
+      "isActualDemand": true,
+      "order": "0",
+      "isRequired": false
+    },   
     {
       "category": "TAX",
       "service": "TL",
