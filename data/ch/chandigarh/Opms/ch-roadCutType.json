@@ -23,12 +23,12 @@
 		"active": true
 	},
 	{
-		"name": "Man Hole",
-		"code": "MAN_HOLE",
+		"name": "Man Hole/Chamber",
+		"code": "MAN_HOLE_OR_CHAMBER",
 		"active": true
 	},
 	{
-		"name": "Pit on Kalcha",
+		"name": "Pit And Kacha",
 		"code": "PIT_ON_KALCHA",
 		"active": true
 	},
@@ -40,6 +40,11 @@
 	{
 		"name": "Pit on  V-3,V-4,V-5 Road And Main Road",
 		"code": "PIT_ON_V3_V4_V5_ROAD_MAIN_ROAD",
+		"active": true
+	},
+	{
+		"name": "Other",
+		"code": "RD_TYPE_OTHER",
 		"active": true
 	}
   ]
