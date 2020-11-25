@@ -1089,6 +1089,30 @@
          "service":"EC",
          "code":"EC10YRS2019",
          "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"UDF.ESTATE_OFFICE",
+         "code":"UDFESTOFC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"UDF.CHD_HOUSING_BOARD",
+         "code":"UDFCHB10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"UDF.MISC_RECEIPT",
+         "code":"UDFMISCR10YRS2019",
+         "financialYear":"2019-29"
       }
    ]
 }
