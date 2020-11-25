@@ -3691,6 +3691,106 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"UDF.ESTATE_OFFICE",
+         "name":"Conversion Fees - UDF",
+         "code":"CONVERSION_FEE_UDF_EST_OFC",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"UDF.ESTATE_OFFICE",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_CONV_FEE_UDF_EST_OFC",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"UDF.ESTATE_OFFICE",
+         "name":"Interest on GST",
+         "code":"INST_GST_CONV_FEE_UDF_EST_OFC",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PENALTY",
+         "service":"UDF.ESTATE_OFFICE",
+         "name":"Penalties/Fines UDF",
+         "code":"PENALTIES_CONV_FEE_UDF_EST_OFC",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"UDF.CHD_HOUSING_BOARD",
+         "name":"Conversion Fees - UDF",
+         "code":"CONVERSION_FEE_UDF_CHD_H_BOARD",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"UDF.CHD_HOUSING_BOARD",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_CONV_FEE_UDF_CHD_H_BOARD",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"UDF.CHD_HOUSING_BOARD",
+         "name":"Interest on GST",
+         "code":"INST_GST_CONV_FEE_UDF_CHD_H_BOARD",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"UDF.CHD_HOUSING_BOARD",
+         "name":"Penalties/Fines UDF",
+         "code":"PENALTIES_CONV_FEE_UDF_CHD_H_BOARD",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"UDF.MISC_RECEIPT",
+         "name":"Miscellaneous Receipt",
+         "code":"MISC_RECEIPT_UDF",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"UDF.MISC_RECEIPT",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_MISC_RECEIPT_UDF",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
       }
    ]
 }
