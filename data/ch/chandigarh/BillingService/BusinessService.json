@@ -1234,6 +1234,33 @@
          "isVoucherCreationEnabled":true,
          "isActive":true,
          "type":"Adhoc"
+      },
+      {
+         "businessService":"Urban Development Fund.Estate Office",
+         "code":"UDF.ESTATE_OFFICE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Urban Development Fund.Chandigarh Housing Board",
+         "code":"UDF.CHD_HOUSING_BOARD",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Urban Development Fund.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"UDF.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
       }
    ]
 }
