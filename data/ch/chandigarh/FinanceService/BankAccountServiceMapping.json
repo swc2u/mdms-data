@@ -811,6 +811,30 @@
          "bankAccount":"22522122000662",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
-      }
+      },
+      {
+         "businessDetails":"UDF.ESTATE_OFFICE",
+         "bankAccount":"37180876714",
+         "bank":"State Bank of India",
+         "bankBranch":"Chandigarh Housing Board"
+      },
+      {
+         "businessDetails":"UDF.CHD_HOUSING_BOARD",
+         "bankAccount":"37180876714",
+         "bank":"State Bank of India",
+         "bankBranch":"Chandigarh Housing Board"
+      },
+      {
+         "businessDetails":"UDF.MISC_RECEIPT_EST_UT",
+         "bankAccount":"37180876714",
+         "bank":"State Bank of India",
+         "bankBranch":"Chandigarh Housing Board"
+      },
+      {
+         "businessDetails":"UDF.MISC_RECEIPT_CHD_H_BRD",
+         "bankAccount":"37180876714",
+         "bank":"State Bank of India",
+         "bankBranch":"Chandigarh Housing Board"
+      }	
    ]
 }
