@@ -1255,7 +1255,16 @@
       },
       {
          "businessService":"Urban Development Fund.Unspecified Receipt/Miscellaneous Receipts",
-         "code":"UDF.MISC_RECEIPT",
+         "code":"UDF.MISC_RECEIPT_EST_UT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Urban Development Fund.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"UDF.MISC_RECEIPT_CHD_H_BRD",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
