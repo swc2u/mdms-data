@@ -16,9 +16,9 @@
             "active":"true"
         },
         {
-            "name": "Parks and Community Centre",
+            "name": "Parks and Community Center",
             "id": "3",
-            "code": "PARKS_AND_COMMUNITY_CENTER",
+            "code": "Parks and Community Center",
             "tenantId":"ch.chandigarh",
             "active":"true"
         },
@@ -33,6 +33,13 @@
             "name": "Open Spaces Under Jurisdiction of MCC",
             "id": "5",
             "code": "OSUJM",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+	 {
+            "name": "MCC New Location",
+            "id": "5",
+            "code": "NLUJM",
             "tenantId":"ch.chandigarh",
             "active":"true"
         }
