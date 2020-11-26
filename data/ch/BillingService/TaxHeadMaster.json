@@ -3774,9 +3774,9 @@
       },
       {
          "category":"FEE",
-         "service":"UDF.MISC_RECEIPT",
+         "service":"UDF.MISC_RECEIPT_EST_UT",
          "name":"Miscellaneous Receipt",
-         "code":"MISC_RECEIPT_UDF",
+         "code":"MISC_RECEIPT_UDF_EST_UT",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3784,9 +3784,29 @@
       },
       {
          "category":"TAX",
-         "service":"UDF.MISC_RECEIPT",
+         "service":"UDF.MISC_RECEIPT_EST_UT",
          "name":"CGST and UTGST",
-         "code":"CGST_UTGST_MISC_RECEIPT_UDF",
+         "code":"CGST_UTGST_MISC_RECEIPT_UDF_EST_UT",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"UDF.MISC_RECEIPT_CHD_H_BRD",
+         "name":"Miscellaneous Receipt",
+         "code":"MISC_RECEIPT_UDF_CHD_H_BRD",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"UDF.MISC_RECEIPT_CHD_H_BRD",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_MISC_RECEIPT_UDF_CHD_H_BRD",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
