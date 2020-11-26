@@ -287,6 +287,16 @@
 		"name" : "Petrol Pump - Industrial Area",
 		"code" : "470",
 		"active" : true
+	},
+	{
+		"name" : "Estate Office (UT)",
+		"code" : "471",
+		"active" : true
+	},
+	{
+		"name" : "Chandigarh Housing Board",
+		"code" : "472",
+		"active" : true
 	}
     ]
 }
