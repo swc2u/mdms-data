@@ -1016,7 +1016,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -1036,7 +1036,8 @@
             },
             "event": {
               "enabled": true,
-              "to": "{owner.id}"
+              "to": "{createdBy.uuid}",
+             "isPayLink" : true
             }
           }
         },
@@ -1056,7 +1057,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -1076,7 +1077,7 @@
             },
             "event": {
               "enabled": true,
-              "to": "{createdBy.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         }

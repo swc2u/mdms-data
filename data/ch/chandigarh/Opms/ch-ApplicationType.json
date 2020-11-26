@@ -1,0 +1,34 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "egpm",
+  "applicationType": [
+    {
+      "code": "PETNOC",
+	  "name":"NOC To Keep Pet",
+      "active": true,
+	  "idName":"ch.pms"
+    },
+	{
+      "code": "SELLMEATNOC",
+	  "name":"NOC To Sell Meat",
+      "active": true,
+	  "idName":"ch.pms"
+    },
+	{
+      "code": "ADVERTISEMENTNOC",
+	  "name":"NOC To Advertisement",
+      "active": true,
+	  "idName":"ch.pms"
+    },
+	{
+      "code": "ROADCUTNOC",
+	  "name":"NOC For Road Cut",
+      "active": true,
+	  "idName":{
+		"Road Division 1":"ch.pms.R1",
+		"Road Division 2":"ch.pms.R2",
+		"Road Division 3":"ch.pms.R3"
+	  }
+    }
+  ]
+}

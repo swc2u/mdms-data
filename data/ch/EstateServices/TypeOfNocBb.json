@@ -1,0 +1,21 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "typeOfNocBb": [
+      {
+        "name": "Electricity",
+        "code": "TYPE_OF_NOC_BB.ELECTRICITY",
+        "active": true
+      },
+      {
+        "name": "Water",
+        "code": "TYPE_OF_NOC_BB.WATER",
+        "active": true
+      },
+      {
+        "name": "Sewerage",
+        "code": "TYPE_OF_NOC_BB.SEWERAGE",
+        "active": true
+      }
+    ]
+  }
