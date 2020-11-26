@@ -455,6 +455,28 @@
 			"demandUpdateTime": 604800000,
 			"isVoucherCreationEnabled": true
 		},
+		{
+			"businessService": "Estate branch security deposit on property",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.SECURITY_DEPOSIT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Building branch security deposit on property",
+			"code": "ESTATE_SERVICE_BUILDING_BRANCH.SECURITY_DEPOSIT",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
 	  {
       "businessService": "WaterCharges.Metered",
       "code": "WaterCharges.Metered",

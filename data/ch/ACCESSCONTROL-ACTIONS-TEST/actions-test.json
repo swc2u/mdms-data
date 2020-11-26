@@ -13981,6 +13981,30 @@
     "code": "null",
     "path": "ExtensionFeeStatementApi"
     },
+     {
+    "id": 30034,
+    "name": "SecurityDepositPayment",
+    "url": "/est-services/security_deposit/_payment",
+    "displayName": "Security Deposit Payment api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "SecurityDepositPaymentApi",
+    "code": "null",
+    "path": "SecurityDepositPaymentApi"
+    },
+    {
+    "id": 30035,
+    "name": "SecurityDepositStatement",
+    "url": "/est-services/security_deposit/_statement",
+    "displayName": "Security Deposit Statement api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "SecurityDepositStatementApi",
+    "code": "null",
+    "path": "SecurityDepositStatementApi"
+    },
     {
       "id": 1812,
       "name": "UC Report",
