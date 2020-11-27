@@ -22844,6 +22844,18 @@
 		"serviceCode": "integration-services",
 		"code": "null",
 		"path": ""
+	},
+	{
+		"id": 6018,
+		"name": "getPaySlip",
+		"url": "/integration-services/hrms/v1/_getpayslip",
+		"displayName": "getPaySlip",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
 	}
   ]
 }
