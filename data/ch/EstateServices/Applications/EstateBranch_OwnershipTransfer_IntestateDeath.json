@@ -742,10 +742,6 @@
                   "label": "ES_DATE_OF_DEATH_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferor.dateOfDeath",
                   "type": "date"
-                },
-                {
-                  "label": "ES_TRANSFEREE_TYPE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.transferee.type"
                 }
               ]
             },
