@@ -13561,7 +13561,7 @@
     "id": 30018,
     "name": "rent-payment",
     "url": "estate-card",
-    "displayName": "ES_RENT_PAYMENT_HEADER",
+    "displayName": "ES_OFFLINE_RENT_PAYMENT_HEADER",
     "orderNumber": 2,
     "parentModule": "estate-branch",
     "enabled": true,
