@@ -22856,6 +22856,34 @@
 		"serviceCode": "integration-services",
 		"code": "null",
 		"path": ""
+	},
+	{
+		"id": 6019,
+		"name": "Create Blank DNIT",
+		"url": "services/works/dnit/createDnit",
+		"displayName": "Create Blank DNIT",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.DNIT.Create Blank DNIT",
+		"navigationURL": "services/works/dnit/createDnit",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6020,
+		"name": "Create DNIT",
+		"url": "services/works/workEstimate/newform",
+		"displayName": "Work Agreement Progress Update",
+		"orderNumber": "6",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.DNIT.Create DNIT",
+		"navigationURL": "services/works/workEstimate/newform",
+		"leftIcon": "editor:insert-chart"
 	}
   ]
 }
