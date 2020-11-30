@@ -19303,8 +19303,8 @@
 	},
 	{
 		"id": 4369,
-		"name": "IndentsIssueUpdate",
-		"url": "/store-asset-services/materialissues/_updateStatus",
+		"name": "NonIndentsIssueUpdate",
+		"url": "/store-asset-services/materialissues-ni/_updateStatus",
 		"displayName": "Indents Issue UpdateStatus",
 		"orderNumber": 0,
 		"parentModule": "",
@@ -19313,7 +19313,7 @@
 		"code": "null",
 		"path": ""
 	},
-	      	{
+	{
 		"id": 4370,
 		"name": "Material ReceiptOutword",
 		"url": "/store-asset-services/materialissues-to/_updateStatus",
