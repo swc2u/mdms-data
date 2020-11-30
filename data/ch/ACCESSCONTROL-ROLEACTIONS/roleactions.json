@@ -53683,6 +53683,12 @@
 			"actionid": 6020,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_CREATE_ESTIMATE",
+			"actionid": 6021,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }

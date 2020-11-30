@@ -22884,6 +22884,20 @@
 		"path": "Works.DNIT.Create DNIT",
 		"navigationURL": "services/works/workEstimate/newform",
 		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6021,
+		"name": "Create Detailed Estimate",
+		"url": "services/works/estimatePreparation/createDetailedEstimate",
+		"displayName": "Create Detailed Estimate",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Create Detailed Estimate",
+		"navigationURL": "services/works/estimatePreparation/createDetailedEstimate",
+		"leftIcon": "editor:insert-chart"
 	}
   ]
 }
