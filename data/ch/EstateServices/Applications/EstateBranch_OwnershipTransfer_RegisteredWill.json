@@ -798,13 +798,15 @@
               "header": "ES_WITNESS_DETAILS_HEADER",
               "type": "FORM",
               "subType": "ARRAY",
+              "buttonLabel": "ES_ADD_WITNESS_LABEL",
+              "sourceJsonPath": "Applications[0].applicationDetails.witness",
               "fields": [
                 {
                   "label": "ES_WITNESS_NAME_LABEL",
                   "placeholder": "ES_WITNESS_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].name",
-                  "path": "witness.name",
+                  "path": "witness..name",
                   "errorMessage": "ES_ERR_WITNESS_NAME"
                 },
                 {
@@ -812,14 +814,14 @@
                   "placeholder": "ES_DOB_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].dob",
-                  "path": "witness.dob"
+                  "path": "witness..dob"
                 },
                 {
                   "label": "ES_ADDRESS_LABEL",
                   "placeholder": "ES_ADDRESS_PLACEHOLDER",
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].address",
-                  "path": "witness.address",
+                  "path": "witness..address",
                   "errorMessage": "ES_ERR_ADDRESS"
                 },
                 {
@@ -827,7 +829,7 @@
                   "placeholder": "ES_MOBILE_NUMBER_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].mobileNo",
-                  "path": "witness.mobileNo",
+                  "path": "witness..mobileNo",
                   "pattern": "MobileNo",
                   "errorMessage": "ES_ERR_MOBILE_NUMBER"
                 }
