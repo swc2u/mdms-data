@@ -1326,6 +1326,11 @@
       "code": "BK_SUPERVISOR",
       "name": "Supervisor Approver",
       "description": "Employee who approve and inspect park and community center booking request"
+    },
+	{
+      "code": "WORKS_DNIT",
+      "name": "WORKS_DNIT",
+      "description": "WORKS_DNIT"
     }
   ]
 }

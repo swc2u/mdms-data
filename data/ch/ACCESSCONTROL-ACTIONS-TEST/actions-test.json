@@ -19303,8 +19303,8 @@
 	},
 	{
 		"id": 4369,
-		"name": "IndentsIssueUpdate",
-		"url": "/store-asset-services/materialissues/_updateStatus",
+		"name": "NonIndentsIssueUpdate",
+		"url": "/store-asset-services/materialissues-ni/_updateStatus",
 		"displayName": "Indents Issue UpdateStatus",
 		"orderNumber": 0,
 		"parentModule": "",
@@ -19313,7 +19313,7 @@
 		"code": "null",
 		"path": ""
 	},
-	      	{
+	{
 		"id": 4370,
 		"name": "Material ReceiptOutword",
 		"url": "/store-asset-services/materialissues-to/_updateStatus",
@@ -23012,6 +23012,61 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
-    }
+    },
+	{
+		"id": 6018,
+		"name": "getPaySlip",
+		"url": "/integration-services/hrms/v1/_getpayslip",
+		"displayName": "getPaySlip",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6019,
+		"name": "Create Blank DNIT",
+		"url": "services/works/dnit/createDnit",
+		"displayName": "Create Blank DNIT",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.DNIT.Create Blank DNIT",
+		"navigationURL": "services/works/dnit/createDnit",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6020,
+		"name": "Create DNIT",
+		"url": "services/works/workEstimate/newform",
+		"displayName": "Work Agreement Progress Update",
+		"orderNumber": "6",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.DNIT.Create DNIT",
+		"navigationURL": "services/works/workEstimate/newform",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6021,
+		"name": "Create Detailed Estimate",
+		"url": "services/works/estimatePreparation/createDetailedEstimate",
+		"displayName": "Create Detailed Estimate",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Create Detailed Estimate",
+		"navigationURL": "services/works/estimatePreparation/createDetailedEstimate",
+		"leftIcon": "editor:insert-chart"
+	}
+
   ]
 }
