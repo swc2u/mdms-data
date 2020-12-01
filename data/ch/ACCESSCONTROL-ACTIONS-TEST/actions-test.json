@@ -12188,7 +12188,7 @@
       "id": 1715,
       "name": "TradeLicenseRegistryReport",
       "url": "url",
-      "displayName": "Trade License Registry Report",
+      "displayName": "License And Lease Renewal Registry Report",
       "orderNumber": 1,
       "parentModule": "rainmaker-tl",
       "enabled": true,
@@ -12203,7 +12203,7 @@
       "id": 1716,
       "name": "TradeWiseCollectionReport",
       "url": "url",
-      "displayName": "Trade Wise Collection Report",
+      "displayName": "License Wise Collection Report",
       "orderNumber": 2,
       "parentModule": "rainmaker-tl",
       "enabled": true,
@@ -12218,7 +12218,7 @@
       "id": 1717,
       "name": "TradeLicenseApplicationStatusReport",
       "url": "url",
-      "displayName": "Trade License Application Status Report",
+      "displayName": "License And Lease Renewal Application Status Report",
       "orderNumber": 3,
       "parentModule": "rainmaker-tl",
       "enabled": true,
@@ -13506,7 +13506,8 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "navigationURL": "/estate/search-application",
-    "leftIcon": "custom:library-books"
+    "leftIcon": "custom:library-books",
+    "queryParams": "branchType=EstateBranch"
   },
   {
     "id": 30014,
@@ -13588,19 +13589,21 @@
     "orderNumber": 2,
     "parentModule": "building-branch",
     "enabled": true,
-    "navigationURL": "/estate/search",
-    "leftIcon": "custom:library-books"
+    "navigationURL": "/estate/search-application",
+    "leftIcon": "custom:library-books",
+    "queryParams": "branchType=BuildingBranch"
   },
   {
     "id": 30021,
-    "name": "issuance-of-notice",
+    "name": "issuing-notice",
     "url": "estate-card",
-    "displayName": "Issuing Notice",
+    "displayName": "ES_PROPERTY_MASTER_ISSUING_NOTICE_HEADER",
     "orderNumber": 2,
     "parentModule": "building-branch",
     "enabled": true,
-    "navigationURL": "/estate/search",
-    "leftIcon": "editor:border-color"
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "editor:border-color",
+    "queryParams": "branchType=BUILDING_BRANCH&type=BuildingBranch_CitizenService_IssuanceOfNotice"
   },
   {
     "id": 30022,
@@ -13637,6 +13640,54 @@
     "code": "null",
     "path": "PropertyPayRentApi"
     },
+    {
+    "id": 30025,
+    "name": "PropertyViolationPenalty",
+    "url": "/est-services/violation/_penalty",
+    "displayName": "Property Violation Penalty api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "PropertyViolationPenaltyApi",
+    "code": "null",
+    "path": "PropertyViolationPenaltyApi"
+    },
+	{
+	"id": 30026,
+    "name": "GeneratingAccountStatementExcel",
+    "url": "/est-services/property-master/_accountstatementxlsx",
+    "displayName": "Generating Account Statement Excel api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "GeneratingAccountStatementExcelApi",
+    "code": "null",
+    "path": "GeneratingAccountStatementExcelApi"
+    },
+    {
+    "id": 30027,
+    "name": "PropertyViolationPenaltyPayment",
+    "url": "/est-services/violation/_penalty_payment",
+    "displayName": "Property Violation Penalty Payment api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "PropertyViolationPenaltyPaymentApi",
+    "code": "null",
+    "path": "PropertyViolationPenaltyPaymentApi"
+	},
+    {
+    "id": 30028,
+    "name": "PropertyViolationPenaltyStatement",
+    "url": "/est-services/violation/_penalty_statement",
+    "displayName": "Property Violation Penalty Statement api",
+    "orderNumber": 0,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "PropertyViolationPenaltyStatementApi",
+    "code": "null",
+    "path": "PropertyViolationPenaltyStatementApi"
+	},
     {
       "id": 1812,
       "name": "UC Report",
@@ -14194,6 +14245,17 @@
       "name": "Collection Create Reciept",
       "url": "/collection-services/payments/_create",
       "displayName": "Create Payment",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "COLLECTION",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 1895,
+      "name": "Collection Cancel Reciept",
+      "url": "/collection-services/payments/_cancel",
+      "displayName": "Cancel Payment",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "COLLECTION",
@@ -19241,8 +19303,8 @@
 	},
 	{
 		"id": 4369,
-		"name": "IndentsIssueUpdate",
-		"url": "/store-asset-services/materialissues/_updateStatus",
+		"name": "NonIndentsIssueUpdate",
+		"url": "/store-asset-services/materialissues-ni/_updateStatus",
 		"displayName": "Indents Issue UpdateStatus",
 		"orderNumber": 0,
 		"parentModule": "",
@@ -19251,7 +19313,7 @@
 		"code": "null",
 		"path": ""
 	},
-	      	{
+	{
 		"id": 4370,
 		"name": "Material ReceiptOutword",
 		"url": "/store-asset-services/materialissues-to/_updateStatus",
@@ -19957,6 +20019,28 @@
       "name": "Water insert bill data",
       "url": "/ws-services/billGeneration/_saveBilling",
       "displayName": "Water insert bill data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4096,
+      "name": "User and Water Connection mapping add",
+      "url": "/ws-services/wc/_addConnectionMapping",
+      "displayName": "User and Water Connection mapping add",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4097,
+      "name": "User and Water Connection mapping delete",
+      "url": "/ws-services/wc/_deleteConnectionMapping",
+      "displayName": "User and Water Connection mapping delete",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "ws-services",
@@ -22760,6 +22844,60 @@
 		"serviceCode": "integration-services",
 		"code": "null",
 		"path": ""
+	},
+	{
+		"id": 6018,
+		"name": "getPaySlip",
+		"url": "/integration-services/hrms/v1/_getpayslip",
+		"displayName": "getPaySlip",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6019,
+		"name": "Create Blank DNIT",
+		"url": "services/works/dnit/createDnit",
+		"displayName": "Create Blank DNIT",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.DNIT.Create Blank DNIT",
+		"navigationURL": "services/works/dnit/createDnit",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6020,
+		"name": "Create DNIT",
+		"url": "services/works/workEstimate/newform",
+		"displayName": "Work Agreement Progress Update",
+		"orderNumber": "6",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.DNIT.Create DNIT",
+		"navigationURL": "services/works/workEstimate/newform",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 6021,
+		"name": "Create Detailed Estimate",
+		"url": "services/works/estimatePreparation/createDetailedEstimate",
+		"displayName": "Create Detailed Estimate",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Create Detailed Estimate",
+		"navigationURL": "services/works/estimatePreparation/createDetailedEstimate",
+		"leftIcon": "editor:insert-chart"
 	}
   ]
 }

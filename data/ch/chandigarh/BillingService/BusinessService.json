@@ -389,6 +389,50 @@
 			"demandUpdateTime": 604800000,
 			"isVoucherCreationEnabled": true
 		},
+		{
+			"businessService": "Building branch citizen service with NOC",
+			"code": "ESTATE_SERVICE_BUILDING_BRANCH.NOC",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Building branch citizen service with Issuance of notice",
+			"code": "ESTATE_SERVICE_BUILDING_BRANCH.ISSUANCE_OF_NOTICE",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Estate branch penalty for violation on property",
+			"code": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_VIOLATION",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Building branch penalty for violation on property",
+			"code": "ESTATE_SERVICE_BUILDING_BRANCH.PROPERTY_VIOLATION",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": false,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 604800000,
+			"isVoucherCreationEnabled": true
+		},
 	  {
       "businessService": "WaterCharges.Metered",
       "code": "WaterCharges.Metered",
