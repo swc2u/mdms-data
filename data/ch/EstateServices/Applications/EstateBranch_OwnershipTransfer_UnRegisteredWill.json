@@ -828,6 +828,7 @@
             {
               "header": "ES_WITNESS_DETAILS_HEADER",
               "type": "FORM",
+              "subType": "ARRAY",
               "fields": [
                 {
                   "label": "ES_WITNESS_NAME_LABEL",
