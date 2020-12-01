@@ -51276,7 +51276,7 @@
 				"actioncode": "",
 				"tenantId": "ch"
 			},
-												{
+			{
 				"rolecode": "SAJE",
 				"actionid": 4369,
 				"actioncode": "",
@@ -54425,6 +54425,30 @@
 		{
 			"rolecode": "AUDIT_MASTER",
 			"actionid": 6013,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6018,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_DNIT",
+			"actionid": 6019,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_DNIT",
+			"actionid": 6020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_CREATE_ESTIMATE",
+			"actionid": 6021,
 			"actioncode": "",
 			"tenantId": "ch"
 		}
