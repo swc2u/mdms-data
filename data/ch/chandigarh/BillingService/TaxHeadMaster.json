@@ -3720,24 +3720,47 @@
 	   {
 		 "category": "TAX",
 		 "service": "PACC",
-		 "name": "PARK AND COMMUNITY CENTRE UGST TAX",
-		 "code": "PACC_CGST",
-		 "isDebit": false,
-		 "isActualDemand": true,
-		 "order": "10",
-		 "isRequired": false,
-		 "taxAmount" : "18"
-	   },
-	   {
-		 "category": "TAX",
-		 "service": "PACC",
-		 "name": "PARK AND COMMUNITY CENTRE CGST TAX",
-		 "code": "PACC_UGST",
+		 "name": "PARK AND COMMUNITY LUXURY TAX",
+		 "code": "LUXURY_TAX",
 		 "isDebit": false,
 		 "isActualDemand": true,
 		 "order": "0",
 		 "isRequired": false
 
+	   },
+	   {
+		 "category": "CHARGES",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY REFUNDABLE SECURITY AMOUNT",
+		 "code": "REFUNDABLE_SECURITY",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   },
+	   {
+		 "category": "CHARGES",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE LOCATION AND VENUE CHANGE AMOUNT",
+		 "code": "PACC_LOCATION_AND_VENUE_CHANGE_AMOUNT",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false
+
+	   },
+	   {
+		 "category": "CHARGES",
+		 "service": "PACC",
+		 "name": "PARK AND COMMUNITY CENTRE FACILITATION CHARGE",
+		 "code": "FACILITATION_CHARGE",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false,
+		 "facilitationCharge":"100"
 	   }
+
   ]
 }
