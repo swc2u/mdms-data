@@ -1,0 +1,389 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstateServices",
+  "ManiMajra_CitizenService_IntestateDeath": [
+    {
+      "fields": [
+        {
+          "path": "transferor",
+          "required": true,
+          "validations": [
+            {
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "path": "transferor.id",
+          "required": true,
+          "validations": [
+            {
+              "type": "owner"
+            }
+          ]
+        },
+        {
+          "path": "transferor.dateOfDeath",
+          "required": true,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -40
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee",
+          "required": true,
+          "validations": [
+            {
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "path": "transferee.id",
+          "required": false,
+          "validations": [
+            {
+              "type": "owner"
+            }
+          ]
+        },
+        {
+          "path": "transferee.name",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.dob",
+          "required": true,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -100
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.fatherOrHusbandName",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.relation",
+          "required": true,
+          "validations": [
+            {
+              "type": "enum",
+              "params": {
+                "values": ["FATHER", "HUSBAND"]
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.relationWithDeceased",
+          "required": true,
+          "validations": [
+            {
+              "type": "mdms",
+              "params": {
+                "moduleName": "EstateServices",
+                "masterName": "legaHeirRelationShipWithDeceased",
+                "filter": "legaHeirRelationShipWithDeceased..code"
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.address",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "transferee.mobileNo",
+          "required": false,
+          "validations": [
+            {
+              "type": "mobile"
+            }
+          ]
+        },
+        {
+          "path": "transferee.percentageOfShareTransferred",
+          "required": true,
+          "validations": [
+            {
+              "type": "numeric"
+            },
+            {
+              "type": "minmax",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
+          "path": "documentsReceivedDate",
+          "required": false,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -1
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "notifications": [
+        {
+          "state": "ES_MM_PENDING_DS_VERIFICATION",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been received. Please note your application number {applicationNumber} for further reference.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_PENDING_PAYMENT",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}",
+              "isPayLink": true
+            }
+          }
+        },
+        {
+          "state": "ES_MM_PENDING_CLARIFICATION",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_REJECTED",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_PENDING_DA_FEE",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "PAYMENT_NOTIFICATION",
+          "content": "Hi {applicationDetails.transferee.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "PAYMENT_NOTIFICATION_PAYER",
+          "content": "Hi {payer.name}, \n A payment of Rs {payment} has been collected successfully towards your application no. {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} . Your receipt no. for future reference is {recieptNumber}.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{payer.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{payer.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_APPROVED",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        }
+      ],
+      "feePercentGST": [],
+      "fees": [
+        {
+          "category": "CAT.RESIDENTIAL",
+          "subCategory": "*",
+          "amount": 6000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.BOOTH",
+          "amount": 5000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.SCF",
+          "amount": 10000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.SCO",
+          "amount": 10000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "*",
+          "amount": 0.0
+        },
+        {
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
+        }
+      ]
+    }
+  ]
+}
