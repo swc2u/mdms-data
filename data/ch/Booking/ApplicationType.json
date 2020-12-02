@@ -37,7 +37,15 @@
             "code": "NLUJM",
             "tenantId":"ch.chandigarh",
             "active":"true"
+        },
+        {
+            "name": "Parks and Community Center",
+            "id": "6",
+            "code": "Parks and Community Center",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
         }
+
         
        
         

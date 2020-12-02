@@ -1,0 +1,21 @@
+{
+      "tenantId": "ch"  ,
+        "moduleName": "Booking",
+         "Payment_Mode": [
+            {
+                "name": "Card",
+                "id": "1",
+                "code": "Card",
+                "tenantId":"ch.chandigarh",
+                "active":"true"
+            },
+            {
+                "name": "Cash",
+                "id": "1",
+                "code": "Cash",
+                "tenantId":"ch.chandigarh",
+                "active":"true"
+            }
+      
+         ]
+}
