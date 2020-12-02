@@ -13955,7 +13955,7 @@
     "enabled": true,
     "navigationURL": "/estate/search-application",
     "leftIcon": "custom:library-books",
-    "queryParams": "branchType=Mani_Majra"
+    "queryParams": "branchType=ManiMajra"
   },
   	{
     "id": 30031,
