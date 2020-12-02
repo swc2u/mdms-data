@@ -13922,6 +13922,18 @@
     "path": ""
   },
   {
+    "id": 30118,
+    "name": "adhoc-demand",
+    "url": "estate-card",
+    "displayName": "ES_ADHOC_DEMAND",
+    "orderNumber": 2,
+    "parentModule": "estate-branch",
+    "enabled": true,
+    "queryParams": "type=adhoc-demand",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:assessment"
+  },
+  {
     "id": 30029,
     "name": "property-master",
     "url": "estate-card",

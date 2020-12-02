@@ -41878,6 +41878,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+	 		"rolecode": "ES_EB_FINANCIAL_OFFICER",
+			"actionid": 30118,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_SECTION_OFFICER",
 			"actionid": 30014,
 			"actioncode": "",
