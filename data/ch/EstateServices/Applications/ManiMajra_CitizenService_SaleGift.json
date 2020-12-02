@@ -119,26 +119,10 @@
             {
               "type": "enum",
               "params": {
-                "values": ["FATHER", "HUSBAND"]
-              }
-            }
-          ]
-        },
-        {
-          "path": "transferee.dob",
-          "required": true,
-          "validations": [
-            {
-              "type": "date-range",
-              "params": {
-                "start": {
-                  "unit": "year",
-                  "value": -100
-                },
-                "end": {
-                  "unit": "second",
-                  "value": 0
-                }
+                "values": [
+                  "FATHER",
+                  "HUSBAND"
+                ]
               }
             }
           ]
@@ -180,27 +164,529 @@
               }
             }
           ]
+        }
+      ],
+      "documentList": [
+        {
+          "code": "MM_OWNERSHIP_PROOF_OF_PROPERTY",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "OWNERSHIP_PROOF_OF_PROPERTY_DESCRIPTION"
         },
         {
-          "path": "documentsReceivedDate",
-          "required": false,
-          "validations": [
-            {
-              "type": "date-range",
-              "params": {
-                "start": {
-                  "unit": "year",
-                  "value": -1
-                },
-                "end": {
-                  "unit": "second",
-                  "value": 0
-                }
+          "code": "MM_AFFIDAVIT_REGARDING_INSTRUCTION_DATED",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "AFFIDAVIT_REGARDING_INSTRUCTION_DATED_DESCRIPTION"
+        },
+        {
+          "code": "MM_INDEMNITY_BOND",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "AFFIDAVIT_REGARDING_INSTRUCTION_DATED_DESCRIPTION"
+        },
+        {
+          "code": "MM_SPECIMEN_SIGNATURES",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_SPECIMEN_SIGNATURES_DESCRIPTION"
+        },
+        {
+          "code": "MM_CERTIFIED_COPY_REGISTERED_SALE_DEED",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_CERTIFIED_COPY_REGISTERED_SALE_DEED_DESCRIPTION"
+        },
+        {
+          "code": "MM_SITE_PLAN",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_SITE_PLAN_DESCRIPTION"
+        },
+        {
+          "code": "MM_REPORT_OF_HALKA_PATWARI",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_REPORT_OF_HALKA_PATWARI_DESCRIPTION"
+        },
+        {
+          "code": "MM_ORIGINAL_INTKAL_REPORT",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_ORIGINAL_INTKAL_REPORT_DESCRIPTION"
+        },
+        {
+          "code": "MM_IDENTIFICATION_OF_APPLICANT",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_IDENTIFICATION_OF_APPLICANT_DESCRIPTION"
+        },
+        {
+          "code": "MM_ATTESTED_COPY_OF_GPA",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_ATTESTED_COPY_OF_GPA_DESCRIPTION"
+        },
+        {
+          "code": "MM_AFFIDAVIT_EFFECT_GPA",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_AFFIDAVIT_EFFECT_GPA_DESCRIPTION"
+        },
+        {
+          "code": "MM_DECLARATION_FROM_PURCHASER",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_DECLARATION_FROM_PURCHASER_DESCRIPTION"
+        },
+        {
+          "code": "MM_PHOTOGRAPH_OF_APPLICANT",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_PHOTOGRAPH_OF_APPLICANT_DESCRIPTION"
+        }
+      ],
+      "uiConfig": {
+        "dataSources": [
+          {
+            "name": "typesOfOwner",
+            "type": "local",
+            "cacheable": true,
+            "lazyload": true,
+            "values": [
+              {
+                "code": "New"
+              },
+              {
+                "code": "Existing"
               }
+            ]
+          },
+          {
+            "name": "owners",
+            "type": "path",
+            "jsonPath": "propertyDetails.owners",
+            "code": "ownerDetails.ownerId",
+            "label": "ownerDetails.ownerName"
+          },
+          {
+            "name": "modesOfTransfer",
+            "type": "mdms",
+            "cacheable": true,
+            "lazyload": true,
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "modeOfTransfer"
+            }
+          }
+        ],
+        "first_step": {
+          "sections": [
+            {
+              "header": "ES_PROPERTY_DETAILS_HEADER",
+              "type": "CARD_DETAIL",
+              "fields": [
+                {
+                  "label": "ES_FILE_NUMBER_LABEL",
+                  "jsonPath": "property.fileNumber"
+                },
+                {
+                  "label": "ES_HOUSE_NUMBER_LABEL",
+                  "jsonPath": "property.propertyDetails.houseNumber"
+                },
+                {
+                  "label": "ES_MOHALLA_LABEL",
+                  "jsonPath": "property.propertyDetails.mohalla"
+                },
+                {
+                  "label": "ES_STREET_LABEL",
+                  "jsonPath": "property.propertyDetails.street"
+                },
+                {
+                  "label": "ES_AREA_YDS_LABEL",
+                  "jsonPath": "property.propertyDetails.areaSqft"
+                },
+                {
+                  "label": "ES_PROPERTY_TYPE_LABEL",
+                  "jsonPath": "property.propertyDetails.propertyType"
+                },
+                {
+                  "label": "ES_CATEGORY_LABEL",
+                  "jsonPath": "property.category"
+                },
+                {
+                  "label": "ES_SUB_CATEGORY_LABEL",
+                  "jsonPath": "property.subCategory"
+                },
+                {
+                  "label": "ES_SITE_NO_LABEL",
+                  "jsonPath": "property.siteNumber"
+                },
+                {
+                  "label": "ES_SECTOR_NO_LABEL",
+                  "jsonPath": "property.sectorNumber"
+                },
+                {
+                  "label": "ES_LAST_NOC_DATE_LABEL",
+                  "jsonPath": "property.propertyDetails.lastNocDate",
+                  "type": "date"
+                },
+                {
+                  "label": "ES_SERVICE_CATEGORY_LABEL",
+                  "jsonPath": "property.propertyDetails.serviceCategory"
+                }
+              ]
+            },
+            {
+              "header": "ES_PROPERTY_OWNER_LIST_HEADER",
+              "type": "TABLE",
+              "sourceJsonPath": "property.propertyDetails.owners",
+              "fields": [
+                {
+                  "label": "ES_OWNER_NAME_LABEL",
+                  "jsonPath": "ownerDetails.ownerName"
+                },
+                {
+                  "label": "ES_OWNER_SHARE_LABEL",
+                  "jsonPath": "share",
+                  "symbol": "%"
+                },
+                {
+                  "label": "ES_OWNER_ADDRESS_LABEL",
+                  "jsonPath": "ownerDetails.address"
+                }
+              ]
+            },
+            {
+              "header": "ES_OWNER_DETAILS_HEADER",
+              "type": "FORM",
+              "fields": [
+                {
+                  "label": "ES_SELECT_SELLER_OR_TRANSFEROR_LABEL",
+                  "placeholder": "ES_SELECT_SELLER_OR_TRANSFEROR_PLACEHOLDER",
+                  "type": "DROP_DOWN",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.id",
+                  "path": "transferor.id",
+                  "dataSource": "owners"
+                },
+                {
+                  "label": "ES_SELLER_TRANSFEROR_NAME_LABEL",
+                  "placeholder": "ES_SELLER_TRANSFEROR_NAME_PLACEHOLDER",
+                  "disabled": true,
+                  "required": true,
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.name",
+                  "prefillValue": "selectedOwner.ownerDetails.ownerName",
+                  "visible": false
+                },
+                {
+                  "label": "ES_SELLER_TRANSFEROR_FATHER_HUSBAND_NAME_LABEL",
+                  "placeholder": "ES_SELLER_TRANSFEROR_FATHER_HUSBAND_NAME_PLACEHOLDER",
+                  "disabled": true,
+                  "required": true,
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.fatherOrHusbandName",
+                  "prefillValue": "selectedOwner.ownerDetails.guardianName"
+                },
+                {
+                  "label": "ES_SELLER_TRANSFEROR_ADDRESS_LABEL",
+                  "placeholder": "ES_SELLER_TRANSFEROR_ADDRESS_PLACEHOLDER",
+                  "disabled": true,
+                  "type": "TEXT_AREA",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.address",
+                  "prefillValue": "selectedOwner.ownerDetails.address"
+                },
+                {
+                  "label": "ES_PERCENT_SHARE_LABEL",
+                  "placeholder": "ES_PERCENT_SHARE_PLACEHOLDER",
+                  "disabled": true,
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.percentageOfShare",
+                  "prefillValue": "selectedOwner.share"
+                }
+              ]
+            },
+            {
+              "header": "ES_PURCHASER_DETAILS_HEADER",
+              "type": "FORM",
+              "fields": [
+                {
+                  "label": "ES_PURCHASER_TRANSFEREE_TYPE_LABEL",
+                  "placeholder": "ES_PURCHASER_TRANSFEREE_TYPE_PLACEHOLDER",
+                  "type": "DROP_DOWN",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.type",
+                  "path": "transferee.type",
+                  "dataSource": "typesOfOwner",
+                  "visibility": "owners.length > 1 && purchasers.length > 0"
+                },
+                {
+                  "label": "ES_PURCHASER_TRANSFEREE_ID",
+                  "placeholder": "ES_PURCHASER_TRANSFEREE_ID_PLACEHOLDER",
+                  "type": "DROP_DOWN",
+                  "visible": false,
+                  "visibility": "application.applicationDetails.transferee.type == 'Existing'",
+                  "required": true,
+                  "jsonPath": "Applications[0].applicationDetails.transferee.id",
+                  "path": "transferee.id",
+                  "dataValue": "purchasers",
+                  "dataSource": "owners",
+                  "prefillValue": "selectedPurchaser ? selectedPurchaser.id : ''"
+                },
+                {
+                  "label": "ES_PURCHASER_TRANSFEREE_NAME_LABEL",
+                  "placeholder": "ES_PURCHASER_TRANSFEREE_NAME_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "visibility": "application.applicationDetails.transferee.type !== 'Existing'",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.name",
+                  "path": "transferee.name",
+                  "errorMessage": "ES_ERR_PURCHASER_NAME",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
+                },
+                {
+                  "label": "ES_FATHER_HUSBAND_NAME_LABEL",
+                  "placeholder": "ES_FATHER_HUSBAND_NAME_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.fatherOrHusbandName",
+                  "path": "transferee.fatherOrHusbandName",
+                  "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianName : application.applicationDetails.transferee.fatherOrHusbandName",
+                  "errorMessage": "ES_ERR_FATHER_HUSBAND_NAME"
+                },
+                {
+                  "label": "ES_RELATION_SHIP_LABEL",
+                  "type": "RADIO_BUTTON",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.relation",
+                  "path": "transferee.relation",
+                  "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianRelation : application.applicationDetails.transferee.relation"
+                },
+                {
+                  "label": "ES_ADDRESS_LABEL",
+                  "placeholder": "ES_ADDRESS_PLACEHOLDER",
+                  "type": "TEXT_AREA",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.address",
+                  "path": "transferee.address",
+                  "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.address : application.applicationDetails.transferee.address",
+                  "errorMessage": "ES_ERR_ADDRESS"
+                },
+                {
+                  "label": "ES_PURCHASER_TRANSFEREE_MOBILENUMBER_LABEL",
+                  "placeholder": "ES_PURCHASER_TRANSFEREE_MOBILENUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo",
+                  "path": "transferee.mobileNo",
+                  "pattern": "MobileNo",
+                  "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.mobileNumber : application.applicationDetails.transferee.mobileNo"
+                },
+                {
+                  "label": "ES_PERCENTAGE_SHARED_LABEL",
+                  "placeholder": "ES_PERCENTAGE_SHARED_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred",
+                  "path": "transferee.percentageOfShareTransferred",
+                  "pattern": "Percentage",
+                  "errorMessage": "ES_ERR_PERCENTAGE"
+                },
+                {
+                  "label": "ES_REMAINING_SHARE_PERCENTAGE",
+                  "type": "TEXT_FIELD",
+                  "disabled": true,
+                  "prefillValue": "!!application.applicationDetails.transferee.percentageOfShareTransferred && !!selectedOwner.share ? selectedOwner.share - (selectedOwner.share * application.applicationDetails.transferee.percentageOfShareTransferred / 100) : ''"
+                }
+              ]
+            },
+            {
+              "header": "ES_MODE_OF_TRANSFER_HEADER",
+              "type": "FORM",
+              "fields": [
+                {
+                  "label": "ES_MODE_OF_TRANSFER_LABEL",
+                  "placeholder": "ES_MODE_OF_TRANSFER_PLACEHOLDER",
+                  "type": "DROP_DOWN",
+                  "jsonPath": "Applications[0].applicationDetails.modeOfTransfer",
+                  "path": "modeOfTransfer",
+                  "dataSource": "modesOfTransfer"
+                }
+              ]
+            },
+            {
+              "header": "ES_REGISTRATION_DETAILS_HEADER",
+              "type": "FORM",
+              "fields": [
+                {
+                  "label": "ES_REGISTRATION_NUMBER_LABEL",
+                  "placeholder": "ES_REGISTRATION_NUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.registrationNumber",
+                  "path": "registrationNumber",
+                  "errorMessage": "ES_ERR_REGISTRATION_NUMBER"
+                },
+                {
+                  "label": "ES_DATE_OF_REGISTRATION_LABEL",
+                  "type": "DATE_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
+                  "path": "dateOfRegistration"
+                }
+              ]
+            }
+          ]
+        },
+        "second_step": {
+          "header": "ES_DOCUMENT_DETAILS_HEADER",
+          "jsonPath": "Applications[0].applicationDocuments"
+        },
+        "preview": {
+          "sections": [
+            {
+              "header": "ES_PROPERTY_DETAILS_HEADER",
+              "isEditable": false,
+              "fields": [
+                {
+                  "label": "ES_FILE_NUMBER_LABEL",
+                  "jsonPath": "Applications[0].property.fileNumber"
+                },
+                {
+                  "label": "ES_HOUSE_NUMBER_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.houseNumber"
+                },
+                {
+                  "label": "ES_MOHALLA_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.mohalla"
+                },
+                {
+                  "label": "ES_STREET_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.street"
+                },
+                {
+                  "label": "ES_AREA_YDS_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.areaSqft"
+                },
+                {
+                  "label": "ES_PROPERTY_TYPE_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.propertyType"
+                },
+                {
+                  "label": "ES_CATEGORY_LABEL",
+                  "jsonPath": "Applications[0].property.category"
+                },
+                {
+                  "label": "ES_SUB_CATEGORY_LABEL",
+                  "jsonPath": "Applications[0].property.subCategory"
+                },
+                {
+                  "label": "ES_SITE_NO_LABEL",
+                  "jsonPath": "Applications[0].property.siteNumber"
+                },
+                {
+                  "label": "ES_SECTOR_NO_LABEL",
+                  "jsonPath": "Applications[0].property.sectorNumber"
+                },
+                {
+                  "label": "ES_LAST_NOC_DATE_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.lastNocDate",
+                  "type": "date"
+                },
+                {
+                  "label": "ES_SERVICE_CATEGORY_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.serviceCategory"
+                }
+              ]
+            },
+            {
+              "header": "ES_SELLER_TRANSFEROR_DETAILS_HEADER",
+              "step": 0,
+              "fields": [
+                {
+                  "label": "ES_SELLER_OR_TRANSFEROR_NAME_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.transferorDetails.ownerName"
+                },
+                {
+                  "label": "ES_SELLER_TRANSFEROR_FATHER_HUSBAND_NAME_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.transferorDetails.guardianName"
+                },
+                {
+                  "label": "ES_SELLER_TRANSFEROR_ADDRESS_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.transferorDetails.address"
+                },
+                {
+                  "label": "ES_PERCENT_SHARE_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.share"
+                }
+              ]
+            },
+            {
+              "header": "ES_PURCHASER_DETAILS_HEADER",
+              "step": 0,
+              "fields": [
+                {
+                  "label": "ES_PURCHASER_TRANSFEREE_NAME_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.name"
+                },
+                {
+                  "label": "ES_PURCHASER_TRANSFEREE_FATHER_HUSBAND_NAME_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.fatherOrHusbandName"
+                },
+                {
+                  "label": "ES_RELATION_SHIP_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.relation"
+                },
+                {
+                  "label": "ES_PURCHASER_TRANSFEREE_ADDRESS_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.address"
+                },
+                {
+                  "label": "ES_PURCHASER_TRANSFEREE_MOBILENUMBER_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo"
+                },
+                {
+                  "label": "ES_PERCENTAGE_SHARED_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred"
+                }
+              ]
+            },
+            {
+              "header": "ES_REGISTRATION_DETAILS_HEADER",
+              "step": 0,
+              "fields": [
+                {
+                  "label": "ES_MODE_OF_TRANSFER_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.modeOfTransfer"
+                },
+                {
+                  "label": "ES_REGISTRATION_NUMBER_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.registrationNumber"
+                },
+                {
+                  "label": "ES_DATE_OF_REGISTRATION_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
+                  "type": "date"
+                }
+              ]
+            },
+            {
+              "header": "ES_DOCUMENT_DETAILS_HEADER",
+              "type": "DOCUMENTS",
+              "step": 1,
+              "sourceJsonPath": "temp[0].reviewDocData"
             }
           ]
         }
-      ],
+      },
       "notifications": [
         {
           "state": "ES_MM_PENDING_DS_VERIFICATION",
