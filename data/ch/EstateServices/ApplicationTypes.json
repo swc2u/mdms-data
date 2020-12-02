@@ -9,7 +9,8 @@
       "active": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "filter": true,
-      "applicationType": "SaleDeed"
+      "applicationType": "SaleDeed",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Transfer of Ownership on the basis of Registered Will",
@@ -18,7 +19,8 @@
       "active": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "filter": true,
-      "applicationType": "RegisteredWill"
+      "applicationType": "RegisteredWill",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Transfer of Ownership on the basis of Un-registered Will",
@@ -27,7 +29,8 @@
       "active": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "filter": true,
-      "applicationType": "UnRegisteredWill"
+      "applicationType": "UnRegisteredWill",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Transfer of Ownership on the basis of Intestate Death",
@@ -36,7 +39,8 @@
       "active": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "filter": true,
-      "applicationType": "IntestateDeath"
+      "applicationType": "IntestateDeath",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Transfer of Ownership on the basis of Partnership deed/Dissolution deed/Change of Director in case of Private Limited Company",
@@ -45,7 +49,8 @@
       "active": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "filter": "!!property.propertyDetails.entityType && (property.propertyDetails.entityType === 'ET.PUBLIC_LIMITED_COMPANY' || property.propertyDetails.entityType === 'ET.PRIVATE_LIMITED_COMPANY')",
-      "applicationType": "PatnershipDeed"
+      "applicationType": "PatnershipDeed",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Transfer of Ownership on the basis of Court Decree/Family Settlement",
@@ -54,7 +59,8 @@
       "active": true,
       "filter": "!!property.propertyDetails.decreeDate && !!property.propertyDetails.courtDetails && !!property.propertyDetails.civilTitledAs",
       "category": "ES_OWNERSHIP_TRANSFER",
-      "applicationType": "FamilySettlement"
+      "applicationType": "FamilySettlement",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "No Objection Certificate for Transfer of Lease Rights by way of Sale/Gift/Family Transfer Deed/Exchange Deed",
@@ -63,7 +69,8 @@
       "active": true,
       "category": "ES_NO_OBJECTION_NO_DUE_CERTIFICATE",
       "filter": true,
-      "applicationType": "NOC"
+      "applicationType": "NOC",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "No Dues Certificate",
@@ -72,7 +79,8 @@
       "active": true,
       "category": "ES_NO_OBJECTION_NO_DUE_CERTIFICATE",
       "filter": true,
-      "applicationType": "NDC"
+      "applicationType": "NDC",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Conversion of Property from residential to Commercial (SCF to SCO)",
@@ -81,7 +89,8 @@
       "active": true,
       "category": "ES_CONVERSION_OF_PROPERTY",
       "filter": "!!property.propertyDetails.entityType && (property.propertyDetails.entityType === 'ET.PUBLIC_LIMITED_COMPANY' || property.propertyDetails.entityType === 'ET.PRIVATE_LIMITED_COMPANY')",
-      "applicationType": "ScfToSco"
+      "applicationType": "ScfToSco",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Conversion from Leasehold to Freehold Property",
@@ -90,7 +99,8 @@
       "active": true,
       "category": "ES_CONVERSION_OF_PROPERTY",
       "filter": true,
-      "applicationType": "LeaseholdToFreehold"
+      "applicationType": "LeaseholdToFreehold",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Duplicate Allotment Letter/Possession Letter",
@@ -98,7 +108,8 @@
       "type": "EstateBranch_OtherCitizenService_DuplicateCopy",
       "active": true,
       "filter": true,
-      "applicationType": "DuplicateCopy"
+      "applicationType": "DuplicateCopy",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Execution of Lease Deed/Deed of Conveyance",
@@ -106,7 +117,8 @@
       "type": "EstateBranch_OtherCitizenService_LeaseDeed",
       "active": true,
       "filter": true,
-      "applicationType": "LeaseDeed"
+      "applicationType": "LeaseDeed",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Permission to Mortgage",
@@ -114,7 +126,8 @@
       "type": "EstateBranch_OtherCitizenService_Mortgage",
       "active": true,
       "filter": true,
-      "applicationType": "Mortgage"
+      "applicationType": "Mortgage",
+      "branchType": "ESTATE_BRANCH"
     },
     {
       "name": "Change of Trade",
@@ -122,7 +135,28 @@
       "type": "EstateBranch_OtherCitizenService_ChangeInTrade",
       "active": true,
       "filter": true,
-      "applicationType": "ChangeInTrade"
+      "applicationType": "ChangeInTrade",
+      "branchType": "ESTATE_BRANCH"
+    },
+    {
+      "name": "Entry of Ownership on the basis of Sale/gift/exchange/family transfer deed",
+      "code": "ES_ENTRY_OF_OWNERSHIP_SALE_GIFT",
+      "type": "ManiMajra_OwnershipTransfer_SaleDeed",
+      "active": true,
+      "category": "ES_OWNERSHIP_TRANSFER",
+      "filter": true,
+      "applicationType": "SaleDeed",
+      "branchType": "MANIMAJRA_BRANCH"
+    },
+    {
+      "name": "Entry of Ownership on the basis of Registered Will",
+      "code": "ES_ENTRY_OF_OWNERSHIP_REGISTERED_WILL",
+      "type": "ManiMajra_OwnershipTransfer_RegisteredWill",
+      "active": true,
+      "category": "ES_OWNERSHIP_TRANSFER",
+      "filter": true,
+      "applicationType": "RegisteredWill",
+      "branchType": "MANIMAJRA_BRANCH"
     }
   ]
 }
