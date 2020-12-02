@@ -141,7 +141,7 @@
     {
       "name": "Entry of Ownership on the basis of Sale/gift/exchange/family transfer deed",
       "code": "ES_ENTRY_OF_OWNERSHIP_SALE_GIFT",
-      "type": "ManiMajra_OwnershipTransfer_SaleDeed",
+      "type": "ManiMajra_CitizenService_SaleGift",
       "active": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "filter": true,
@@ -151,11 +151,31 @@
     {
       "name": "Entry of Ownership on the basis of Registered Will",
       "code": "ES_ENTRY_OF_OWNERSHIP_REGISTERED_WILL",
-      "type": "ManiMajra_OwnershipTransfer_RegisteredWill",
+      "type": "ManiMajra_CitizenService_RegisteredWill",
       "active": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "filter": true,
       "applicationType": "RegisteredWill",
+      "branchType": "MANIMAJRA_BRANCH"
+    },
+    {
+      "name": "Entry of Ownership on the basis of UnRegistered Will",
+      "code": "ES_ENTRY_OF_OWNERSHIP_UNREGISTERED_WILL",
+      "type": "ManiMajra_CitizenService_UnRegisteredWill",
+      "active": true,
+      "category": "ES_OWNERSHIP_TRANSFER",
+      "filter": true,
+      "applicationType": "UnRegisteredWill",
+      "branchType": "MANIMAJRA_BRANCH"
+    },
+    {
+      "name": "Entry of Ownership on the basis of Intestate Death",
+      "code": "ES_ENTRY_OF_OWNERSHIP_INTESTATE_DEATH",
+      "type": "ManiMajra_CitizenService_IntestateDeath",
+      "active": true,
+      "category": "ES_OWNERSHIP_TRANSFER",
+      "filter": true,
+      "applicationType": "UnRegisteredWill",
       "branchType": "MANIMAJRA_BRANCH"
     }
   ]
