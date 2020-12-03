@@ -1,18 +1,24 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "EstateBranch_OwnershipTransfer_IntestateDeath": [
+  "ManiMajra_CitizenService_UnRegisteredWill": [
     {
       "fields": [
         {
-          "path": "bookNumber",
-          "required": false,
+          "path": "dateOfExecution",
+          "required": true,
           "validations": [
             {
-              "type": "length",
+              "type": "date-range",
               "params": {
-                "min": 0,
-                "max": 100
+                "start": {
+                  "unit": "year",
+                  "value": -40
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
               }
             }
           ]
@@ -56,10 +62,22 @@
         },
         {
           "path": "transferee",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "object"
+            }
+          ]
+        },
+        {
+          "path": "transferee.legalHeirOrbeneficiary",
+          "required": true,
+          "validations": [
+            {
+              "type": "enum",
+              "params": {
+                "values": ["LEGALHEIR", "BENEFICIARY"]
+              }
             }
           ]
         },
@@ -105,19 +123,6 @@
           ]
         },
         {
-          "path": "transferee.fatherOrHusbandName",
-          "required": true,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 5,
-                "max": 150
-              }
-            }
-          ]
-        },
-        {
           "path": "transferee.relation",
           "required": true,
           "validations": [
@@ -130,22 +135,8 @@
           ]
         },
         {
-          "path": "transferee.relationWithDeceased",
-          "required": true,
-          "validations": [
-            {
-              "type": "mdms",
-              "params": {
-                "moduleName": "EstateServices",
-                "masterName": "legaHeirRelationShipWithDeceased",
-                "filter": "legaHeirRelationShipWithDeceased..code"
-              }
-            }
-          ]
-        },
-        {
           "path": "transferee.address",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "length",
@@ -182,6 +173,69 @@
           ]
         },
         {
+          "path": "witness",
+          "required": true,
+          "validations": [
+            {
+              "type": "array"
+            }
+          ]
+        },
+        {
+          "path": "witness..name",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "witness..dob",
+          "required": true,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -100
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "path": "witness..mobileNo",
+          "required": false,
+          "validations": [
+            {
+              "type": "mobile"
+            }
+          ]
+        },
+        {
+          "path": "witness..address",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
           "path": "documentsReceivedDate",
           "required": false,
           "validations": [
@@ -199,227 +253,127 @@
               }
             }
           ]
-        },
-        {
-          "path": "courtCases",
-          "required": false,
-          "validations": [
-            {
-              "type": "object"
-            }
-          ]
-        },
-        {
-          "path": "courtCases.estateOfficerCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.commissionersCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.chiefAdministratorsCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.advisorToAdminCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.honbleDistrictCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.honbleHighCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.honbleSupremeCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
         }
       ],
       "documentList": [
         {
-          "code": "APPLICATION_FOR_TRANSFER",
+          "code": "MM_AFFIDAVIT_INSTRUCTION",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "APPLICATION_FOR_TRANSFER_DESCRIPTION"
+          "description": "MM_AFFIDAVIT_INSTRUCTION_DESCRIPTION"
         },
         {
-          "code": "SELF_ATTESTED_PHOTO",
+          "code": "MM_INDEMNITY_BOND",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_DESCRIPTION"
+          "description": "MM_INDEMNITY_BOND_DESCRIPTION"
         },
         {
-          "code": "ORIGINAL_DEATH_CERTIFICATE_OF_DECEASED",
+          "code": "MM_TRANSLATED_COPY_OF_WILL",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "ORIGINAL_DEATH_CERTIFICATE_OF_DECEASED_DESCRIPTION"
+          "description": "MM_TRANSLATED_COPY_OF_WILL_DESCRIPTION"
         },
         {
-          "code": "IDEMINITY_BOND_LEGAL_HEIRS",
+          "code": "MM_PUBLIC_NOTICE_UNREG",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "IDEMINITY_BOND_LEGAL_HEIRS_DESCRIPTION"
+          "description": "MM_PUBLIC_NOTICE_UNREG_DESCRIPTION"
         },
         {
-          "code": "SELF_ATTESTED_PHOTO_WITNESSES",
+          "code": "MM_NO_OBJECTION_FROM_OTHER_NON_BENEFICIARY",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SELF_ATTESTED_PHOTO_WITNESSES_DESCRIPTION"
+          "description": "MM_NO_OBJECTION_FROM_OTHER_NON_BENEFICIARY_DESCRIPTION"
         },
         {
-          "code": "LIABILTY_AFFIDAVIT_LEGAL_HEIRS",
+          "code": "MM_ORIGINAL_DEATH_CERTIFICATE",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "LIABILTY_AFFIDAVIT_LEGAL_HEIRS_DESCRIPTION"
+          "description": "MM_ORIGINAL_DEATH_CERTIFICATE_DESCRIPTION"
         },
         {
-          "code": "LIABILTY_AFFIDAVIT_OF_BENEFICIARIES",
+          "code": "MM_SITE_PLAN",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "LIABILTY_AFFIDAVIT_OF_BENEFICIARIES_DESCRIPTION"
+          "description": "MM_SITE_PLAN_DESCRIPTION"
         },
         {
-          "code": "CLEARANCE_OF_PREVIOUS_MORTGAGE",
+          "code": "MM_LIABILITY_AFFIDAVIT",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "CLEARANCE_OF_PREVIOUS_MORTGAGE_DESCRIPTION"
+          "description": "MM_LIABILITY_AFFIDAVIT_DESCRIPTION"
         },
         {
-          "code": "SEWERAGE_CONNECTION",
+          "code": "MM_ATTESTED_PHOTOGRAPH",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SEWERAGE_CONNECTION_DESCRIPTION"
+          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_THE_APPLICANT_DESCRIPTION"
         },
         {
-          "code": "SETTING_ALL_TYPES_OF_COURT",
+          "code": "MM_ORIGINAL_DEATH_CERTIFICATE_OF_DECEASED_OWNER",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SETTING_ALL_TYPES_OF_COURT_DESCRIPTION"
+          "description": "MM_ATTESTED_PHOTOGRAPH_DESCRIPTION"
         },
         {
-          "code": "EXECUTION_OF_CONVEYANCE",
+          "code": "MM_LEGAL_HEIRS_CERTIFICATE_UNREG",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "EXECUTION_OF_CONVEYANCE_DESCRIPTION"
+          "description": "MM_LEGAL_HEIRS_CERTIFICATE_UNREG_DESCRIPTION"
         },
         {
-          "code": "OCCUPATION_CERTIFICATE",
+          "code": "MM_IDENTIFICATION_OF_APPLICANTS",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "OCCUPATION_CERTIFICATE_DESCRIPTION"
+          "description": "MM_IDENTIFICATION_OF_APPLICANTS_DESCRIPTION"
         },
         {
-          "code": "REMOVAL_REGULARIZATION_OF_BUILDING_VIOLATION",
+          "code": "MM_NO_DUE_CERTIFICATE_UNREG",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "REMOVAL_REGULARIZATION_OF_BUILDING_VIOLATION_DESCRIPTION"
+          "description": "MM_NO_DUE_CERTIFICATE_UNREG_DESCRIPTION"
         },
         {
-          "code": "UNDERTAKING_BY_WAY_OF_AFFIDAVIT",
+          "code": "MM_REPORT_OF_HALKA_PATWARI",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "UNDERTAKING_BY_WAY_OF_AFFIDAVIT_DESCRIPTION"
+          "description": "MM_REPORT_OF_HALKA_PATWARI_DESCRIPTION"
         },
         {
-          "code": "COPY_OF_GPA_SPA",
+          "code": "MM_ORIGINAL_DEATH_CERTIFICATE_OF_MOTHER_OF_OWNER",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "COPY_OF_GPA_SPA_DESCRIPTION"
+          "description": "MM_ORIGINAL_DEATH_CERTIFICATE_OF_MOTHER_OF_OWNER_DESCRIPTION"
         },
         {
-          "code": "AFFIDAVIT_REGARDING_VALIDITY_GPA_SPA",
+          "code": "MM_ORIGINAL_INTKAL",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "AFFIDAVIT_REGARDING_VALIDITY_GPA_SPA"
+          "description": "MM_ORIGINAL_INTKAL_DESCRIPTION"
         },
         {
-          "code": "CLEARANCE_AGAINST_PROERTY_TAX",
+          "code": "MM_OWNERSHIP_PROOF_OF_PROPERTY",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "CLEARANCE_AGAINST_PROERTY_TAX_DESCRIPTION"
+          "description": "MM_OWNERSHIP_PROOF_OF_PROPERTY_DESCRIPTION"
         }
       ],
       "uiConfig": {
@@ -446,17 +400,7 @@
             "label": "ownerDetails.ownerName"
           },
           {
-            "name": "legalHeirRelationWithDeceased",
-            "type": "mdms",
-            "cacheable": true,
-            "lazyload": true,
-            "options": {
-              "moduleName": "EstateServices",
-              "masterName": "legaHeirRelationShipWithDeceased"
-            }
-          },
-          {
-            "name": "benificiaryRelationwithDeceased",
+            "name": "benificiaryRelationshipwithDeceased",
             "type": "mdms",
             "cacheable": true,
             "lazyload": true,
@@ -477,6 +421,26 @@
                   "jsonPath": "property.fileNumber"
                 },
                 {
+                  "label": "ES_HOUSE_NUMBER_LABEL",
+                  "jsonPath": "property.propertyDetails.houseNumber"
+                },
+                {
+                  "label": "ES_MOHALLA_LABEL",
+                  "jsonPath": "property.propertyDetails.mohalla"
+                },
+                {
+                  "label": "ES_STREET_LABEL",
+                  "jsonPath": "property.propertyDetails.street"
+                },
+                {
+                  "label": "ES_AREA_YDS_LABEL",
+                  "jsonPath": "property.propertyDetails.areaSqft"
+                },
+                {
+                  "label": "ES_PROPERTY_TYPE_LABEL",
+                  "jsonPath": "property.propertyDetails.propertyType"
+                },
+                {
                   "label": "ES_CATEGORY_LABEL",
                   "jsonPath": "property.category"
                 },
@@ -493,17 +457,13 @@
                   "jsonPath": "property.sectorNumber"
                 },
                 {
-                  "label": "ES_PROPERTY_TYPE_LABEL",
-                  "jsonPath": "property.propertyDetails.propertyType"
-                },
-                {
                   "label": "ES_LAST_NOC_DATE_LABEL",
                   "jsonPath": "property.propertyDetails.lastNocDate",
                   "type": "date"
                 },
                 {
-                  "label": "ES_DUE_AMOUNT_LABEL",
-                  "jsonPath": "property.propertyDetails.dueAmount"
+                  "label": "ES_SERVICE_CATEGORY_LABEL",
+                  "jsonPath": "property.propertyDetails.serviceCategory"
                 }
               ]
             },
@@ -532,7 +492,7 @@
               "type": "FORM",
               "fields": [
                 {
-                  "label": "ES_DECEASED_NAME_LABEL",
+                  "label": "ES_DECEASED_LABEL",
                   "placeholder": "ES_DECEASED_NAME_PLACEHOLDER",
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferor.id",
@@ -540,55 +500,76 @@
                   "dataSource": "owners"
                 },
                 {
+                  "label": "ES_DECEASED_NAME_LABEL",
+                  "placeholder": "ES_DECEASED_NAME_PLACEHOLDER",
+                  "disabled": true,
+                  "required": true,
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.name",
+                  "prefillValue": "selectedOwner.ownerDetails.ownerName",
+                  "visible": false
+                },
+                {
                   "label": "ES_DECEASED_FATHER_HUSBAND_NAME_LABEL",
                   "placeholder": "ES_DECEASED_FATHER_HUSBAND_NAME_PLACEHOLDER",
-                  "disabled": true,
                   "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.transferorDetails.guardianName",
-                  "prefillValue": "selectedOwner.ownerDetails.guardianName"
+                  "disabled": true,
+                  "prefillValue": "selectedOwner.ownerDetails.guardianName",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.fatherOrHusbandName"
                 },
                 {
                   "label": "ES_DECEASED_ADDRESS_LABEL",
                   "placeholder": "ES_DECEASED_ADDRESS_PLACEHOLDER",
                   "disabled": true,
                   "type": "TEXT_AREA",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.transferorDetails.address",
-                  "prefillValue": "selectedOwner.ownerDetails.address"
+                  "prefillValue": "selectedOwner.ownerDetails.address",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.address"
                 },
                 {
                   "label": "ES_PERCENT_SHARE_LABEL",
                   "placeholder": "ES_PERCENT_SHARE_PLACEHOLDER",
-                  "disabled": true,
                   "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.share",
-                  "prefillValue": "selectedOwner.share"
+                  "disabled": true,
+                  "prefillValue": "selectedOwner.share",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.percentageOfShare"
                 },
                 {
                   "label": "ES_DATE_OF_DEATH_LABEL",
-                  "placeholder": "ES_DATE_OF_DEATH_PLACEHOLDER",
                   "type": "DATE_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.dateOfDeath",
-                  "path": "transferor.dateOfDeath"
+                  "path": "transferor.dateOfDeath",
+                  "jsonPath": "Applications[0].applicationDetails.transferor.dateOfDeath"
+                },
+                {
+                  "label": "ES_DATE_OF_EXECUTION_OF_WILL_LABEL",
+                  "type": "DATE_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.dateOfExecution",
+                  "path": "dateOfExecution"
                 }
               ]
             },
             {
-              "header": "ES_LEGAL_HEIR_DETAILS_HEADER",
+              "header": "ES_LEGAL_BENEFICIARY_DETAILS",
               "type": "FORM",
               "fields": [
                 {
-                  "label": "ES_LEGAL_HEIR_TYPE_LABEL",
-                  "placeholder": "ES_LEGAL_HEIR_TYPE_PLACEHOLDER",
+                  "label": "ES_IS_LEGAL_HEIR_OR_BENEFICIARY_RADIO_BTN_LABEL",
+                  "placeholder": "ES_IS_LEGAL_HEIR_OR_BENEFICIARY_RADIO_BTN_PLACEHOLDER",
+                  "type": "RADIO_BUTTON",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.legalHeirOrbeneficiary",
+                  "path": "transferee.legalHeirOrbeneficiary"
+                },
+                {
+                  "label": "ES_IS_LEGAL_HEIR_OR_BENEFICIARY_EXISTING_OWNER_RADIO_BTN_LABEL",
+                  "placeholder": "ES_IS_LEGAL_HEIR_OR_BENEFICIARY_EXISTING_OWNER_RADIO_BTN_PLACEHOLDER",
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferee.type",
                   "path": "transferee.type",
-                  "required": true,
                   "dataSource": "typesOfOwner",
                   "visibility": "owners.length > 1 && purchasers.length > 0"
                 },
                 {
-                  "label": "ES_SELECT_LEGAL_HEIR_LABEL",
-                  "placeholder": "ES_SELECT_LEGAL_HEIR_PLACEHOLDER",
+                  "label": "ES_SELECT_OWNER_LABEL",
+                  "placeholder": "ES_SELECT_OWNER_PLACEHOLDER",
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferee.id",
                   "path": "transferee.id",
@@ -600,17 +581,17 @@
                   "visibility": "application.applicationDetails.transferee.type == 'Existing'"
                 },
                 {
-                  "label": "ES_LEGAL_HEIR_NAME_LABEL",
-                  "placeholder": "ES_LEGAL_HEIR_PLACEHOLDER",
+                  "label": "ES_LEGAL_HEIR_BENEFICIARY_NAME_LABEL",
+                  "placeholder": "ES_LEGAL_HEIR_BENEFICIARY_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferee.name",
                   "path": "transferee.name",
                   "visibility": "application.applicationDetails.transferee.type !== 'Existing'",
-                  "errorMessage": "ES_ERR_LEGAL_NAME",
+                  "errorMessage": "ES_ERR_LEGAL_BENEFICIARY_NAME",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
                 },
                 {
-                  "label": "ES_LEGAL_FATHER_HUSBAND_NAME_LABEL",
+                  "label": "ES_LEGAL_BENIFICIARY_FATHER_HUSBAND_NAME_LABEL",
                   "placeholder": "ES_FATHER_HUSBAND_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferee.fatherOrHusbandName",
@@ -628,8 +609,8 @@
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianRelation : application.applicationDetails.transferee.relation"
                 },
                 {
-                  "label": "ES_LEGAL_HEIR_DOB_LABEL",
-                  "placeholder": "ES_LEGAL_HEIR_DOB_PLACEHOLDER",
+                  "label": "ES_DOB_LABEL",
+                  "placeholder": "ES_DOB_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferee.dob",
                   "path": "transferee.dob",
@@ -637,8 +618,8 @@
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.dob : application.applicationDetails.transferee.dob "
                 },
                 {
-                  "label": "ES_LEGAL_HEIR_ADDRESS_LABEL",
-                  "placeholder": "ES_LEGAL_HEIR_ADDRESS_PLACEHOLDER",
+                  "label": "ES_ADDRESS_LABEL",
+                  "placeholder": "ES_ADDRESS_PLACEHOLDER",
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.transferee.address",
                   "path": "transferee.address",
@@ -647,19 +628,19 @@
                   "errorMessage": "ES_ERR_ADDRESS"
                 },
                 {
-                  "label": "ES_LEGAL_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
-                  "placeholder": "ES_LEGAL_RELATION_WITH_DECEASED_RADIO_BTN_PLACEHOLDER",
+                  "label": "ES_BENEFICIARY_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
+                  "placeholder": "ES_BENEFICIARY_RELATION_WITH_DECEASED_RADIO_BTN_PLACEHOLDER",
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferee.relationWithDeceased",
-                  "path": "transferee.relationWithDeceased",
-                  "dataSource": "legalHeirRelationWithDeceased"
+                  "dataSource": "benificiaryRelationshipwithDeceased",
+                  "visibility": "application.applicationDetails.transferee.legalHeirOrbeneficiary === 'BENEFICIARY'"
                 },
                 {
-                  "label": "ES_PERCENT_SHARE_LABEL",
-                  "placeholder": "ES_PERCENT_SHARE_PLACEHOLDER",
+                  "label": "ES_PERCENTAGE_SHARED_LABEL",
+                  "placeholder": "ES_PERCENTAGE_SHARED_PLACEHOLDER",
                   "type": "TEXT_FIELD",
-                  "path": "transferee.percentageOfShareTransferred",
                   "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred",
+                  "path": "transferee.percentageOfShareTransferred",
                   "pattern": "Percentage",
                   "errorMessage": "ES_ERR_PERCENTAGE"
                 },
@@ -668,6 +649,47 @@
                   "type": "TEXT_FIELD",
                   "disabled": true,
                   "prefillValue": "!!application.applicationDetails.transferee.percentageOfShareTransferred && !!selectedOwner.share ? selectedOwner.share - (selectedOwner.share * application.applicationDetails.transferee.percentageOfShareTransferred / 100) : ''"
+                }
+              ]
+            },
+            {
+              "header": "ES_WITNESS_DETAILS_HEADER",
+              "type": "FORM",
+              "subType": "ARRAY",
+              "buttonLabel": "ES_ADD_WITNESS_LABEL",
+              "sourceJsonPath": "Applications[0].applicationDetails.witness",
+              "fields": [
+                {
+                  "label": "ES_WITNESS_NAME_LABEL",
+                  "placeholder": "ES_WITNESS_NAME_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.witness[0].name",
+                  "path": "witness..name",
+                  "errorMessage": "ES_ERR_WITNESS_NAME"
+                },
+                {
+                  "label": "ES_DOB_LABEL",
+                  "placeholder": "ES_DOB_PLACEHOLDER",
+                  "type": "DATE_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.witness[0].dob",
+                  "path": "witness..dob"
+                },
+                {
+                  "label": "ES_ADDRESS_LABEL",
+                  "placeholder": "ES_ADDRESS_PLACEHOLDER",
+                  "type": "TEXT_AREA",
+                  "jsonPath": "Applications[0].applicationDetails.witness[0].address",
+                  "path": "witness..address",
+                  "errorMessage": "ES_ERR_ADDRESS"
+                },
+                {
+                  "label": "ES_MOBILE_NUMBER_LABEL",
+                  "placeholder": "ES_MOBILE_NUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.witness[0].mobileNo",
+                  "path": "witness..mobileNo",
+                  "pattern": "MobileNo",
+                  "errorMessage": "ES_ERR_MOBILE_NUMBER"
                 }
               ]
             }
@@ -688,6 +710,26 @@
                   "jsonPath": "Applications[0].property.fileNumber"
                 },
                 {
+                  "label": "ES_HOUSE_NUMBER_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.houseNumber"
+                },
+                {
+                  "label": "ES_MOHALLA_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.mohalla"
+                },
+                {
+                  "label": "ES_STREET_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.street"
+                },
+                {
+                  "label": "ES_AREA_YDS_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.areaSqft"
+                },
+                {
+                  "label": "ES_PROPERTY_TYPE_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.propertyType"
+                },
+                {
                   "label": "ES_CATEGORY_LABEL",
                   "jsonPath": "Applications[0].property.category"
                 },
@@ -704,17 +746,13 @@
                   "jsonPath": "Applications[0].property.sectorNumber"
                 },
                 {
-                  "label": "ES_PROPERTY_TYPE_LABEL",
-                  "jsonPath": "Applications[0].property.propertyDetails.propertyType"
-                },
-                {
                   "label": "ES_LAST_NOC_DATE_LABEL",
                   "jsonPath": "Applications[0].property.propertyDetails.lastNocDate",
                   "type": "date"
                 },
                 {
-                  "label": "ES_DUE_AMOUNT_LABEL",
-                  "jsonPath": "Applications[0].property.propertyDetails.dueAmount"
+                  "label": "ES_SERVICE_CATEGORY_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.serviceCategory"
                 }
               ]
             },
@@ -736,25 +774,34 @@
                 },
                 {
                   "label": "ES_PERCENT_SHARE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.share"
+                  "jsonPath": "Applications[0].applicationDetails.transferor.percentageOfShare"
                 },
                 {
                   "label": "ES_DATE_OF_DEATH_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferor.dateOfDeath",
                   "type": "date"
+                },
+                {
+                  "label": "ES_DATE_OF_EXECUTION_OF_UNREGISTERED_WILL_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.dateOfExecution",
+                  "type": "date"
                 }
               ]
             },
             {
-              "header": "ES_LEGAL_HEIR_DETAILS_HEADER",
+              "header": "ES_LEGAL_BENEFICIARY_DETAILS",
               "step": 0,
               "fields": [
                 {
-                  "label": "ES_LEGAL_HEIR_NAME_LABEL",
+                  "label": "ES_IS_LEGAL_HEIR_OR_BENEFICIARY_RADIO_BTN_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.legalHeirOrbeneficiary"
+                },
+                {
+                  "label": "ES_LEGAL_HEIR_BENEFICIARY_NAME_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferee.name"
                 },
                 {
-                  "label": "ES_LEGAL_FATHER_HUSBAND_NAME_LABEL",
+                  "label": "ES_LEGAL_BENIFICIARY_FATHER_HUSBAND_NAME_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferee.fatherOrHusbandName"
                 },
                 {
@@ -762,28 +809,53 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.relation"
                 },
                 {
-                  "label": "ES_LEGAL_HEIR_DOB_LABEL",
+                  "label": "ES_DOB_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferee.dob",
                   "type": "date"
                 },
                 {
-                  "label": "ES_LEGAL_HEIR_ADDRESS_LABEL",
+                  "label": "ES_ADDRESS_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferee.address"
                 },
                 {
-                  "label": "ES_LEGAL_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
+                  "label": "ES_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferee.relationWithDeceased"
                 },
                 {
-                  "label": "ES_PERCENT_SHARE_LABEL",
+                  "label": "ES_PERCENTAGE_SHARED_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred"
                 }
               ]
             },
             {
+              "header": "ES_WITNESS_DETAILS_HEADER",
+              "step": 0,
+              "sourceJsonPath": "Applications[0].applicationDetails.witness",
+              "type": "LIST",
+              "fields": [
+                {
+                  "label": "ES_WITNESS_NAME_LABEL",
+                  "jsonPath": "name"
+                },
+                {
+                  "label": "ES_DOB_LABEL",
+                  "jsonPath": "dob",
+                  "type": "date"
+                },
+                {
+                  "label": "ES_ADDRESS_LABEL",
+                  "jsonPath": "address"
+                },
+                {
+                  "label": "ES_MOBILE_NUMBER_LABEL",
+                  "jsonPath": "mobileNo"
+                }
+              ]
+            },
+            {
               "header": "ES_DOCUMENT_DETAILS_HEADER",
-              "step": 1,
               "type": "DOCUMENTS",
+              "step": 1,
               "sourceJsonPath": "temp[0].reviewDocData"
             }
           ]
@@ -791,8 +863,8 @@
       },
       "notifications": [
         {
-          "state": "ES_PENDING_DS_VERIFICATION",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been received. Please note your application number {applicationNumber} for further reference.",
+          "state": "ES_MM_PENDING_DS_VERIFICATION",
+          "content": "Hi {createdBy.name}, \n Your application for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been received. Please note your application number {applicationNumber} for further reference.",
           "modes": {
             "email": {
               "enabled": true,
@@ -802,78 +874,38 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
+              "to": "{createdBy.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
         {
-          "state": "ES_PENDING_PAYMENT",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "state": "ES_MM_PENDING_PAYMENT",
+          "content": "Hi {owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
-              "to": "{createdBy.emailId}",
+              "to": "{owner.email}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
+              "to": "{owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}",
-             "isPayLink" : true
+              "isPayLink": true
             }
           }
         },
         {
-          "state": "ES_PENDING_CLARIFICATION",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
-          "modes": {
-            "email": {
-              "enabled": false,
-              "html": false,
-              "to": "{createdBy.emailId}",
-              "subject": "CSCL - Intimation for application {applicationNumber}"
-            },
-            "sms": {
-              "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
-            },
-             "event": {
-              "enabled": true,
-              "to": "{createdBy.uuid}"
-            }
-          }
-        },
-        {
-          "state": "ES_REJECTED",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
-          "modes": {
-            "email": {
-              "enabled": false,
-              "html": false,
-              "to": "{createdBy.emailId}",
-              "subject": "CSCL - Intimation for application {applicationNumber}"
-            },
-            "sms": {
-              "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
-            },
-             "event": {
-              "enabled": true,
-              "to": "{createdBy.uuid}"
-            }
-          }
-        },
-        {
-          "state": "ES_PENDING_DA_FEE",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
+          "state": "ES_MM_REJECTED",
+          "content": "Hi {createdBy.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
           "modes": {
             "email": {
               "enabled": true,
@@ -883,77 +915,37 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
+              "to": "{createdBy.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
         {
-          "state": "PAYMENT_NOTIFICATION",
-          "content": "Hi {applicationDetails.transferee.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
+          "state": "ES_MM_APPROVED",
+          "content": "Hi {createdBy.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved. Please note your serial number {serialNumber} for future reference.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.transferee.mobileNo}"
+              "to": "{createdBy.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
-        },
-        {
-          "state": "PAYMENT_NOTIFICATION_PAYER",
-          "content": "Hi {payer.name}, \n A payment of Rs {payment} has been collected successfully towards your application no. {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} . Your receipt no. for future reference is {recieptNumber}.",
-          "modes": {
-            "email": {
-              "enabled": true,
-              "html": false,
-              "to": "{payer.emailId}",
-              "subject": "CSCL - Intimation for application {applicationNumber}"
-            },
-            "sms": {
-              "enabled": true,
-              "to": "{payer.mobileNumber}"
-            },
-             "event": {
-              "enabled": true,
-              "to": "{createdBy.uuid}"
-            }
-          }
-        },
-          {
-            "state": "ES_APPROVED",
-            "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
-            "modes": {
-              "email": {
-                "enabled": false,
-                "html": false,
-                "to": "{createdBy.emailId}",
-                "subject": "CSCL - Intimation for application {applicationNumber}"
-              },
-              "sms": {
-                "enabled": true,
-                "to": "{applicationDetails.transferee.mobileNo}"
-              },
-               "event": {
-                "enabled": true,
-                "to": "{createdBy.uuid}"
-              }
-            }
         }
       ],
-      "feePercentGST" : [],
-	  "fees": [
+      "feePercentGST": [],
+      "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
@@ -980,11 +972,11 @@
           "amount": 0.0
         },
         {
-          "category" : "*",
-          "subCategory" : "*",
-          "amount" : 100.0
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
         }
-      ]	
+      ]
     }
   ]
 }

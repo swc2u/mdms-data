@@ -706,6 +706,46 @@
       "code": "ESEBPV10YRS2020",
       "financialYear": "2020-30"
     }, 
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "ESTATE_SERVICE_BUILDING_BRANCH.PROPERTY_VIOLATION",
+      "code": "ESBBPV10YRS2020",
+      "financialYear": "2020-30"
+    }, 
+     {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.EXTENSION_FEE",
+      "code": "ESEBEF10YRS2020",
+      "financialYear": "2020-30"
+    }, 
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "ESTATE_SERVICE_BUILDING_BRANCH.EXTENSION_FEE",
+      "code": "ESBBEF10YRS2020",
+      "financialYear": "2020-30"
+    },
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SECURITY_DEPOSIT",
+      "code": "ESEBSD10YRS2020",
+      "financialYear": "2020-30"
+    }, 
+    {
+      "fromDate": 1585679400000,
+      "toDate": 1901298599000,
+      "periodCycle": "TENYEARS",
+      "service": "ESTATE_SERVICE_BUILDING_BRANCH.SECURITY_DEPOSIT",
+      "code": "ESBBSD10YRS2020",
+      "financialYear": "2020-30"
+    }, 
 	{
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
