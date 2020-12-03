@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "applicationTypes": [
+  "applicationTypesBB": [
     {
       "name": "NOC for Electricity/ Water/ Sewerage Connections",
       "code": "ES_BB_NOC",
