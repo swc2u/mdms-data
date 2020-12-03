@@ -1,0 +1,175 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstateServices",
+  "ManiMajra_OtherCitizenService_NOC": [
+    {
+      "fields": [
+        {
+          "path": "owner",
+          "required": true,
+          "validations": [
+            {
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "path": "owner.id",
+          "required": true,
+          "validations": [
+            {
+              "type": "owner"
+            }
+          ]
+        },
+        {
+          "path": "areaToBeConverted",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 1,
+                "max": 100000
+              }
+            }
+          ]
+        },
+        {
+          "path": "documentsReceivedDate",
+          "required": false,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -1
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "notifications": [
+        {
+          "state": "ES_MM_PENDING_DS_VERIFICATION",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been received. Please note your application number {applicationNumber} for further reference.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_PENDING_CLARIFICATION",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_REJECTED",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_APPROVED",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        }
+      ],
+      "feePercentGST": [],
+      "fees": [
+        {
+          "category": "CAT.RESIDENTIAL",
+          "subCategory": "*",
+          "amount": 6000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.BOOTH",
+          "amount": 5000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.SCF",
+          "amount": 10000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "SUBCAT.SCO",
+          "amount": 10000.0
+        },
+        {
+          "category": "CAT.COMMERCIAL",
+          "subCategory": "*",
+          "amount": 0.0
+        },
+        {
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
+        }
+      ]
+    }
+  ]
+}
