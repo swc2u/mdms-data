@@ -42070,12 +42070,6 @@
 			"tenantId": "ch"
 		  },
 		  {
-			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
-			"actionid": 30020,
-			"actioncode": "",
-			"tenantId": "ch"
-		  },
-		  {
 			"rolecode": "ES_BB_FINANCIAL_OFFICER",
 			"actionid": 30020,
 			"actioncode": "",
@@ -42503,7 +42497,7 @@
 		  },
 		  {
 			"rolecode": "ES_MM_SR_ASSISTANT",
-			"actionid": 30020,
+			"actionid": 30030,
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
