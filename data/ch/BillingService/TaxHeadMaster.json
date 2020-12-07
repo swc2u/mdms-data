@@ -2103,6 +2103,26 @@
          "isRequired":false
       }, 
       {
+         "category":"TAX",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_CABLE_OPERATORS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
+         "name":"Interest on GST",
+         "code":"INT_GST_CABLE_OPERATORS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      }, 
+      {
          "category":"PENALTY",
          "service":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
          "name":"Penalities/Fines  Others",
