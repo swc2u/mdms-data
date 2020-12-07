@@ -317,13 +317,6 @@
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_THE_APPLICANT_DESCRIPTION"
-        },
-        {
-          "code": "MM_ORIGINAL_DEATH_CERTIFICATE_OF_DECEASED_OWNER",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
           "description": "MM_ATTESTED_PHOTOGRAPH_DESCRIPTION"
         },
         {
