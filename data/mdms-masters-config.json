@@ -1114,7 +1114,8 @@
 		  "masterName": "CalculationAttribute",
 		  "isStateLevel": true,
 		  "uniqueKeys": []
-		},
+		}
+	},
     "Booking": {
         "PropertyType": {
             "masterName": "PropertyType",
@@ -1287,7 +1288,14 @@
                    "uniqueKeys": [
                        "$.code"
                    ]
+               },
+"BookingRoles": {
+                   
+                   "masterName": "Documents",
+                   "isStateLevel": true,
+                   "uniqueKeys": [
+                       "$.code"
+                   ]
                }
     }
-}
 }
