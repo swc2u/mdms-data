@@ -23203,15 +23203,15 @@
 	{
 		"id": 6020,
 		"name": "Create DNIT",
-		"url": "services/works/workEstimate/newform",
-		"displayName": "Work Agreement Progress Update",
+		"url": "services/works/workEstimate/dnitsearchEstimate",
+		"displayName": "Create DNIT",
 		"orderNumber": "6",
 		"parentModule": "works",
 		"enabled": true,
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.DNIT.Create DNIT",
-		"navigationURL": "services/works/workEstimate/newform",
+		"navigationURL": "services/works/workEstimate/dnitsearchEstimate",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
