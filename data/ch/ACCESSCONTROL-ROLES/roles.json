@@ -724,7 +724,7 @@
       "name": "HC_CEMCC",
       "description": "Chief Engineer(MCC)"
     },
-      {
+    {
       "code": "HC_EEWE",
       "name": "HC_EEWE",
       "description": "Executive Engineer(W&E)"
@@ -763,6 +763,36 @@
       "code": "challanHOD",
       "name": "challanHOD",
       "description": "Appellete Auth"
-    }   
+    },
+    {
+      "code": "NULM_ADMIN",
+      "name": "NULM Admin",
+      "description": "NULM Admin"
+    },
+	{
+      "code": "NULMJA",
+      "name": "Junior Assistant",
+      "description": "NULM Junior Assistant"
+    },
+	{
+      "code": "NULMSDO",
+      "name": "SDO",
+      "description": "NULM SDO"
+    },
+	{
+      "code": "NULMACMC",
+      "name": "ACMC",
+      "description": "NULM ACMC"
+    },
+	{
+      "code": "NGO",
+      "name": "Non-Government Organizations",
+      "description": "Non-Government Organizations"
+    },
+	{
+      "code": "RTIADMIN",
+      "name": "RTIADMIN",
+      "description": "RTI Admin"
+    }
    ]
 }
