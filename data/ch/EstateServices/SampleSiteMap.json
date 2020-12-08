@@ -16,7 +16,7 @@
             "labelKey": "SAMPLE_SITE_MAP_ALLOWED_TYPES"
           },
           "formatProps": {
-            "accept": ".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*"
           },
           "maxFileSize": 6000,
           "moduleName": "Estate",
