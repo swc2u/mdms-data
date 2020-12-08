@@ -379,6 +379,94 @@
          "isVoucherCreationEnabled":true
       },
       {
+         "businessService": "Mani Majra Citizen Service with Sale gift",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
+         "collectionModesNotAllowed": [
+             "DD"
+         ],
+         "partPaymentAllowed": false,
+         "isAdvanceAllowed": false,
+         "demandUpdateTime": 604800000,
+         "isVoucherCreationEnabled": true
+     },
+     {
+         "businessService": "Mani Majra Citizen Service with Family settlement",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
+         "collectionModesNotAllowed": [
+             "DD"
+         ],
+         "partPaymentAllowed": false,
+         "isAdvanceAllowed": false,
+         "demandUpdateTime": 604800000,
+         "isVoucherCreationEnabled": true
+     },
+     {
+         "businessService": "Mani Majra Citizen Service with Intestate death",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
+         "collectionModesNotAllowed": [
+             "DD"
+         ],
+         "partPaymentAllowed": false,
+         "isAdvanceAllowed": false,
+         "demandUpdateTime": 604800000,
+         "isVoucherCreationEnabled": true
+     },
+     {
+         "businessService": "Mani Majra Citizen Service with Registered will",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
+         "collectionModesNotAllowed": [
+             "DD"
+         ],
+         "partPaymentAllowed": false,
+         "isAdvanceAllowed": false,
+         "demandUpdateTime": 604800000,
+         "isVoucherCreationEnabled": true
+     },
+     {
+         "businessService": "Mani Majra Citizen Service with Un Registered will",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
+         "collectionModesNotAllowed": [
+             "DD"
+         ],
+         "partPaymentAllowed": false,
+         "isAdvanceAllowed": false,
+         "demandUpdateTime": 604800000,
+         "isVoucherCreationEnabled": true
+     },
+     {
+         "businessService": "Mani Majra Citizen Service with Allotment of new house",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
+         "collectionModesNotAllowed": [
+             "DD"
+         ],
+         "partPaymentAllowed": false,
+         "isAdvanceAllowed": false,
+         "demandUpdateTime": 604800000,
+         "isVoucherCreationEnabled": true
+     },
+     {
+         "businessService": "Mani Majra Citizen Service with NDC",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.NDC",
+         "collectionModesNotAllowed": [
+             "DD"
+         ],
+         "partPaymentAllowed": false,
+         "isAdvanceAllowed": false,
+         "demandUpdateTime": 604800000,
+         "isVoucherCreationEnabled": true
+     },
+     {
+         "businessService": "Mani Majra Citizen Service with NOC",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.NOC",
+         "collectionModesNotAllowed": [
+             "DD"
+         ],
+         "partPaymentAllowed": false,
+         "isAdvanceAllowed": false,
+         "demandUpdateTime": 604800000,
+         "isVoucherCreationEnabled": true
+     },
+      {
          "businessService":"Estate branch rent for property master",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
          "collectionModesNotAllowed":[

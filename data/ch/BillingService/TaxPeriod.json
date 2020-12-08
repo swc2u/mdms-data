@@ -699,6 +699,70 @@
          "financialYear":"2020-30"
       },
       {
+         "fromDate": 1585679400000,
+         "toDate": 1901298599000,
+         "periodCycle": "TENYEARS",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
+         "code": "ESMMSG10YRS2020",
+         "financialYear": "2020-30"
+       },
+       {
+         "fromDate": 1585679400000,
+         "toDate": 1901298599000,
+         "periodCycle": "TENYEARS",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
+         "code": "ESMMFS10YRS2020",
+         "financialYear": "2020-30"
+       },
+       {
+         "fromDate": 1585679400000,
+         "toDate": 1901298599000,
+         "periodCycle": "TENYEARS",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
+         "code": "ESMMID10YRS2020",
+         "financialYear": "2020-30"
+       },
+       {
+         "fromDate": 1585679400000,
+         "toDate": 1901298599000,
+         "periodCycle": "TENYEARS",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
+         "code": "ESMMRW10YRS2020",
+         "financialYear": "2020-30"
+       },
+       {
+         "fromDate": 1585679400000,
+         "toDate": 1901298599000,
+         "periodCycle": "TENYEARS",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
+         "code": "ESMMURW10YRS2020",
+         "financialYear": "2020-30"
+       },
+       {
+         "fromDate": 1585679400000,
+         "toDate": 1901298599000,
+         "periodCycle": "TENYEARS",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
+         "code": "ESMMANH10YRS2020",
+         "financialYear": "2020-30"
+       },
+       {
+         "fromDate": 1585679400000,
+         "toDate": 1901298599000,
+         "periodCycle": "TENYEARS",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.NDC",
+         "code": "ESMMNDC10YRS2020",
+         "financialYear": "2020-30"
+       },
+       {
+         "fromDate": 1585679400000,
+         "toDate": 1901298599000,
+         "periodCycle": "TENYEARS",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.NOC",
+         "code": "ESMMNOC10YRS2020",
+         "financialYear": "2020-30"
+       },
+      {
          "fromDate":1585679400000,
          "toDate":1901298599000,
          "periodCycle":"TENYEARS",
