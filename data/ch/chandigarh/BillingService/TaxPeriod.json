@@ -936,6 +936,14 @@
       "service": "PACC",
       "code": "PACC_ROUND_OFF",
       "financialYear": "2019-29"
+    },
+	{
+      "fromDate": 1554057000000,
+      "toDate": 1869676199000,
+      "periodCycle": "TENYEARS",
+      "service": "PACC",
+      "code": "PACC_LOCATION_AND_VENUE_CHANGE_AMOUNT",
+      "financialYear": "2019-29"
     }
   ]
 }

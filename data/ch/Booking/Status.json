@@ -3,7 +3,7 @@
     "moduleName": "Booking",
     "Status": [
         {
-            "name": "Open space for building material",
+            "name": "Open Space to Store Building Material",
             "id": "1",
             "code": "OSBM",
             "tenantId":"ch.chandigarh",
@@ -38,9 +38,9 @@
             
         },
         {
-            "name": "Water tanker",
+            "name": "Water Tankers",
             "id": "2",
-            "code": "BWT",
+            "code": "WATER_TANKERS",
             "tenantId":"ch.chandigarh",
             "active":"true",
             "status":[
@@ -106,9 +106,9 @@
             ]
         },
         {
-            "name": "Ground For Commercial Purpose",
+            "name": "Ground for Commercial Purpose",
             "id": "4",
-            "code": "GFCP",
+            "code": "GROUND_FOR_COMMERCIAL_PURPOSE",
             "tenantId":"ch.chandigarh",
             "active":"true",
             "status":[
@@ -169,6 +169,41 @@
                         {
                     "name": "published",
                     "code": "PUBLISHED",
+                    "active": true
+                }
+
+            ]
+        },
+	{
+           "name": "Parks and Community Center",
+            "id": "6",
+            "code": "Parks and Community Center",
+            "tenantId":"ch.chandigarh",
+            "active":"true",
+            "status":[
+                 {
+                    "name": "Initiated",
+                    "code": "INITIATED",
+                    "active": true
+                },
+                {
+                    "name": "Approved",
+                    "code": "APPROVED",
+                    "active": true
+                },
+                {
+                    "name": "Rejected",
+                    "code": "REJECTED",
+                    "active": true
+                },
+                {
+                    "name": "Panding Payment",
+                    "code": "PENDINGPAYMENT",
+                    "active": true
+                },
+                {
+                    "name": "Panding Approval",
+                    "code": "PENDINGAPPROVAL",
                     "active": true
                 }
 

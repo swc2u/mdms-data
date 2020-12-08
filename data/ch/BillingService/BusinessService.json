@@ -1810,6 +1810,50 @@
 		  "isAdvanceAllowed": false,
 		  "isVoucherCreationEnabled": true,
 		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "LUXURY_TAX",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "REFUNDABLE_SECURITY",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "PACC_LOCATION_AND_VENUE_CHANGE_AMOUNT",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
+		},
+		{
+		  "businessService": "PACC",
+		  "code": "FACILITATION_CHARGE",
+		  "collectionModesNotAllowed": [
+			"DD"
+		  ],
+		  "partPaymentAllowed": false,
+		  "isAdvanceAllowed": false,
+		  "isVoucherCreationEnabled": true,
+		  "isActive": true
 		}
 	]
 }
