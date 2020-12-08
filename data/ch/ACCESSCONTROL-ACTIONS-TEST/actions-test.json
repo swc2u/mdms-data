@@ -23395,6 +23395,21 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
-    }
+    },
+	{
+		"id": 7014,
+		"name": "Payslip",
+		"url": "url",
+		"displayName": "Payslip",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-integration",
+		"enabled": true,
+		"serviceCode": "INTEGRATION",
+		"code": "null",
+		"path": "INTEGRATION.pay slip search",
+		"navigationURL": "egov-integration/payslipsearch",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	}
   ]
 }

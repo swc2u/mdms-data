@@ -1,536 +1,536 @@
 {
-  "tenantId": "ch.chandigarh",
-  "moduleName": "BillingService",
-  "TaxPeriod": [
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "PT",
-      "code": "PTAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "PT",
-      "code": "PTAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "PT",
-      "code": "PTAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "PT",
-      "code": "PTAN2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "CTL.REHRI_REGISTRATION",
-      "code": "CTLRC10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "CTL.REHRI_DRIVING_LICENSE",
-      "code": "CTLDL10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "CTL.DHOBI_GHAT",
-      "code": "CTLDG10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "CTL.OLD_BOOK_MARKET",
-      "code": "CTLOBM10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
-      "code": "RPOTCM10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
-      "code": "RPOTCK10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
-      "code": "RPOTCS10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
-      "code": "RPOTVN10YRS2019",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
-      "code": "RPDCCM10YRS2019",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
-      "code": "RPDCCK10YRS2019",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
-      "code": "RPDCCS10YRS2019",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
-      "code": "RPDCVN10YRS2019",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_MILK.RENT",
-      "code": "RPRENTCM10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
-      "code": "RPRENTCK10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
-      "code": "RPRENTCS10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
-      "code": "RPRENTVN10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "FIRENOC",
-      "code": "FIRENOCAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "FIRENOC",
-      "code": "FIRENOCAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "FIRENOC",
-      "code": "FIRENOCAN2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "FIRENOC",
-      "code": "FIRENOCAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "TX.No_Dues_Certificate",
-      "code": "TXNDCAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "TX.No_Dues_Certificate",
-      "code": "TXNDCAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "TX.No_Dues_Certificate",
-      "code": "TXNDCAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "ADVT.Hoardings",
-      "code": "ADHAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "ADVT.Hoardings",
-      "code": "ADHAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "ADVT.Hoardings",
-      "code": "ADHAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Municipal_Shops_Rent",
-      "code": "RTMSRAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Municipal_Shops_Rent",
-      "code": "RTMSRAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Municipal_Shops_Rent",
-      "code": "RTMSRAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Parking_Fee",
-      "code": "RTPFAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Parking_Fee",
-      "code": "RTPFAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Parking_Fee",
-      "code": "RTPFAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Jamin_Theka",
-      "code": "RTJTAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Jamin_Theka",
-      "code": "RTJTAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "RT.Jamin_Theka",
-      "code": "RTJTAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1554076801000,
-      "toDate": 1585699199000,
-      "periodCycle": "ANNUAL",
-      "service": "REV_GRANTS",
-      "code": "REVGRAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1585699201000,
-      "toDate": 1617235199000,
-      "periodCycle": "ANNUAL",
-      "service": "REV_GRANTS",
-      "code": "REVGRAN2020",
-      "financialYear": "2020-21"
-    },
-    {
-      "fromDate": 1617235201000,
-      "toDate": 1648771199000,
-      "periodCycle": "ANNUAL",
-      "service": "REV_GRANTS",
-      "code": "REVGRAN2021",
-      "financialYear": "2021-22"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "DISP_FIXED_ASSET.LAND",
-      "code": "DFAL10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "DISP_FIXED_ASSET.BUILDING",
-      "code": "DFAB10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
-      "code": "DFAMV10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "BPAREG",
-      "code": "BPAREG10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1585699201000,
-      "toDate": 1617235199000,
-      "periodCycle": "ANNUAL",
-      "service": "WS",
-      "code": "WC2018",
-      "financialYear": "2020-21"
-    },
-    {
-      "fromDate": 1585699201000,
-      "toDate": 1617235199000,
-      "periodCycle": "ANNUAL",
-      "service": "SW",
-      "code": "SC2018",
-      "financialYear": "2020-21"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "BPA.NC_APP_FEE",
-      "code": "BPA10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "BPA.NC_SAN_FEE",
-      "code": "BPA10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1522540801000,
-      "toDate": 1838159999000,
-      "periodCycle": "FORTENYEARS",
-      "service": "BPA.LOW_RISK_PERMIT_FEE",
-      "code": "BPA10YRS2018",
-      "financialYear": "2018-28"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "PT.MUTATION",
-      "code": "PTMUTAN2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "PT.MUTATION",
-      "code": "PTMUTAN2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "PT.MUTATION",
-      "code": "PTMUTAN2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "PT.MUTATION",
-      "code": "PTMUTAN2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1585679399000,
-      "toDate": 1617172199000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2020",
-      "financialYear": "2020-21"
-    },
-    {
-      "fromDate": 1554076799000,
-      "toDate": 1585679399000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2019",
-      "financialYear": "2019-20"
-    },
-    {
-      "fromDate": 1522540800000,
-      "toDate": 1554076799000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2018",
-      "financialYear": "2018-19"
-    },
-    {
-      "fromDate": 1491004800000,
-      "toDate": 1522540798000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2017",
-      "financialYear": "2017-18"
-    },
-    {
-      "fromDate": 1459468800000,
-      "toDate": 1491004799000,
-      "periodCycle": "ANNUAL",
-      "service": "TL",
-      "code": "TLRENEWAL2016",
-      "financialYear": "2016-17"
-    },
-    {
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "WS.ONE_TIME_FEE",
-      "code": "WS10YRS2019",
-      "financialYear": "2019-29"
-    },
-    {
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "SW.ONE_TIME_FEE",
-      "code": "SW10YRS2019",
-      "financialYear": "2019-29"
-    },
-    {
+   "tenantId":"ch.chandigarh",
+   "moduleName":"BillingService",
+   "TaxPeriod":[
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"PT",
+         "code":"PTAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"PT",
+         "code":"PTAN2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"PT",
+         "code":"PTAN2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1459468800000,
+         "toDate":1491004799000,
+         "periodCycle":"ANNUAL",
+         "service":"PT",
+         "code":"PTAN2016",
+         "financialYear":"2016-17"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"TL",
+         "code":"TLAN2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"TL",
+         "code":"TLAN2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1459468800000,
+         "toDate":1491004799000,
+         "periodCycle":"ANNUAL",
+         "service":"TL",
+         "code":"TLAN2016",
+         "financialYear":"2016-17"
+      },
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"TL",
+         "code":"TLAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"CTL.REHRI_REGISTRATION",
+         "code":"CTLRC10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"CTL.REHRI_DRIVING_LICENSE",
+         "code":"CTLDL10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"CTL.DHOBI_GHAT",
+         "code":"CTLDG10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"CTL.OLD_BOOK_MARKET",
+         "code":"CTLOBM10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
+         "code":"RPOTCM10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
+         "code":"RPOTCK10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
+         "code":"RPOTCS10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
+         "code":"RPOTVN10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
+         "code":"RPDCCM10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
+         "code":"RPDCCK10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
+         "code":"RPDCCS10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
+         "code":"RPDCVN10YRS2019",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_MILK.RENT",
+         "code":"RPRENTCM10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
+         "code":"RPRENTCK10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
+         "code":"RPRENTCS10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
+         "code":"RPRENTVN10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"FIRENOC",
+         "code":"FIRENOCAN2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"FIRENOC",
+         "code":"FIRENOCAN2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1459468800000,
+         "toDate":1491004799000,
+         "periodCycle":"ANNUAL",
+         "service":"FIRENOC",
+         "code":"FIRENOCAN2016",
+         "financialYear":"2016-17"
+      },
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"FIRENOC",
+         "code":"FIRENOCAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"TX.No_Dues_Certificate",
+         "code":"TXNDCAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"TX.No_Dues_Certificate",
+         "code":"TXNDCAN2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"TX.No_Dues_Certificate",
+         "code":"TXNDCAN2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"ADVT.Hoardings",
+         "code":"ADHAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"ADVT.Hoardings",
+         "code":"ADHAN2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"ADVT.Hoardings",
+         "code":"ADHAN2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"RT.Municipal_Shops_Rent",
+         "code":"RTMSRAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"RT.Municipal_Shops_Rent",
+         "code":"RTMSRAN2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"RT.Municipal_Shops_Rent",
+         "code":"RTMSRAN2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"RT.Parking_Fee",
+         "code":"RTPFAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"RT.Parking_Fee",
+         "code":"RTPFAN2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"RT.Parking_Fee",
+         "code":"RTPFAN2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"RT.Jamin_Theka",
+         "code":"RTJTAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"RT.Jamin_Theka",
+         "code":"RTJTAN2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"RT.Jamin_Theka",
+         "code":"RTJTAN2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1554076801000,
+         "toDate":1585699199000,
+         "periodCycle":"ANNUAL",
+         "service":"REV_GRANTS",
+         "code":"REVGRAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1585699201000,
+         "toDate":1617235199000,
+         "periodCycle":"ANNUAL",
+         "service":"REV_GRANTS",
+         "code":"REVGRAN2020",
+         "financialYear":"2020-21"
+      },
+      {
+         "fromDate":1617235201000,
+         "toDate":1648771199000,
+         "periodCycle":"ANNUAL",
+         "service":"REV_GRANTS",
+         "code":"REVGRAN2021",
+         "financialYear":"2021-22"
+      },
+      {
+         "fromDate":1522540801000,
+         "toDate":1838159999000,
+         "periodCycle":"FORTENYEARS",
+         "service":"DISP_FIXED_ASSET.LAND",
+         "code":"DFAL10YRS2018",
+         "financialYear":"2018-28"
+      },
+      {
+         "fromDate":1522540801000,
+         "toDate":1838159999000,
+         "periodCycle":"FORTENYEARS",
+         "service":"DISP_FIXED_ASSET.BUILDING",
+         "code":"DFAB10YRS2018",
+         "financialYear":"2018-28"
+      },
+      {
+         "fromDate":1522540801000,
+         "toDate":1838159999000,
+         "periodCycle":"FORTENYEARS",
+         "service":"DISP_FIXED_ASSET.MOTOR_VEHICLE",
+         "code":"DFAMV10YRS2018",
+         "financialYear":"2018-28"
+      },
+      {
+         "fromDate":1522540801000,
+         "toDate":1838159999000,
+         "periodCycle":"FORTENYEARS",
+         "service":"BPAREG",
+         "code":"BPAREG10YRS2018",
+         "financialYear":"2018-28"
+      },
+      {
+         "fromDate":1585699201000,
+         "toDate":1617235199000,
+         "periodCycle":"ANNUAL",
+         "service":"WS",
+         "code":"WC2018",
+         "financialYear":"2020-21"
+      },
+      {
+         "fromDate":1585699201000,
+         "toDate":1617235199000,
+         "periodCycle":"ANNUAL",
+         "service":"SW",
+         "code":"SC2018",
+         "financialYear":"2020-21"
+      },
+      {
+         "fromDate":1522540801000,
+         "toDate":1838159999000,
+         "periodCycle":"FORTENYEARS",
+         "service":"BPA.NC_APP_FEE",
+         "code":"BPA10YRS2018",
+         "financialYear":"2018-28"
+      },
+      {
+         "fromDate":1522540801000,
+         "toDate":1838159999000,
+         "periodCycle":"FORTENYEARS",
+         "service":"BPA.NC_SAN_FEE",
+         "code":"BPA10YRS2018",
+         "financialYear":"2018-28"
+      },
+      {
+         "fromDate":1522540801000,
+         "toDate":1838159999000,
+         "periodCycle":"FORTENYEARS",
+         "service":"BPA.LOW_RISK_PERMIT_FEE",
+         "code":"BPA10YRS2018",
+         "financialYear":"2018-28"
+      },
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"PT.MUTATION",
+         "code":"PTMUTAN2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"PT.MUTATION",
+         "code":"PTMUTAN2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"PT.MUTATION",
+         "code":"PTMUTAN2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1459468800000,
+         "toDate":1491004799000,
+         "periodCycle":"ANNUAL",
+         "service":"PT.MUTATION",
+         "code":"PTMUTAN2016",
+         "financialYear":"2016-17"
+      },
+      {
+         "fromDate":1585679399000,
+         "toDate":1617172199000,
+         "periodCycle":"ANNUAL",
+         "service":"TL",
+         "code":"TLRENEWAL2020",
+         "financialYear":"2020-21"
+      },
+      {
+         "fromDate":1554076799000,
+         "toDate":1585679399000,
+         "periodCycle":"ANNUAL",
+         "service":"TL",
+         "code":"TLRENEWAL2019",
+         "financialYear":"2019-20"
+      },
+      {
+         "fromDate":1522540800000,
+         "toDate":1554076799000,
+         "periodCycle":"ANNUAL",
+         "service":"TL",
+         "code":"TLRENEWAL2018",
+         "financialYear":"2018-19"
+      },
+      {
+         "fromDate":1491004800000,
+         "toDate":1522540798000,
+         "periodCycle":"ANNUAL",
+         "service":"TL",
+         "code":"TLRENEWAL2017",
+         "financialYear":"2017-18"
+      },
+      {
+         "fromDate":1459468800000,
+         "toDate":1491004799000,
+         "periodCycle":"ANNUAL",
+         "service":"TL",
+         "code":"TLRENEWAL2016",
+         "financialYear":"2016-17"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"WS.ONE_TIME_FEE",
+         "code":"WS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"SW.ONE_TIME_FEE",
+         "code":"SW10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
@@ -547,205 +547,205 @@
          "financialYear":"2019-29"
       },
       {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
-      "code": "ESEBSD10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
-      "code": "ESEBRW10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
-      "code": "ESEBURW10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
-      "code": "ESEBID10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
-      "code": "ESEBFS10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
-      "code": "ESEBPD10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
-      "code": "ESEBMG10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.NOC",
-      "code": "ESEBNOC10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.NDC",
-      "code": "ESEBNDC10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
-      "code": "ESEBLD10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
-      "code": "ESEBDC10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
-      "code": "ESEBLTF10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
-      "code": "ESEBSCFSCO10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
-      "code": "ESEBCT10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
-      "code": "ESEBIN10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE",
-      "code": "ESEBAS10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
-      "code": "ESEBAS10YRS2020",
-      "financialYear": "2020-30"
-    },  
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_BUILDING_BRANCH.NOC",
-      "code": "ESBBNOC10YRS2020",
-      "financialYear": "2020-30"
-    },  
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_BUILDING_BRANCH.ISSUANCE_OF_NOTICE",
-      "code": "ESBBIN10YRS2020",
-      "financialYear": "2020-30"
-    },
-     {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_VIOLATION",
-      "code": "ESEBPV10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_BUILDING_BRANCH.PROPERTY_VIOLATION",
-      "code": "ESBBPV10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-     {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.EXTENSION_FEE",
-      "code": "ESEBEF10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_BUILDING_BRANCH.EXTENSION_FEE",
-      "code": "ESBBEF10YRS2020",
-      "financialYear": "2020-30"
-    },
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_ESTATE_BRANCH.SECURITY_DEPOSIT",
-      "code": "ESEBSD10YRS2020",
-      "financialYear": "2020-30"
-    }, 
-    {
-      "fromDate": 1585679400000,
-      "toDate": 1901298599000,
-      "periodCycle": "TENYEARS",
-      "service": "ESTATE_SERVICE_BUILDING_BRANCH.SECURITY_DEPOSIT",
-      "code": "ESBBSD10YRS2020",
-      "financialYear": "2020-30"
-    }, 
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "code":"ESEBSD10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "code":"ESEBRW10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "code":"ESEBURW10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "code":"ESEBID10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "code":"ESEBFS10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
+         "code":"ESEBPD10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "code":"ESEBMG10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "code":"ESEBNOC10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "code":"ESEBNDC10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "code":"ESEBLD10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "code":"ESEBDC10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "code":"ESEBLTF10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "code":"ESEBSCFSCO10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "code":"ESEBCT10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "code":"ESEBIN10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE",
+         "code":"ESEBAS10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
+         "code":"ESEBAS10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_BUILDING_BRANCH.NOC",
+         "code":"ESBBNOC10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_BUILDING_BRANCH.ISSUANCE_OF_NOTICE",
+         "code":"ESBBIN10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_VIOLATION",
+         "code":"ESEBPV10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_BUILDING_BRANCH.PROPERTY_VIOLATION",
+         "code":"ESBBPV10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.EXTENSION_FEE",
+         "code":"ESEBEF10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_BUILDING_BRANCH.EXTENSION_FEE",
+         "code":"ESBBEF10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SECURITY_DEPOSIT",
+         "code":"ESEBSD10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_BUILDING_BRANCH.SECURITY_DEPOSIT",
+         "code":"ESBBSD10YRS2020",
+         "financialYear":"2020-30"
+      },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
@@ -778,45 +778,47 @@
          "code":"DMRD310YRS2019",
          "financialYear":"2019-29"
       },
-     {
-      	"fromDate":"1522540801000",
-        "toDate":"1838159999000",
-      	"periodCycle": "TENYEARS",
-      	"service": "EC",
-      	"code": "EC10YRS2019",
-      	"financialYear": "2019-29"
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"EC",
+         "code":"EC10YRS2019",
+         "financialYear":"2019-29"
       },
-     {
+      {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"OPMS.ROADCUTNOC_RD1",
          "code":"OPMS.RD1ROADCUTNOC10YRS2019",
          "financialYear":"2019-29"
-      },{
+      },
+      {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"OPMS.ROADCUTNOC_RD2",
          "code":"OPMS.RD2ROADCUTNOC10YRS2019",
          "financialYear":"2019-29"
-      }, {
+      },
+      {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"OPMS.ROADCUTNOC_RD3",
          "code":"OPMS.RD3ROADCUTNOC10YRS2019",
          "financialYear":"2019-29"
-      },  
-	  {
+      },
+      {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"OPMS.PETNOC",
          "code":"OPMS.PETNOC10YRS2019",
          "financialYear":"2019-29"
-      }, 
-	  {
+      },
+      {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
@@ -824,126 +826,141 @@
          "code":"OPMS.ADVNOC10YRS2019",
          "financialYear":"2019-29"
       },
-	 {
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "OSBM",
-      "code": "OSBM",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "OSBM",
-      "code": "OSBM_TAX",
-      "financialYear": "2019-29"
-    }
-	,
-	 {
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "BWT",
-      "code": "BWT",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "BWT",
-      "code": "BWT_TAX",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "GFCP",
-      "code": "GFCP",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "GFCP",
-      "code": "GFCP_TAX",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "GFCP",
-      "code": "GFCP_ROUND_OFF",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "OSUJM",
-      "code": "OSUJM",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "OSUJM",
-      "code": "OSUJM_TAX",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "OSUJM",
-      "code": "OSUJM_ROUND_OFF",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "GFCP",
-      "code": "GFCP_ROUND_OFF",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "PACC",
-      "code": "PACC",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "PACC",
-      "code": "PACC_TAX",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "PACC",
-      "code": "PACC_ROUND_OFF",
-      "financialYear": "2019-29"
-    },
-	{
-      "fromDate": 1554057000000,
-      "toDate": 1869676199000,
-      "periodCycle": "TENYEARS",
-      "service": "PACC",
-      "code": "PACC_LOCATION_AND_VENUE_CHANGE_AMOUNT",
-      "financialYear": "2019-29"
-    }
-  ]
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"OSBM",
+         "code":"OSBM",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"OSBM",
+         "code":"OSBM_TAX",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"BWT",
+         "code":"BWT",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"BWT",
+         "code":"BWT_TAX",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"GFCP",
+         "code":"GFCP",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"GFCP",
+         "code":"GFCP_TAX",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"GFCP",
+         "code":"GFCP_ROUND_OFF",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"OSUJM",
+         "code":"OSUJM",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"OSUJM",
+         "code":"OSUJM_TAX",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"OSUJM",
+         "code":"OSUJM_ROUND_OFF",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"GFCP",
+         "code":"GFCP_ROUND_OFF",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"PACC",
+         "code":"PACC",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"PACC",
+         "code":"PACC_TAX",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"PACC",
+         "code":"PACC_ROUND_OFF",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1554057000000,
+         "toDate":1869676199000,
+         "periodCycle":"TENYEARS",
+         "service":"PACC",
+         "code":"PACC_LOCATION_AND_VENUE_CHANGE_AMOUNT",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
+         "code":"BBWTC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "code":"BBMOS10YRS2019",
+         "financialYear":"2019-29"
+      }
+   ]
 }
