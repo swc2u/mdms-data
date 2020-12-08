@@ -868,6 +868,12 @@
               "type": "DOCUMENTS",
               "step": 1,
               "sourceJsonPath": "temp[0].reviewDocData"
+            },
+            {
+              "header": "ES_WORKFLOW_DOCUMENTS_HEADER",
+              "type": "DOCUMENTS",
+              "sourceJsonPath": "temp[0].reviewWfDocData",
+              "visibility": "!!application.wfDocuments && application.wfDocuments.length !== 0"
             }
           ]
         }

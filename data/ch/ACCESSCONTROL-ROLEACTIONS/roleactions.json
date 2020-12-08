@@ -41932,6 +41932,18 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_LOCAL_AUDIT_OFFICER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_CHEIF_ACCOUNTS_OFFICER",
+			"actionid": 30015,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_DEALING_ASSISTANT",
 			"actionid": 30016,
 			"actioncode": "",
