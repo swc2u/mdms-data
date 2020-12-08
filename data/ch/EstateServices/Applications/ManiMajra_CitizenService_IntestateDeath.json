@@ -295,6 +295,24 @@
           "description": "OWNERSHIP_PROOF_OF_PROPERTY_DESCRIPTION"
         }
       ],
+      "wfDocumentList": [
+        {
+          "code": "WF_DOCS_NOTICE_TEMPLATE",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "WF_DOCS_NOTICE_TEMPLATE_DESCRIPTION",
+          "filter": "application.state === 'ES_MM_PENDING_SO_NOTICE'"
+        },
+        {
+          "code": "WF_DOCS_NOTICE_CITIZEN",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "WF_DOCS_NOTICE_CITIZEN_DESCRIPTION",
+          "filter": "application.state === 'ES_MM_PENIDNG_CITIZEN_NOTICE'"
+        }
+      ],
       "uiConfig": {
         "dataSources": [
           {
