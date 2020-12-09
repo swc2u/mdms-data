@@ -3958,12 +3958,13 @@
       {
          "category":"FEE",
          "service":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
-         "name":"Water tankar charges",
+         "name":"Water tanker charges",
          "code":"WATER_TANKAR_CHARGES_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
-         "isRequired":false
+         "isRequired":false,
+		 "taxAmount":"600"
       },
       {
          "category":"FEE",
@@ -3983,7 +3984,8 @@
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
-         "isRequired":false
+         "isRequired":false,
+		 "taxAmount" : "18"
       }
    ]
 }
