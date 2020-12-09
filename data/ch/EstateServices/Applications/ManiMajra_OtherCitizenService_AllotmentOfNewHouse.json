@@ -218,48 +218,6 @@
           "description": "MM_IDENTIFICATION_OF_APPLICANT_DESCRIPTION"
         },
         {
-          "code": "MM_NO_OBJECTION_FROM_OTHER_NON_BENEFICIARY",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "MM_NO_OBJECTION_FROM_OTHER_NON_BENEFICIARY_DESCRIPTION"
-        },
-        {
-          "code": "MM_ORIGINAL_DEATH_CERTIFICATE",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "MM_ORIGINAL_DEATH_CERTIFICATE_DESCRIPTION"
-        },
-        {
-          "code": "MM_LIABILITY_AFFIDAVIT",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "MM_LIABILITY_AFFIDAVIT_DESCRIPTION"
-        },
-        {
-          "code": "MM_ATTESTED_PHOTOGRAPH",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "MM_ATTESTED_PHOTOGRAPH_DESCRIPTION"
-        },
-        {
-          "code": "MM_LEGAL_HEIRS_CERTIFICATE_UNREG",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "MM_LEGAL_HEIRS_CERTIFICATE_UNREG_DESCRIPTION"
-        },
-        {
-          "code": "MM_IDENTIFICATION_OF_APPLICANTS",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "MM_IDENTIFICATION_OF_APPLICANTS_DESCRIPTION"
-        },
-        {
           "code": "MM_NO_DUE_CERTIFICATE",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
