@@ -23205,7 +23205,7 @@
 		"name": "Create DNIT",
 		"url": "services/works/workEstimate/dnitsearchEstimate",
 		"displayName": "Create DNIT",
-		"orderNumber": "6",
+		"orderNumber": "2",
 		"parentModule": "works",
 		"enabled": true,
 		"serviceCode": "works",
@@ -23410,6 +23410,20 @@
 		"navigationURL": "egov-integration/payslipsearch",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
+	},
+	{
+		"id": 7015,
+		"name": "Search DNIT",
+		"url": "services/works/dnit/searchDnit",
+		"displayName": "Search DNIT",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.DNIT.Search DNIT",
+		"navigationURL": "services/works/dnit/searchDnit",
+		"leftIcon": "editor:insert-chart"
 	}
   ]
 }
