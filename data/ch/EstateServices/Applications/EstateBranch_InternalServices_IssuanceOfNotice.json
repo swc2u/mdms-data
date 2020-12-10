@@ -425,7 +425,9 @@
                   "placeholder": "ES_DATE_OF_HEARING_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.dateOfHearing",
-                  "path": "dateOfHearing"
+                  "path": "dateOfHearing",
+                  "minDate": true,
+                  "maxDate": false
                 },
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",

@@ -743,6 +743,166 @@
          "isRequired":false
       },
       {
+         "category": "FEE",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
+         "name": "Mani Majra Citizen Service Sale gift Application fee",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT_APPLICATION_FEE",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "FEE",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
+         "name": "Mani Majra Citizen Service Family settlement Application fee",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT_APPLICATION_FEE",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "FEE",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
+         "name": "Mani Majra Citizen Service Intestate death Application fee",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH_APPLICATION_FEE",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "FEE",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
+         "name": "Mani Majra Citizen Service Registered will Application fee",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL_APPLICATION_FEE",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "FEE",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
+         "name": "Mani Majra Citizen Service Un Registered will Application fee",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL_APPLICATION_FEE",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "FEE",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
+         "name": "Mani Majra Other Citizen Service Allotment of new house Application fee",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE_APPLICATION_FEE",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "FEE",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.NDC",
+         "name": "Mani Majra Other Citizen Service NDC Application fee",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.NDC_APPLICATION_FEE",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "FEE",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.NOC",
+         "name": "Mani Majra Other Citizen Service NOC Application fee",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.NOC_APPLICATION_FEE",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "TAX",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
+         "name": "Mani Majra Citizen Service Sale gift Application tax",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT_APPLICATION_TAX",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "TAX",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
+         "name": "Mani Majra Citizen Service Family settlement Application tax",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT_APPLICATION_TAX",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "TAX",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
+         "name": "Mani Majra Citizen Service Intestate death Application tax",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH_APPLICATION_TAX",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "TAX",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
+         "name": "Mani Majra Citizen Service Registered will Application tax",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL_APPLICATION_TAX",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "TAX",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
+         "name": "Mani Majra Citizen Service Un Registered will Application tax",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL_APPLICATION_TAX",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "TAX",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
+         "name": "Mani Majra Other Citizen Service Allotment of new house Application tax",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE_APPLICATION_TAX",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "TAX",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.NDC",
+         "name": "Mani Majra Other Citizen Service NDC Application tax",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.NDC_APPLICATION_TAX",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+       {
+         "category": "TAX",
+         "service": "ESTATE_SERVICE_MANI_MAJRA.NOC",
+         "name": "Mani Majra Other Citizen Service NOC Application tax",
+         "code": "ESTATE_SERVICE_MANI_MAJRA.NOC_APPLICATION_TAX",
+         "isDebit": false,
+         "isActualDemand": true,
+         "order": "0",
+         "isRequired": false
+       },
+      {
          "category":"TAX",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
          "name":"Estate branch Ownership transfer Sale deed Application tax",

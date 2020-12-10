@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "ManiMajra_OtherCitizenService_NDC": [
+  "ManiMajra_OtherCitizenService_AllotmentOfNewHouse": [
     {
       "fields": [
         {
@@ -14,11 +14,129 @@
           ]
         },
         {
-          "path": "owner.id",
+          "path": "owner.name",
           "required": true,
           "validations": [
             {
-              "type": "owner"
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "owner.dob",
+          "required": true,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -100
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "path": "owner.fatherOrHusbandName",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "owner.relation",
+          "required": true,
+          "validations": [
+            {
+              "type": "enum",
+              "params": {
+                "values": ["FATHER", "HUSBAND"]
+              }
+            }
+          ]
+        },
+        {
+          "path": "owner.address",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 5,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "owner.mobileNo",
+          "required": false,
+          "validations": [
+            {
+              "type": "mobile"
+            }
+          ]
+        },
+        {
+          "path": "owner.percentageOfShare",
+          "required": true,
+          "validations": [
+            {
+              "type": "numeric"
+            },
+            {
+              "type": "minmax",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
+          "path": "registrationNumber",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
+          "path": "dateOfRegistration",
+          "required": true,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "year",
+                  "value": -40
+                },
+                "end": {
+                  "unit": "second",
+                  "value": 0
+                }
+              }
             }
           ]
         },
@@ -44,6 +162,13 @@
       ],
       "documentList": [
         {
+          "code": "MM_OWNERSHIP_PROOF_OF_PROPERTY",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_OWNERSHIP_PROOF_OF_PROPERTY_DESCRIPTION"
+        },
+        {
           "code": "MM_AFFIDAVIT_INSTRUCTION",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
@@ -58,13 +183,6 @@
           "description": "MM_REPORT_OF_HALKA_PATWARI_DESCRIPTION"
         },
         {
-          "code": "MM_INDEMNITY_BOND_ATTESTED_AND_WITNESSED",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "MM_INDEMNITY_BOND_ATTESTED_AND_WITNESSED_DESCRIPTION"
-        },
-        {
           "code": "MM_SITE_PLAN",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
@@ -77,6 +195,20 @@
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "MM_ORIGINAL_INTKAL_DESCRIPTION"
+        },
+        {
+          "code": "MM_INDEMNITY_BOND_ATTESTED_AND_WITNESSED",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_INDEMNITY_BOND_ATTESTED_AND_WITNESSED_DESCRIPTION"
+        },
+        {
+          "code": "MM_DECLARATION_FROM_APPLICANT",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_DECLARATION_FROM_APPLICANT_DESCRIPTION"
         },
         {
           "code": "MM_IDENTIFICATION_OF_APPLICANT",
@@ -98,6 +230,13 @@
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "MM_NDC_FROM_PROPERTY_TAX_BRANCH_DESCRIPTION"
+        },
+        {
+          "code": "MM_CERTIFIED_COPY_OF_SALE_DEED",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_CERTIFIED_COPY_OF_SALE_DEED_DESCRIPTION"
         }
       ],
       "uiConfig": {
@@ -188,59 +327,77 @@
               ]
             },
             {
-              "header": "ES_OWNER_DETAILS_HEADER",
+              "header": "ES_APPLICANT_DETAILS_HEADER",
               "type": "FORM",
               "fields": [
                 {
-                  "label": "ES_OWNER_LABEL",
-                  "placeholder": "ES_SELECT_OWNER_PLACEHOLDER",
-                  "type": "DROP_DOWN",
-                  "jsonPath": "Applications[0].applicationDetails.owner.id",
-                  "path": "owner.id",
-                  "dataSource": "owners"
-                },
-                {
                   "label": "ES_OWNER_NAME_LABEL",
                   "placeholder": "ES_OWNER_NAME_PLACEHOLDER",
-                  "disabled": true,
-                  "required": true,
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.name",
-                  "prefillValue": "selectedOwner.ownerDetails.ownerName",
-                  "visible": false
+                  "path": "owner.name"
+                },
+                {
+                  "label": "ES_DOB_LABEL",
+                  "placeholder": "ES_DOB_PLACEHOLDER",
+                  "type": "DATE_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.owner.dob",
+                  "path": "owner.dob"
                 },
                 {
                   "label": "ES_OWNER_FATHER_HUSBAND_NAME_LABEL",
-                  "placeholder": "ES_OWNER_FATHER_HUSBAND_NAME_PLACEHOLDER",
-                  "disabled": true,
-                  "required": true,
+                  "placeholder": "ES_SELLER_TRANSFEROR_FATHER_HUSBAND_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.fatherOrHusbandName",
-                  "prefillValue": "selectedOwner.ownerDetails.guardianName"
+                  "path": "owner.fatherOrHusbandName"
+                },
+                {
+                  "label": "ES_RELATION_SHIP_LABEL",
+                  "type": "RADIO_BUTTON",
+                  "jsonPath": "Applications[0].applicationDetails.owner.relation",
+                  "path": "owner.relation"
+                  
                 },
                 {
                   "label": "ES_OWNER_ADDRESS_LABEL",
                   "placeholder": "ES_OWNER_ADDRESS_PLACEHOLDER",
-                  "disabled": true,
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.owner.address",
-                  "prefillValue": "selectedOwner.ownerDetails.address"
+                  "path": "owner.address"
                 },
                 {
                   "label": "ES_MOBILE_NUMBER_LABEL",
                   "placeholder": "ES_MOBILE_NUMBER_PLACEHOLDER",
                   "type": "TEXT_FIELD",
-                  "disabled": true,
                   "jsonPath": "Applications[0].applicationDetails.owner.mobileNo",
-                  "prefillValue": "selectedOwner.ownerDetails.mobileNumber"
+                  "path": "owner.mobileNo"
                 },
                 {
-                  "label": "ES_PERCENT_SHARE_LABEL",
-                  "placeholder": "ES_PERCENT_SHARE_PLACEHOLDER",
-                  "disabled": true,
+                  "label": "ES_OWNER_SHARE_LABEL",
+                  "placeholder": "ES_OWNER_SHARE_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.percentageOfShare",
-                  "prefillValue": "selectedOwner.share"
+                  "path": "owner.percentageOfShare"
+                }
+              ]
+            },
+            {
+              "header": "ES_REGISTRATION_DETAILS_HEADER",
+              "type": "FORM",
+              "fields": [
+                {
+                  "label": "ES_REGISTRATION_NUMBER_LABEL",
+                  "placeholder": "ES_REGISTRATION_NUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.registrationNumber",
+                  "path": "registrationNumber",
+                  "errorMessage": "ES_ERR_REGISTRATION_NUMBER"
+                },
+                {
+                  "label": "ES_DATE_OF_REGISTRATION_LABEL",
+                  "type": "DATE_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
+                  "path": "dateOfRegistration"
                 }
               ]
             }
@@ -308,7 +465,7 @@
               ]
             },
             {
-              "header": "ES_OWNER_DETAILS_HEADER",
+              "header": "ES_APPLICANT_DETAILS_HEADER",
               "isEditable": false,
               "fields": [
                 {
@@ -316,12 +473,17 @@
                   "jsonPath": "Applications[0].applicationDetails.owner.name"
                 },
                 {
+                  "label": "ES_DOB_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.owner.dob",
+                  "type": "date"
+                },
+                {
                   "label": "ES_OWNER_FATHER_HUSBAND_NAME_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.owner.fatherOrHusbandName"
                 },
                 {
                   "label": "ES_RELATION_SHIP_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.transferorDetails.guardianRelation"
+                  "jsonPath": "Applications[0].applicationDetails.owner.relation"
                 },
                 {
                   "label": "ES_OWNER_ADDRESS_LABEL",
@@ -368,6 +530,27 @@
           }
         },
         {
+          "state": "ES_MM_PENDING_PAYMENT",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}",
+              "isPayLink": true
+            }
+          }
+        },
+        {
           "state": "ES_MM_PENDING_CLARIFICATION",
           "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
           "modes": {
@@ -393,6 +576,26 @@
           "modes": {
             "email": {
               "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_PENDING_DA_FEE",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
+          "modes": {
+            "email": {
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"

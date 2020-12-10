@@ -1,0 +1,31 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstateServices",
+  "sampleSiteMap": [
+    {
+      "code": "MasterEst",
+      "type": "Estate",
+      "documentList": [
+        {
+          "type": "SAMPLE_SITE_MAP",
+          "code": "SAMPLE_SITE_MAP",
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": {
+            "labelName": "Only .jpg and .pdf files. 6MB max file size.",
+            "labelKey": "SAMPLE_SITE_MAP_ALLOWED_TYPES"
+          },
+          "formatProps": {
+            "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*"
+          },
+          "maxFileSize": 6000,
+          "moduleName": "Estate",
+          "statement": {
+            "labelName": "Allowed documents are Aadhar Card / Voter ID Card / Driving License",
+            "labelKey": "SAMPLE_SITE_MAP_DESC"
+          }
+        }
+      ]
+    }
+  ]
+}
