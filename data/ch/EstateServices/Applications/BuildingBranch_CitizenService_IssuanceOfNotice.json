@@ -777,7 +777,8 @@
                   "label": "ES_DATE_OF_HEARING_LABEL",
                   "placeholder": "ES_DATE_OF_HEARING_PLACEHOLDER",
                   "type": "DATE_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.dateOfHearing"
+                  "jsonPath": "Applications[0].applicationDetails.dateOfHearing",
+                  "path": "dateOfHearing"
                 },
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
