@@ -54668,6 +54668,18 @@
 			"actionid": 7015,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "FINANCE_VOUCHER_REPORT",
+			"actionid": 7016,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_WORK_AGREEMENT",
+			"actionid": 7017,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 	]
 }
