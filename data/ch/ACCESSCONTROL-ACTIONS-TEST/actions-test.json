@@ -23127,7 +23127,7 @@
 	{
 		"id": 5052,
 		"name": "Create Payment Request",
-		"url": "services/EGF/contractorbill/newform",
+		"url": "services/EGF/expensebill/newform",
 		"displayName": "Create Payment Request",
 		"orderNumber": "5",
 		"parentModule": "works",
@@ -23135,7 +23135,7 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Create Payment Request",
-		"navigationURL": "services/EGF/contractorbill/newform",
+		"navigationURL": "services/EGF/expensebill/newform",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
