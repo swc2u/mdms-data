@@ -879,7 +879,8 @@
                 },
                 {
                   "label": "ES_GROUND_COVERAGE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.groundCoverage"
+                  "jsonPath": "Applications[0].applicationDetails.groundCoverage",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_GROUND_COVERAGE_COMMENTS_LABEL",
@@ -887,11 +888,13 @@
                 },
                 {
                   "label": "ES_GROUND_COVERAGE_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.groundCoverageSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.groundCoverageSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_PLINTH_LEVEL_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.plinthLevel"
+                  "jsonPath": "Applications[0].applicationDetails.plinthLevel",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_PLINTH_LEVEL_COMMENTS_LABEL",
@@ -899,11 +902,13 @@
                 },
                 {
                   "label": "ES_PLINTH_LEVEL_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.plinthLevelSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.plinthLevelSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MAX_HEIGHT_MEASURED_FROM_PLINTH_LEVEL_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.maximumHeight"
+                  "jsonPath": "Applications[0].applicationDetails.maximumHeight",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MAX_HEIGHT_MEASURED_FROM_PLINTH_LEVEL_COMMENTS_LABEL",
@@ -911,11 +916,13 @@
                 },
                 {
                   "label": "ES_MAX_HEIGHT_MEASURED_FROM_PLINTH_LEVEL_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.maximumHeightSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.maximumHeightSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MAXIMUM_NUMBER_OF_FLOORS_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.maximumFloors"
+                  "jsonPath": "Applications[0].applicationDetails.maximumFloors",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MAXIMUM_NUMBER_OF_FLOORS_COMMENTS_LABEL",
@@ -923,11 +930,13 @@
                 },
                 {
                   "label": "ES_MAXIMUM_NUMBER_OF_FLOORS_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.maximumFloorsSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.maximumFloorsSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MINIMUM_FLOOR_TO_CEILING_HEIGHT_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.minimumCeilingHeight"
+                  "jsonPath": "Applications[0].applicationDetails.minimumCeilingHeight",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MINIMUM_FLOOR_TO_CEILING_HEIGHT_COMMENTS_LABEL",
@@ -935,11 +944,13 @@
                 },
                 {
                   "label": "ES_MINIMUM_FLOOR_TO_CEILING_HEIGHT_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.minimumCeilingHeightSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.minimumCeilingHeightSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MINIMUM_SIZE_OF_HABITABLE_ROOMS_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.minimunRoomsSize"
+                  "jsonPath": "Applications[0].applicationDetails.minimunRoomsSize",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MINIMUM_SIZE_OF_HABITABLE_ROOMS_COMMENTS_LABEL",
@@ -947,11 +958,13 @@
                 },
                 {
                   "label": "ES_MINIMUM_SIZE_OF_HABITABLE_ROOMS_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.minimunRoomsSizeSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.minimunRoomsSizeSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_RARE_FRONT_SET_BACK_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.setBack"
+                  "jsonPath": "Applications[0].applicationDetails.setBack",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_RARE_FRONT_SET_BACK_COMMENTS_LABEL",
@@ -959,11 +972,13 @@
                 },
                 {
                   "label": "ES_RARE_FRONT_SET_BACK_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.setBackSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.setBackSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_STAIRCASE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.staircase"
+                  "jsonPath": "Applications[0].applicationDetails.staircase",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_STAIRCASE_COMMENTS_LABEL",
@@ -971,11 +986,13 @@
                 },
                 {
                   "label": "ES_STAIRCASE_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.staircaseSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.staircaseSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_PERMISSIBLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.permissible"
+                  "jsonPath": "Applications[0].applicationDetails.permissible",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_PERMISSIBLE_COMMENTS_LABEL",
@@ -983,7 +1000,8 @@
                 },
                 {
                   "label": "ES_PERMISSIBLE_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.permissibleSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.permissibleSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_DATE_OF_DEMOLITION_LABEL",
