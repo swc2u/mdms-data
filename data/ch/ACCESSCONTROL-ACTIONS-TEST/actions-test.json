@@ -23127,7 +23127,7 @@
 	{
 		"id": 5052,
 		"name": "Create Payment Request",
-		"url": "services/EGF/contractorbill/newform",
+		"url": "services/EGF/expensebill/newform",
 		"displayName": "Create Payment Request",
 		"orderNumber": "5",
 		"parentModule": "works",
@@ -23135,7 +23135,7 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Create Payment Request",
-		"navigationURL": "services/EGF/contractorbill/newform",
+		"navigationURL": "services/EGF/expensebill/newform",
 		"leftIcon": "editor:insert-chart"
 	},
 	{
@@ -23657,6 +23657,34 @@
 		"code": "",
 		"path": "Works.DNIT.Search DNIT",
 		"navigationURL": "services/works/dnit/searchDnit",
+		"leftIcon": "editor:insert-chart"
+	},
+    {
+      "id": 7016,
+      "name": "Voucher Detailed Report",
+      "url": "services/EGF/journalvoucher/searchvoucher",
+      "parentModule": "",
+      "displayName": "Voucher Detailed Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.MIS Reports.Voucher Detailed Report",
+      "navigationURL": "services/EGF/journalvoucher/searchvoucher"
+    },
+	{
+		"id": 7017,
+		"name": "Create Work Agreement From Estimate",
+		"url": "services/works/workEstimate/newformEstimate",
+		"displayName": "Create Work Agreement From Estimate",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Work Agreement.Create Work Agreement From Estimate",
+		"navigationURL": "services/works/workEstimate/newformEstimate",
 		"leftIcon": "editor:insert-chart"
 	}
   ]

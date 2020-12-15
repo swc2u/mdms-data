@@ -1331,6 +1331,11 @@
       "code": "WORKS_DNIT",
       "name": "WORKS_DNIT",
       "description": "WORKS_DNIT"
+    },
+	{
+      "code": "FINANCE_VOUCHER_REPORT",
+      "name": "FINANCE_VOUCHER_REPORT",
+      "description": "FINANCE_VOUCHER_REPORT"
     }
   ]
 }
