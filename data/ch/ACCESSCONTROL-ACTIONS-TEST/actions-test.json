@@ -23126,9 +23126,9 @@
 	},
 	{
 		"id": 5052,
-		"name": "Create Payment Request",
+		"name": "Works Payment Request",
 		"url": "services/EGF/expensebill/newform",
-		"displayName": "Create Payment Request",
+		"displayName": "Works Payment Request",
 		"orderNumber": "5",
 		"parentModule": "works",
 		"enabled": true,
