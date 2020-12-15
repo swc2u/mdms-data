@@ -1,0 +1,130 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstateServices",
+  "Property_Rent_Fee": [
+    {
+      "notifications": [
+        {
+          "code": "ESTATE_BRANCH_PROPERTY_RENT",
+          "content": "Hi {owner.name} Your Monthly demand rent for Rs.{estateDemand.collectionPrincipal} for File Number {fileNumber} is generated for the month of MMM-YY is due on xx of MMM-YY . Please pay along with outstanding dues (if any) to avoid interest",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{owner.emailId}",
+              "subject": "CSCL - Intimation for property {fileNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "code": "ESTATE_BRANCH_PENALTY",
+          "content": "Hi {owner.name} for your property bearing  File Number {fileNumber} penalty has been levied for a sum of Rs.{amount}. Please pay to avoid further action.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{owner.emailId}",
+              "subject": "CSCL - Intimation for property {fileNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "code": "ESTATE_BRANCH__SECURITY_FEE",
+          "content": "Hi {owner.name} for your property bearing  File Number {fileNumber}  there is an outstanding amount of Rs.{amount} towards security fee  Please pay to avoid further action.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{owner.emailId}",
+              "subject": "CSCL - Intimation for property {fileNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "code": "ESTATE_BRANCH__EXTENSION_FEE",
+          "content": "Hi {owner.name} for your property bearing  File Number {fileNumber}  there is an outstanding amount of Rs.{amount} towards extension fee  Please pay to avoid further action.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{owner.emailId}",
+              "subject": "CSCL - Intimation for property {fileNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "code": "ESTATE_BRANCH__PROPERTY_PAYMENT_PAYER",
+          "content": "Hi {payer.name} we acknowedge your payment of Rs.{amount} bearing Transaction id {transactionNumber} for the property bearing  File Number XXXX  towards {paymentType} amount.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{payer.emailId}",
+              "subject": "CSCL - Intimation for property {fileNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{payer.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "code": "ESTATE_BRANCH__PROPERTY_PAYMENT_OWNER",
+          "content": "Hi {owner.name} we acknowedge your payment of Rs.{amount} bearing Transaction id {transactionNumber} for your property bearing  File Number {fileNumber} towards {paymentType} amount.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{owner.emailId}",
+              "subject": "CSCL - Intimation for property {fileNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        }
+      ]
+    } 
+  ]
+}
