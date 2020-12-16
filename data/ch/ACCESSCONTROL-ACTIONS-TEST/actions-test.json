@@ -23662,7 +23662,7 @@
     {
       "id": 7016,
       "name": "Voucher Detailed Report",
-      "url": "services/EGF/journalvoucher/searchvoucher",
+      "url": "services/EGF/journalvoucher/searchVoucher",
       "parentModule": "",
       "displayName": "Voucher Detailed Report",
       "orderNumber": 1,
