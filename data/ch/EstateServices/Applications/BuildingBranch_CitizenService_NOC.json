@@ -697,7 +697,8 @@
               "fields": [
                 {
                   "label": "ES_NOC_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.typeOfNoc"
+                  "jsonPath": "Applications[0].applicationDetails.typeOfNoc",
+                  "type": "array"
                 }
               ]
             },
