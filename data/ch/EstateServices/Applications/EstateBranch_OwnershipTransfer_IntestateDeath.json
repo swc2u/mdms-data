@@ -158,7 +158,7 @@
         },
         {
           "path": "transferee.mobileNo",
-          "required": false,
+          "required": true,
           "validations": [
             {
               "type": "mobile"
@@ -655,6 +655,16 @@
                   "dataSource": "legalHeirRelationWithDeceased"
                 },
                 {
+                  "label": "ES_LEGAL_HEIR_MOBILENUMBER_LABEL",
+                  "placeholder": "ES_LEGAL_HEIR_MOBILENUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo",
+                  "path": "transferee.mobileNo",
+                  "pattern": "MobileNo",
+                  "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.mobileNumber : application.applicationDetails.transferee.mobileNo"
+                },
+                {
                   "label": "ES_PERCENT_SHARE_LABEL",
                   "placeholder": "ES_PERCENT_SHARE_PLACEHOLDER",
                   "type": "TEXT_FIELD",
@@ -773,6 +783,10 @@
                 {
                   "label": "ES_LEGAL_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferee.relationWithDeceased"
+                },
+                {
+                  "label": "ES_LEGAL_HEIR_MOBILENUMBER_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo"
                 },
                 {
                   "label": "ES_PERCENT_SHARE_LABEL",
