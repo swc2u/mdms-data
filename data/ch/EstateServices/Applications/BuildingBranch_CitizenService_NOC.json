@@ -630,14 +630,6 @@
                   "jsonPath": "Applications[0].applicationDetails.owner.share",
                   "disabled": true,
                   "prefillValue": "selectedOwner.share"
-                },
-                {
-                  "label": "ES_CP_NUMBER_LABEL",
-                  "placeholder": "ES_CP_NUMBER_PLACEHOLDER",
-                  "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.owner.cpNumber",
-                  "disabled": true,
-                  "prefillValue": "selectedOwner.cpNumber"
                 }
               ]
             }
@@ -725,10 +717,6 @@
                 {
                   "label": "ES_SHARE_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.owner.share"
-                },
-                {
-                  "label": "ES_CP_NUMBER_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.cpNumber"
                 }
               ]
             },
