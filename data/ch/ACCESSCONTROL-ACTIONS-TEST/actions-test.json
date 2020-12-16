@@ -23686,6 +23686,22 @@
 		"path": "Works.Work Agreement.Create Work Agreement From Estimate",
 		"navigationURL": "services/works/workEstimate/newformEstimate",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+	{
+      "id": 9001,
+      "name": "rainmaker-common-report",
+      "url": "card",
+      "displayName": "Report",
+      "orderNumber": 3,
+	  "queryParams": "",
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-report/home",
+      "leftIcon":"custom:publicIcon",
+      "rightIcon": ""
+    }
   ]
 }
