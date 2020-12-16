@@ -1336,6 +1336,11 @@
       "code": "FINANCE_VOUCHER_REPORT",
       "name": "FINANCE_VOUCHER_REPORT",
       "description": "FINANCE_VOUCHER_REPORT"
+    },
+	{
+      "code": "REPORT_ADMIN",
+      "name": "REPORT_ADMIN",
+      "description": "Admin for report module"
     }
   ]
 }

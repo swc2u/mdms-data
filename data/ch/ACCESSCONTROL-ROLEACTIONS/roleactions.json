@@ -54680,6 +54680,42 @@
 			"actionid": 7017,
 			"actioncode": "",
 			"tenantId": "ch"
-		}
+		},
+		{
+				"rolecode": "REPORT_ADMIN",
+				"actionid": 870,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "REPORT_ADMIN",
+				"actionid": 604,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "REPORT_ADMIN",
+				"actionid": 1531,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "REPORT_ADMIN",
+				"actionid": 9001,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "REPORT_ADMIN",
+				"actionid": 1743,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "REPORT_ADMIN",
+				"actionid": 954,
+				"actioncode": "",
+				"tenantId": "ch"
+			}
 	]
 }
