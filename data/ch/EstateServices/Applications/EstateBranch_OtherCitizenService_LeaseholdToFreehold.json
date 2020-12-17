@@ -435,7 +435,7 @@
               "enabled": true,
               "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
@@ -458,7 +458,7 @@
             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}",
-             "isPayLink" : true
+              "isPayLink": true
             }
           }
         },
@@ -476,7 +476,7 @@
               "enabled": true,
               "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
@@ -496,7 +496,7 @@
               "enabled": true,
               "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
@@ -516,7 +516,7 @@
               "enabled": true,
               "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
@@ -536,7 +536,7 @@
               "enabled": true,
               "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
@@ -556,34 +556,35 @@
               "enabled": true,
               "to": "{payer.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
-          {
-            "state": "ES_APPROVED",
-            "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
-            "modes": {
-              "email": {
-                "enabled": false,
-                "html": false,
-                "to": "{createdBy.emailId}",
-                "subject": "CSCL - Intimation for application {applicationNumber}"
-              },
-              "sms": {
-                "enabled": true,
-                "to": "{applicationDetails.owner.mobileNumber}"
-              },
-               "event": {
-                "enabled": true,
-                "to": "{createdBy.uuid}"
-              }
+        {
+          "state": "ES_APPROVED",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
             }
+          }
         }
       ],
-	   "fees": [
+      "feePercentGST": [],
+      "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
@@ -610,11 +611,11 @@
           "amount": 0.0
         },
         {
-          "category" : "*",
-          "subCategory" : "*",
-          "amount" : 100.0
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
         }
       ]
-	}
+    }
   ]
 }
