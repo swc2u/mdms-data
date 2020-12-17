@@ -383,8 +383,8 @@
                   "type": "date"
                 },
                 {
-                  "label": "ES_DUE_AMOUNT_LABEL",
-                  "jsonPath": "property.propertyDetails.dueAmount"
+                  "label": "ES_SERVICE_CATEGORY_LABEL",
+                  "jsonPath": "property.propertyDetails.serviceCategory"
                 }
               ]
             },
@@ -604,8 +604,8 @@
                   "type": "date"
                 },
                 {
-                  "label": "ES_DUE_AMOUNT_LABEL",
-                  "jsonPath": "Applications[0].property.propertyDetails.dueAmount"
+                  "label": "ES_SERVICE_CATEGORY_LABEL",
+                  "jsonPath": "property.propertyDetails.serviceCategory"
                 }
               ]
             },
