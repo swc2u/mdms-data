@@ -31843,6 +31843,180 @@
 		"actionid": 6017,
 		"actioncode": "",
 		"tenantId": "ch"
-	}
+	},
+	{
+			"rolecode": "AUDIT_MASTER",
+			"actionid": 6012,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+	{
+			"rolecode": "AUDIT_MASTER",
+			"actionid": 6013,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "AUDIT_APPROVER",
+			"actionid": "4411",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "AUDIT_POST",
+			"actionid": 4409,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "AUDIT_ADMIN",
+			"actionid": 4410,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_WORK_AGREEMENT",
+			"actionid": 7017,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_DNIT",
+			"actionid": 7015,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_CREATE_ESTIMATE",
+			"actionid": 6021,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_DNIT",
+			"actionid": 6019,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_DNIT",
+			"actionid": 6020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_CLOSURE",
+			"actionid": 6010,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_PROGRESS_UPDATE",
+			"actionid": 6011,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+			{
+				"rolecode": "WORKS_WORK_AGREEMENT",
+				"actionid": 5045,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_WORK_AGREEMENT",
+				"actionid": 5046,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_WORK_AGREEMENT",
+				"actionid": 5047,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_WORK_AGREEMENT",
+				"actionid": 5048,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MASTER",
+				"actionid": 5049,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MASTER",
+				"actionid": 5050,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MASTER",
+				"actionid": 5051,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_BILL",
+				"actionid": 5052,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MIS",
+				"actionid": 5053,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_MIS",
+				"actionid": 5054,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_CREATE_ESTIMATE",
+				"actionid": 4557,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_SEARCH_ESTIMATE",
+				"actionid": 4558,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_CREATE_TENDER",
+				"actionid": 4559,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_SEARCH_TENDER",
+				"actionid": 4560,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_CREATE_BG",
+				"actionid": 4561,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_SEARCH_BG",
+				"actionid": 4562,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "WORKS_APPROVER",
+				"actionid": 4563,
+				"actioncode": "",
+				"tenantId": "ch"
+			}
   ]
 }
