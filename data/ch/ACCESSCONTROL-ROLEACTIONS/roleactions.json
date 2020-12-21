@@ -230,6 +230,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "GRO",
+			"actionid": 1580,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "RO",
 			"actionid": 383,
 			"actioncode": "",
