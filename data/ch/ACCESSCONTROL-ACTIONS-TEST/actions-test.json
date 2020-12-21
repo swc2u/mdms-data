@@ -13553,7 +13553,7 @@
     "orderNumber": 2,
     "parentModule": "estate-branch",
     "enabled": true,
-    "queryParams": "type=account-statement",
+    "queryParams": "type=account-statement&branchType=ESTATE_BRANCH",
     "navigationURL": "/estate/property-search",
     "leftIcon": "action:assessment"
   },
@@ -14175,7 +14175,7 @@
     "orderNumber": 2,
     "parentModule": "manimajra-branch",
     "enabled": true,
-    "queryParams": "type=account-statement",
+    "queryParams": "type=account-statement&branchType=MANI_MAJRA",
     "navigationURL": "/estate/property-search",
     "leftIcon": "action:assessment"
   },
