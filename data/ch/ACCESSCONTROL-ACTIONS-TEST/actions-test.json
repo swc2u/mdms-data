@@ -10498,7 +10498,7 @@
 	"enabled": true,
 	"serviceCode": "PGR",
 	"code": "null",
-	"path": "Complaints.PGR Reports.Report",,
+	"path": "Complaints.PGR Reports.Report",
 	"navigationURL": "egov-report/home",
 	"leftIcon": "action:assignment",
 	"rightIcon": ""
