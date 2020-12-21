@@ -14168,6 +14168,18 @@
     "path": ""
   },
   {
+    "id": 30137,
+    "name": "account-statement-generation",
+    "url": "estate-card",
+    "displayName": "ES_ACCOUNT_STATEMENT_GENERATION_HEADER",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "queryParams": "type=account-statement",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:assessment"
+  },
+  {
     "id": 30029,
     "name": "property-master",
     "url": "estate-card",

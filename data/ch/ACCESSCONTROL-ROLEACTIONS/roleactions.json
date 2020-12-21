@@ -43197,7 +43197,66 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
-
+		  {
+			"rolecode": "ES_MM_DISPATCH_OFFICER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_DEALING_ASSISTANT",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_BB_JUNIOR_ENGINEER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_SR_ASSISTANT",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_SECTION_OFFICER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_ADDITIONAL_COMMISSIONER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_BUILDING_INSPECTOR",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_TAX_CONTROLLER_MANIMAJRA",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_FINANCIAL_OFFICER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
 		{
 			"rolecode": "SASO",
 			"actionid": 4302,
