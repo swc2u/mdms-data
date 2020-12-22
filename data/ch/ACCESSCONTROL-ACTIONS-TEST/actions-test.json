@@ -23138,9 +23138,9 @@
 	},
 	{
 		"id": 5052,
-		"name": "Create Payment Request",
+		"name": "Works Payment Request",
 		"url": "services/EGF/expensebill/newform",
-		"displayName": "Create Payment Request",
+		"displayName": "Works Payment Request",
 		"orderNumber": "5",
 		"parentModule": "works",
 		"enabled": true,
@@ -23674,7 +23674,7 @@
     {
       "id": 7016,
       "name": "Voucher Detailed Report",
-      "url": "services/EGF/journalvoucher/searchvoucher",
+      "url": "services/EGF/journalvoucher/searchVoucher",
       "parentModule": "",
       "displayName": "Voucher Detailed Report",
       "orderNumber": 1,
@@ -23698,6 +23698,22 @@
 		"path": "Works.Work Agreement.Create Work Agreement From Estimate",
 		"navigationURL": "services/works/workEstimate/newformEstimate",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+	{
+      "id": 9001,
+      "name": "rainmaker-common-report",
+      "url": "card",
+      "displayName": "Report",
+      "orderNumber": 3,
+	  "queryParams": "",
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-report/home",
+      "leftIcon":"custom:publicIcon",
+      "rightIcon": ""
+    }
   ]
 }
