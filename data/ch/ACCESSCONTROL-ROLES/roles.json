@@ -666,12 +666,12 @@
     {
       "code": "HC_FRO",
       "name": "HC_FRO",
-      "description": "Forest Range Officer"
+      "description": "Range Forest officer"
     },
      {
       "code": "HC_SRE",
       "name": "HC_SRE",
-      "description": "Secretary Environment"
+      "description": "Principal Secreatry (Forest)"
     },
      {
       "code": "HC_WA",
