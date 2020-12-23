@@ -31,13 +31,13 @@
     },
     {
       "code": "HC_FRO",
-      "name": "Forest Range Officer",
-      "description": "Forest Range Officer"
+      "name": "HC_FRO",
+      "description": "Range Forest officer"
     },
      {
       "code": "HC_SRE",
-      "name": "Secretary Environment",
-      "description": "Secretary Environment"
+      "name": "HC_SRE",
+      "description": "Principal Secreatry (Forest)"
     },
     {
       "code": "HC_WA",
