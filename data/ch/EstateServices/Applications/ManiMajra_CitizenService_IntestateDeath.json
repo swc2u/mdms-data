@@ -1,22 +1,9 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "EstateBranch_OwnershipTransfer_IntestateDeath": [
+  "ManiMajra_CitizenService_IntestateDeath": [
     {
       "fields": [
-        {
-          "path": "bookNumber",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 100
-              }
-            }
-          ]
-        },
         {
           "path": "transferor",
           "required": true,
@@ -199,122 +186,22 @@
               }
             }
           ]
-        },
-        {
-          "path": "courtCases",
-          "required": false,
-          "validations": [
-            {
-              "type": "object"
-            }
-          ]
-        },
-        {
-          "path": "courtCases.estateOfficerCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.commissionersCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.chiefAdministratorsCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.advisorToAdminCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.honbleDistrictCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.honbleHighCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
-        },
-        {
-          "path": "courtCases.honbleSupremeCourt",
-          "required": false,
-          "validations": [
-            {
-              "type": "length",
-              "params": {
-                "min": 0,
-                "max": 250
-              }
-            }
-          ]
         }
       ],
       "documentList": [
         {
-          "code": "APPLICATION_FOR_TRANSFER",
+          "code": "AFFIDAVIT_REGARDING_INSTRUCTION",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "APPLICATION_FOR_TRANSFER_DESCRIPTION"
+          "description": "AFFIDAVIT_REGARDING_INSTRUCTION_DESCRITPTION"
         },
         {
-          "code": "SELF_ATTESTED_PHOTO",
+          "code": "INDEMNITY_BOND",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_DESCRIPTION"
+          "description": "INDEMNITY_BOND_DESCRIPTION"
         },
         {
           "code": "ORIGINAL_DEATH_CERTIFICATE_OF_DECEASED",
@@ -324,102 +211,106 @@
           "description": "ORIGINAL_DEATH_CERTIFICATE_OF_DECEASED_DESCRIPTION"
         },
         {
-          "code": "IDEMINITY_BOND_LEGAL_HEIRS",
+          "code": "REPORT_OF_HALQA_PATWARI",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "IDEMINITY_BOND_LEGAL_HEIRS_DESCRIPTION"
+          "description": "REPORT_OF_HALQA_PATWARI_DESCRITPTION"
         },
         {
-          "code": "SELF_ATTESTED_PHOTO_WITNESSES",
+          "code": "PUBLIC_NOTICE_IN_THREE_NATIONAL_DAY",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SELF_ATTESTED_PHOTO_WITNESSES_DESCRIPTION"
+          "description": "PUBLIC_NOTICE_IN_THREE_NATIONAL_DAY_DESCRIPTION"
         },
         {
-          "code": "LIABILTY_AFFIDAVIT_LEGAL_HEIRS",
+          "code": "LIABILTY_AFFIDAVIT",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "LIABILTY_AFFIDAVIT_LEGAL_HEIRS_DESCRIPTION"
+          "description": "LIABILTY_AFFIDAVIT_DESCRIPTION"
         },
         {
-          "code": "LIABILTY_AFFIDAVIT_OF_BENEFICIARIES",
+          "code": "ATTESTED_PHOTOGRAPHS_APPLICIANTS",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "LIABILTY_AFFIDAVIT_OF_BENEFICIARIES_DESCRIPTION"
+          "description": "ATTESTED_PHOTOGRAPHS_APPLICIANTS_DESCRIPTION"
         },
         {
-          "code": "CLEARANCE_OF_PREVIOUS_MORTGAGE",
+          "code": "LEGAL_HEIRS_CERTIFICATE_ISSUED_BY_NAMBERDAR",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "CLEARANCE_OF_PREVIOUS_MORTGAGE_DESCRIPTION"
+          "description": "LEGAL_HEIRS_CERTIFICATE_ISSUED_BY_NAMBERDAR_DESCRIPTION"
         },
         {
-          "code": "SEWERAGE_CONNECTION",
+          "code": "IDENTIFICATION_OF_APPLICANTS",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SEWERAGE_CONNECTION_DESCRIPTION"
+          "description": "IDENTIFICATION_OF_APPLICANTS_DESCRIPTION"
         },
         {
-          "code": "SETTING_ALL_TYPES_OF_COURT",
+          "code": "NO_DUE_FROM_SDE",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SETTING_ALL_TYPES_OF_COURT_DESCRIPTION"
+          "description": "NO_DUE_FROM_SDE_DESCRIPTION"
         },
         {
-          "code": "EXECUTION_OF_CONVEYANCE",
+          "code": "SITE_PLAN_DULY_SIGNED",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "EXECUTION_OF_CONVEYANCE_DESCRIPTION"
+          "description": "SITE_PLAN_DULY_SIGNED_DESCRIPTION"
         },
         {
-          "code": "OCCUPATION_CERTIFICATE",
-          "required": true,
+          "code": "NO_DUE_FROM_PROPERTY_TAX",
+          "required": false,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "OCCUPATION_CERTIFICATE_DESCRIPTION"
+          "description": "NO_DUE_FROM_PROPERTY_TAX_DESCRIPTION"
         },
         {
-          "code": "REMOVAL_REGULARIZATION_OF_BUILDING_VIOLATION",
-          "required": true,
+          "code": "ORIGINAL_DEATH_CERTIFICATE_OF_MOTHER",
+          "required": false,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "REMOVAL_REGULARIZATION_OF_BUILDING_VIOLATION_DESCRIPTION"
+          "description": "ORIGINAL_DEATH_CERTIFICATE_OF_MOTHER_DESCRIPTION"
         },
         {
-          "code": "UNDERTAKING_BY_WAY_OF_AFFIDAVIT",
-          "required": true,
+          "code": "ORIGINAL_INTQAL",
+          "required": false,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "UNDERTAKING_BY_WAY_OF_AFFIDAVIT_DESCRIPTION"
+          "description": "ORIGINAL_INTQAL_DESCRIPTION"
         },
         {
-          "code": "COPY_OF_GPA_SPA",
+          "code": "OWNERSHIP_PROOF_OF_PROPERTY",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "COPY_OF_GPA_SPA_DESCRIPTION"
+          "description": "OWNERSHIP_PROOF_OF_PROPERTY_DESCRIPTION"
+        }
+      ],
+      "wfDocumentList": [
+        {
+          "code": "WF_DOCS_NOTICE_TEMPLATE",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "WF_DOCS_NOTICE_TEMPLATE_DESCRIPTION",
+          "filter": "application.state === 'ES_MM_PENDING_SO_NOTICE'"
         },
         {
-          "code": "AFFIDAVIT_REGARDING_VALIDITY_GPA_SPA",
+          "code": "WF_DOCS_NOTICE_CITIZEN",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "AFFIDAVIT_REGARDING_VALIDITY_GPA_SPA"
-        },
-        {
-          "code": "CLEARANCE_AGAINST_PROERTY_TAX",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "CLEARANCE_AGAINST_PROERTY_TAX_DESCRIPTION"
+          "description": "WF_DOCS_NOTICE_CITIZEN_DESCRIPTION",
+          "filter": "application.state === 'ES_MM_PENIDNG_CITIZEN_NOTICE'"
         }
       ],
       "uiConfig": {
@@ -453,16 +344,6 @@
             "options": {
               "moduleName": "EstateServices",
               "masterName": "legaHeirRelationShipWithDeceased"
-            }
-          },
-          {
-            "name": "benificiaryRelationwithDeceased",
-            "type": "mdms",
-            "cacheable": true,
-            "lazyload": true,
-            "options": {
-              "moduleName": "EstateServices",
-              "masterName": "benificiaryRelationshipwithDeceased"
             }
           }
         ],
@@ -647,6 +528,16 @@
                   "errorMessage": "ES_ERR_ADDRESS"
                 },
                 {
+                  "label": "ES_LEGAL_HEIR_MOBILE_NUMBER",
+                  "placeholder": "ES_LEGAL_HEIR_MOBILE_NUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo",
+                  "path": "transferee.mobileNo",
+                  "pattern": "MobileNo",
+                  "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.mobileNumber : application.applicationDetails.transferee.mobileNo"
+                },
+                {
                   "label": "ES_LEGAL_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
                   "placeholder": "ES_LEGAL_RELATION_WITH_DECEASED_RADIO_BTN_PLACEHOLDER",
                   "type": "DROP_DOWN",
@@ -771,6 +662,10 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.address"
                 },
                 {
+                  "label": "ES_LEGAL_HEIR_MOBILE_NUMBER",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo"
+                },
+                {
                   "label": "ES_LEGAL_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferee.relationWithDeceased"
                 },
@@ -782,16 +677,22 @@
             },
             {
               "header": "ES_DOCUMENT_DETAILS_HEADER",
-              "step": 1,
               "type": "DOCUMENTS",
+              "step": 1,
               "sourceJsonPath": "temp[0].reviewDocData"
+            },
+            {
+              "header": "ES_WORKFLOW_DOCUMENTS_HEADER",
+              "type": "DOCUMENTS",
+              "sourceJsonPath": "temp[0].reviewWfDocData",
+              "visibility": "!!application.wfDocuments && application.wfDocuments.length !== 0"
             }
           ]
         }
       },
       "notifications": [
         {
-          "state": "ES_PENDING_DS_VERIFICATION",
+          "state": "ES_MM_PENDING_DS_VERIFICATION",
           "content": "Hi {applicationDetails.transferee.name}, \n Your application for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been received. Please note your application number {applicationNumber} for further reference.",
           "modes": {
             "email": {
@@ -804,14 +705,14 @@
               "enabled": true,
               "to": "{applicationDetails.transferee.mobileNo}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
         {
-          "state": "ES_PENDING_PAYMENT",
+          "state": "ES_MM_PENDING_PAYMENT",
           "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
           "modes": {
             "email": {
@@ -827,12 +728,12 @@
             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}",
-             "isPayLink" : true
+              "isPayLink": true
             }
           }
         },
         {
-          "state": "ES_PENDING_CLARIFICATION",
+          "state": "ES_MM_PENDING_CLARIFICATION",
           "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
           "modes": {
             "email": {
@@ -845,14 +746,14 @@
               "enabled": true,
               "to": "{applicationDetails.transferee.mobileNo}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
         {
-          "state": "ES_REJECTED",
+          "state": "ES_MM_REJECTED",
           "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
           "modes": {
             "email": {
@@ -865,14 +766,14 @@
               "enabled": true,
               "to": "{applicationDetails.transferee.mobileNo}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
         {
-          "state": "ES_PENDING_DA_FEE",
+          "state": "ES_MM_PENDING_DA_FEE",
           "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
           "modes": {
             "email": {
@@ -885,7 +786,7 @@
               "enabled": true,
               "to": "{applicationDetails.transferee.mobileNo}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
@@ -905,7 +806,7 @@
               "enabled": true,
               "to": "{applicationDetails.transferee.mobileNo}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
@@ -925,35 +826,35 @@
               "enabled": true,
               "to": "{payer.mobileNumber}"
             },
-             "event": {
+            "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
-          {
-            "state": "ES_APPROVED",
-            "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
-            "modes": {
-              "email": {
-                "enabled": false,
-                "html": false,
-                "to": "{createdBy.emailId}",
-                "subject": "CSCL - Intimation for application {applicationNumber}"
-              },
-              "sms": {
-                "enabled": true,
-                "to": "{applicationDetails.transferee.mobileNo}"
-              },
-               "event": {
-                "enabled": true,
-                "to": "{createdBy.uuid}"
-              }
+        {
+          "state": "ES_MM_APPROVED",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
             }
+          }
         }
       ],
-      "feePercentGST" : [],
-	  "fees": [
+      "feePercentGST": [],
+      "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
@@ -980,11 +881,11 @@
           "amount": 0.0
         },
         {
-          "category" : "*",
-          "subCategory" : "*",
-          "amount" : 100.0
+          "category": "*",
+          "subCategory": "*",
+          "amount": 100.0
         }
-      ]	
+      ]
     }
   ]
 }

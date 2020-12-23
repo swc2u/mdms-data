@@ -425,7 +425,9 @@
                   "placeholder": "ES_DATE_OF_HEARING_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.dateOfHearing",
-                  "path": "dateOfHearing"
+                  "path": "dateOfHearing",
+                  "minDate": true,
+                  "maxDate": false
                 },
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
@@ -604,7 +606,7 @@
         },
         {
           "state": "ES_REJECTED",
-          "content": "Hi {owner.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected.",
+          "content": "Hi {owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected.",
           "modes": {
             "email": {
               "enabled": true,
@@ -624,7 +626,7 @@
         },
         {
           "state": "ES_APPROVED",
-          "content": "Hi {owner.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved. Please note your serial number {serialNumber} for future reference.",
+          "content": "Hi {owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved. Please note your serial number {serialNumber} for future reference.",
           "modes": {
             "email": {
               "enabled": true,

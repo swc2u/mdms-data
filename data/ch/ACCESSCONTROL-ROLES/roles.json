@@ -1068,59 +1068,59 @@
 		"description": "WORKS_APPROVER"
     },
     {
-      "code": "OSBM_APPROVER",
+      "code": "BK_OSBM_APPROVER",
       "name": "OSBM APPROVER",
       "description": "Employee who approves the open space booking for building material"
     },
     {
-      "code": "MCC_APPROVER",
-      "name": "MCC JURISDICTION VERIFIER",
-      "description": "Employee who verifies Open space under jurisdiction"
+      "code": "BK_MCC_APPROVER",
+      "name": "Open Spaces Under Jurisdiction of MCC Approver",
+      "description": "Employee who approves Open Spaces Under Jurisdiction of MCC booking"
     },
     {
-      "code": "OSD_APPROVER",
-      "name": "MCC NEW LOCATION VERIFIER",
-      "description": "Employee who verifies new location under jurisdiction"
+      "code": "BK_OSD_APPROVER",
+      "name": "New Location Open Spaces Under Jurisdiction of MCC Verifier",
+      "description": "Employee who verifies the New Location Open Spaces Under Jurisdiction of MCC booking"
     },
     {
-      "code": "ADMIN_APPROVER",
-      "name": "MCC NEW LOCATION VERIFIER 2",
-      "description": "Employee who verifies new location under jurisdiction"
+      "code": "BK_ADMIN_APPROVER",
+      "name": "New Location Open Spaces Under Jurisdiction of MCC Publisher",
+      "description": "Employee who publish the New Location Open Spaces Under Jurisdiction of MCC booking"
     },
     {
-      "code": "BOOKING_ADMIN",
-      "name": "BOOKING CREATOR",
-      "description": "Employee who creates master data"
+      "code": "BK_BOOKING_ADMIN",
+      "name": "Master Data Creator",
+      "description": "Employee who create and update master data"
     },
     {
-      "code": "CLERK",
-      "name": "PARK AND COMMUNITY VERIFIER",
-      "description": "Employee who verifies PARK and Community Request"
+      "code": "BK_CLERK",
+      "name": "Parks and Community Centre Cancel Request Verifier",
+      "description": "Employee who verifies the cancel request of Parks and Community Centre"
     },	
     {
-      "code": "DEO",
-      "name": "PARK AND COMMUNITY VERIFIER",
-      "description": "Employee who verifies PARK and Community Request"
+      "code": "BK_DEO",
+      "name": "Parks and Community Centre Cancel Request Verifier",
+      "description": "Employee who verifies the cancel request of Parks and Community Centre"
     },
     {
-      "code": "SENIOR_ASSISTANT",
-      "name": "PARK AND COMMUNITY VERIFIER",
-      "description": "Employee who verifies PARK and Community Request"
+      "code": "BK_SENIOR_ASSISTANT",
+      "name": "Parks and Community Centre Cancel Request Verifier",
+      "description": "Employee who verifies the cancel request of Parks and Community Centre"
     },
     {
-      "code": "AUDIT_DEPARTMENT",
-      "name": "PARK AND COMMUNITY VERIFIER",
-      "description": "Employee who audit PARK and Community Request"
+      "code": "BK_AUDIT_DEPARTMENT",
+      "name": "Parks and Community Centre Cancel Request Verifier",
+      "description": "Employee who audit the cancel request of Parks and Community Centre"
     },
     {
-      "code": "CHIEF_ACCOUNT_OFFICER",
-      "name": "PARK AND COMMUNITY VERIFIER",
-      "description": "Employee who verifies PARK and Community Request"
+      "code": "BK_CHIEF_ACCOUNT_OFFICER",
+      "name": "Parks and Community Centre Cancel Request Approver",
+      "description": "Employee who approve the cancel request of Parks and Community Centre"
     },
     {
-      "code": "PAYMENT_PROCESSING_AUTHORITY",
-      "name": "PARK AND COMMUNITY PAYMENT PROCESSING AUTHORITY",
-      "description": "Employee PAYMENT PROCESSING AUTHORITY"
+      "code": "BK_PAYMENT_PROCESSING_AUTHORITY",
+      "name": "Parks and Community Centre Cancel Request Payment Processing Authority",
+      "description": "Employee who disbursed the cancel request payment of Parks and Community Centre"
     },
     {
 		"code": "WORKS_WORK_AGREEMENT",
@@ -1168,14 +1168,14 @@
       "description": "RTI Admin"
     },
 	{
-      "code": "MCC_HELPDESK_USER",
-      "name": "WATER TANKER APPROVER",
-      "description": "Employee who verifies water tanker"
+      "code": "BK_MCC_HELPDESK_USER",
+      "name": "Water Tanker Approver",
+      "description": "Employee who approves the Water Tankers booking"
     },
 	{
-      "code": "COMMERCIAL_GROUND_VIEWER",
-      "name": "COMMERCIAL GROUND VIEWER",
-      "description": "Employee who views commercial ground Booking"
+      "code": "BK_COMMERCIAL_GROUND_VIEWER",
+      "name": "Ground for Commercial Purpose Viewer",
+      "description": "Employee who view the Ground for Commercial Purpose booking"
     },
 	{
       "code": "COLL_RECEIPT_REPORT",
@@ -1301,6 +1301,46 @@
       "code": "AUDIT_MASTER",
       "name": "AUDIT_MASTER",
       "description": "AUDIT_MASTER"
+    },	
+	{
+      "code": "BK_PARKS_AND_COMMUNITY_VIEWER",
+      "name": "Parks and Community Centre Viewer",
+      "description": "Employee who view the Parks and Community Centre booking"
+    },
+	{
+      "code": "BK_E-SAMPARK-CENTER",
+      "name": "Parks and Community Centre Offline Applier",
+      "description": "Employee who create offline booking of Parks and Community Centre"
+    },
+	{
+      "code": "BK_MCC_USER",
+      "name": "Parks and Community Centre Offline Applier",
+      "description": "Employee who create offline booking of Parks and Community Centre"
+    },
+    {
+      "code": "BK_OSD",
+      "name": "OSD Approver",
+      "description": "Employee who approve park and community center booking request"
+    },
+    {
+      "code": "BK_SUPERVISOR",
+      "name": "Supervisor Approver",
+      "description": "Employee who approve and inspect park and community center booking request"
+    },
+	{
+      "code": "WORKS_DNIT",
+      "name": "WORKS_DNIT",
+      "description": "WORKS_DNIT"
+    },
+	{
+      "code": "FINANCE_VOUCHER_REPORT",
+      "name": "FINANCE_VOUCHER_REPORT",
+      "description": "FINANCE_VOUCHER_REPORT"
+    },
+	{
+      "code": "REPORT_ADMIN",
+      "name": "REPORT_ADMIN",
+      "description": "Admin for report module"
     }
   ]
 }
