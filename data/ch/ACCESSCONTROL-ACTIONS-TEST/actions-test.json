@@ -10488,6 +10488,21 @@
       "code": "null",
       "path": ""
     },
+	{
+	"id": 1580,
+	"name": "Report",
+	"url": "url",
+	"displayName": "Report",
+	"orderNumber": 1,
+	"parentModule": "rainmaker-common-report",
+	"enabled": true,
+	"serviceCode": "PGR",
+	"code": "null",
+	"path": "Complaints.PGR Reports.Report",
+	"navigationURL": "egov-report/home",
+	"leftIcon": "action:assignment",
+	"rightIcon": ""
+	},
     {
       "id": 9999,
       "name": "PGR LME Report",
