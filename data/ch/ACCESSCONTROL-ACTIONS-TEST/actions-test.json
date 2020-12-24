@@ -14187,7 +14187,7 @@
     "orderNumber": 2,
     "parentModule": "manimajra-branch",
     "enabled": true,
-    "queryParams": "type=manimajra-payment",
+    "queryParams": "branchType=MANI_MAJRA&type=manimajra-payment",
     "navigationURL": "/estate/property-search",
     "leftIcon": "action:payment"
   },
