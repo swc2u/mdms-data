@@ -466,6 +466,17 @@
          "demandUpdateTime": 604800000,
          "isVoucherCreationEnabled": true
      },
+     {
+        "businessService":"Mani Majra rent for property master",
+        "code":"ESTATE_SERVICE_MANI_MAJRA.PROPERTY_MASTER",
+        "collectionModesNotAllowed":[
+           "DD"
+        ],
+        "partPaymentAllowed":false,
+        "isAdvanceAllowed":false,
+        "demandUpdateTime":604800000,
+        "isVoucherCreationEnabled":true
+     },
       {
          "businessService":"Estate branch rent for property master",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
