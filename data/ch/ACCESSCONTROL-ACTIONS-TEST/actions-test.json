@@ -14180,6 +14180,18 @@
     "leftIcon": "action:assessment"
   },
   {
+    "id": 30138,
+    "name": "rent-payment",
+    "url": "estate-card",
+    "displayName": "ES_OFFLINE_RENT_PAYMENT_HEADER",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "queryParams": "type=manimajra-payment",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:payment"
+  },
+  {
     "id": 30029,
     "name": "property-master",
     "url": "estate-card",
