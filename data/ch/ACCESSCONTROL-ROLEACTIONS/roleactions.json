@@ -54728,6 +54728,72 @@
 				"actionid": "1834",
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_COMMISSIONERMCC",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_EEWE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_SEHE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_WA",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_SRE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_FRO",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_DCF",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_CCF",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_EE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_SDO",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_JE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
