@@ -23478,6 +23478,18 @@
 		"leftIcon": "editor:insert-chart"
 	},
 	{
+		"id": 6022,
+		"name": "getEofficeData",
+		"url": "/integration-services/eoffice/v1/_get",
+		"displayName": "getEofficeData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 7000,
       "name": "MASTER APPROVER CREATE",
       "url": "/bookings/master/approver/_create",
