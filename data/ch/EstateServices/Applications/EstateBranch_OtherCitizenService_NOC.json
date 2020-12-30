@@ -112,7 +112,7 @@
         },
         {
           "path": "transferee.mobileNo",
-          "required": false,
+          "required": true,
           "validations": [
             {
               "type": "mobile"
@@ -786,7 +786,7 @@
         },
         {
           "state": "ES_PENDING_DA_FEE",
-          "content": "Hi {applicationDetails.owner.ownerDetails.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
           "modes": {
             "email": {
               "enabled": false,

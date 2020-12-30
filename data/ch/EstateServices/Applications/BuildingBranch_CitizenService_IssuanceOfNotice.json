@@ -507,14 +507,6 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferor.share",
                   "prefillValue": "selectedOwner.share"
-                },
-                {
-                  "label": "ES_CP_NUMBER_LABEL",
-                  "placeholder": "ES_CP_NUMBER_PLACEHOLDER",
-                  "disabled": true,
-                  "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.cpNumber",
-                  "prefillValue": "selectedOwner.cpNumber"
                 }
               ]
             },
@@ -777,7 +769,8 @@
                   "label": "ES_DATE_OF_HEARING_LABEL",
                   "placeholder": "ES_DATE_OF_HEARING_PLACEHOLDER",
                   "type": "DATE_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.dateOfHearing"
+                  "jsonPath": "Applications[0].applicationDetails.dateOfHearing",
+                  "path": "dateOfHearing"
                 },
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
@@ -861,10 +854,6 @@
                 {
                   "label": "ES_SHARE_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferor.share"
-                },
-                {
-                  "label": "ES_CP_NUMBER_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.cpNumber"
                 }
               ]
             },
@@ -878,7 +867,8 @@
                 },
                 {
                   "label": "ES_GROUND_COVERAGE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.groundCoverage"
+                  "jsonPath": "Applications[0].applicationDetails.groundCoverage",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_GROUND_COVERAGE_COMMENTS_LABEL",
@@ -886,11 +876,13 @@
                 },
                 {
                   "label": "ES_GROUND_COVERAGE_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.groundCoverageSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.groundCoverageSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_PLINTH_LEVEL_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.plinthLevel"
+                  "jsonPath": "Applications[0].applicationDetails.plinthLevel",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_PLINTH_LEVEL_COMMENTS_LABEL",
@@ -898,11 +890,13 @@
                 },
                 {
                   "label": "ES_PLINTH_LEVEL_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.plinthLevelSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.plinthLevelSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MAX_HEIGHT_MEASURED_FROM_PLINTH_LEVEL_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.maximumHeight"
+                  "jsonPath": "Applications[0].applicationDetails.maximumHeight",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MAX_HEIGHT_MEASURED_FROM_PLINTH_LEVEL_COMMENTS_LABEL",
@@ -910,11 +904,13 @@
                 },
                 {
                   "label": "ES_MAX_HEIGHT_MEASURED_FROM_PLINTH_LEVEL_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.maximumHeightSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.maximumHeightSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MAXIMUM_NUMBER_OF_FLOORS_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.maximumFloors"
+                  "jsonPath": "Applications[0].applicationDetails.maximumFloors",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MAXIMUM_NUMBER_OF_FLOORS_COMMENTS_LABEL",
@@ -922,11 +918,13 @@
                 },
                 {
                   "label": "ES_MAXIMUM_NUMBER_OF_FLOORS_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.maximumFloorsSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.maximumFloorsSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MINIMUM_FLOOR_TO_CEILING_HEIGHT_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.minimumCeilingHeight"
+                  "jsonPath": "Applications[0].applicationDetails.minimumCeilingHeight",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MINIMUM_FLOOR_TO_CEILING_HEIGHT_COMMENTS_LABEL",
@@ -934,11 +932,13 @@
                 },
                 {
                   "label": "ES_MINIMUM_FLOOR_TO_CEILING_HEIGHT_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.minimumCeilingHeightSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.minimumCeilingHeightSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MINIMUM_SIZE_OF_HABITABLE_ROOMS_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.minimunRoomsSize"
+                  "jsonPath": "Applications[0].applicationDetails.minimunRoomsSize",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_MINIMUM_SIZE_OF_HABITABLE_ROOMS_COMMENTS_LABEL",
@@ -946,11 +946,13 @@
                 },
                 {
                   "label": "ES_MINIMUM_SIZE_OF_HABITABLE_ROOMS_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.minimunRoomsSizeSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.minimunRoomsSizeSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_RARE_FRONT_SET_BACK_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.setBack"
+                  "jsonPath": "Applications[0].applicationDetails.setBack",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_RARE_FRONT_SET_BACK_COMMENTS_LABEL",
@@ -958,11 +960,13 @@
                 },
                 {
                   "label": "ES_RARE_FRONT_SET_BACK_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.setBackSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.setBackSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_STAIRCASE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.staircase"
+                  "jsonPath": "Applications[0].applicationDetails.staircase",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_STAIRCASE_COMMENTS_LABEL",
@@ -970,11 +974,13 @@
                 },
                 {
                   "label": "ES_STAIRCASE_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.staircaseSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.staircaseSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_PERMISSIBLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.permissible"
+                  "jsonPath": "Applications[0].applicationDetails.permissible",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_PERMISSIBLE_COMMENTS_LABEL",
@@ -982,7 +988,8 @@
                 },
                 {
                   "label": "ES_PERMISSIBLE_SANCTIONABLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.permissibleSanctionable"
+                  "jsonPath": "Applications[0].applicationDetails.permissibleSanctionable",
+                  "type": "boolean"
                 },
                 {
                   "label": "ES_DATE_OF_DEMOLITION_LABEL",
@@ -1012,20 +1019,20 @@
       "notifications": [
         {
           "state": "ES_PENDING_SDE_VERIFICATION",
-          "content": "Hi {owner.name}, \n Your property of estate number {property.fileNumber} has been found to be under [ES_{branchType}_{moduleType}_{applicationType}]. Please note your application number {applicationNumber} for further reference.",
+          "content": "Hi {applicationDetails.transferor.name} for your property bearing file Number {property.fileNumber} a notice is issued.In this regard you are hereby by requested to attend the hearing on {applicationDetails.dateOfHearing} at {applicationDetails.timeOfHearing}",
           "modes": {
             "email": {
-              "enabled": true,
+              "enabled": false,
               "html": false,
               "to": "{owner.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
             },
             "sms": {
               "enabled": true,
-              "to": "{owner.mobileNumber}"
+              "to": "{applicationDetails.transferor.transferorDetails.mobileNumber}"
             },
             "event": {
-              "enabled": true,
+              "enabled": false,
               "to": "{owner.id}"
             }
           }
@@ -1045,14 +1052,14 @@
               "to": "{owner.mobileNumber}"
             },
             "event": {
-              "enabled": true,
+              "enabled": false,
               "to": "{owner.id}"
             }
           }
         },
         {
           "state": "ES_APPROVED",
-          "content": "Hi {owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved. Please note your serial number {serialNumber} for future reference.",
+          "content": "Hi {applicationDetails.transferor.name} for your property bearing  File Number {property.fileNumber}  a violation notice is issued.It will be sent to you shortly by post.",
           "modes": {
             "email": {
               "enabled": true,
@@ -1062,10 +1069,10 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{owner.mobileNumber}"
+              "to": "{applicationDetails.transferor.transferorDetails.mobileNumber}"
             },
             "event": {
-              "enabled": true,
+              "enabled": false,
               "to": "{owner.id}"
             }
           }

@@ -13568,7 +13568,7 @@
     "orderNumber": 2,
     "parentModule": "estate-branch",
     "enabled": true,
-    "queryParams": "type=account-statement",
+    "queryParams": "type=account-statement&branchType=ESTATE_BRANCH",
     "navigationURL": "/estate/property-search",
     "leftIcon": "action:assessment"
   },
@@ -14205,6 +14205,30 @@
     "navigationURL": "/estate/search-application",
     "leftIcon": "custom:library-books",
     "queryParams": "branchType=ManiMajra"
+  },
+  {
+    "id": 30137,
+    "name": "account-statement-generation",
+    "url": "estate-card",
+    "displayName": "ES_ACCOUNT_STATEMENT_GENERATION_HEADER",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "queryParams": "type=account-statement&branchType=MANI_MAJRA",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:assessment"
+  },
+  {
+    "id": 30138,
+    "name": "rent-payment",
+    "url": "estate-card",
+    "displayName": "ES_OFFLINE_RENT_PAYMENT_HEADER",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "queryParams": "branchType=MANI_MAJRA&type=payment",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:payment"
   },
   	{
     "id": 30031,
