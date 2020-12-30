@@ -54646,6 +54646,12 @@
 		},
 		{
 			"rolecode": "EMPLOYEE",
+			"actionid": 6022,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
 			"actionid": 7000,
 			"actioncode": "",
 			"tenantId": "ch"
