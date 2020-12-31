@@ -84,7 +84,7 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
+                "min": 0,
                 "max": 250
               }
             }
@@ -97,7 +97,7 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
+                "min": 0,
                 "max": 250
               }
             }
@@ -110,7 +110,7 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
+                "min": 0,
                 "max": 250
               }
             }
@@ -123,7 +123,7 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
+                "min": 0,
                 "max": 250
               }
             }
@@ -136,7 +136,7 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
+                "min": 0,
                 "max": 250
               }
             }
@@ -149,7 +149,7 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
+                "min": 0,
                 "max": 250
               }
             }
@@ -162,7 +162,7 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
+                "min": 0,
                 "max": 250
               }
             }
