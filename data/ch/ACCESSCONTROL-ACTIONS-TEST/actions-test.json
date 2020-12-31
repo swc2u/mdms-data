@@ -23717,6 +23717,37 @@
       "navigationURL": "egov-report/home",
       "leftIcon":"custom:publicIcon",
       "rightIcon": ""
-    }
+    },
+	{
+	  "id": 9002,
+	  "name": "rainmaker-common-dashboard",
+	  "url": "card",
+	  "displayName": "Dashboard",
+	  "orderNumber": 3,
+	  "queryParams": "",
+  	  "parentModule": "",
+	  "enabled": true,
+	  "serviceCode": "",
+	  "code": "",
+	  "path": "",
+	  "navigationURL": "egov-dashboard/home",
+	  "leftIcon":"custom:publicIcon",
+	  "rightIcon": ""
+	},
+	{
+	  "id": 9003,
+	  "name": "Dashboard",
+	  "url": "url",
+	  "displayName": "Dashboard",
+	  "orderNumber": 1,
+	  "parentModule": "rainmaker-common-dashboard",
+	  "enabled": true,
+	  "serviceCode": "PGR",
+	  "code": "null",
+	  "path": "Complaints.PGR Reports.Dashboard",
+	  "navigationURL": "egov-dashboard/home",
+	  "leftIcon": "action:assignment",
+	  "rightIcon": ""
+	}
   ]
 }
