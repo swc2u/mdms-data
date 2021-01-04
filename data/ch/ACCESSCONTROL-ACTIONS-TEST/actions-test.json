@@ -23738,6 +23738,21 @@
 		"navigationURL": "services/works/workEstimate/newformEstimate",
 		"leftIcon": "editor:insert-chart"
 	},
+	  {
+		"id": 7018,
+		"name": "EofficeStat",
+		"url": "url",
+		"displayName": "EofficeStat",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-integration",
+		"enabled": true,
+		"serviceCode": "INTEGRATION",
+		"code": "null",
+		"path": "INTEGRATION.EofficeStat",
+		"navigationURL": "egov-integration/e-office-stat",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
 	{
       "id": 9001,
       "name": "rainmaker-common-report",
