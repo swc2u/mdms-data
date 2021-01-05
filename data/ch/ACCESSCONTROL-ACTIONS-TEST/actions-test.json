@@ -23768,6 +23768,21 @@
       "navigationURL": "egov-report/home",
       "leftIcon":"custom:publicIcon",
       "rightIcon": ""
-    }
+    },
+	{
+		"id": 9002,
+		"name": "Create Notice",
+		"url": "/services/council/councilmeeting/noticesearch/view",
+		"displayName": "Create Notice",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-agenda",
+		"enabled": true,
+		"serviceCode": "AgendaBranch",
+		"code": "",
+		"path": "Agenda Branch.Notice.Create Notice",
+		"navigationURL": "services/council/councilmeeting/noticesearch/view",
+		"leftIcon": "editor:insert-chart"
+	}
+	
   ]
 }

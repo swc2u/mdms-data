@@ -54871,6 +54871,12 @@
 				"actionid": "1834",
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+				"rolecode": "AGENDA_NOTICE",
+				"actionid": "9002",
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
