@@ -424,7 +424,7 @@
       },
       {
           "name": "Dadu Majra",
-          "code": "DADU_MAJRA",
+          "code": "ES_DADU_MAJRA",
           "active": true
       },
       {
@@ -434,27 +434,27 @@
       },
       {
           "name": "Grain Market",
-          "code": "GRAIN_MARKET",
+          "code": "ES_GRAIN_MARKET",
           "active": true
       },
       {
           "name": "Hallo Majra",
-          "code": "HALLO_MAJRA",
+          "code": "ES_HALLO_MAJRA",
           "active": true
       },
       {
           "name": "Ind. Area Phase-I",
-          "code": "IND_AREA_PHASE-I",
+          "code": "ES_IND_AREA_PHASE-I",
           "active": true
       },
       {
           "name": "Ind. Area Phase-II",
-          "code": "IND_AREA_PHASE-II",
+          "code": "ES_IND_AREA_PHASE-II",
           "active": true
       },
       {
           "name": "Indira Colony",
-          "code": "INDIRA_COLONY",
+          "code": "ES_INDIRA_COLONY",
           "active": true
       },
       {
@@ -464,7 +464,7 @@
       },
       {
           "name": "Khuda Lahora",
-          "code": "KHUDA_LAHORA",
+          "code": "ES_KHUDA_LAHORA",
           "active": true
       },
       {
@@ -479,12 +479,12 @@
       },
       {
           "name": "Mauli Jagran",
-          "code": "MAULI_JAGRAN",
+          "code": "ES_MAULI_JAGRAN",
           "active": true
       },
       {
           "name": "Modern Housing Complex Manimajra",
-          "code": "MODERN_HOUSING_COMPLEX_MANIMAJRA",
+          "code": "ES_MODERN_HOUSING_COMPLEX_MANIMAJRA",
           "active": true
       },
       {
@@ -494,62 +494,62 @@
       },
       {
           "name": "Pipliwala Town",
-          "code": "PIPLIWALA_TOWN",
+          "code": "ES_PIPLIWALA_TOWN",
           "active": true
       },
       {
           "name": "Ram Darbar",
-          "code": "RAM_DARBAR",
+          "code": "ES_RAM_DARBAR",
           "active": true
       },
       {
           "name": "Shivalik Enclave-Nac",
-          "code": "SHIVALIK_ENCLAVE-NAC",
+          "code": "ES_SHIVALIK_ENCLAVE-NAC",
           "active": true
       },
       {
           "name": "Timber Market",
-          "code": "TIMBER_MARKET",
+          "code": "ES_TIMBER_MARKET",
           "active": true
       },
       {
           "name": "Transport Area",
-          "code": "TRANSPORT_AREA",
+          "code": "ES_TRANSPORT_AREA",
           "active": true
       },
       {
           "name": "Village Dhanas",
-          "code": "VILLAGE_DHANAS",
+          "code": "ES_VILLAGE_DHANAS",
           "active": true
       },
       {
           "name": "Khuda Alisher",
-          "code": "KHUDA_ALISHER",
+          "code": "ES_KHUDA_ALISHER",
           "active": true
       },
       {
           "name": "Khuda Jassu",
-          "code": "KHUDA_JASSU",
+          "code": "ES_KHUDA_JASSU",
           "active": true
       },
       {
           "name": "Indra Awas Colony",
-          "code": "INDRA_AWA_ COLONY",
+          "code": "ES_INDRA_AWA_ COLONY",
           "active": true
       },
       {
           "name": "Karsan Colony",
-          "code": "KARSAN_COLONY",
+          "code": "ES_KARSAN_COLONY",
           "active": true
       },
       {
           "name": "Bair Majra",
-          "code": "BAIR_MAJRA",
+          "code": "ES_BAIR_MAJRA",
           "active": true
       },
       {
           "name": "Faidan Burail And Char Taraf Burail",
-          "code": "FAIDAN_BURAIL_AND_CHAR_TARAF_BURAIL",
+          "code": "ES_FAIDAN_BURAIL_AND_CHAR_TARAF_BURAIL",
           "active": true
       },
       {
@@ -559,7 +559,7 @@
       },
       {
           "name": "Colony No. 5",
-          "code": "COLONY_NO5",
+          "code": "ES_COLONY_NO5",
           "active": true
       },
       {
@@ -569,12 +569,12 @@
       },
       {
           "name": "Nizampur Kumbra",
-          "code": "NIZAMPUR_KUMBRA",
+          "code": "ES_NIZAMPUR_KUMBRA",
           "active": true
       },
       {
           "name": "Sub Jail. Village Behlana",
-          "code": "SUB_JAIL_VILLAGE_BEHLANA",
+          "code": "ES_SUB_JAIL_VILLAGE_BEHLANA",
           "active": true
       },
       {
@@ -584,82 +584,82 @@
       },
       {
           "name": "Bapudham Transt.Camp-1",
-          "code": "BAPUDHAM_TRANST_CAMP-1",
+          "code": "ES_BAPUDHAM_TRANST_CAMP-1",
           "active": true
       },
       {
           "name": "Bapudham Transt.Camp-III",
-          "code": "BAPUDHAM_TRANST_CAMP-III",
+          "code": "ES_BAPUDHAM_TRANST_CAMP-III",
           "active": true
       },
       {
           "name": "Madrasi Colony Huts",
-          "code": "MADRASI_COLONY_HUTS",
+          "code": "ES_MADRASI_COLONY_HUTS",
           "active": true
       },
       {
           "name": "Area Mauli Complex",
-          "code": "AREA_MAULI_COMPLEX",
+          "code": "ES_AREA_MAULI_COMPLEX",
           "active": true
       },
       {
           "name": "Ambedkar Awas Yojna",
-          "code": "AMBEDKAR_AWAS_YOJNA",
+          "code": "ES_AMBEDKAR_AWAS_YOJNA",
           "active": true
       },
       {
           "name": "Charan Singh Colony",
-          "code": "CHARAN_SINGH_COLONY",
+          "code": "ES_CHARAN_SINGH_COLONY",
           "active": true
       },
       {
           "name": "Vikas Nagar",
-          "code": "VIKAS_NAGAR",
+          "code": "ES_VIKAS_NAGAR",
           "active": true
       },
       {
           "name": "Housing Board",
-          "code": "HOUSING_BOARD",
+          "code": "ES_HOUSING_BOARD",
           "active": true
       },
       {
           "name": "Old Manimajra Shanti Nagar",
-          "code": "OLD_MANIMAJRA_SHANTINAGAR",
+          "code": "ES_OLD_MANIMAJRA_SHANTINAGAR",
           "active": true
       },
       {
           "name": "Mariwala Town",
-          "code": "MARIWALA_TOWN",
+          "code": "ES_MARIWALA_TOWN",
           "active": true
       },
       {
           "name": "Thakurdwara",
-          "code": "THAKURDWARA",
+          "code": "ES_THAKURDWARA",
           "active": true
       },
       {
           "name": "Dhillon Complex",
-          "code": "DHILLON_COMPLEX",
+          "code": "ES_DHILLON_COMPLEX",
           "active": true
       },
       {
           "name": "Motor Market",
-          "code": "MOTOR_MARKET",
+          "code": "ES_MOTOR_MARKET",
           "active": true
       },
       {
           "name": "Darshni Bagh",
-          "code": "DARSHNI_BAGH",
+          "code": "ES_DARSHNI_BAGH",
           "active": true
       },
       {
           "name": "Subhash Nagar",
-          "code": "SUBHASH_NAGAR",
+          "code": "ES_SUBHASH_NAGAR",
           "active": true
       },
       {
           "name": "Adarsh Nagar",
-          "code": "ADARSH_NAGAR",
+          "code": "ES_ADARSH_NAGAR",
           "active": true
       },
       {
@@ -669,172 +669,172 @@
       },
       {
           "name": "Gawala Colony",
-          "code": "GAWALA_COLONY",
+          "code": "ES_GAWALA_COLONY",
           "active": true
       },
       {
           "name": "Race Course And It Park",
-          "code": "RACE_COURSE_AND_ITPARK",
+          "code": "ES_RACE_COURSE_AND_ITPARK",
           "active": true
       },
       {
           "name": "Village Makhan Majra",
-          "code": "VILLAGE_MAKHAN_MAJRA",
+          "code": "ES_VILLAGE_MAKHAN_MAJRA",
           "active": true
       },
       {
           "name": "Raipurkalan",
-          "code": "RAIPURKALAN",
+          "code": "ES_RAIPURKALAN",
           "active": true
       },
       {
           "name": "Kaimbwala",
-          "code": "KAIMBWALA",
+          "code": "ES_KAIMBWALA",
           "active": true
       },
       {
           "name": "Kishangarh",
-          "code": "KISHANGARH",
+          "code": "ES_KISHANGARH",
           "active": true
       },
       {
           "name": "52 Ews Lig Colony",
-          "code": "52_EWS_LIG_COLONY",
+          "code": "ES_52_EWS_LIG_COLONY",
           "active": true
       },
       {
           "name": "53 Nehru Colony",
-          "code": "53_NEHRU_COLONY",
+          "code": "ES_53_NEHRU_COLONY",
           "active": true
       },
       {
           "name": "Rehabilitation Colony",
-          "code": "REHABILITATION_COLONY",
+          "code": "ES_REHABILITATION_COLONY",
           "active": true
       },
       {
           "name": "Shahpur Colony",
-          "code": "SHAHPUR_COLONY",
+          "code": "ES_SHAHPUR_COLONY",
           "active": true
       },
       {
           "name": "Colony No. 2",
-          "code": "COLONY_NO2",
+          "code": "ES_COLONY_NO2",
           "active": true
       },
       {
           "name": "J And K Colony",
-          "code": "JANDK_COLONY",
+          "code": "ES_JANDK_COLONY",
           "active": true
       },
       {
           "name": "Colonies Of Dhanas",
-          "code": "COLONIES_OF_DHANAS",
+          "code": "ES_COLONIES_OF_DHANAS",
           "active": true
       },
       {
           "name": "Kamal Colony",
-          "code": "KAMAL_COLONY",
+          "code": "ES_KAMAL_COLONY",
           "active": true
       },
       {
           "name": "Reh. Colony Palsora",
-          "code": "REH_COLONY_PALSORA",
+          "code": "ES_REH_COLONY_PALSORA",
           "active": true
       },
       {
           "name": "Ews Lig Colony",
-          "code": "EWS_LIG_COLONY",
+          "code": "ES_EWS_LIG_COLONY",
           "active": true
       },
       {
           "name": "Adarsh Colony",
-          "code": "ADARSH_COLONY",
+          "code": "ES_ADARSH_COLONY",
           "active": true
       },
       {
           "name": "Colony No.1",
-          "code": "COLONY_NO1",
+          "code": "ES_COLONY_NO1",
           "active": true
       },
       {
           "name": "Bapudham ",
-          "code": "BAPUDHAM ",
+          "code": "ES_BAPUDHAM ",
           "active": true
       },
       {
           "name": "Transit Camp II",
-          "code": "TRANSIT_CAMP_II",
+          "code": "ES_TRANSIT_CAMP_II",
           "active": true
       },
       {
           "name": "Phase II",
-          "code": "PHASE_II",
+          "code": "ES_PHASE_II",
           "active": true
       },
       {
           "name": "Phase 1",
-          "code": "PHASE1",
+          "code": "ES_PHASE1",
           "active": true
       },
       {
           "name": "Ews Housing Board",
-          "code": "EWS_HOUSING_BOARD",
+          "code": "ES_EWS_HOUSING_BOARD",
           "active": true
       },
       {
-          "name": "Bapudham Tansit Camp-I",
+          "name": "ES_Bapudham Tansit Camp-I",
           "code": "BAPUDHAM_TANSIT_CAMP-I",
           "active": true
       },
       {
           "name": "Sanjay Colony",
-          "code": "SANJAY_COLONY",
+          "code": "ES_SANJAY_COLONY",
           "active": true
       },
       {
           "name": "Colony No 4",
-          "code": "COLONY_NO4",
+          "code": "ES_COLONY_NO4",
           "active": true
       },
       {
           "name": "Ram Darbar-1",
-          "code": "RAM_DARBAR-1",
+          "code": "ES_RAM_DARBAR-1",
           "active": true
       },
       {
           "name": "Ram Darbar-II",
-          "code": "RAM_DARBAR-II",
+          "code": "ES_RAM_DARBAR-II",
           "active": true
       },
       {
           "name": "Mauli Complex Railway Colony",
-          "code": "MAULI_COMPLEX_RAILWAY_COLONY",
+          "code": "ES_MAULI_COMPLEX_RAILWAY_COLONY",
           "active": true
       },
       {
           "name": "Housing Complex And Mohalla Gobindpura",
-          "code": "HOUSING_COMPLEX_AND_MOHALLA_GOBINDPURA",
+          "code": "ES_HOUSING_COMPLEX_AND_MOHALLA_GOBINDPURA",
           "active": true
       },
       {
           "name": "Behlana",
-          "code": "BEHLANA",
+          "code": "ES_BEHLANA",
           "active": true
       },
       {
           "name": "Daria",
-          "code": "DARIA",
+          "code": "ES_DARIA",
           "active": true
       },
       {
           "name": "Indira Colony Reh.",
-          "code": "INDIRA_COLONY_REH",
+          "code": "ES_INDIRA_COLONY_REH",
           "active": true
       },
       {
           "name": "Old Indira Colony",
-          "code": "OLD_INDIRA_COLONY",
+          "code": "ES_OLD_INDIRA_COLONY",
           "active": true
       }
     ]
