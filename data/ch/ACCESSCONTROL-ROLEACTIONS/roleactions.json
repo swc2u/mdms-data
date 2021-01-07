@@ -54874,7 +54874,7 @@
 			},
 			{
 				"rolecode": "AGENDA_NOTICE",
-				"actionid": "9002",
+				"actionid": 9002,
 				"actioncode": "",
 				"tenantId": "ch"
 			}
