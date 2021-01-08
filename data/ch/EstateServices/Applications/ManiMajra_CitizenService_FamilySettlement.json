@@ -901,6 +901,46 @@
           }
         },
         {
+          "state": "PAYMENT_NOTIFICATION",
+          "content": "Hi {applicationDetails.transferee.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "PAYMENT_NOTIFICATION_PAYER",
+          "content": "Hi {payer.name}, \n A payment of Rs {payment} has been collected successfully towards your application no. {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} . Your receipt no. for future reference is {recieptNumber}.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{payer.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{payer.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
           "state": "ES_MM_APPROVED",
           "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
           "modes": {
