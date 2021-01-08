@@ -175,7 +175,7 @@
         },
         {
           "path": "transferee.mobileNo",
-          "required": false,
+          "required": true,
           "validations": [
             {
               "type": "mobile"
@@ -809,6 +809,16 @@
                   "visibility": "application.applicationDetails.transferee.legalHeirOrbeneficiary === 'BENEFICIARY'"
                 },
                 {
+                  "label": "ES_LEGAL_BENIFICIARY_MOBILENUMBER_LABEL",
+                  "placeholder": "ES_LEGAL_BENIFICIARY_MOBILENUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo",
+                  "path": "transferee.mobileNo",
+                  "pattern": "MobileNo",
+                  "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.mobileNumber : application.applicationDetails.transferee.mobileNo"
+                },
+                {
                   "label": "ES_PERCENTAGE_SHARED_LABEL",
                   "placeholder": "ES_PERCENTAGE_SHARED_PLACEHOLDER",
                   "type": "TEXT_FIELD",
@@ -983,6 +993,10 @@
                 {
                   "label": "ES_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.transferee.relationWithDeceased"
+                },
+                {
+                  "label": "ES_LEGAL_BENIFICIARY_MOBILENUMBER_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo"
                 },
                 {
                   "label": "ES_PERCENTAGE_SHARED_LABEL",

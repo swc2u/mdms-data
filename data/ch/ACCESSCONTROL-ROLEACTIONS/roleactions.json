@@ -43203,7 +43203,72 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
-
+		  {
+			"rolecode": "ES_MM_DISPATCH_OFFICER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_DEALING_ASSISTANT",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_BB_JUNIOR_ENGINEER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_SR_ASSISTANT",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_SECTION_OFFICER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_ADDITIONAL_COMMISSIONER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_BUILDING_INSPECTOR",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_TAX_CONTROLLER_MANIMAJRA",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_FINANCIAL_OFFICER",
+			"actionid": 30137,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_FINANCIAL_OFFICER",
+			"actionid": 30138,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
 		{
 			"rolecode": "SASO",
 			"actionid": 4302,
@@ -54581,6 +54646,12 @@
 		},
 		{
 			"rolecode": "EMPLOYEE",
+			"actionid": 6022,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
 			"actionid": 7000,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -54687,6 +54758,12 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+			{
+			"rolecode": "EMPLOYEE",
+			"actionid": 7018,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
 		{
 				"rolecode": "REPORT_ADMIN",
 				"actionid": 870,
@@ -54725,13 +54802,91 @@
 			},
 			{
 				"rolecode": "GRO",
-				"actionid": 9002,
+				"actionid": 9004,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_CEMCC",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_COMMISSIONERMCC",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_EEWE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_SEHE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_WA",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_SRE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_FRO",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_DCF",
+				"actionid": "1834",
 				"actioncode": "",
 				"tenantId": "ch"
 			},
 			{
 				"rolecode": "GRO",
 				"actionid": 9003,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_CCF",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_EE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_SDO",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_JE",
+				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "AGENDA_NOTICE",
+				"actionid": 9002,
 				"actioncode": "",
 				"tenantId": "ch"
 			}

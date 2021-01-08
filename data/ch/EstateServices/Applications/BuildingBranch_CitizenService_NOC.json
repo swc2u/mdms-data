@@ -630,14 +630,6 @@
                   "jsonPath": "Applications[0].applicationDetails.owner.share",
                   "disabled": true,
                   "prefillValue": "selectedOwner.share"
-                },
-                {
-                  "label": "ES_CP_NUMBER_LABEL",
-                  "placeholder": "ES_CP_NUMBER_PLACEHOLDER",
-                  "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.owner.cpNumber",
-                  "disabled": true,
-                  "prefillValue": "selectedOwner.cpNumber"
                 }
               ]
             }
@@ -697,7 +689,8 @@
               "fields": [
                 {
                   "label": "ES_NOC_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.typeOfNoc"
+                  "jsonPath": "Applications[0].applicationDetails.typeOfNoc",
+                  "type": "array"
                 }
               ]
             },
@@ -724,10 +717,6 @@
                 {
                   "label": "ES_SHARE_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.owner.share"
-                },
-                {
-                  "label": "ES_CP_NUMBER_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.cpNumber"
                 }
               ]
             },
@@ -824,7 +813,7 @@
         },
         {
           "state": "ES_PENDING_DA_FEE",
-          "content": "Hi {applicationDetails.owner.ownerDetails.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
           "modes": {
             "email": {
               "enabled": false,

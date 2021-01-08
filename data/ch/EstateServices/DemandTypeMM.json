@@ -1,0 +1,25 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "DemandTypeMM": [
+      {
+        "name": "Annual Licence Fee",
+        "code": "DEMAND_TYPE.ANNUAL_LICENCE_FEE",
+        "active": true,
+        "type": "PROPERTY_TYPE.JANTA_READY_MARKET"
+      },
+      {
+        "name": "Monthly Charges",
+        "code": "DEMAND_TYPE.MONTHLY_CHARGES",
+        "active": true,
+        "type": "PROPERTY_TYPE.JANTA_READY_MARKET"
+      },
+      {
+        "name": "Monthly Charges",
+        "code": "DEMAND_TYPE.MONTHLY_CHARGES",
+        "active": true,
+        "type": "PROPERTY_TYPE.PUNJAB_AGRO_JUICE"
+      }
+    ]
+  }
+  

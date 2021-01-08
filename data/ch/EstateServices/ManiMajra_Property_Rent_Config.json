@@ -1,0 +1,115 @@
+{
+  "tenantId": "ch",
+  "moduleName": "EstateServices",
+  "ManiMajra_Property_Rent_Config": [
+    {
+      "janathaReadyMarketManiMajraMonthly": [
+        {
+          "StartYear": 2016,
+          "StartMonth": 1,
+          "TaxOrGst": 36,
+          "rent": 800,
+          "EndYear": 2016,
+          "EndMonth": 12
+        },
+        {
+          "StartYear": 2017,
+          "StartMonth": 1,
+          "TaxOrGst": 36,
+          "rent": 1000,
+          "EndYear": 2017,
+          "EndMonth": 12
+        },
+        {
+          "StartYear": 2018,
+          "StartMonth": 1,
+          "TaxOrGst": 18,
+          "rent": 1200,
+          "EndYear": 2019,
+          "EndMonth": 1
+        },
+        {
+          "StartYear": 2019,
+          "StartMonth": 2,
+          "TaxOrGst": 36,
+          "rent": 1500,
+          "EndYear": 2019,
+          "EndMonth": 11
+        },
+        {
+          "StartYear": 2019,
+          "StartMonth": 12,
+          "TaxOrGst": 18,
+          "rent": 2000,
+          "EndYear": 2020,
+          "EndMonth": 6
+        },
+        {
+          "StartYear": 2020,
+          "StartMonth": 7,
+          "TaxOrGst": 9,
+          "rent": 3000
+        }
+      ],
+      "janathaReadyMarketManiMajraAnnually": [
+        {
+          "StartYear": 2017,
+          "licenceFee": 10000,
+          "EndYear": 2018
+        },
+        {
+          "StartYear": 2019,
+          "licenceFee": 30000
+        }
+      ],
+      "punjabAgroJuiceSite": [
+        {
+          "StartYear": 2016,
+          "StartMonth": 1,
+          "TaxOrGst": 36,
+          "rent": 1800,
+          "EndYear": 2016,
+          "EndMonth": 12
+        },
+        {
+          "StartYear": 2017,
+          "StartMonth": 1,
+          "TaxOrGst": 36,
+          "rent": 2000,
+          "EndYear": 2017,
+          "EndMonth": 12
+        },
+        {
+          "StartYear": 2018,
+          "StartMonth": 1,
+          "TaxOrGst": 18,
+          "rent": 2200,
+          "EndYear": 2019,
+          "EndMonth": 1
+        },
+        {
+          "StartYear": 2019,
+          "StartMonth": 2,
+          "TaxOrGst": 36,
+          "rent": 2500,
+          "EndYear": 2019,
+          "EndMonth": 11
+        },
+        {
+          "StartYear": 2019,
+          "StartMonth": 12,
+          "TaxOrGst": 18,
+          "rent": 3000,
+          "EndYear": 2020,
+          "EndMonth": 6
+        },
+        {
+          "StartYear": 2020,
+          "StartMonth": 7,
+          "TaxOrGst": 9,
+          "rent": 4000
+        }
+      ]
+    }
+  ]
+}
