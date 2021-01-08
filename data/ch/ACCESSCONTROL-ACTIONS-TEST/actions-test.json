@@ -20650,6 +20650,50 @@
       "path": ""
     },
 	{
+      "id": 4098,
+      "name": "Generate billing file",
+      "url": "/ws-services/billGeneration/_generateBillFile",
+      "displayName": "Generate billing file ",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4601,
+      "name": "Get billing file list ",
+      "url": "/ws-services/billGeneration/_getBillingFiles",
+      "displayName": "Get billing file list ",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4602,
+      "name": "Get billing data",
+      "url": "/ws-services/billGeneration/_getBillData",
+      "displayName": "Get billing data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4603,
+      "name": "Get billing estimation",
+      "url": "/ws-calculator/billing/_getBillingEstimation",
+      "displayName": "Get billing estimation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",

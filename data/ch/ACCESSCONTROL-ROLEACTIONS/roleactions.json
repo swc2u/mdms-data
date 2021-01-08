@@ -34021,6 +34021,42 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4098,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4601,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4602,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4602,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4603,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4603,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SYSTEM",
 			"actionid": 4078,
 			"actioncode": "",
