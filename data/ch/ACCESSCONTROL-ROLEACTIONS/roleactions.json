@@ -34021,6 +34021,42 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4098,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4601,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4602,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4602,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4603,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4603,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SYSTEM",
 			"actionid": 4078,
 			"actioncode": "",
@@ -54801,6 +54837,12 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "GRO",
+				"actionid": 9004,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "HC_CEMCC",
 				"actionid": "1834",
 				"actioncode": "",
@@ -54849,6 +54891,12 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "GRO",
+				"actionid": 9003,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "HC_CCF",
 				"actionid": "1834",
 				"actioncode": "",
@@ -54869,6 +54917,12 @@
 			{
 				"rolecode": "HC_JE",
 				"actionid": "1834",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "AGENDA_NOTICE",
+				"actionid": 9002,
 				"actioncode": "",
 				"tenantId": "ch"
 			}

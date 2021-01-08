@@ -20650,6 +20650,50 @@
       "path": ""
     },
 	{
+      "id": 4098,
+      "name": "Generate billing file",
+      "url": "/ws-services/billGeneration/_generateBillFile",
+      "displayName": "Generate billing file ",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4601,
+      "name": "Get billing file list ",
+      "url": "/ws-services/billGeneration/_getBillingFiles",
+      "displayName": "Get billing file list ",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4602,
+      "name": "Get billing data",
+      "url": "/ws-services/billGeneration/_getBillData",
+      "displayName": "Get billing data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4603,
+      "name": "Get billing estimation",
+      "url": "/ws-calculator/billing/_getBillingEstimation",
+      "displayName": "Get billing estimation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",
@@ -23759,7 +23803,7 @@
       "url": "card",
       "displayName": "Report",
       "orderNumber": 3,
-	  "queryParams": "",
+	    "queryParams": "",
       "parentModule": "",
       "enabled": true,
       "serviceCode": "",
@@ -23768,6 +23812,51 @@
       "navigationURL": "egov-report/home",
       "leftIcon":"custom:publicIcon",
       "rightIcon": ""
+    },
+    {
+      "id": 9004,
+      "name": "rainmaker-common-dashboard",
+      "url": "card",
+      "displayName": "Dashboard",
+      "orderNumber": 3,
+      "queryParams": "",
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-dashboard/home",
+      "leftIcon":"custom:publicIcon",
+      "rightIcon": ""
+    },
+    {
+      "id": 9003,
+      "name": "Dashboard",
+      "url": "url",
+      "displayName": "Dashboard",
+      "orderNumber": 1,
+      "parentModule": "rainmaker-common-dashboard",
+      "enabled": true,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "Complaints.PGR Reports.Dashboard",
+      "navigationURL": "egov-dashboard/home",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 9002,
+      "name": "Create Notice",
+      "url": "/services/council/councilmeeting/newNotice",
+      "displayName": "Create Notice",
+      "orderNumber": "1",
+      "parentModule": "rainmaker-agenda",
+      "enabled": true,
+      "serviceCode": "AgendaBranch",
+      "code": "",
+      "path": "Agenda Branch.Notice.Create Notice",
+      "navigationURL": "services/council/councilmeeting/newNotice",
+      "leftIcon": "editor:insert-chart"
     }
   ]
 }
