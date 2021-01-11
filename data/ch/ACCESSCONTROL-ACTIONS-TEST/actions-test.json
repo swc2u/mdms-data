@@ -23857,6 +23857,78 @@
       "path": "Agenda Branch.Notice.Create Notice",
       "navigationURL": "services/council/councilmeeting/newNotice",
       "leftIcon": "editor:insert-chart"
+    },
+     {
+      "id": 8000,
+      "name": "BookingsApplicationStatusReport",
+      "url": "/report/rainmaker-services/BookingsApplicationStatusReport/metadata/_get",
+      "displayName": "rainmaker-services-BookingsApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+    {
+      "id": 8001,
+      "name": "BookingsApplicationStatusReport",
+      "url": "/report/rainmaker-services/BookingsApplicationStatusReport/_get",
+      "displayName": "rainmaker-services-BookingsApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+    {
+      "id": 8002,
+      "name": "BookingWiseCollectionReport",
+      "url": "/report/rainmaker-services/BookingWiseCollectionReport/metadata/_get",
+      "displayName": "rainmaker-services-BookingWiseCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+    {
+      "id": 8003,
+      "name": "BookingWiseCollectionReport",
+      "url": "/report/rainmaker-services/BookingWiseCollectionReport/_get",
+      "displayName": "rainmaker-services-BookingWiseCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+ {
+      "id": 8004,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/AllBookingsTransactionReport/metadata/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+    {
+      "id": 8005,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/AllBookingsTransactionReport/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
     }
   ]
 }
