@@ -197,84 +197,96 @@
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_THE_APPLICANTS_DESCRIPTION"
+          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_THE_APPLICANTS_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "AFFIDAVIT_WITH_PHOTOGRAPH_TO_THE_EFFECT_THAT_THE_PROPERTY_IS_FREE_FROM_ALL_SORTS_OF_ENCUMBRANCES_OR_DISPUTE_OR_LITIGATION_MORTGAGE_OR_LIEN",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "AFFIDAVIT_WITH_PHOTOGRAPH_TO_THE_EFFECT_THAT_THE_PROPERTY_IS_FREE_FROM_ALL_SORTS_OF_ENCUMBRANCES_OR_DISPUTE_OR_LITIGATION_MORTGAGE_OR_LIEN_DESCRIPTION"
+          "description": "AFFIDAVIT_WITH_PHOTOGRAPH_TO_THE_EFFECT_THAT_THE_PROPERTY_IS_FREE_FROM_ALL_SORTS_OF_ENCUMBRANCES_OR_DISPUTE_OR_LITIGATION_MORTGAGE_OR_LIEN_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "INDEMNITY_BOND_OF_THE_OWNER_APPLICANT",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "INDEMNITY_BOND_OF_THE_OWNER_APPLICANT_DESCRIPTION"
+          "description": "INDEMNITY_BOND_OF_THE_OWNER_APPLICANT_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "INDEMNITY_BOND_OF_TRANSFEREE_OR_APPLICANT",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "INDEMNITY_BOND_OF_TRANSFEREE_OR_APPLICANT_DESCRIPTION"
+          "description": "INDEMNITY_BOND_OF_TRANSFEREE_OR_APPLICANT_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_BOTH_THE_WITNESSES_TO_INDEMNITY_BOND",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_BOTH_THE_WITNESSES_TO_INDEMNITY_BOND_DESCRIPTION"
+          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_BOTH_THE_WITNESSES_TO_INDEMNITY_BOND_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "NDC_OR_REDEMPTION_DEED_OF_THE_PREVIOUS_LOAN_OF_BANK_OR_FINANCIAL_INSTITUTION",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "NDC_OR_REDEMPTION_DEED_OF_THE_PREVIOUS_LOAN_OF_BANK_OR_FINANCIAL_INSTITUTION_DESCRIPTION"
+          "description": "NDC_OR_REDEMPTION_DEED_OF_THE_PREVIOUS_LOAN_OF_BANK_OR_FINANCIAL_INSTITUTION_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "COPY_OF_SEWERAGE_CONNECTION_OR_OCCUPATION_CERTIFICATE",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "COPY_OF_SEWERAGE_CONNECTION_OR_OCCUPATION_CERTIFICATE_DESCRIPTION"
+          "description": "COPY_OF_SEWERAGE_CONNECTION_OR_OCCUPATION_CERTIFICATE_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "PROOF_OF_CONSTRUCTION",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "PROOF_OF_CONSTRUCTION_DESCRIPTION"
+          "description": "PROOF_OF_CONSTRUCTION_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "CONSENT_LETTER_OF_BANK_OR_FINANCIAL_INSTITUTION",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "CONSENT_LETTER_OF_BANK_OR_FINANCIAL_INSTITUTION_DESCRIPTION"
+          "description": "CONSENT_LETTER_OF_BANK_OR_FINANCIAL_INSTITUTION_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "ATTESTED_COPY_OF_PARTNERSHIP_DEED",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "ATTESTED_COPY_OF_PARTNERSHIP_DEED_DESCRIPTION"
+          "description": "ATTESTED_COPY_OF_PARTNERSHIP_DEED_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "COPY_OF_MEMORANDUM_OF_ARTICLES_AND_ASSOCIATION",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "COPY_OF_MEMORANDUM_OF_ARTICLES_AND_ASSOCIATION_DESCRIPTION"
+          "description": "COPY_OF_MEMORANDUM_OF_ARTICLES_AND_ASSOCIATION_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
         },
         {
           "code": "CLEARANCE_OF_PROPERTY_TAX_TILL_CURRENT_FINANCIAL_YEAR",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "CLEARANCE_OF_PROPERTY_TAX_TILL_CURRENT_FINANCIAL_YEAR_DESCRIPTION"
+          "description": "CLEARANCE_OF_PROPERTY_TAX_TILL_CURRENT_FINANCIAL_YEAR_DESCRIPTION",
+          "filter": true
         }
       ],
       "uiConfig": {
