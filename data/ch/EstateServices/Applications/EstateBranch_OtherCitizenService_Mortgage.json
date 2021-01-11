@@ -286,7 +286,15 @@
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "CLEARANCE_OF_PROPERTY_TAX_TILL_CURRENT_FINANCIAL_YEAR_DESCRIPTION",
-          "filter": true
+          "filter": "Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.LEASEHOLD' || Applications[0].applicationDetails.mortgageType === 'PERMISSION_TO_MORTAGAGE.FREEHOLD'"
+        },
+        {
+          "code": "SELF_ATTESTED_COPY_OF_MORTGAGE_AGREEMENT",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "SELF_ATTESTED_COPY_OF_MORTGAGE_AGREEMENT_DESCRIPTION",
+          "filter": "Applications[0].applicationDetails.mortgageType === 'INTIMATION_TO_MORTAGAGE.FREEHOLDINSTITUTE' || Applications[0].applicationDetails.mortgageType === 'INTIMATION_TO_MORTAGAGE.FREEHOLDOWNER'"
         }
       ],
       "uiConfig": {
