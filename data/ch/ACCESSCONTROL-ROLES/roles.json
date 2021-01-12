@@ -883,6 +883,11 @@
 		"code": "WORKS_APPROVER",
 		"name": "WORKS_APPROVER",
 		"description": "WORKS_APPROVER"
+    },
+	{
+      "code": "FINANCE_VOUCHER_REPORT",
+      "name": "FINANCE_VOUCHER_REPORT",
+      "description": "FINANCE_VOUCHER_REPORT"
     }
    ]
 }

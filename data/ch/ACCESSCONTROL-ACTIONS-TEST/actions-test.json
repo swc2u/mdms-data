@@ -18419,6 +18419,20 @@
 		"path": "Works.Work Agreement.Create Work Agreement From Estimate",
 		"navigationURL": "services/works/workEstimate/newformEstimate",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+    {
+      "id": 7016,
+      "name": "Voucher Detailed Report",
+      "url": "services/EGF/journalvoucher/searchVoucher",
+      "parentModule": "",
+      "displayName": "Voucher Detailed Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.MIS Reports.Voucher Detailed Report",
+      "navigationURL": "services/EGF/journalvoucher/searchvoucher"
+    }
   ]
 }
