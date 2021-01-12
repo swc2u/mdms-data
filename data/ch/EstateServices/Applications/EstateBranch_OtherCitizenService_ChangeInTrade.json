@@ -325,7 +325,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.currentTrade",
                   "path": "currentTrade",
-                  "errorMessage": "!!applicationDetails.currentTrade ? applicationDetails.currentTrade.length < 5 ? 'ES_ERR_CURRENT_TRADE_FIVE' : applicationDetails.currentTrade.length > 150 ? 'ES_ERR_CURRENT_TRADE_ONEFIVEZERO' : 'ES_ERR_CURRENT_TRADE' : 'ES_ERR_CURRENT_TRADE'"
+                  "errorMessage": "!!!!applicationDetails && !!applicationDetails.currentTrade ? applicationDetails.currentTrade.length < 5 ? 'ES_ERR_CURRENT_TRADE_FIVE' : applicationDetails.currentTrade.length > 150 ? 'ES_ERR_CURRENT_TRADE_ONEFIVEZERO' : 'ES_ERR_CURRENT_TRADE' : 'ES_ERR_CURRENT_TRADE'"
                 },
                 {
                   "label": "ES_TRADE_OPTED_FOR_CHANGE_LABEL",
