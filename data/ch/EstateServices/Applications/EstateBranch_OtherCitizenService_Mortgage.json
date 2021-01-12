@@ -450,7 +450,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.bankName",
                   "path": "bankName",
-                  "errorMessage": "ES_ERR_BANK_NAME"
+                  "errorMessage": "!!applicationDetails.bankName ? applicationDetails.bankName.length < 5 ? 'ES_ERR_BANK_NAME_FIVE' : applicationDetails.bankName.length > 150 ? 'ES_ERR_BANK_NAME_ONEFIVEZERO' : 'ES_ERR_BANK_NAME' : 'ES_ERR_BANK_NAME'"
                 },
                 {
                   "label": "ES_PURPOSE_OF_MORTGAGE_OR_LOAN_LABEL",
@@ -458,7 +458,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.reasonForMortgage",
                   "path": "reasonForMortgage",
-                  "errorMessage": "ES_ERR_MORTGAGE_PURPOSE"
+                  "errorMessage": "!!applicationDetails.reasonForMortgage ? applicationDetails.reasonForMortgage.length < 5 ? 'ES_ERR_MORTGAGE_PURPOSE_FIVE' : applicationDetails.reasonForMortgage.length > 150 ? 'ES_ERR_MORTGAGE_PURPOSE_ONEFIVEZERO' : 'ES_ERR_MORTGAGE_PURPOSE' : 'ES_ERR_MORTGAGE_PURPOSE'"
                 },
                 {
                   "label": "ES_LOAN_AMOUNT_LABEL",
