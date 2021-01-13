@@ -32084,11 +32084,17 @@
 				"actioncode": "",
 				"tenantId": "ch"
 			},
-		{
-			"rolecode": "FINANCE_VOUCHER_REPORT",
-			"actionid": 7016,
-			"actioncode": "",
-			"tenantId": "ch"
-		}
+			{
+				"rolecode": "FINANCE_VOUCHER_REPORT",
+				"actionid": 7016,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "AGENDA_NOTICE",
+				"actionid": 9002,
+				"actioncode": "",
+				"tenantId": "ch"
+			}
   ]
 }

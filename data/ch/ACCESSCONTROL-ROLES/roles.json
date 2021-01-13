@@ -888,6 +888,11 @@
       "code": "FINANCE_VOUCHER_REPORT",
       "name": "FINANCE_VOUCHER_REPORT",
       "description": "FINANCE_VOUCHER_REPORT"
+    },
+	{
+      "code": "AGENDA_NOTICE",
+      "name": "AGENDA_NOTICE",
+      "description": "AGENDA_NOTICE"
     }
    ]
 }

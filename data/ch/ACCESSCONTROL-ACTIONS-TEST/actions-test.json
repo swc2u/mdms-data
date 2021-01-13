@@ -18433,6 +18433,20 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Voucher Detailed Report",
       "navigationURL": "services/EGF/journalvoucher/searchVoucher"
-    }
+    },
+	{
+		"id": 9002,
+		"name": "Create Notice",
+		"url": "/services/council/councilmeeting/newNotice",
+		"displayName": "Create Notice",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-agenda",
+		"enabled": true,
+		"serviceCode": "AgendaBranch",
+		"code": "",
+		"path": "Agenda Branch.Notice.Create Notice",
+		"navigationURL": "services/council/councilmeeting/newNotice",
+		"leftIcon": "editor:insert-chart"
+	}
   ]
 }
