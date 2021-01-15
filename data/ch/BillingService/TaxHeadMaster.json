@@ -1073,10 +1073,30 @@
          "isRequired":false
       },
       {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.PROPERTY_MASTER",
+         "name":"Mani Majra Other citizen service Property Master Tax",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.PROPERTY_MASTER_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE",
          "name":"Estate branch Other citizen service Allotment of site Application fee",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"PRINCIPAL",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.PROPERTY_MASTER",
+         "name":"Mani Majra Other citizen service Property Master Principal",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.PROPERTY_MASTER_PRINCIPAL",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
@@ -1144,29 +1164,9 @@
       },
       {
          "category":"FEE",
-         "service":"ESTATE_SERVICE_BUILDING_BRANCH.EXTENSION_FEE",
-         "name":"Building branch extension fee on property",
-         "code":"ESTATE_SERVICE_BUILDING_BRANCH.EXTENSION_FEE_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.SECURITY_DEPOSIT",
          "name":"Estate branch security deposit on property",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.SECURITY_DEPOSIT_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"ESTATE_SERVICE_BUILDING_BRANCH.SECURITY_DEPOSIT",
-         "name":"Building branch security deposit on property",
-         "code":"ESTATE_SERVICE_BUILDING_BRANCH.SECURITY_DEPOSIT_FEE",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",

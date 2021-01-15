@@ -216,6 +216,18 @@
       "filter": true,
       "applicationType": "NDC",
       "branchType": "MANI_MAJRA"
+    },
+    {
+      "name": "NOC for Electricity/ Water/ Sewerage Connections",
+      "code": "ES_BB_NOC",
+      "type": "BuildingBranch_CitizenService_NOC",
+      "branchType": "BUILDING_BRANCH"
+    },
+    {
+      "name": "Showcause Notice",
+      "code": "ES_BB_SHOW_CAUSE_NOTICE",
+      "type": "BuildingBranch_CitizenService_IssuanceOfNotice",
+      "branchType": "BUILDING_BRANCH"
     }
   ]
 }

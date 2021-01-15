@@ -13568,7 +13568,7 @@
     "orderNumber": 2,
     "parentModule": "estate-branch",
     "enabled": true,
-    "queryParams": "type=account-statement",
+    "queryParams": "type=account-statement&branchType=ESTATE_BRANCH",
     "navigationURL": "/estate/property-search",
     "leftIcon": "action:assessment"
   },
@@ -14205,6 +14205,30 @@
     "navigationURL": "/estate/search-application",
     "leftIcon": "custom:library-books",
     "queryParams": "branchType=ManiMajra"
+  },
+  {
+    "id": 30137,
+    "name": "account-statement-generation",
+    "url": "estate-card",
+    "displayName": "ES_ACCOUNT_STATEMENT_GENERATION_HEADER",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "queryParams": "type=account-statement&branchType=MANI_MAJRA",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:assessment"
+  },
+  {
+    "id": 30138,
+    "name": "rent-payment",
+    "url": "estate-card",
+    "displayName": "ES_OFFLINE_RENT_PAYMENT_HEADER",
+    "orderNumber": 2,
+    "parentModule": "manimajra-branch",
+    "enabled": true,
+    "queryParams": "branchType=MANI_MAJRA&type=payment",
+    "navigationURL": "/estate/property-search",
+    "leftIcon": "action:payment"
   },
   	{
     "id": 30031,
@@ -20626,6 +20650,50 @@
       "path": ""
     },
 	{
+      "id": 4098,
+      "name": "Generate billing file",
+      "url": "/ws-services/billGeneration/_generateBillFile",
+      "displayName": "Generate billing file ",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4601,
+      "name": "Get billing file list ",
+      "url": "/ws-services/billGeneration/_getBillingFiles",
+      "displayName": "Get billing file list ",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4602,
+      "name": "Get billing data",
+      "url": "/ws-services/billGeneration/_getBillData",
+      "displayName": "Get billing data",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4603,
+      "name": "Get billing estimation",
+      "url": "/ws-calculator/billing/_getBillingEstimation",
+      "displayName": "Get billing estimation",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",
@@ -23478,6 +23546,18 @@
 		"leftIcon": "editor:insert-chart"
 	},
 	{
+		"id": 6022,
+		"name": "getEofficeData",
+		"url": "/integration-services/eoffice/v1/_get",
+		"displayName": "getEofficeData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 7000,
       "name": "MASTER APPROVER CREATE",
       "url": "/bookings/master/approver/_create",
@@ -23702,13 +23782,28 @@
 		"navigationURL": "services/works/workEstimate/newformEstimate",
 		"leftIcon": "editor:insert-chart"
 	},
+	  {
+		"id": 7018,
+		"name": "EofficeStat",
+		"url": "url",
+		"displayName": "EofficeStat",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-integration",
+		"enabled": true,
+		"serviceCode": "INTEGRATION",
+		"code": "null",
+		"path": "INTEGRATION.EofficeStat",
+		"navigationURL": "egov-integration/e-office-stat",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
 	{
       "id": 9001,
       "name": "rainmaker-common-report",
       "url": "card",
       "displayName": "Report",
       "orderNumber": 3,
-	  "queryParams": "",
+	    "queryParams": "",
       "parentModule": "",
       "enabled": true,
       "serviceCode": "",
@@ -23717,6 +23812,123 @@
       "navigationURL": "egov-report/home",
       "leftIcon":"custom:publicIcon",
       "rightIcon": ""
+    },
+    {
+      "id": 9004,
+      "name": "rainmaker-common-dashboard",
+      "url": "card",
+      "displayName": "Dashboard",
+      "orderNumber": 3,
+      "queryParams": "",
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-dashboard/home",
+      "leftIcon":"custom:publicIcon",
+      "rightIcon": ""
+    },
+    {
+      "id": 9003,
+      "name": "Dashboard",
+      "url": "url",
+      "displayName": "Dashboard",
+      "orderNumber": 1,
+      "parentModule": "rainmaker-common-dashboard",
+      "enabled": true,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "Complaints.PGR Reports.Dashboard",
+      "navigationURL": "egov-dashboard/home",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 9002,
+      "name": "Create Notice",
+      "url": "/services/council/councilmeeting/newNotice",
+      "displayName": "Create Notice",
+      "orderNumber": "1",
+      "parentModule": "rainmaker-agenda",
+      "enabled": true,
+      "serviceCode": "AgendaBranch",
+      "code": "",
+      "path": "Agenda Branch.Notice.Create Notice",
+      "navigationURL": "services/council/councilmeeting/newNotice",
+      "leftIcon": "editor:insert-chart"
+    },
+     {
+      "id": 8000,
+      "name": "BookingsApplicationStatusReport",
+      "url": "/report/rainmaker-services/BookingsApplicationStatusReport/metadata/_get",
+      "displayName": "rainmaker-services-BookingsApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+    {
+      "id": 8001,
+      "name": "BookingsApplicationStatusReport",
+      "url": "/report/rainmaker-services/BookingsApplicationStatusReport/_get",
+      "displayName": "rainmaker-services-BookingsApplicationStatusReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+    {
+      "id": 8002,
+      "name": "BookingWiseCollectionReport",
+      "url": "/report/rainmaker-services/BookingWiseCollectionReport/metadata/_get",
+      "displayName": "rainmaker-services-BookingWiseCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+    {
+      "id": 8003,
+      "name": "BookingWiseCollectionReport",
+      "url": "/report/rainmaker-services/BookingWiseCollectionReport/_get",
+      "displayName": "rainmaker-services-BookingWiseCollectionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+ {
+      "id": 8004,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/AllBookingsTransactionReport/metadata/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+    {
+      "id": 8005,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/AllBookingsTransactionReport/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
     }
   ]
 }
