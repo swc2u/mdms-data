@@ -1142,7 +1142,7 @@
          "validFrom":1522540801000,
          "validTo":1838159999000
       },
-	   {
+      {
          "code":"HORTICULTURE_DIVISION_1_SERVICES.ARREAR_ELEC_BILL",
          "voucherCreationEnabled":true,
          "fund":"01",
@@ -1156,6 +1156,30 @@
       },
       {
          "code":"HORTICULTURE_DIVISION_2_SERVICES.ARREAR_ELEC_BILL",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"434",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.ROAD_CUT_CHRGS",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"433",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.ROAD_CUT_CHRGS",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
