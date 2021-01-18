@@ -759,6 +759,15 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Horticulture Division 1 Services.Road Cut Charges",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.ROAD_CUT_CHRGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Horticulture Division 2 Services.Mango Garden",
          "code":"HORTICULTURE_DIVISION_2_SERVICES.MANGO_GARDEN",
          "partPaymentAllowed":false,
@@ -860,6 +869,15 @@
       {
          "businessService":"Horticulture Division 2 Services.Arrear of electricity Bill",
          "code":"HORTICULTURE_DIVISION_2_SERVICES.ARREAR_ELEC_BILL",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Road Cut Charges",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.ROAD_CUT_CHRGS",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
