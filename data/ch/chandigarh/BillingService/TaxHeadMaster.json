@@ -2804,6 +2804,46 @@
       },
       {
          "category":"CHARGES",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.ROAD_CUT_CHRGS",
+         "name":"Road damage/Road cut charges",
+         "code":"ROAD_CUT_CHRGS_HD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      }, 
+      {
+         "category":"TAX",
+         "service":"HORTICULTURE_DIVISION_1_SERVICES.ROAD_CUT_CHRGS",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_ROAD_CUT_CHRGS_HD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },  
+      {
+         "category":"CHARGES",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.ROAD_CUT_CHRGS",
+         "name":"Road damage/Road cut charges",
+         "code":"ROAD_CUT_CHRGS_HD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      }, 
+      {
+         "category":"TAX",
+         "service":"HORTICULTURE_DIVISION_2_SERVICES.ROAD_CUT_CHRGS",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_ROAD_CUT_CHRGS_HD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },  
+      {
+         "category":"CHARGES",
          "service":"MOH_SERVICES",
          "name":"GARBAGE COLLECTION/SANITATION CHARGES",
          "code":"GARBAGE_COLLECTION_SANITATION_CHARGES",
