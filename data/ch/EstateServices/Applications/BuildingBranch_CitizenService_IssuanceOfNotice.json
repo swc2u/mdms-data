@@ -11,7 +11,7 @@
             {
               "type": "enum",
               "params": {
-                "values": ["true", "false"]
+                "values": ["yes", "no"]
               }
             }
           ]
@@ -542,7 +542,7 @@
                   "label": "ES_GROUND_COVERAGE_LABEL",
                   "type": "RADIO_BUTTON",
                   "jsonPath": "Applications[0].applicationDetails.groundCoverage",
-                  "path": "radioOptionsGroundCoverage"
+                  "path": "radioOptions"
                 },
                 {
                   "label": "ES_GROUND_COVERAGE_COMMENTS_LABEL",
