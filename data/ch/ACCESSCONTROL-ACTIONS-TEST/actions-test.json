@@ -13545,7 +13545,7 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "queryParams": "type=refund",
-    "navigationURL": "/estate/property-search",
+    "navigationURL": "/estate/refund-Emd",
     "leftIcon": "editor:attach-money"
   },
   {

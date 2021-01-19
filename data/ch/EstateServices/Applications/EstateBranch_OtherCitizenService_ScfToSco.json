@@ -373,7 +373,7 @@
                   "jsonPath": "Applications[0].applicationDetails.company.name",
                   "path": "company.name",
                   "disabled": true,
-                  "errorMessage": "ES_ERR_COMPANY_NAME",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.company && !!applicationDetails.company.name ? applicationDetails.company.name.length < 5 ? 'ES_ERR_COMPANY_NAME_FIVE' : applicationDetails.company.name.length > 150 ? 'ES_ERR_COMPANY_NAME_ONEFIVEZERO' : 'ES_ERR_COMPANY_NAME' : 'ES_ERR_COMPANY_NAME'",
                   "prefillValue": "property.propertyDetails.companyName"
                 },
                 {
@@ -382,7 +382,7 @@
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.company.address",
                   "path": "company.address",
-                  "errorMessage": "ES_ERR_COMPANY_ADDRESS",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.company && !!applicationDetails.company.address ? applicationDetails.company.address.length < 5 ? 'ES_ERR_COMPANY_ADDRESS_FIVE' : applicationDetails.company.address.length > 150 ? 'ES_ERR_COMPANY_ADDRESS_ONEFIVEZERO' : 'ES_ERR_COMPANY_ADDRESS' : 'ES_ERR_COMPANY_ADDRESS'",
                   "disabled": true,
                   "prefillValue": "property.propertyDetails.companyAddress"
                 },
@@ -392,18 +392,9 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.company.registrationNumber",
                   "path": "company.registrationNumber",
-                  "errorMessage": "ES_ERR_COMPANY_REGISTRATION_NUMBER",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.company && !!applicationDetails.company.registrationNumber ? applicationDetails.company.registrationNumber.length < 5 ? 'ES_ERR_COMPANY_REGISTRATION_NUMBER_FIVE' : applicationDetails.company.registrationNumber.length > 150 ? 'ES_ERR_COMPANY_REGISTRATION_NUMBER_ONEFIVEZERO' : 'ES_ERR_COMPANY_REGISTRATION_NUMBER' : 'ES_ERR_COMPANY_REGISTRATION_NUMBER'",
                   "disabled": true,
                   "prefillValue": "property.propertyDetails.companyRegistrationNumber"
-                },
-                {
-                  "label": "ES_COMPANY_TYPE_LABEL",
-                  "type": "DROP_DOWN",
-                  "jsonPath": "Applications[0].applicationDetails.company.type",
-                  "path": "company.type",
-                  "dataSource": "TypeOfLetter",
-                  "disabled": true,
-                  "prefillValue": "property.propertyDetails.entityType"
                 }
               ]
             }
@@ -499,10 +490,6 @@
                 {
                   "label": "ES_COMPANY_REGISTRATION_NUMBER",
                   "jsonPath": "Applications[0].applicationDetails.company.registrationNumber"
-                },
-                {
-                  "label": "ES_TYPE_OF_LETTER_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.company.type"
                 }
               ]
             },

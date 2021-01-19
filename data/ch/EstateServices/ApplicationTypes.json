@@ -57,7 +57,7 @@
       "code": "ES_TRANSFER_OF_OWNERSHIP_COURT_DECREE",
       "type": "EstateBranch_OwnershipTransfer_FamilySettlement",
       "active": true,
-      "filter": "!!property.propertyDetails.decreeDate && !!property.propertyDetails.courtDetails && !!property.propertyDetails.civilTitledAs",
+      "filter": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "applicationType": "FamilySettlement",
       "branchType": "ESTATE_BRANCH"

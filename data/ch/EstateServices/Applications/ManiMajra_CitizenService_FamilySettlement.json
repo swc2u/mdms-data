@@ -542,7 +542,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.name",
                   "path": "transferee.name",
                   "visibility": "application.applicationDetails.transferee.type !== 'Existing'",
-                  "errorMessage": "ES_ERR_PURCHASER_NAME",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 5 ? 'ES_ERR_PURCHASER_NAME_FIVE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_PURCHASER_NAME_ONEFIVEZERO' : 'ES_ERR_PURCHASER_NAME' : 'ES_ERR_PURCHASER_NAME'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
                 },
                 {
@@ -553,7 +553,7 @@
                   "path": "transferee.fatherOrHusbandName",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianName : application.applicationDetails.transferee.fatherOrHusbandName",
-                  "errorMessage": "ES_ERR_FATHER_HUSBAND_NAME"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 5 ? 'ES_ERR_FATHER_HUSBAND_NAME_FIVE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
                 },
                 {
                   "label": "ES_RELATION_SHIP_LABEL",
@@ -581,7 +581,7 @@
                   "path": "transferee.address",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.address : application.applicationDetails.transferee.address",
-                  "errorMessage": "ES_ERR_ADDRESS"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.address ? applicationDetails.transferee.address.length < 5 ? 'ES_ERR_ADDRESS_FIVE' : applicationDetails.transferee.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_PERCENT_SHARE_LABEL",
@@ -709,15 +709,15 @@
               "fields": [
                 {
                   "label": "ES_SELLER_OR_TRANSFEROR_NAME_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.transferorDetails.ownerName"
+                  "jsonPath": "Applications[0].applicationDetails.transferor.ownerName"
                 },
                 {
                   "label": "ES_SELLER_TRANSFEROR_FATHER_HUSBAND_NAME_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.transferorDetails.guardianName"
+                  "jsonPath": "Applications[0].applicationDetails.transferor.guardianName"
                 },
                 {
                   "label": "ES_SELLER_TRANSFEROR_ADDRESS_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.transferorDetails.address"
+                  "jsonPath": "Applications[0].applicationDetails.transferor.address"
                 },
                 {
                   "label": "ES_PERCENT_SHARE_LABEL",
@@ -893,6 +893,46 @@
             "sms": {
               "enabled": true,
               "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "PAYMENT_NOTIFICATION",
+          "content": "Hi {applicationDetails.transferee.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.transferee.mobileNo}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "PAYMENT_NOTIFICATION_PAYER",
+          "content": "Hi {payer.name}, \n A payment of Rs {payment} has been collected successfully towards your application no. {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} . Your receipt no. for future reference is {recieptNumber}.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{payer.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{payer.mobileNumber}"
             },
             "event": {
               "enabled": true,

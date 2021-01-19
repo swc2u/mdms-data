@@ -207,7 +207,7 @@
                   "label": "ES_FATHER_HUSBAND_NAME_LABEL",
                   "placeholder": "ES_FATHER_HUSBAND_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.guardianName",
+                  "jsonPath": "Applications[0].applicationDetails.owner.guardianName",
                   "disabled": true,
                   "prefillValue": "selectedOwner.ownerDetails.guardianName"
                 },
@@ -215,7 +215,7 @@
                   "label": "ES_ADDRESS_LABEL",
                   "placeholder": "ES_ADDRESS_PLACEHOLDER",
                   "type": "TEXT_AREA",
-                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.address",
+                  "jsonPath": "Applications[0].applicationDetails.owner.address",
                   "disabled": true,
                   "prefillValue": "selectedOwner.ownerDetails.address"
                 },
@@ -223,7 +223,7 @@
                   "label": "ES_OWNER_MOBILE_NUMBER_LABEL",
                   "placeholder": "ES_MOBILE_NUMBER_PLACEHOLDER",
                   "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.mobileNumber",
+                  "jsonPath": "Applications[0].applicationDetails.owner.mobileNumber",
                   "disabled": true,
                   "prefillValue": "selectedOwner.ownerDetails.mobileNumber"
                 },
@@ -297,19 +297,19 @@
               "fields": [
                 {
                   "label": "ES_OWNER_NAME_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.ownerName"
+                  "jsonPath": "Applications[0].applicationDetails.owner.ownerName"
                 },
                 {
                   "label": "ES_FATHER_HUSBAND_NAME_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.guardianName"
+                  "jsonPath": "Applications[0].applicationDetails.owner.guardianName"
                 },
                 {
                   "label": "ES_ADDRESS_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.address"
+                  "jsonPath": "Applications[0].applicationDetails.owner.address"
                 },
                 {
                   "label": "ES_OWNER_MOBILE_NUMBER_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.mobileNumber"
+                  "jsonPath": "Applications[0].applicationDetails.owner.mobileNumber"
                 },
                 {
                   "label": "ES_SHARE_LABEL",
@@ -343,11 +343,52 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_PENDING_DA_FEE",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_MM_PENDING_PAYMENT",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}",
+              "isPayLink": true
             }
           }
         },
@@ -363,7 +404,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -383,7 +424,47 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "PAYMENT_NOTIFICATION",
+          "content": "Hi {applicationDetails.owner.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "PAYMENT_NOTIFICATION_PAYER",
+          "content": "Hi {payer.name}, \n A payment of Rs {payment} has been collected successfully towards your application no. {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} . Your receipt no. for future reference is {recieptNumber}.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{payer.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{payer.mobileNumber}"
             },
             "event": {
               "enabled": true,
@@ -403,7 +484,7 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNo}"
+              "to": "{applicationDetails.owner.mobileNumber}"
             },
             "event": {
               "enabled": true,
