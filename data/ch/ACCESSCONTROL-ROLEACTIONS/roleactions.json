@@ -54961,6 +54961,31 @@
 			  "actionid": 8005,
 			  "actioncode": "",
 			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8006,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			"rolecode": "CITIZEN",
+			"actionid": 8008,
+			"actioncode": "",
+			"tenantId": "ch"
+			}
+			,
+			{
+			"rolecode": "CITIZEN",
+			"actionid": 8009,
+			"actioncode": "",
+			"tenantId": "ch"
 			}
 	]
 }
