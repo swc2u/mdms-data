@@ -1,0 +1,120 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "MFRCode": [
+    {
+      
+      "id": "01",
+	  "Code": "AA",
+	  "MakeOfMeter": "ANAND ASAHI",
+	  "Digit": "7",
+      "active": true
+    },
+	{
+      
+      "id": "02",
+	  "Code": "SIM",
+	  "MakeOfMeter": "SIEMENS",
+	  "Digit": "6",
+      "active": true
+    },
+	{
+      
+      "id": "03",
+	  "Code": "GP",
+	  "MakeOfMeter": "G.P.I.F",
+	  "Digit": "7",
+      "active": true
+    },
+	{
+      
+      "id": "04",
+	  "Code": "LDS",
+	  "MakeOfMeter": "LEADS",
+	  "Digit": "7",
+      "active": true
+    },
+	{
+      
+      "id": "05",
+	  "Code": "REM",
+	  "MakeOfMeter": "REMCO",
+	  "Digit": "4",
+      "active": true
+    },
+	{
+      
+      "id": "06",
+	  "Code": "MCE",
+	  "MakeOfMeter": "M.C.E",
+	  "Digit": "7",
+      "active": true
+    },
+	{
+      
+      "id": "07",
+	  "Code": "CRE",
+	  "MakeOfMeter": "CRESCENT",
+	  "Digit": "7",
+      "active": true
+    },
+	
+	{
+      
+      "id": "08",
+	  "Code": "DAS",
+	  "MakeOfMeter": "DASHMESH",
+	  "Digit": "7",
+      "active": true
+    },
+	{
+      
+      "id": "9",
+	  "Code": "PAM",
+	  "MakeOfMeter": "PARAMOUNT",
+	  "Digit": "7",
+      "active": true
+    },
+	{
+      
+      "id": "10",
+	  "Code": "BHR",
+	  "MakeOfMeter": "BHARAT REGINA",
+	  "Digit": "7",
+      "active": true
+    },
+	{
+      
+      "id": "11",
+	  "Code": "CHL",
+	  "MakeOfMeter": "CHAMBAL",
+	  "Digit": "7",
+      "active": true
+    },
+	{
+      
+      "id": "12",
+	  "Code": "DSI",
+	  "MakeOfMeter": "DRY SIEMEN",
+	  "Digit": "6",
+      "active": true
+    },
+	{
+      
+      "id": "13",
+	  "Code": "RAJ",
+	  "MakeOfMeter": "RAJ KAMAL",
+	  "Digit": "5",
+      "active": true
+    },
+	{
+      
+      "id": "14",
+	  "Code": "GD",
+	  "MakeOfMeter": "GANGA DEEP",
+	  "Digit": "7",
+      "active": true
+    }
+    
+  ]
+  }
