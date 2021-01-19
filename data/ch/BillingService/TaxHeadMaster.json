@@ -624,9 +624,9 @@
       },
       {
          "category":"FEE",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
          "name":"Estate branch Ownership transfer Patnership deed Application fee",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED_APPLICATION_FEE",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_APPLICATION_FEE",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
@@ -954,9 +954,9 @@
       },
       {
          "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
          "name":"Estate branch Ownership transfer Patnership deed Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED_APPLICATION_TAX",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_APPLICATION_TAX",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",

@@ -259,7 +259,7 @@
       },
       {
          "businessService":"Estate branch Ownership transfer with Patnership deed",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
          "collectionModesNotAllowed":[
             "DD"
          ],

@@ -53,13 +53,18 @@
       ],
       "janathaReadyMarketManiMajraAnnually": [
         {
-          "StartYear": 2017,
+          "StartYear": 2014,
           "licenceFee": 10000,
-          "EndYear": 2018
+          "EndYear": 2017
         },
         {
-          "StartYear": 2019,
-          "licenceFee": 30000
+          "StartYear": 2018,
+          "licenceFee": 30000,
+          "EndYear": 2020
+        },
+        {
+          "StartYear": 2021,
+          "licenceFee": 50000
         }
       ],
       "punjabAgroJuiceSite": [
