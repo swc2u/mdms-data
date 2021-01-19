@@ -54925,6 +54925,42 @@
 				"actionid": 9002,
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8000,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8001,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8002,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8003,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8004,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8005,
+			  "actioncode": "",
+			  "tenantId": "ch"
 			}
 	]
 }
