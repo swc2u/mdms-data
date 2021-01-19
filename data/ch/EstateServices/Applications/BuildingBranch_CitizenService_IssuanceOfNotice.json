@@ -17,18 +17,6 @@
           ]
         },
         {
-          "path": "radioOptionsGroundCoverage",
-          "required": true,
-          "validations": [
-            {
-              "type": "enum",
-              "params": {
-                "values": ["yes", "no"]
-              }
-            }
-          ]
-        },
-        {
           "path": "transferor",
           "required": true,
           "validations": [
@@ -542,7 +530,7 @@
                   "label": "ES_GROUND_COVERAGE_LABEL",
                   "type": "RADIO_BUTTON",
                   "jsonPath": "Applications[0].applicationDetails.groundCoverage",
-                  "path": "radioOptionsGroundCoverage"
+                  "path": "radioOptions"
                 },
                 {
                   "label": "ES_GROUND_COVERAGE_COMMENTS_LABEL",
