@@ -11,19 +11,7 @@
             {
               "type": "enum",
               "params": {
-                "values": ["yes", "no"]
-              }
-            }
-          ]
-        },
-        {
-          "path": "radioOptionsGroundCoverage",
-          "required": true,
-          "validations": [
-            {
-              "type": "enum",
-              "params": {
-                "values": ["yes", "no"]
+                "values": ["true", "false"]
               }
             }
           ]
