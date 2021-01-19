@@ -57,7 +57,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 250
               }
             }
@@ -88,7 +88,7 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
+                "min": 3,
                 "max": 100
               }
             }
@@ -138,7 +138,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -151,7 +151,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -195,7 +195,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
