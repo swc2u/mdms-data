@@ -261,7 +261,7 @@
          "isVoucherCreationEnabled":true
       },
       {
-         "businessService":"Estate branch Ownership transfer with Patnership deed",
+         "businessService":"Estate branch Ownership transfer with Partnership deed",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
          "collectionModesNotAllowed":[
             "DD"

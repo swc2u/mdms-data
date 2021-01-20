@@ -45,11 +45,11 @@
     {
       "name": "Transfer of Ownership on the basis of Partnership deed/Dissolution deed/Change of Director in case of Private Limited Company",
       "code": "ES_TRANSFER_OF_OWNERSHIP_PARTNERSHIP_DEED",
-      "type": "EstateBranch_OwnershipTransfer_PatnershipDeed",
+      "type": "EstateBranch_OwnershipTransfer_PartnershipDeed",
       "active": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "filter": "!!property.propertyDetails.entityType && (property.propertyDetails.entityType === 'ET.PUBLIC_LIMITED_COMPANY' || property.propertyDetails.entityType === 'ET.PRIVATE_LIMITED_COMPANY')",
-      "applicationType": "PatnershipDeed",
+      "applicationType": "PartnershipDeed",
       "branchType": "ESTATE_BRANCH"
     },
     {

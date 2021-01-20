@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "EstateBranch_OwnershipTransfer_PatnershipDeed": [
+  "EstateBranch_OwnershipTransfer_PartnershipDeed": [
     {
       "fields": [
         {
@@ -12,8 +12,8 @@
               "type": "mdms",
               "params": {
                 "moduleName": "EstateServices",
-                "masterName": "patnershipModeOfTransfer",
-                "filter": "patnershipModeOfTransfer..code"
+                "masterName": "partnershipModeOfTransfer",
+                "filter": "partnershipModeOfTransfer..code"
               }
             }
           ]
@@ -541,7 +541,7 @@
             "lazyload": true,
             "options": {
               "moduleName": "EstateServices",
-              "masterName": "patnershipModeOfTransfer"
+              "masterName": "partnershipModeOfTransfer"
             }
           },
           {
