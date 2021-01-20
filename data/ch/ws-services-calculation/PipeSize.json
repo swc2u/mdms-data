@@ -2,115 +2,185 @@
   "tenantId": "ch",
   "moduleName": "ws-services-calculation",
   "PipeSize": [
-	{
-	  "id": "1", 
-	  "size": "15",
-	  "isActive": true,
-      "charges" :[{
-        "security": 1000,
-        "ferrule": 1000,
-        "metertesting": 80,
-        "meterfitting": 50
-      }]
+    {
+      "id": "1",
+      "size": "15",
+      "MeterRentCode": "1",
+      "SanctionCapacity": "675",
+      "isActive": true,
+      "charges": [
+        {
+          "security": 1000,
+          "ferrule": 1000,
+          "metertesting": 80,
+          "meterfitting": 50
+        }
+      ]
     },
     {
       "id": "2",
       "size": "20",
-	  "isActive": true,
-      "charges" :[{
-        "security": null,
-        "ferrule": 1000,
-        "metertesting": 100,
-        "meterfitting": 120        
-      }]
+      "MeterRentCode": "2",
+      "SanctionCapacity": "945",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 1000,
+          "metertesting": 100,
+          "meterfitting": 120
+        }
+      ]
     },
     {
       "id": "3",
       "size": "25",
-	  "isActive": true,
-      "charges" :[{
-        "security": null,
-        "ferrule": 1000 ,
-        "metertesting":100 ,
-        "meterfitting": 150        
-      }]
+      "MeterRentCode": "3",
+      "SanctionCapacity": "1485",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 1000,
+          "metertesting": 100,
+          "meterfitting": 150
+        }
+      ]
     },
     {
       "id": "4",
       "size": "40",
-	  "isActive": true,
-      "charges" :[{
-        "security": null,
-        "ferrule": 2000,
-        "metertesting": 120,
-        "meterfitting": 200        
-      }]
+      "MeterRentCode": "4",
+      "SanctionCapacity": "4320",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 2000,
+          "metertesting": 120,
+          "meterfitting": 200
+        }
+      ]
     },
     {
       "id": "5",
       "size": "50",
-	  "isActive": true,
-      "charges" :[{
-        "security": null,
-        "ferrule": 2000,
-        "metertesting":140 ,
-        "meterfitting": 400        
-      }]
+      "MeterRentCode": "5",
+      "SanctionCapacity": "6210",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 2000,
+          "metertesting": 140,
+          "meterfitting": 400
+        }
+      ]
     },
     {
       "id": "6",
-      "size": "80",
-	  "isActive": true,
-      "charges" :[{
-        "security": null,
-        "ferrule": 2000,
-        "metertesting": 140,
-        "meterfitting": 600        
-      }]
+      "size": "70/80",
+      "MeterRentCode": "6",
+      "SanctionCapacity": "33750",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 2000,
+          "metertesting": 140,
+          "meterfitting": 600
+        }
+      ]
     },
     {
       "id": "7",
       "size": "100",
-	  "isActive": true,
-      "charges" :[{
-        "security": null,
-        "ferrule": 2000,
-        "metertesting": 160,
-        "meterfitting": 600        
-      }]
+      "MeterRentCode": "7",
+      "SanctionCapacity": "54000",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 2000,
+          "metertesting": 160,
+          "meterfitting": 600
+        }
+      ]
     },
     {
       "id": "8",
-      "size": "120-160",
-	  "isActive": true,
-      "charges" :[{
-        "security": null,
-        "ferrule": 2000,
-        "metertesting": 180,
-        "meterfitting": 600        
-      }]
+      "size": "150",
+      "MeterRentCode": "8",
+      "SanctionCapacity": "135000",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 2000,
+          "metertesting": 180,
+          "meterfitting": 600
+        }
+      ]
     },
     {
       "id": "9",
-      "size": "180-200",
-	  "isActive": true,
-      "charges" :[{
-        "security": null,
-        "ferrule": 2000,
-        "metertesting": 180,
-        "meterfitting":1000        
-      }]
+      "size": "200",
+      "MeterRentCode": "9",
+      "SanctionCapacity": "216000",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 2000,
+          "metertesting": 180,
+          "meterfitting": 1000
+        }
+      ]
     },
     {
       "id": "10",
-      "size": "250-400",
-	  "isActive": true,
-      "charges" :[{
-        "security": null,
-        "ferrule": 2000,
-        "metertesting": 200,
-        "meterfitting": 1000        
-      }]
+      "size": "250",
+      "MeterRentCode": "10",
+      "SanctionCapacity": "270000",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 2000,
+          "metertesting": 200,
+          "meterfitting": 1000
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "size": "300",
+      "MeterRentCode": "11",
+      "SanctionCapacity": "388800",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 2000,
+          "metertesting": 200,
+          "meterfitting": 1000
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "size": "Private Meter",
+      "MeterRentCode": "13",
+      "SanctionCapacity": "",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 0,
+          "metertesting": 0,
+          "meterfitting": 0
+        }
+      ]
     }
   ]
 }
