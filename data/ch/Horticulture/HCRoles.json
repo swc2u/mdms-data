@@ -17,9 +17,7 @@
       "name": "EE",
       "description": "Executive Engineer"
     },
-	
-
-    {
+	{
       "code": "HC_CCF",
       "name": "Chief Conservator of Forest",
       "description": "Chief Conservator of Forest"
@@ -44,9 +42,6 @@
       "name": "Worthy Advisor",
       "description": "Worthy Advisor"
     },
-
-
-    
     {
       "code": "HC_SEHE",
       "name": "Superintending Engineer(H&E)",
@@ -66,12 +61,11 @@
       "code": "HC_COMMISSIONERMCC",
       "name": "COMMISSIONERMCC",
       "description": "Commissioner(MCC)"
+    },
+    {
+      "code": "HC_SWE",
+      "name": "Superitendent(W&E)",
+      "description": "Superitendent(W&E)"
     }
-
-
-    ]
+   ]
 }
-
-
-
-  
