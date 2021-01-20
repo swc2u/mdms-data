@@ -1,7 +1,7 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "EstateBranch_OtherCitizenService_Mortgage": [
+  "EstateBranch_OtherCitizenService_MortgageIntimation": [
     {
       "fields": [
         {
@@ -12,8 +12,8 @@
               "type": "mdms",
               "params": {
                 "moduleName": "EstateServices",
-                "masterName": "permissionToMortagage",
-                "filter": "permissionToMortagage..code"
+                "masterName": "intimationToMortagage",
+                "filter": "intimationToMortagage..code"
               }
             }
           ]
@@ -193,88 +193,11 @@
       ],
       "documentList": [
         {
-          "code": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_THE_APPLICANTS",
+          "code": "SELF_ATTESTED_COPY_OF_MORTGAGE_AGREEMENT",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_THE_APPLICANTS_DESCRIPTION"
-        },
-        {
-          "code": "AFFIDAVIT_WITH_PHOTOGRAPH_TO_THE_EFFECT_THAT_THE_PROPERTY_IS_FREE_FROM_ALL_SORTS_OF_ENCUMBRANCES_OR_DISPUTE_OR_LITIGATION_MORTGAGE_OR_LIEN",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "AFFIDAVIT_WITH_PHOTOGRAPH_TO_THE_EFFECT_THAT_THE_PROPERTY_IS_FREE_FROM_ALL_SORTS_OF_ENCUMBRANCES_OR_DISPUTE_OR_LITIGATION_MORTGAGE_OR_LIEN_DESCRIPTION"
-        },
-        {
-          "code": "INDEMNITY_BOND_OF_THE_OWNER_APPLICANT",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "INDEMNITY_BOND_OF_THE_OWNER_APPLICANT_DESCRIPTION"
-        },
-        {
-          "code": "INDEMNITY_BOND_OF_TRANSFEREE_OR_APPLICANT",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "INDEMNITY_BOND_OF_TRANSFEREE_OR_APPLICANT_DESCRIPTION"
-        },
-        {
-          "code": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_BOTH_THE_WITNESSES_TO_INDEMNITY_BOND",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "SELF_ATTESTED_PHOTO_IDENTITY_PROOF_OF_BOTH_THE_WITNESSES_TO_INDEMNITY_BOND_DESCRIPTION"
-        },
-        {
-          "code": "NDC_OR_REDEMPTION_DEED_OF_THE_PREVIOUS_LOAN_OF_BANK_OR_FINANCIAL_INSTITUTION",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "NDC_OR_REDEMPTION_DEED_OF_THE_PREVIOUS_LOAN_OF_BANK_OR_FINANCIAL_INSTITUTION_DESCRIPTION"
-        },
-        {
-          "code": "COPY_OF_SEWERAGE_CONNECTION_OR_OCCUPATION_CERTIFICATE",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "COPY_OF_SEWERAGE_CONNECTION_OR_OCCUPATION_CERTIFICATE_DESCRIPTION"
-        },
-        {
-          "code": "PROOF_OF_CONSTRUCTION",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "PROOF_OF_CONSTRUCTION_DESCRIPTION"
-        },
-        {
-          "code": "CONSENT_LETTER_OF_BANK_OR_FINANCIAL_INSTITUTION",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "CONSENT_LETTER_OF_BANK_OR_FINANCIAL_INSTITUTION_DESCRIPTION"
-        },
-        {
-          "code": "ATTESTED_COPY_OF_PARTNERSHIP_DEED",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "ATTESTED_COPY_OF_PARTNERSHIP_DEED_DESCRIPTION"
-        },
-        {
-          "code": "COPY_OF_MEMORANDUM_OF_ARTICLES_AND_ASSOCIATION",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "COPY_OF_MEMORANDUM_OF_ARTICLES_AND_ASSOCIATION_DESCRIPTION"
-        },
-        {
-          "code": "CLEARANCE_OF_PROPERTY_TAX_TILL_CURRENT_FINANCIAL_YEAR",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "CLEARANCE_OF_PROPERTY_TAX_TILL_CURRENT_FINANCIAL_YEAR_DESCRIPTION"
+          "description": "SELF_ATTESTED_COPY_OF_MORTGAGE_AGREEMENT_DESCRIPTION"
         }
       ],
       "uiConfig": {
