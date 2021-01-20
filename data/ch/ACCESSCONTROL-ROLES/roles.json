@@ -811,6 +811,11 @@
       "name": "HC_VIEWER",
       "description": "Horticulture Viewer Employee"
     },
+    {
+      "code": "HC_SWE",
+      "name": "Superitendent(W&E)",
+      "description": "Superitendent(W&E)"
+    },
 	{
       "code": "challanSI",
       "name": "challanSI",
