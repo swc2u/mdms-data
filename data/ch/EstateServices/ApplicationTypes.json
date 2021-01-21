@@ -137,7 +137,7 @@
       "active": true,
       "filter": true,
       "category": "ES_MORTGAGE",
-      "applicationType": "Mortgage",
+      "applicationType": "MortgageIntimation",
       "branchType": "ESTATE_BRANCH"
     },
     {
