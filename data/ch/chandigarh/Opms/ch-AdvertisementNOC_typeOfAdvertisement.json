@@ -48,12 +48,12 @@
 				}
 			],
 			"durationDropdown": [{
-				"id": "4",
-				"code": "ANNUAL",
-				"tenantId": "ch.chandigarh",
-				"name": "Annual",
-				"active": true
-			}]
+					"id": "3",
+					"code": "MONTHLY",
+					"tenantId": "ch.chandigarh",
+					"name": "Monthly",
+					"active": true
+				}]
 		},
 		{
 			"id": "10003",
