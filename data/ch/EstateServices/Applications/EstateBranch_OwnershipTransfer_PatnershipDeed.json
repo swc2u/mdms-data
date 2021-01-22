@@ -761,7 +761,7 @@
                   "path": "transferee.percentageOfShareTransferred",
                   "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred",
                   "pattern": "Percentage",
-                  "errorMessage": "ES_ERR_PERCENTAGE"
+                  "errorMessage": "'ES_ERR_PERCENTAGE'"
                 },
                 {
                   "label": "ES_REMAINING_SHARE_PERCENTAGE",
@@ -797,7 +797,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.company.name",
                   "path": "company.name",
-                  "errorMessage": "ES_ERR_COMPANY_NAME",
+                  "errorMessage": "'ES_ERR_COMPANY_NAME'",
                   "disabled": true,
                   "prefillValue": "property.propertyDetails.companyName"
                 },
@@ -807,7 +807,7 @@
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.company.address",
                   "path": "company.address",
-                  "errorMessage": "ES_ERR_COMPANY_ADDRESS",
+                  "errorMessage": "'ES_ERR_COMPANY_ADDRESS'",
                   "disabled": true,
                   "prefillValue": "property.propertyDetails.companyAddress"
                 },
@@ -817,7 +817,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.company.registrationNumber",
                   "path": "company.registrationNumber",
-                  "errorMessage": "ES_ERR_COMPANY_REGISTRATION_NUMBER",
+                  "errorMessage": "'ES_ERR_COMPANY_REGISTRATION_NUMBER'",
                   "disabled": true,
                   "prefillValue": "property.propertyDetails.companyRegistrationNumber"
                 },

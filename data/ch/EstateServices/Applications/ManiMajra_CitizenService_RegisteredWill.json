@@ -701,7 +701,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred",
                   "path": "transferee.percentageOfShareTransferred",
                   "pattern": "Percentage",
-                  "errorMessage": "ES_ERR_PERCENTAGE"
+                  "errorMessage": "'ES_ERR_PERCENTAGE'"
                 },
                 {
                   "label": "ES_REMAINING_SHARE_PERCENTAGE",
@@ -724,7 +724,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].name",
                   "path": "witness..name",
-                  "errorMessage": "ES_ERR_WITNESS_NAME"
+                  "errorMessage": "'ES_ERR_WITNESS_NAME'"
                 },
                 {
                   "label": "ES_FATHER_HUSBAND_NAME_LABEL",
@@ -732,7 +732,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].fatherOrHusbandName",
                   "path": "witness..fatherOrHusbandName",
-                  "errorMessage": "ES_ERR_WITNESS_NAME"
+                  "errorMessage": "'ES_ERR_WITNESS_NAME'"
                 },
                 {
                   "label": "ES_DOB_LABEL",
@@ -747,7 +747,7 @@
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].address",
                   "path": "witness..address",
-                  "errorMessage": "ES_ERR_ADDRESS"
+                  "errorMessage": "'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_MOBILE_NUMBER_LABEL",
@@ -756,7 +756,7 @@
                   "jsonPath": "Applications[0].applicationDetails.witness[0].mobileNo",
                   "path": "witness..mobileNo",
                   "pattern": "MobileNo",
-                  "errorMessage": "ES_ERR_MOBILE_NUMBER"
+                  "errorMessage": "'ES_ERR_MOBILE_NUMBER'"
                 }
               ]
             }

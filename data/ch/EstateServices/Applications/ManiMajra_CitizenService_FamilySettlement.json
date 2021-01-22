@@ -590,7 +590,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred",
                   "path": "transferee.percentageOfShareTransferred",
                   "pattern": "Percentage",
-                  "errorMessage": "ES_ERR_PERCENTAGE"
+                  "errorMessage": "'ES_ERR_PERCENTAGE'"
                 },
                 {
                   "label": "ES_REMAINING_SHARE_PERCENTAGE",

@@ -447,7 +447,7 @@
                   "path": "loanAmount",
                   "jsonPath": "Applications[0].applicationDetails.loanAmount",
                   "pattern": "numeric-only",
-                  "errorMessage": "ES_ERR_LOAN_AMOUNT"
+                  "errorMessage": "'ES_ERR_LOAN_AMOUNT'"
                 }
               ]
             }
