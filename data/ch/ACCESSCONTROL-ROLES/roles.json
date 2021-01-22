@@ -666,12 +666,12 @@
     {
       "code": "HC_FRO",
       "name": "HC_FRO",
-      "description": "Forest Range Officer"
+      "description": "Range Forest officer"
     },
      {
       "code": "HC_SRE",
       "name": "HC_SRE",
-      "description": "Secretary Environment"
+      "description": "Principal Secreatry (Forest)"
     },
      {
       "code": "HC_WA",
@@ -724,7 +724,7 @@
       "name": "HC_CEMCC",
       "description": "Chief Engineer(MCC)"
     },
-      {
+    {
       "code": "HC_EEWE",
       "name": "HC_EEWE",
       "description": "Executive Engineer(W&E)"
@@ -763,6 +763,136 @@
       "code": "challanHOD",
       "name": "challanHOD",
       "description": "Appellete Auth"
-    }   
+    },
+    {
+      "code": "NULM_ADMIN",
+      "name": "NULM Admin",
+      "description": "NULM Admin"
+    },
+	{
+      "code": "NULMJA",
+      "name": "Junior Assistant",
+      "description": "NULM Junior Assistant"
+    },
+	{
+      "code": "NULMSDO",
+      "name": "SDO",
+      "description": "NULM SDO"
+    },
+	{
+      "code": "NULMACMC",
+      "name": "ACMC",
+      "description": "NULM ACMC"
+    },
+	{
+      "code": "NGO",
+      "name": "Non-Government Organizations",
+      "description": "Non-Government Organizations"
+    },
+	{
+      "code": "RTIADMIN",
+      "name": "RTIADMIN",
+      "description": "RTI Admin"
+    },
+	{
+      "code": "AUDIT_APPROVER",
+      "name": "AUDIT_APPROVER",
+      "description": "Audit Branch Approver"
+    },
+    {
+      "code": "AUDIT_ADMIN",
+      "name": "AUDIT_ADMIN",
+      "description": "Audit admin for audit Search page"
+    },
+    {
+      "code": "AUDIT_POST",
+      "name": "AUDIT_POST",
+      "description": "Post Audit Inititation role"
+    },
+	{
+      "code": "AUDIT_MASTER",
+      "name": "AUDIT_MASTER",
+      "description": "AUDIT_MASTER"
+    },
+	{
+      "code": "WORKS_DNIT",
+      "name": "WORKS_DNIT",
+      "description": "WORKS_DNIT"
+    },
+	{
+      "code": "WORKS_CLOSURE",
+      "name": "WORKS_CLOSURE",
+      "description": "WORKS_CLOSURE"
+    },
+	{
+      "code": "WORKS_PROGRESS_UPDATE",
+      "name": "WORKS_PROGRESS_UPDATE",
+      "description": "WORKS_PROGRESS_UPDATE"
+    },
+    {
+		"code": "WORKS_WORK_AGREEMENT",
+		"name": "WORKS_WORK_AGREEMENT",
+		"description": "WORKS_WORK_AGREEMENT"
+    },
+    {
+		"code": "WORKS_MASTER",
+		"name": "WORKS_MASTER",
+		"description": "WORKS_MASTER"
+    },
+    {
+		"code": "WORKS_MIS",
+		"name": "WORKS_MIS",
+		"description": "WORKS_MIS"
+    },
+    {
+		"code": "WORKS_BILL",
+		"name": "WORKS_BILL",
+		"description": "WORKS_BILL"
+    },
+    {
+		"code": "WORKS_CREATE_ESTIMATE",
+		"name": "WORKS_CREATE_ESTIMATE",
+		"description": "WORKS_CREATE_ESTIMATE"
+    },
+    {
+		"code": "WORKS_SEARCH_ESTIMATE",
+		"name": "WORKS_SEARCH_ESTIMATE",
+		"description": "WORKS_SEARCH_ESTIMATE"
+    },
+    {
+		"code": "WORKS_CREATE_TENDER",
+		"name": "WORKS_CREATE_TENDER",
+		"description": "WORKS_CREATE_TENDER"
+    },
+    {
+		"code": "WORKS_SEARCH_TENDER",
+		"name": "WORKS_SEARCH_TENDER",
+		"description": "WORKS_SEARCH_TENDER"
+    },
+    {
+		"code": "WORKS_CREATE_BG",
+		"name": "WORKS_CREATE_BG",
+		"description": "WORKS_CREATE_BG"
+    },
+    {
+		"code": "WORKS_SEARCH_BG",
+		"name": "WORKS_SEARCH_BG",
+		"description": "WORKS_SEARCH_BG"
+    },
+    {
+		"code": "WORKS_APPROVER",
+		"name": "WORKS_APPROVER",
+		"description": "WORKS_APPROVER"
+    },
+	{
+      "code": "FINANCE_VOUCHER_REPORT",
+      "name": "FINANCE_VOUCHER_REPORT",
+      "description": "FINANCE_VOUCHER_REPORT"
+    },
+	{
+      "code": "AGENDA_NOTICE",
+      "name": "AGENDA_NOTICE",
+      "description": "AGENDA_NOTICE"
+    }
    ]
 }

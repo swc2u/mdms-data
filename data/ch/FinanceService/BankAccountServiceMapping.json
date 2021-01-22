@@ -560,7 +560,7 @@
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
       },
-	   {
+      {
          "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.ARREAR_ELEC_BILL",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
@@ -572,6 +572,18 @@
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
       },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_1_SERVICES.ROAD_CUT_CHRGS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"HORTICULTURE_DIVISION_2_SERVICES.ROAD_CUT_CHRGS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },   
       {
          "businessDetails":"MOH_SERVICES",
          "bankAccount":"00382010033490",
