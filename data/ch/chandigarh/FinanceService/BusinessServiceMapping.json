@@ -1717,6 +1717,30 @@
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
+      },
+      {
+         "code":"OPMS.ADVERTISEMENTNOC",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"OPMS.PETNOC",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"402",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
       }
    ]
 }
