@@ -1137,6 +1137,22 @@
          "service":"UDF.MISC_RECEIPT_CHD_H_BRD",
          "code":"UDFMRCHB10YRS2019",
          "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"OPMS.PETNOC",
+         "code":"OPMS.PETNOC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"OPMS.ADVERTISEMENTNOC",
+         "code":"OPMS.ADVNOC10YRS2019",
+         "financialYear":"2019-29"
       }
    ]
 }

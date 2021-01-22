@@ -1,0 +1,21 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "egpm",
+  "cardList": [
+    {
+      "code": "PETNOC",
+	  "roles": ["CITIZEN","SI","MOH"],
+	  "routeCitizen":"citizenMainLanding"
+    },
+	{
+      "code": "SELLMEATNOC",
+	  "roles": ["CITIZEN","SI","SUPERINTENDENT","MOH"],
+	  "routeCitizen":"sellMeatLanding"
+    },
+	{
+      "code": "ADVERTISEMENTNOC",
+	  "roles": ["CITIZEN","JEX","SUPERINTENDENT","OSD","CA","JC","SC","SEC","ADDITIONAL_COMMISSIONER"],
+	  "routeCitizen":"advertisementLanding"
+    }
+  ]
+}

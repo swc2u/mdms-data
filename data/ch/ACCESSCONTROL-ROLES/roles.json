@@ -622,7 +622,31 @@
          "name":"System user",
          "description":"System user"
       },
-
+	  {
+		"code": "JC",
+		"name": "Joint Commissioner",
+		"description": "Joint Commissioner"
+	  },
+	  {
+		"code": "SC",
+		"name": "Special commissioner",
+		"description": "Special commissioner"
+	  },
+	  {
+		"code": "SEC",
+		"name": "Secretary",
+		"description": "Secretary"
+	  },
+	  {
+		"code": "CA",
+		"name": "Chief Administrator",
+		"description": "Chief Administrator"
+	  },
+	  {
+		"code": "ADDITIONAL_COMMISSIONER",
+		"name": "ADDITIONAL COMMISSIONER",
+		"description": "ADDITIONAL COMMISSIONER (Pension)"
+   	  },
       {
          "code":"APRO",
          "name":"APRO",
