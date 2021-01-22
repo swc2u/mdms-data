@@ -35,7 +35,7 @@
 			"name": "Advertisement or hoarding standing blank but bearing the name of the advertiser or with the announcement to be let displayed thereon",
 			"active": true,
 			"duration": [
-				"annual"
+				"month"
 			],
 			"calculationType": "range",
 			"subTypeOfAdvertisement": [{
