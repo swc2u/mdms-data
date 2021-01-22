@@ -16,11 +16,6 @@
       "code": "ADVERTISEMENTNOC",
 	  "roles": ["CITIZEN","JEX","SUPERINTENDENT","OSD","CA","JC","SC","SEC","ADDITIONAL_COMMISSIONER"],
 	  "routeCitizen":"advertisementLanding"
-    },
-	{
-      "code": "ROADCUTNOC",
-	  "roles": ["CITIZEN","JE","SDO","EE","SE","CE","DOCE","DOEE","DOSE","WD"],
-	  "routeCitizen":"roadcutLanding"
     }
   ]
 }
