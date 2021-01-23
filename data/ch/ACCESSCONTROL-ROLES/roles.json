@@ -917,6 +917,21 @@
       "code": "AGENDA_NOTICE",
       "name": "AGENDA_NOTICE",
       "description": "AGENDA_NOTICE"
+    },
+    {
+      "code": "BK_OSBM_APPROVER",
+      "name": "OSBM APPROVER",
+      "description": "Employee who approves the open space booking for building material"
+    },
+    {
+      "code": "BK_ADMIN",
+      "name": "Master Data Creator",
+      "description": "Employee who create and update master data"
+    },
+	{
+      "code": "BK_MCC_HELPDESK_USER",
+      "name": "Water Tanker Approver",
+      "description": "Employee who approves the Water Tankers booking"
     }
    ]
 }

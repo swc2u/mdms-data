@@ -1,0 +1,16 @@
+{   "tenantId": "ch"  ,
+"moduleName": "Booking",
+"PCC_DOCUMENT": [
+    {
+        "active": true,
+        "code": "PCC_DOCUMENT",
+        "description": "PCC_DOCUMENT_DESCRIPTION",
+        "documentType": "DOC",
+        "dropdownData": [],
+        "hasDropdown": false,
+        "required": true
+        
+    }
+    ]
+}
+

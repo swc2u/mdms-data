@@ -1,0 +1,16 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "TypesofRequest": [
+        {
+            "name": "Normal Request(Paid Booking)",
+            "id": "1",
+            "code": "Normal Request(Paid Booking)",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+       
+        
+    ]
+}
+
+
