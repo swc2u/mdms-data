@@ -3271,7 +3271,8 @@
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
-         "isRequired":false
+         "isRequired":false,
+	 "taxAmount" : "18"
       },
       {
          "category":"FEE",
