@@ -10,6 +10,7 @@
           "validations": [
             {
               "type": "enum",
+              "isLocalization": "false",
               "params": {
                 "values": ["Yes", "No"]
               }
