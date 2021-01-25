@@ -11,7 +11,7 @@
             {
               "type": "enum",
               "params": {
-                "values": ["true", "false"]
+                "values": ["Yes", "No"]
               }
             }
           ]
