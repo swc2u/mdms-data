@@ -1,1636 +1,7 @@
 {
-   "tenantId":"ch",
+   "tenantId":"ch.chandigarh",
    "moduleName":"BillingService",
    "BusinessService":[
-      {
-         "businessService":"PropertyTax",
-         "code":"PT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":true,
-         "minAmountPayable":100,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":true,
-         "billGineiURL":"egov-searcher/bill-genie/billswithaddranduser/_get"
-      },
-      {
-         "businessService":"WaterCharges",
-         "code":"WC",
-         "collectionModesNotAllowed":[
-            "DD",
-            "OFFLINE_NEFT",
-            "OFFLINE_RTGS",
-            "POSTAL_ORDER"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":true,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":false
-      },
-      {
-         "businessService":"Trade License.Rehri Registration Certificate",
-         "code":"CTL.REHRI_REGISTRATION",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Trade License.Rehri Driving License",
-         "code":"CTL.REHRI_DRIVING_LICENSE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Trade License.Dhobi Ghat",
-         "code":"CTL.DHOBI_GHAT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Trade License.Book Shop",
-         "code":"CTL.OLD_BOOK_MARKET",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Milk Colony).Ownership Transfer",
-         "code":"RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Kumhar Colony).Ownership Transfer",
-         "code":"RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Sector 52-53).Ownership Transfer",
-         "code":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Vikas Nagar).Ownership Transfer",
-         "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Milk Colony).Rent",
-         "code":"RENTED_PROPERTIES_COLONY_MILK.RENT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Kumhar Colony).Rent",
-         "code":"RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Sector 52-53).Rent",
-         "code":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Vikas Nagar).Rent",
-         "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Milk Colony).Duplicate Allotment Letter",
-         "code":"RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Kumhar Colony).Duplicate Allotment Letter",
-         "code":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Sector 52-53).Duplicate Allotment Letter",
-         "code":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Rented Properties (Vikas Nagar).Duplicate Allotment Letter",
-         "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Ownership transfer with Sale deed",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Ownership transfer with Registered will",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Ownership transfer with Unregistered will",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Ownership transfer with Intestate death",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Ownership transfer with Family settlement",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Ownership transfer with Patnership deed",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with Mortgage",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with NOC",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with NDC",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with Lease deed ",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with Duplicate copy",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with Leasehold to Freehold",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with Scf to Sco",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with Change in trade",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with Issuance of notice",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch Other citizen service with Allotment of site",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ALLOTMENT_OF_SITE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch rent for property master",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_MASTER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Mani Majra rent for property master",
-         "code":"ESTATE_SERVICE_MANI_MAJRA.PROPERTY_MASTER",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Building branch citizen service with NOC",
-         "code":"ESTATE_SERVICE_BUILDING_BRANCH.NOC",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Building branch citizen service with Issuance of notice",
-         "code":"ESTATE_SERVICE_BUILDING_BRANCH.ISSUANCE_OF_NOTICE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-            "businessService": "Mani Majra Citizen Service with Sale gift",
-            "code": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
-            "collectionModesNotAllowed": [
-                "DD"
-            ],
-            "partPaymentAllowed": false,
-            "isAdvanceAllowed": false,
-            "demandUpdateTime": 604800000,
-            "isVoucherCreationEnabled": true
-        },
-        {
-            "businessService": "Mani Majra Citizen Service with Family settlement",
-            "code": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
-            "collectionModesNotAllowed": [
-                "DD"
-            ],
-            "partPaymentAllowed": false,
-            "isAdvanceAllowed": false,
-            "demandUpdateTime": 604800000,
-            "isVoucherCreationEnabled": true
-        },
-        {
-            "businessService": "Mani Majra Citizen Service with Intestate death",
-            "code": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
-            "collectionModesNotAllowed": [
-                "DD"
-            ],
-            "partPaymentAllowed": false,
-            "isAdvanceAllowed": false,
-            "demandUpdateTime": 604800000,
-            "isVoucherCreationEnabled": true
-        },
-        {
-            "businessService": "Mani Majra Citizen Service with Registered will",
-            "code": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
-            "collectionModesNotAllowed": [
-                "DD"
-            ],
-            "partPaymentAllowed": false,
-            "isAdvanceAllowed": false,
-            "demandUpdateTime": 604800000,
-            "isVoucherCreationEnabled": true
-        },
-        {
-            "businessService": "Mani Majra Citizen Service with Un Registered will",
-            "code": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
-            "collectionModesNotAllowed": [
-                "DD"
-            ],
-            "partPaymentAllowed": false,
-            "isAdvanceAllowed": false,
-            "demandUpdateTime": 604800000,
-            "isVoucherCreationEnabled": true
-        },
-        {
-            "businessService": "Mani Majra Citizen Service with Allotment of new house",
-            "code": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
-            "collectionModesNotAllowed": [
-                "DD"
-            ],
-            "partPaymentAllowed": false,
-            "isAdvanceAllowed": false,
-            "demandUpdateTime": 604800000,
-            "isVoucherCreationEnabled": true
-        },
-        {
-            "businessService": "Mani Majra Citizen Service with NDC",
-            "code": "ESTATE_SERVICE_MANI_MAJRA.NDC",
-            "collectionModesNotAllowed": [
-                "DD"
-            ],
-            "partPaymentAllowed": false,
-            "isAdvanceAllowed": false,
-            "demandUpdateTime": 604800000,
-            "isVoucherCreationEnabled": true
-        },
-        {
-            "businessService": "Mani Majra Citizen Service with NOC",
-            "code": "ESTATE_SERVICE_MANI_MAJRA.NOC",
-            "collectionModesNotAllowed": [
-                "DD"
-            ],
-            "partPaymentAllowed": false,
-            "isAdvanceAllowed": false,
-            "demandUpdateTime": 604800000,
-            "isVoucherCreationEnabled": true
-        },
-      {
-         "businessService":"Estate branch penalty for violation on property",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PROPERTY_VIOLATION",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Building branch penalty for violation on property",
-         "code":"ESTATE_SERVICE_BUILDING_BRANCH.PROPERTY_VIOLATION",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch extension fee on property",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.EXTENSION_FEE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Estate branch security deposit on property",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SECURITY_DEPOSIT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":604800000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"WaterCharges.Metered",
-         "code":"WaterCharges.Metered",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":true,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":false,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"WaterCharges.NonMetered",
-         "code":"WaterCharges.NonMetered",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":true,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":false,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"FIRENOC",
-         "code":"FIRENOC",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Taxes.No Dues Certificate",
-         "code":"TX.No_Dues_Certificate",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Advertisement Tax.Hoardings",
-         "code":"ADVT.Hoardings",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":true,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":false,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Advertisement Tax.Unipolls",
-         "code":"ADVT.Unipolls",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Municipal Shops Rent",
-         "code":"RT.Municipal_Shops_Rent",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Land Rent",
-         "code":"RT.Land_Rent",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Tower Rent",
-         "code":"RT.Tower_Rent",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Parking Fee",
-         "code":"RT.Parking_Fee",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Jamin Theka",
-         "code":"RT.Jamin_Theka",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"ADMIN Fees.Election rally fees",
-         "code":"ADMN.Election_rally_fees",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"ADMIN Fees.Parking during election",
-         "code":"ADMN.Parking_during_election",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"ADMIN Fees.Road show",
-         "code":"ADMN.Road_show",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Finance Fees.Advance Provident Fund",
-         "code":"FN.Advance_Provident_Fund",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Stationary.Stationary (Not Income)",
-         "code":"ST.Stationary_Not_Income",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Stationary.Expenditure santitation (Not Income)",
-         "code":"ST.Expenditure_santitation_Not_Income",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Challans.Santitation dumping garbage",
-         "code":"CH.Santitation_dumping_garbage",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Fee Town Planning.Telecom tower fees",
-         "code":"FTP.Telecom_tower_fees",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Taxes.Electricity Chungi",
-         "code":"TX.Electricity_Chungi",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Fee Town Planning.Draftsmen fees",
-         "code":"FTP.Draftsmen_fees",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Fee Town Planning.Compremasing fees",
-         "code":"FTP.Compremasing_fees",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Fee Town Planning.Building planner renew",
-         "code":"FTP.Building_planner_renew",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Naksha/Building Manual Fees.Naksha samjota fees",
-         "code":"NKS.Naksha_samjota_fees",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Naksha/Building Manual Fees.Naksha changes ",
-         "code":"NKS.Naksha_changes",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Fee Town Planning.License fees building branch",
-         "code":"FTP.License_fees_building_branch",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"O&M Fee.Water connection/disconnection fees",
-         "code":"OM.Water_connection/disconnection_fees",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Naksha/Building Manual Fees.Naksha renew fees",
-         "code":"NKS.Naksha_renew_fees",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Naksha/Building Manual Fees.NOC/Completion of building approval",
-         "code":"NKS.NOC/Completion_of_building_approval",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Naksha/Building Manual Fees.Alteration additional charge",
-         "code":"NKS.Alteration_additional_charge",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Naksha/Building Manual Fees.2 year time limit of Renewal Building Naksha",
-         "code":"NKS.2_year_time_limit_of_Renewal_Building_Naksha",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Fee Town Planning.Leave encashment and gratuty",
-         "code":"FTP.Leave_encashment_and_gratuty",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Challans.Plastic Challan",
-         "code":"CH.Plastic_Challan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Challans.Rehri Challan",
-         "code":"CH.Rehri_Challan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Challans.Challan for Misuse of Water",
-         "code":"CH.Challan_for_Misuse_of_Water",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Challans.Dengue Challan",
-         "code":"CH.Dengue_Challan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Challans.Littering Challan",
-         "code":"CH.Littering_Challan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Sanitation.Licence Pure food",
-         "code":"SNT.Licence_Pure_food",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"OTHER.Misc Challans",
-         "code":"OTHER.Misc_Challans",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Naksha/Building Manual Fees.Regularisation of Buildings",
-         "code":"NKS.Regularisation_of_Buildings",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Work Fee.Contractor Enlistment",
-         "code":"WF.Contractor_Enlistment",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Work Fee.Tender Form Fee",
-         "code":"WF.Tender Form Fee",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Tehbazaari Fee.Advertisement fee",
-         "code":"TB.Advertisement_fee",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Tehbazaari Fee.Tehbazaari",
-         "code":"TB.Tehbazaari",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Finance Fees.PF transfer (Accounts)",
-         "code":"FN.PF_transfer_(Accounts)",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Taxes.TS1 copy register for old survey",
-         "code":"TX.TS1_copy_register_for_old_survey",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Taxes.Transfer Property Fees",
-         "code":"TX.Transfer_Property_Fees",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"ADMIN Fees.RTI",
-         "code":"ADMN.RTI",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"ADMIN Fees.No Dues Certificate",
-         "code":"ADMN.No_Dues_Certificate",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Fee Town Planning.Architect license fee",
-         "code":"FTP.Architect_license_fee",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Tehbazaari Fee.Challan Under section 156",
-         "code":"Tehbazaari Fee.Challan_Under_section_156",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Finance Fees.Recovery employee/contractor",
-         "code":"FN.Recovery_employee/contractor",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Finance Fees.Grants cheque",
-         "code":"FN.Grants_cheque",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"OTHER.No due certificate electricity",
-         "code":"OTHER.No_due_certificate_electricity",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"OTHER.registery and bank loan",
-         "code":"OTHER.registery_and_bank_loan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"SBM garbage plastic polythene challan",
-         "code":"CH.SBM_garbage_plastic_polythene_challan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Sanitation.Dead animals contract",
-         "code":"SNT.Dead_animals_contract",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Finance Fees.GPF",
-         "code":"FN.GPF",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Finance Fees.CPF received check",
-         "code":"FN.CPF_received_check",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Tower Installation",
-         "code":"RT.Tower_Installation",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Tower Annual Rent",
-         "code":"RT.Tower_Annual_Rent",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Cess.Cow Cess",
-         "code":"CSS.cow_cess",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Challans.Cattle Challan",
-         "code":"CH.Cattle_Challan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Tehbazaari Fee.Rehri Challan",
-         "code":"TB.Rehri_Challan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"License Fee.Manual Rikshaw",
-         "code":"LCF.Manual_Rikshaw",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Challans.Dairy Animals Challan",
-         "code":"CH.Dairy_Animals_Challan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Challans.Bidi & Cigrette Challan",
-         "code":"CH.Bidi_&_Cigrette_Challan",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Community Centre Booking Fee",
-         "code":"RT.Community_Centre_Booking_Fee",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Commercial Use of Municipal Land",
-         "code":"RT.Commercial_Use_of_Municipal_Land",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Rents.Street Vendor",
-         "code":"RT.Street_Vendor",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Fee Town Planning.Construction Waste",
-         "code":"FTP.Construction_Waste",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Fee Town Planning.Demolition Waste",
-         "code":"FTP.Demolition_Waste",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Sanitation.SNT Clean/Safai Sanitation",
-         "code":"SNT.clean_safai_sanitation",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"O&M Fee.Plumber License Fee",
-         "code":"OM.Plumber_License_Fee",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Advertisement Tax.Light Wala Board",
-         "code":"ADVT.Light_Wala_Board",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Advertisement Tax.Wall Paint Advertisement",
-         "code":"ADVT.Wall_Paint_Advertisement",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Advertisement Tax.Gas Balloon Advertisement",
-         "code":"ADVT.Gas_Balloon_Advertisement",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"Revenue Grants",
-         "code":"REV_GRANTS",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Finance"
-      },
-      {
-         "businessService":"Disposal of Fixed Asset.Land",
-         "code":"DISP_FIXED_ASSET.LAND",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Finance"
-      },
-      {
-         "businessService":"Disposal of Fixed Asset.Building",
-         "code":"DISP_FIXED_ASSET.BUILDING",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Finance"
-      },
-      {
-         "businessService":"Disposal of Fixed Asset.Motor Vehicle",
-         "code":"DISP_FIXED_ASSET.MOTOR_VEHICLE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Finance"
-      },
-      {
-         "businessService":"BPARegistration",
-         "code":"BPAREG",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"ws-services-calculation",
-         "code":"WS",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":true,
-         "isAdvanceAllowed":true,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":false,
-         "billGineiURL":"egov-searcher/bill-genie/waterbills/_get"
-      },
-      {
-         "businessService":"sw-services-calculation",
-         "code":"SW",
-         "collectionModesNotAllowed":[
-            "DD",
-            "OFFLINE_NEFT",
-            "OFFLINE_RTGS",
-            "POSTAL_ORDER"
-         ],
-         "partPaymentAllowed":true,
-         "isAdvanceAllowed":true,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":false,
-         "billGineiURL":"egov-searcher/bill-genie/seweragebills/_get"
-      },
-      {
-         "businessService":"BPA.NEWCONSTRUCTION_APP_FEE",
-         "code":"BPA.NC_APP_FEE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"BPA.NEWCONSTRUCTION_SANC_FEE",
-         "code":"BPA.NC_SAN_FEE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"BPA.NEWCONSTRUCTION_LOW_RISK_PERMIT_FEE",
-         "code":"BPA.LOW_RISK_PERMIT_FEE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"PT.MUTATION",
-         "code":"PT.MUTATION",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"WS.ONE_TIME_FEE",
-         "code":"WS.ONE_TIME_FEE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"SW.ONE_TIME_FEE",
-         "code":"SW.ONE_TIME_FEE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
       {
          "businessService":"Apni Mandi and Day Market (Road Div 1).Apni Mandi",
          "code":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
@@ -1686,15 +57,1237 @@
          "type":"ApnaMandi"
       },
       {
-         "businessService":"ECHALLAN",
-         "code":"EC",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
+         "businessService":"Trade License.Registration certificate of Pedal Rickshaw/Loading Rehri",
+         "code":"CTL.REHRI_REGISTRATION",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,
-         "isActive":true
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Trade License.Issuance of New/Renewal of Driving License for Pedal Rickshaw/Loading Rehri",
+         "code":"CTL.REHRI_DRIVING_LICENSE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Trade License.Dhobi Ghat",
+         "code":"CTL.DHOBI_GHAT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Trade License.Old Book Market",
+         "code":"CTL.OLD_BOOK_MARKET",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Trade License.Rehri Market Rent (Shed Rent)",
+         "code":"CTL.REHRI_MARKET_RENT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Trade License.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"CTL.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Trade License.RTI Fees",
+         "code":"CTL.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Public Health Department Services (Public Health Div 1)",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV1",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Public Health Department Services (Public Health Div 2)",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Public Health Department Services (Public Health Div 3)",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV3",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Public Health Department Services (Public Health Div 4)",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Road Cut Charges",
+         "code":"ROAD_SERVICES_RD1.ROAD_CUT_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Telecom Tower",
+         "code":"ROAD_SERVICES_RD1.TELECOM_TOWER",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Toilet Blocks Lease",
+         "code":"ROAD_SERVICES_RD1.TOILET_BLOCKS_LEASE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Barricades",
+         "code":"ROAD_SERVICES_RD1.BARRICADES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Paid Parking Serivces",
+         "code":"ROAD_SERVICES_RD1.PAID_PARKING_SERVICES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Tender Fees",
+         "code":"ROAD_SERVICES_RD1.TENDER_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Enlistment Fees",
+         "code":"ROAD_SERVICES_RD1.ENLISTMENT_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Penalty",
+         "code":"ROAD_SERVICES_RD1.PENALTY",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Unspecified Receipt/Miscellaneous Receipts",
+         "code":"ROAD_SERVICES_RD1.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).RTI Fees",
+         "code":"ROAD_SERVICES_RD1.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Rent From Verka booth/Vita Umeed",
+         "code":"ROAD_SERVICES_RD1.RENT_VERKA_BOOTH_VITA_UMEED",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).Rent from MC Building (NRB)",
+         "code":"ROAD_SERVICES_RD1.RENT_MC_BLD_NRB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Road Cut Charges",
+         "code":"ROAD_SERVICES_RD2.ROAD_CUT_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Telecom Tower",
+         "code":"ROAD_SERVICES_RD2.TELECOM_TOWER",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Toilet Blocks Lease",
+         "code":"ROAD_SERVICES_RD2.TOILET_BLOCKS_LEASE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Barricades",
+         "code":"ROAD_SERVICES_RD2.BARRICADES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Paid Parking Serivces",
+         "code":"ROAD_SERVICES_RD2.PAID_PARKING_SERVICES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Tender Fees",
+         "code":"ROAD_SERVICES_RD2.TENDER_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Enlistment Fees",
+         "code":"ROAD_SERVICES_RD2.ENLISTMENT_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Penalty",
+         "code":"ROAD_SERVICES_RD2.PENALTY",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Unspecified Receipt/Miscellaneous Receipts",
+         "code":"ROAD_SERVICES_RD2.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).RTI Fees",
+         "code":"ROAD_SERVICES_RD2.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Rent From Verka booth/Vita Umeed",
+         "code":"ROAD_SERVICES_RD2.RENT_VERKA_BOOTH_VITA_UMEED",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).Rent from MC Building (NRB)",
+         "code":"ROAD_SERVICES_RD2.RENT_MC_BLD_NRB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Road Cut Charges",
+         "code":"ROAD_SERVICES_RD3.ROAD_CUT_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Telecom Tower",
+         "code":"ROAD_SERVICES_RD3.TELECOM_TOWER",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Toilet Blocks Lease",
+         "code":"ROAD_SERVICES_RD3.TOILET_BLOCKS_LEASE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Barricades",
+         "code":"ROAD_SERVICES_RD3.BARRICADES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Paid Parking Serivces",
+         "code":"ROAD_SERVICES_RD3.PAID_PARKING_SERVICES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Tender Fees",
+         "code":"ROAD_SERVICES_RD3.TENDER_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Enlistment Fees",
+         "code":"ROAD_SERVICES_RD3.ENLISTMENT_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Penalty",
+         "code":"ROAD_SERVICES_RD3.PENALTY",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Unspecified Receipt/Miscellaneous Receipts",
+         "code":"ROAD_SERVICES_RD3.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).RTI Fees",
+         "code":"ROAD_SERVICES_RD3.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Rent From Verka booth/Vita Umeed",
+         "code":"ROAD_SERVICES_RD3.RENT_VERKA_BOOTH_VITA_UMEED",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).Rent from MC Building (NRB)",
+         "code":"ROAD_SERVICES_RD3.RENT_MC_BLD_NRB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 1).C&D User Charges",
+         "code":"ROAD_SERVICES_RD1.C_AND_D_USER_CHRGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 2).C&D User Charges",
+         "code":"ROAD_SERVICES_RD2.C_AND_D_USER_CHRGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).C&D User Charges",
+         "code":"ROAD_SERVICES_RD3.C_AND_D_USER_CHRGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.AUCTION - PARKING LOTS",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.RENT - CABLE OPERATORS",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.RENT_CABLE_OPERATORS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.RENT - TAXI STANDS",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.RENT_TAXI_STANDS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.PAID PARKING AREA - RECEIPTS(PPA)",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.PAID_PARKING_AREA_RECEIPTS(PPA)",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Parking Branch Related Services.RTI",
+         "code":"PARKING_BRANCH_RELATED_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Enforcement Branch Services.AUCTION - CONFISCATED GOODS",
+         "code":"ENFORCEMENT_BRANCH_SERVICES.AUCTION_CONFISCATED_GOODS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Enforcement Branch Services.TCS",
+         "code":"ENFORCEMENT_BRANCH_SERVICES.TCS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Enforcement Branch Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"ENFORCEMENT_BRANCH_SERVICES.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Enforcement Branch Services.RTI",
+         "code":"ENFORCEMENT_BRANCH_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Building Branch Services",
+         "code":"BUILDING_BRANCH_SERVICES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Fire Department Services.FIRE SAFETY CERTIFICATE/FSC CHARGES",
+         "code":"FIRE_DEPARTMENT_SERVICES.FIRE_SAFETY_CERTIFICATE_FSC_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Fire Department Services.STAND-BY-DUTY CHARGES - FIRE TENDER",
+         "code":"FIRE_DEPARTMENT_SERVICES.STAND_BY_DUTY_CHARGES_FIRE_TENDER",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Fire Department Services.FIRE CALL CHARGES",
+         "code":"FIRE_DEPARTMENT_SERVICES.FIRE_CALL_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Fire Department Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"FIRE_DEPARTMENT_SERVICES.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Fire Department Services.RTI",
+         "code":"FIRE_DEPARTMENT_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Mango Garden",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.MANGO_GARDEN",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Poles and Flags",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.POLES_FLAGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.SALE OF PLANTS/NURSERY PRODUCTS",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.SALE_OF_PLANTS_NURSERY_PRODUCTS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.SALE OF EMPTY BAGS",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.SALE_OF_EMPTY_BAGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.AUCTION - DEAD/OLD TREES",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.AUCTION_DEAD_OLD_TREES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.RTI",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Composite Sale",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.COMPOSITE_SALE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Rent From Verka booth/Vita Umeed",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Rent of Hedges & Fencing",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.RENT_HEDGES_FENCING",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Surcharge on Electricity/Water Supply Bill",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Arrear of electricity Bill",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.ARREAR_ELEC_BILL",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 1 Services.Road Cut Charges",
+         "code":"HORTICULTURE_DIVISION_1_SERVICES.ROAD_CUT_CHRGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Mango Garden",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.MANGO_GARDEN",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Poles and Flags",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.POLES_FLAGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.SALE OF PLANTS/NURSERY PRODUCTS",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.SALE_OF_PLANTS_NURSERY_PRODUCTS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.SALE OF EMPTY BAGS",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.SALE_OF_EMPTY_BAGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.AUCTION - DEAD/OLD TREES",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.AUCTION_DEAD_OLD_TREES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.RTI",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Composite Sale",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.COMPOSITE_SALE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Rent From Verka booth/Vita Umeed",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.RENT_VERKA_BOOTH_VITA_UMEED",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Rent of Hedges & Fencing",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.RENT_HEDGES_FENCING",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Surcharge on Electricity/Water Supply Bill",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.SURCHARGE_ELEC_WATER_SUPP",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Arrear of electricity Bill",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.ARREAR_ELEC_BILL",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Horticulture Division 2 Services.Road Cut Charges",
+         "code":"HORTICULTURE_DIVISION_2_SERVICES.ROAD_CUT_CHRGS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"MOH Services",
+         "code":"MOH_SERVICES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Manimajra Related Services",
+         "code":"MANIMAJRA_RELATED_SERVICES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.ADVERTISEMENT FEES",
+         "code":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.SALES - BUILDING MATERIAL/MALBA",
+         "code":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.GROUND RENT - CAR BAZAAR",
+         "code":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.GROUD RENT - SCOOTER BAZAAR",
+         "code":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.WATER MELON SITES",
+         "code":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.COCONUT WATER SITES",
+         "code":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.EATING JOINTS",
+         "code":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.WATER TANKAR CHARGES",
+         "code":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.RTI FEES",
+         "code":"BOOKING_BRANCH_SERVICES.RTI_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.MANUAL/OPEN SPACE",
+         "code":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.SALE OF FORMS",
+         "code":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Community Centres/Jhanj Ghar",
+         "code":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Ground Rent-Boths/Mc Office",
+         "code":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"BOOKING_BRANCH_SERVICES.MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Booking of Grounds/Open Spaces",
+         "code":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"BOOKING_BRANCH_SERVICES.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.RTI",
+         "code":"BOOKING_BRANCH_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.VIKAS NAGAR, MAULIJAGRAN",
+         "code":"COLONY_BRANCH_SERVICES.VIKAS_NAGAR_MAULIJAGRAN",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.SEC 52 - 53",
+         "code":"COLONY_BRANCH_SERVICES.SEC_52_53",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.MILK COLONY, MALOYA",
+         "code":"COLONY_BRANCH_SERVICES.MILK_COLONY_MALOYA",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.KUMAHR COLONY, MALOYA",
+         "code":"COLONY_BRANCH_SERVICES.KUMAHR_COLONY_MALOYA",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.PLINTH SITES RENT - SEC 25",
+         "code":"COLONY_BRANCH_SERVICES.PLINTH_SITES_RENT_SEC_25",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"COLONY_BRANCH_SERVICES.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Colony Branch Services.RTI",
+         "code":"COLONY_BRANCH_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Head Office Services.PROPERTY TAX - COMMERCIAL",
+         "code":"HEAD_OFC_SERVICES.PROPERTY_TAX_COMMERCIAL",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Head Office Services.PROPERTY TAX - RESIDENTIAL",
+         "code":"HEAD_OFC_SERVICES.PROPERTY_TAX_RESIDENTIAL",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Head Office Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"HEAD_OFC_SERVICES.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Head Office Services.RTI",
+         "code":"HEAD_OFC_SERVICES.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Head Office Services.Recovery of License fees (Rent)",
+         "code":"HEAD_OFC_SERVICES.RECOVERY_LICENSE_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Estate Branch.Rent - Shopping Complex/Cafes etc",
+         "code":"ESTATE_BRANCH.RENT_SHOPPING_COMPLEX_CAFES_ETC",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Estate Branch.Rent - NRB",
+         "code":"ESTATE_BRANCH.RENT_NRB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Estate Branch.Lease Building/land/etc",
+         "code":"ESTATE_BRANCH.LEASE_BUILDING_LAND_ETC",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Estate Branch.Sale/Auction of Buildings, land etc",
+         "code":"ESTATE_BRANCH.SALE_AUCTION_BLDN_LAND_ETC",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Estate Branch.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"ESTATE_BRANCH.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Estate Branch.RTI",
+         "code":"ESTATE_BRANCH.RTI",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Cess.Cow Cess",
+         "code":"CESS.COW_CESS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Cess.Covid Cess",
+         "code":"CESS.COVID_CESS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Cess.MC Cess on electricity charges",
+         "code":"CESS.MC_CESS_ELEC_CHARGES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"ECHALLAN REMOVAL CHARGES - CONFISCATED GOODS",
+         "code":"EC",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Urban Development Fund.Estate Office",
+         "code":"UDF.ESTATE_OFFICE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Urban Development Fund.Chandigarh Housing Board",
+         "code":"UDF.CHD_HOUSING_BOARD",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Urban Development Fund.Unspecified Receipt/Miscellaneous Receipts (Estate Office - UT)",
+         "code":"UDF.MISC_RECEIPT_EST_UT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Urban Development Fund.Unspecified Receipt/Miscellaneous Receipts (Chandigarh Housing Board)",
+         "code":"UDF.MISC_RECEIPT_CHD_H_BRD",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
       },
       {
          "businessService":"Permission Management.Advertisement NoC",
@@ -1717,244 +1310,6 @@
          "isAdvanceAllowed":false,
          "demandUpdateTime":86400000,
          "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Permission Management.Road Cut NOC (Road Div 1)",
-         "code":"OPMS.ROADCUTNOC_RD1",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":true,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Permission Management.Road Cut NOC (Road Div 2)",
-         "code":"OPMS.ROADCUTNOC_RD2",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":true,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"Permission Management.Road Cut NOC (Road Div 3)",
-         "code":"OPMS.ROADCUTNOC_RD3",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":true,
-         "isAdvanceAllowed":false,
-         "demandUpdateTime":86400000,
-         "isVoucherCreationEnabled":true
-      },
-      {
-         "businessService":"OSBM",
-         "code":"OSBM",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"OSBM",
-         "code":"OSBM_TAX",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"BWT",
-         "code":"BWT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"BWT",
-         "code":"BWT_TAX",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"GFCP",
-         "code":"GFCP",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"GFCP",
-         "code":"GFCP_TAX",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"GFCP",
-         "code":"GFCP_ROUND_OFF",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"OSUJM",
-         "code":"OSUJM",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"OSUJM",
-         "code":"OSUJM_TAX",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"OSUJM",
-         "code":"OSUJM_ROUND_OFF",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"PACC",
-         "code":"PACC",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"PACC",
-         "code":"PACC_TAX",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"PACC",
-         "code":"PACC_ROUND_OFF",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"PACC",
-         "code":"LUXURY_TAX",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"PACC",
-         "code":"REFUNDABLE_SECURITY",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"PACC",
-         "code":"PACC_LOCATION_AND_VENUE_CHANGE_AMOUNT",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"PACC",
-         "code":"FACILITATION_CHARGE",
-         "collectionModesNotAllowed":[
-            "DD"
-         ],
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true
-      },
-      {
-         "businessService":"Booking Branch Services.WATER TANKAR CHARGES",
-         "code":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
-      },
-      {
-         "businessService":"Booking Branch Services.MANUAL/OPEN SPACE",
-         "code":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
-         "partPaymentAllowed":false,
-         "isAdvanceAllowed":false,
-         "isVoucherCreationEnabled":true,
-         "isActive":true,
-         "type":"Adhoc"
       }
    ]
 }
