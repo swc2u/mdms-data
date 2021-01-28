@@ -896,6 +896,99 @@
               ]
             },
             {
+              "header": "ES_SITE_REPORT_DETAILS_HEADER",
+              "fields": [
+                {
+                  "label": "ES_PARTICULARS_OF_HOUSE_OR_SHOP_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.particularsOfHouse"
+                },
+                {
+                  "label": "ES_HOUSE_AREA_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.houseArea"
+                },
+                {
+                  "label": "ES_OWNERSHIP_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.ownership"
+                },
+                {
+                  "label": "ES_POSSESSION_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.possession"
+                },
+                {
+                  "label": "ES_MODE_OF_OWNERSHIP_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.modeOfOwnership"
+                },
+                {
+                  "label": "ES_HEIGHT_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.height"
+                },
+                {
+                  "label": "ES_CANTILEVER_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.cantilever"
+                },
+                {
+                  "label": "ES_NUMBER_OF_FLOORS_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.noOfFloors"
+                },
+                {
+                  "label": "ES_ENCROACHMENT_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.encroachment"
+                },
+                {
+                  "label": "ES_VIOLATION_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.violation"
+                },
+                {
+                  "label": "ES_DIMENSION_OF_BUILDING_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.dimensionOfBuilding"
+                },
+                {
+                  "label": "ES_AREA_PLACEHOLDER",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.area"
+                },
+                {
+                  "label": "ES_EXCESS_AREA_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.excessArea"
+                },
+                {
+                  "label": "ES_IS_COMMERCIAL_ACTIVITY_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.isCommercialActivity"
+                },
+                {
+                  "label": "ES_COMMERCIAL_ACTIVITY_AREA_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.commercialActivityArea"
+                },
+                {
+                  "label": "ES_DAIRY_OR_KEEPING_CATTLE_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.runningDairy"
+                },
+                {
+                  "label": "ES_DEVELOPMENT_CHARGES_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.developmentCharges"
+                },
+                {
+                  "label": "ES_COMPOSITION_FEES_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.compositionFees"
+                },
+                {
+                  "label": "ES_COMPOSITION_FEES_UNAUTHORIZED_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.compositionFeeUnauthorized"
+                },
+                {
+                  "label": "ES_CONVERSION_CHARGES_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.conversionCharges"
+                },
+                {
+                  "label": "ES_TOTAL_CHARGES_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.totalChanges"
+                },
+                {
+                  "label": "ES_DATE_OF_INSPECTION_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.siteReport.dateOfInspection"
+                }
+              ]
+            },
+            {
               "header": "ES_DOCUMENT_DETAILS_HEADER",
               "type": "DOCUMENTS",
               "step": 1,
@@ -906,6 +999,11 @@
               "type": "DOCUMENTS",
               "sourceJsonPath": "temp[0].reviewWfDocData",
               "visibility": "!!application.wfDocuments && application.wfDocuments.length !== 0"
+            },
+            {
+              "header": "ES_SAMPLE_SITE_MAP_HEADER",
+              "type": "DOCUMENTS",
+              "sourceJsonPath": "temp[0].reviewSampleSiteMap"
             }
           ]
         }
