@@ -1,0 +1,606 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "sectorList": [
+    {
+		"name": "Sector-1",
+		"code": "01",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "Sector-2",
+		"code": "02",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "Sector-3",
+		"code": "03",
+		"ledgerRange":"3",
+		"active": true
+	},
+	{
+		"name": "Sector-4",
+		"code": "04",
+		"ledgerRange":"2",
+		"active": true
+	},
+	{
+		"name": "Sector-5",
+		"code": "05",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "Sector-6",
+		"code": "06",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "Sector-7",
+		"code": "07",
+		"ledgerRange":"10",
+		"active": true
+	},
+	{
+		"name": "Sector-8",
+		"code": "08",
+		"ledgerRange":"10",
+		"active": true
+	},
+	{
+		"name": "Sector-9",
+		"code": "09",
+		"ledgerRange":"8",
+		"active": true
+	},
+	{
+		"name": "Sector-10",
+		"code": "10",
+		"ledgerRange":"6",
+		"active": true
+	},
+	{
+		"name": "Sector-11",
+		"code": "11",
+		"ledgerRange":"6",
+		"active": true
+	},
+	{
+		"name": "Sector-12",
+		"code": "12",
+		"ledgerRange":"50",
+		"active": true
+	},
+	{
+		"name": "Sector-14",
+		"code": "14",
+		"ledgerRange":"5",
+		"active": true
+	},
+	{
+		"name": "Sector-15",
+		"code": "15",
+		"ledgerRange":"15",
+		"active": true
+	},
+	{
+		"name": "Sector-16",
+		"code": "16",
+		"ledgerRange":"4",
+		"active": true
+	},
+	{
+		"name": "Sector-17",
+		"code": "17",
+		"ledgerRange":"51",
+		"active": true
+	},
+	{
+		"name": "Sector-18",
+		"code": "18",
+		"ledgerRange":"51",
+		"active": true
+	},
+	{
+		"name": "Sector-19",
+		"code": "19",
+		"ledgerRange":"51",
+		"active": true
+	},
+	{
+		"name": "Sector-20",
+		"code": "20",
+		"ledgerRange":"51",
+		"active": true
+	},
+	{
+		"name": "Sector-21",
+		"code": "21",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "Sector-22",
+		"code": "22",
+		"ledgerRange":"51",
+		"active": true
+	},
+	{
+		"name": "Sector-23",
+		"code": "23",
+		"ledgerRange":"16",
+		"active": true
+	},
+	{
+		"name": "Sector-24",
+		"code": "24",
+		"ledgerRange":"9",
+		"active": true
+	},
+	{
+		"name": "Sector-25",
+		"code": "25",
+		"ledgerRange":"29",
+		"active": true
+	},
+	{
+		"name": "Sector-26",
+		"code": "26",
+		"ledgerRange":"53",
+		"active": true
+	},
+	{
+		"name": "Sector-27",
+		"code": "27",
+		"ledgerRange":"51",
+		"active": true
+	},
+	{
+		"name": "Sector-28",
+		"code": "28",
+		"ledgerRange":"51",
+		"active": true
+	},
+	{
+		"name": "Sector-29",
+		"code": "29",
+		"ledgerRange":"31",
+		"active": true
+	},
+	{
+		"name": "Sector-30",
+		"code": "30",
+		"ledgerRange":"21",
+		"active": true
+	},
+	{
+		"name": "Sector-31",
+		"code": "31",
+		"ledgerRange":"9",
+		"active": true
+	},
+	{
+		"name": "Sector-32",
+		"code": "32",
+		"ledgerRange":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-33",
+		"code": "33",
+		"ledgerRange":"9",
+		"active": true
+	},
+	{
+		"name": "Sector-34",
+		"code": "34",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "Sector-35",
+		"code": "35",
+		"ledgerRange":"15",
+		"active": true
+	},
+	{
+		"name": "Sector-36",
+		"code": "36",
+		"ledgerRange":"8",
+		"active": true
+	},
+	{
+		"name": "Sector-37",
+		"code": "37",
+		"ledgerRange":"17",
+		"active": true
+	},
+	{
+		"name": "Sector-38",
+		"code": "38",
+		"ledgerRange":"28",
+		"active": true
+	},
+	{
+		"name": "Sector-39",
+		"code": "39",
+		"ledgerRange":"15",
+		"active": true
+	},
+	{
+		"name": "Sector-40",
+		"code": "40",
+		"ledgerRange":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-41",
+		"code": "41",
+		"ledgerRange":"17",
+		"active": true
+	},
+	{
+		"name": "Sector-42",
+		"code": "42",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "Sector-43",
+		"code": "43",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "Sector-44",
+		"code": "44",
+		"ledgerRange":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-45",
+		"code": "45",
+		"ledgerRange":"10",
+		"active": true
+	},
+	{
+		"name": "Sector-46",
+		"code": "46",
+		"ledgerRange":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-47",
+		"code": "47",
+		"ledgerRange":"17",
+		"active": true
+	},
+	{
+		"name": "Sector-48",
+		"code": "48",
+		"ledgerRange":"91",
+		"active": true
+	},
+	{
+		"name": "Sector-49",
+		"code": "49",
+		"ledgerRange":"90",
+		"active": true
+	},
+	{
+		"name": "Sector-50",
+		"code": "50",
+		"ledgerRange":"82",
+		"active": true
+	},
+	{
+		"name": "Sector-51",
+		"code": "51",
+		"ledgerRange":"83",
+		"active": true
+	},
+	{
+		"name": "Sector-52",
+		"code": "52",
+		"ledgerRange":"14",
+		"active": true
+	},
+	{
+		"name": "Sector-53",
+		"code": "53",
+		"ledgerRange":"6",
+		"active": true
+	},
+	{
+		"name": "Sector-54",
+		"code": "54",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "Sector-55",
+		"code": "55",
+		"ledgerRange":"22",
+		"active": true
+	},
+	{
+		"name": "Sector-56",
+		"code": "56",
+		"ledgerRange":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-61",
+		"code": "61",
+		"ledgerRange":"8",
+		"active": true
+	},
+	{
+		"name": "Sector-63",
+		"code": "63",
+		"ledgerRange":"14",
+		"active": true
+	},
+	{
+		"name": "ALISHER KHUDA",
+		"code": "AS",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "Attawa",
+		"code": "AT",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "BAPU DHAM COLONY",
+		"code": "BC",
+		"ledgerRange":"7",
+		"active": true
+	},
+	{
+		"name": "BEHLANA",
+		"code": "BH",
+		"ledgerRange":"2",
+		"active": true
+	},
+	{
+		"name": "BHAGWAN PURA",
+		"code": "BP",
+		"ledgerRange":"2",
+		"active": true
+	},
+	{
+		"name": "Badehri",
+		"code": "BR",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "Burail",
+		"code": "BU",
+		"ledgerRange":"9",
+		"active": true
+	},
+	{
+		"name": "Butrela",
+		"code": "BT",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "CH",
+		"code": "CH",
+		"ledgerRange":"2",
+		"active": true
+	},
+	{
+		"name": "Dadu Majra",
+		"code": "DM",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "Dadu Majra Colony",
+		"code": "DC",
+		"ledgerRange":"16",
+		"active": true
+	},
+	{
+		"name": "DHANAS HOUSING BOARD",
+		"code": "DH",
+		"ledgerRange":"50",
+		"active": true
+	},
+	{
+		"name": "DARUA",
+		"code": "DR",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "DHANAS VILLAGE",
+		"code": "DV",
+		"ledgerRange":"50",
+		"active": true
+	},
+	
+	{
+		"name": "EWS HOUSES",
+		"code": "ED",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "GAWALA COLONY",
+		"code": "GC",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "GAWALA COLONYa",
+		"code": "GD",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "Ind. Area Phase-I",
+		"code": "IA",
+		"ledgerRange":"51",
+		"active": true
+	},
+	{
+		"name": "Ind. Area Phase-II",
+		"code": "IN",
+		"ledgerRange":"31",
+		"active": true
+	},
+	{
+		"name": "HALLOMAJRA",
+		"code": "HM",
+		"ledgerRange":"5",
+		"active": true
+	},
+	
+	{
+		"name": "IT",
+		"code": "IT",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "KAIMBALA",
+		"code": "KB",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "KISHENGARH",
+		"code": "KG",
+		"ledgerRange":"2",
+		"active": true
+	},
+	{
+		"name": "KHUDA JASSU",
+		"code": "KJ",
+		"ledgerRange":"2",
+		"active": true
+	},
+	
+	{
+		"name": "KHUDA LAHORA ",
+		"code": "KL",
+		"ledgerRange":"13",
+		"active": true
+	},
+	
+	{
+		"name": "KHUDDA",
+		"code": "KS",
+		"ledgerRange":"1",
+		"active": true
+	},
+	
+	{
+		"name": "KHAZERI",
+		"code": "KZ",
+		"ledgerRange":"1",
+		"active": true
+	},
+	
+	{
+		"name": "LABOUR COLONY",
+		"code": "LD",
+		"ledgerRange":"2",
+		"active": true
+	},
+	{
+		"name": "LAHORA KHUDA COLONY",
+		"code": "LK",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "MC DHANAS",
+		"code": "MC",
+		"ledgerRange":"2",
+		"active": true
+	},
+	{
+		"name": "MAULI JAGRAN ",
+		"code": "MJ",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "MAKHAN MAJRA",
+		"code": "MM",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "MALOYA COLONY",
+		"code": "ML",
+		"ledgerRange":"31",
+		"active": true
+	},
+	{
+		"name": "MANIMAZRA",
+		"code": "MZ",
+		"ledgerRange":"44",
+		"active": true
+	},
+	{
+		"name": "NAYA GAON",
+		"code": "NG",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "MANIMAZRA",
+		"code": "MZ",
+		"ledgerRange":"44",
+		"active": true
+	},
+	{
+		"name": "PALSORA",
+		"code": "PL",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "RAM DARBAR",
+		"code": "RD",
+		"ledgerRange":"16",
+		"active": true
+	},
+	{
+		"name": "RAIPUR KALAN",
+		"code": "RK",
+		"ledgerRange":"2",
+		"active": true
+	},
+	{
+		"name": "RAIPUR ",
+		"code": "RP",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "SARANGPUR",
+		"code": "SR",
+		"ledgerRange":"11",
+		"active": true
+	},
+	{
+		"name": "SF",
+		"code": "SF",
+		"ledgerRange":"4",
+		"active": true
+	}
+  ]
+}
