@@ -112,6 +112,15 @@
       "branchType": "ESTATE_BRANCH"
     },
     {
+      "name": "Issuance of Notice",
+      "code": "ES_INTERNALSERVICE_ISSUANCE_OF_NOTICE",
+      "type": "EstateBranch_InternalServices_IssuanceOfNotice",
+      "active": true,
+      "filter": false,
+      "applicationType": "IssuanceOfNotice",
+      "branchType": "ESTATE_BRANCH"
+    },
+    {
       "name": "Execution of Lease Deed/Deed of Conveyance",
       "code": "ES_EXECUTION_OF_LEASE_DEED",
       "type": "EstateBranch_OtherCitizenService_LeaseDeed",
