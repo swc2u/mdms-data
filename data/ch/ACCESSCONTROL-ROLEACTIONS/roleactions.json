@@ -54287,24 +54287,6 @@
 			},
 			{
 			"rolecode": "EMPLOYEE",
-			"actionid": 5036,
-			"actioncode": "",
-			"tenantId": "ch"
-			},
-			{
-			"rolecode": "EMPLOYEE",
-			"actionid": 5037,
-			"actioncode": "",
-			"tenantId": "ch"
-			},
-			{
-			"rolecode": "EMPLOYEE",
-			"actionid": 5038,
-			"actioncode": "",
-			"tenantId": "ch"
-			},
-			{
-			"rolecode": "EMPLOYEE",
 			"actionid": 5039,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -54705,85 +54687,85 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7000,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7001,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7002,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7003,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7004,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7005,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7006,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7007,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7008,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7009,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7010,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7011,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7012,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_ADMIN",
 			"actionid": 7013,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -54945,37 +54927,37 @@
 				"tenantId": "ch"
 			},
 			{
-			  "rolecode": "EMPLOYEE",
+			  "rolecode": "BK_ADMIN",
 			  "actionid": 8000,
 			  "actioncode": "",
 			  "tenantId": "ch"
 			},
 			{
-			  "rolecode": "EMPLOYEE",
+			  "rolecode": "BK_ADMIN",
 			  "actionid": 8001,
 			  "actioncode": "",
 			  "tenantId": "ch"
 			},
 			{
-			  "rolecode": "EMPLOYEE",
+			  "rolecode": "BK_ADMIN",
 			  "actionid": 8002,
 			  "actioncode": "",
 			  "tenantId": "ch"
 			},
 			{
-			  "rolecode": "EMPLOYEE",
+			  "rolecode": "BK_ADMIN",
 			  "actionid": 8003,
 			  "actioncode": "",
 			  "tenantId": "ch"
 			},
 			{
-			  "rolecode": "EMPLOYEE",
+			  "rolecode": "BK_ADMIN",
 			  "actionid": 8004,
 			  "actioncode": "",
 			  "tenantId": "ch"
 			},
 			{
-			  "rolecode": "EMPLOYEE",
+			  "rolecode": "BK_ADMIN",
 			  "actionid": 8005,
 			  "actioncode": "",
 			  "tenantId": "ch"
@@ -55106,17 +55088,18 @@
 				"actioncode": "",
 				"tenantId": "ch"
       },
-      {
-			  "rolecode": "EMPLOYEE",
-			  "actionid": 8006,
-			  "actioncode": "",
-			  "tenantId": "ch"
+			
+			{
+			"rolecode": "BK_MCC_HELPDESK_USER",
+			"actionid": 8007,
+			"actioncode": "",
+			"tenantId": "ch"
 			},
 			{
-			  "rolecode": "EMPLOYEE",
-			  "actionid": 8007,
-			  "actioncode": "",
-			  "tenantId": "ch"
+			"rolecode": "BK_OSBM_APPROVER",
+			"actionid": 8007,
+			"actioncode": "",
+			"tenantId": "ch"
 			},
 			{
 			"rolecode": "CITIZEN",
@@ -55130,6 +55113,66 @@
 			"actionid": 8009,
 			"actioncode": "",
 			"tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_OSBM_APPROVER",
+			  "actionid": 8028,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_MCC_HELPDESK_USER",
+			  "actionid": 8028,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8029,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8030,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8031,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8032,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8033,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8034,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8035,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8036,
+			  "actioncode": "",
+			  "tenantId": "ch"
 			}
 	]
 }
