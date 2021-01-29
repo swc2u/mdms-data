@@ -17264,6 +17264,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "GRO",
+			"actionid": 1801,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SUPERUSER",
 			"actionid": 1744,
 			"actioncode": "",
