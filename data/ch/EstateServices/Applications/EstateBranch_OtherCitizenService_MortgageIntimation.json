@@ -209,7 +209,7 @@
             "lazyload": true,
             "options": {
               "moduleName": "EstateServices",
-              "masterName": "permissionToMortagage"
+              "masterName": "intimationToMortagage"
             }
           },
           {
