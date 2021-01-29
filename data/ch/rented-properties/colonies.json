@@ -10,6 +10,7 @@
             "interestRateOrYear": 24,
             "rentIncrementPercentage": 25,
             "rentIncrementPeriod": 5,
+            "interestStartYear":1451606400000,
             "area": [
                 {
                     "code": "AREA.150",
@@ -31,6 +32,7 @@
             "interestRateOrYear": 24,
             "rentIncrementPercentage": 25,
             "rentIncrementPeriod": 5,
+            "interestStartYear":0,
             "area": [
                 {
                     "code": "AREA.125",
@@ -46,6 +48,7 @@
             "interestRateOrYear": 0,
             "rentIncrementPercentage": 5,
             "rentIncrementPeriod": 1,
+            "interestStartYear":0,
             "area": [
                 {
                     "code": "AREA.150",
@@ -61,6 +64,7 @@
             "interestRateOrYear": 0,
             "rentIncrementPercentage": 5,
             "rentIncrementPeriod": 1,
+            "interestStartYear":0,
             "area": [
                 {
                     "code": "AREA.150",
