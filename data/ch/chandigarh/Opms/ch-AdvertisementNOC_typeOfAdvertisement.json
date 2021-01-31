@@ -35,7 +35,7 @@
 			"name": "Advertisement or hoarding standing blank but bearing the name of the advertiser or with the announcement to be let displayed thereon",
 			"active": true,
 			"duration": [
-				"annual"
+				"month"
 			],
 			"calculationType": "range",
 			"subTypeOfAdvertisement": [{
@@ -48,12 +48,12 @@
 				}
 			],
 			"durationDropdown": [{
-				"id": "4",
-				"code": "ANNUAL",
-				"tenantId": "ch.chandigarh",
-				"name": "Annual",
-				"active": true
-			}]
+					"id": "3",
+					"code": "MONTHLY",
+					"tenantId": "ch.chandigarh",
+					"name": "Monthly",
+					"active": true
+				}]
 		},
 		{
 			"id": "10003",
