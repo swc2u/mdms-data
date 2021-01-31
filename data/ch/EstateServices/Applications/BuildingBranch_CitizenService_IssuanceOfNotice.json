@@ -1023,9 +1023,9 @@
           "content": "Hi {applicationDetails.transferor.name} for your property bearing file Number {property.fileNumber} a notice is issued.In this regard you are hereby by requested to attend the hearing on {applicationDetails.dateOfHearing} at {applicationDetails.timeOfHearing}",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
-              "to": "{owner.emailId}",
+              "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
             },
             "sms": {
@@ -1033,28 +1033,28 @@
               "to": "{applicationDetails.transferor.transferorDetails.mobileNumber}"
             },
             "event": {
-              "enabled": false,
-              "to": "{owner.id}"
+              "enabled": true,
+              "to": "{createdBy.uuid}"
             }
           }
         },
         {
           "state": "ES_REJECTED",
-          "content": "Hi {owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected.",
+          "content": "Hi {applicationDetails.transferor.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected.",
           "modes": {
             "email": {
               "enabled": true,
               "html": false,
-              "to": "{owner.emailId}",
+              "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
             },
             "sms": {
               "enabled": true,
-              "to": "{owner.mobileNumber}"
+              "to": "{applicationDetails.transferor.transferorDetails.mobileNumber}"
             },
             "event": {
-              "enabled": false,
-              "to": "{owner.id}"
+              "enabled": true,
+              "to": "{createdBy.uuid}"
             }
           }
         },
@@ -1065,7 +1065,7 @@
             "email": {
               "enabled": true,
               "html": false,
-              "to": "{owner.emailId}",
+              "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
             },
             "sms": {
@@ -1074,7 +1074,7 @@
             },
             "event": {
               "enabled": false,
-              "to": "{owner.id}"
+              "to": "{createdBy.uuid}"
             }
           }
         }

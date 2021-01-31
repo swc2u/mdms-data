@@ -561,7 +561,7 @@
           "content": "Hi {applicationDetails.owner.name}, \n Your application for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been received. Please note your application number {applicationNumber} for further reference.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -581,7 +581,7 @@
           "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs {totalDue} to proceed further.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -602,7 +602,7 @@
           "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -622,7 +622,7 @@
           "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -642,7 +642,7 @@
           "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -662,7 +662,7 @@
           "content": "Hi {applicationDetails.owner.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -702,14 +702,14 @@
             "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
             "modes": {
               "email": {
-                "enabled": false,
+                "enabled": true,
                 "html": false,
                 "to": "{createdBy.emailId}",
                 "subject": "CSCL - Intimation for application {applicationNumber}"
               },
               "sms": {
                 "enabled": true,
-                "to": "{applicationDetails.owner.mobileNumber}"
+                "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
               },
                "event": {
                 "enabled": true,

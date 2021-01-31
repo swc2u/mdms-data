@@ -828,10 +828,10 @@
         },
         {
           "state": "ES_MM_PENDING_PAYMENT",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs {totalDue} to proceed further.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -852,7 +852,7 @@
           "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -892,7 +892,7 @@
           "content": "Hi {applicationDetails.transferee.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -929,7 +929,7 @@
         },
         {
           "state": "ES_MM_APPROVED",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application #{applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application number {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
           "modes": {
             "email": {
               "enabled": true,
