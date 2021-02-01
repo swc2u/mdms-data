@@ -297,7 +297,7 @@
                   "label": "ES_SELECT_OWNER_LABEL",
                   "placeholder": "ES_SELECT_OWNER_PLACEHOLDER",
                   "type": "DROP_DOWN",
-                  "jsonPath": "Applications[0].applicationDetails.owner.name",
+                  "jsonPath": "Applications[0].applicationDetails.owner.id",
                   "path": "owner.id",
                   "dataSource": "owners"
                 },
@@ -427,7 +427,7 @@
               "fields": [
                 {
                   "label": "ES_OWNER_NAME_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.id"
+                  "jsonPath": "Applications[0].applicationDetails.owner.name"
                 },
                 {
                   "label": "ES_FATHER_HUSBAND_NAME_LABEL",
