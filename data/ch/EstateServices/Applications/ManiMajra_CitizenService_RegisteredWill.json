@@ -627,6 +627,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferee.name",
                   "path": "transferee.name",
+                  "pattern": "alphabet",
                   "visibility": "application.applicationDetails.transferee.type !== 'Existing'",
                   "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 5 ? 'ES_ERR_LEGAL_BENEFICIARY_NAME_FIVE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_LEGAL_BENEFICIARY_NAME_ONEFIVEZERO' : 'ES_ERR_LEGAL_BENEFICIARY_NAME' : 'ES_ERR_LEGAL_BENEFICIARY_NAME'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
@@ -637,6 +638,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferee.fatherOrHusbandName",
                   "path": "transferee.fatherOrHusbandName",
+                  "pattern": "alphabet",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianName : application.applicationDetails.transferee.fatherOrHusbandName",
                   "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 5 ? 'ES_ERR_FATHER_HUSBAND_NAME_FIVE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
@@ -723,6 +725,7 @@
                   "placeholder": "ES_WITNESS_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].name",
+                  "pattern": "alphabet",
                   "path": "witness..name",
                   "errorMessage": "'ES_ERR_WITNESS_NAME'"
                 },
@@ -731,6 +734,7 @@
                   "placeholder": "ES_FATHER_HUSBAND_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].fatherOrHusbandName",
+                  "pattern": "alphabet",
                   "path": "witness..fatherOrHusbandName",
                   "errorMessage": "'ES_ERR_WITNESS_NAME'"
                 },
