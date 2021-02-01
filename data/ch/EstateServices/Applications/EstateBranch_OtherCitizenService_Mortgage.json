@@ -374,7 +374,7 @@
                   "label": "ES_SELECT_OWNER_LABEL",
                   "placeholder": "ES_SELECT_OWNER_PLACEHOLDER",
                   "type": "DROP_DOWN",
-                  "jsonPath": "Applications[0].applicationDetails.owner.id",
+                  "jsonPath": "Applications[0].applicationDetails.owner.name",
                   "path": "owner.id",
                   "dataSource": "owners"
                 },
