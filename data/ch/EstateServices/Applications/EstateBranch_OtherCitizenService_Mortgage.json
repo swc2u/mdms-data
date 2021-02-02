@@ -430,6 +430,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.bankName",
                   "path": "bankName",
+                  "pattern": "alphabet",
                   "errorMessage": "!!applicationDetails && !!applicationDetails.bankName ? applicationDetails.bankName.length < 5 ? 'ES_ERR_BANK_NAME_FIVE' : applicationDetails.bankName.length > 150 ? 'ES_ERR_BANK_NAME_ONEFIVEZERO' : 'ES_ERR_BANK_NAME' : 'ES_ERR_BANK_NAME'"
                 },
                 {
