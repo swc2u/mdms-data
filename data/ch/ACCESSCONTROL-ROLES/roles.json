@@ -1088,6 +1088,11 @@
       "description": "Employee who verifies the New Location Open Spaces Under Jurisdiction of MCC booking"
     },
     {
+      "code": "BK_ADMIN",
+      "name": "BK Admin",
+      "description": "Employee who access and modify the report and master data"
+    },
+    {
       "code": "BK_ADMIN_APPROVER",
       "name": "New Location Open Spaces Under Jurisdiction of MCC Publisher",
       "description": "Employee who publish the New Location Open Spaces Under Jurisdiction of MCC booking"
