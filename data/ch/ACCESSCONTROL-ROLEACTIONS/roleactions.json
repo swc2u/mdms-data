@@ -43207,6 +43207,42 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30139,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30140,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30141,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30142,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30143,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
+			"actionid": 30144,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_MM_DISPATCH_OFFICER",
 			"actionid": 30137,
 			"actioncode": "",
