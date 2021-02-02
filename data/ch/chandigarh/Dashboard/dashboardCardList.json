@@ -1,0 +1,18 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "dashboard",
+  "dashboardCardList": [
+    {
+    	"cardName" : "Pgr_dashboard_1",
+		"roles": ["EMPLOYEE"],
+		"icon": "material-icons module-page-icon",
+		"route": "PGRDashboard"
+    },
+	{
+		"cardName" : "Hc_dashboard_1",
+		"roles": ["HC_COMMISSIONERMCC"],
+		"icon": "material-icons module-page-icon",
+		"route": "HCDashboard"
+    }
+  ]
+}
