@@ -1,7 +1,7 @@
 {
     "tenantId": "ch",
     "moduleName": "EstateServices",
-    "patnershipModeOfTransfer": [
+    "partnershipModeOfTransfer": [
       {
         "name": "Partnership Deed",
         "code": "PARTNERSHIP_MODE_OF_TRANSFER.PARTNERSHIPDEED",

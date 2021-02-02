@@ -38,7 +38,7 @@
             {
               "type": "length",
               "params": {
-                "min": 0,
+                "min": 3,
                 "max": 100
               }
             }
@@ -106,7 +106,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -119,7 +119,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -163,7 +163,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -567,7 +567,8 @@
                   "visibility": "application.applicationDetails.transferee.type !== 'Existing'",
                   "jsonPath": "Applications[0].applicationDetails.transferee.name",
                   "path": "transferee.name",
-                  "errorMessage": "ES_ERR_PURCHASER_NAME",
+                  "pattern": "alphabet",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 5 ? 'ES_ERR_PURCHASER_NAME_FIVE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_PURCHASER_NAME_ONEFIVEZERO' : 'ES_ERR_PURCHASER_NAME' : 'ES_ERR_PURCHASER_NAME'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
                 },
                 {
@@ -577,8 +578,9 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.fatherOrHusbandName",
                   "path": "transferee.fatherOrHusbandName",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "pattern": "alphabet",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianName : application.applicationDetails.transferee.fatherOrHusbandName",
-                  "errorMessage": "ES_ERR_FATHER_HUSBAND_NAME"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 5 ? 'ES_ERR_FATHER_HUSBAND_NAME_FIVE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
                 },
                 {
                   "label": "ES_DOB_LABEL",
@@ -603,9 +605,10 @@
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.transferee.address",
                   "path": "transferee.address",
+                  "pattern": "address",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.address : application.applicationDetails.transferee.address",
-                  "errorMessage": "ES_ERR_ADDRESS"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.address ? applicationDetails.transferee.address.length < 5 ? 'ES_ERR_ADDRESS_FIVE' : applicationDetails.transferee.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_PURCHASER_TRANSFEREE_MOBILENUMBER_LABEL",
@@ -624,7 +627,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred",
                   "path": "transferee.percentageOfShareTransferred",
                   "pattern": "Percentage",
-                  "errorMessage": "ES_ERR_PERCENTAGE"
+                  "errorMessage": "'ES_ERR_PERCENTAGE'"
                 },
                 {
                   "label": "ES_REMAINING_SHARE_PERCENTAGE",
@@ -652,7 +655,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
-                  "errorMessage": "ES_ERR_REGISTRATION_NUMBER"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 5 ? 'ES_ERR_REGISTRATION_NUMBER_FIVE' : applicationDetails.registrationNumber.length > 150 ? 'ES_ERR_REGISTRATION_NUMBER_ONEFIVEZERO' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
                 },
                 {
                   "label": "ES_DATE_OF_REGISTRATION_LABEL",
@@ -817,7 +820,7 @@
         },
         {
           "state": "ES_PENDING_PAYMENT",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs {totalDue} to proceed further.",
           "modes": {
             "email": {
               "enabled": false,

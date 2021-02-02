@@ -11,7 +11,7 @@
             {
               "type": "length",
               "params": {
-                "min": 0,
+                "min": 3,
                 "max": 100
               }
             }
@@ -142,7 +142,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -233,7 +233,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -274,7 +274,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -720,8 +720,9 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferee.name",
                   "path": "transferee.name",
+                  "pattern": "alphabet",
                   "visibility": "application.applicationDetails.transferee.type !== 'Existing'",
-                  "errorMessage": "ES_ERR_LEGAL_BENEFICIARY_NAME",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 5 ? 'ES_ERR_LEGAL_BENEFICIARY_NAME_FIVE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_LEGAL_BENEFICIARY_NAME_ONEFIVEZERO' : 'ES_ERR_LEGAL_BENEFICIARY_NAME' : 'ES_ERR_LEGAL_BENEFICIARY_NAME'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
                 },
                 {
@@ -730,9 +731,10 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferee.fatherOrHusbandName",
                   "path": "transferee.fatherOrHusbandName",
+                  "pattern": "alphabet",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianName : application.applicationDetails.transferee.fatherOrHusbandName",
-                  "errorMessage": "ES_ERR_FATHER_HUSBAND_NAME"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 5 ? 'ES_ERR_FATHER_HUSBAND_NAME_FIVE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
                 },
                 {
                   "label": "ES_RELATION_SHIP_LABEL",
@@ -757,9 +759,10 @@
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.transferee.address",
                   "path": "transferee.address",
+                  "pattern": "address",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.address : application.applicationDetails.transferee.address",
-                  "errorMessage": "ES_ERR_ADDRESS"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.address ? applicationDetails.transferee.address.length < 5 ? 'ES_ERR_ADDRESS_FIVE' : applicationDetails.transferee.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_LEGAL_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
@@ -794,7 +797,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.percentageOfShareTransferred",
                   "path": "transferee.percentageOfShareTransferred",
                   "pattern": "Percentage",
-                  "errorMessage": "ES_ERR_PERCENTAGE"
+                  "errorMessage": "'ES_ERR_PERCENTAGE'"
                 },
                 {
                   "label": "ES_REMAINING_SHARE_PERCENTAGE",
@@ -816,8 +819,9 @@
                   "placeholder": "ES_WITNESS_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].name",
+                  "pattern": "alphabet",
                   "path": "witness..name",
-                  "errorMessage": "ES_ERR_WITNESS_NAME"
+                  "errorMessage": "'ES_ERR_WITNESS_NAME'"
                 },
                 {
                   "label": "ES_DOB_LABEL",
@@ -832,7 +836,8 @@
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].address",
                   "path": "witness..address",
-                  "errorMessage": "ES_ERR_ADDRESS"
+                  "pattern": "address",
+                  "errorMessage": "'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_MOBILE_NUMBER_LABEL",
@@ -841,7 +846,7 @@
                   "jsonPath": "Applications[0].applicationDetails.witness[0].mobileNo",
                   "path": "witness..mobileNo",
                   "pattern": "MobileNo",
-                  "errorMessage": "ES_ERR_MOBILE_NUMBER"
+                  "errorMessage": "'ES_ERR_MOBILE_NUMBER'"
                 }
               ]
             }
@@ -1039,7 +1044,7 @@
         },
         {
           "state": "ES_PENDING_PAYMENT",
-          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs ${totalDue} to proceed further.",
+          "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs {totalDue} to proceed further.",
           "modes": {
             "email": {
               "enabled": false,

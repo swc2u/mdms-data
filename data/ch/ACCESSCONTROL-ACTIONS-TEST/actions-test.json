@@ -13497,7 +13497,7 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "queryParams": "type=refund",
-    "navigationURL": "/estate/property-search",
+    "navigationURL": "/estate/refund-Emd",
     "leftIcon": "editor:attach-money"
   },
   {
@@ -14181,6 +14181,84 @@
     "queryParams": "branchType=MANI_MAJRA&type=payment",
     "navigationURL": "/estate/property-search",
     "leftIcon": "action:payment"
+  },
+  {
+    "id": 30139,
+    "name": "EstateCourtCaseReport",
+    "url": "/report/rainmaker-es/EstateCourtCaseReport/_get",
+    "displayName": "rainmaker-es-EstateCourtCaseReport",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "report",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 30140,
+    "name": "EstateCourtCaseReport",
+    "url": "url",
+    "displayName": "ES Estate court case Report",
+    "orderNumber": 3,
+    "parentModule": "rainmaker-es",
+    "enabled": true,
+    "serviceCode": "ES",
+    "code": "null",
+    "path": "ES EstateServcies.ES Court Case Reports.ES Court cases",
+    "navigationURL": "report/rainmaker-es/EstateCourtCaseReport",
+    "leftIcon": "action:assignment",
+    "rightIcon": ""
+  },
+  {
+    "id": 30141,
+    "name": "EstateCourtCaseReport",
+    "url": "/report/rainmaker-es/EstateCourtCaseReport/metadata/_get",
+    "displayName": "rainmaker-es-EstateCourtCaseReport",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "report",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 30142,
+    "name": "EstateCourtCaseDetailsReport",
+    "url": "/report/rainmaker-es/EstateCourtCaseDetailsReport/_get",
+    "displayName": "rainmaker-es-EstateCourtCaseDetailsReport",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "report",
+    "code": "null",
+    "path": ""
+  },
+  {
+    "id": 30143,
+    "name": "EstateCourtCaseDetailsReport",
+    "url": "url",
+    "displayName": "ES Estate court case Details Report",
+    "orderNumber": 3,
+    "parentModule": "rainmaker-es",
+    "enabled": true,
+    "serviceCode": "ES",
+    "code": "null",
+    "path": "ES EstateServcies.ES Court Case Reports.ES Court Case Details",
+    "navigationURL": "report/rainmaker-es/EstateCourtCaseDetailsReport",
+    "leftIcon": "action:assignment",
+    "rightIcon": ""
+  },
+  {
+    "id": 30144,
+    "name": "EstateCourtCaseDetailsReport",
+    "url": "/report/rainmaker-es/EstateCourtCaseDetailsReport/metadata/_get",
+    "displayName": "rainmaker-es-EstateCourtCaseDetailsReport",
+    "orderNumber": 1,
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "report",
+    "code": "null",
+    "path": ""
   },
   	{
     "id": 30031,
