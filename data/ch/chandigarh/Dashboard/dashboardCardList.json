@@ -3,13 +3,13 @@
   "moduleName": "dashboard",
   "dashboardCardList": [
     {
-    	"cardName" : "DASHBOARD_1",
+    	"cardName" : "Pgr_dashboard_1",
 		"roles": ["EMPLOYEE"],
 		"icon": "material-icons module-page-icon",
 		"route": "PGRDashboard"
     },
 	{
-		"cardName" : "DASHBOARD_2",
+		"cardName" : "Hc_dashboard_1",
 		"roles": ["HC_COMMISSIONERMCC"],
 		"icon": "material-icons module-page-icon",
 		"route": "HCDashboard"
