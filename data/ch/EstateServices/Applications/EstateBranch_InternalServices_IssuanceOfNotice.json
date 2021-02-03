@@ -89,7 +89,22 @@
         },
         {
           "path": "timeOfHearing",
-          "required": true
+          "required": true,
+          "validations": [
+            {
+              "type": "date-range",
+              "params": {
+                "start": {
+                  "unit": "second",
+                  "value": 0
+                },
+                "end": {
+                  "unit": "year",
+                  "value": 10
+                }
+              }
+            }
+          ]
         },
         {
           "path": "courtCases",
