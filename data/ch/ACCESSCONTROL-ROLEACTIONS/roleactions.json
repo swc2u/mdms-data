@@ -17265,6 +17265,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": 1801,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SUPERUSER",
 			"actionid": 1744,
 			"actioncode": "",
@@ -33773,6 +33779,12 @@
 		},
 		{
 			"rolecode": "EMPLOYEE",
+			"actionid": 4066,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
 			"actionid": 4066,
 			"actioncode": "",
 			"tenantId": "ch"
