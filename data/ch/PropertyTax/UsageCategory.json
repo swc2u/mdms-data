@@ -29,7 +29,7 @@
     },
 	{
       "name": "IT Park",
-      "code": "ITPark",
+      "code": "ITPARK",
       "active": true
     },
     {
@@ -47,19 +47,40 @@
       "code": "INTEGRATEDPROJECTS",
       "active": true
     },
-    {
-      "name": "Transit Oriented Development (TOD)",
-      "code": "TRANSITORIENTEDDEVELOPMENT",
-      "active": true
-    },
+   
     {
       "name": "Plotted",
       "code": "RESIDENTIAL.PLOTTED",
       "active": true
     },
 	{
-      "name": "Grouped",
+      "name": "Grouped Housing",
       "code": "RESIDENTIAL.GROUPED",
+      "active": true
+    },
+	{
+      "name": "Village Houses",
+      "code": "RESIDENTIAL.VILLAGE",
+      "active": true
+    },
+	{
+      "name": "Government Housing",
+      "code": "RESIDENTIAL.GOVERNMENTHOUSING",
+      "active": true
+    },
+	{
+      "name": "CHB Dwelling Units",
+      "code": "RESIDENTIAL.CHBDWELLINGUNITS",
+      "active": true
+    },
+	{
+      "name": "Rehabilitation colonies",
+      "code": "RESIDENTIAL.REHABILITATION",
+      "active": true
+    },
+	{
+      "name": "Independent floor in Plotted House",
+      "code": "RESIDENTIAL.INTEPENDENTFLOOR",
       "active": true
     },
 	{
@@ -79,7 +100,7 @@
     },
 	{
       "name": "COMMERCIAL(converted from Industrial)",
-      "code": "COMMERCIAL.INDUSTRIALCONVERTED",
+      "code": "COMMERCIAL.INDUSTRIALCONVERTEDCOMMERCIAL",
       "active": true
     },
 	{
