@@ -89,19 +89,7 @@
         },
         {
           "path": "timeOfHearing",
-          "required": true,
-          "validations": [
-            {
-              "type": "numeric"
-            },
-            {
-              "type": "minmax",
-              "params": {
-                "min": 0,
-                "max": 23
-              }
-            }
-          ]
+          "required": true
         },
         {
           "path": "courtCases",
@@ -432,7 +420,7 @@
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
                   "placeholder": "ES_TIME_OF_HEARING_PLACEHOLDER",
-                  "type": "TEXT_FIELD",
+                  "type": "TIME_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.timeOfHearing",
                   "path": "timeOfHearing"
                 }
