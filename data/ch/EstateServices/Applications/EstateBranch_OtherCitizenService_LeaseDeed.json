@@ -425,7 +425,7 @@
             },
             {
               "header": "ES_TYPE_OF_EXECUTION_DETAILS",
-              "step": 2,
+              "step": 0,
               "fields": [
                 {
                   "label": "ES_SELECT_TYPE_OF_EXECUTION_LABEL",
