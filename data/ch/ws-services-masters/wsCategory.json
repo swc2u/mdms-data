@@ -1,0 +1,86 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "wsCategory": [
+    {
+		"applicationType": "REGULAR",
+		"category":[
+		{
+			"name":"Category -I Private Houses Within The Sectors",
+			"code":"PRIVATEHOUSESWITHINSECTORS",
+			"active": true
+		},
+		{
+			"name":"Category -IV Society Flats",
+			"code":"SOCIETYFLATS",
+			"active": true
+		},
+		{
+			"name":"Category-II Government Houses",
+			"code":"GOVERNMENTHOUSES",
+			"active": true
+		},
+		{
+			"name":"Category-III C.H.B. Dwelling Units",
+			"code":"CHBDWELLINGUNITS",
+			"active": true
+		},
+		{
+			"name":"Category-V Rehabilitation Colonies",
+			"code":"REHABILITATIONCOLONIES",
+			"active": true
+		},
+		{
+			"name":"Category-IX Second Connection For Upper Floors",
+			"code":"UPPERFLOORCONNECTION",
+			"active": true
+		},
+		{
+			"name":"Category-VII Commercial /Industrial And Other Sites",
+			"code":"COMMERCIAL_INDUSTRIAL_OTHERS",
+			"active": true
+		},
+		{
+			"name":"Category-VI Houses Located In Villages",
+			"code":"VILLAGEHOUSES",
+			"active": true
+		},
+		{
+			"name":"Category-VIII Govt. Premises/Offices/Institutional Sites",
+			"code":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+			"active": true
+		}
+		
+		],
+		"active": true
+	},
+	{
+		"applicationType": "TEMPORARY",
+		"category":[
+		{
+			"name":"Category I-Residential/Commercial/Industrial Sites & Colleges / Institutional & Other Sites",
+			"code":"TEMPORARY_FOR_ALLSITES",
+			"active": true
+		},
+		{
+			"name":"Category II-TEMPORARY WATER CONNECTION FOR SHORT PERIOD FOR MISC. PURPOSE",
+			"code":"TEMPORARY_FOR_SHORT_PERIOD",
+			"active": true
+		},
+		{
+			"name":"Category III- TEMPORARY WATER CONNECTION FOR UN-LIMITED TIME PERIOD",
+			"code":"TEMPORARY_FOR_UNLIMITED_PERIOD",
+			"active": true
+		},
+		{
+			"name":"Category IV- CONNECTION TO CONTRACTORS FOR CONSTRUCTION OF GOVT. BUILDING & OTHER MAJOR BUILDINGS",
+			"code":"TEMPORARY_FOR_CONTRACTORS",
+			"active": true
+		}
+		
+		],
+		"active": true
+	
+	}
+  ]
+}
