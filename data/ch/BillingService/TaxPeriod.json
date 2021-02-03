@@ -590,7 +590,7 @@
          "fromDate":1585679400000,
          "toDate":1901298599000,
          "periodCycle":"TENYEARS",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PATNERSHIP_DEED",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
          "code":"ESEBPD10YRS2020",
          "financialYear":"2020-30"
       },

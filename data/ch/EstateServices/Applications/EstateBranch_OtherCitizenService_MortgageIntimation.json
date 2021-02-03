@@ -1,9 +1,23 @@
 {
   "tenantId": "ch",
   "moduleName": "EstateServices",
-  "ManiMajra_OtherCitizenService_NOC": [
+  "EstateBranch_OtherCitizenService_MortgageIntimation": [
     {
       "fields": [
+        {
+          "path": "mortgageType",
+          "required": true,
+          "validations": [
+            {
+              "type": "mdms",
+              "params": {
+                "moduleName": "EstateServices",
+                "masterName": "intimationToMortagage",
+                "filter": "intimationToMortagage..code"
+              }
+            }
+          ]
+        },
         {
           "path": "owner",
           "required": true,
@@ -23,15 +37,37 @@
           ]
         },
         {
-          "path": "areaToBeConverted",
+          "path": "bankName",
           "required": true,
           "validations": [
             {
               "type": "length",
               "params": {
-                "min": 1,
-                "max": 100000
+                "min": 3,
+                "max": 150
               }
+            }
+          ]
+        },
+        {
+          "path": "reasonForMortgage",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 3,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "loanAmount",
+          "required": true,
+          "validations": [
+            {
+              "type": "numeric"
             }
           ]
         },
@@ -53,75 +89,129 @@
               }
             }
           ]
+        },
+        {
+          "path": "courtCases",
+          "required": false,
+          "validations": [
+            {
+              "type": "object"
+            }
+          ]
+        },
+        {
+          "path": "courtCases.estateOfficerCourt",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 250
+              }
+            }
+          ]
+        },
+        {
+          "path": "courtCases.commissionersCourt",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 250
+              }
+            }
+          ]
+        },
+        {
+          "path": "courtCases.chiefAdministratorsCourt",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 250
+              }
+            }
+          ]
+        },
+        {
+          "path": "courtCases.advisorToAdminCourt",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 250
+              }
+            }
+          ]
+        },
+        {
+          "path": "courtCases.honbleDistrictCourt",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 250
+              }
+            }
+          ]
+        },
+        {
+          "path": "courtCases.honbleHighCourt",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 250
+              }
+            }
+          ]
+        },
+        {
+          "path": "courtCases.honbleSupremeCourt",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 250
+              }
+            }
+          ]
         }
       ],
       "documentList": [
         {
-          "code": "AFFIDAVIT_REGARDING_INSTRUCTION",
+          "code": "SELF_ATTESTED_COPY_OF_MORTGAGE_AGREEMENT",
           "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
-          "description": "AFFIDAVIT_REGARDING_INSTRUCTION_DESCRITPTION"
-        },
-        {
-          "code": "REPORT_OF_HALQA_PATWARI",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "REPORT_OF_HALQA_PATWARI_DESCRITPTION"
-        },
-        {
-          "code": "INDEMNITY_BOND_DULY_ATTESTED",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "INDEMNITY_BOND_DULY_ATTESTED_DESCRIPTION"
-        },
-        {
-          "code": "SITE_PLAN_DULY_SIGNED",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "SITE_PLAN_DULY_SIGNED_DESCRIPTION"
-        },
-        {
-          "code": "ORIGINAL_INTQAL",
-          "required": false,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "ORIGINAL_INTQAL_DESCRIPTION"
-        },
-        {
-          "code": "IDENTIFICATION_OF_APPLICANTS",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "IDENTIFICATION_OF_APPLICANTS_DESCRIPTION"
-        },
-        {
-          "code": "NO_DUE_FROM_SDE",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "NO_DUE_FROM_SDE_DESCRIPTION"
-        },
-        {
-          "code": "NO_DUE_FROM_PROPERTY_TAX",
-          "required": false,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "NO_DUE_FROM_PROPERTY_TAX_DESCRIPTION"
-        },
-        {
-          "code": "OWNERSHIP_PROOF_OF_PROPERTY",
-          "required": true,
-          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
-          "fileType": "ALLTYPES",
-          "description": "OWNERSHIP_PROOF_OF_PROPERTY_DESCRIPTION"
+          "description": "SELF_ATTESTED_COPY_OF_MORTGAGE_AGREEMENT_DESCRIPTION"
         }
       ],
       "uiConfig": {
         "dataSources": [
+          {
+            "name": "typesOfMortgage",
+            "type": "mdms",
+            "cacheable": true,
+            "lazyload": true,
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "IntimationToMortagage"
+            }
+          },
           {
             "name": "owners",
             "type": "path",
@@ -166,8 +256,8 @@
                   "type": "date"
                 },
                 {
-                  "label": "ES_SERVICE_CATEGORY_LABEL",
-                  "jsonPath": "property.propertyDetails.serviceCategory"
+                  "label": "ES_DUE_AMOUNT_LABEL",
+                  "jsonPath": "property.propertyDetails.dueAmount"
                 }
               ]
             },
@@ -196,8 +286,16 @@
               "type": "FORM",
               "fields": [
                 {
-                  "label": "ES_SELECT_OWNERS_LABEL",
-                  "placeholder": "ES_SELECT_OWNERS_PLACEHOLDER",
+                  "label": "ES_SELECT_TYPE_OF_MORTGAGE_LABEL",
+                  "placeholder": "ES_SELECT_TYPE_OF_MORTGAGE_PLACEHOLDER",
+                  "type": "DROP_DOWN",
+                  "jsonPath": "Applications[0].applicationDetails.mortgageType",
+                  "path": "mortgageType",
+                  "dataSource": "typesOfMortgage"
+                },
+                {
+                  "label": "ES_SELECT_OWNER_LABEL",
+                  "placeholder": "ES_SELECT_OWNER_PLACEHOLDER",
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.owner.id",
                   "path": "owner.id",
@@ -206,41 +304,74 @@
                 {
                   "label": "ES_FATHER_HUSBAND_NAME_LABEL",
                   "placeholder": "ES_FATHER_HUSBAND_NAME_PLACEHOLDER",
-                  "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.owner.guardianName",
                   "disabled": true,
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.guardianName",
                   "prefillValue": "selectedOwner.ownerDetails.guardianName"
                 },
                 {
                   "label": "ES_ADDRESS_LABEL",
                   "placeholder": "ES_ADDRESS_PLACEHOLDER",
-                  "type": "TEXT_AREA",
-                  "jsonPath": "Applications[0].applicationDetails.owner.address",
                   "disabled": true,
+                  "type": "TEXT_AREA",
+                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.address",
                   "prefillValue": "selectedOwner.ownerDetails.address"
                 },
                 {
-                  "label": "ES_OWNER_MOBILE_NUMBER_LABEL",
+                  "label": "ES_MOBILE_NUMBER_LABEL",
                   "placeholder": "ES_MOBILE_NUMBER_PLACEHOLDER",
-                  "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.owner.mobileNumber",
                   "disabled": true,
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.mobileNumber",
                   "prefillValue": "selectedOwner.ownerDetails.mobileNumber"
                 },
                 {
-                  "label": "ES_SHARE_LABEL",
-                  "placeholder": "ES_SHARE_PLACEHOLDER",
+                  "label": "ES_OWNER_SHARE_LABEL",
+                  "placeholder": "ES_OWNER_SHARE_PLACEHOLDER",
+                  "disabled": true,
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.share",
-                  "disabled": true,
                   "prefillValue": "selectedOwner.share"
                 },
                 {
-                  "label": "ES_AREA_TO_BE_CONVERTED",
-                  "placeholder": "ES_AREA_TO_BE_CONVERTED_PLACEHOLDER",
+                  "label": "ES_CP_NUMBER_LABEL",
+                  "placeholder": "ES_CP_NUMBER_PLACEHOLDER",
+                  "disabled": true,
                   "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.areaToBeConverted",
-                  "path": "areaToBeConverted"
+                  "jsonPath": "Applications[0].applicationDetails.owner.cpNumber",
+                  "prefillValue": "selectedOwner.cpNumber"
+                }
+              ]
+            },
+            {
+              "header": "ES_LOAN_DETAILS_HEADER",
+              "type": "FORM",
+              "fields": [
+                {
+                  "label": "ES_NAME_OF_BANK_OR_FINANCIAL_INSTITUTION_LABEL",
+                  "placeholder": "ES_NAME_OF_BANK_OR_FINANCIAL_INSTITUTION_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.bankName",
+                  "path": "bankName",
+                  "pattern": "alphabet",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.bankName ? applicationDetails.bankName.length < 5 ? 'ES_ERR_BANK_NAME_FIVE' : applicationDetails.bankName.length > 150 ? 'ES_ERR_BANK_NAME_ONEFIVEZERO' : 'ES_ERR_BANK_NAME' : 'ES_ERR_BANK_NAME'"
+                },
+                {
+                  "label": "ES_PURPOSE_OF_MORTGAGE_OR_LOAN_LABEL",
+                  "placeholder": "ES_PURPOSE_OF_MORTGAGE_OR_LOAN_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.reasonForMortgage",
+                  "path": "reasonForMortgage",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.reasonForMortgage ? applicationDetails.reasonForMortgage.length < 5 ? 'ES_ERR_MORTGAGE_PURPOSE_FIVE' : applicationDetails.reasonForMortgage.length > 150 ? 'ES_ERR_MORTGAGE_PURPOSE_ONEFIVEZERO' : 'ES_ERR_MORTGAGE_PURPOSE' : 'ES_ERR_MORTGAGE_PURPOSE'"
+                },
+                {
+                  "label": "ES_LOAN_AMOUNT_LABEL",
+                  "placeholder": "ES_LOAN_AMOUNT_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "path": "loanAmount",
+                  "jsonPath": "Applications[0].applicationDetails.loanAmount",
+                  "pattern": "numeric-only",
+                  "errorMessage": "ES_ERR_LOAN_AMOUNT"
                 }
               ]
             }
@@ -286,8 +417,8 @@
                   "type": "date"
                 },
                 {
-                  "label": "ES_SERVICE_CATEGORY_LABEL",
-                  "jsonPath": "property.propertyDetails.serviceCategory"
+                  "label": "ES_DUE_AMOUNT_LABEL",
+                  "jsonPath": "Applications[0].property.propertyDetails.dueAmount"
                 }
               ]
             },
@@ -301,136 +432,56 @@
                 },
                 {
                   "label": "ES_FATHER_HUSBAND_NAME_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.guardianName"
+                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.guardianName"
                 },
                 {
                   "label": "ES_ADDRESS_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.address"
+                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.address"
                 },
                 {
-                  "label": "ES_OWNER_MOBILE_NUMBER_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.owner.mobileNumber"
+                  "label": "ES_MOBILE_NUMBER_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.mobileNumber"
                 },
                 {
-                  "label": "ES_SHARE_LABEL",
+                  "label": "ES_OWNER_SHARE_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.owner.share"
                 },
                 {
-                  "label": "ES_AREA_TO_BE_CONVERTED",
-                  "jsonPath": "Applications[0].applicationDetails.areaToBeConverted"
+                  "label": "ES_CP_NUMBER_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.owner.cpNumber"
                 }
               ]
             },
             {
-              "header": "ES_SITE_REPORT_DETAILS_HEADER",
+              "header": "ES_LOAN_DETAILS_HEADER",
+              "step": 0,
               "fields": [
                 {
-                  "label": "ES_PARTICULARS_OF_HOUSE_OR_SHOP_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.particularsOfHouse"
+                  "label": "ES_NAME_OF_BANK_OR_FINANCIAL_INSTITUTION_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.bankName"
                 },
                 {
-                  "label": "ES_HOUSE_AREA_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.houseArea"
+                  "label": "ES_PURPOSE_OF_MORTGAGE_OR_LOAN_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.reasonForMortgage"
                 },
                 {
-                  "label": "ES_OWNERSHIP_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.ownership"
-                },
-                {
-                  "label": "ES_POSSESSION_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.possession"
-                },
-                {
-                  "label": "ES_MODE_OF_OWNERSHIP_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.modeOfOwnership"
-                },
-                {
-                  "label": "ES_HEIGHT_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.height"
-                },
-                {
-                  "label": "ES_CANTILEVER_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.cantilever"
-                },
-                {
-                  "label": "ES_NUMBER_OF_FLOORS_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.noOfFloors"
-                },
-                {
-                  "label": "ES_ENCROACHMENT_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.encroachment"
-                },
-                {
-                  "label": "ES_VIOLATION_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.violation"
-                },
-                {
-                  "label": "ES_DIMENSION_OF_BUILDING_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.dimensionOfBuilding"
-                },
-                {
-                  "label": "ES_AREA_PLACEHOLDER",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.area"
-                },
-                {
-                  "label": "ES_EXCESS_AREA_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.excessArea"
-                },
-                {
-                  "label": "ES_IS_COMMERCIAL_ACTIVITY_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.isCommercialActivity"
-                },
-                {
-                  "label": "ES_COMMERCIAL_ACTIVITY_AREA_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.commercialActivityArea"
-                },
-                {
-                  "label": "ES_DAIRY_OR_KEEPING_CATTLE_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.runningDairy"
-                },
-                {
-                  "label": "ES_DEVELOPMENT_CHARGES_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.developmentCharges"
-                },
-                {
-                  "label": "ES_COMPOSITION_FEES_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.compositionFees"
-                },
-                {
-                  "label": "ES_COMPOSITION_FEES_UNAUTHORIZED_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.compositionFeeUnauthorized"
-                },
-                {
-                  "label": "ES_CONVERSION_CHARGES_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.conversionCharges"
-                },
-                {
-                  "label": "ES_TOTAL_CHARGES_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.totalChanges"
-                },
-                {
-                  "label": "ES_DATE_OF_INSPECTION_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.siteReport.dateOfInspection"
+                  "label": "ES_LOAN_AMOUNT_LABEL",
+                  "jsonPath": "Applications[0].applicationDetails.loanAmount"
                 }
               ]
             },
             {
               "header": "ES_DOCUMENT_DETAILS_HEADER",
+              "type": "DOCUMENTS",
               "step": 1,
-              "type": "DOCUMENTS",
               "sourceJsonPath": "temp[0].reviewDocData"
-            },
-            {
-              "header": "ES_SAMPLE_SITE_MAP_HEADER",
-              "type": "DOCUMENTS",
-              "sourceJsonPath": "temp[0].reviewSampleSiteMap"
             }
           ]
         }
       },
       "notifications": [
         {
-          "state": "ES_MM_PENDING_DS_VERIFICATION",
+          "state": "ES_PENDING_DS_VERIFICATION",
           "content": "Hi {applicationDetails.owner.name}, \n Your application for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been received. Please note your application number {applicationNumber} for further reference.",
           "modes": {
             "email": {
@@ -441,36 +492,16 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNumber}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
-            "event": {
+             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
         {
-          "state": "ES_MM_PENDING_DA_FEE",
-          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
-          "modes": {
-            "email": {
-              "enabled": true,
-              "html": false,
-              "to": "{createdBy.emailId}",
-              "subject": "CSCL - Intimation for application {applicationNumber}"
-            },
-            "sms": {
-              "enabled": true,
-              "to": "{applicationDetails.owner.mobileNumber}"
-            },
-            "event": {
-              "enabled": true,
-              "to": "{createdBy.uuid}"
-            }
-          }
-        },
-        {
-          "state": "ES_MM_PENDING_PAYMENT",
+          "state": "ES_PENDING_PAYMENT",
           "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs {totalDue} to proceed further.",
           "modes": {
             "email": {
@@ -481,17 +512,17 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNumber}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}",
-              "isPayLink": true
+             "isPayLink" : true
             }
           }
         },
         {
-          "state": "ES_MM_PENDING_CLARIFICATION",
+          "state": "ES_PENDING_CLARIFICATION",
           "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
           "modes": {
             "email": {
@@ -502,16 +533,16 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNumber}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
-            "event": {
+             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
         {
-          "state": "ES_MM_REJECTED",
+          "state": "ES_REJECTED",
           "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
           "modes": {
             "email": {
@@ -522,9 +553,29 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNumber}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
-            "event": {
+             "event": {
+              "enabled": true,
+              "to": "{createdBy.uuid}"
+            }
+          }
+        },
+        {
+          "state": "ES_PENDING_DA_FEE",
+          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} is under process. We will notify your payment details soon.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{createdBy.emailId}",
+              "subject": "CSCL - Intimation for application {applicationNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
+            },
+             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
@@ -542,9 +593,9 @@
             },
             "sms": {
               "enabled": true,
-              "to": "{applicationDetails.owner.mobileNumber}"
+              "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
             },
-            "event": {
+             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
@@ -552,7 +603,7 @@
         },
         {
           "state": "PAYMENT_NOTIFICATION_PAYER",
-          "content": "Hi {payer.name}, \n A payment of Rs {payment} has been collected successfully towards your application no. {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} . Your receipt no. for future reference is {recieptNumber}.",
+          "content": "Hi {payer.name}, \n A payment of Rs {paymentAmount} has been collected successfully towards your application no. {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} . Your receipt no. for future reference is {recieptNumber}.",
           "modes": {
             "email": {
               "enabled": true,
@@ -564,39 +615,39 @@
               "enabled": true,
               "to": "{payer.mobileNumber}"
             },
-            "event": {
+             "event": {
               "enabled": true,
               "to": "{createdBy.uuid}"
             }
           }
         },
-        {
-          "state": "ES_MM_APPROVED",
-          "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
-          "modes": {
-            "email": {
-              "enabled": true,
-              "html": false,
-              "to": "{createdBy.emailId}",
-              "subject": "CSCL - Intimation for application {applicationNumber}"
-            },
-            "sms": {
-              "enabled": true,
-              "to": "{applicationDetails.owner.mobileNumber}"
-            },
-            "event": {
-              "enabled": true,
-              "to": "{createdBy.uuid}"
+          {
+            "state": "ES_APPROVED",
+            "content": "Hi {applicationDetails.owner.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been approved.",
+            "modes": {
+              "email": {
+                "enabled": true,
+                "html": false,
+                "to": "{createdBy.emailId}",
+                "subject": "CSCL - Intimation for application {applicationNumber}"
+              },
+              "sms": {
+                "enabled": true,
+                "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
+              },
+               "event": {
+                "enabled": true,
+                "to": "{createdBy.uuid}"
+              }
             }
-          }
         }
       ],
-      "feePercentGST": [],
-      "fees": [
+      "feePercentGST" : [],
+	  "fees": [
         {
           "category": "CAT.RESIDENTIAL",
           "subCategory": "*",
-          "amount": 6000.0
+          "amount": 5000.0
         },
         {
           "category": "CAT.COMMERCIAL",
@@ -606,12 +657,12 @@
         {
           "category": "CAT.COMMERCIAL",
           "subCategory": "SUBCAT.SCF",
-          "amount": 10000.0
+          "amount": 5000.0
         },
         {
           "category": "CAT.COMMERCIAL",
           "subCategory": "SUBCAT.SCO",
-          "amount": 10000.0
+          "amount": 5000.0
         },
         {
           "category": "CAT.COMMERCIAL",
@@ -619,9 +670,9 @@
           "amount": 0.0
         },
         {
-          "category": "*",
-          "subCategory": "*",
-          "amount": 100.0
+          "category" : "*",
+          "subCategory" : "*",
+          "amount" : 100.0
         }
       ]
     }

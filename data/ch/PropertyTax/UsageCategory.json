@@ -3,120 +3,225 @@
   "moduleName": "PropertyTax",
   "UsageCategory": [
     {
-      "name": "Domestic",
-      "code": "DOMESTIC",
-      "active": true,
-      "fromFY": "2020-21"
+      "name": "Residential",
+      "code": "RESIDENTIAL",
+      "active": true
     },
     {
-      "name": "Commercial",
+      "name": "Commercial Use",
       "code": "COMMERCIAL",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
+      "active": true
     },    
     {
-      "name": "Institutional",
-      "code": "INSTITUTIONAL",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
+      "name": "Educational institutes",
+      "code": "EDUCATIONALINSTITUTES",
+      "active": true
     },
 	{
-      "name": "Industrial",
+      "name": "Industrial Use",
       "code": "INDUSTRIAL",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
+      "active": true
     },
 	{
-      "name": "Marla House",
-      "code": "DOMESTIC.MARLA_HOUSE",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
-    },
-    {
-      "name": "Chandigarh Hosing Board constructed flats",
-      "code": "DOMESTIC.FLATS",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 100,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
-    },
-    {
-      "name": "Hotels/Malls/Cinema",
-      "code": "COMMERCIAL.HOTELS_MALLS_CINEMA",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
-    },
-    {
-      "name": "General Booths",
-      "code": "COMMERCIAL.GENERAL_BOOTHS",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
-    },
-    {
-      "name": "SCF/SCO General Trade",
-      "code": "COMMERCIAL.SCF_SCO_GENERAL_TRADE",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
-    },
-    {
-      "name": "SCF/SCO Water Consuming Business",
-      "code": "COMMERCIAL.SCF_SCO_WCB",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
+      "name": "Public / Semi- Public Buildings",
+      "code": "PUBLIC",
+      "active": true
     },
 	{
-      "name": "Other Commercial",
-      "code": "COMMERCIAL.OTHER_COMMERCIAL",
-      "active": true,
-      "fromFY": "2020-21",
-      "exemption": {
-        "rate": 0,
-        "maxAmount": 0,
-        "flatAmount": 0
-      }
+      "name": "IT Park",
+      "code": "ITPARK",
+      "active": true
+    },
+    {
+      "name": "Railway Station, Chandigarh",
+      "code": "RAILWAYSTATION",
+      "active": true
+    },
+    {
+      "name": "IT Habitat",
+      "code": "ITHABITAT",
+      "active": true
+    },
+    {
+      "name": "Integrated projects",
+      "code": "INTEGRATEDPROJECTS",
+      "active": true
+    },
+   
+    {
+      "name": "Plotted",
+      "code": "RESIDENTIAL.PLOTTED",
+      "active": true
+    },
+	{
+      "name": "Grouped Housing",
+      "code": "RESIDENTIAL.GROUPED",
+      "active": true
+    },
+	{
+      "name": "Village Houses",
+      "code": "RESIDENTIAL.VILLAGE",
+      "active": true
+    },
+	{
+      "name": "Government Housing",
+      "code": "RESIDENTIAL.GOVERNMENTHOUSING",
+      "active": true
+    },
+	{
+      "name": "CHB Dwelling Units",
+      "code": "RESIDENTIAL.CHBDWELLINGUNITS",
+      "active": true
+    },
+	{
+      "name": "Rehabilitation colonies",
+      "code": "RESIDENTIAL.REHABILITATION",
+      "active": true
+    },
+	{
+      "name": "Independent floor in Plotted House",
+      "code": "RESIDENTIAL.INTEPENDENTFLOOR",
+      "active": true
+    },
+	{
+      "name": "SCO’S/ SCF’S / BAYSHOP’S/ SEMI INDUSTRIAL/ BOOTHS ETC.",
+      "code": "COMMERCIAL.SCF",
+      "active": true
+    },
+	{
+      "name": "HOTEL",
+      "code": "COMMERCIAL.HOTEL",
+      "active": true
+    },
+	{
+      "name": "MULTIPLEX/MALLS (specifically earmarked sites)",
+      "code": "COMMERCIAL.MULTIPLEXMALLS",
+      "active": true
+    },
+	{
+      "name": "COMMERCIAL(converted from Industrial)",
+      "code": "COMMERCIAL.INDUSTRIALCONVERTEDCOMMERCIAL",
+      "active": true
+    },
+	{
+      "name": "Banquet hall/ marriage palaces",
+      "code": "COMMERCIAL.BANQUET",
+      "active": true
+    },
+	{
+      "name": "Bulk building material",
+      "code": "COMMERCIAL.BULKBUILDING",
+      "active": true
+    },
+	{
+      "name": "Timber site (single storey)",
+      "code": "COMMERCIAL.TIMBER",
+      "active": true
+    },
+	{
+      "name": "Theatre converted into multiplex",
+      "code": "COMMERCIAL.THEATRECONVERTEDMULTIPLEX",
+      "active": true
+    },
+	{
+      "name": "Coal Depot and Petrol Pump",
+      "code": "COMMERCIAL.COALPETROL",
+      "active": true
+    },
+	{
+      "name": "Governed by Architectural Controls",
+      "code": "INDUSTRIAL.ARCHITECTURALCONTROLS",
+      "active": true
+    },
+	{
+      "name": "Governed by Zoning Plans",
+      "code": "INDUSTRIAL.ZONINGPLANS",
+      "active": true
+    },
+	{
+      "name": "Dispensary/Police Station/ Fire Station",
+      "code": "PUBLIC.DISPENSARY",
+      "active": true
+    },
+	{
+      "name": "Hospital",
+      "code": "PUBLIC.HOSPITAL",
+      "active": true
+    },
+	{
+      "name": "Community centre/Janj Ghar",
+      "code": "PUBLIC.COMMUNITY",
+      "active": true
+    },
+	{
+      "name": "Sports Stadium",
+      "code": "PUBLIC.SPORTSTADIUM",
+      "active": true
+    },
+	{
+      "name": "Cultural and Non Academic institutional sites",
+      "code": "PUBLIC.CULTURAL",
+      "active": true
+    },
+	{
+      "name": "Religious",
+      "code": "PUBLIC.RELIGIOUS",
+      "active": true
+    },
+	{
+      "name": "Education city (Sarangpur)",
+      "code": "EDUCATIONALINSTITUTES.EDUCATIONCITY",
+      "active": true
+    },
+	{
+      "name": "Educational/ Academic",
+      "code": "EDUCATIONALINSTITUTES.EDUCATIONALACADEMIC",
+      "active": true
+    },
+	{
+      "name": "Hostels",
+      "code": "EDUCATIONALINSTITUTES.HOSTELS",
+      "active": true
+    },
+	{
+      "name": "Hospital",
+      "code": "ITHABITAT.HOSPITAL",
+      "active": true
+    },
+	{
+      "name": "COMMERCIAL / HOTEL",
+      "code": "ITHABITAT.COMMERCIALHOTEL",
+      "active": true
+    },
+	{
+      "name": "Club",
+      "code": "ITHABITAT.CLUB",
+      "active": true
+    },
+	{
+      "name": "RESIDENTIAL",
+      "code": "ITHABITAT.RESIDENTIAL",
+      "active": true
+    },
+	{
+      "name": "Government housing",
+      "code": "ITHABITAT.GOVERNMENTHOUSING",
+      "active": true
+    },
+	{
+      "name": "Institutional (70%)",
+      "code": "INTEGRATEDPROJECTS.INSTITUTIONAL",
+      "active": true
+    },
+	{
+      "name": "Residential (25%)",
+      "code": "INTEGRATEDPROJECTS.RESIDENTIAL",
+      "active": true
+    },
+	{
+      "name": "Commercial (5%)",
+      "code": "INTEGRATEDPROJECTS.COMMERCIAL",
+      "active": true
     }
   ]
 }
