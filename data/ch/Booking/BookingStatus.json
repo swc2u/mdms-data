@@ -1,0 +1,128 @@
+
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "BookingStatus": [
+                {
+                    "name": "Initiated",
+                    "code": "INITIATED",
+                    "active": true
+                },
+                {
+                    "name": "Approved",
+                    "code": "APPROVED",
+                    "active": true
+                },
+                {
+                    "name": "Rejected",
+                    "code": "REJECT",
+                    "active": true
+                },
+                {
+                    "name": "Panding Payment",
+                    "code": "PENDINGPAYMENT",
+                    "active": true
+                },
+                {
+                    "name": "Panding Approval",
+                    "code": "PENDINGAPPROVAL",
+                    "active": true
+                },
+                {
+                    "name": "Request Verification Pending",
+                    "code": "PENDINGASSIGNMENTDRIVER",
+                    "active": true
+                },
+                {
+                    "name": "Out for Delivery",
+                    "code": "PENDINGUPDATE",
+                    "active": true
+                },
+                {
+                    "name": "Processed",
+                    "code": "DELIVERED",
+                    "active": true
+                },
+                {
+                    "name": "Closed",
+                    "code": "NOTDELIVERED",
+                    "active": true
+                },
+                {
+                    "name": "Applied",
+                    "code": "APPLIED",
+                    "active": true
+                },
+                {
+                    "name": "Re-Initiated",
+                    "code": "RE_INITIATED",
+                    "active": true
+                },
+                {
+                    "name": "Modified",
+                    "code": "MODIFIED",
+                    "active": true
+                },
+                {
+                    "name": "Pending for approval at Clerk/DEO",
+                    "code": "PENDING_FOR_APPROVAL_CLEARK_DEO",
+                    "active": true
+                },
+                {
+                    "name": "Pending for approval at Senior Assistant",
+                    "code": "PENDING_FOR_APPROVAL_SENIOR_ASSISTANT",
+                    "active": true
+                },
+                {
+                    "name": "Pending for approval at Audit Department",
+                    "code": "PENDING_FOR_APPROVAL_AUDIT_DEPARTMENT",
+                    "active": true
+                },
+                {
+                    "name": "Pending for approval at CAO",
+                    "code": "PENDING_FOR_APPROVAL_CAO",
+                    "active": true
+                },
+                {
+                    "name": "Pending for disbursement",
+                    "code": "PENDING_FOR_DISBURSEMENT",
+                    "active": true
+                },
+                {
+                    "name": "Payment Disbursed",
+                    "code": "PAYMENT_DISBURSED",
+                    "active": true
+                },
+                {
+                    "name": "Pending for approval at Supervisor",
+                    "code": "PENDING_FOR_APPROVAL_SUPERVISOR",
+                    "active": true
+                },
+                {
+                    "name": "Pending for approval at OSD",
+                    "code": "PENDING_FOR_APPROVAL_OSD",
+                    "active": true
+                },
+                {
+                    "name": "Offline Initiated",
+                    "code": "OFFLINE_INITIATED",
+                    "active": true
+                },
+                {
+                    "name": "Offline Applied",
+                    "code": "OFFLINE_APPLIED",
+                    "active": true
+                },
+                {
+                    "name": "Offline Re-Initiated",
+                    "code": "OFFLINE_RE_INITIATED",
+                    "active": true
+                },
+                {
+                    "name": "Offline Modified",
+                    "code": "OFFLINE_MODIFIED",
+                    "active": true
+                }
+    ]
+}
+
+
