@@ -54821,6 +54821,18 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+			{
+			"rolecode": "EMPLOYEE",
+			"actionid": 7019,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+			{
+			"rolecode": "EMPLOYEE",
+			"actionid": 7020,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
 		{
 				"rolecode": "REPORT_ADMIN",
 				"actionid": 870,
