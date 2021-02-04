@@ -23483,6 +23483,42 @@
 		"path": ""
 	},
 	{
+		"id": 6024,
+		"name": "geteEmployeeData",
+		"url": "/integration-services/hrms/v1/_getEmpDetails",
+		"displayName": "geteEmployeeData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6025,
+		"name": "geteEmployeeLeaveData",
+		"url": "/integration-services/hrms/v1/_getEmpLeaveDetails",
+		"displayName": "geteEmployeeLeaveData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6026,
+		"name": "geteEmployeeJoiningData",
+		"url": "/integration-services/hrms/v1/_getEmpJoiningDetails",
+		"displayName": "geteEmployeeJoiningData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 7000,
       "name": "MASTER APPROVER CREATE",
       "url": "/bookings/master/approver/_create",
