@@ -23471,6 +23471,18 @@
 		"path": ""
 	},
 	{
+		"id": 6023,
+		"name": "geteAwasData",
+		"url": "/integration-services/eawas/v1/_get",
+		"displayName": "Get eAwas Data",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 7000,
       "name": "MASTER APPROVER CREATE",
       "url": "/bookings/master/approver/_create",

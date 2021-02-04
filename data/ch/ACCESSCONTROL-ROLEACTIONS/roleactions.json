@@ -54684,6 +54684,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6023,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "BK_ADMIN",
 			"actionid": 7000,
 			"actioncode": "",
