@@ -45,11 +45,11 @@
     {
       "name": "Transfer of Ownership on the basis of Partnership deed/Dissolution deed/Change of Director in case of Private Limited Company",
       "code": "ES_TRANSFER_OF_OWNERSHIP_PARTNERSHIP_DEED",
-      "type": "EstateBranch_OwnershipTransfer_PatnershipDeed",
+      "type": "EstateBranch_OwnershipTransfer_PartnershipDeed",
       "active": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "filter": "!!property.propertyDetails.entityType && (property.propertyDetails.entityType === 'ET.PUBLIC_LIMITED_COMPANY' || property.propertyDetails.entityType === 'ET.PRIVATE_LIMITED_COMPANY')",
-      "applicationType": "PatnershipDeed",
+      "applicationType": "PartnershipDeed",
       "branchType": "ESTATE_BRANCH"
     },
     {
@@ -57,7 +57,7 @@
       "code": "ES_TRANSFER_OF_OWNERSHIP_COURT_DECREE",
       "type": "EstateBranch_OwnershipTransfer_FamilySettlement",
       "active": true,
-      "filter": "!!property.propertyDetails.decreeDate && !!property.propertyDetails.courtDetails && !!property.propertyDetails.civilTitledAs",
+      "filter": true,
       "category": "ES_OWNERSHIP_TRANSFER",
       "applicationType": "FamilySettlement",
       "branchType": "ESTATE_BRANCH"
@@ -112,6 +112,15 @@
       "branchType": "ESTATE_BRANCH"
     },
     {
+      "name": "Issuance of Notice",
+      "code": "ES_INTERNALSERVICE_ISSUANCE_OF_NOTICE",
+      "type": "EstateBranch_InternalServices_IssuanceOfNotice",
+      "active": true,
+      "filter": false,
+      "applicationType": "IssuanceOfNotice",
+      "branchType": "ESTATE_BRANCH"
+    },
+    {
       "name": "Execution of Lease Deed/Deed of Conveyance",
       "code": "ES_EXECUTION_OF_LEASE_DEED",
       "type": "EstateBranch_OtherCitizenService_LeaseDeed",
@@ -126,7 +135,18 @@
       "type": "EstateBranch_OtherCitizenService_Mortgage",
       "active": true,
       "filter": true,
+      "category": "ES_MORTGAGE",
       "applicationType": "Mortgage",
+      "branchType": "ESTATE_BRANCH"
+    },
+    {
+      "name": "Permission to Mortgage Intimation",
+      "code": "ES_INTIMATION_TO_MORTGAGE",
+      "type": "EstateBranch_OtherCitizenService_MortgageIntimation",
+      "active": true,
+      "filter": true,
+      "category": "ES_MORTGAGE",
+      "applicationType": "MortgageIntimation",
       "branchType": "ESTATE_BRANCH"
     },
     {

@@ -13,8 +13,8 @@
         "active": true
       },
       {
-        "name": "Occupancy Certificate",
-        "code": "TYPE_OF_NOTICE.OCCUPANCYCERTIFICATE",
+        "name": "Occupation Certificate",
+        "code": "TYPE_OF_NOTICE.OCCUPATIONCERTIFICATE",
         "active": true
       }
     ]

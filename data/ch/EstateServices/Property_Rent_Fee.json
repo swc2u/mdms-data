@@ -103,6 +103,65 @@
               "to": "{notifyingOwner.uuid}"
             }
           }
+        },
+        {
+          "state": "MANI_MAJRA_PROPERTY_RENT",
+          "content": "Hi {notifyingOwner.name} Your Monthly demand rent for Rs.{paymentAmount} for File Number {fileNumber} is generated for the month of {demandDate} is due on 10th of {demandDate} .Please pay along with outstanding dues (if any) to avoid interest",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{notifyingOwner.emailId}",
+              "subject": "CSCL - Intimation for property {fileNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{notifyingOwner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{notifyingOwner.uuid}"
+            }
+          }
+        },{
+          "state": "MANI_MAJRA_PROPERTY_PAYMENT_PAYER",
+          "content": "Hi {payer.name} we acknowedge your payment of Rs.{paymentAmount} bearing Transaction id {transactionNumber} for the property bearing  File Number {fileNumber}  towards {paymentType} amount.",
+          "modes": {
+            "email": {
+              "enabled": true,
+              "html": false,
+              "to": "{payer.emailId}",
+              "subject": "CSCL - Intimation for property {fileNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{payer.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{payer.uuid}"
+            }
+          }
+        },
+        {
+          "state": "MANI_MAJRA_PROPERTY_PAYMENT_OWNER",
+          "content": "Hi {notifyingOwner.name} we acknowedge your payment of Rs.{paymentAmount} bearing Transaction id {transactionNumber} for your property bearing  File Number {fileNumber} towards {paymentType} amount.",
+          "modes": {
+            "email": {
+              "enabled": false,
+              "html": false,
+              "to": "{notifyingOwner.emailId}",
+              "subject": "CSCL - Intimation for property {fileNumber}"
+            },
+            "sms": {
+              "enabled": true,
+              "to": "{notifyingOwner.mobileNumber}"
+            },
+            "event": {
+              "enabled": true,
+              "to": "{notifyingOwner.uuid}"
+            }
+          }
         }
       ]
     } 

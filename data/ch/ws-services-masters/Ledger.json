@@ -1,0 +1,18 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "Ledger": [
+    {
+      
+      "code": "01",
+      "active": true
+    },
+    {
+      
+      "code": "02",
+      "active": true
+    }
+	
+    
+  ]
+  }

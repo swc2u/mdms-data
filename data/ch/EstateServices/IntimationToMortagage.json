@@ -1,0 +1,16 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "IntimationToMortagage": [
+      {
+        "name": "Against Freehold property by Financial Institute",
+        "code": "INTIMATION_TO_MORTAGAGE.FREEHOLDINSTITUTE",
+        "active": true
+      },
+      {
+        "name": "Against Freehold property by Owner",
+        "code": "INTIMATION_TO_MORTAGAGE.FREEHOLDOWNER",
+        "active": true
+      }
+    ]
+  }

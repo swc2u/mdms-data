@@ -1,0 +1,24 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "MeterUnit": [
+    {
+      
+      "id": "01",
+	  "Name":"Litres",
+      "active": true
+    },
+    {
+      
+      "id": "02",
+	  "Name":"Gallons",
+      "active": true
+    },
+    {
+      
+      "id": "03",
+	  "Name":"Cubic Master",
+      "active": true
+    }
+  ]
+  }

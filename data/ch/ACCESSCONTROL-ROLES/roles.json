@@ -811,6 +811,11 @@
       "name": "HC_VIEWER",
       "description": "Horticulture Viewer Employee"
     },
+    {
+      "code": "HC_SWE",
+      "name": "Superitendent(W&E)",
+      "description": "Superitendent(W&E)"
+    },
 	{
       "code": "challanSI",
       "name": "challanSI",
@@ -1083,6 +1088,11 @@
       "description": "Employee who verifies the New Location Open Spaces Under Jurisdiction of MCC booking"
     },
     {
+      "code": "BK_ADMIN",
+      "name": "BK Admin",
+      "description": "Employee who access and modify the report and master data"
+    },
+    {
       "code": "BK_ADMIN_APPROVER",
       "name": "New Location Open Spaces Under Jurisdiction of MCC Publisher",
       "description": "Employee who publish the New Location Open Spaces Under Jurisdiction of MCC booking"
@@ -1341,6 +1351,11 @@
       "code": "REPORT_ADMIN",
       "name": "REPORT_ADMIN",
       "description": "Admin for report module"
+    },
+	{
+      "code": "AGENDA_NOTICE",
+      "name": "AGENDA_NOTICE",
+      "description": "AGENDA_NOTICE"
     }
   ]
 }
