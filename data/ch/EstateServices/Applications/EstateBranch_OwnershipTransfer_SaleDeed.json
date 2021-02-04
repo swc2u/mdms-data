@@ -567,7 +567,7 @@
                   "visibility": "application.applicationDetails.transferee.type !== 'Existing'",
                   "jsonPath": "Applications[0].applicationDetails.transferee.name",
                   "path": "transferee.name",
-                  "errorMessage": "ES_ERR_PURCHASER_NAME",
+                  "errorMessage": "'ES_ERR_PURCHASER_NAME'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
                 },
                 {
@@ -578,7 +578,7 @@
                   "path": "transferee.fatherOrHusbandName",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianName : application.applicationDetails.transferee.fatherOrHusbandName",
-                  "errorMessage": "ES_ERR_FATHER_HUSBAND_NAME"
+                  "errorMessage": "'ES_ERR_FATHER_HUSBAND_NAME'"
                 },
                 {
                   "label": "ES_DOB_LABEL",
@@ -605,7 +605,7 @@
                   "path": "transferee.address",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.address : application.applicationDetails.transferee.address",
-                  "errorMessage": "ES_ERR_ADDRESS"
+                  "errorMessage": "'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_PURCHASER_TRANSFEREE_MOBILENUMBER_LABEL",
