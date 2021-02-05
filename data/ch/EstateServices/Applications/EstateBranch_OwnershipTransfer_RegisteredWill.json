@@ -672,6 +672,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
+                  "pattern":"alphaNumeric",
                   "errorMessage":"ES_ERR_REGISTRATION_NUMBER_THREE"
                 },
                 {

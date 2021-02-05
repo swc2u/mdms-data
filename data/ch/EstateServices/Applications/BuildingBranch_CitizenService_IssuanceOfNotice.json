@@ -520,7 +520,9 @@
                   "placeholder": "ES_VIOLATION_DESCRIPTION_PLACEHOLDER",
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.violationDetails",
-                  "path":"violationDetails"
+                  "path":"violationDetails",
+                  "pattern":"violationdetails",
+                  "errorMessage":"ES_ERR_VIOLATION_DETAIL"
                 }
               ]
             },
