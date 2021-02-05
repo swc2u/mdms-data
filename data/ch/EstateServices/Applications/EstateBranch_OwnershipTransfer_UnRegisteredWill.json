@@ -853,7 +853,7 @@
                   "jsonPath": "Applications[0].applicationDetails.witness[0].name",
                   "pattern": "alphabet",
                   "path": "witness..name",
-                  "errorMessage": "ES_ERR_WITNESS_NAME"
+                  "errorMessage": "'ES_ERR_WITNESS_NAME'"
                 },
                 {
                   "label": "ES_DOB_LABEL",
@@ -869,7 +869,7 @@
                   "pattern": "address",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].address",
                   "path": "witness..address",
-                  "errorMessage": "ES_ERR_ADDRESS"
+                  "errorMessage": "'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_MOBILE_NUMBER_LABEL",
@@ -878,7 +878,7 @@
                   "jsonPath": "Applications[0].applicationDetails.witness[0].mobileNo",
                   "path": "witness..mobileNo",
                   "pattern": "MobileNo",
-                  "errorMessage": "ES_ERR_MOBILE_NUMBER"
+                  "errorMessage": "'ES_ERR_MOBILE_NUMBER'"
                 }
               ]
             }
