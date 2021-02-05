@@ -522,7 +522,7 @@
                   "jsonPath": "Applications[0].applicationDetails.violationDetails",
                   "path":"violationDetails",
                   "pattern":"violationdetails",
-                  "errorMessage":"ES_ERR_VIOLATION_DETAIL"
+                  "errorMessage":"'ES_ERR_VIOLATION_DETAIL'"
                 }
               ]
             },
