@@ -5,23 +5,27 @@
         {
              "name": "Pruning of trees girth upto 90 cm", 
             "code": "PRUNING OF TREES GIRTH LESS THAN OR EQUAL TO 90 CMS",
+			"sla":6,
             "active": true
         },
         {
              "name": "Pruning of trees girth beyond 90 cm",
             "code": "PRUNING OF TREES GIRTH GREATER THAN 90 CMS",
-            "active": true
+            "sla":45,
+			"active": true
         },
         
          {
              "name": "Removal of Dead/Dangerous/Dry Trees or Pollarding of trees",
             "code": "REMOVAL OF DEAD/DANGEROUS/DRY TREES",
-            "active": true
+            "sla":45,
+			"active": true
         },
 	{
              "name": "Felling of Trees (Green trees, including Transplantation cases)",
             "code": "REMOVAL OF GREEN TREES",
-            "active": true
+            "sla":45,
+			"active": true
         }
     ]
 }
