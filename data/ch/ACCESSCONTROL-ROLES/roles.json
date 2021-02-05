@@ -1383,14 +1383,19 @@
       "description": "HDM of Drawing Branch under EE"
     },	
 	{
-      "code": "CHD",
-      "name": "CHD",
-      "description": "CHD of Drawing Branch"
+      "code": "CHDSE",
+      "name": "CHDSE",
+      "description": "CHD of Drawing Branch under SE"
     },	
 	{
-      "code": "HDMCE",
-      "name": "HDMCE",
-      "description": "HDM of Drawing Branch under CE"
+      "code": "CHDCE",
+      "name": "CHDCE",
+      "description": "CHD of Drawing Branch under CE"
+    },	
+	{
+      "code": "SDEHQ",
+      "name": "SDEHQ",
+      "description": "SDEHQ"
     }
   ]
 }
