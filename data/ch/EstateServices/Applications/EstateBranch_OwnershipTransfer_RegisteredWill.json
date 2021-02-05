@@ -672,7 +672,8 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
-                  "errorMessage":"ES_ERR_REGISTRATION_NUMBER_THREE"
+                  "pattern":"alphaNumeric",
+                  "errorMessage":"'ES_ERR_REGISTRATION_NUMBER_THREE'"
                 },
                 {
                   "label": "ES_DATE_OF_REGISTRATION_OF_WILL_LABEL",

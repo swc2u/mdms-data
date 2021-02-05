@@ -740,8 +740,7 @@
                   "placeholder": "ES_PASSED_BY_COURT_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.courtDetails",
-                  "path": "courtDetails",
-                  "errorMessage":"ES_ERR_COURT_FEILD"
+                  "path": "courtDetails"
                 },
                 {
                   "label": "ES_IN_CIVIL_SUIT_TITLE_LABEL",
