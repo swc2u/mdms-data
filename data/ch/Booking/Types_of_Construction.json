@@ -1,0 +1,22 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "Type_of_Construction": [
+        {
+            "name": "New",
+            "id": "1",
+            "code": "New",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Renovation/Alteration/Addition",
+            "id": "2",
+            "code": "Renovation/Alteration/Addition",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+        
+    ]
+}
+
+

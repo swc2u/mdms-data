@@ -1,0 +1,18 @@
+{   "tenantId": "ch"  ,
+"moduleName": "Booking",
+"bookingCancellationRefundCalc":[{
+    "MORETHAN30DAYS": {
+        "refundpercentage": 50
+    },
+    "LETTHAN30MORETHAN15DAYS": {
+        "refundpercentage": 25
+    },
+    "LESSTHAN15DAYS": {
+        "refundpercentage": 0
+    }
+}
+]
+}
+
+
+

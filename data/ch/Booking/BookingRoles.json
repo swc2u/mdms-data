@@ -1,0 +1,71 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "BookingRoles": [
+		{
+		  "code": "BK_OSBM_APPROVER",
+		  "name": "Open Space to Store Building Material Approver"
+		},
+		{
+		  "code": "BK_MCC_HELPDESK_USER",
+		  "name": "Water Tankers Approver"
+		},
+		{
+		  "code": "BK_COMMERCIAL_GROUND_VIEWER",
+		  "name": "Ground for Commercial Purpose Viewer"
+		},
+		{
+		  "code": "BK_MCC_APPROVER",
+		  "name": "Open Spaces Under Jurisdiction of MCC Approver"
+		},
+		{
+		  "code": "BK_OSD_APPROVER",
+		  "name": "New Location Open Spaces Under Jurisdiction of MCC Verifier"
+		},
+		{
+		  "code": "BK_ADMIN_APPROVER",
+		  "name": "New Location Open Spaces Under Jurisdiction of MCC Publisher"
+		},
+		{
+		  "code": "BK_PARKS_AND_COMMUNITY_VIEWER",
+		  "name": "Parks and Community Centre Viewer"
+		},
+		{
+		  "code": "BK_E-SAMPARK-CENTER",
+		  "name": "Parks and Community Centre Offline Applier"
+		},
+		{
+		  "code": "BK_MCC_USER",
+		  "name": "Parks and Community Centre Offline Applier"
+		},
+		{
+		  "code": "BK_CLERK",
+		  "name": "Parks and Community Centre Cancel Request Verifier"
+		},	
+		{
+		  "code": "BK_DEO",
+		  "name": "Parks and Community Centre Cancel Request Verifier"
+		},
+		{
+		  "code": "BK_SENIOR_ASSISTANT",
+		  "name": "Parks and Community Centre Cancel Request Verifier"
+		},
+		{
+		  "code": "AUDIT_DEPARTMENT",
+		  "name": "Parks and Community Centre Cancel Request Verifier"
+		},
+		{
+		  "code": "BK_CHIEF_ACCOUNT_OFFICER",
+		  "name": "Parks and Community Centre Cancel Request Approver"
+		},
+		{
+		  "code": "BK_PAYMENT_PROCESSING_AUTHORITY",
+		  "name": "Parks and Community Centre Cancel Request Payment Processing Authority"
+		},
+		{
+		  "code": "BK_ADMIN",
+		  "name": "Master Data Creator"
+		}       
+    ]
+}
+
+

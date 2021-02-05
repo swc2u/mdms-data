@@ -57,7 +57,7 @@
          "type":"ApnaMandi"
       },
       {
-         "businessService":"Trade License.Registration certificate of Pedal Rickshaw/Loading Rehri",
+         "businessService":"Licensing Branch Services.Registration certificate of Pedal Rickshaw/Loading Rehri",
          "code":"CTL.REHRI_REGISTRATION",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -66,7 +66,7 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Trade License.Issuance of New/Renewal of Driving License for Pedal Rickshaw/Loading Rehri",
+         "businessService":"Licensing Branch Services.Issuance of New/Renewal of Driving License for Pedal Rickshaw/Loading Rehri",
          "code":"CTL.REHRI_DRIVING_LICENSE",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -75,7 +75,7 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Trade License.Dhobi Ghat",
+         "businessService":"Licensing Branch Services.Dhobi Ghat",
          "code":"CTL.DHOBI_GHAT",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -84,7 +84,7 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Trade License.Old Book Market",
+         "businessService":"Licensing Branch Services.Old Book Market",
          "code":"CTL.OLD_BOOK_MARKET",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -93,7 +93,7 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Trade License.Rehri Market Rent (Shed Rent)",
+         "businessService":"Licensing Branch Services.Rehri Market Rent (Shed Rent)",
          "code":"CTL.REHRI_MARKET_RENT",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -102,7 +102,7 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Trade License.Unspecified Receipt/Miscellaneous Receipts",
+         "businessService":"Licensing Branch Services.Unspecified Receipt/Miscellaneous Receipts",
          "code":"CTL.MISC_RECEIPT",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -111,7 +111,7 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Trade License.RTI Fees",
+         "businessService":"Licensing Branch Services.RTI Fees",
          "code":"CTL.RTI",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,

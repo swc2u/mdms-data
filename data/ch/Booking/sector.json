@@ -1,0 +1,844 @@
+{   "tenantId": "ch"  , 
+    "moduleName": "Booking",
+    "Sector": [
+        {
+            "name": "Sector-1",
+            "code": "SECTOR-1",
+            "active": true
+        },
+        {
+            "name": "Sector-2",
+            "code": "SECTOR-2",
+            "active": true
+        },
+        {
+            "name": "Sector-3",
+            "code": "SECTOR-3",
+            "active": true
+        },
+        {
+            "name": "Sector-4",
+            "code": "SECTOR-4",
+            "active": true
+        },
+        {
+            "name": "Sector-5",
+            "code": "SECTOR-5",
+            "active": true
+        },
+        {
+            "name": "Sector-6",
+            "code": "SECTOR-6",
+            "active": true
+        },
+        {
+            "name": "Sector-7",
+            "code": "SECTOR-7",
+            "active": true
+        },
+        {
+            "name": "Sector-8",
+            "code": "SECTOR-8",
+            "active": true
+        },
+        {
+            "name": "Sector-9",
+            "code": "SECTOR-9",
+            "active": true
+        },
+        {
+            "name": "Sector-10",
+            "code": "SECTOR-10",
+            "active": true
+        },
+        {
+            "name": "Sector-11",
+            "code": "SECTOR-11",
+            "active": true
+        },
+        {
+            "name": "Sector-12",
+            "code": "SECTOR-12",
+            "active": true
+        },
+        {
+            "name": "Sector-13",
+            "code": "SECTOR-13",
+            "active": true
+        },
+        {
+            "name": "Sector-14",
+            "code": "SECTOR-14",
+            "active": true
+        },
+        {
+            "name": "Sector-15",
+            "code": "SECTOR-15",
+            "active": true
+        },
+        {
+            "name": "Sector-16",
+            "code": "SECTOR-16",
+            "active": true
+        },
+        {
+            "name": "Sector-17",
+            "code": "SECTOR-17",
+            "active": true
+        },
+        {
+            "name": "Sector-18",
+            "code": "SECTOR-18",
+            "active": true
+        },
+        {
+            "name": "Sector-19",
+            "code": "SECTOR-19",
+            "active": true
+        },
+        {
+            "name": "Sector-20",
+            "code": "SECTOR-20",
+            "active": true
+        },
+        {
+            "name": "Sector-20A",
+            "code": "SECTOR-20A",
+            "active": true
+        },
+        {
+            "name": "Sector-20B",
+            "code": "SECTOR-20B",
+            "active": true
+        },
+        {
+            "name": "Sector-20C",
+            "code": "SECTOR-20C",
+            "active": true
+        },
+        {
+            "name": "Sector-20D",
+            "code": "SECTOR-20D",
+            "active": true
+        },
+        {
+            "name": "Sector-21",
+            "code": "SECTOR-21",
+            "active": true
+        },
+        {
+            "name": "Sector-21A",
+            "code": "SECTOR-21A",
+            "active": true
+        },
+        {
+            "name": "Sector-21B",
+            "code": "SECTOR-21B",
+            "active": true
+        },
+        {
+            "name": "Sector-21C",
+            "code": "SECTOR-21C",
+            "active": true
+        },
+        {
+            "name": "Sector-21D",
+            "code": "SECTOR-21D",
+            "active": true
+        },
+        {
+            "name": "Sector-22",
+            "code": "SECTOR-22",
+            "active": true
+        },
+        {
+            "name": "Sector-22A",
+            "code": "SECTOR-22A",
+            "active": true
+        },
+        {
+            "name": "Sector-22B",
+            "code": "SECTOR-22B",
+            "active": true
+        },
+        {
+            "name": "Sector-22C",
+            "code": "SECTOR-22C",
+            "active": true
+        },
+        {
+            "name": "Sector-22D",
+            "code": "SECTOR-22D",
+            "active": true
+        },
+        {
+            "name": "Sector-23",
+            "code": "SECTOR-23",
+            "active": true
+        },
+        {
+            "name": "Sector-23A",
+            "code": "SECTOR-23A",
+            "active": true
+        },
+        {
+            "name": "Sector-23B",
+            "code": "SECTOR-23B",
+            "active": true
+        },
+        {
+            "name": "Sector-23C",
+            "code": "SECTOR-23C",
+            "active": true
+        },
+        {
+            "name": "Sector-23D",
+            "code": "SECTOR-23D",
+            "active": true
+        },
+        {
+            "name": "Sector-24",
+            "code": "SECTOR-24",
+            "active": true
+        },
+        {
+            "name": "Sector-24A",
+            "code": "SECTOR-24A",
+            "active": true
+        },
+        {
+            "name": "Sector-24B",
+            "code": "SECTOR-24B",
+            "active": true
+        },
+        {
+            "name": "Sector-24C",
+            "code": "SECTOR-24C",
+            "active": true
+        },
+        {
+            "name": "Sector-24D",
+            "code": "SECTOR-24D",
+            "active": true
+        },
+        {
+            "name": "Sector-25",
+            "code": "SECTOR-25",
+            "active": true
+        },
+        {
+            "name": "Sector-26",
+            "code": "SECTOR-26",
+            "active": true
+        },
+        {
+            "name": "Sector-27",
+            "code": "SECTOR-27",
+            "active": true
+        },
+        {
+            "name": "Sector-28",
+            "code": "SECTOR-28",
+            "active": true
+        },
+        {
+            "name": "Sector-29",
+            "code": "SECTOR-29",
+            "active": true
+        },
+        {
+            "name": "Sector-30",
+            "code": "SECTOR-30",
+            "active": true
+        },
+        {
+            "name": "Sector-31",
+            "code": "SECTOR-31",
+            "active": true
+        },
+        {
+            "name": "Sector-32",
+            "code": "SECTOR-32",
+            "active": true
+        },
+        {
+            "name": "Sector-33",
+            "code": "SECTOR-33",
+            "active": true
+        },
+        {
+            "name": "Sector-34",
+            "code": "SECTOR-34",
+            "active": true
+        },
+        {
+            "name": "Sector-35",
+            "code": "SECTOR-35",
+            "active": true
+        },
+        {
+            "name": "Sector-36",
+            "code": "SECTOR-36",
+            "active": true
+        },
+        {
+            "name": "Sector-37",
+            "code": "SECTOR-37",
+            "active": true
+        },
+        {
+            "name": "Sector-38",
+            "code": "SECTOR-38",
+            "active": true
+        },
+        {
+            "name": "Sector-38-WEST",
+            "code": "SECTOR-38-WEST",
+            "active": true
+        },
+        {
+            "name": "Sector-39",
+            "code": "SECTOR-39",
+            "active": true
+        },
+        {
+            "name": "Sector-40",
+            "code": "SECTOR-40",
+            "active": true
+        },
+        {
+            "name": "Sector-41",
+            "code": "SECTOR-41",
+            "active": true
+        },
+        {
+            "name": "Sector-42",
+            "code": "SECTOR-42",
+            "active": true
+        },
+        {
+            "name": "Sector-43",
+            "code": "SECTOR-43",
+            "active": true
+        },
+        {
+            "name": "Sector-44",
+            "code": "SECTOR-44",
+            "active": true
+        },
+        {
+            "name": "Sector-45",
+            "code": "SECTOR-45",
+            "active": true
+        },
+        {
+            "name": "Sector-46",
+            "code": "SECTOR-46",
+            "active": true
+        },
+        {
+            "name": "Sector-47",
+            "code": "SECTOR-47",
+            "active": true
+        },
+        {
+            "name": "Sector-48",
+            "code": "SECTOR-48",
+            "active": true
+        },
+        {
+            "name": "Sector-49",
+            "code": "SECTOR-49",
+            "active": true
+        },
+        {
+            "name": "Sector-50",
+            "code": "SECTOR-50",
+            "active": true
+        },
+        {
+            "name": "Sector-51",
+            "code": "SECTOR-51",
+            "active": true
+        },
+        {
+            "name": "Sector-52",
+            "code": "SECTOR-52",
+            "active": true
+        },
+        {
+            "name": "Sector-53",
+            "code": "SECTOR-53",
+            "active": true
+        },
+        {
+            "name": "Sector-54",
+            "code": "SECTOR-54",
+            "active": true
+        },
+        {
+            "name": "Sector-55",
+            "code": "SECTOR-55",
+            "active": true
+        },
+        {
+            "name": "Sector-56",
+            "code": "SECTOR-56",
+            "active": true
+        },
+        {
+            "name": "Sector-61",
+            "code": "SECTOR-61",
+            "active": true
+        },
+        {
+            "name": "Sector-62",
+            "code": "SECTOR-62",
+            "active": true
+        },
+        {
+            "name": "Sector-63",
+            "code": "SECTOR-63",
+            "active": true
+        },
+        {
+            "name": "Attawa",
+            "code": "ATTAWA",
+            "active": true
+        },
+        {
+            "name": "Badehri ",
+            "code": "BADEHRI ",
+            "active": true
+        },
+        {
+            "name": "Burail",
+            "code": "BURAIL",
+            "active": true
+        },
+        {
+            "name": "Butrela",
+            "code": "BUTRELA",
+            "active": true
+        },
+        {
+            "name": "Dadu Majra",
+            "code": "DADU_MAJRA",
+            "active": true
+        },
+        {
+            "name": "Dhanas",
+            "code": "DHANAS",
+            "active": true
+        },
+        {
+            "name": "Grain Market",
+            "code": "GRAIN_MARKET",
+            "active": true
+        },
+        {
+            "name": "Hallo Majra",
+            "code": "HALLO_MAJRA",
+            "active": true
+        },
+        {
+            "name": "Ind. Area Phase-I",
+            "code": "IND_AREA_PHASE-I",
+            "active": true
+        },
+        {
+            "name": "Ind. Area Phase-II",
+            "code": "IND_AREA_PHASE-II",
+            "active": true
+        },
+        {
+            "name": "Indira Colony",
+            "code": "INDIRA_COLONY",
+            "active": true
+        },
+        {
+            "name": "Kajheri",
+            "code": "KAJHERI",
+            "active": true
+        },
+        {
+            "name": "Khuda Lahora",
+            "code": "KHUDA_LAHORA",
+            "active": true
+        },
+        {
+            "name": "Maloya",
+            "code": "MALOYA",
+            "active": true
+        },
+        {
+            "name": "Manimajra",
+            "code": "MANIMAJRA",
+            "active": true
+        },
+        {
+            "name": "Mauli Jagran",
+            "code": "MAULI_JAGRAN",
+            "active": true
+        },
+        {
+            "name": "Modern Housing Complex Manimajra",
+            "code": "MODERN_HOUSING_COMPLEX_MANIMAJRA",
+            "active": true
+        },
+        {
+            "name": "Palsora",
+            "code": "PALSORA",
+            "active": true
+        },
+        {
+            "name": "Pipliwala Town",
+            "code": "PIPLIWALA_TOWN",
+            "active": true
+        },
+        {
+            "name": "Ram Darbar",
+            "code": "RAM_DARBAR",
+            "active": true
+        },
+        {
+            "name": "Shivalik Enclave-Nac",
+            "code": "SHIVALIK_ENCLAVE-NAC",
+            "active": true
+        },
+        {
+            "name": "Timber Market",
+            "code": "TIMBER_MARKET",
+            "active": true
+        },
+        {
+            "name": "Transport Area",
+            "code": "TRANSPORT_AREA",
+            "active": true
+        },
+        {
+            "name": "Village Dhanas",
+            "code": "VILLAGE_DHANAS",
+            "active": true
+        },
+        {
+            "name": "Khuda Alisher",
+            "code": "KHUDA_ALISHER",
+            "active": true
+        },
+        {
+            "name": "Khuda Jassu",
+            "code": "KHUDA_JASSU",
+            "active": true
+        },
+        {
+            "name": "Indra Awas Colony",
+            "code": "INDRA_AWA_ COLONY",
+            "active": true
+        },
+        {
+            "name": "Karsan Colony",
+            "code": "KARSAN_COLONY",
+            "active": true
+        },
+        {
+            "name": "Bair Majra",
+            "code": "BAIR_MAJRA",
+            "active": true
+        },
+        {
+            "name": "Faidan Burail And Char Taraf Burail",
+            "code": "FAIDAN_BURAIL_AND_CHAR_TARAF_BURAIL",
+            "active": true
+        },
+        {
+            "name": "Sarangpur",
+            "code": "SARANGPUR",
+            "active": true
+        },
+        {
+            "name": "Colony No. 5",
+            "code": "COLONY_NO5",
+            "active": true
+        },
+        {
+            "name": "Brickkiln",
+            "code": "BRICKKILN",
+            "active": true
+        },
+        {
+            "name": "Nizampur Kumbra",
+            "code": "NIZAMPUR_KUMBRA",
+            "active": true
+        },
+        {
+            "name": "Sub Jail. Village Behlana",
+            "code": "SUB_JAIL_VILLAGE_BEHLANA",
+            "active": true
+        },
+        {
+            "name": "Raipurkhurd",
+            "code": "RAIPURKHURD",
+            "active": true
+        },
+        {
+            "name": "Bapudham Transt.Camp-1",
+            "code": "BAPUDHAM_TRANST_CAMP-1",
+            "active": true
+        },
+        {
+            "name": "Bapudham Transt.Camp-III",
+            "code": "BAPUDHAM_TRANST_CAMP-III",
+            "active": true
+        },
+        {
+            "name": "Madrasi Colony Huts",
+            "code": "MADRASI_COLONY_HUTS",
+            "active": true
+        },
+        {
+            "name": "Area Mauli Complex",
+            "code": "AREA_MAULI_COMPLEX",
+            "active": true
+        },
+        {
+            "name": "Ambedkar Awas Yojna",
+            "code": "AMBEDKAR_AWAS_YOJNA",
+            "active": true
+        },
+        {
+            "name": "Charan Singh Colony",
+            "code": "CHARAN_SINGH_COLONY",
+            "active": true
+        },
+        {
+            "name": "Vikas Nagar",
+            "code": "VIKAS_NAGAR",
+            "active": true
+        },
+        {
+            "name": "Housing Board",
+            "code": "HOUSING_BOARD",
+            "active": true
+        },
+        {
+            "name": "Old Manimajra Shanti Nagar",
+            "code": "OLD_MANIMAJRA_SHANTINAGAR",
+            "active": true
+        },
+        {
+            "name": "Mariwala Town",
+            "code": "MARIWALA_TOWN",
+            "active": true
+        },
+        {
+            "name": "Thakurdwara",
+            "code": "THAKURDWARA",
+            "active": true
+        },
+        {
+            "name": "Dhillon Complex",
+            "code": "DHILLON_COMPLEX",
+            "active": true
+        },
+        {
+            "name": "Motor Market",
+            "code": "MOTOR_MARKET",
+            "active": true
+        },
+        {
+            "name": "Darshni Bagh",
+            "code": "DARSHNI_BAGH",
+            "active": true
+        },
+        {
+            "name": "Subhash Nagar",
+            "code": "SUBHASH_NAGAR",
+            "active": true
+        },
+        {
+            "name": "Adarsh Nagar",
+            "code": "ADARSH_NAGAR",
+            "active": true
+        },
+        {
+            "name": "Pipliwala Town",
+            "code": "PIPLIWALA_TOWN",
+            "active": true
+        },
+        {
+            "name": "Gawala Colony",
+            "code": "GAWALA_COLONY",
+            "active": true
+        },
+        {
+            "name": "Race Course And It Park",
+            "code": "RACE_COURSE_AND_ITPARK",
+            "active": true
+        },
+        {
+            "name": "Village Makhan Majra",
+            "code": "VILLAGE_MAKHAN_MAJRA",
+            "active": true
+        },
+        {
+            "name": "Raipurkalan",
+            "code": "RAIPURKALAN",
+            "active": true
+        },
+        {
+            "name": "Kaimbwala",
+            "code": "KAIMBWALA",
+            "active": true
+        },
+        {
+            "name": "Kishangarh",
+            "code": "KISHANGARH",
+            "active": true
+        },
+        {
+            "name": "52 Ews Lig Colony",
+            "code": "52_EWS_LIG_COLONY",
+            "active": true
+        },
+        {
+            "name": "53 Nehru Colony",
+            "code": "53_NEHRU_COLONY",
+            "active": true
+        },
+        {
+            "name": "Rehabilitation Colony",
+            "code": "REHABILITATION_COLONY",
+            "active": true
+        },
+        {
+            "name": "Shahpur Colony",
+            "code": "SHAHPUR_COLONY",
+            "active": true
+        },
+        {
+            "name": "Colony No. 2",
+            "code": "COLONY_NO2",
+            "active": true
+        },
+        {
+            "name": "J And K Colony",
+            "code": "JANDK_COLONY",
+            "active": true
+        },
+        {
+            "name": "Colonies Of Dhanas",
+            "code": "COLONIES_OF_DHANAS",
+            "active": true
+        },
+        {
+            "name": "Kamal Colony",
+            "code": "KAMAL_COLONY",
+            "active": true
+        },
+        {
+            "name": "Reh. Colony Palsora",
+            "code": "REH_COLONY_PALSORA",
+            "active": true
+        },
+        {
+            "name": "Ews Lig Colony",
+            "code": "EWS_LIG_COLONY",
+            "active": true
+        },
+        {
+            "name": "Adarsh Colony",
+            "code": "ADARSH_COLONY",
+            "active": true
+        },
+        {
+            "name": "Colony No.1",
+            "code": "COLONY_NO1",
+            "active": true
+        },
+        {
+            "name": "26E",
+            "code": true
+        },
+        {
+            "name": "Bapudham ",
+            "code": "BAPUDHAM ",
+            "active": true
+        },
+        {
+            "name": "Transit Camp II",
+            "code": "TRANSIT_CAMP_II",
+            "active": true
+        },
+        {
+            "name": "Phase II",
+            "code": "PHASE_II",
+            "active": true
+        },
+        {
+            "name": "Phase 1",
+            "code": "PHASE1",
+            "active": true
+        },
+        {
+            "name": "Ews Housing Board",
+            "code": "EWS_HOUSING_BOARD",
+            "active": true
+        },
+        {
+            "name": "Bapudham Tansit Camp-I",
+            "code": "BAPUDHAM_TANSIT_CAMP-I",
+            "active": true
+        },
+        {
+            "name": "Sanjay Colony",
+            "code": "SANJAY_COLONY",
+            "active": true
+        },
+        {
+            "name": "Colony No 4",
+            "code": "COLONY_NO4",
+            "active": true
+        },
+        {
+            "name": "Ram Darbar-1",
+            "code": "RAM_DARBAR-1",
+            "active": true
+        },
+        {
+            "name": "Ram Darbar-II",
+            "code": "RAM_DARBAR-II",
+            "active": true
+        },
+        {
+            "name": "Mauli Complex Railway Colony",
+            "code": "MAULI_COMPLEX_RAILWAY_COLONY",
+            "active": true
+        },
+        {
+            "name": "Housing Complex And Mohalla Gobindpura",
+            "code": "HOUSING_COMPLEX_AND_MOHALLA_GOBINDPURA",
+            "active": true
+        },
+        {
+            "name": "Behlana",
+            "code": "BEHLANA",
+            "active": true
+        },
+        {
+            "name": "Daria",
+            "code": "DARIA",
+            "active": true
+        },
+        {
+            "name": "Indira Colony Reh.",
+            "code": "INDIRA_COLONY_REH",
+            "active": true
+        },
+        {
+            "name": "Old Indira Colony",
+            "code": "OLD_INDIRA_COLONY",
+            "active": true
+        }
+    ]
+}
