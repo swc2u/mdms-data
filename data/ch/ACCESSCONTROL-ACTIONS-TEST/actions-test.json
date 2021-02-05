@@ -23787,7 +23787,7 @@
 		"navigationURL": "egov-integration/empDetails",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
-	}
+	},
 	{
       "id": 9001,
       "name": "rainmaker-common-report",
