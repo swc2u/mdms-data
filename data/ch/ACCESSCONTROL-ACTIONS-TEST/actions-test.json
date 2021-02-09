@@ -12608,6 +12608,18 @@
       "path": ""
     },
     {
+      "id": 9000,
+      "name": "Employee Table Update",
+      "url": "/egov-hrms/employees/_updateEmployeeTable",
+      "parentModule": "egov-hrms",
+      "displayName": "Employee Table Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-hrms",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1752,
       "name": "Employee Search",
       "url": "/egov-hrms/employees/_search",
@@ -23471,6 +23483,54 @@
 		"path": ""
 	},
 	{
+		"id": 6023,
+		"name": "geteAwasData",
+		"url": "/integration-services/eawas/v1/_get",
+		"displayName": "Get eAwas Data",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6024,
+		"name": "geteEmployeeData",
+		"url": "/integration-services/hrms/v1/_getEmpDetails",
+		"displayName": "geteEmployeeData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6025,
+		"name": "geteEmployeeLeaveData",
+		"url": "/integration-services/hrms/v1/_getEmpLeaveDetails",
+		"displayName": "geteEmployeeLeaveData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6026,
+		"name": "geteEmployeeJoiningData",
+		"url": "/integration-services/hrms/v1/_getEmpJoiningDetails",
+		"displayName": "geteEmployeeJoiningData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 7000,
       "name": "MASTER APPROVER CREATE",
       "url": "/bookings/master/approver/_create",
@@ -23707,6 +23767,36 @@
 		"code": "null",
 		"path": "INTEGRATION.EofficeStat",
 		"navigationURL": "egov-integration/e-office-stat",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
+	  {
+		"id": 7019,
+		"name": "EawasStat",
+		"url": "url",
+		"displayName": "EawasStat",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-integration",
+		"enabled": true,
+		"serviceCode": "INTEGRATION",
+		"code": "null",
+		"path": "INTEGRATION.EawasStat",
+		"navigationURL": "egov-integration/e-awas-stat",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
+	  {
+		"id": 7020,
+		"name": "EHRMS",
+		"url": "url",
+		"displayName": "EHRMS",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-integration",
+		"enabled": true,
+		"serviceCode": "INTEGRATION",
+		"code": "null",
+		"path": "INTEGRATION.EHRMS",
+		"navigationURL": "egov-integration/empDetails",
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
 	},

@@ -1,0 +1,2006 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "wsDocument": [
+    
+    {
+      
+      "occupancycode": "RESIDENTIAL.PLOTTED",
+	  "applicationType": "REGULAR",
+	  "category":"PRIVATEHOUSESWITHINSECTORS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "PRIVATEHOUSESWITHINSECTORS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "PRIVATEHOUSESWITHINSECTORS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Registered GPA (In case of GPA Holder)",
+			"code": "PRIVATEHOUSESWITHINSECTORS_GPACOPY",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "PRIVATEHOUSESWITHINSECTORS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "PRIVATEHOUSESWITHINSECTORS_SEWERAGE_RECEIPT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-Incharge",
+			"code": "PRIVATEHOUSESWITHINSECTORS_NOC_FINALPAYMENT_TEMPORARYCONNECTION",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+     
+    },{
+      
+      "occupancycode": "RESIDENTIAL.VILLAGE",
+	  "applicationType": "REGULAR",
+	  "category":"VILLAGEHOUSES",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "VILLAGEHOUSES_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "VILLAGEHOUSES_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Registered GPA (In case of GPA Holder)",
+			"code": "VILLAGEHOUSES_GPA_COPY",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Attested copy of N.O.C. issued by XEN, M.C. Road in case of Chandigarh/ A.C./Joint CMC, M.C.,Chandigarh in case of Manimajra",
+			"code": "VILLAGEHOUSES_NOC_ISSUEDBY_XEN",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "VILLAGEHOUSES_SEWERAGE_RECEIPT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-Incharge",
+			"code": "VILLAGEHOUSES_NOC_FINALPAYMENT_TEMPORARYCONNECTION",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+     
+    },
+	{
+      
+      "occupancycode": "RESIDENTIAL.GROUPED",
+      "applicationType": "REGULAR",
+	  "category":"SOCIETYFLATS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate (signed & stamped by the President/ Secretary)",
+			"code": "SOCIETYFLATS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter (self attested)",
+			"code": "SOCIETYFLATS_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "SOCIETYFLATS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "SOCIETYFLATS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "SOCIETYFLATS_NODUE_WATERCHARGES_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges (issued by XEN, M.C.P.H.-4, Chd)",
+			"code": "SOCIETYFLATS_SEWERAGE_RECEIPT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Certificate from licensed Plumber on application form",
+			"code": "SOCIETYFLATS_PLUMBER_APPLICATION",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      
+      "occupancycode": "RESIDENTIAL.GOVERNMENTHOUSING",
+       "applicationType": "REGULAR",
+	  "category":"GOVERNMENTHOUSES",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "GOVERNMENTHOUSES_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of House (self attested)",
+			"code": "GOVERNMENTHOUSES_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of House (self attested)",
+			"code": "GOVERNMENTHOUSES_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      
+      "occupancycode": "RESIDENTIAL.CHBDWELLINGUNITS",
+      "applicationType": "REGULAR",
+	  "category":"CHBDWELLINGUNITS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate.(Signed & Stamped by SDE, C.H.B.)",
+			"code": "CHBDWELLINGUNITS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter (self attested)",
+			"code": "CHBDWELLINGUNITS_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "CHBDWELLINGUNITS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Attorney in case of GPA (Attested by Notary Public/ Magistrate)",
+			"code": "CHBDWELLINGUNITS_ATTORNY_GPA_COLONY",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      
+      "occupancycode": "RESIDENTIAL.REHABILITATION",
+      "applicationType": "REGULAR",
+	  "category":"REHABILITATIONCOLONIES",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate the name of allottee",
+			"code": "REHABILITATIONCOLONIES_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter (self attested)",
+			"code": "REHABILITATIONCOLONIES_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "REHABILITATIONCOLONIES_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "REHABILITATIONCOLONIES_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of Road Cut restoration charges, if involved",
+			"code": "REHABILITATIONCOLONIES_ROADCUT_CHARGES",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Certificate from licensed Plumber on Application Form",
+			"code": "REHABILITATIONCOLONIES_PLUMBER_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Power of Attorney in case of GPA (Attested by Notary Public/ Magistrate)",
+			"code": "REHABILITATIONCOLONIES_GPA_ATTORNY",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "RESIDENTIAL.INTEPENDENTFLOOR",
+      "applicationType": "REGULAR",
+	  "category":"UPPERFLOORCONNECTION",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "UPPERFLOORCONNECTION_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of ownership proof (Self attested)",
+			"code": "UPPERFLOORCONNECTION_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Registered GPA (In case of GPA Holder)",
+			"code": "UPPERFLOORCONNECTION_GPA_COPY",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Certificate from Licensed Plumber for separate plumbing system on application form",
+			"code": "UPPERFLOORCONNECTION_PLUMBER_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Payment of Road Cut restoration charges, if involved",
+			"code": "UPPERFLOORCONNECTION_ROADCUT_CHARGES",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "If house on share percentage basis then an affidavit duly attested by Magistrate is required for Floor clarification",
+			"code": "UPPERFLOORCONNECTION_AFFIDAVIT_FLOOR_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of the last water bill paid",
+			"code": "UPPERFLOORCONNECTION_WATERBILL",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.SCF",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.HOTEL",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.MULTIPLEXMALLS",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.INDUSTRIALCONVERTEDCOMMERCIAL",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.BANQUET",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.BULKBUILDING",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.TIMBER",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.THEATRECONVERTEDMULTIPLEX",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.COALPETROL",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "INDUSTRIAL.ARCHITECTURALCONTROLS",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "INDUSTRIAL.ZONINGPLANS",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "PUBLIC.DISPENSARY",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "PUBLIC.HOSPITAL",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "PUBLIC.COMMUNITY",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "PUBLIC.SPORTSTADIUM",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "PUBLIC.CULTURAL",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "PUBLIC.RELIGIOUS",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "EDUCATIONALINSTITUTES.EDUCATIONCITY",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "EDUCATIONALINSTITUTES.EDUCATIONALACADEMIC",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "EDUCATIONALINSTITUTES.HOSTELS",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "ITHABITAT.HOSPITAL",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "ITHABITAT.COMMERCIALHOTEL",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "ITHABITAT.CLUB",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "ITHABITAT.RESIDENTIAL",
+      "applicationType": "REGULAR",
+	  "category":"PRIVATEHOUSESWITHINSECTORS",
+	  "active": true,
+	  "document" :[
+		 {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "PRIVATEHOUSESWITHINSECTORS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "PRIVATEHOUSESWITHINSECTORS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Registered GPA (In case of GPA Holder)",
+			"code": "PRIVATEHOUSESWITHINSECTORS_GPACOPY",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "PRIVATEHOUSESWITHINSECTORS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "PRIVATEHOUSESWITHINSECTORS_SEWERAGE_RECEIPT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-Incharge",
+			"code": "PRIVATEHOUSESWITHINSECTORS_NOC_FINALPAYMENT_TEMPORARYCONNECTION",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "ITHABITAT.GOVERNMENTHOUSING",
+      "applicationType": "REGULAR",
+	  "category":"GOVERNMENTHOUSES",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "GOVERNMENTHOUSES_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of House (self attested)",
+			"code": "GOVERNMENTHOUSES_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of House (self attested)",
+			"code": "GOVERNMENTHOUSES_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "INTEGRATEDPROJECTS.INSTITUTIONAL",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "INTEGRATEDPROJECTS.RESIDENTIAL",
+      "applicationType": "REGULAR",
+	  "category":"PRIVATEHOUSESWITHINSECTORS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "PRIVATEHOUSESWITHINSECTORS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "PRIVATEHOUSESWITHINSECTORS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Registered GPA (In case of GPA Holder)",
+			"code": "PRIVATEHOUSESWITHINSECTORS_GPACOPY",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "PRIVATEHOUSESWITHINSECTORS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "PRIVATEHOUSESWITHINSECTORS_SEWERAGE_RECEIPT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-Incharge",
+			"code": "PRIVATEHOUSESWITHINSECTORS_NOC_FINALPAYMENT_TEMPORARYCONNECTION",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "INTEGRATEDPROJECTS.COMMERCIAL",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "ITPARK",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      
+      "occupancycode": "RAILWAYSTATION",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      
+      "applicationType": "TEMPORARY",
+	  "category":"TEMPORARY_FOR_ALLSITES",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "TEMPORARY_FOR_ALLSITES_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of House/ Plot (Self attested)",
+			"code": "TEMPORARY_FOR_ALLSITES_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter House/ Plot (Self attested)",
+			"code": "TEMPORARY_FOR_ALLSITES_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Demarcation Certificate issued by SDE- Survey/ R-2 (Self attested)",
+			"code": "TEMPORARY_FOR_ALLSITES_DEMARCATION_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Plinth level certificate issued by EE, M.C.P.H. Division No. 2, Chandigarh",
+			"code": "TEMPORARY_FOR_ALLSITES_PLINTH_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Certificate from Licensed Plumber on application form",
+			"code": "TEMPORARY_FOR_ALLSITES_PLUMBER_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Payment of Road Cut restoration charges, if involved",
+			"code": "TEMPORARY_FOR_ALLSITES_ROADCUT_RECEIPT",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of sanctioned building plan showing covered area (Self attested)",
+			"code": "TEMPORARY_FOR_ALLSITES_COVERED_AREA_PLAN",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of sanctioned building plan letter (Self attested)",
+			"code": "TEMPORARY_FOR_ALLSITES_PLAN_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      
+      "applicationType": "TEMPORARY",
+	  "category":"TEMPORARY_FOR_SHORT_PERIOD",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "TEMPORARY_FOR_SHORT_PERIOD_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of permission of use of area & purpose (self attested)",
+			"code": "TEMPORARY_FOR_SHORT_PERIOD_USE_PERMISSION",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Plumbing work is to be done by the consumer",
+			"code": "TEMPORARY_FOR_SHORT_PERIOD_PLUMBING_WORK",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      
+      "applicationType": "TEMPORARY",
+	  "category":"TEMPORARY_FOR_UNLIMITED_PERIOD",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "TEMPORARY_FOR_UNLIMITED_PERIOD_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of permission of use of area & purpose / allotment of House/ premises no. (self attested)",
+			"code": "TEMPORARY_FOR_UNLIMITED_PERIOD_USE_PERMISSION",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Plumbing work is to be done by the consumer",
+			"code": "TEMPORARY_FOR_UNLIMITED_PERIOD_PLUMBING_WORK",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Undertaking by the consumer that the premises are not located on the Govt. encroached land/ outside Lal Dora/ Extended abadi",
+			"code": "TEMPORARY_FOR_UNLIMITED_PERIOD_CONSUMER_UNDERTAKING",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      "applicationType": "TEMPORARY",
+	  "category":"TEMPORARY_FOR_CONTRACTORS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application on Prescribed Form duly filled in triplicate",
+			"code": "TEMPORARY_FOR_CONTRACTORS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter (Self attested)",
+			"code": "TEMPORARY_FOR_CONTRACTORS_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Payment of Road Cut restoration charges, if involved",
+			"code": "TEMPORARY_FOR_CONTRACTORS_ROADCUT_CHARGES",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "Certificate from the concerned department regarding deduction of water charges @ 1.5 % or calculated by Rs. 8/- per sq ft of total covered area",
+			"code": "TEMPORARY_FOR_CONTRACTORS_WATERCHARGES_DEDUCTION",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      "WaterActivity": "PERMANENT_DISCONNECTION",
+	  
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Signed application for Discontinution case (from all the owners)",
+			"code": "PERMANENT_DISCONNECTION_SIGNEDAPPLICATION",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "ID proof of all the owners",
+			"code": "PERMANENT_DISCONNECTION_IDPROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of last paid bill",
+			"code": "PERMANENT_DISCONNECTION_LASTPAID_BILL",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      "WaterActivity": "TEMPORARY_DISCONNECTION",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Signed application for Discontinution case (from all the owners)",
+			"code": "TEMPORARY_DISCONNECTION_SIGNEDAPPLICATION",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "ID proof of all the owners",
+			"code": "TEMPORARY_DISCONNECTION_IDPROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of last paid bill",
+			"code": "TEMPORARY_DISCONNECTION_LASTPAID_BILL",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      "WaterActivity": "REACTIVATE_CONNECTION",
+	  
+	  "active": true,
+	  "document" :[
+		  {
+			"name": " Signed application for the case (from all the owners) ",
+			"code": "REACTIVATE_CONNECTION_SIGNEDAPPLICATION",
+			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "REACTIVATE_CONNECTION_IDPROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of last paid bill",
+			"code": "REACTIVATE_CONNECTION_LASTPAID_BILL",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      "WaterActivity": "CONNECTION_CONVERSION",
+	  "active": true,
+	  "document" :[
+		  { 
+		  "name": "Signed application for the case (from all the owners) ",
+			"code": "CONNECTION_CONVERSION_SIGNEDAPPLICATION",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "ID proof of all the owners",
+			"code": "CONNECTION_CONVERSION_IDPROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of last paid bill",
+			"code": "CONNECTION_CONVERSION_LASTPAID_BILL",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "Occupancy conversion report from estate department",
+			"code": "CONNECTION_CONVERSION_OCCUPANCY_CONVERSION",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "Copy of Sanctioned Building Plan",
+			"code": "CONNECTION_CONVERSION_BUILDING_PLAN",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      "applicationType": "UPDATE_CONNECTION_HOLDER_INFO",
+	  "active": true,
+	  "document" :[
+		  {  
+			"name": "Signed application for the case (from all the owners)",
+			"code": "UPDATE_CONNECTION_HOLDER_INFO_SIGNED_APPLICATION",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Ownership proof collected from Estate office",
+			"code": "UPDATE_CONNECTION_HOLDER_INFO_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of last paid bill",
+			"code": "UPDATE_CONNECTION_HOLDER_INFO_LASTPAID_BILL",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "ID Proof of all the owners",
+			"code": "UPDATE_CONNECTION_HOLDER_INFO_IDPROOF",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    }
+	
+	
+  ]
+}

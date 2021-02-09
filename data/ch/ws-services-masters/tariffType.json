@@ -1,0 +1,109 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "tariffType": [
+    {
+		"name": "1-Domestic",
+		"code": "1",
+		"active": true
+	},
+	{
+		"name": "2-Flat Rate",
+		"code": "2",
+		"active": true
+	},
+	{
+		"name": "3-Lawn/Irrigation",
+		"code": "3",
+		"active": true
+	},
+	{
+		"name": "4-Institutional",
+		"code": "4",
+		"ledgerRange":"2",
+		"active": true
+	},
+	{
+		"name": "5-Taxi Stand",
+		"code": "5",
+		"active": true
+	},
+	{
+		"name": "6-Commercial",
+		"code": "6",
+		"active": true
+	},
+	{
+		"name": "7-Domestic Being misused as commercial",
+		"code": "7",
+		"active": true
+	},
+	{
+		"name": "8-Govt./Semi Govt. offices",
+		"code": "8",
+		"active": true
+	},
+	{
+		"name": "9-Industrial",
+		"code": "9",
+		"active": true
+	},
+	{
+		"name": "10-T.T. Water",
+		"code": "10",
+		"active": true
+	},
+	{
+		"name": "11-Flat Rate in Village House",
+		"code": "11",
+		"active": true
+	},
+	{
+		"name": "12-Flat Rate in Village House(5 nos Buffelo)",
+		"code": "12",
+		"ledgerRange":"50",
+		"active": true
+	},
+	{
+		"name": "13-Toilet Block",
+		"code": "13",
+		"ledgerRange":"5",
+		"active": true
+	},
+	{
+		"name": "14-Milk Colony Dhanas",
+		"code": "14",
+		"active": true
+	},
+	{
+		"name": "15-S.S.K.",
+		"code": "15",
+		"active": true
+	},
+	{
+		"name": "16-Deprived Section",
+		"code": "16",
+		"active": true
+	},
+	{
+		"name": "17-Temporary Commercial",
+		"code": "17",
+		"active": true
+	},
+	{
+		"name": "18-Stand Post",
+		"code": "18",
+		"active": true
+	},
+	{
+		"name": "19-Temporary Domestic",
+		"code": "19",
+		"active": true
+	},
+	{
+		"name": "20-TubeWell",
+		"code": "20",
+		"active": true
+	}
+  ]
+}
