@@ -567,6 +567,41 @@
 		"code": "DEPARTMENTUSER",
 		"name": "DEPARTMENTUSER",
 		"description": "Department User"
-	}
+  },
+  {
+    "code": "DDO",
+    "name": "DDO",
+    "description": "Drawing & Disbursement Officer (Pension)"
+  },
+  {
+    "code": "ACCOUNTS_OFFICER",
+    "name": "ACCOUNTS OFFICER",
+    "description": "ACCOUNTS OFFICER (Pension)"
+  },
+  {
+    "code": "SENIOR_ASSISTANT",
+    "name": "SENIOR ASSISTANT",
+    "description": "SENIOR ASSISTANT (Pension)"
+  },
+  {
+    "code": "CLERK",
+    "name": "CLERK",
+    "description": "CLERK (Pension)"
+  },
+  {
+    "code": "CHIEF_ACCOUNTS_OFFICER",
+    "name": "CHIEF ACCOUNTS OFFICER",
+    "description": "CHIEF ACCOUNTS OFFICER (Pension)"
+  },
+  {
+    "code": "ADDITIONAL_COMMISSIONER",
+    "name": "ADDITIONAL COMMISSIONER",
+    "description": "ADDITIONAL COMMISSIONER (Pension)"
+  },
+  {
+    "code": "PENSION_SYSTEM",
+    "name": "PENSION SYSTEM",
+    "description": "PENSION SYSTEM"
+  }
   ]
 }
