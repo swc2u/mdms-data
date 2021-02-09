@@ -17338,6 +17338,18 @@
 		},
 		{
 			"rolecode": "SUPERUSER",
+			"actionid": 9000,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 9000,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SUPERUSER",
 			"actionid": 1752,
 			"actioncode": "",
 			"tenantId": "ch"
