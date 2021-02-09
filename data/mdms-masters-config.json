@@ -992,6 +992,78 @@
                        "$.code"
                    ]
                }
-    }
+    },
+    "pension": {
+      "ReasonForRetirementType": {
+          "masterName": "ReasonForRetirementType",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      },
+      "relationships": {
+          "masterName": "relationships",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      },
+      "marritalStatus": {
+          "masterName": "marritalStatus",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      },
+      "employeeGroup": {
+          "masterName": "employeeGroup",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      },
+      "PensionRevisionYear": {
+          "masterName": "PensionRevisionYear",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      },
+      "PensionRevisionMonth": {
+          "masterName": "PensionRevisionMonth",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      },
+      "Disability": {
+          "masterName": "Disability",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      },
+      "BusinessService": {
+          "masterName": "BusinessService",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      },
+  "PensionConfig": {
+          "masterName": "PensionConfig",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      },
+  "BankDetails": {
+          "masterName": "BankDetails",
+          "isStateLevel": true,
+          "uniqueKeys": [
+              "$.code"
+          ]
+      }
+}
   
 }
