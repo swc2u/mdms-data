@@ -568,7 +568,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.name",
                   "path": "transferee.name",
                   "pattern": "alphabet",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 5 ? 'ES_ERR_PURCHASER_NAME_FIVE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_PURCHASER_NAME_ONEFIVEZERO' : 'ES_ERR_PURCHASER_NAME' : 'ES_ERR_PURCHASER_NAME'",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 3 ? 'ES_ERR_PURCHASER_NAME_THREE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_PURCHASER_NAME_ONEFIVEZERO' : 'ES_ERR_PURCHASER_NAME' : 'ES_ERR_PURCHASER_NAME'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
                 },
                 {
@@ -580,7 +580,7 @@
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "pattern": "alphabet",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianName : application.applicationDetails.transferee.fatherOrHusbandName",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 5 ? 'ES_ERR_FATHER_HUSBAND_NAME_FIVE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 3 ? 'ES_ERR_FATHER_HUSBAND_NAME_THREE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
                 },
                 {
                   "label": "ES_DOB_LABEL",
@@ -608,7 +608,7 @@
                   "pattern": "address",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.address : application.applicationDetails.transferee.address",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.address ? applicationDetails.transferee.address.length < 5 ? 'ES_ERR_ADDRESS_FIVE' : applicationDetails.transferee.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.address ? applicationDetails.transferee.address.length < 3 ? 'ES_ERR_ADDRESS_THREE' : applicationDetails.transferee.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_PURCHASER_TRANSFEREE_MOBILENUMBER_LABEL",
@@ -618,7 +618,8 @@
                   "path": "transferee.mobileNo",
                   "pattern": "MobileNo",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
-                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.mobileNumber : application.applicationDetails.transferee.mobileNo"
+                  "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.mobileNumber : application.applicationDetails.transferee.mobileNo",
+                  "errorMessage": "'ES_ERR_MOBILENO'"
                 },
                 {
                   "label": "ES_PERCENTAGE_SHARED_LABEL",
@@ -655,7 +656,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 5 ? 'ES_ERR_REGISTRATION_NUMBER_FIVE' : applicationDetails.registrationNumber.length > 150 ? 'ES_ERR_REGISTRATION_NUMBER_ONEFIVEZERO' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 3 ? 'ES_ERR_REGISTRATION_NUMBER_THREE' : applicationDetails.registrationNumber.length > 100 ? 'ES_ERR_REGISTRATION_NUMBER_ONEFIVEZERO' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
                 },
                 {
                   "label": "ES_DATE_OF_REGISTRATION_LABEL",
@@ -823,7 +824,7 @@
           "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been processed. Please pay Rs {totalDue} to proceed further.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -844,7 +845,7 @@
           "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has sent back for clarification.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -864,7 +865,7 @@
           "content": "Hi {applicationDetails.transferee.name}, \n Your application {applicationNumber} for [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} has been rejected. You can apply again later.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
@@ -904,7 +905,7 @@
           "content": "Hi {applicationDetails.transferee.name}, \n The payment is successful for your [ES_{branchType}_{moduleType}_{applicationType}] of your estate number {property.fileNumber} with application number: {applicationNumber} . We will inform you after confirmation.",
           "modes": {
             "email": {
-              "enabled": false,
+              "enabled": true,
               "html": false,
               "to": "{createdBy.emailId}",
               "subject": "CSCL - Intimation for application {applicationNumber}"
