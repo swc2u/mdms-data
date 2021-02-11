@@ -35295,13 +35295,13 @@
 			"tenantId": "ch"
 			},
 			{
-			"rolecode": "EMPLOYEE",
-			"actionid": 8005,
+			"rolecode": "BK_MCC_HELPDESK_USER",
+			"actionid": 8006,
 			"actioncode": "",
 			"tenantId": "ch"
 			},
 			{
-			"rolecode": "EMPLOYEE",
+			"rolecode": "BK_OSBM_APPROVER",
 			"actionid": 8006,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -35351,24 +35351,6 @@
 			{
 			"rolecode": "CITIZEN",
 			"actionid": 8010,
-			"actioncode": "",
-			"tenantId": "ch"
-			},
-			{
-			"rolecode": "EMPLOYEE",
-			"actionid": 8011,
-			"actioncode": "",
-			"tenantId": "ch"
-			},
-			{
-			"rolecode": "EMPLOYEE",
-			"actionid": 8012,
-			"actioncode": "",
-			"tenantId": "ch"
-			},
-			{
-			"rolecode": "EMPLOYEE",
-			"actionid": 8013,
 			"actioncode": "",
 			"tenantId": "ch"
 			},
@@ -35455,7 +35437,67 @@
 			  "actionid": 8027,
 			  "actioncode": "",
 			  "tenantId": "ch"
-      },
+			},
+			{
+			  "rolecode": "BK_OSBM_APPROVER",
+			  "actionid": 8028,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_MCC_HELPDESK_USER",
+			  "actionid": 8028,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8029,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8030,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8031,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8032,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8033,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8034,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8035,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8036,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},      
       {
         "rolecode": "DDO",
         "actionid": 1534,
