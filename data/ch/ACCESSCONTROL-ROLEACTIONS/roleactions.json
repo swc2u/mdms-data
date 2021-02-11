@@ -60334,6 +60334,91 @@
 			"actionid": "1556",
 			"actioncode": "",
 			"tenantId": "ch"
-		}
+		},
+{
+			  "rolecode": "BK_E-SAMPARK-CENTER",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			}
+			,
+			{
+			  "rolecode": "BK_CLERK",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_DEO",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_SENIOR_ASSISTANT",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_AUDIT_DEPARTMENT",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_CHIEF_ACCOUNT_OFFICER",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_PAYMENT_PROCESSING_AUTHORITY",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_PAYMENT_PROCESSING_AUTHORITY",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_OSD_APPROVER",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN_APPROVER",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_COMMERCIAL_GROUND_VIEWER",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_PARKS_AND_COMMUNITY_VIEWER",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_SUPERVISOR",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_OSD",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			}
 	]
 }
