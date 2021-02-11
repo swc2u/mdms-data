@@ -380,7 +380,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferor.id",
                   "path": "transferor.id",
-                  "dataSource": "owners"
+                  "dataSource": "owners",
+                  "errorMessage":"'ES_ERR_SELLER_TRANSFEROR'"
                 },
                 {
                   "label": "ES_SELLER_TRANSFEROR_NAME_LABEL",
@@ -523,7 +524,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.modeOfTransfer",
                   "path": "modeOfTransfer",
-                  "dataSource": "modesOfTransfer"
+                  "dataSource": "modesOfTransfer",
+                  "errorMessage":"'ES_ERR_MODE_OF_TRANSFER'"
                 }
               ]
             },
@@ -544,7 +546,8 @@
                   "label": "ES_DATE_OF_REGISTRATION_LABEL",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
-                  "path": "dateOfRegistration"
+                  "path": "dateOfRegistration",
+                  "errorMessage":"'ES_ERR_REG_DATE'"
                 }
               ]
             }

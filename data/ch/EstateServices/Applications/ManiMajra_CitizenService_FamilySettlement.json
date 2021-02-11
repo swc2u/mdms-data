@@ -465,7 +465,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferor.id",
                   "path": "transferor.id",
-                  "dataSource": "owners"
+                  "dataSource": "owners",
+                  "errorMessage":"'ES_ERR_DECEASED_NAME'"
                 },
                 {
                   "label": "ES_DECEASED_NAME_LABEL",
@@ -505,7 +506,8 @@
                   "label": "ES_DATE_OF_DEATH_LABEL",
                   "type": "DATE_FIELD",
                   "path": "transferor.dateOfDeath",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.dateOfDeath"
+                  "jsonPath": "Applications[0].applicationDetails.transferor.dateOfDeath",
+                  "errorMessage":"'ES_ERR_DATE_OF_DEATH'"
                 }
               ]
             },
@@ -613,7 +615,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.modeOfTransfer",
                   "path": "modeOfTransfer",
-                  "dataSource": "modeOfTransfer"
+                  "dataSource": "modeOfTransfer",
+                  "erorrMessage":"'ES_ERR_MODE_OF_TRANSFER'"
                 }
               ]
             },
@@ -625,14 +628,16 @@
                   "label": "ES_FAMILY_SETTLEMENT_COURT_DECREE_DATE_LABEL",
                   "type": "DATE_FIELD",
                   "path": "decreeDate",
-                  "jsonPath": "Applications[0].applicationDetails.decreeDate"
+                  "jsonPath": "Applications[0].applicationDetails.decreeDate",
+                  "errorMessage":"'ES_ERR_DECREE_DATE'"
                 },
                 {
                   "label": "ES_PASSED_BY_COURT_LABEL",
                   "placeholder": "ES_PASSED_BY_COURT_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.court",
-                  "path": "courtDetails"
+                  "path": "courtDetails",
+                  "errorMessage":"'ES_ERR_COURT_DETAIL'"
                 },
                 {
                   "label": "ES_IN_CIVIL_SUIT_TITLE_LABEL",

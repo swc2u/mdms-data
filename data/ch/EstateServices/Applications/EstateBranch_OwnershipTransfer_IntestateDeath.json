@@ -537,7 +537,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferor.id",
                   "path": "transferor.id",
-                  "dataSource": "owners"
+                  "dataSource": "owners",
+                  "errorMessage":"'ES_ERR_DECEASED_NAME'"
                 },
                 {
                   "label": "ES_DECEASED_FATHER_HUSBAND_NAME_LABEL",
@@ -568,7 +569,8 @@
                   "placeholder": "ES_DATE_OF_DEATH_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.transferor.dateOfDeath",
-                  "path": "transferor.dateOfDeath"
+                  "path": "transferor.dateOfDeath",
+                  "errorMessage":"'ES_ERR_DATE_OF_DEATH'"
                 }
               ]
             },
@@ -584,7 +586,8 @@
                   "path": "transferee.type",
                   "required": true,
                   "dataSource": "typesOfOwner",
-                  "visibility": "owners.length > 1 && purchasers.length > 0"
+                  "visibility": "owners.length > 1 && purchasers.length > 0",
+                  "errorMessage":"'ES_ERR_LEGAL_HIER_TYPE'"
                 },
                 {
                   "label": "ES_SELECT_LEGAL_HEIR_LABEL",
@@ -636,6 +639,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.dob",
                   "path": "transferee.dob",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "errorMessage":"'ES_ERR_DATE_OF_BIRTH'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.dob : application.applicationDetails.transferee.dob "
                 },
                 {
