@@ -1311,6 +1311,39 @@
          "demandUpdateTime":86400000,
          "isVoucherCreationEnabled":true
       },
+	{
+      "businessService": "Permission Management.Road Cut NOC (Road Div 1)",
+      "code": "OPMS.ROADCUTNOC_RD1",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": true
+    },
+	{
+      "businessService": "Permission Management.Road Cut NOC (Road Div 2)",
+      "code": "OPMS.ROADCUTNOC_RD2",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": true
+    },
+	{
+      "businessService": "Permission Management.Road Cut NOC (Road Div 3)",
+      "code": "OPMS.ROADCUTNOC_RD3",
+      "collectionModesNotAllowed": [
+        "DD"
+      ],
+      "partPaymentAllowed": true,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": true
+    },
       {
          "businessService": "Rented Properties (Milk Colony).Ownership Transfer",
          "code": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
