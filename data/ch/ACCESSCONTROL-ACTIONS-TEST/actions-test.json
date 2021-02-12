@@ -12116,66 +12116,6 @@
       "path": ""
     },
     {
-      "id": 1711,
-      "name": "ConsumersDashboard",
-      "url": "url",
-      "displayName": "Consumers Dashboard",
-      "orderNumber": 1,
-      "parentModule": "W&S",
-      "enabled": true,
-      "serviceCode": "W&S",
-      "code": "null",
-      "path": "Dashboard.W&S.ConsumersDashboard",
-      "navigationURL": "dashboard/ws-consumers",
-      "leftIcon": "av:web",
-      "rightIcon": ""
-    },
-    {
-      "id": 1712,
-      "name": "CollectionsTrend",
-      "url": "url",
-      "displayName": "Collections Trend",
-      "orderNumber": 2,
-      "parentModule": "W&S",
-      "enabled": true,
-      "serviceCode": "W&S",
-      "code": "null",
-      "path": "Dashboard.W&S.CollectionsTrend",
-      "navigationURL": "dashboard/ws-collectionstrend",
-      "leftIcon": "av:web",
-      "rightIcon": ""
-    },
-    {
-      "id": 1713,
-      "name": "Collections",
-      "url": "url",
-      "displayName": "Collections",
-      "orderNumber": 3,
-      "parentModule": "W&S",
-      "enabled": true,
-      "serviceCode": "W&S",
-      "code": "null",
-      "path": "Dashboard.W&S.Collections",
-      "navigationURL": "dashboard/ws-collections",
-      "leftIcon": "av:web",
-      "rightIcon": ""
-    },
-    {
-      "id": 1714,
-      "name": "FinancialIndicators",
-      "url": "url",
-      "displayName": "Financial Indicators",
-      "orderNumber": 4,
-      "parentModule": "W&S",
-      "enabled": false,
-      "serviceCode": "W&S",
-      "code": "null",
-      "path": "Dashboard.W&S.FinancialIndicators",
-      "navigationURL": "dashboard/ws-financialindicators",
-      "leftIcon": "av:web",
-      "rightIcon": ""
-    },
-    {
       "id": 1715,
       "name": "LicenseAndLeaseRenewalRegistryReport",
       "url": "url",
@@ -14074,21 +14014,6 @@
       "rightIcon": ""
     },
     {
-      "id": 1886,
-      "name": "Dashboard Home",
-      "url": "url",
-      "displayName": "Home",
-      "orderNumber": 2,
-      "parentModule": "dss-dashboard",
-      "enabled": false,
-      "serviceCode": "DSS",
-      "code": "null",
-      "path": "Dashboard.Home",
-      "navigationURL": "integration/dss/home",
-      "leftIcon": "places:business-center",
-      "rightIcon": ""
-    },
-    {
       "id": 1807,
       "name": "TradeLicense",
       "url": "url",
@@ -14118,21 +14043,6 @@
       "leftIcon": "custom:trade-license",
       "rightIcon": "",
       "queryParams": ""
-    },
-    {
-      "id": 1888,
-      "name": "Dashboard Home",
-      "url": "url",
-      "displayName": "Tradelicense",
-      "orderNumber": 2,
-      "parentModule": "dss-dashboard",
-      "enabled": true,
-      "serviceCode": "DSS",
-      "code": "null",
-      "path": "Dashboard.TradeLicense",
-      "navigationURL": "integration/dss/tradelicense",
-      "leftIcon": "places:business-center",
-      "rightIcon": ""
     },
     {
       "id": 1889,
@@ -20750,6 +20660,49 @@
       "orderNumber": 2,
       "tenantId": "ch",
       "url": "card"
+    },
+	{
+      "id": 4066,
+      "name": "Dashboard",
+      "url": "url",
+      "displayName": "Dashboard",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "Dashboard",
+      "navigationURL": "egov-dashboard/home",
+      "leftIcon": "action:description",
+      "rightIcon": ""
+    },
+	{
+      "id": 1801,
+      "name": "BusinessService Search",
+      "url": "/egov-workflow-v2/egov-wf/businessservice/_desc",
+      "parentModule": "",
+      "displayName": "BusinessService Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-workflow-v2",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 9004,
+      "name": "rainmaker-common-dashboard",
+      "url": "card",
+      "displayName": "Dashboard",
+      "orderNumber": 3,
+      "queryParams": "",
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-dashboard/home",
+      "leftIcon":"custom:publicIcon",
+      "rightIcon": ""
     }
   ]
 }
