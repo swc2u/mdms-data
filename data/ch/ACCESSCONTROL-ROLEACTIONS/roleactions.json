@@ -43370,19 +43370,13 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "GRO",
+			"rolecode": "EMPLOYEE",
 			"actionid": 4066,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "APRO",
-			"actionid": 4066,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "APRO",
+			"rolecode": "EMPLOYEE",
 			"actionid": 1801,
 			"actioncode": "",
 			"tenantId": "ch"
