@@ -18010,6 +18010,54 @@
 		"serviceCode": "integration-services",
 		"code": "null",
 		"path": ""
+	},
+	{
+		"id": 6023,
+		"name": "geteAwasData",
+		"url": "/integration-services/eawas/v1/_get",
+		"displayName": "Get eAwas Data",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6024,
+		"name": "geteEmployeeData",
+		"url": "/integration-services/hrms/v1/_getEmpDetails",
+		"displayName": "geteEmployeeData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6025,
+		"name": "geteEmployeeLeaveData",
+		"url": "/integration-services/hrms/v1/_getEmpLeaveDetails",
+		"displayName": "geteEmployeeLeaveData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6026,
+		"name": "geteEmployeeJoiningData",
+		"url": "/integration-services/hrms/v1/_getEmpJoiningDetails",
+		"displayName": "geteEmployeeJoiningData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
 	},{
 		"id": 6012,
 		"name": "Manage Auditor/RSA",
