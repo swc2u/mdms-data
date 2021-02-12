@@ -932,6 +932,81 @@
       "code": "BK_MCC_HELPDESK_USER",
       "name": "Water Tanker Approver",
       "description": "Employee who approves the Water Tankers booking"
+    },
+    {
+      "code": "DDO",
+      "name": "DDO",
+      "description": "Drawing & Disbursement Officer (Pension)"
     }
+,
+{
+      "code": "ACCOUNTS_OFFICER",
+      "name": "ACCOUNTS OFFICER",
+      "description": "ACCOUNTS OFFICER (Pension)"
+    }
+,
+{
+      "code": "SENIOR_ASSISTANT",
+      "name": "SENIOR ASSISTANT",
+      "description": "SENIOR ASSISTANT (Pension)"
+    }
+,
+{
+      "code": "CLERK",
+      "name": "CLERK",
+      "description": "CLERK (Pension)"
+    }
+,
+{
+      "code": "CHIEF_ACCOUNTS_OFFICER",
+      "name": "CHIEF ACCOUNTS OFFICER",
+      "description": "CHIEF ACCOUNTS OFFICER (Pension)"
+    }
+,
+{
+      "code": "ADDITIONAL_COMMISSIONER",
+      "name": "ADDITIONAL COMMISSIONER",
+      "description": "ADDITIONAL COMMISSIONER (Pension)"
+    },
+{
+      "code": "PENSION_SYSTEM",
+      "name": "PENSION SYSTEM",
+      "description": "PENSION SYSTEM"
+    },
+   {
+      "code": "RP_CLERK",
+      "name": "CLERK",
+      "description": "Employee who verifies, rejects and approves the RP application"
+   },
+   {
+      "code": "RP_JA",
+      "name": "JA",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by clerk"
+   },
+   {
+      "code": "RP_SA",
+      "name": "SA",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by clerk"
+   },
+   {
+      "code": "RP_SI",
+      "name": "SI",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by SA"
+   },
+   {
+      "code": "RP_CA",
+      "name": "CA",
+      "description": "Employee who verifies, rejects and approves the RP application which is approved by SI"
+   },
+   {
+      "code": "RP_SURVEYOR",
+      "name": "SURVEYOR",
+      "description": "Employee who verifies the Trasit site and uploads the documents for capturing transite site images"
+   },
+   {
+      "code": "RP_APRO",
+      "name": "APRO",
+      "description": "Employee who manages the public relations for transit sites for rented properties"
+   }
    ]
 }
