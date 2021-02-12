@@ -32083,6 +32083,99 @@
 				"actionid": 4563,
 				"actioncode": "",
 				"tenantId": "ch"
-			}
+			},		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6001,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+		,
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6002,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+		,
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6005,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+		,
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6007,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+		,
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6008,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6014,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6015,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6016,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6017,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6018,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6022,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 7014,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 7018,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 7019,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 7020,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
   ]
 }
