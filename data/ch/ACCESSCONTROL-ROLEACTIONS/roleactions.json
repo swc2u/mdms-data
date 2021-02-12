@@ -33814,6 +33814,36 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "GRO",
+			"actionid": 1743,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "APRO",
+			"actionid": 1743,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "GRO",
+			"actionid": 4066,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "APRO",
+			"actionid": 4066,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "APRO",
+			"actionid": 1801,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EMPLOYEE",
 			"actionid": 4069,
 			"actioncode": "",
