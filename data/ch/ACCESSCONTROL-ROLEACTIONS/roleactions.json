@@ -38226,6 +38226,30 @@
         "actionid": "21810",
         "actioncode": "",
         "tenantId": "ch"
-    }
+    },
+	{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6023,
+			"actioncode": "",
+			"tenantId": "ch"
+	},
+	{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6024,
+			"actioncode": "",
+			"tenantId": "ch"
+	},
+	{
+			"rolecode": "EMPLOYEE",
+			"actionid": 6025,
+			"actioncode": "",
+			"tenantId": "ch"
+	},
+	{
+		"rolecode": "EMPLOYEE",
+		"actionid": 6026,
+		"actioncode": "",
+		"tenantId": "ch"
+	}
   ]
 }
