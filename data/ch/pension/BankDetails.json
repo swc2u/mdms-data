@@ -1,0 +1,21 @@
+{
+  "tenantId": "ch"  , 
+  "moduleName": "pension",
+  "BankDetails": [
+    {
+      "code": "BOB",
+      "name": "Bank of Baroda",
+      "active": true
+    },
+{
+      "code": "OBOC",
+      "name": "Oriental Bank of Commerce",
+      "active": true
+    },
+{
+      "code": "SBI",
+      "name": "State Bank of India",
+      "active": true
+    }
+  ]
+}
