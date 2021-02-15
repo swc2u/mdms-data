@@ -1,0 +1,42 @@
+{
+	"tenantId":"ch",
+	"moduleName":"store-asset",
+	"businessServiceIssueNote":[
+      {
+              "id": "1",
+              "role": "SAEE",
+              "name": "Engineering Issue Note",
+			  "deptCategory": "Engineering"
+      },
+      {
+              "id": "2",
+              "role": "SACP",
+              "name": "IT Issue Note",
+			  "deptCategory": "IT"
+      },
+      {
+              "id": "3",
+              "role": "SACT",
+              "name": "Caretaker Issue Note",
+			  "deptCategory": "Caretaker"
+      },
+      {
+              "id": "4",
+              "role": "SACSI",
+              "name": "MOH Issue Note",
+			  "deptCategory": "MOH"
+      },
+      {
+              "id": "5",
+              "role": "SASP",
+              "name": "MOH Issue Note",
+			  "deptCategory": "MOH"
+      },
+      {
+              "id": "6",
+              "role": "SASO",
+              "name": "MOH Issue Note",
+			  "deptCategory": "MOH"
+      }
+    ]
+}
