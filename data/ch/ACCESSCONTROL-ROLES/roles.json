@@ -802,6 +802,11 @@
       "code": "HC_VIEWER",
       "name": "HC_VIEWER",
       "description": "Horticulture Viewer Employee"
+    },
+    {
+      "code": "HC_SWE",
+      "name": "Superitendent(W&E)",
+      "description": "Superitendent(W&E)"
     },	   
     {
       "code": "COLL_RECEIPT_REPORT",
