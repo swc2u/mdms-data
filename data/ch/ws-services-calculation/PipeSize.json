@@ -13,7 +13,7 @@
           "security": 1000,
           "ferrule": 1000,
           "metertesting": 80,
-          "meterfitting": 50
+          "meterfitting": 150
         }
       ]
     },
@@ -28,7 +28,7 @@
           "security": null,
           "ferrule": 1000,
           "metertesting": 100,
-          "meterfitting": 120
+          "meterfitting": 180
         }
       ]
     },
@@ -43,7 +43,7 @@
           "security": null,
           "ferrule": 1000,
           "metertesting": 100,
-          "meterfitting": 150
+          "meterfitting": 225
         }
       ]
     },
@@ -58,7 +58,7 @@
           "security": null,
           "ferrule": 2000,
           "metertesting": 120,
-          "meterfitting": 200
+          "meterfitting": 300
         }
       ]
     },
@@ -73,7 +73,7 @@
           "security": null,
           "ferrule": 2000,
           "metertesting": 140,
-          "meterfitting": 400
+          "meterfitting": 600
         }
       ]
     },
@@ -88,7 +88,7 @@
           "security": null,
           "ferrule": 2000,
           "metertesting": 140,
-          "meterfitting": 600
+          "meterfitting": 900
         }
       ]
     },
@@ -103,7 +103,7 @@
           "security": null,
           "ferrule": 2000,
           "metertesting": 160,
-          "meterfitting": 600
+          "meterfitting": 900
         }
       ]
     },
@@ -118,7 +118,7 @@
           "security": null,
           "ferrule": 2000,
           "metertesting": 180,
-          "meterfitting": 600
+          "meterfitting": 900
         }
       ]
     },
@@ -133,7 +133,7 @@
           "security": null,
           "ferrule": 2000,
           "metertesting": 180,
-          "meterfitting": 1000
+          "meterfitting": 1500
         }
       ]
     },
@@ -148,7 +148,7 @@
           "security": null,
           "ferrule": 2000,
           "metertesting": 200,
-          "meterfitting": 1000
+          "meterfitting": 1500
         }
       ]
     },
@@ -163,7 +163,7 @@
           "security": null,
           "ferrule": 2000,
           "metertesting": 200,
-          "meterfitting": 1000
+          "meterfitting": 1500
         }
       ]
     },
