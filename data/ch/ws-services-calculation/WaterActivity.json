@@ -4,17 +4,17 @@
   "WaterActivity": [
     {      
       "code": "PERMANENT_DISCONNECTION",
-      "unitCost": 50,
+      "unitCost": 500,
       "isActive": true
     },
     {      
       "code": "TEMPORARY_DISCONNECTION",
-      "unitCost": 50,
+      "unitCost": 150,
       "isActive": true
     },
     { 
       "code": "REACTIVATE_CONNECTION",
-      "unitCost": 0,
+      "unitCost": 150,
       "isActive": true
     },
     { 
