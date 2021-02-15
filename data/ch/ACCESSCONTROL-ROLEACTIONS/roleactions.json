@@ -52985,6 +52985,198 @@
 			},
 			{
 				"rolecode": "SAJE",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAEE",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASE",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACE",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASDO",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACOM",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACP",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASA",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASP",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASO",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACAO",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAACMC",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACT",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACSI",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAMOH",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJC",
+				"actionid": 4384,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+						{
+				"rolecode": "SAJE",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAEE",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASE",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACE",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASDO",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACOM",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACP",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASA",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASP",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SASO",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACAO",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAACMC",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACT",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SACSI",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAMOH",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJC",
+				"actionid": 4385,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
 				"actionid": 4403,
 				"actioncode": "",
 				"tenantId": "ch"

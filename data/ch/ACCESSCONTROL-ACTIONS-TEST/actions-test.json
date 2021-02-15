@@ -20096,6 +20096,30 @@
 		"code": "null",
 		"path": ""
 	 },
+	  {
+		"id": 4384,
+		"name": "Closing Balance Report",
+		"url": "/store-asset-services/openingbalance/_closingReport",
+		"displayName": "Closing balance Report",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	  {
+		"id": 4385,
+		"name": "StockAgingReport",
+		"url": "/store-asset-services/openingbalance/_stockReport",
+		"displayName": "Stock Aging Report",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
 	 {
 			"id": 2601,
 			"name": "Horticulture",
