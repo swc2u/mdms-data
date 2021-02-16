@@ -4,7 +4,7 @@
   "dashboardCardList": [
 	{
 	"cardName" : "Pgr_dashboard_1",
-	"roles": ["EMPLOYEE"],
+	"roles": ["GRO"],
 	"icon": "material-icons module-page-icon",
 	"route": "PGRDashboard"
 	},
@@ -19,6 +19,12 @@
 	"roles": ["challanSI"],
 	"icon": "material-icons module-page-icon",
 	"route": "EChallanDashboard"
+	},
+	{
+	  "cardName": "Sport&Culture_dashboard_1",
+	  "roles": ["APRO"],
+	  "icon": "material-icons module-page-icon",
+	  "route": "SportCultureDashboard"
 	}
   ]
 }

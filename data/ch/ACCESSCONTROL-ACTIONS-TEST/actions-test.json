@@ -12608,6 +12608,18 @@
       "path": ""
     },
     {
+      "id": 9000,
+      "name": "Employee Table Update",
+      "url": "/egov-hrms/employees/_updateEmployeeTable",
+      "parentModule": "egov-hrms",
+      "displayName": "Employee Table Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-hrms",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1752,
       "name": "Employee Search",
       "url": "/egov-hrms/employees/_search",
@@ -20077,6 +20089,30 @@
 		"name": "IndentCreatorList",
 		"url": "/store-asset-services/indents/_creatorList",
 		"displayName": "Indent Creator List",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	  {
+		"id": 4384,
+		"name": "Closing Balance Report",
+		"url": "/store-asset-services/openingbalance/_closingReport",
+		"displayName": "Closing balance Report",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	  {
+		"id": 4385,
+		"name": "StockAgingReport",
+		"url": "/store-asset-services/openingbalance/_stockReport",
+		"displayName": "Stock Aging Report",
 		"orderNumber": 0,
 		"parentModule": "",
 		"enabled": false,

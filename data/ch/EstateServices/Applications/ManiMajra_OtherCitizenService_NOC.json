@@ -29,8 +29,8 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
-                "max": 100000
+                "min": 2,
+                "max": 5
               }
             }
           ]
@@ -240,7 +240,9 @@
                   "placeholder": "ES_AREA_TO_BE_CONVERTED_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.areaToBeConverted",
-                  "path": "areaToBeConverted"
+                  "path": "areaToBeConverted",
+                  "pattern": "area",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.areaToBeConverted ? applicationDetails.areaToBeConverted.length < 2 ? 'ES_ERR_AREA_TWO' : applicationDetails.areaToBeConverted.length > 5 ? 'ES_ERR_AREA_TWO' : 'ES_ERR_AREA' : 'ES_ERR_AREA'"
                 }
               ]
             }
