@@ -202,37 +202,37 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.DISPENSARY",
-					"charge": "CONTRACT_VALUE"
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.HOSPITAL",
-					"charge": "CONTRACT_VALUE"
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.COMMUNITY",
-					"charge": "CONTRACT_VALUE"
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.SPORTSTADIUM",
-					"charge": "CONTRACT_VALUE"
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.CULTURAL",
-					"charge": "CONTRACT_VALUE"
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.RELIGIOUS",
-					"charge": "CONTRACT_VALUE"
+					"charge": 0
 				}]
 		},
 		{
@@ -317,7 +317,7 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "ITHABITAT.GOVERNMENTHOUSING",
-					"charge": "CONTRACT_VALUE"
+					"charge": 0
 				}]
 		},
 		{
