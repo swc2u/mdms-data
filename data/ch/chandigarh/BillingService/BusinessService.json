@@ -507,6 +507,33 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Road Department Services (Road Div 1).MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"ROAD_SERVICES_RD1.MEM_FEE_COMM_CLUB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },  
+      {
+         "businessService":"Road Department Services (Road Div 2).MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"ROAD_SERVICES_RD2.MEM_FEE_COMM_CLUB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"ROAD_SERVICES_RD3.MEM_FEE_COMM_CLUB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Parking Branch Related Services.AUCTION - PARKING LOTS",
          "code":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
          "partPaymentAllowed":false,
