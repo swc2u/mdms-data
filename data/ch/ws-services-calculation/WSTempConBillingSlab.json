@@ -1,7 +1,7 @@
 {
 	"tenantId": "ch",
 	"moduleName": "ws-services-calculation",
-	"WSTempConBillingSlab": [
+	"WSTempConAppCharges": [
 	{
 	
 			"buildingType": "RESIDENTIAL.PLOTTED",
@@ -9,33 +9,8 @@
 			"isActive": true,
 			"slabs": [{
 					"from": 0,
-					"to": 450,
-					"charge": 500
-				},
-				{
-					"from": 450,
-					"to": 1350,
-					"charge": 700
-				},
-				{
-					"from": 1350,
-					"to": 2700,
-					"charge": 1000
-				},
-				{
-					"from": 2700,
-					"to": 4500,
-					"charge": 1500
-				},
-				{
-					"from": 4500,
-					"to": 9000,
-					"charge": 2000
-				},
-				{
-					"from": 9000,
 					"to": 100000000000,
-					"charge": 2500
+					"charge": 8
 				}
 			]
 		},
@@ -48,7 +23,7 @@
 				{
 					"from": 0,
 					"to": 100000000000,
-					"charge": 2500
+					"charge": 35
 				}
 			]
 		},
@@ -59,33 +34,8 @@
 			"isActive": true,
 			"slabs": [{
 					"from": 0,
-					"to": 450,
-					"charge": 500
-				},
-				{
-					"from": 450,
-					"to": 1350,
-					"charge": 700
-				},
-				{
-					"from": 1350,
-					"to": 2700,
-					"charge": 1000
-				},
-				{
-					"from": 2700,
-					"to": 4500,
-					"charge": 1500
-				},
-				{
-					"from": 4500,
-					"to": 9000,
-					"charge": 2000
-				},
-				{
-					"from": 9000,
 					"to": 100000000000,
-					"charge": 2500
+					"charge": 8
 				}
 			]
 		},
@@ -98,7 +48,7 @@
 				{
 					"from": 0,
 					"to": 100000000000,
-					"charge": 2500
+					"charge": 35
 				}
 			
 			]
@@ -112,7 +62,7 @@
 				{
 					"from": 0,
 					"to": 100000000000,
-					"charge": 2500
+					"charge": 35
 				}
 			
 			]
@@ -126,7 +76,7 @@
 				{
 					"from": 0,
 					"to": 100000000000,
-					"charge": 2500
+					"charge": 35
 				}
 			
 			]
@@ -140,7 +90,7 @@
 				{
 					"from": 0,
 					"to": 100000000000,
-					"charge": 2500
+					"charge": 8
 				}
 			
 			]
@@ -150,70 +100,83 @@
 			"buildingType": "COMMERCIAL",
 			"calculationAttribute": "Temporary Water consumption",
 			"isActive": true,
-			"slabs": [{
+			"slabs": [
+			{
+					"from": 0,
+					"to": 900,
+					"code": "COMMERCIAL.BOOTH",
+					"charge": 15
+				},
+				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.BOOTH",
-					"charge": 500
+					"charge": 25
+				},
+				{
+					"from": 0,
+					"to": 900,
+					"code": "COMMERCIAL.SCF",
+					"charge": 15
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.SCF",
-					"charge": 700
+					"charge": 25
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.HOTEL",
-					"charge": 1500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.MULTIPLEXMALLS",
-					"charge": 1500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.INDUSTRIALCONVERTEDCOMMERCIAL",
-					"charge": 2000
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.BANQUET",
-					"charge": 2500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.BULKBUILDING",
-					"charge": 2000
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.TIMBER",
-					"charge": 2000
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.THEATRECONVERTEDMULTIPLEX",
-					"charge": 1500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.COALPETROL",
-					"charge": 1500
+					"charge": 35
 				}
 			]
 		},
 		{
-		
+			"id": 3,
 			"buildingType": "INDUSTRIAL",
 			"calculationAttribute": "Temporary Water consumption",
 			"isActive": true,
@@ -221,17 +184,17 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "INDUSTRIAL.ARCHITECTURALCONTROLS",
-					"charge": 2000
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "INDUSTRIAL.ZONINGPLANS",
-					"charge": 2000
+					"charge": 35
 				}]
 		},
 		{
-		
+			"id": 4,
 			"buildingType": "PUBLIC",
 			"calculationAttribute": "Temporary Water consumption",
 			"isActive": true,
@@ -239,41 +202,41 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.DISPENSARY",
-					"charge": 2500
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.HOSPITAL",
-					"charge": 2500
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.COMMUNITY",
-					"charge": 2500
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.SPORTSTADIUM",
-					"charge": 2500
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.CULTURAL",
-					"charge": 2500
+					"charge": 0
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.RELIGIOUS",
-					"charge": 2500
+					"charge": 0
 				}]
 		},
 		{
-		
+			"id": 4,
 			"buildingType": "EDUCATIONALINSTITUTES",
 			"calculationAttribute": "Temporary Water consumption",
 			"isActive": true,
@@ -281,23 +244,23 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "EDUCATIONALINSTITUTES.EDUCATIONCITY",
-					"charge": 2500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "EDUCATIONALINSTITUTES.EDUCATIONALACADEMIC",
-					"charge": 2500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "EDUCATIONALINSTITUTES.HOSTELS",
-					"charge": 2500
+					"charge": 35
 				}]
 		},
 		{
-		
+			"id": 4,
 			"buildingType": "ITPARK",
 			"calculationAttribute": "Temporary Water consumption",
 			"isActive": true,
@@ -305,12 +268,12 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "ITPARK",
-					"charge": 2500
+					"charge": 35
 				}
 				]
 		},
 		{
-		
+			"id": 4,
 			"buildingType": "RAILWAYSTATION",
 			"calculationAttribute": "Temporary Water consumption",
 			"isActive": true,
@@ -318,10 +281,11 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "RAILWAYSTATION",
-					"charge": 2500
+					"charge": 35
 				} ]
 		},
-		{ 
+		{
+			"id": 4,
 			"buildingType": "ITHABITAT",
 			"calculationAttribute": "Temporary Water consumption",
 			"isActive": true,
@@ -329,31 +293,31 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "ITHABITAT.HOSPITAL",
-					"charge": 2500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "ITHABITAT.COMMERCIALHOTEL",
-					"charge": 2500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "ITHABITAT.CLUB",
-					"charge": 2500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "ITHABITAT.RESIDENTIAL",
-					"charge": 2500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "ITHABITAT.GOVERNMENTHOUSING",
-					"charge": 2500
+					"charge": 0
 				}]
 		},
 		{
@@ -365,19 +329,19 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "INTEGRATEDPROJECTS.INSTITUTIONAL",
-					"charge": 2500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "INTEGRATEDPROJECTS.RESIDENTIAL",
-					"charge": 2500
+					"charge": 35
 				},
 				{
 					"from": 0,
 					"to": 100000000000,
 					"code": "INTEGRATEDPROJECTS.COMMERCIAL",
-					"charge": 2500
+					"charge": 35
 				} ]
 		}
 	]
