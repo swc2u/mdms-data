@@ -108,7 +108,7 @@
 					"charge": 15
 				},
 				{
-					"from": 0,
+					"from": 900,
 					"to": 100000000000,
 					"code": "COMMERCIAL.BOOTH",
 					"charge": 25
@@ -120,7 +120,7 @@
 					"charge": 15
 				},
 				{
-					"from": 0,
+					"from": 900,
 					"to": 100000000000,
 					"code": "COMMERCIAL.SCF",
 					"charge": 25
