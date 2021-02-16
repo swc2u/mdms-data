@@ -2044,6 +2044,36 @@
       },
       {
          "category":"FEE",
+         "service":"ROAD_SERVICES_RD1.MEM_FEE_COMM_CLUB",
+         "name":"Membership Fees",
+         "code":"MEMBERSHIP_FEE_RD_SERVICES_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      }, 
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD2.MEM_FEE_COMM_CLUB",
+         "name":"Membership Fees",
+         "code":"MEMBERSHIP_FEE_RD_SERVICES_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ROAD_SERVICES_RD3.MEM_FEE_COMM_CLUB",
+         "name":"Membership Fees",
+         "code":"MEMBERSHIP_FEE_RD_SERVICES_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      }, 
+      {
+         "category":"FEE",
          "service":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
          "name":"LICENSING - PPA/PARKING",
          "code":"LICENSING_PPA_PARKING",
