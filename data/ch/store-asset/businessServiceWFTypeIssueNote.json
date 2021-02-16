@@ -10,7 +10,7 @@
       },
       {
               "id": "2",
-              "role": "SACP",
+              "role": "SASIC",
               "name": "IT Issue Note",
 			  "deptCategory": "IT"
       },
@@ -22,19 +22,7 @@
       },
       {
               "id": "4",
-              "role": "SACSI",
-              "name": "MOH Issue Note",
-			  "deptCategory": "MOH"
-      },
-      {
-              "id": "5",
-              "role": "SASP",
-              "name": "MOH Issue Note",
-			  "deptCategory": "MOH"
-      },
-      {
-              "id": "6",
-              "role": "SASO",
+              "role": "SASIC",
               "name": "MOH Issue Note",
 			  "deptCategory": "MOH"
       }
