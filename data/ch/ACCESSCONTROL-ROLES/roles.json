@@ -1022,6 +1022,11 @@
       "name": "Jt COMMISSIONER",
       "description": "Store Asset Jt COMMISSIONER"
     },
+	{
+      "code": "SASIC",
+      "name": "SIC",
+      "description": "Store Asset Store In-Charge"
+    },
     {
       "code": "NULM_ADMIN",
       "name": "NULM Admin",
