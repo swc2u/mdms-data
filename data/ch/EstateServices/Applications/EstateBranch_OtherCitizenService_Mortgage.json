@@ -550,6 +550,16 @@
               ]
             },
             {
+              "header": "ES_HARD_COPY_DATE",
+              "fields": [
+                {
+                  "label": "ES_HARD_COPY_DATE",
+                  "jsonPath": "Applications[0].hardcopyReceivedDate",
+                  "type": "date"
+                }
+              ]
+            },
+            {
               "header": "ES_DOCUMENT_DETAILS_HEADER",
               "type": "DOCUMENTS",
               "step": 1,
