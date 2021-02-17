@@ -2,7 +2,7 @@
   "tenantId": "ch.chandigarh",
   "moduleName": "dashboard",
   "dashboardCardList": [
-	{
+    {
 	"cardName" : "Pgr_dashboard_1",
 	"roles": ["GRO"],
 	"icon": "material-icons module-page-icon",
@@ -25,6 +25,18 @@
 	  "roles": ["APRO"],
 	  "icon": "material-icons module-page-icon",
 	  "route": "SportCultureDashboard"
+	},
+    {
+      "cardName": "PublicRelation_dashboard_1",
+	  "roles": ["APRO"],
+	  "icon": "material-icons module-page-icon",
+	  "route": "PublicRelationDashboard"
+	},
+    {
+      "cardName": "TradeLicense_dashboard_1",
+      "roles": ["TL_APPROVER"],
+	  "icon": "material-icons module-page-icon",
+	  "route": "TradeLicenseDashboard"
 	}
   ]
 }
