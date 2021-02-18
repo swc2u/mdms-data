@@ -370,13 +370,16 @@
           "required": true,
           "validations": [
             {
-              "type": "numeric"
-            },
-            {
-              "type": "minmax",
+              "type": "date-range",
               "params": {
-                "min": 0,
-                "max": 23
+                "start": {
+                  "unit": "second",
+                  "value": 0
+                },
+                "end": {
+                  "unit": "year",
+                  "value": 10
+                }
               }
             }
           ]
@@ -777,7 +780,7 @@
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
                   "placeholder": "ES_TIME_OF_HEARING_PLACEHOLDER",
-                  "type": "TEXT_FIELD",
+                  "type": "TIME_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.timeOfhearing",
                   "path": "timeOfHearing"
                 }
