@@ -384,8 +384,8 @@
       "functionary":"",
       "scheme":"",
       "subscheme":"",
-      "validFrom":1554057000000,
-      "validTo":1869676199000
+      "validFrom":1522540801000,
+      "validTo":1838159999000
     },
     {
       "code":"BWT",
@@ -396,8 +396,8 @@
       "functionary":"",
       "scheme":"",
       "subscheme":"",
-      "validFrom":1554057000000,
-      "validTo":1869676199000
+      "validFrom":1522540801000,
+      "validTo":1838159999000
     },
     {
       "code":"GFCP",
@@ -408,8 +408,8 @@
       "functionary":"",
       "scheme":"",
       "subscheme":"",
-      "validFrom":1554057000000,
-      "validTo":1869676199000
+      "validFrom":1522540801000,
+         "validTo":1838159999000
     },
     
     {
@@ -421,8 +421,8 @@
       "functionary":"",
       "scheme":"",
       "subscheme":"",
-      "validFrom":1554057000000,
-      "validTo":1869676199000
+      "validFrom":1522540801000,
+         "validTo":1838159999000
     },
     
     {
@@ -434,8 +434,8 @@
       "functionary":"",
       "scheme":"",
       "subscheme":"",
-      "validFrom":1554057000000,
-      "validTo":1869676199000
+      "validFrom":1522540801000,
+         "validTo":1838159999000
      }
   ]
 }

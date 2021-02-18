@@ -20096,6 +20096,30 @@
 		"code": "null",
 		"path": ""
 	 },
+	  {
+		"id": 4384,
+		"name": "Closing Balance Report",
+		"url": "/store-asset-services/openingbalance/_closingReport",
+		"displayName": "Closing balance Report",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
+	  {
+		"id": 4385,
+		"name": "StockAgingReport",
+		"url": "/store-asset-services/openingbalance/_stockReport",
+		"displayName": "Stock Aging Report",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "store-asset-services",
+		"code": "null",
+		"path": ""
+	 },
 	 {
 			"id": 2601,
 			"name": "Horticulture",
@@ -21662,6 +21686,21 @@
 	      "path": "Store.Store Asset Master.Supplier Master.Modify Supplier",
 	      "navigationURL": "services/EGF/supplier/search/edit"
 	    },
+	{
+		"id": 4428,
+		"name": "Closing Balance Report",
+		"url": "url",
+		"displayName": "Closing Balance Report",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-store-asset",
+		"enabled": true,
+		"serviceCode": "STORE",
+		"code": "null",
+		"path": "Store.Report.Closing Balance Report",
+		"navigationURL": "egov-store-asset/ClosingBalance",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
 	{
       "id": 2350,
       "name": "Locality searcher endpoint for TL",

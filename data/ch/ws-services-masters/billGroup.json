@@ -1,30 +1,25 @@
 {
   "tenantId": "ch",
   "moduleName": "ws-services-masters",
-  "subDivision": [
+  "billGroup": [
     {
       
-      "code": "08",
+      "code": "1",
       "active": true
     },
     {
       
-      "code": "09",
+      "code": "2",
       "active": true
     },
     {
       
-      "code": "14",
+      "code": "3",
       "active": true
     },
     {
       
-      "code": "15",
-      "active": true
-    },
-    {
-      
-      "code": "20",
+      "code": "4",
       "active": true
     }
     
