@@ -18,12 +18,12 @@
                     "active": true
                 },
                 {
-                    "name": "Panding Payment",
+                    "name": "Pending Payment",
                     "code": "PENDINGPAYMENT",
                     "active": true
                 },
                 {
-                    "name": "Panding Approval",
+                    "name": "Pending Approval",
                     "code": "PENDINGAPPROVAL",
                     "active": true
                 },
