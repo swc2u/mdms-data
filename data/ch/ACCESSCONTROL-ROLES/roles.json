@@ -1022,6 +1022,11 @@
       "name": "Jt COMMISSIONER",
       "description": "Store Asset Jt COMMISSIONER"
     },
+	{
+      "code": "SASIC",
+      "name": "SIC",
+      "description": "Store Asset Store In-Charge"
+    },
     {
       "code": "NULM_ADMIN",
       "name": "NULM Admin",
@@ -1356,6 +1361,46 @@
       "code": "AGENDA_NOTICE",
       "name": "AGENDA_NOTICE",
       "description": "AGENDA_NOTICE"
+    },	
+	{
+      "code": "SDE",
+      "name": "SDE",
+      "description": "Sub Divisional Officer"
+    },	
+	{
+      "code": "DMEE",
+      "name": "DMEE",
+      "description": "DO of Drawing Branch under EE"
+    },	
+	{
+      "code": "DMSE",
+      "name": "DMSE",
+      "description": "DO of Drawing Branch under SE"
+    },	
+	{
+      "code": "DMCE",
+      "name": "DMCE",
+      "description": "DO of Drawing Branch under CE"
+    },	
+	{
+      "code": "HDMEE",
+      "name": "HDMEE",
+      "description": "HDM of Drawing Branch under EE"
+    },	
+	{
+      "code": "CHDSE",
+      "name": "CHDSE",
+      "description": "CHD of Drawing Branch under SE"
+    },	
+	{
+      "code": "CHDCE",
+      "name": "CHDCE",
+      "description": "CHD of Drawing Branch under CE"
+    },	
+	{
+      "code": "SDEHQ",
+      "name": "SDEHQ",
+      "description": "SDEHQ"
     }
   ]
 }

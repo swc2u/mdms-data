@@ -1,0 +1,30 @@
+{
+	"tenantId":"ch",
+	"moduleName":"store-asset",
+	"businessServiceIssueNote":[
+      {
+              "id": "1",
+              "role": "SAEE",
+              "name": "Engineering Issue Note",
+			  "deptCategory": "Engineering"
+      },
+      {
+              "id": "2",
+              "role": "SASIC",
+              "name": "IT Issue Note",
+			  "deptCategory": "IT"
+      },
+      {
+              "id": "3",
+              "role": "SACT",
+              "name": "Caretaker Issue Note",
+			  "deptCategory": "Caretaker"
+      },
+      {
+              "id": "4",
+              "role": "SASIC",
+              "name": "MOH Issue Note",
+			  "deptCategory": "MOH"
+      }
+    ]
+}

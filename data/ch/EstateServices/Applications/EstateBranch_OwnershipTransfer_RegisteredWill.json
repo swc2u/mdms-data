@@ -186,7 +186,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -622,7 +622,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferor.id",
                   "path": "transferor.id",
-                  "dataSource": "owners"
+                  "dataSource": "owners",
+                  "errorMessage":"'ES_ERR_DECEASED_NAME'"
                 },
                 {
                   "label": "ES_DECEASED_FATHER_HUSBAND_NAME_LABEL",
@@ -652,7 +653,8 @@
                   "label": "ES_DATE_OF_DEATH_LABEL",
                   "type": "DATE_FIELD",
                   "path": "transferor.dateOfDeath",
-                  "jsonPath": "Applications[0].applicationDetails.transferor.dateOfDeath"
+                  "jsonPath": "Applications[0].applicationDetails.transferor.dateOfDeath",
+                  "errorMessage":"'ES_ERR_DATE_OF_DEATH'"
                 }
               ]
             },
@@ -664,20 +666,24 @@
                   "label": "ES_DATE_OF_EXECUTION_OF_WILL_LABEL",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.dateOfExecutionOfWill",
-                  "path": "dateOfExecutionOfWill"
+                  "path": "dateOfExecutionOfWill",
+                  "errorMessage":"'ES_ERR_DATE_OF_EXECUTION_OF_WILL'"
                 },
                 {
                   "label": "ES_REGISTRATION_NUMBER_OF_WILL_LABEL",
                   "placeholder": "ES_REGISTRATION_NUMBER_OF_WILL_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
-                  "path": "registrationNumber"
+                  "path": "registrationNumber",
+                  "pattern":"alphaNumeric",
+                  "errorMessage":"'ES_ERR_REGISTRATION_NUMBER_THREE'"
                 },
                 {
                   "label": "ES_DATE_OF_REGISTRATION_OF_WILL_LABEL",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
-                  "path": "dateOfRegistration"
+                  "path": "dateOfRegistration",
+                  "errorMessage":"'ES_ERR_DATE_OF_REGISTRATION_OF_WILL'"
                 }
               ]
             },
@@ -722,7 +728,7 @@
                   "path": "transferee.name",
                   "pattern": "alphabet",
                   "visibility": "application.applicationDetails.transferee.type !== 'Existing'",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 5 ? 'ES_ERR_LEGAL_BENEFICIARY_NAME_FIVE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_LEGAL_BENEFICIARY_NAME_ONEFIVEZERO' : 'ES_ERR_LEGAL_BENEFICIARY_NAME' : 'ES_ERR_LEGAL_BENEFICIARY_NAME'",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 3 ? 'ES_ERR_LEGAL_BENEFICIARY_NAME_THREE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_LEGAL_BENEFICIARY_NAME_ONEFIVEZERO' : 'ES_ERR_LEGAL_BENEFICIARY_NAME' : 'ES_ERR_LEGAL_BENEFICIARY_NAME'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
                 },
                 {
@@ -734,7 +740,7 @@
                   "pattern": "alphabet",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianName : application.applicationDetails.transferee.fatherOrHusbandName",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 5 ? 'ES_ERR_FATHER_HUSBAND_NAME_FIVE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 3 ? 'ES_ERR_LEGAL_HIER_FATHER_HUSBAND_NAME_THREE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_LEGAL_HIER_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
                 },
                 {
                   "label": "ES_RELATION_SHIP_LABEL",
@@ -751,6 +757,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.dob",
                   "path": "transferee.dob",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "errorMessage":"'ES_ERR_DATE_OF_BIRTH'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.dob : application.applicationDetails.transferee.dob "
                 },
                 {
@@ -762,7 +769,7 @@
                   "pattern": "address",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.address : application.applicationDetails.transferee.address",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.address ? applicationDetails.transferee.address.length < 5 ? 'ES_ERR_ADDRESS_FIVE' : applicationDetails.transferee.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.address ? applicationDetails.transferee.address.length < 3 ? 'ES_ERR_ADDRESS_THREE' : applicationDetails.transferee.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_LEGAL_RELATION_WITH_DECEASED_RADIO_BTN_LABEL",
@@ -787,6 +794,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo",
                   "path": "transferee.mobileNo",
                   "pattern": "MobileNo",
+                  "errorMessage": "'ES_ERR_MOBILENO'",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.mobileNumber : application.applicationDetails.transferee.mobileNo"
                 },
@@ -1009,6 +1017,16 @@
                 {
                   "label": "ES_MOBILE_NUMBER_LABEL",
                   "jsonPath": "mobileNo"
+                }
+              ]
+            },
+            {
+              "header": "ES_HARD_COPY_DATE",
+              "fields": [
+                {
+                  "label": "ES_HARD_COPY_DATE",
+                  "jsonPath": "Applications[0].hardcopyReceivedDate",
+                  "type": "date"
                 }
               ]
             },

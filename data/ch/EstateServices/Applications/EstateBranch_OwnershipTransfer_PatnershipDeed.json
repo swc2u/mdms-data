@@ -643,7 +643,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferor.id",
                   "path": "transferor.id",
-                  "dataSource": "owners"
+                  "dataSource": "owners",
+                  "errorMessage":"'ES_ERR_SELLER_TRANSFEROR'"
                 },
                 {
                   "label": "ES_SELLER_TRANSFEROR_FATHER_HUSBAND_NAME_LABEL",
@@ -705,7 +706,7 @@
                   "pattern": "alphabet",
                   "jsonPath": "Applications[0].applicationDetails.transferee.name",
                   "visibility": "application.applicationDetails.transferee.type !== 'Existing'",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 5 ? 'ES_ERR_PURCHASER_NAME_FIVE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_PURCHASER_NAME_ONEFIVEZERO' : 'ES_ERR_PURCHASER_NAME' : 'ES_ERR_PURCHASER_NAME'",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.name ? applicationDetails.transferee.name.length < 3 ? 'ES_ERR_PURCHASER_NAME_THREE' : applicationDetails.transferee.name.length > 150 ? 'ES_ERR_PURCHASER_NAME_ONEFIVEZERO' : 'ES_ERR_PURCHASER_NAME' : 'ES_ERR_PURCHASER_NAME'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.ownerName : application.applicationDetails.transferee.name "
                 },
                 {
@@ -715,6 +716,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.dob",
                   "path": "transferee.dob",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "errorMessage":"'ES_ERR_DATE_OF_BIRTH'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.dob : application.applicationDetails.transferee.dob "
                 },
                 {
@@ -726,7 +728,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.fatherOrHusbandName",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.guardianName : application.applicationDetails.transferee.fatherOrHusbandName",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 5 ? 'ES_ERR_FATHER_HUSBAND_NAME_FIVE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.fatherOrHusbandName ? applicationDetails.transferee.fatherOrHusbandName.length < 3 ? 'ES_ERR_FATHER_HUSBAND_NAME_THREE' : applicationDetails.transferee.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
                 },
                 {
                   "label": "ES_RELATION_SHIP_LABEL",
@@ -744,7 +746,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.address",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.address : application.applicationDetails.transferee.address",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.address ? applicationDetails.transferee.address.length < 5 ? 'ES_ERR_ADDRESS_FIVE' : applicationDetails.transferee.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.transferee && !!applicationDetails.transferee.address ? applicationDetails.transferee.address.length < 3 ? 'ES_ERR_ADDRESS_THREE' : applicationDetails.transferee.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_MOBILE_NUMBER_LABEL",
@@ -753,6 +755,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.mobileNo",
                   "path": "transferee.mobileNo",
                   "pattern": "MobileNo",
+                  "errorMessage": "'ES_ERR_MOBILENO'",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' ? selectedPurchaser.ownerDetails.mobileNumber : application.applicationDetails.transferee.mobileNo"
                 },
@@ -783,7 +786,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 5 ? 'ES_ERR_REGISTRATION_NUMBER_FIVE' : applicationDetails.registrationNumber.length > 150 ? 'ES_ERR_REGISTRATION_NUMBER_ONEFIVEZERO' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 3 ? 'ES_ERR_REGISTRATION_NUMBER_THREE' : applicationDetails.registrationNumber.length > 100 ? 'ES_ERR_REGISTRATION_NUMBER_ONEFIVEZERO' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
                 },
                 {
                   "label": "ES_REGISTRATION_DATE",
@@ -845,7 +848,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.modeOfTransfer",
                   "path": "modeOfTransfer",
-                  "dataSource": "modesOfTransfer"
+                  "dataSource": "modesOfTransfer",
+                  "errorMessage":"'ES_ERR_MODE_OF_TRANSFER'"
                 },
                 {
                   "label": "ES_TRADE_TYPE_LABEL",
@@ -853,7 +857,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.tradeType",
                   "path": "tradeType",
-                  "dataSource": "tradeType"
+                  "dataSource": "tradeType",
+                  "errorMessage":"'ES_ERR_TRADE_TYPE'"
                 }
               ]
             }
@@ -1002,6 +1007,16 @@
                 {
                   "label": "ES_TRADE_TYPE",
                   "jsonPath": "Applications[0].applicationDetails.tradeType"
+                }
+              ]
+            },
+            {
+              "header": "ES_HARD_COPY_DATE",
+              "fields": [
+                {
+                  "label": "ES_HARD_COPY_DATE",
+                  "jsonPath": "Applications[0].hardcopyReceivedDate",
+                  "type": "date"
                 }
               ]
             },

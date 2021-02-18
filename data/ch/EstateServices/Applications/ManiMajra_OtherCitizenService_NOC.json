@@ -29,8 +29,8 @@
             {
               "type": "length",
               "params": {
-                "min": 1,
-                "max": 100000
+                "min": 2,
+                "max": 5
               }
             }
           ]
@@ -201,7 +201,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.owner.id",
                   "path": "owner.id",
-                  "dataSource": "owners"
+                  "dataSource": "owners",
+                  "errorMessage":"'ES_ERR_SELECT_OWNER'"
                 },
                 {
                   "label": "ES_FATHER_HUSBAND_NAME_LABEL",
@@ -240,7 +241,9 @@
                   "placeholder": "ES_AREA_TO_BE_CONVERTED_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.areaToBeConverted",
-                  "path": "areaToBeConverted"
+                  "path": "areaToBeConverted",
+                  "pattern": "area",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.areaToBeConverted ? applicationDetails.areaToBeConverted.length < 2 ? 'ES_ERR_AREA_TWO' : applicationDetails.areaToBeConverted.length > 5 ? 'ES_ERR_AREA_TWO' : 'ES_ERR_AREA' : 'ES_ERR_AREA'"
                 }
               ]
             }
@@ -411,6 +414,16 @@
                 {
                   "label": "ES_DATE_OF_INSPECTION_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.siteReport.dateOfInspection"
+                }
+              ]
+            },
+            {
+              "header": "ES_HARD_COPY_DATE",
+              "fields": [
+                {
+                  "label": "ES_HARD_COPY_DATE",
+                  "jsonPath": "Applications[0].hardcopyReceivedDate",
+                  "type": "date"
                 }
               ]
             },

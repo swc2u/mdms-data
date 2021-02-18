@@ -1296,6 +1296,14 @@
                    "uniqueKeys": [
                        "$.code"
                    ]
-               }
+               },
+        "BookingStatus": {
+            
+        "masterName": "Documents",
+        "isStateLevel": true,
+        "uniqueKeys": [
+            "$.code"
+        ]
+    }
     }
 }
