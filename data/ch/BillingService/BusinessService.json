@@ -507,6 +507,33 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Road Department Services (Road Div 1).MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"ROAD_SERVICES_RD1.MEM_FEE_COMM_CLUB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },  
+      {
+         "businessService":"Road Department Services (Road Div 2).MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"ROAD_SERVICES_RD2.MEM_FEE_COMM_CLUB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"ROAD_SERVICES_RD3.MEM_FEE_COMM_CLUB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Parking Branch Related Services.AUCTION - PARKING LOTS",
          "code":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
          "partPaymentAllowed":false,
@@ -1311,6 +1338,39 @@
          "demandUpdateTime":86400000,
          "isVoucherCreationEnabled":true
       },
+		{
+			"businessService": "Permission Management.Road Cut NOC (Road Div 1)",
+			"code": "OPMS.ROADCUTNOC_RD1",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": true,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 86400000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Permission Management.Road Cut NOC (Road Div 2)",
+			"code": "OPMS.ROADCUTNOC_RD2",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": true,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 86400000,
+			"isVoucherCreationEnabled": true
+		},
+		{
+			"businessService": "Permission Management.Road Cut NOC (Road Div 3)",
+			"code": "OPMS.ROADCUTNOC_RD3",
+			"collectionModesNotAllowed": [
+				"DD"
+			],
+			"partPaymentAllowed": true,
+			"isAdvanceAllowed": false,
+			"demandUpdateTime": 86400000,
+			"isVoucherCreationEnabled": true
+		},
       {
          "businessService": "Rented Properties (Milk Colony).Ownership Transfer",
          "code": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",

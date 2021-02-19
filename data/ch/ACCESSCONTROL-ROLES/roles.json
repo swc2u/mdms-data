@@ -616,7 +616,47 @@
          "code":"CE",
          "name":"CE",
          "description":"Chief Engineer"
-      },
+      },	
+	{
+	  "code": "SDE",
+	  "name": "SDE",
+	  "description": "Sub Divisional Officer"
+	},	
+	{
+	  "code": "DMEE",
+	  "name": "DMEE",
+	  "description": "DO of Drawing Branch under EE"
+	},	
+	{
+	  "code": "DMSE",
+	  "name": "DMSE",
+	  "description": "DO of Drawing Branch under SE"
+	},	
+	{
+	  "code": "DMCE",
+	  "name": "DMCE",
+	  "description": "DO of Drawing Branch under CE"
+	},	
+	{
+	  "code": "HDMEE",
+	  "name": "HDMEE",
+	  "description": "HDM of Drawing Branch under EE"
+	},	
+	{
+	  "code": "CHDSE",
+	  "name": "CHDSE",
+	  "description": "CHD of Drawing Branch under SE"
+	},	
+	{
+	  "code": "CHDCE",
+	  "name": "CHDCE",
+	  "description": "CHD of Drawing Branch under CE"
+	},	
+	{
+	  "code": "SDEHQ",
+	  "name": "SDEHQ",
+	  "description": "SDEHQ"
+	},
       {
          "code":"SYSTEM",
          "name":"System user",
@@ -762,6 +802,11 @@
       "code": "HC_VIEWER",
       "name": "HC_VIEWER",
       "description": "Horticulture Viewer Employee"
+    },
+    {
+      "code": "HC_SWE",
+      "name": "Superitendent(W&E)",
+      "description": "Superitendent(W&E)"
     },	   
     {
       "code": "COLL_RECEIPT_REPORT",

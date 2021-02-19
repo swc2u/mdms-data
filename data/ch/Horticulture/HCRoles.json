@@ -66,9 +66,12 @@
       "code": "HC_COMMISSIONERMCC",
       "name": "COMMISSIONERMCC",
       "description": "Commissioner(MCC)"
+    },
+    {
+      "code": "HC_SWE",
+      "name": "Superitendent(W&E)",
+      "description": "Superitendent(W&E)"
     }
-
-
     ]
 }
 
