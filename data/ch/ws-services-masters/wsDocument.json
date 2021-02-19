@@ -1970,7 +1970,7 @@
 		 ]
     },
 	{
-      "applicationType": "UPDATE_CONNECTION_HOLDER_INFO",
+      "WaterActivity": "UPDATE_CONNECTION_HOLDER_INFO",
 	  "active": true,
 	  "document" :[
 		  {  
