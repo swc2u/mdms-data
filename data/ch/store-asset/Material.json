@@ -49,6 +49,30 @@
 			"code":"TON",
 			"conversionFactor":1
 		 }
+      },
+	  {
+         "id":3,
+         "tenantId":"ch",
+         "code":"MAT03",
+         "name":"File Cover",
+         "description":"File Cover",
+         "materialType":{
+			"id":6,
+			"code":"106"
+		 },
+         "baseUom":{
+			"id":1,
+			"code":"NOS",
+			"conversionFactor":1
+		 },
+		 "serialNumber":true,
+		 "shelfLifeControl":true,
+		 "lotControl":true,
+		 "purchaseUom":{
+			"id":1,
+			"code":"NOS",
+			"conversionFactor":1
+		 }
       }
    ]
 }
