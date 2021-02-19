@@ -61374,6 +61374,114 @@
 			"actionid": 4428,
 			"actioncode": "",
 			"tenantId": "ch"
-		}
+		},
+			{
+			  "rolecode": "CITIZEN",
+			  "actionid": 8037,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8037,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8038,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "CITIZEN",
+			  "actionid": 8038,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8039,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "CITIZEN",
+			  "actionid": 8039,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8040,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8041,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "CITIZEN",
+			  "actionid": 8041,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8042,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "CITIZEN",
+			  "actionid": 8042,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8043,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "CITIZEN",
+			  "actionid": 8044,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "EMPLOYEE",
+			  "actionid": 8045,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "CITIZEN",
+			  "actionid": 8045,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8046,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8047,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8048,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			}
 	]
 }

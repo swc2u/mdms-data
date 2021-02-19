@@ -1949,6 +1949,15 @@
          "isVoucherCreationEnabled":true,
          "isActive":true,
          "type":"Adhoc"
+      },
+      {
+         "businessService":"BKROOM",
+         "code":"BKROOM",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
       }
    ]
 }
