@@ -2,6 +2,7 @@
   "tenantId": "ch",
   "moduleName": "ws-services-masters",
   "wsDocument": [
+  
     
     {
       
@@ -310,6 +311,51 @@
 	{
 	
       "occupancycode": "COMMERCIAL.SCF",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.BOOTH",
       "applicationType": "REGULAR",
 	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
 	  "active": true,
@@ -1995,6 +2041,51 @@
 		  {
 			"name": "ID Proof of all the owners",
 			"code": "UPDATE_CONNECTION_HOLDER_INFO_IDPROOF",
+			"isMandatory": true,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      "WaterActivity": "NEW_TUBEWELL_CONNECTION",
+	  "active": true,
+	  "document" :[
+		  {  
+			"name": "Affidavit",
+			"code": "NEW_TUBEWELL_CONNECTION_AFFIDAVIT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Allotment letter",
+			"code": "NEW_TUBEWELL_CONNECTION_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Ownership Certificate",
+			"code": "NEW_TUBEWELL_CONNECTION_OWNERSHIP_CERTIFICATE",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "Previous Bill Copy",
+			"code": "NEW_TUBEWELL_CONNECTION_PREVIOUS_BILL_COPY",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "Building Plan and  Plot location",
+			"code": "NEW_TUBEWELL_CONNECTION_BUILDING_PLAN",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "Letter with justification of tubewell requirement",
+			"code": "NEW_TUBEWELL_CONNECTION_LETTER_WITH_JUSTIFICATION",
 			"isMandatory": true,
 			"active": true     
 		  }
