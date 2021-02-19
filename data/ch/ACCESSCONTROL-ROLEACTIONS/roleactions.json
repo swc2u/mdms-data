@@ -38252,6 +38252,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "EMPLOYEE",
+		"actionid": 6027,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "SDE",
 		"actionid": "1730",
 		"actioncode": "",

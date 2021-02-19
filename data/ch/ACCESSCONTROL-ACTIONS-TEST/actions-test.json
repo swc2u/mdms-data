@@ -17968,7 +17968,20 @@
 		"serviceCode": "integration-services",
 		"code": "null",
 		"path": ""
-	},{
+	},
+	{
+		"id": 6027,
+		"name": "eofficemapData",
+		"url": "/integration-services/eoffice/v1/_jobscheduler",
+		"displayName": "eofficemapData",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
 		"id": 6012,
 		"name": "Manage Auditor/RSA",
 		"url": "services/audit/manageAuditor/manageAudform",
