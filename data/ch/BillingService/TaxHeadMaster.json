@@ -3986,6 +3986,49 @@
          "order":"0",
          "isRequired":false,
 		 "taxAmount" : "18"
-      }
+      },
+      {
+         "category":"FEE",
+         "service":"BKROOM",
+         "name":"Room Booking",
+         "code":"BKROOM",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BKROOM",
+         "name":"ROOM CGST and UTGST",
+         "code":"BKROOM_TAX",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false,
+		 "taxAmount" : "18"
+      },
+      {
+         "category":"TAX",
+         "service":"BKROOM",
+         "name":"ROOM CGST and UTGST ROUND OFF",
+         "code":"BKROOM_ROUND_OFF",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false,
+		 "taxAmount" : "18"
+      },
+      {
+		 "category": "CHARGES",
+		 "service": "BKROOM",
+		 "name": "ROOM FACILITATION CHARGE",
+		 "code": "ROOM_FACILITATION_CHARGE",
+		 "isDebit": false,
+		 "isActualDemand": true,
+		 "order": "0",
+		 "isRequired": false,
+		 "facilitationCharge":"100"
+	   }
    ]
 }
