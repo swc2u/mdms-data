@@ -24245,6 +24245,42 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 8046,
+      "name": "COMMERCIAL CENTRE ROOM FEE FETCH",
+      "url": "/bookings/master/communitycenter/room/fee/_fetch",
+      "parentModule": "",
+      "displayName": "COMMERCIAL CENTRE ROOM FEE FETCH",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8047,
+      "name": "COMMERCIAL CENTRE ROOM FEE UPDATE",
+      "url": "/bookings/master/communitycenter/room/fee/_update",
+      "parentModule": "",
+      "displayName": "COMMERCIAL CENTRE ROOM FEE UPDATE",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8048,
+      "name": "COMMERCIAL CENTRE ROOM FEE CREATE",
+      "url": "/bookings/master/communitycenter/room/fee/_create",
+      "parentModule": "",
+      "displayName": "COMMERCIAL CENTRE ROOM FEE CREATE",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
     }
   ]
 }

@@ -61464,6 +61464,24 @@
 			  "actionid": 8045,
 			  "actioncode": "",
 			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8046,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8047,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_ADMIN",
+			  "actionid": 8048,
+			  "actioncode": "",
+			  "tenantId": "ch"
 			}
 	]
 }
