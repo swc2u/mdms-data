@@ -61482,6 +61482,18 @@
 			  "actionid": 8048,
 			  "actioncode": "",
 			  "tenantId": "ch"
+			},
+			{
+				"rolecode": "OSD",
+				"actionid": 4066,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "OSD",
+				"actionid": 1801,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
