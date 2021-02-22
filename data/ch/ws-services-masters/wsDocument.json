@@ -355,7 +355,7 @@
     },
 	{
 	
-      "occupancycode": "COMMERCIAL.BOOTH",
+      "occupancycode": "COMMERCIAL.BOOTHS",
       "applicationType": "REGULAR",
 	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
 	  "active": true,
