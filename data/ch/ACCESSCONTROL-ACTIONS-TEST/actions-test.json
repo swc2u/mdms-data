@@ -23570,6 +23570,18 @@
 		"path": ""
 	},
 	{
+		"id": 6027,
+		"name": "getEofficedata",
+		"url": "/integration-services/eoffice/v1/_getPostDetailsId",
+		"displayName": "getEofficedata",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 7000,
       "name": "MASTER APPROVER CREATE",
       "url": "/bookings/master/approver/_create",
