@@ -1010,7 +1010,8 @@
                 },
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.timeOfhearing"
+                  "jsonPath": "Applications[0].applicationDetails.timeOfhearing",
+                  "type": "time"
                 }
               ]
             },
