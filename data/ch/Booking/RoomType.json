@@ -1,0 +1,20 @@
+{   
+	"tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "RoomType": [
+        {
+            "name": "AC",
+            "code": "AC",
+            "active": true
+        },
+        {
+            "name": "NON-AC",
+            "code": "NON_AC",
+            "active": true
+        },
+        {
+            "name": "Both",
+            "code": "BOTH",
+            "active": true
+        }          
+}           

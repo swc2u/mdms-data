@@ -3,16 +3,68 @@
   "moduleName": "dashboard",
   "dashboardCardList": [
     {
-    	"cardName" : "Pgr_dashboard_1",
-		"roles": ["EMPLOYEE"],
-		"icon": "material-icons module-page-icon",
-		"route": "PGRDashboard"
+      "cardName": "Pgr_dashboard_1",
+      "roles": [
+        "GRO"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "PGRDashboard"
     },
-	{
-		"cardName" : "Hc_dashboard_1",
-		"roles": ["HC_COMMISSIONERMCC"],
-		"icon": "material-icons module-page-icon",
-		"route": "HCDashboard"
+    {
+      "cardName": "Hc_dashboard_1",
+      "roles": [
+        "HC_COMMISSIONERMCC"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "HCDashboard"
+    },
+    {
+      "cardName": "Challan_dashboard_1",
+      "roles": [
+        "challanSI"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "EChallanDashboard"
+    },
+    {
+      "cardName": "Sport&Culture_dashboard_1",
+      "roles": [
+        "APRO"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "SportCultureDashboard"
+    },
+    {
+      "cardName": "PublicRelation_dashboard_1",
+      "roles": [
+        "APRO"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "PublicRelationDashboard"
+    },
+    {
+      "cardName": "TradeLicense_dashboard_1",
+      "roles": [
+        "TL_APPROVER"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "TradeLicenseDashboard"
+    },
+    {
+      "cardName": "Eaawas_dashboard_1",
+      "roles": [
+        "GRO"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "EaawasDashboard"
+    },
+    {
+      "cardName": "OPMS_dashboard_1",
+      "roles": [
+        "OSD"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "OPMSDashboard"
     }
   ]
 }

@@ -1296,6 +1296,30 @@
                    "uniqueKeys": [
                        "$.code"
                    ]
-               }
+               },
+"BookingStatus": {
+            
+        "masterName": "Documents",
+        "isStateLevel": true,
+        "uniqueKeys": [
+            "$.code"
+        ]
+    },
+"RoomType": {
+                   
+                   "masterName": "Documents",
+                   "isStateLevel": true,
+                   "uniqueKeys": [
+                       "$.code"
+                   ]
+               },
+"E_SAMPARK_BOOKING": {
+                   
+            "masterName": "Documents",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+                   ]
+          }
     }
 }

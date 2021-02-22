@@ -12608,6 +12608,18 @@
       "path": ""
     },
     {
+      "id": 9000,
+      "name": "Employee Table Update",
+      "url": "/egov-hrms/employees/_updateEmployeeTable",
+      "parentModule": "egov-hrms",
+      "displayName": "Employee Table Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "egov-hrms",
+      "code": "null",
+      "path": ""
+    },
+    {
       "id": 1752,
       "name": "Employee Search",
       "url": "/egov-hrms/employees/_search",
@@ -21675,6 +21687,21 @@
 	      "navigationURL": "services/EGF/supplier/search/edit"
 	    },
 	{
+		"id": 4428,
+		"name": "Closing Balance Report",
+		"url": "url",
+		"displayName": "Closing Balance Report",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-store-asset",
+		"enabled": true,
+		"serviceCode": "STORE",
+		"code": "null",
+		"path": "Store.Report.Closing Balance Report",
+		"navigationURL": "egov-store-asset/ClosingBalance",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
+	{
       "id": 2350,
       "name": "Locality searcher endpoint for TL",
       "url": "/egov-searcher/locality/tl-services/_get",
@@ -23782,6 +23809,36 @@
 		"leftIcon": "action:assignment",
 		"rightIcon": ""
 	},
+	  {
+		"id": 7019,
+		"name": "EawasStat",
+		"url": "url",
+		"displayName": "EawasStat",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-integration",
+		"enabled": true,
+		"serviceCode": "INTEGRATION",
+		"code": "null",
+		"path": "INTEGRATION.EawasStat",
+		"navigationURL": "egov-integration/e-awas-stat",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
+	  {
+		"id": 7020,
+		"name": "EHRMS",
+		"url": "url",
+		"displayName": "EHRMS",
+		"orderNumber": 5,
+		"parentModule": "rainmaker-integration",
+		"enabled": true,
+		"serviceCode": "INTEGRATION",
+		"code": "null",
+		"path": "INTEGRATION.EHRMS",
+		"navigationURL": "egov-integration/empDetails",
+		"leftIcon": "action:assignment",
+		"rightIcon": ""
+	},
 	{
       "id": 9001,
       "name": "rainmaker-common-report",
@@ -24080,6 +24137,150 @@
     "navigationURL": "report/rainmaker-services/BookingWiseCollectionReport",
     "leftIcon": "action:assignment",
     "rightIcon": ""
-  }
+  },
+    {
+      "id": 8037,
+      "name": "ROOM CREATE",
+      "url": "/bookings/community/room/_create",
+      "parentModule": "",
+      "displayName": "ROOM CREATE",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8038,
+      "name": "ROOM UPDATE",
+      "url": "/bookings/community/room/_update",
+      "parentModule": "",
+      "displayName": "ROOM Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8039,
+      "name": "Community Centre Search",
+      "url": "/bookings/api/community/center/_search",
+      "parentModule": "",
+      "displayName": "Community Centre Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8040,
+      "name": "Community Centre Master Search",
+      "url": "/bookings/master/communityCenter/name/_fetch",
+      "parentModule": "",
+      "displayName": "Community Centre Master Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8041,
+      "name": "Room Availabaility Fetch",
+      "url": "/bookings/community/room/availability/_fetch",
+      "parentModule": "",
+      "displayName": "Room Availabaility Fetch",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8042,
+      "name": "ROOM Fee Fetch",
+      "url": "/bookings/community/room/fee/_fetch",
+      "parentModule": "",
+      "displayName": "ROOM Fee Fetch",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 9043,
+      "name": "Employee Room Search",
+      "url": "/bookings/api/employee/community/center/room/_search",
+      "parentModule": "",
+      "displayName": "Employee Room Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 9044,
+      "name": "Citizen Room Search",
+      "url": "/bookings/api/citizen/community/center/room/_search",
+      "parentModule": "",
+      "displayName": "Citizen Room Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8045,
+      "name": "COMMERCIAL GROUND LOCKED DATES FETCH",
+      "url": "/bookings/commercial/ground/lock/dates/_fetch",
+      "parentModule": "",
+      "displayName": "COMMERCIAL GROUND LOCKED DATES FETCH",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8046,
+      "name": "COMMERCIAL CENTRE ROOM FEE FETCH",
+      "url": "/bookings/master/communitycenter/room/fee/_fetch",
+      "parentModule": "",
+      "displayName": "COMMERCIAL CENTRE ROOM FEE FETCH",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8047,
+      "name": "COMMERCIAL CENTRE ROOM FEE UPDATE",
+      "url": "/bookings/master/communitycenter/room/fee/_update",
+      "parentModule": "",
+      "displayName": "COMMERCIAL CENTRE ROOM FEE UPDATE",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8048,
+      "name": "COMMERCIAL CENTRE ROOM FEE CREATE",
+      "url": "/bookings/master/communitycenter/room/fee/_create",
+      "parentModule": "",
+      "displayName": "COMMERCIAL CENTRE ROOM FEE CREATE",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    }
   ]
 }

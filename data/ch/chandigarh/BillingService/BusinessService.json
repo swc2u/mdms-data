@@ -27,7 +27,7 @@
          "isVoucherCreationEnabled":false
       },
       {
-         "businessService":"Trade License.Rehri Registration Certificate",
+         "businessService":"Licensing Branch Services.Rehri Registration Certificate",
          "code":"CTL.REHRI_REGISTRATION",
          "collectionModesNotAllowed":[
             "DD"
@@ -38,7 +38,7 @@
          "isVoucherCreationEnabled":true
       },
       {
-         "businessService":"Trade License.Rehri Driving License",
+         "businessService":"Licensing Branch Services.Rehri Driving License",
          "code":"CTL.REHRI_DRIVING_LICENSE",
          "collectionModesNotAllowed":[
             "DD"
@@ -49,7 +49,7 @@
          "isVoucherCreationEnabled":true
       },
       {
-         "businessService":"Trade License.Dhobi Ghat",
+         "businessService":"Licensing Branch Services.Dhobi Ghat",
          "code":"CTL.DHOBI_GHAT",
          "collectionModesNotAllowed":[
             "DD"
@@ -60,7 +60,7 @@
          "isVoucherCreationEnabled":true
       },
       {
-         "businessService":"Trade License.Book Shop",
+         "businessService":"Licensing Branch Services.Book Shop",
          "code":"CTL.OLD_BOOK_MARKET",
          "collectionModesNotAllowed":[
             "DD"
@@ -1944,6 +1944,15 @@
       {
          "businessService":"Booking Branch Services.MANUAL/OPEN SPACE",
          "code":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"BKROOM",
+         "code":"BKROOM",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,

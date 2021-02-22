@@ -51,6 +51,16 @@
          "parent":"",
          "isParent":true,
          "active":true
+      },
+      {
+         "id":6,
+         "tenantId":"ch",
+         "code":"106",
+         "name":"Stationary",
+         "description":"Stationary.",
+         "parent":"",
+         "isParent":true,
+         "active":true
       }
    ]
 }

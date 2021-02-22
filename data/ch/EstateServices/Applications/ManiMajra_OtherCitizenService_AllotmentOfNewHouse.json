@@ -20,7 +20,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -52,7 +52,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -77,7 +77,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
@@ -115,7 +115,7 @@
             {
               "type": "length",
               "params": {
-                "min": 0,
+                "min": 3,
                 "max": 100
               }
             }
@@ -334,8 +334,11 @@
                   "label": "ES_OWNER_NAME_LABEL",
                   "placeholder": "ES_OWNER_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
+                  "pattern": "alphabet",
                   "jsonPath": "Applications[0].applicationDetails.owner.name",
-                  "path": "owner.name"
+                  "path": "owner.name",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.owner && !!applicationDetails.owner.name ? applicationDetails.owner.name.length < 3 ? 'ES_ERR_OWNER_NAME_THREE' : applicationDetails.owner.name.length > 150 ? 'ES_ERR_OWNER_NAME_ONEFIVEZERO' : 'ES_ERR_OWNER_NAME' : 'ES_ERR_OWNER_NAME'"
+
                 },
                 {
                   "label": "ES_DOB_LABEL",
@@ -348,8 +351,11 @@
                   "label": "ES_OWNER_FATHER_HUSBAND_NAME_LABEL",
                   "placeholder": "ES_SELLER_TRANSFEROR_FATHER_HUSBAND_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
+                  "pattern": "alphabet",
                   "jsonPath": "Applications[0].applicationDetails.owner.fatherOrHusbandName",
-                  "path": "owner.fatherOrHusbandName"
+                  "path": "owner.fatherOrHusbandName",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.owner && !!applicationDetails.owner.fatherOrHusbandName ? applicationDetails.owner.fatherOrHusbandName.length < 3 ? 'ES_ERR_FATHER_HUSBAND_NAME_THREE' : applicationDetails.owner.fatherOrHusbandName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_OR_HUSBAND_NAME' : 'ES_ERR_FATHER_OR_HUSBAND_NAME'"
+
                 },
                 {
                   "label": "ES_RELATION_SHIP_LABEL",
@@ -363,21 +369,26 @@
                   "placeholder": "ES_OWNER_ADDRESS_PLACEHOLDER",
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.owner.address",
-                  "path": "owner.address"
+                  "path": "owner.address",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.owner && !!applicationDetails.owner.address ? applicationDetails.owner.address.length < 3 ? 'ES_ERR_ADDRESS_THREE' : applicationDetails.owner.address.length > 150 ? 'ES_ERR_ADDRESS_ONEFIVEZERO' : 'ES_ERR_ADDRESS' : 'ES_ERR_ADDRESS'"
                 },
                 {
                   "label": "ES_MOBILE_NUMBER_LABEL",
                   "placeholder": "ES_MOBILE_NUMBER_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.mobileNo",
-                  "path": "owner.mobileNo"
+                  "path": "owner.mobileNo",
+                  "pattern": "MobileNo",
+                  "errorMessage": "'ES_ERR_MOBILENO'"
                 },
                 {
                   "label": "ES_OWNER_SHARE_LABEL",
                   "placeholder": "ES_OWNER_SHARE_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.percentageOfShare",
-                  "path": "owner.percentageOfShare"
+                  "path": "owner.percentageOfShare",
+                  "pattern": "Percentage",
+                  "errorMessage": "'ES_ERR_PERCENTAGE'"
                 }
               ]
             },
@@ -391,7 +402,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 5 ? 'ES_ERR_REGISTRATION_NUMBER_FIVE' : applicationDetails.registrationNumber.length > 150 ? 'ES_ERR_REGISTRATION_NUMBER_ONEFIVEZERO' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 3 ? 'ES_ERR_REGISTRATION_NUMBER_ONEZEROZERO' : applicationDetails.registrationNumber.length > 100 ? 'ES_ERR_REGISTRATION_NUMBER_ONEZEROZERO' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
                 },
                 {
                   "label": "ES_DATE_OF_REGISTRATION_LABEL",

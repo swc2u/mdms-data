@@ -883,120 +883,88 @@
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
-         "periodCycle":"TENYEARS",
-         "service":"OSBM",
-         "code":"OSBM",
-         "financialYear":"2019-29"
-      },
-      {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
-         "periodCycle":"TENYEARS",
-         "service":"OSBM",
-         "code":"OSBM_TAX",
-         "financialYear":"2019-29"
-      },
-      {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
-         "periodCycle":"TENYEARS",
-         "service":"BWT",
-         "code":"BWT",
-         "financialYear":"2019-29"
-      },
-      {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
-         "periodCycle":"TENYEARS",
-         "service":"BWT",
-         "code":"BWT_TAX",
-         "financialYear":"2019-29"
-      },
-      {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"GFCP",
          "code":"GFCP",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"GFCP",
          "code":"GFCP_TAX",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"GFCP",
          "code":"GFCP_ROUND_OFF",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"OSUJM",
          "code":"OSUJM",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"OSUJM",
          "code":"OSUJM_TAX",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"OSUJM",
          "code":"OSUJM_ROUND_OFF",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"GFCP",
          "code":"GFCP_ROUND_OFF",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"PACC",
          "code":"PACC",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"PACC",
          "code":"PACC_TAX",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"PACC",
          "code":"PACC_ROUND_OFF",
          "financialYear":"2019-29"
       },
       {
-         "fromDate":1554057000000,
-         "toDate":1869676199000,
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
          "service":"PACC",
          "code":"PACC_LOCATION_AND_VENUE_CHANGE_AMOUNT",
@@ -1017,6 +985,14 @@
          "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
          "code":"BBMOS10YRS2019",
          "financialYear":"2019-29"
+      },
+      {
+         "fromDate": 1522540801000,
+         "toDate": 1838159999000,
+         "periodCycle": "TENYEARS",
+         "service": "BKROOM",
+         "code": "BK_ROOM_AMOUNT",
+         "financialYear": "2019-29"
       }
    ]
 }

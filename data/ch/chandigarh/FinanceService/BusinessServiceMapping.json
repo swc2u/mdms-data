@@ -375,30 +375,6 @@
          "validTo":1838159999000
       },
       {
-         "code":"OSBM",
-         "voucherCreationEnabled":true,
-         "fund":"01",
-         "function":"000201",
-         "department":"DEPT_25",
-         "functionary":"",
-         "scheme":"",
-         "subscheme":"",
-         "validFrom":1554057000000,
-         "validTo":1869676199000
-      },
-      {
-         "code":"BWT",
-         "voucherCreationEnabled":true,
-         "fund":"01",
-         "function":"000201",
-         "department":"DEPT_13",
-         "functionary":"",
-         "scheme":"",
-         "subscheme":"",
-         "validFrom":1554057000000,
-         "validTo":1869676199000
-      },
-      {
          "code":"GFCP",
          "voucherCreationEnabled":true,
          "fund":"01",
@@ -407,8 +383,8 @@
          "functionary":"",
          "scheme":"",
          "subscheme":"",
-         "validFrom":1554057000000,
-         "validTo":1869676199000
+         "validFrom":1522540801000,
+         "validTo":1838159999000
       },
       {
          "code":"OSUJM",
@@ -419,8 +395,8 @@
          "functionary":"",
          "scheme":"",
          "subscheme":"",
-         "validFrom":1554057000000,
-         "validTo":1869676199000
+         "validFrom":1522540801000,
+         "validTo":1838159999000
       },
       {
          "code":"PACC",
@@ -431,8 +407,8 @@
          "functionary":"",
          "scheme":"",
          "subscheme":"",
-         "validFrom":1554057000000,
-         "validTo":1869676199000
+         "validFrom":1522540801000,
+         "validTo":1838159999000
       },
       {
          "code":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
@@ -457,6 +433,18 @@
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
-      }
+      },
+      {
+         "code":"BKROOM",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000201",
+         "department":"",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+     }
    ]
 }
