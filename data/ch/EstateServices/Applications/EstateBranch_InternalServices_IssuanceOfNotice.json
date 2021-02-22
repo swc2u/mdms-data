@@ -578,7 +578,8 @@
                 },
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.timeOfHearing"
+                  "jsonPath": "Applications[0].applicationDetails.timeOfHearing",
+                  "type": "time"
                 }
               ]
             },
