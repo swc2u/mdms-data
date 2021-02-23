@@ -307,14 +307,16 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.typeOfNotice",
                   "path": "typeOfNotice",
-                  "dataSource": "NoticeTypeOptions"
+                  "dataSource": "NoticeTypeOptions",
+                  "errorMessage":"'ES_ERR_TYPE_OF_NOTICE'"
                 },
                 {
                   "label": "ES_VIOLATION_DETAILS_LABEL",
                   "placeholder": "ES_VIOLATION_DETAILS_PLACEHOLDER",
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.violationDetails",
-                  "path": "violationDetails"
+                  "path": "violationDetails",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.violationDetails ? applicationDetails.violationDetails.length < 3 ? 'ES_ERR_VIOLATION_DETAILS_ONEZEROZERO' : applicationDetails.violationDetails.length > 100 ? 'ES_ERR_VIOLATION_DETAILS_ONEZEROZERO' : 'ES_ERR_VIOLATION_DETAIL' : 'ES_ERR_VIOLATION_DETAIL'"
                 },
                 {
                   "label": "ES_VIOLATION_DATE_LABEL",
@@ -335,7 +337,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferor.id",
                   "path": "transferor.id",
-                  "dataSource": "owners"
+                  "dataSource": "owners",
+                  "errorMessage":"'ES_ERR_SELECT_OWNER'"
                 },
                 {
                   "label": "ES_FATHER_HUSBAND_NAME_LABEL",
@@ -430,14 +433,16 @@
                   "jsonPath": "Applications[0].applicationDetails.dateOfHearing",
                   "path": "dateOfHearing",
                   "minDate": true,
-                  "maxDate": false
+                  "maxDate": false,
+                  "errorMessage":"'ES_ERR_DATE_OF_HEARING'"
                 },
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
                   "placeholder": "ES_TIME_OF_HEARING_PLACEHOLDER",
                   "type": "TIME_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.timeOfHearing",
-                  "path": "timeOfHearing"
+                  "path": "timeOfHearing",
+                  "errorMessage":"'ES_ERR_TIME'"
                 }
               ]
             }
@@ -573,7 +578,8 @@
                 },
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
-                  "jsonPath": "Applications[0].applicationDetails.timeOfHearing"
+                  "jsonPath": "Applications[0].applicationDetails.timeOfHearing",
+                  "type": "time"
                 }
               ]
             },

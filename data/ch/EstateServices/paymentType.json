@@ -8,11 +8,6 @@
             "active": true
         },
         {
-            "name": "Premium Amount",
-            "code": "PAYMENTTYPE.PREMIUMAMOUNT",
-            "active": true
-        },
-        {
             "name": "Security Fee",
             "code": "PAYMENTTYPE.SECURITYFEE",
             "active": true
