@@ -20281,7 +20281,37 @@
       "leftIcon": "custom:hcIcon",
       "rightIcon": "",
       "queryParams": ""
-    },	  
+    },	
+	  {
+      "id": 4041,
+      "name": "Water & Sewerage",
+      "url": "url",
+      "displayName": "Water & Sewerage",
+      "orderNumber": 13,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "wns",
+      "code": "null",
+      "navigationURL": "wns/download",
+      "path": "WNS.Water and Sewerage.Download",
+      "leftIcon": "custom:water-tap",
+      "rightIcon": ""
+    },
+	  {
+      "id": 4042,
+      "name": "Water & Sewerage",
+      "url": "url",
+      "displayName": "Water & Sewerage",
+      "orderNumber": 13,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "wns",
+      "code": "null",
+      "navigationURL": "wns/upload",
+      "path": "WNS.Water and Sewerage.Upload",
+      "leftIcon": "custom:water-tap",
+      "rightIcon": ""
+    },
 	 {
       "id": 4050,
       "name": "rainmaker-common-wns",
