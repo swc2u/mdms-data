@@ -2090,6 +2090,30 @@
 			"active": true     
 		  }
 		 ]
+    },
+	{
+      "WaterActivity": "SEWERAGE",
+	  "active": true,
+	  "document" :[
+		  {  
+			"name": "Allotment Letter",
+			"code": "SEWERAGE_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Possession letter",
+			"code": "SEWERAGE_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Completion Certificate/ Occupancy Certificate from estate Office",
+			"code": "SEWERAGE_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  } 
+		 ]
     }
 	
 	
