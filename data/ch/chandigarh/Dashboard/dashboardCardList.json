@@ -73,6 +73,14 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "OSBMDashboard"
+    },
+    {
+      "cardName": "StoreIndent_dashboard_1",
+      "roles": [
+        "SAJE"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "StoreIndentDashboard"
     }
   ]
 }
