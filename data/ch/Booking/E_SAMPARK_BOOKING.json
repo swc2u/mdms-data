@@ -1,0 +1,49 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "E_SAMPARK_BOOKING": [
+        {
+            "name": "E-SAMPARK-1",
+            "id": "1",
+            "code": "E_SAMPARK_1",
+            "tenantId":"ch.chandigarh",
+			"operatorCode":"OP_1234",
+			"hsnCode" : "hsn_321",
+			"centreAddres" : "chandigarh sector 74",
+            "active":"true"
+        },
+        {
+            "name": "E-SAMPARK-2",
+            "id": "2",
+            "code": "E_SAMPARK_2",
+            "tenantId":"ch.chandigarh",
+			"operatorCode":"OP_534",
+			"hsnCode" : "hsn_789",
+			"centreAddres" : "chandigarh sector 44",
+            "active":"true"
+        },
+        {
+            "name": "E-SAMPARK-3",
+            "id": "3",
+            "code": "E_SAMPARK_3",
+            "tenantId":"ch.chandigarh",
+			"operatorCode":"OP_234",
+			"hsnCode" : "hsn_989",
+			"centreAddres" : "chandigarh sector 24",
+            "active":"true"
+        },
+        {
+            "name": "E-SAMPARK-4",
+            "id": "4",
+            "code": "E_SAMPARK_4",
+            "tenantId":"ch.chandigarh",
+			"operatorCode":"OP_334",
+			"hsnCode" : "hsn_189",
+			"centreAddres" : "chandigarh sector 14",
+            "active":"true"
+        }
+        
+        
+    ]
+}
+
+

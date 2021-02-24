@@ -985,6 +985,14 @@
          "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
          "code":"BBMOS10YRS2019",
          "financialYear":"2019-29"
+      },
+      {
+         "fromDate": 1522540801000,
+         "toDate": 1838159999000,
+         "periodCycle": "TENYEARS",
+         "service": "BKROOM",
+         "code": "BK_ROOM_AMOUNT",
+         "financialYear": "2019-29"
       }
    ]
 }
