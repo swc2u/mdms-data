@@ -1,0 +1,17 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "PDF_BOOKING_DETAILS": [
+        {
+            "name": "",
+            "id": "1",
+            "stateCode": "04",
+            "tenantId":"ch.chandigarh",
+			"hsnCode":"9963",
+			"placeOfService" : "Chandigarh",
+			"mcGSTN" : "04AAALM0758K1Z1",
+            "active":"true"
+        }        
+    ]
+}
+
+

@@ -61632,6 +61632,12 @@
 				"actionid": 1801,
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+				"rolecode": "BK_MCC_USER",
+				"actionid": 8049,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
