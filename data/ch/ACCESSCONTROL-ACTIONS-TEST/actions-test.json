@@ -24338,6 +24338,26 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+    "id": 8049,
+    "name": "Reserve Dates",
+    "url": "url",
+    "displayName": "Reserve Dates",
+    "orderNumber": 1,
+    "queryParams": "",
+    "parentModule": "",
+    "enabled": true,
+    "serviceCode": "BOOKINGS",
+    "tenantId": "ch",
+    "createdDate": null,
+    "createdBy": null,
+    "lastModifiedDate": null,
+    "lastModifiedBy": null,
+    "path": "Bookings Services.Reserve Dates",
+    "navigationURL": "egov-services/reservedbookingdates",
+    "leftIcon": "social:people",
+    "rightIcon": ""
+   }
   ]
 }
