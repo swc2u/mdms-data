@@ -836,7 +836,8 @@
                   "placeholder": "ES_DOB_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.witness[0].dob",
-                  "path": "witness..dob"
+                  "path": "witness..dob",
+                  "errorMessage":"'ES_ERR_DATE_OF_BIRTH'"
                 },
                 {
                   "label": "ES_ADDRESS_LABEL",
