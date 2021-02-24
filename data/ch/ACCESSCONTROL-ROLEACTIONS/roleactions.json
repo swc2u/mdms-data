@@ -54271,7 +54271,7 @@
 			"tenantId": "ch"
 			},
 			{
-			"rolecode": "CITIZEN",
+			"rolecode": "BK_MCC_USER",
 			"actionid": 5011,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -61574,13 +61574,7 @@
 			  "tenantId": "ch"
 			},
 			{
-			  "rolecode": "EMPLOYEE",
-			  "actionid": 8045,
-			  "actioncode": "",
-			  "tenantId": "ch"
-			},
-			{
-			  "rolecode": "CITIZEN",
+			  "rolecode": "BK_MCC_USER",
 			  "actionid": 8045,
 			  "actioncode": "",
 			  "tenantId": "ch"
@@ -61638,6 +61632,12 @@
 				"actionid": 8049,
 				"actioncode": "",
 				"tenantId": "ch"
+			},
+			{
+			"rolecode": "BK_MCC_USER",
+			"actionid": 8050,
+			"actioncode": "",
+			"tenantId": "ch"
 			}
 	]
 }
