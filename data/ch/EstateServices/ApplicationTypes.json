@@ -98,7 +98,7 @@
       "type": "EstateBranch_OtherCitizenService_LeaseholdToFreehold",
       "active": true,
       "category": "ES_CONVERSION_OF_PROPERTY",
-      "filter": true,
+      "filter": "property.propertyDetails.propertyType !== 'PROPERTY_TYPE.FREEHOLD'",
       "applicationType": "LeaseholdToFreehold",
       "branchType": "ESTATE_BRANCH"
     },

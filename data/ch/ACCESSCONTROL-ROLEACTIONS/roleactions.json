@@ -33436,6 +33436,18 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4067,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4068,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "WS_COMMON",
 			"actionid": 4050,
 			"actioncode": "",
@@ -61381,6 +61393,108 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "SASIC",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		{
+			"rolecode": "SAJE",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SAEE",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SASE",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SACE",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SASDO",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SACOM",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SACP",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SASA",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SASP",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SASO",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SACAO",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SAACMC",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SACT",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SACSI",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SAMOH",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SAJC",
+			"actionid": 4429,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
 			{
 			  "rolecode": "CITIZEN",
 			  "actionid": 8037,
@@ -61497,6 +61611,24 @@
 			},
 			{
 				"rolecode": "OSD",
+				"actionid": 1801,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+			  "rolecode": "BK_MCC_APPROVER",
+			  "actionid": 8007,
+			  "actioncode": "",
+			  "tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4066,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
 				"actionid": 1801,
 				"actioncode": "",
 				"tenantId": "ch"

@@ -11,6 +11,11 @@
       
       "code": "5",
       "active": true
+    },
+    {
+      "service":"SEWERAGE",
+      "code": "4",
+      "active": true
     }
 	
     
