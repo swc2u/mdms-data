@@ -352,6 +352,20 @@
             "isClosed": false,
             "transferClosingBalance": false,
             "module": "PACC"
+        },
+		{
+            "id": "22",
+            "tenantId": "ch"  , 
+            "finYearRange": "2020-2021",
+            "name": "2020-2021",
+            "code": "2020-2021",
+            "startingDate": 1522540801000,
+            "endingDate": 1838159999000,
+            "active": true,
+            "isActiveForPosting": true,
+            "isClosed": false,
+            "transferClosingBalance": false,
+            "module": "BKROOM"
         }
     ]
 }

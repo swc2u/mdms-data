@@ -79,13 +79,18 @@
       "active": true
     },
 	{
-      "name": "Independent floor in Plotted House",
+      "name": "Intependent floor in Plotted House",
       "code": "RESIDENTIAL.INTEPENDENTFLOOR",
       "active": true
     },
 	{
       "name": "SCO’S/ SCF’S / BAYSHOP’S/ SEMI INDUSTRIAL/ BOOTHS ETC.",
       "code": "COMMERCIAL.SCF",
+      "active": true
+    },
+	{
+      "name": "BOOTHS",
+      "code": "COMMERCIAL.BOOTHS",
       "active": true
     },
 	{
