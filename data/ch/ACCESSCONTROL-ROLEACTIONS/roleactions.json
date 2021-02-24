@@ -61518,6 +61518,18 @@
 			  "actionid": 8007,
 			  "actioncode": "",
 			  "tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 4066,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "SAJE",
+				"actionid": 1801,
+				"actioncode": "",
+				"tenantId": "ch"
 			}
 	]
 }
