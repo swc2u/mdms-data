@@ -643,7 +643,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferor.id",
                   "path": "transferor.id",
-                  "dataSource": "owners"
+                  "dataSource": "owners",
+                  "errorMessage":"'ES_ERR_SELLER_TRANSFEROR'"
                 },
                 {
                   "label": "ES_SELLER_TRANSFEROR_FATHER_HUSBAND_NAME_LABEL",
@@ -715,6 +716,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.dob",
                   "path": "transferee.dob",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "errorMessage":"'ES_ERR_DATE_OF_BIRTH'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.dob : application.applicationDetails.transferee.dob "
                 },
                 {
@@ -846,7 +848,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.modeOfTransfer",
                   "path": "modeOfTransfer",
-                  "dataSource": "modesOfTransfer"
+                  "dataSource": "modesOfTransfer",
+                  "errorMessage":"'ES_ERR_MODE_OF_TRANSFER'"
                 },
                 {
                   "label": "ES_TRADE_TYPE_LABEL",
@@ -854,7 +857,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.tradeType",
                   "path": "tradeType",
-                  "dataSource": "tradeType"
+                  "dataSource": "tradeType",
+                  "errorMessage":"'ES_ERR_TRADE_TYPE'"
                 }
               ]
             }
@@ -1003,6 +1007,16 @@
                 {
                   "label": "ES_TRADE_TYPE",
                   "jsonPath": "Applications[0].applicationDetails.tradeType"
+                }
+              ]
+            },
+            {
+              "header": "ES_HARD_COPY_DATE",
+              "fields": [
+                {
+                  "label": "ES_HARD_COPY_DATE",
+                  "jsonPath": "Applications[0].hardcopyReceivedDate",
+                  "type": "date"
                 }
               ]
             },

@@ -505,7 +505,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferor.id",
                   "path": "transferor.id",
-                  "dataSource": "owners"
+                  "dataSource": "owners",
+                  "errorMessage":"'ES_ERR_SELLER_TRANSFEROR'"
                 },
                 {
                   "label": "ES_SELLER_TRANSFEROR_FATHER_HUSBAND_NAME_LABEL",
@@ -589,6 +590,7 @@
                   "jsonPath": "Applications[0].applicationDetails.transferee.dob",
                   "path": "transferee.dob",
                   "disability": "application.applicationDetails.transferee.type == 'Existing'",
+                  "errorMessage":"'ES_ERR_DATE_OF_BIRTH'",
                   "prefillValue": "application.applicationDetails.transferee.type == 'Existing' && selectedPurchaser ? selectedPurchaser.ownerDetails.dob : application.applicationDetails.transferee.dob "
                 },
                 {
@@ -648,7 +650,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.modeOfTransfer",
                   "path": "modeOfTransfer",
-                  "dataSource": "modesOfTransfer"
+                  "dataSource": "modesOfTransfer",
+                  "erorrMessage":"'ES_ERR_MODE_OF_TRANSFER'"
                 },
                 {
                   "label": "ES_REGISTRATION_NUMBER_LABEL",
@@ -656,13 +659,14 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 3 ? 'ES_ERR_REGISTRATION_NUMBER_THREE' : applicationDetails.registrationNumber.length > 100 ? 'ES_ERR_REGISTRATION_NUMBER_ONEFIVEZERO' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 3 ? 'ES_ERR_REGISTRATION_NUMBER_THREE' : applicationDetails.registrationNumber.length > 100 ? 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
                 },
                 {
                   "label": "ES_DATE_OF_REGISTRATION_LABEL",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
-                  "path": "dateOfRegistration"
+                  "path": "dateOfRegistration",
+                  "errorMessage":"'ES_ERR_REG_DATE'"
                 }
               ]
             }
@@ -788,6 +792,16 @@
                           "type": "date"
                       }
                   ]
+              },
+              {
+                "header": "ES_HARD_COPY_DATE",
+                "fields": [
+                  {
+                    "label": "ES_HARD_COPY_DATE",
+                    "jsonPath": "Applications[0].hardcopyReceivedDate",
+                    "type": "date"
+                  }
+                ]
               },
               {
                   "header": "ES_DOCUMENT_DETAILS_HEADER",

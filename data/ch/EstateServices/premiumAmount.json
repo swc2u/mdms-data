@@ -1,0 +1,11 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "premiumAmount": [
+        {
+            "active": "true",
+            "code": "PAYMENTTYPE.PREMIUMAMOUNT",
+            "name": "Premium Amount"
+        }
+    ]
+  }

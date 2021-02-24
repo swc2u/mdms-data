@@ -65,6 +65,22 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "OPMSDashboard"
+    },
+    {
+      "cardName": "OSBM_dashboard_1",
+      "roles": [
+        "BK_OSBM_APPROVER"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "OSBMDashboard"
+    },
+    {
+      "cardName": "StoreIndent_dashboard_1",
+      "roles": [
+        "SAJE"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "StoreIndentDashboard"
     }
   ]
 }

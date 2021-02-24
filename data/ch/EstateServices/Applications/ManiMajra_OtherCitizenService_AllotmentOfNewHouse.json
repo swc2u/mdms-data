@@ -345,7 +345,8 @@
                   "placeholder": "ES_DOB_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.dob",
-                  "path": "owner.dob"
+                  "path": "owner.dob",
+                  "errorMessage":"'ES_ERR_DATE_OF_BIRTH'"
                 },
                 {
                   "label": "ES_OWNER_FATHER_HUSBAND_NAME_LABEL",
@@ -408,7 +409,8 @@
                   "label": "ES_DATE_OF_REGISTRATION_LABEL",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
-                  "path": "dateOfRegistration"
+                  "path": "dateOfRegistration",
+                  "errorMessage":"'ES_ERR_REG_DATE'"
                 }
               ]
             }
@@ -477,7 +479,7 @@
             },
             {
               "header": "ES_APPLICANT_DETAILS_HEADER",
-              "isEditable": false,
+              "step": 0,
               "fields": [
                 {
                   "label": "ES_OWNER_NAME_LABEL",
@@ -600,6 +602,16 @@
                 {
                   "label": "ES_DATE_OF_INSPECTION_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.siteReport.dateOfInspection"
+                }
+              ]
+            },
+            {
+              "header": "ES_HARD_COPY_DATE",
+              "fields": [
+                {
+                  "label": "ES_HARD_COPY_DATE",
+                  "jsonPath": "Applications[0].hardcopyReceivedDate",
+                  "type": "date"
                 }
               ]
             },
