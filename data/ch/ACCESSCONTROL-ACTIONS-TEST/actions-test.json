@@ -24358,6 +24358,18 @@
     "navigationURL": "egov-services/reservedbookingdates",
     "leftIcon": "social:people",
     "rightIcon": ""
-   }
+   },
+    {
+      "id": 8050,
+      "name": "Update Commercial Availabaility Lock",
+      "url": "/bookings/commercial/ground/updateAvailability/_lock",
+      "parentModule": "",
+      "displayName": "Update Commercial Availabaility Lock",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    }
   ]
 }
