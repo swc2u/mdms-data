@@ -651,7 +651,7 @@
                   "jsonPath": "Applications[0].applicationDetails.modeOfTransfer",
                   "path": "modeOfTransfer",
                   "dataSource": "modesOfTransfer",
-                  "erorrMessage":"'ES_ERR_MODE_OF_TRANSFER'"
+                  "errorMessage":"'ES_ERR_MODE_OF_TRANSFER'"
                 },
                 {
                   "label": "ES_REGISTRATION_NUMBER_LABEL",

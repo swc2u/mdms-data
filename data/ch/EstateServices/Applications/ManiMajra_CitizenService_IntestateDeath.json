@@ -549,7 +549,8 @@
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.transferee.relationWithDeceased",
                   "path": "transferee.relationWithDeceased",
-                  "dataSource": "legalHeirRelationWithDeceased"
+                  "dataSource": "legalHeirRelationWithDeceased",
+                  "errorMessage": "'ES_ERR_LEGAL_HIER_RELATION'"
                 },
                 {
                   "label": "ES_PERCENT_SHARE_LABEL",
