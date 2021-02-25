@@ -705,6 +705,12 @@
          "bankBranch":"OBC01"
       },
       {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
          "businessDetails":"BOOKING_BRANCH_SERVICES.MISC_RECEIPT",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
