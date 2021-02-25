@@ -1,0 +1,10 @@
+{
+    "tenantId": "ch",
+    "moduleName": "TradeLicense",
+    "LicensePeriod": [{
+            "code": "5",
+	    "name": "5 Years",
+            "active": true
+        }
+    ]
+}

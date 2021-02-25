@@ -616,7 +616,7 @@
                   "jsonPath": "Applications[0].applicationDetails.modeOfTransfer",
                   "path": "modeOfTransfer",
                   "dataSource": "modeOfTransfer",
-                  "erorrMessage":"'ES_ERR_MODE_OF_TRANSFER'"
+                  "errorMessage":"'ES_ERR_MODE_OF_TRANSFER'"
                 }
               ]
             },

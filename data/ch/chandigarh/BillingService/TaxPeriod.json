@@ -707,69 +707,69 @@
          "financialYear":"2020-30"
       },
       {
-         "fromDate": 1585679400000,
-         "toDate": 1901298599000,
-         "periodCycle": "TENYEARS",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
-         "code": "ESMMSG10YRS2020",
-         "financialYear": "2020-30"
-       },
-       {
-         "fromDate": 1585679400000,
-         "toDate": 1901298599000,
-         "periodCycle": "TENYEARS",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
-         "code": "ESMMFS10YRS2020",
-         "financialYear": "2020-30"
-       },
-       {
-         "fromDate": 1585679400000,
-         "toDate": 1901298599000,
-         "periodCycle": "TENYEARS",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
-         "code": "ESMMID10YRS2020",
-         "financialYear": "2020-30"
-       },
-       {
-         "fromDate": 1585679400000,
-         "toDate": 1901298599000,
-         "periodCycle": "TENYEARS",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
-         "code": "ESMMRW10YRS2020",
-         "financialYear": "2020-30"
-       },
-       {
-         "fromDate": 1585679400000,
-         "toDate": 1901298599000,
-         "periodCycle": "TENYEARS",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
-         "code": "ESMMURW10YRS2020",
-         "financialYear": "2020-30"
-       },
-       {
-         "fromDate": 1585679400000,
-         "toDate": 1901298599000,
-         "periodCycle": "TENYEARS",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
-         "code": "ESMMANH10YRS2020",
-         "financialYear": "2020-30"
-       },
-       {
-         "fromDate": 1585679400000,
-         "toDate": 1901298599000,
-         "periodCycle": "TENYEARS",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.NDC",
-         "code": "ESMMNDC10YRS2020",
-         "financialYear": "2020-30"
-       },
-       {
-         "fromDate": 1585679400000,
-         "toDate": 1901298599000,
-         "periodCycle": "TENYEARS",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.NOC",
-         "code": "ESMMNOC10YRS2020",
-         "financialYear": "2020-30"
-       },
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
+         "code":"ESMMSG10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
+         "code":"ESMMFS10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
+         "code":"ESMMID10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
+         "code":"ESMMRW10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
+         "code":"ESMMURW10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
+         "code":"ESMMANH10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.NDC",
+         "code":"ESMMNDC10YRS2020",
+         "financialYear":"2020-30"
+      },
+      {
+         "fromDate":1585679400000,
+         "toDate":1901298599000,
+         "periodCycle":"TENYEARS",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.NOC",
+         "code":"ESMMNOC10YRS2020",
+         "financialYear":"2020-30"
+      },
       {
          "fromDate":1585679400000,
          "toDate":1901298599000,
@@ -974,8 +974,72 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "code":"BBAF10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "code":"BBBMM10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "code":"BBCB10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "code":"BBSC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "code":"BBWMS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "code":"BBCWS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "code":"BBEJ10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
          "code":"BBWTC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.RTI_FEES",
+         "code":"BBRTI10YRS2019",
          "financialYear":"2019-29"
       },
       {
@@ -987,12 +1051,68 @@
          "financialYear":"2019-29"
       },
       {
-         "fromDate": 1522540801000,
-         "toDate": 1838159999000,
-         "periodCycle": "TENYEARS",
-         "service": "BKROOM",
-         "code": "BK_ROOM_AMOUNT",
-         "financialYear": "2019-29"
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "code":"BBSF10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "code":"BBCCJG10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "code":"BBRMC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS",
+         "code":"BBMFCC10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "code":"BBBGOS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "code":"BBBCG10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.MISC_RECEIPT",
+         "code":"BBMR10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1522540801000,
+         "toDate":1838159999000,
+         "periodCycle":"TENYEARS",
+         "service":"BKROOM",
+         "code":"BK_ROOM_AMOUNT",
+         "financialYear":"2019-29"
       }
    ]
 }

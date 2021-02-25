@@ -743,165 +743,165 @@
          "isRequired":false
       },
       {
-         "category": "FEE",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
-         "name": "Mani Majra Citizen Service Sale gift Application fee",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT_APPLICATION_FEE",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "FEE",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
-         "name": "Mani Majra Citizen Service Family settlement Application fee",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT_APPLICATION_FEE",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "FEE",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
-         "name": "Mani Majra Citizen Service Intestate death Application fee",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH_APPLICATION_FEE",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "FEE",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
-         "name": "Mani Majra Citizen Service Registered will Application fee",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL_APPLICATION_FEE",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "FEE",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
-         "name": "Mani Majra Citizen Service Un Registered will Application fee",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL_APPLICATION_FEE",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "FEE",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
-         "name": "Mani Majra Other Citizen Service Allotment of new house Application fee",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE_APPLICATION_FEE",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "FEE",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.NDC",
-         "name": "Mani Majra Other Citizen Service NDC Application fee",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.NDC_APPLICATION_FEE",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "FEE",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.NOC",
-         "name": "Mani Majra Other Citizen Service NOC Application fee",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.NOC_APPLICATION_FEE",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "TAX",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
-         "name": "Mani Majra Citizen Service Sale gift Application tax",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT_APPLICATION_TAX",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "TAX",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
-         "name": "Mani Majra Citizen Service Family settlement Application tax",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT_APPLICATION_TAX",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "TAX",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
-         "name": "Mani Majra Citizen Service Intestate death Application tax",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH_APPLICATION_TAX",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "TAX",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
-         "name": "Mani Majra Citizen Service Registered will Application tax",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL_APPLICATION_TAX",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "TAX",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
-         "name": "Mani Majra Citizen Service Un Registered will Application tax",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL_APPLICATION_TAX",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "TAX",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
-         "name": "Mani Majra Other Citizen Service Allotment of new house Application tax",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE_APPLICATION_TAX",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "TAX",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.NDC",
-         "name": "Mani Majra Other Citizen Service NDC Application tax",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.NDC_APPLICATION_TAX",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
-       {
-         "category": "TAX",
-         "service": "ESTATE_SERVICE_MANI_MAJRA.NOC",
-         "name": "Mani Majra Other Citizen Service NOC Application tax",
-         "code": "ESTATE_SERVICE_MANI_MAJRA.NOC_APPLICATION_TAX",
-         "isDebit": false,
-         "isActualDemand": true,
-         "order": "0",
-         "isRequired": false
-       },
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
+         "name":"Mani Majra Citizen Service Sale gift Application fee",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
+         "name":"Mani Majra Citizen Service Family settlement Application fee",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
+         "name":"Mani Majra Citizen Service Intestate death Application fee",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
+         "name":"Mani Majra Citizen Service Registered will Application fee",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
+         "name":"Mani Majra Citizen Service Un Registered will Application fee",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
+         "name":"Mani Majra Other Citizen Service Allotment of new house Application fee",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.NDC",
+         "name":"Mani Majra Other Citizen Service NDC Application fee",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.NDC_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.NOC",
+         "name":"Mani Majra Other Citizen Service NOC Application fee",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.NOC_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT",
+         "name":"Mani Majra Citizen Service Sale gift Application tax",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.SALE_GIFT_APPLICATION_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT",
+         "name":"Mani Majra Citizen Service Family settlement Application tax",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.FAMILY_SETTLEMENT_APPLICATION_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH",
+         "name":"Mani Majra Citizen Service Intestate death Application tax",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.INTESTATE_DEATH_APPLICATION_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL",
+         "name":"Mani Majra Citizen Service Registered will Application tax",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.REGISTERED_WILL_APPLICATION_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL",
+         "name":"Mani Majra Citizen Service Un Registered will Application tax",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.UN_REGISTERED_WILL_APPLICATION_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE",
+         "name":"Mani Majra Other Citizen Service Allotment of new house Application tax",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.ALLOTMENT_OF_NEW_HOUSE_APPLICATION_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.NDC",
+         "name":"Mani Majra Other Citizen Service NDC Application tax",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.NDC_APPLICATION_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_MANI_MAJRA.NOC",
+         "name":"Mani Majra Other Citizen Service NOC Application tax",
+         "code":"ESTATE_SERVICE_MANI_MAJRA.NOC_APPLICATION_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
       {
          "category":"TAX",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
@@ -3956,6 +3956,176 @@
          "facilitationCharge":"100"
       },
       {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "name":"Advertisement charges",
+         "code":"ADVERTISEMENT_CHARGES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_ADVERTISEMENT_FEES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "name":"Sales - Debris/Bldg Material/Malba",
+         "code":"SALES_DEBRIS_BLDG_MATERIAL_MALBA_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_SALES_BUILDING_MATERIAL_MALBA_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "name":"Ground Rent - Exhibitions and Bazaars",
+         "code":"GROUND_RENT_CAR_BAZAAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_GROUND_RENT_CAR_BAZAAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "name":"Ground Rent - Exhibitions and Bazaars",
+         "code":"GROUND_RENT_SCOOTER_BAZAAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_SCOOTER_BAZAAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "name":"Rent - Water Melon Sites",
+         "code":"RENT_WATER_MELON_SITES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "name":"Security of Water melon",
+         "code":"SECURITY_WATER_MELON_SITES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_WATER_MELON_SITES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "name":"Rent - Coconut Water sites",
+         "code":"RENT_COCONUT_WATER_SITES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "name":"Security of Coconut Water",
+         "code":"SECURITY_COCONUT_WATER_SITES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_COCONUT_WATER_SITES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "name":"Rent - Eating Joints",
+         "code":"RENT_EATING_JOINTS_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "name":"Security of Eating Joint",
+         "code":"SECURITY_EATING_JOINT_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_EATING_JOINTS_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
          "name":"Water tankar charges",
@@ -3964,7 +4134,17 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false,
-		 "taxAmount":"600"
+         "taxAmount":"600"
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.RTI_FEES",
+         "name":"RTI Fees",
+         "code":"RTI_FEES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
       },
       {
          "category":"FEE",
@@ -3985,7 +4165,258 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false,
-		 "taxAmount" : "18"
+         "taxAmount":"18"
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "name":"Security - Booking/Community Centres",
+         "code":"SECURITY_MANUAL_OPEN_SPACE_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "name":"Facilitation Charges",
+         "code":"FACILITATION_CHRGS_MANUAL_OPEN_SPACE_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "name":"Cleaning Charges",
+         "code":"CLEANING_CHRGS_MANUAL_OPEN_SPACE_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "name":"Sales - Tender/Other forms",
+         "code":"SALES_TENDER_OTHER_FORMS_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false,
+         "taxAmount":"18"
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_SALE_OF_FORMS_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "name":"Rent- Community Centres/Jhanj Ghar",
+         "code":"RENT_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "name":"Cleaning Charges",
+         "code":"CLEANING_CHRGS_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "name":"Security - Booking/Community Centres",
+         "code":"SECURITY_CHRGS_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "name":"Facilitation Charges",
+         "code":"FACILITATION_CHRGS_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "name":"Ground Rent - Boths/Mc Office",
+         "code":"GROUND_RENT_BOTHS_MC_OFFICE_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_GROUND_RENT_BOTHS_MC_OFFICE_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS",
+         "name":"Membership Fees",
+         "code":"MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "name":"Parking lots - Space Booking",
+         "code":"PARKING_LOTS_GROUND_OPEN_SPACES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_GROUND_OPEN_SPACES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "name":"Security - Booking/Community Centres",
+         "code":"SECURITY_GROUND_OPEN_SPACES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "name":"Facilitation Charges",
+         "code":"FACILITATION_CHRGS_GROUND_OPEN_SPACES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "name":"Cleaning Charges",
+         "code":"CLEANING_CHRGS_GROUND_OPEN_SPACES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"Parking lots - Space Booking",
+         "code":"PARKING_LOTS_COMMERCIAL_GROUND_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_COMMERCIAL_GROUND_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"Security - Booking/Community Centres",
+         "code":"SECURITY_COMMERCIAL_GROUND_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"Facilitation Charges",
+         "code":"FACILITATION_CHRGS_COMMERCIAL_GROUND_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"Cleaning Charges",
+         "code":"CLEANING_CHRGS_COMMERCIAL_GROUND_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.MISC_RECEIPT",
+         "name":"Miscellaneous Receipt",
+         "code":"MISC_RECEIPT_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.RTI",
+         "name":"RTI Fees",
+         "code":"RTI_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
       },
       {
          "category":"FEE",
@@ -4006,7 +4437,7 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false,
-		 "taxAmount" : "18"
+         "taxAmount":"18"
       },
       {
          "category":"TAX",
@@ -4017,18 +4448,18 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false,
-		 "taxAmount" : "18"
+         "taxAmount":"18"
       },
-	   {
-		 "category": "CHARGES",
-		 "service": "BKROOM",
-		 "name": "ROOM FACILITATION CHARGE",
-		 "code": "ROOM_FACILITATION_CHARGE",
-		 "isDebit": false,
-		 "isActualDemand": true,
-		 "order": "0",
-		 "isRequired": false,
-		 "facilitationCharge":"100"
-	   }
+      {
+         "category":"CHARGES",
+         "service":"BKROOM",
+         "name":"ROOM FACILITATION CHARGE",
+         "code":"ROOM_FACILITATION_CHARGE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false,
+         "facilitationCharge":"100"
+      }
    ]
 }

@@ -411,7 +411,103 @@
          "validTo":1838159999000
       },
       {
+         "code":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
          "code":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.RTI_FEES",
          "voucherCreationEnabled":true,
          "fund":"01",
          "function":"000300",
@@ -435,6 +531,102 @@
          "validTo":1838159999000
       },
       {
+         "code":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.MISC_RECEIPT",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
+         "code":"BOOKING_BRANCH_SERVICES.RTI",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"394",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
+      },
+      {
          "code":"BKROOM",
          "voucherCreationEnabled":true,
          "fund":"01",
@@ -445,6 +637,6 @@
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
-     }
+      }
    ]
 }

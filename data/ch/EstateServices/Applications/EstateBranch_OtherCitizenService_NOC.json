@@ -504,7 +504,8 @@
                   "required": true,
                   "dataSource": "owners",
                   "dataValue": "purchasers",
-                  "prefillValue": "selectedPurchaser ? selectedPurchaser.id : ''"
+                  "prefillValue": "selectedPurchaser ? selectedPurchaser.id : ''",
+                  "errorMessage":"'ES_ERR_PURCHASER_NAME'"
                 },
                 {
                   "label": "ES_PURCHASER_TRANSFEREE_NAME_LABEL",

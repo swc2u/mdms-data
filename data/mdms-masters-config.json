@@ -1320,6 +1320,14 @@
             "uniqueKeys": [
                 "$.code"
                    ]
-          }
+          },
+"PDF_BOOKING_DETAILS": {
+                   
+            "masterName": "Documents",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+                   ]
+          }		  		  
     }
 }
