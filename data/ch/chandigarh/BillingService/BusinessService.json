@@ -507,6 +507,33 @@
          "type":"Adhoc"
       },
       {
+         "businessService":"Road Department Services (Road Div 1).MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"ROAD_SERVICES_RD1.MEM_FEE_COMM_CLUB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },  
+      {
+         "businessService":"Road Department Services (Road Div 2).MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"ROAD_SERVICES_RD2.MEM_FEE_COMM_CLUB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Road Department Services (Road Div 3).MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"ROAD_SERVICES_RD3.MEM_FEE_COMM_CLUB",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Parking Branch Related Services.AUCTION - PARKING LOTS",
          "code":"PARKING_BRANCH_RELATED_SERVICES.AUCTION_PARKING_LOTS",
          "partPaymentAllowed":false,
@@ -984,7 +1011,7 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Booking Branch Services.MANUAL/OPEN SPACE",
+         "businessService":"Booking Branch Services.Booking of Parks",
          "code":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -1002,7 +1029,7 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Booking Branch Services.Community Centres/Jhanj Ghar",
+         "businessService":"Booking Branch Services.Booking of Community Centres/Jhanj Ghar",
          "code":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -1029,8 +1056,17 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Booking Branch Services.Booking of Grounds/Open Spaces",
+         "businessService":"Booking Branch Services.Booking of Open Spaces",
          "code":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Booking of Commercial Grounds",
+         "code":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,

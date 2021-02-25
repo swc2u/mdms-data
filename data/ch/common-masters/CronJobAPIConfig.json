@@ -90,6 +90,18 @@
       "jobName": "daily",
       "active": "true",
       "method": "POST",
+      "url": "http://integration-services.egov:8080/integration-services/eoffice/v1/_jobscheduler",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
       "url": "http://hc-services.egov:8080/hc-services/serviceRequest/_scheduler?tenantId=ch.chandigarh",
       "payload": {
         "RequestInfo": "{DEFAULT_REQUESTINFO}"

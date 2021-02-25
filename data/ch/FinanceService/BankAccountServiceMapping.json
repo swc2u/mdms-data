@@ -171,6 +171,24 @@
          "bankBranch":"OBC01"
       },
       {
+         "businessDetails":"ROAD_SERVICES_RD1.MEM_FEE_COMM_CLUB",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      }, 
+      {
+         "businessDetails":"ROAD_SERVICES_RD2.MEM_FEE_COMM_CLUB",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      }, 
+      {
+         "businessDetails":"ROAD_SERVICES_RD3.MEM_FEE_COMM_CLUB",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      }, 
+      {
          "businessDetails":"CTL.REHRI_REGISTRATION",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
@@ -682,6 +700,12 @@
       },
       {
          "businessDetails":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"

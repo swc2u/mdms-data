@@ -246,6 +246,30 @@
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
          "periodCycle":"TENYEARS",
+         "service":"ROAD_SERVICES_RD1.MEM_FEE_COMM_CLUB",
+         "code":"RSMFEERD110YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_SERVICES_RD2.MEM_FEE_COMM_CLUB",
+         "code":"RSMFEERD210YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"ROAD_SERVICES_RD3.MEM_FEE_COMM_CLUB",
+         "code":"RSMFEERD310YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
          "service":"CTL.REHRI_REGISTRATION",
          "code":"PRRC10YRS2019",
          "financialYear":"2019-29"
@@ -920,6 +944,14 @@
          "periodCycle":"TENYEARS",
          "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
          "code":"BBBGOS10YRS2019",
+         "financialYear":"2019-29"
+      },
+      {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "code":"BBBCG10YRS2019",
          "financialYear":"2019-29"
       },
       {
