@@ -1,0 +1,16 @@
+{
+   "tenantId":"ch",
+   "moduleName":"store-asset",
+   "InventoryType":[
+		{
+			 "name":"Asset",
+			 "code":"Asset",
+			 "active":true
+		},
+		{
+			 "name":"Consumable",
+			 "code":"Consumable",
+			 "active":true
+		}
+    ]
+}

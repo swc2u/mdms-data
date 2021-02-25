@@ -1,0 +1,41 @@
+{
+	"tenantId":"ch",
+	"moduleName":"store-asset",
+	"businessService":[
+      {
+              "id": "1",
+              "role": "SAJE",
+              "name": "Engineering"
+      },
+      {
+              "id": "2",
+              "role": "SACP",
+              "name": "IT"
+      },
+      {
+              "id": "3",
+              "role": "SACT",
+              "name": "Caretaker"
+      },
+      {
+              "id": "4",
+              "role": "SACSI",
+              "name": "MOH"
+      },
+      {
+              "id": "5",
+              "role": "SASP",
+              "name": "MOH"
+      },
+      {
+              "id": "6",
+              "role": "SASO",
+              "name": "MOH"
+      },
+      {
+              "id": "7",
+              "role": "SASIC",
+              "name": "MOH"
+      }
+    ]
+}

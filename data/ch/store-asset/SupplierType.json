@@ -1,0 +1,36 @@
+{
+   "tenantId":"ch",
+   "moduleName":"store-asset",
+   "SupplierType":[
+		{
+			 "name":"INDIVIDUAL",
+			 "code":"INDIVIDUAL",
+			 "active":true
+		},
+		{
+			 "name":"FIRM",
+			 "code":"FIRM",
+			 "active":true
+		},
+		{
+			 "name":"COMPANY",
+			 "code":"COMPANY",
+			 "active":true
+		},
+		{
+			 "name":"REGISTEREDSOCIETY",
+			 "code":"REGISTEREDSOCIETY",
+			 "active":true
+		},
+		{
+			 "name":"GOVERNMENTDEPARTMENT",
+			 "code":"GOVERNMENTDEPARTMENT",
+			 "active":true
+		},
+		{
+			 "name":"OTHERS",
+			 "code":"OTHERS",
+			 "active":true
+		}
+    ]
+}
