@@ -3271,7 +3271,7 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false,
-		 "taxAmount":"600"
+	 "taxAmount":"600"
       },
       {
          "category":"FEE",
@@ -3302,7 +3302,37 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false,
-		 "taxAmount" : "18"
+	 "taxAmount" : "18"
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "name":"Security - Booking/Community Centres",
+         "code":"SECURITY_MANUAL_OPEN_SPACE_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "name":"Facilitation Charges",
+         "code":"FACILITATION_CHRGS_MANUAL_OPEN_SPACE_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "name":"Cleaning Charges",
+         "code":"CLEANING_CHRGS_MANUAL_OPEN_SPACE_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
       },
       {
          "category":"FEE",
@@ -3312,7 +3342,8 @@
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
-         "isRequired":false
+         "isRequired":false,
+         "taxAmount" : "18"
       },
       {
          "category":"TAX",
@@ -3349,6 +3380,26 @@
          "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
          "name":"Cleaning Charges",
          "code":"CLEANING_CHRGS_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "name":"Security - Booking/Community Centres",
+         "code":"SECURITY_CHRGS_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "name":"Facilitation Charges",
+         "code":"FACILITATION_CHRGS_COMMUNITY_CENTRES_JHANJ_GHAR_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
@@ -3399,6 +3450,86 @@
          "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
          "name":"CGST and UTGST",
          "code":"CGST_UTGST_GROUND_OPEN_SPACES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "name":"Security - Booking/Community Centres",
+         "code":"SECURITY_GROUND_OPEN_SPACES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "name":"Facilitation Charges",
+         "code":"FACILITATION_CHRGS_GROUND_OPEN_SPACES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "name":"Cleaning Charges",
+         "code":"CLEANING_CHRGS_GROUND_OPEN_SPACES_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"Parking lots - Space Booking",
+         "code":"PARKING_LOTS_COMMERCIAL_GROUND_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_COMMERCIAL_GROUND_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"Security - Booking/Community Centres",
+         "code":"SECURITY_COMMERCIAL_GROUND_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"Facilitation Charges",
+         "code":"FACILITATION_CHRGS_COMMERCIAL_GROUND_BOOKING_BRANCH",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "name":"Cleaning Charges",
+         "code":"CLEANING_CHRGS_COMMERCIAL_GROUND_BOOKING_BRANCH",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
