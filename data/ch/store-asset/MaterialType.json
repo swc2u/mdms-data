@@ -52,12 +52,53 @@
          "isParent":true,
          "active":true
       },
-      {
+      
+	  {
          "id":6,
          "tenantId":"ch",
-         "code":"106",
+         "code":"BR",
+         "name":"Buildng and Roads",
+         "description":"Buildng and Roads",
+         "parent":"",
+         "isParent":true,
+         "active":true
+      },
+	 {
+         "id":7,
+         "tenantId":"ch",
+         "code":"CTG",
+         "name":"Care Taker General",
+         "description":"Care Taker General",
+         "parent":"",
+         "isParent":true,
+         "active":true
+      },
+	   {
+         "id":8,
+         "tenantId":"ch",
+         "code":"IT",
+         "name":"IT",
+         "description":"IT",
+         "parent":"",
+         "isParent":true,
+         "active":true
+      },
+	   {
+         "id":9,
+         "tenantId":"ch",
+         "code":"CTC",
+         "name":"Care Taker Crockery",
+         "description":"Care Taker Crockery",
+         "parent":"",
+         "isParent":true,
+         "active":true
+      },
+	  {
+         "id":10,
+         "tenantId":"ch",
+         "code":"MST",
          "name":"Stationary",
-         "description":"Stationary.",
+         "description":"Stationary",
          "parent":"",
          "isParent":true,
          "active":true
