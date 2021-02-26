@@ -17113,6 +17113,19 @@
 		"code": "null",
 		"path": ""
 	},
+	{
+		"id": 2443,
+		"name": "EC send message",
+		"url": "/ec-services/violation/_sendMessage",
+		"parentModule": "",
+		"displayName": "ec-services",
+		"orderNumber": 0,
+		"queryParams": null,
+		"enabled": true,
+		"serviceCode": "ec-services",
+		"code": "null",
+		"path": ""
+	},
     {
 		"id": 4500,
 		"name": "SEPCreate",
