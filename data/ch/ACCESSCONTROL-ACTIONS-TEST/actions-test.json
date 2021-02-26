@@ -19147,7 +19147,7 @@
       "code": "null",
       "path": "pension-services"
     }
-	   ,
+	,
 	{
 		"id": 4300,
 		"name": "StoresCreation",
@@ -21325,6 +21325,19 @@
 		"id": 2442,
 		"name": "EC get violation detail",
 		"url": "/ec-services/violation/_search",
+		"parentModule": "",
+		"displayName": "ec-services",
+		"orderNumber": 0,
+		"queryParams": null,
+		"enabled": true,
+		"serviceCode": "ec-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 2443,
+		"name": "EC send message",
+		"url": "/ec-services/violation/_sendMessage",
 		"parentModule": "",
 		"displayName": "ec-services",
 		"orderNumber": 0,
