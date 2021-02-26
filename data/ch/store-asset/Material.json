@@ -1719,16 +1719,16 @@
 			"code":"MST"
 		 },
          "baseUom":{
-			"id":22,
-			"code":"kg",
+			"id":4,
+			"code":"KGS",
 			"conversionFactor":1
 		 },
 		 "serialNumber":true,
 		 "shelfLifeControl":true,
 		 "lotControl":true,
 		 "purchaseUom":{
-			"id":22,
-			"code":"kg",
+			"id":4,
+			"code":"KGS",
 			"conversionFactor":1
 		 }
       },
