@@ -777,14 +777,16 @@
                   "placeholder": "ES_DATE_OF_HEARING_PLACEHOLDER",
                   "type": "DATE_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.dateOfHearing",
-                  "path": "dateOfHearing"
+                  "path": "dateOfHearing",
+                  "errorMessage":"'ES_ERR_DATE_OF_HEARING'"
                 },
                 {
                   "label": "ES_TIME_OF_HEARING_LABEL",
                   "placeholder": "ES_TIME_OF_HEARING_PLACEHOLDER",
                   "type": "TIME_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.timeOfhearing",
-                  "path": "timeOfHearing"
+                  "path": "timeOfHearing",
+                  "errorMessage":"'ES_ERR_TIME_OF_HEARING'"
                 }
               ]
             }
