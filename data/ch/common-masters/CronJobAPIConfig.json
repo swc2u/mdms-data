@@ -102,6 +102,18 @@
       "jobName": "daily",
       "active": "true",
       "method": "POST",
+      "url": "http://rainmaker-pgr.egov:8080/rainmaker-pgr/v1/reports/_jobscheduler",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
       "url": "http://hc-services.egov:8080/hc-services/serviceRequest/_scheduler?tenantId=ch.chandigarh",
       "payload": {
         "RequestInfo": "{DEFAULT_REQUESTINFO}"
