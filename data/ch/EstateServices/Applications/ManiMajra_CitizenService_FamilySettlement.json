@@ -222,7 +222,7 @@
         },
         {
           "path": "transferee.mobileNo",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "mobile"

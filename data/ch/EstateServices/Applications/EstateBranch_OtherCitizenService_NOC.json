@@ -55,7 +55,7 @@
         },
         {
           "path": "transferee.dob",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "date-range",
@@ -112,7 +112,7 @@
         },
         {
           "path": "transferee.mobileNo",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "mobile"
