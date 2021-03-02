@@ -17995,6 +17995,30 @@
 		"path": ""
 	},
 	{
+		"id": 6028,
+		"name": "_getPostDetailsId",
+		"url": "/integration-services/eoffice/v1/_getPostDetailsId",
+		"displayName": "_getPostDetailsId",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6029,
+		"name": "discriptionReportScheduler",
+		"url": "/rainmaker-pgr/v1/reports/_jobscheduler",
+		"displayName": "discriptionReportScheduler",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
 		"id": 6012,
 		"name": "Manage Auditor/RSA",
 		"url": "services/audit/manageAuditor/manageAudform",

@@ -38258,6 +38258,18 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "EMPLOYEE",
+		"actionid": 6028,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "EMPLOYEE",
+		"actionid": 6029,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "SDE",
 		"actionid": "1730",
 		"actioncode": "",
