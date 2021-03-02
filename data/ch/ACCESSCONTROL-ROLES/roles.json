@@ -847,25 +847,105 @@
       "description": "Common role for water & sewerage"
     },
 	{
+      "code": "WS_JE_08",
+      "name": "WS JE role",
+      "description": "JE role for water & sewerage"
+    },
+	{
+      "code": "WS_JE_09",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_JE_14",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_JE_15",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_JE_20",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SE",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_CHD",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_08",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_09",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_14",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_15",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_20",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SUPERINTENDENT",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_08",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_09",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_14",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_15",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_20",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDC",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
       "code": "WS_CEMP",
       "name": "WS Counter Employee",
       "description": "WS counter employee can take action as citizen"
-    },
-    {
-      "code": "WS_JE",
-      "name": "WS Document Verifier & Release Connection",
-      "description": "WS Document Verifier & Release Connection"
-    },
-    {
-      "code": "WS_SDE_ROADS",
-      "name": "WS SDE Roads",
-      "description": "WS SDE Roads"
-    },
-    {
-      "code": "WS_SDE",
-      "name": "WS Approver",
-      "description": "WS Approver can approve the connection application"
-    },
+    },  
     {
       "code": "WS_EE",
       "name": "WS Executive Engineer",
@@ -885,22 +965,92 @@
       "code": "SW_SDO",
       "name": "SW SDO",
       "description": "SW SDO who forward connection"
+    }, 
+	{
+      "code": "SW_JE_06",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
     },
-    {
-      "code": "SW_JE",
-      "name": "SW Document Verifier & Release Connection",
-      "description": "SW Document Verifier & Release Connection"
+	{
+      "code": "SW_JE_12",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
     },
-    {
-      "code": "SW_JE_BR",
-      "name": "SW B&R JE",
-      "description": "SW B&R JE verify road cutting"
+	{
+      "code": "SW_JE_13",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
     },
-    {
+	{
+      "code": "SW_JE_18",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDE_06",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDE_12",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDE_13",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDE_18",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
       "code": "SW_EE",
-      "name": "SW Approver",
-      "description": "SW Approver can approve the connection application"
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
     },
+	{
+      "code": "SW_SUPERINTENDENT",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_CHD",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_HDM",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SE",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDER_06",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDER_12",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDER_13",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDER_18",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    }, 
     {
       "code": "AUDIT_ADMIN",
       "name": "AUDIT_ADMIN",
