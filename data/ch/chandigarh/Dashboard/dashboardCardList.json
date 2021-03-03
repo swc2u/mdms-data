@@ -81,6 +81,14 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "StoreIndentDashboard"
+    },
+    {
+      "cardName": "WNS_dashboard_1",
+      "roles": [
+        "WS_FINANCE"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "WNSDashboard"
     }
   ]
 }
