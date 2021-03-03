@@ -61428,6 +61428,38 @@
 			 "actionid": 2443,
 			 "actioncode": "",
 			 "tenantId": "ch"
-		}
+		},
+		  {
+
+			"rolecode": "BK_E-SAMPARK-CENTER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "BK_MCC_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+
+			"rolecode": "BK_OSD_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "BK_ADMIN_APPROVER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "BK_PARKS_AND_COMMUNITY_VIEWER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  }
 	]
 }
