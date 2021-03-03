@@ -32,6 +32,45 @@
           ]
         },
         {
+          "path": "bookNumber",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
+          "path": "pageNumber",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
+          "path": "volumeNumber",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
           "path": "dateOfRegistration",
           "required": true,
           "validations": [
@@ -548,7 +587,31 @@
                   "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
                   "path": "dateOfRegistration",
                   "errorMessage":"'ES_ERR_REG_DATE'"
-                }
+                },
+                {
+                  "label": "ES_BOOK_NUMBER_LABEL",
+                  "placeholder": "ES_BOOK_NUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].bookNumber",
+                  "path": "bookNumber",
+                  "errorMessage": "'ES_ERR_BOOK_NUMBER'"
+            },
+            {
+              "label": "ES_PAGE_NUMBER_LABEL",
+              "placeholder": "ES_PAGE_NUMBER_PLACEHOLDER",
+              "type": "TEXT_FIELD",
+              "jsonPath": "Applications[0].pageNumber",
+              "path": "pageNumber",
+              "errorMessage": "'ES_ERR_PAGE_NUMBER'"
+        },
+        {
+          "label": "ES_VOLUME_NUMBER_LABEL",
+          "placeholder": "ES_VOLUME_NUMBER_PLACEHOLDER",
+          "type": "TEXT_FIELD",
+          "jsonPath": "Applications[0].volumeNumber",
+          "path": "volumeNumber",
+          "errorMessage": "'ES_ERR_VOLUME_NUMBER'"
+    }
               ]
             }
           ]
@@ -682,7 +745,19 @@
                   "label": "ES_DATE_OF_REGISTRATION_LABEL",
                   "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
                   "type": "date"
-                }
+                },
+                {
+                  "label": "ES_BOOK_NUMBER_LABEL",
+                  "jsonPath": "Applications[0].bookNumber"
+              },
+              {
+                "label": "ES_PAGE_NUMBER_LABEL",
+                "jsonPath": "Applications[0].pageNumber"
+            },
+            {
+              "label": "ES_VOLUME_NUMBER_LABEL",
+              "jsonPath": "Applications[0].volumeNumber"
+          }
               ]
             },
             {
