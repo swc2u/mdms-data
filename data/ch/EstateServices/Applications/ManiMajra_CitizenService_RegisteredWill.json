@@ -181,7 +181,7 @@
         },
         {
           "path": "transferee.mobileNo",
-          "required": false,
+          "required": true,
           "validations": [
             {
               "type": "mobile"
