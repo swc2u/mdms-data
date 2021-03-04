@@ -17126,6 +17126,32 @@
 		"code": "null",
 		"path": ""
 	},
+	{
+		"id": 2444,
+		"name": "EC update payment",
+		"url": "/ec-services/violation/_updatePayment",
+		"parentModule": "",
+		"displayName": "ec-services",
+		"orderNumber": 0,
+		"queryParams": null,
+		"enabled": true,
+		"serviceCode": "ec-services",
+		"code": "null",
+		"path": ""
+	},	
+	{
+		"id": 2445,
+		"name": "EC delete challan",
+		"url": "/ec-services/violation/_deleteChallan",
+		"parentModule": "",
+		"displayName": "ec-services",
+		"orderNumber": 0,
+		"queryParams": null,
+		"enabled": true,
+		"serviceCode": "ec-services",
+		"code": "null",
+		"path": ""
+	},
     {
 		"id": 4500,
 		"name": "SEPCreate",
