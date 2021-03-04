@@ -61423,12 +61423,24 @@
 			"actioncode": "",
 			"tenantId": "ch"
 			},
-		{
-			 "rolecode": "challanSI",
-			 "actionid": 2443,
-			 "actioncode": "",
-			 "tenantId": "ch"
-		},
+			{
+				 "rolecode": "challanSI",
+				 "actionid": 2443,
+				 "actioncode": "",
+				 "tenantId": "ch"
+			},
+			{
+				 "rolecode": "challanSI",
+				 "actionid": 2444,
+				 "actioncode": "",
+				 "tenantId": "ch"
+			},
+			{
+				 "rolecode": "CHALLAN_DELETE",
+				 "actionid": 2445,
+				 "actioncode": "",
+				 "tenantId": "ch"
+			},
 		  {
 
 			"rolecode": "BK_E-SAMPARK-CENTER",
