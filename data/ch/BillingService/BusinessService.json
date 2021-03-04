@@ -1939,6 +1939,69 @@
          "isActive":true
       },
       {
+         "businessService":"Booking Branch Services.ADVERTISEMENT FEES",
+         "code":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.SALES - BUILDING MATERIAL/MALBA",
+         "code":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.GROUND RENT - CAR BAZAAR",
+         "code":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.GROUD RENT - SCOOTER BAZAAR",
+         "code":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.WATER MELON SITES",
+         "code":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.COCONUT WATER SITES",
+         "code":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.EATING JOINTS",
+         "code":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
          "businessService":"Booking Branch Services.WATER TANKAR CHARGES",
          "code":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
          "partPaymentAllowed":false,
@@ -1948,8 +2011,89 @@
          "type":"Adhoc"
       },
       {
-         "businessService":"Booking Branch Services.MANUAL/OPEN SPACE",
+         "businessService":"Booking Branch Services.RTI FEES",
+         "code":"BOOKING_BRANCH_SERVICES.RTI_FEES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Booking of Parks",
          "code":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.SALE OF FORMS",
+         "code":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Booking of Community Centres/Jhanj Ghar",
+         "code":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Ground Rent-Boths/Mc Office",
+         "code":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.MEMBERSHIP FEES - COMMUNITY CENTRES/CLUBS",
+         "code":"BOOKING_BRANCH_SERVICES.MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Booking of Open Spaces",
+         "code":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Booking of Commercial Grounds",
+         "code":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.Unspecified Receipt/Miscellaneous Receipts",
+         "code":"BOOKING_BRANCH_SERVICES.MISC_RECEIPT",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Booking Branch Services.RTI",
+         "code":"BOOKING_BRANCH_SERVICES.RTI",
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
          "isVoucherCreationEnabled":true,

@@ -1,32 +1,32 @@
 {
-  "tenantId": "ch",
-  "moduleName": "FinanceModule",
-  "BankAccountServiceMapping": [
-   {
-      "businessDetails": "DISP_FIXED_ASSET.BUILDING",
-      "bankAccount": "00382010033490",
-      "bank": "Oriental Bank of Commerce",
-      "bankBranch": "OBC01"
-    },
-    {
-      "businessDetails": "DISP_FIXED_ASSET.LAND",
-      "bankAccount": "00382010033490",
-      "bank": "Oriental Bank of Commerce",
-      "bankBranch": "OBC01"
-    },
-    {
-      "businessDetails": "DISP_FIXED_ASSET.MOTOR_VEHICLE",
-      "bankAccount": "00382010033490",
-      "bank": "Oriental Bank of Commerce",
-      "bankBranch": "OBC01"
-    },
-    {
-      "businessDetails": "REV_GRANTS",
-      "bankAccount": "00382010033490",
-      "bank": "Oriental Bank of Commerce",
-      "bankBranch": "OBC01"
-    },
-    {
+   "tenantId":"ch",
+   "moduleName":"FinanceModule",
+   "BankAccountServiceMapping":[
+      {
+         "businessDetails":"DISP_FIXED_ASSET.BUILDING",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"DISP_FIXED_ASSET.LAND",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"DISP_FIXED_ASSET.MOTOR_VEHICLE",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"REV_GRANTS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
          "businessDetails":"APNI_MANDI_DAY_MARKET_RD1.APNI_MANDI",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
@@ -62,113 +62,221 @@
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
       },
-    {
-      "businessDetails": "CTL.REHRI_REGISTRATION",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-    {
-      "businessDetails": "CTL.REHRI_DRIVING_LICENSE",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-    {
-      "businessDetails": "CTL.DHOBI_GHAT",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-    {
-      "businessDetails": "CTL.OLD_BOOK_MARKET",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-    {
-      "businessDetails": "OPMS.PETNOC",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-    {
-      "businessDetails": "EC",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-    {
-      "businessDetails": "RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_MILK.RENT",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    },
-	{
-      "businessDetails": "RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
-      "bankAccount": "000000000001",
-      "bank": "Allahabad UP Gramin Bank",
-      "bankBranch": "001"
-    }
-  ]
+      {
+         "businessDetails":"CTL.REHRI_REGISTRATION",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"CTL.REHRI_DRIVING_LICENSE",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"CTL.DHOBI_GHAT",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"CTL.OLD_BOOK_MARKET",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"OPMS.PETNOC",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"EC",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_MILK.RENT",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
+         "bankAccount":"000000000001",
+         "bank":"Allahabad UP Gramin Bank",
+         "bankBranch":"001"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.SALES_BUILDING_MATERIAL_MALBA",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.GROUND_RENT_CAR_BAZAAR",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.GROUD_RENT_SCOOTER_BAZAAR",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.WATER_MELON_SITES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.COCONUT_WATER_SITES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.EATING_JOINTS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.WATER_TANKAR_CHARGES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.RTI_FEES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.SALE_OF_FORMS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.GROUND_RENT_OTHS_MC_OFFICE",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.MEMBERSHIP_FEES_COMMUNITY_CENTRES_CLUBS",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.BOOKING_GROUND_OPEN_SPACES",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.BOOKING_COMMERCIAL_GROUND",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.MISC_RECEIPT",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"BOOKING_BRANCH_SERVICES.RTI",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
+      }
+   ]
 }

@@ -3,17 +3,7 @@
     "moduleName": "TradeLicense",
     "LicensePeriod": [{
             "code": "5",
-			 "name": "5 Years",
-            "active": true
-        },
-        {
-            "code": "10",
-			 "name": "10 Years",
-            "active": true
-        },
-		{
-            "code": "15",
-			 "name": "15 Years",
+	    "name": "5 Years",
             "active": true
         }
     ]
