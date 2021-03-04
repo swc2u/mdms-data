@@ -24307,7 +24307,7 @@
       "path": ""
     },
     {
-      "id": 9043,
+      "id": 8043,
       "name": "Employee Room Search",
       "url": "/bookings/api/employee/community/center/room/_search",
       "parentModule": "",
@@ -24319,7 +24319,7 @@
       "path": ""
     },
     {
-      "id": 9044,
+      "id": 8044,
       "name": "Citizen Room Search",
       "url": "/bookings/api/citizen/community/center/room/_search",
       "parentModule": "",
