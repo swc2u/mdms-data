@@ -138,6 +138,18 @@
       "jobName": "daily",
       "active": "true",
       "method": "POST",
+      "url": "http://rainmaker-pgr.egov:8080/rainmaker-pgr/v1/reports/_jobscheduler",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
       "url": "http://rp-services.egov:8080/rp-services/property/_update_dues?tenantId=ch.chandigarh",
       "payload": {
         "RequestInfo": "{DEFAULT_REQUESTINFO}"
