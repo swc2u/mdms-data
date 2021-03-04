@@ -1551,6 +1551,11 @@
       "code": "SDEHQ",
       "name": "SDEHQ",
       "description": "SDEHQ"
+    },
+	{
+      "code": "CHALLAN_DELETE",
+      "name": "CHALLAN_DELETE",
+      "description": "CHALLAN_DELETE"
     }
   ]
 }
