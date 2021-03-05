@@ -34,7 +34,69 @@
       ]
     },
     {
+      "state": "PENDING_FOR_SDE_ROADS_APPROVAL",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "08",
+          "role": "WS_SDER_08",
+          "active": true
+        },
+        {
+          "subdivision": "09",
+          "role": "WS_SDER_09",
+          "active": true
+        },
+        {
+          "subdivision": "14",
+          "role": "WS_SDER_14",
+          "active": true
+        },
+        {
+          "subdivision": "15",
+          "role": "WS_SDER_15",
+          "active": true
+        },
+        {
+          "subdivision": "20",
+          "role": "WS_SDER_20",
+          "active": true
+        }
+      ]
+    },
+    {
       "state": "PENDING_FOR_SITE_INSPECTION",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "08",
+          "role": "WS_JE_08",
+          "active": true
+        },
+        {
+          "subdivision": "09",
+          "role": "WS_JE_09",
+          "active": true
+        },
+        {
+          "subdivision": "14",
+          "role": "WS_JE_14",
+          "active": true
+        },
+        {
+          "subdivision": "15",
+          "role": "WS_JE_15",
+          "active": true
+        },
+        {
+          "subdivision": "20",
+          "role": "WS_JE_20",
+          "active": true
+        }
+      ]
+    },
+    {
+      "state": "PENDING_FOR_JE_APPROVAL_AFTER_SUPERINTEDENT",
       "active": true,
       "roles": [
         {
@@ -97,6 +159,99 @@
     },
     {
       "state": "PENDING_FOR_SDE_APPROVAL",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "08",
+          "role": "WS_SDE_08",
+          "active": true
+        },
+        {
+          "subdivision": "09",
+          "role": "WS_SDE_09",
+          "active": true
+        },
+        {
+          "subdivision": "14",
+          "role": "WS_SDE_14",
+          "active": true
+        },
+        {
+          "subdivision": "15",
+          "role": "WS_SDE_15",
+          "active": true
+        },
+        {
+          "subdivision": "20",
+          "role": "WS_SDE_20",
+          "active": true
+        }
+      ]
+    },
+    {
+      "state": "PENDING_FOR_SDE_APPROVAL_AFTER_EE",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "08",
+          "role": "WS_SDE_08",
+          "active": true
+        },
+        {
+          "subdivision": "09",
+          "role": "WS_SDE_09",
+          "active": true
+        },
+        {
+          "subdivision": "14",
+          "role": "WS_SDE_14",
+          "active": true
+        },
+        {
+          "subdivision": "15",
+          "role": "WS_SDE_15",
+          "active": true
+        },
+        {
+          "subdivision": "20",
+          "role": "WS_SDE_20",
+          "active": true
+        }
+      ]
+    },
+    {
+      "state": "PENDING_FOR_SDE_APPROVAL_FOR_CITIZEN",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "08",
+          "role": "WS_SDE_08",
+          "active": true
+        },
+        {
+          "subdivision": "09",
+          "role": "WS_SDE_09",
+          "active": true
+        },
+        {
+          "subdivision": "14",
+          "role": "WS_SDE_14",
+          "active": true
+        },
+        {
+          "subdivision": "15",
+          "role": "WS_SDE_15",
+          "active": true
+        },
+        {
+          "subdivision": "20",
+          "role": "WS_SDE_20",
+          "active": true
+        }
+      ]
+    },
+    {
+      "state": "PENDING_FOR_SDE_APPROVAL_AFTER_SUPERINTENDENT",
       "active": true,
       "roles": [
         {
@@ -249,7 +404,7 @@
           "active": true
         }
       ]
-    },
+    }, 
     {
       "state": "PENDING_FOR_CONNECTION_EXTENSION_REGULAR",
       "active": true,
