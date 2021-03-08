@@ -40783,6 +40783,30 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_CLERK",
+			"actionid": "4086",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": "4086",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_CLERK",
+			"actionid": "4087",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": "4087",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "ES_ADDITIONAL_COMMISSIONER",
 			"actionid": 1766,
 			"actioncode": "",
