@@ -1132,6 +1132,11 @@
       "code": "SASIC",
       "name": "SIC",
       "description": "Store Asset Store In-Charge"
+    },
+	{
+      "code": "CHALLAN_DELETE",
+      "name": "CHALLAN_DELETE",
+      "description": "CHALLAN_DELETE"
     }
    ]
 }
