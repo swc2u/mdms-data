@@ -4,7 +4,7 @@
   "cardList": [
     {
       "code": "ECHALLAN",
-	  "roles": ["challanSI","challanSM","challanEAO","challanHOD"]	 
+	  "roles": ["challanSI","challanSM","challanEAO","challanHOD","CHALLAN_DELETE"]	 
     },
 	{
       "code": "ECHALLANAUCTION",

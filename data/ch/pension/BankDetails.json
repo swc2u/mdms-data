@@ -1,21 +1,296 @@
 {
-  "tenantId": "ch"  , 
-  "moduleName": "pension",
-  "BankDetails": [
-    {
-      "code": "BOB",
-      "name": "Bank of Baroda",
-      "active": true
-    },
-{
-      "code": "OBOC",
-      "name": "Oriental Bank of Commerce",
-      "active": true
-    },
-{
-      "code": "SBI",
-      "name": "State Bank of India",
-      "active": true
-    }
-  ]
+    "tenantId": "ch",
+    "moduleName": "pension",
+    "BankDetails": [
+        {
+            "code": "OBC",
+            "name": "Oriental Bank of Commerce",
+            "active": true
+        },
+        {
+            "code": "PNB",
+            "name": "Punjab National Bank",
+            "active": true
+        },
+        {
+            "code": "HDFC",
+            "name": "HDFC Bank",
+            "active": true
+        },
+        {
+            "code": "Pragati",
+            "name": "Pragati Bank",
+            "active": true
+        },
+        {
+            "code": "Axis",
+            "name": "Axis Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Bandhan",
+            "name": "Bandhan Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "CSB",
+            "name": "CSB Bank Limited",
+            "active": true
+        },
+        {
+            "code": "City Union",
+            "name": "City Union Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "DCB",
+            "name": "DCB Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Dhanlaxmi",
+            "name": "Dhanlaxmi Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Federal",
+            "name": "Federal Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "ICICI",
+            "name": "ICICI Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Indusind",
+            "name": "IndusInd Bank Ltd",
+            "active": true
+        },
+        {
+            "code": "IDFC",
+            "name": "IDFC FIRST Bank Limited",
+            "active": true
+        },
+        {
+            "code": "J and K",
+            "name": "Jammu & Kashmir Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Karnataka",
+            "name": "Karnataka Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Karur",
+            "name": "Karur Vysya Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Kotak",
+            "name": "Kotak Mahindra Bank Ltd",
+            "active": true
+        },
+        {
+            "code": "Lakshmi",
+            "name": "Lakshmi Vilas Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "RBL",
+            "name": "RBL Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Tamilnad",
+            "name": "Tamilnad Mercantile Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Yes",
+            "name": "YES Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "IDBI",
+            "name": "IDBI Bank Limited",
+            "active": true
+        },
+        {
+            "code": "AU",
+            "name": "Au Small Finance Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "CSFB",
+            "name": "Capital Small Finance Bank Ltd",
+            "active": true
+        },
+        {
+            "code": "FSFB",
+            "name": "Fincare Small Finance Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "ESFB",
+            "name": "Equitas Small Finance Bank Ltd",
+            "active": true
+        },
+        {
+            "code": "ESAF",
+            "name": "ESAF Small Finance Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Ujjivan",
+            "name": "Ujjivan Small Finance Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Jana",
+            "name": "Jana Small Finance Bank Ltd",
+            "active": true
+        },
+        {
+            "code": "Allahabad",
+            "name": "Allahabad Bank",
+            "active": true
+        },
+        {
+            "code": "Andhra",
+            "name": "Andhra Bank",
+            "active": true
+        },
+        {
+            "code": "BOB",
+            "name": "Bank of Baroda",
+            "active": true
+        },
+        {
+            "code": "BOI",
+            "name": "Bank of India",
+            "active": true
+        },
+        {
+            "code": "BOM",
+            "name": "Bank of Maharashtra",
+            "active": true
+        },
+        {
+            "code": "Canara",
+            "name": "Canara Bank",
+            "active": true
+        },
+        {
+            "code": "CBI",
+            "name": "Central Bank of India",
+            "active": true
+        },
+        {
+            "code": "Corporation Bank",
+            "name": "Corporation Bank",
+            "active": true
+        },
+        {
+            "code": "Dena Bank",
+            "name": "Dena Bank",
+            "active": true
+        },
+        {
+            "code": "Indian Bank",
+            "name": "Indian Bank",
+            "active": true
+        },
+        {
+            "code": "Indian Overseas Bank",
+            "name": "Indian Overseas Bank",
+            "active": true
+        },
+        {
+            "code": "P and S bank",
+            "name": "Punjab & Sind Bank",
+            "active": true
+        },
+        {
+            "code": "SBI",
+            "name": "State Bank of India",
+            "active": true
+        },
+        {
+            "code": "Syndicate Bank",
+            "name": "Syndicate Bank",
+            "active": true
+        },
+        {
+            "code": "UCO Bank",
+            "name": "UCO Bank",
+            "active": true
+        },
+        {
+            "code": "UBI",
+            "name": "Union Bank of India",
+            "active": true
+        },
+        {
+            "code": "United  Bank",
+            "name": "United Bank of India",
+            "active": true
+        },
+        {
+            "code": "Vijaya",
+            "name": "Vijaya Bank",
+            "active": true
+        },
+        {
+            "code": "SIB",
+            "name": "South Indian Bank",
+            "active": true
+        },
+        {
+            "code": "Haryana state Co",
+            "name": "The Haryana State Cooperative Apex Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "Co",
+            "name": "Cooperative Bank",
+            "active": true
+        },
+        {
+            "code": "PSCB",
+            "name": "Punjab State Cooperative Bank",
+            "active": true
+        },
+        {
+            "code": "Citi",
+            "name": "Citi Bank",
+            "active": true
+        },
+        {
+            "code": "Haryana Apex",
+            "name": "Haryana State Cooperative Apex Bank Ltd.",
+            "active": true
+        },
+        {
+            "code": "SCB",
+            "name": "Standard Chartered Bank",
+            "active": true
+        },
+        {
+            "code": "RBI",
+            "name": "Reserve Bank of India",
+            "active": true
+        },
+        {
+            "code": "Chd State",
+            "name": "THE CHD. STATE COOP. BANK",
+            "active": true
+        },
+        {
+            "code": "Bombay",
+            "name": "THE GREATER BOMBAY COOPERATIVE BANK",
+            "active": true
+        }
+    ]
 }
