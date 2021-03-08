@@ -24409,6 +24409,127 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 8051,
+      "name": "Community Centre Report Fetch",
+      "url": "/bookings/master/report/communitycenter/venue/type/_fetch",
+      "parentModule": "",
+      "displayName": "Community Centre Report Fetch",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8052,
+      "name": "Park Report Fetch",
+      "url": "/bookings/master/report/park/venue/type/_fetch",
+      "parentModule": "",
+      "displayName": "Park Report Fetch",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+ {
+      "id": 8053,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/AllBookingsReport/metadata/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+ {
+      "id": 8054,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/AllBookingsReport/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+ {
+      "id": 8055,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/DescriptionReport/metadata/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+ {
+      "id": 8056,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/DescriptionReport/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+ {
+      "id": 8057,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/paymentReport/metadata/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+ {
+      "id": 8058,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/paymentReport/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+ {
+      "id": 8059,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/blockingVenueReport/metadata/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
+    },
+ {
+      "id": 8060,
+      "name": "AllBookingsTransactionReport",
+      "url": "/report/rainmaker-services/blockingVenueReport/_get",
+      "displayName": "rainmaker-services-AllBookingsTransactionReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "report",
+      "code": "null",
+      "path": "Asset Management.Asset Reports.AssetImmovableRegister"
     }
+
   ]
 }

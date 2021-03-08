@@ -61718,6 +61718,66 @@
 			"actionid": 2444,
 			"actioncode": "",
 			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8051,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8052,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8053,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8054,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8055,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8056,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8057,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8058,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8059,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8060,
+			"actioncode": "",
+			"tenantId": "ch"
 		  }
 	]
 }
