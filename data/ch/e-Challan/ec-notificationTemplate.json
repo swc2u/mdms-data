@@ -5,7 +5,7 @@
       {
          "code":"Challan Generated",
          "subject":"Challan Issued",
-         "body":"Dear <violator>,<br> Seizure memo <ChallanId> violation has been generated for <EnchroachmentType> on <Date and Time>. Kindly visit the link to view details <Link>.<br><br> Regards,<br> Enforcement Wing, MCC.",
+         "body":"Dear <violator>, Seizure memo <ChallanId> violation has been generated for <EnchroachmentType> on <Date and Time>. Kindly visit the link to view details <Link>. Regards, Enforcement Wing, MCC.",
          "attachments":[
             {
                "name":"Seizure Memo",
