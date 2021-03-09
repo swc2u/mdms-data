@@ -1,7 +1,6 @@
 {
-    "ResponseInfo": null,
-    "MdmsRes": {
-      "EstateServices": {
+  "tenantId": "ch",
+  "moduleName": "EstateServices",
         "previousOwnerDocs": [{
           "code": "MasterEst",
           "type": "Estate",
@@ -35,6 +34,4 @@
             }
           ]
         }]
-      }
-    }
   }
