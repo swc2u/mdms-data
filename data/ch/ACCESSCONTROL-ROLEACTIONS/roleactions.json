@@ -54880,6 +54880,12 @@
 			 "actionid": 1004,
 			 "actioncode": "",
 			 "tenantId": "ch"
+		},
+		{
+			 "rolecode": "LCMS_DEPT_ACCESS",
+			 "actionid": 1006,
+			 "actioncode": "",
+			 "tenantId": "ch"
 		}
   ]
 }
