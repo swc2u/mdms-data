@@ -20734,6 +20734,17 @@
       "path": ""
     },
 	{
+      "id": 4604,
+      "name": "Get billing report",
+      "url": "/ws-services/wsreport/_getBillReportData",
+      "displayName": "Get billing report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",

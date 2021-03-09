@@ -33886,6 +33886,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4604,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SYSTEM",
 			"actionid": 4078,
 			"actioncode": "",
