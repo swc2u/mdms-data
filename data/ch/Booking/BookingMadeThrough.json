@@ -1,0 +1,21 @@
+{   "tenantId": "ch"  ,
+    "moduleName": "Booking",
+    "BookingMadeThrough": [
+        {
+            "name": "E-Sampark Center",
+            "id": "1",
+            "code": "BK_E-SAMPARK-CENTER",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        },
+        {
+            "name": "Individual/Online",
+            "id": "2",
+            "code": "CITIZEN",
+            "tenantId":"ch.chandigarh",
+            "active":"true"
+        }
+    ]
+}
+
+
