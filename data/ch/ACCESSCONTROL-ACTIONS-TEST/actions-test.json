@@ -17579,7 +17579,7 @@
       "id": 4087,
       "name": "Duplicate copy offline payment",
       "url": "/rp-services/duplicatecopy/_pay-fee",
-      "displayName": "Duplicate copy offline payment api",
+      "displayName": "Duplicate Copy offline payment api",
       "orderNumber": 0,
       "parentModule": "",
       "enabled": true,
