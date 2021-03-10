@@ -1,0 +1,801 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "swSectorList": [
+    {
+		"name": "Sector-1",
+		"code": "01",
+		"ledgerRange":"1",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-2",
+		"code": "02",
+		"ledgerRange":"1",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-3",
+		"code": "03",
+		"ledgerRange":"3",
+		"subdivision":"06",	
+		"active": true
+	},
+	{
+		"name": "Sector-4",
+		"code": "04",
+		"ledgerRange":"2",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-5",
+		"code": "05",
+		"ledgerRange":"1",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-6",
+		"code": "06",
+		"ledgerRange":"1",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-7",
+		"code": "07",
+		"ledgerRange":"10",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-8",
+		"code": "08",
+		"ledgerRange":"10",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-9",
+		"code": "09",
+		"ledgerRange":"8",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-10",
+		"code": "10",
+		"ledgerRange":"6",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-11",
+		"code": "11",
+		"ledgerRange":"6",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "Sector-12",
+		"code": "12",
+		"ledgerRange":"50",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-14",
+		"code": "14",
+		"ledgerRange":"5",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-15",
+		"code": "15",
+		"ledgerRange":"15",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-16",
+		"code": "16",
+		"ledgerRange":"4",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-17",
+		"code": "17",
+		"ledgerRange":"51",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-18",
+		"code": "18",
+		"ledgerRange":"51",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-19",
+		"code": "19",
+		"ledgerRange":"51",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-20",
+		"code": "20",
+		"ledgerRange":"51",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-21",
+		"code": "21",
+		"ledgerRange":"11",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-22",
+		"code": "22",
+		"ledgerRange":"51",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-23",
+		"code": "23",
+		"ledgerRange":"16",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-24",
+		"code": "24",
+		"ledgerRange":"9",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-25",
+		"code": "25",
+		"ledgerRange":"29",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-26",
+		"code": "26",
+		"ledgerRange":"53",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-27",
+		"code": "27",
+		"ledgerRange":"51",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-28",
+		"code": "28",
+		"ledgerRange":"51",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-29",
+		"code": "29",
+		"ledgerRange":"31",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-30",
+		"code": "30",
+		"ledgerRange":"21",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-31",
+		"code": "31",
+		"ledgerRange":"9",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-32",
+		"code": "32",
+		"ledgerRange":"13",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-33",
+		"code": "33",
+		"ledgerRange":"9",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-34",
+		"code": "34",
+		"ledgerRange":"11",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-35",
+		"code": "35",
+		"ledgerRange":"15",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-36",
+		"code": "36",
+		"ledgerRange":"8",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-37",
+		"code": "37",
+		"ledgerRange":"17",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-38",
+		"code": "38",
+		"ledgerRange":"28",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-39",
+		"code": "39",
+		"ledgerRange":"15",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-40",
+		"code": "40",
+		"ledgerRange":"18",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-41",
+		"code": "41",
+		"ledgerRange":"17",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-42",
+		"code": "42",
+		"ledgerRange":"11",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-43",
+		"code": "43",
+		"ledgerRange":"11",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-44",
+		"code": "44",
+		"ledgerRange":"13",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-45",
+		"code": "45",
+		"ledgerRange":"10",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-46",
+		"code": "46",
+		"ledgerRange":"12",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-47",
+		"code": "47",
+		"ledgerRange":"12",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-48",
+		"code": "48",
+		"ledgerRange":"91",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Sector-49",
+		"code": "49",
+		"ledgerRange":"90",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-50",
+		"code": "50",
+		"ledgerRange":"82",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-51",
+		"code": "51",
+		"ledgerRange":"83",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-52",
+		"code": "52",
+		"ledgerRange":"14",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-53",
+		"code": "53",
+		"ledgerRange":"6",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-54",
+		"code": "54",
+		"ledgerRange":"11",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-55",
+		"code": "55",
+		"ledgerRange":"22",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-56",
+		"code": "56",
+		"ledgerRange":"13",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Sector-61",
+		"code": "61",
+		"ledgerRange":"8",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Sector-63",
+		"code": "63",
+		"ledgerRange":"14",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "ALISHER KHUDA",
+		"code": "AS",
+		"ledgerRange":"11",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Attawa",
+		"code": "AT",
+		"ledgerRange":"11",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "BAPU DHAM COLONY",
+		"code": "BC",
+		"ledgerRange":"7",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "BEHLANA",
+		"code": "BH",
+		"ledgerRange":"2",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Badehri",
+		"code": "BR",
+		"ledgerRange":"11",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Burail",
+		"code": "BU",
+		"ledgerRange":"9",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "Butrela",
+		"code": "BT",
+		"ledgerRange":"13",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Dadu Majra",
+		"code": "DM",
+		"ledgerRange":"11",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Dadu Majra Colony",
+		"code": "DC",
+		"ledgerRange":"16",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "DHANAS HOUSING BOARD",
+		"code": "DH",
+		"ledgerRange":"50",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "DHANAS VILLAGE",
+		"code": "DV",
+		"ledgerRange":"50",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Ind. Area Phase-I",
+		"code": "IA",
+		"ledgerRange":"51",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "Ind. Area Phase-II",
+		"code": "IN",
+		"ledgerRange":"31",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "HALLOMAJRA",
+		"code": "HM",
+		"ledgerRange":"5",
+		"subdivision":"12",
+		"active": true
+	},
+	
+	{
+		"name": "IT",
+		"code": "IT",
+		"ledgerRange":"1",
+		"active": true
+	},
+	{
+		"name": "KAIMBWALA",
+		"code": "KB",
+		"ledgerRange":"11",
+		"subdivision":"06",
+		"active": true
+	},
+	{
+		"name": "KHUDA JASSU",
+		"code": "KJ",
+		"ledgerRange":"2",
+		"subdivision":"18",
+		"active": true
+	},
+	
+	{
+		"name": "KHUDA LAHORA",
+		"code": "KL",
+		"ledgerRange":"13",
+		"subdivision":"18",
+		"active": true
+	},
+	
+	{
+		"name": "KHUDDA",
+		"code": "KS",
+		"ledgerRange":"1",
+		"subdivision":"18",
+		"active": true
+	},
+	
+	{
+		"name": "KHAZERI",
+		"code": "KZ",
+		"ledgerRange":"1",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "LAHORA KHUDA COLONY",
+		"code": "LK",
+		"ledgerRange":"1",
+		"subdivision":"18",
+		"active": true
+	},
+	{
+		"name": "MAKHAN MAJRA",
+		"code": "MM",
+		"ledgerRange":"11",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "MALOYA COLONY",
+		"code": "ML",
+		"ledgerRange":"31",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "PALSORA",
+		"code": "PL",
+		"ledgerRange":"13",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "RAM DARBAR",
+		"code": "RD",
+		"ledgerRange":"16",
+		"subdivision":"12",
+		"active": true
+	},
+	{
+		"name": "SARANGPUR",
+		"code": "SR",
+		"ledgerRange":"11",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Transport Area",
+		"code": "TA",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Deep Complex",
+		"code": "DEC",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Bapudham Transit CAMP-I",
+		"code": "BTC1",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Bapudham Transit CAMP-II",
+		"code": "BTC2",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Slaughter House",
+		"code": "SLH",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Police Colony ",
+		"code": "POC",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Colony No. 4 ",
+		"code": "CN4",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Sanjay Colony",
+		"code": "SAC",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Hallomajra",
+		"code": "HMA",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Ramdarbar",
+		"code": "RAM",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Village Faidan",
+		"code": "FDN",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Village Raipur Khurd",
+		"code": "VRK",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Village Makhanmajra",
+		"code": "VMK",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Village Behlana",
+		"code": "VBL",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "SUB JAIL",
+		"code": "SJ",
+		"ledgerRange":"",
+		"subdivision":"12",
+		"active": true
+	},
+		{
+		"name": "Dog Control Cell Chandigarh",
+		"code": "DCC",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},
+		{
+		"name": "Milk Colony ",
+		"code": "MLKC",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},
+		{
+		"name": "Madrasi Colony",
+		"code": "MDRC",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},
+		{
+		"name": "Ambedkar Colony ",
+		"code": "AMBC",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Dumping Ground",
+		"code": "DUG",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},
+		{
+		"name": "Shahpur Colony",
+		"code": "SHC",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},
+		{
+		"name": "Village Attawa",
+		"code": "VAW",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},
+		{
+		"name": "Nehru Colony ",
+		"code": "NEHC",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "EWS Colony",
+		"code": "EWSC",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},
+	{
+		"name": "Aadarsh Colony",
+		"code": "ADHC",
+		"ledgerRange":"",
+		"subdivision":"13",
+		"active": true
+	},	
+	{
+		"name": "EWS LIG Colony",
+		"code": "ELC",
+		"ledgerRange":"",
+		"subdivision":"18",
+		"active": true
+	},	
+	{
+		"name": "Rehabilitation",
+		"code": "REH",
+		"ledgerRange":"",
+		"subdivision":"18",
+		"active": true
+	},	
+	{
+		"name": "STP Diggian",
+		"code": "STPD",
+		"ledgerRange":"",
+		"subdivision":"18",
+		"active": true
+	},	
+	{
+		"name": "STP Dhanas",
+		"code": "STPDH",
+		"ledgerRange":"",
+		"subdivision":"18",
+		"active": true
+	},	
+	{
+		"name": "STP 3BRD",
+		"code": "STPB",
+		"ledgerRange":"",
+		"subdivision":"18",
+		"active": true
+	}
+  ]
+}
+
