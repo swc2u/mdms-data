@@ -74,7 +74,9 @@
          "businessService":"Rented Properties (Milk Colony).Ownership Transfer",
          "code":"RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -85,7 +87,9 @@
          "businessService":"Rented Properties (Kumhar Colony).Ownership Transfer",
          "code":"RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -96,7 +100,9 @@
          "businessService":"Rented Properties (Sector 52-53).Ownership Transfer",
          "code":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -107,7 +113,9 @@
          "businessService":"Rented Properties (Vikas Nagar).Ownership Transfer",
          "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -118,9 +126,11 @@
          "businessService":"Rented Properties (Milk Colony).Rent",
          "code":"RENTED_PROPERTIES_COLONY_MILK.RENT",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
-         "partPaymentAllowed":false,
+         "partPaymentAllowed":true,
          "isAdvanceAllowed":false,
          "demandUpdateTime":604800000,
          "isVoucherCreationEnabled":true
@@ -129,9 +139,11 @@
          "businessService":"Rented Properties (Kumhar Colony).Rent",
          "code":"RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
-         "partPaymentAllowed":false,
+         "partPaymentAllowed":true,
          "isAdvanceAllowed":false,
          "demandUpdateTime":604800000,
          "isVoucherCreationEnabled":true
@@ -140,9 +152,11 @@
          "businessService":"Rented Properties (Sector 52-53).Rent",
          "code":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
-         "partPaymentAllowed":false,
+         "partPaymentAllowed":true,
          "isAdvanceAllowed":false,
          "demandUpdateTime":604800000,
          "isVoucherCreationEnabled":true
@@ -151,9 +165,11 @@
          "businessService":"Rented Properties (Vikas Nagar).Rent",
          "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
-         "partPaymentAllowed":false,
+         "partPaymentAllowed":true,
          "isAdvanceAllowed":false,
          "demandUpdateTime":604800000,
          "isVoucherCreationEnabled":true
@@ -162,7 +178,9 @@
          "businessService":"Rented Properties (Milk Colony).Duplicate Allotment Letter",
          "code":"RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -173,7 +191,9 @@
          "businessService":"Rented Properties (Kumhar Colony).Duplicate Allotment Letter",
          "code":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -184,7 +204,9 @@
          "businessService":"Rented Properties (Sector 52-53).Duplicate Allotment Letter",
          "code":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
@@ -195,7 +217,9 @@
          "businessService":"Rented Properties (Vikas Nagar).Duplicate Allotment Letter",
          "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
          "collectionModesNotAllowed":[
-            "DD"
+            "OFFLINE_NEFT",
+            "OFFLINE_RTGS",
+            "POSTAL_ORDER"
          ],
          "partPaymentAllowed":false,
          "isAdvanceAllowed":false,
