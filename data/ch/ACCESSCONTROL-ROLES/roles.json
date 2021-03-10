@@ -1132,6 +1132,21 @@
       "code": "SASIC",
       "name": "SIC",
       "description": "Store Asset Store In-Charge"
+    },
+	{
+      "code": "CHALLAN_DELETE",
+      "name": "CHALLAN_DELETE",
+      "description": "CHALLAN_DELETE"
+    },
+    {
+         "code":"LEGAL_NODAL_OFFICER",
+         "name":"Legal Nodal Officer",
+         "description":"Legal Nodal Officer"
+    },
+    {
+         "code":"LCMS_DEPT_ACCESS",
+         "name":"LCMS_DEPT_ACCESS",
+         "description":"LCMS_DEPT_ACCESS"
     }
    ]
 }
