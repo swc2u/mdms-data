@@ -29,6 +29,13 @@
       "tenantId": "ch",
       "name": "Seizure of Vehicles",
       "active": true
+    },
+        {
+      "id": "5",
+          "code": "Without License Rehri",
+      "tenantId": "ch",
+      "name": "Without License Rehri",
+      "active": true
     }
   ]
 }
