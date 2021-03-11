@@ -74,7 +74,7 @@
         },
         {
           "path": "transferee.dob",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "date-range",
@@ -268,21 +268,21 @@
         },
         {
           "code": "NO_DUE_FROM_PROPERTY_TAX",
-          "required": false,
+          "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "NO_DUE_FROM_PROPERTY_TAX_DESCRIPTION"
         },
         {
           "code": "ORIGINAL_DEATH_CERTIFICATE_OF_MOTHER",
-          "required": false,
+          "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "ORIGINAL_DEATH_CERTIFICATE_OF_MOTHER_DESCRIPTION"
         },
         {
           "code": "ORIGINAL_INTQAL",
-          "required": false,
+          "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "ORIGINAL_INTQAL_DESCRIPTION"

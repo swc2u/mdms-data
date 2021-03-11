@@ -32,6 +32,32 @@
           ]
         },
         {
+          "path": "pageNumber",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
+          "path": "volumeNumber",
+          "required": false,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          ]
+        },
+        {
           "path": "registrationNumber",
           "required": true,
           "validations": [
@@ -139,7 +165,7 @@
         },
         {
           "path": "transferee.dob",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "date-range",
@@ -398,6 +424,13 @@
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "NO_DUE_CERTIFICATE_DESCRIPTION"
+        },
+        {
+          "code": "WATER_BILL_RECIEPT",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "WATER_BILL_RECIEPT_DESCRIPTION"
         }
       ],
       "uiConfig": {
@@ -659,7 +692,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 3 ? 'ES_ERR_REGISTRATION_NUMBER_THREE' : applicationDetails.registrationNumber.length > 100 ? 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 3 ? 'ES_ERR_REGISTRATION_NUMBER_THREE' : applicationDetails.registrationNumber.length > 100 ? 'ES_ERR_100_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
                 },
                 {
                   "label": "ES_DATE_OF_REGISTRATION_LABEL",
@@ -667,7 +700,31 @@
                   "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
                   "path": "dateOfRegistration",
                   "errorMessage":"'ES_ERR_REG_DATE'"
-                }
+                },
+                {
+                  "label": "ES_BOOK_NUMBER_LABEL",
+                  "placeholder": "ES_BOOK_NUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].bookNumber",
+                  "path": "bookNumber",
+                  "errorMessage": "'ES_ERR_BOOK_NUMBER'"
+            },
+            {
+              "label": "ES_PAGE_NUMBER_LABEL",
+              "placeholder": "ES_PAGE_NUMBER_PLACEHOLDER",
+              "type": "TEXT_FIELD",
+              "jsonPath": "Applications[0].pageNumber",
+              "path": "pageNumber",
+              "errorMessage": "'ES_ERR_PAGE_NUMBER'"
+        },
+        {
+          "label": "ES_VOLUME_NUMBER_LABEL",
+          "placeholder": "ES_VOLUME_NUMBER_PLACEHOLDER",
+          "type": "TEXT_FIELD",
+          "jsonPath": "Applications[0].volumeNumber",
+          "path": "volumeNumber",
+          "errorMessage": "'ES_ERR_VOLUME_NUMBER'"
+    }
               ]
             }
           ]
@@ -790,7 +847,19 @@
                           "label": "ES_DATE_OF_REGISTRATION_LABEL",
                           "jsonPath": "Applications[0].applicationDetails.dateOfRegistration",
                           "type": "date"
-                      }
+                      },
+                      {
+                        "label": "ES_BOOK_NUMBER_LABEL",
+                        "jsonPath": "Applications[0].bookNumber"
+                    },
+                    {
+                      "label": "ES_PAGE_NUMBER_LABEL",
+                      "jsonPath": "Applications[0].pageNumber"
+                  },
+                  {
+                    "label": "ES_VOLUME_NUMBER_LABEL",
+                    "jsonPath": "Applications[0].volumeNumber"
+                }
                   ]
               },
               {
