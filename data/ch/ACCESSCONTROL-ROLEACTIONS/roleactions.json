@@ -30669,6 +30669,79 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4234,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4235,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4236,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4237,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4238,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4239,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4247,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4248,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4249,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4250,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4251,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4252,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+
 
 {
       "rolecode": "ACCOUNTS_OFFICER",
@@ -30702,9 +30775,7 @@
       "actioncode": "",
       "tenantId": "ch"
     },
-		
-
-		{
+			{
 			"rolecode": "SI",
 			"actionid": "1861",
 			"actioncode": "",
@@ -33882,6 +33953,12 @@
 		{
 			"rolecode": "CITIZEN",
 			"actionid": 4603,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4604,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -61742,6 +61819,78 @@
 			"actionid": 2444,
 			"actioncode": "",
 			"tenantId": "ch"
-		  }
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8051,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8052,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8053,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8054,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8055,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8056,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8057,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8058,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8059,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+		    "rolecode": "BK_ADMIN",
+			"actionid": 8060,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		{
+			 "rolecode": "LCMS_DEPT_ACCESS",
+			 "actionid": 1004,
+			 "actioncode": "",
+			 "tenantId": "ch"
+		},
+		{
+			 "rolecode": "LCMS_DEPT_ACCESS",
+			 "actionid": 1006,
+			 "actioncode": "",
+			 "tenantId": "ch"
+		}
 	]
 }

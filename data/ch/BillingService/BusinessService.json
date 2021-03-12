@@ -1568,7 +1568,7 @@
          "collectionModesNotAllowed":[
             "DD"
          ],
-         "partPaymentAllowed":true,
+         "partPaymentAllowed":false,
          "isAdvanceAllowed":true,
          "demandUpdateTime":86400000,
          "isVoucherCreationEnabled":false,
@@ -1583,7 +1583,7 @@
             "OFFLINE_RTGS",
             "POSTAL_ORDER"
          ],
-         "partPaymentAllowed":true,
+         "partPaymentAllowed":false,
          "isAdvanceAllowed":true,
          "demandUpdateTime":86400000,
          "isVoucherCreationEnabled":false,
