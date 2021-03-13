@@ -1541,7 +1541,7 @@
          "collectionModesNotAllowed":[
             "DD"
          ],
-         "partPaymentAllowed":true,
+         "partPaymentAllowed":false,
          "isAdvanceAllowed":true,
          "demandUpdateTime":86400000,
          "isVoucherCreationEnabled":false,
