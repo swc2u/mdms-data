@@ -28308,6 +28308,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_JA",
+			"actionid": 14035,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "RP_CLERK",
 			"actionid": 4036,
 			"actioncode": "",
@@ -28752,6 +28758,24 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_JA",
+			"actionid": 4080,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": 4081,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": 4082,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "RP_CLERK",
 			"actionid": 4083,
 			"actioncode": "",
@@ -28819,6 +28843,24 @@
 		},
 		{
 			"rolecode": "RP_CLERK",
+			"actionid": 4049,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": 4047,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": 4048,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
 			"actionid": 4049,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -40546,6 +40588,12 @@
 		},
 		{
 			"rolecode": "RP_CLERK",
+			"actionid": "4084",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
 			"actionid": "4084",
 			"actioncode": "",
 			"tenantId": "ch"
