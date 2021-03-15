@@ -514,6 +514,7 @@
             {
               "header": "ES_PROPERTY_DETAILS_HEADER",
               "type": "CARD_DETAIL",
+              "visibility": "!!propertyData && !!propertyData.fileNumber",
               "fields": [
                 {
                   "label": "ES_FILE_NUMBER_LABEL",
@@ -556,6 +557,7 @@
             {
               "header": "ES_PROPERTY_OWNER_LIST_HEADER",
               "type": "TABLE",
+              "visibility": "!!propertyData && !!propertyData.fileNumber",
               "sourceJsonPath": "property.propertyDetails.owners",
               "fields": [
                 {
