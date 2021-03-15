@@ -86,7 +86,7 @@
         },
         {
           "code": "ORIGINAL_INTQAL",
-          "required": false,
+          "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "ORIGINAL_INTQAL_DESCRIPTION"
@@ -107,7 +107,7 @@
         },
         {
           "code": "NO_DUE_FROM_PROPERTY_TAX",
-          "required": false,
+          "required": true,
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "NO_DUE_FROM_PROPERTY_TAX_DESCRIPTION"
@@ -192,7 +192,7 @@
               ]
             },
             {
-              "header": "ES_APPLICANT_DETAILS_HEADER",
+              "header": "ES_OWNER_DETAILS_HEADER",
               "type": "FORM",
               "fields": [
                 {
@@ -295,7 +295,7 @@
               ]
             },
             {
-              "header": "ES_APPLICANT_DETAILS_HEADER",
+              "header": "ES_OWNER_DETAILS_HEADER",
               "step": 0,
               "fields": [
                 {

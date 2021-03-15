@@ -17564,6 +17564,30 @@
       "path": "UpdateCapturingTransiteSiteImagesApi"
     },
     {
+      "id": 4086,
+      "name": "Ownership offline payment",
+      "url": "/rp-services/ownership-transfer/_pay-fee",
+      "displayName": "Ownership transfer offline payment api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "OwnershipTransferOfflinePaymentAPI",
+      "code": "null",
+      "path": "OwnershipTransferOfflinePaymentAPI"
+    },
+    {
+      "id": 4087,
+      "name": "Duplicate copy offline payment",
+      "url": "/rp-services/duplicatecopy/_pay-fee",
+      "displayName": "Duplicate Copy offline payment api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "DuplicateCopyOfflinePaymentAPI",
+      "code": "null",
+      "path": "DuplicateCopyOfflinePaymentAPI"
+    },
+    {
       "id": 3000,
       "name": "OwnerShipTransferApplicationStatusReport",
       "url": "/report/rainmaker-rp/OTApplicationStatusReport/_get",

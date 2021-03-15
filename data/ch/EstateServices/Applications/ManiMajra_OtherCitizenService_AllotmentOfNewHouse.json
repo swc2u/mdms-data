@@ -28,7 +28,7 @@
         },
         {
           "path": "owner.dob",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "date-range",
@@ -237,6 +237,13 @@
           "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
           "fileType": "ALLTYPES",
           "description": "MM_CERTIFIED_COPY_OF_SALE_DEED_DESCRIPTION"
+        },
+        {
+          "code": "MM_SPENIN_SIGNATURE_OF_SPECIMEN",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "MM_SPENIN_SIGNATURE_OF_SPECIMEN_DESCRIPTION"
         }
       ],
       "uiConfig": {
