@@ -161,7 +161,7 @@
         },
         {
           "path": "transferee.dob",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "date-range",
@@ -786,7 +786,7 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.registrationNumber",
                   "path": "registrationNumber",
-                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 3 ? 'ES_ERR_REGISTRATION_NUMBER_THREE' : applicationDetails.registrationNumber.length > 100 ? 'ES_ERR_REGISTRATION_NUMBER_ONEFIVEZERO' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.registrationNumber ? applicationDetails.registrationNumber.length < 3 ? 'ES_ERR_REGISTRATION_NUMBER_THREE' : applicationDetails.registrationNumber.length > 100 ? 'ES_ERR_REGISTRATION_NUMBER_THREE' : 'ES_ERR_REGISTRATION_NUMBER' : 'ES_ERR_REGISTRATION_NUMBER'"
                 },
                 {
                   "label": "ES_REGISTRATION_DATE",

@@ -52,6 +52,18 @@
         ]
       },
       {
+        "name": "Residential cum Commercial",
+        "code": "CAT.RESIDENTIALCUMCOMMERCIAL",
+        "active": true,
+        "SubCategory": [
+            {
+                "name": "House cum Shop",
+                "code": "SUBCAT.HOUSECUMSHOP",
+                "active": true
+            }
+        ]
+    },
+      {
           "name": "Industrial",
           "code": "CAT.INDUSTRIAL",
           "active": true

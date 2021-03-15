@@ -159,6 +159,32 @@
       ]
     }, 
     {
+      "state": "PENDING_FOR_DOCUMENT_VERIFICATION_BY_SDO",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "06",
+          "role": "SW_SDE_06",
+          "active": true
+        },
+        {
+          "subdivision": "12",
+          "role": "SW_SDE_12",
+          "active": true
+        },
+        {
+          "subdivision": "13",
+          "role": "SW_SDE_13",
+          "active": true
+        },
+        {
+          "subdivision": "18",
+          "role": "SW_SDE_18",
+          "active": true
+        }
+      ]
+    }, 
+    {
       "state": "PENDING_FOR_SEWERAGE_CONNECTION_ACTIVATION",
       "active": true,
       "roles": [
