@@ -1,5 +1,5 @@
 {
-   "tenantId":"ch.chandigarh",
+   "tenantId":"ch",
    "moduleName":"BillingService",
    "TaxHeadMaster":[
       {
@@ -1942,7 +1942,7 @@
          "order":"0",
          "isRequired":false
       },
-      {
+	   {
          "category":"PENALTY",
          "service":"ROAD_SERVICES_RD3.RENT_MC_BLD_NRB",
          "name":"Penalities/Fines  Others",
@@ -2871,7 +2871,7 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false
-      },  
+      }, 
       {
          "category":"CHARGES",
          "service":"MOH_SERVICES",
@@ -4262,32 +4262,12 @@
       },
       {
          "category":"FEE",
-         "service":"RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
-         "name":"Duplicate Copy APRO Charges (Milk Colony)",
-         "code":"RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"1",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
          "service":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
          "name":"Duplicate Copy Application Charges (Kumhar Colony)",
          "code":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER_APPLICATION_FEE",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
-         "name":"Duplicate Copy APRO Charges (Kumhar Colony)",
-         "code":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"1",
          "isRequired":false
       },
       {
@@ -4302,32 +4282,12 @@
       },
       {
          "category":"FEE",
-         "service":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
-         "name":"Duplicate Copy APRO Charges (Sector 52-53)",
-         "code":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"1",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
          "service":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
          "name":"Duplicate Copy Application Charges (Vikas Nagar)",
          "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER_APPLICATION_FEE",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
-         "name":"Duplicate Copy APRO Charges (Vikas Nagar)",
-         "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"1",
          "isRequired":false
       },
       {
