@@ -59,12 +59,60 @@
       "route": "EaawasDashboard"
     },
     {
+      "cardName": "OPMS_dashboard_1",
+      "roles": [
+        "OSD"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "OPMSDashboard"
+    },
+    {
       "cardName": "OSBM_dashboard_1",
       "roles": [
         "BK_OSBM_APPROVER"
       ],
       "icon": "material-icons module-page-icon",
       "route": "OSBMDashboard"
+    },
+    {
+      "cardName": "StoreIndent_dashboard_1",
+      "roles": [
+        "SAJE"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "StoreIndentDashboard"
+    },
+    {
+      "cardName": "WNS_dashboard_1",
+      "roles": [
+        "WS_FINANCE"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "WNSDashboard"
+    },
+    {
+      "cardName": "Work_dashboard_1",
+      "roles": [
+        "WS_FINANCE"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "WorkDashboard"
+    },
+    {
+      "cardName": "EState_dashboard_1",
+      "roles": [
+        "ES_EB_DISPATCH_OFFICER"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "EstateDashboard"
+    },
+    {
+      "cardName": "RentedProperty_dashboard_1",
+      "roles": [
+        "RP_CA"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "RentedPropertyDashboard"
     }
   ]
 }
