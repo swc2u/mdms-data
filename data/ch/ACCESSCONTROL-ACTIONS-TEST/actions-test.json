@@ -21407,6 +21407,19 @@
 		"serviceCode": "ec-services",
 		"code": "null",
 		"path": ""
+	},	
+	{
+		"id": 2446,
+		"name": "EC edit challan",
+		"url": "/ec-services/violation/_EditChallan",
+		"parentModule": "",
+		"displayName": "ec-services",
+		"orderNumber": 0,
+		"queryParams": null,
+		"enabled": true,
+		"serviceCode": "ec-services",
+		"code": "null",
+		"path": ""
 	},		
 	{
 		"id": 4401,
