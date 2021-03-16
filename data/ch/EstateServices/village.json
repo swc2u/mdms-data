@@ -1,0 +1,121 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "village": [
+      {
+        "name": "Burail",
+        "code": "VILLAGE.BURAIL",
+        "active": true
+      },
+      {
+        "name": "Manimajra ",
+        "code": "VILLAGE.MANIMAJRA",
+        "active": true
+      },
+      {
+        "name": "Attawa",
+        "code": "VILLAGE.ATTAVA",
+        "active": true
+      },
+      {
+        "name": "Buterla ",
+        "code": "VILLAGE.BURTELA",
+        "active": true
+      },
+      {
+        "name": "Badheri",
+        "code": "VILLAGE.BADHERI",
+        "active": true
+      },
+      {
+        "name": "Maloya ",
+        "code": "VILLAGE.MALOYA",
+        "active": true
+      },
+      {
+        "name": "Kajheri",
+        "code": "VILLAGE.KAJHERI",
+        "active": true
+      },
+      {
+        "name": "Hallomajra",
+        "code": "VILLAGE.HALLOMAJRA",
+        "active": true
+      },
+      {
+        "name": "Dadumajra",
+        "code": "VILLAGE.DADUMAJRA",
+        "active": true
+      },
+      {
+        "name": "Palsora",
+        "code": "VILLAGE.PALSORA",
+        "active": true
+      },
+      {
+        "name": "Raipur Kalan ",
+        "code": "VILLAGE.RAIPUR_KALAN",
+        "active": true
+      },
+      {
+        "name": "Makhan Majra",
+        "code": "VILLAGE.MAKHAN_MAJRA",
+        "active": true
+      },
+      {
+        "name": "Maulijagaran",
+        "code": "VILLAGE.MAULIJAGARAN",
+        "active": true
+      },
+      {
+        "name": "Daria",
+        "code": "VILLAGE.DARIA",
+        "active": true
+      },
+      {
+        "name": "Kishangarh",
+        "code": "VILLAGE.KISHANGARH",
+        "active": true
+      },
+      {
+        "name": "Srangpur",
+        "code": "VILLAGE.SRANGPUR",
+        "active": true
+      },
+      {
+        "name": "Kaimbala",
+        "code": "VILLAGE.KAIMBALA",
+        "active": true
+      },
+      {
+        "name": "Khudda Lahora",
+        "code": "VILLAGE.KHUDDA_LAHORA",
+        "active": true
+      },
+      {
+        "name": "Khudda Jassu",
+        "code": "VILLAGE.KHUDDA_JASSU",
+        "active": true
+      },
+      {
+        "name": "Khudda Alisher",
+        "code": "VILLAGE.KHUDDA_ALISHER",
+        "active": true
+      },
+      {
+        "name": "Dhanas",
+        "code": "VILLAGE.DHANNAS",
+        "active": true
+      },
+      {
+        "name": "Behlana",
+        "code": "VILLAGE.BEHLANA",
+        "active": true
+      },
+      {
+        "name": "Raipur Khurd",
+        "code": "VILLAGE.RAIPUR_KHURD",
+        "active": true
+      }
+    ]
+  }
