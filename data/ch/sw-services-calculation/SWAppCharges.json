@@ -1,0 +1,342 @@
+{
+	"tenantId": "ch",
+	"moduleName": "sw-services-calculation",
+	"SWAppCharges": [{
+			"id": "1",
+			"buildingType": "RESIDENTIAL",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [{
+					"from": 0,
+					"to": 500,
+					"code": "RESIDENTIAL.PLOTTED",
+					"charge": 1000
+				},
+				{
+					"from": 500,
+					"to": 1000,
+					"code": "RESIDENTIAL.PLOTTED",
+					"charge": 2000
+				},
+				{
+					"from": 1000,
+					"to": 10000000000000000,
+					"code": "RESIDENTIAL.PLOTTED",
+					"charge": 4000
+				},
+				{
+					"from": 0,
+					"to": 10000000000000000,
+					"code": "RESIDENTIAL.GROUPED",
+					"charge": 20000
+				},{
+					"from": 0,
+					"to": 500,
+					"code": "RESIDENTIAL.VILLAGE",
+					"charge": 1000
+				},
+				{
+					"from": 500,
+					"to": 1000,
+					"code": "RESIDENTIAL.VILLAGE",
+					"charge": 2000
+				},
+				{
+					"from": 1000,
+					"to": 10000000000000000,
+					"code": "RESIDENTIAL.VILLAGE",
+					"charge": 4000
+				},
+				{
+					"from": 0,
+					"to": 500,
+					"code": "RESIDENTIAL.CHBDWELLINGUNITS",
+					"charge": 1000
+				},
+				{
+					"from": 500,
+					"to": 1000,
+					"code": "RESIDENTIAL.CHBDWELLINGUNITS",
+					"charge": 2000
+				},
+				{
+					"from": 1000,
+					"to": 10000000000000000,
+					"code": "RESIDENTIAL.CHBDWELLINGUNITS",
+					"charge": 4000
+				},
+				{
+					"from": 0,
+					"to": 10000000000000000,
+					"code": "RESIDENTIAL.REHABILITATION",
+					"charge": 20000
+				},
+				{
+					"from": 0,
+					"to": 10000000000000000,
+					"code": "RESIDENTIAL.GOVERNMENTHOUSING",
+					"charge": 20000
+				},
+				{
+					"from": 0,
+					"to": 10000000000000000,
+					"code": "RESIDENTIAL.INTEPENDENTFLOOR",
+					"charge": 20000
+				}
+			]
+		},
+		{
+			"id": 2,
+			"buildingType": "COMMERCIAL",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.BOOTH",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.SCF",
+				"charge": 20000
+			},{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.HOTEL",
+				"charge": 20000
+			},{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.MULTIPLEXMALLS",
+				"charge": 20000
+			},{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.INDUSTRIALCONVERTEDCOMMERCIAL",
+				"charge": 20000
+			},{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.BANQUET",
+				"charge": 20000
+			},{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.BULKBUILDING",
+				"charge": 20000
+			},{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.TIMBER",
+				"charge": 20000
+			},{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.THEATRECONVERTEDMULTIPLEX",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "COMMERCIAL.COALPETROL",
+				"charge": 20000
+			}
+			]
+		},
+		{
+			"id": 3,
+			"buildingType": "INDUSTRIAL",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [{
+				"from": 0,
+				"to": 4500,
+				"code": "INDUSTRIAL.ARCHITECTURALCONTROLS",
+				"charge": 10000
+			},
+			{
+				"from": 4500,
+				"to": 100000000000000000,
+				"code": "INDUSTRIAL.ARCHITECTURALCONTROLS",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 4500,
+				"code": "INDUSTRIAL.ZONINGPLANS",
+				"charge": 10000
+			},
+			{
+				"from": 4500,
+				"to": 100000000000000000,
+				"code": "INDUSTRIAL.ZONINGPLANS",
+				"charge": 20000
+			}
+			]
+		},
+		{
+			"id": 4,
+			"buildingType": "PUBLIC",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [
+			
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "PUBLIC.DISPENSARY",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "PUBLIC.HOSPITAL",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "PUBLIC.COMMUNITY",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "PUBLIC.SPORTSTADIUM",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "PUBLIC.CULTURAL",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "PUBLIC.RELIGIOUS",
+				"charge": 20000
+			}
+			]
+		},
+		{
+			"id": 5,
+			"buildingType": "EDUCATIONALINSTITUTES",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [
+			
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "EDUCATIONALINSTITUTES.EDUCATIONCITY",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "EDUCATIONALINSTITUTES.EDUCATIONALACADEMIC",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "EDUCATIONALINSTITUTES.HOSTELS",
+				"charge": 20000
+			}
+			]
+		},
+		{
+			"id": 6,
+			"buildingType": "ITPARK",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "ITPARK",
+				"charge": 20000
+			}
+			]
+		},
+		{
+			"id": 7,
+			"buildingType": "RAILWAYSTATION",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "RAILWAYSTATION",
+				"charge": 20000
+			}
+			]
+		},
+		{
+			"id": 8,
+			"buildingType": "ITHABITAT",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "ITHABITAT.HOSPITAL",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "ITHABITAT.COMMERCIALHOTEL",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "ITHABITAT.CLUB",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "ITHABITAT.RESIDENTIAL",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "ITHABITAT.GOVERNMENTHOUSING",
+				"charge": 20000
+			}
+			]
+		},
+		{
+			"id": 9,
+			"buildingType": "INTEGRATEDPROJECTS",
+			"calculationAttribute": "Sewerage charges",
+			"isActive": true,
+			"slabs": [ 
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "INTEGRATEDPROJECTS.INSTITUTIONAL",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "INTEGRATEDPROJECTS.INSTITUTIONAL",
+				"charge": 20000
+			},
+			{
+				"from": 0,
+				"to": 100000000000000000,
+				"code": "INTEGRATEDPROJECTS.INSTITUTIONAL",
+				"charge": 20000
+			}
+			]
+		} 
+	]
+}

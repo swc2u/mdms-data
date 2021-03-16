@@ -1,0 +1,61 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-calculation",
+  "RoadType": [
+    {
+      "name": "V-3 Road",
+      "code": "V3ROAD",
+      "unitCost": 663,
+      "isActive": true
+    },
+    {
+      "name": "V-5 Road",
+      "code": "V5ROAD",
+      "unitCost": 663,
+      "isActive": true
+    },
+    {
+      "name": "V-6 Road",
+      "code": "V6ROAD",
+      "unitCost": 361,
+      "isActive": true
+    },
+    {
+      "name": "Paver Blocks",
+      "code": "PAVERBLOCKS",
+      "unitCost": 522,
+      "isActive": true
+    },
+    {
+      "name": "Road Berm",
+      "code": "ROADBERM",
+      "unitCost": 108,
+      "isActive": true
+    },
+    {
+      "name": "Chamber",
+      "code": "CHAMBERS",
+      "unitCost": 10760,
+      "isActive": true
+    },
+    {
+      "name": "Pit On Kutcha",
+      "code": "PITONKUTCHA",
+      "unitCost": 432,
+      "isActive": true
+    },
+    {
+      "name": "Pit On Pavers",
+      "code": "PITONPAVERS",
+      "unitCost": 2061,
+      "isActive": true
+    },
+    {
+      "name": "Pit On Road",
+      "code": "PITONROAD",
+      "unitCost": 2644,
+      "isActive": true
+    }
+
+  ]
+}
