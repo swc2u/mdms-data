@@ -759,7 +759,7 @@
       },
       {
           "name": "Bapudham ",
-          "code": "ES_BAPUDHAM ",
+          "code": "ES_BAPUDHAM",
           "active": true
       },
       {
@@ -784,7 +784,7 @@
       },
       {
           "name": "ES_Bapudham Tansit Camp-I",
-          "code": "BAPUDHAM_TANSIT_CAMP-I",
+          "code": "ES_BAPUDHAM_TANSIT_CAMP-I",
           "active": true
       },
       {
