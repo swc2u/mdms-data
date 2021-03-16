@@ -62251,6 +62251,12 @@
 			"actionid": 2444,
 			"actioncode": "",
 			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": 2446,
+			"actioncode": "",
+			"tenantId": "ch"
 		  }
 	]
 }
