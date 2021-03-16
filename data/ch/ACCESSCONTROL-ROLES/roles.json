@@ -1571,6 +1571,11 @@
          "code":"LCMS_DEPT_ACCESS",
          "name":"LCMS_DEPT_ACCESS",
          "description":"LCMS_DEPT_ACCESS"
+      },
+      {
+         "code":"CHALLAN_EDIT",
+         "name":"CHALLAN_EDIT",
+         "description":"CHALLAN_EDIT"
       }
    ]
 }
