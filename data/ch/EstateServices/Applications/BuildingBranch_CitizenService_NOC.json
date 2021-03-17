@@ -547,6 +547,7 @@
             "name": "subCategory",
             "type": "mdms",
             "lazyload": true,
+            "cacheable": false,
             "options": {
               "moduleName": "EstateServices",
               "masterName": "categories",
