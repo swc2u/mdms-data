@@ -665,6 +665,7 @@
                   "type": "DROP_DOWN",
                   "path": "property.subCategory",
                   "dataSource": "subCategory",
+                  "_dataSource": "subCategory",
                   "visible": false,
                   "visibility": "application.applicationDetails.property.category === 'CAT.RESIDENTIAL' || application.applicationDetails.property.category === 'CAT.COMMERCIAL'",
                   "errorMessage": "'ES_ERR_SELECT_SUBCATEGORY'",
@@ -814,6 +815,7 @@
                   "type": "RADIO_BUTTON",
                   "jsonPath": "Applications[0].applicationDetails.owner.isCurrentOwner",
                   "path": "radioOptions",
+                  "disability": "true",
                   "visibility": "!owners.length",
                   "prefillValue": "'true'"
                 },
