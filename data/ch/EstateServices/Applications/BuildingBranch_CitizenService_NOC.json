@@ -553,7 +553,7 @@
               "masterName": "categories",
               "isEvalFilter": true,
               "subArray": "SubCategory",
-              "jsonPath": "state.screenConfiguration.preparedFinalObject.Application[0].applicationDetails.property.category",
+              "jsonPath": "screenConfiguration.preparedFinalObject.Application[0].applicationDetails.property.category",
               "filter": "`[?(@.code == ${filterValue})]`"
             }
           },
