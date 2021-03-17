@@ -1,1561 +1,1581 @@
 {
-  "tenantId": "ch",
-  "moduleName": "ACCESSCONTROL-ROLES",
-  "roles": [
-    {
-      "code": "CITIZEN",
-      "name": "Citizen",
-      "description": "Citizen who can raise complaint"
-    },
-    {
-      "code": "EMPLOYEE",
-      "name": "Employee",
-      "description": "Default role for all employees"
-    },
-    {
-      "code": "SUPERUSER",
-      "name": "Super User",
-      "description": "System Administrator. Can change all master data and has access to all the system screens."
-    },
-    {
-      "code": "HRMS_ADMIN",
-      "name": "HRMS ADMIN",
-      "description": "HRMS Administrator which can create new employees"
-    },
-    {
-      "code": "GO",
-      "name": "Grievance Officer",
-      "description": "Heads the grivance cell. Also all complaints that cannot be routed based on the rules are routed to Grievance Officer."
-    },
-    {
-      "code": "RO",
-      "name": "Redressal Officer",
-      "description": "Employees that address citizens grievances."
-    },
-    {
-      "code": "GA",
-      "name": "Grivance Administrator",
-      "description": "System Administator for PGR. Can change PGR Master data only."
-    },
-    {
-      "code": "GRO",
-      "name": "Grievance Routing Officer",
-      "description": "Grievance Routing Officer"
-    },
-	{
-      "code": "GRO_ADMIN",
-      "name": "Grievance Routing Officer Admin",
-      "description": "Grievance Routing Officer Admin"
-    },
-    {
-      "code": "Asset Administrator",
-      "name": "Asset Administrator",
-      "description": "Asset Administrator"
-    },
-    {
-      "code": "ULB Operator",
-      "name": "ULB Operator",
-      "description": "ULB Operator"
-    },
-    {
-      "code": "EMPLOYEE ADMIN",
-      "name": "EMPLOYEE ADMIN",
-      "description": "EMPLOYEE ADMIN"
-    },
-    {
-      "code": "Property Approver",
-      "name": "Property Approver",
-      "description": "Property Approver"
-    },
-    {
-      "code": "Property Verifier",
-      "name": "Property Verifier",
-      "description": "Property Verifier"
-    },
-    {
-      "code": "Financial Administrator",
-      "name": "Financial Administrator",
-      "description": "Financial Administrator"
-    },
-    {
-      "code": "AssetReportViewer",
-      "name": "AssetReportViewer",
-      "description": "AssetReportViewer"
-    },
-    {
-      "code": "AssetCreator",
-      "name": "AssetCreator",
-      "description": "AssetCreator"
-    },
-    {
-      "code": "PTIS_MASTER",
-      "name": "PTIS Master",
-      "description": "Who has a access to Property Tax Masters"
-    },
-    {
-      "code": "PTIS_ADMIN",
-      "name": "PTIS Admin",
-      "description": "Who has a access to change tax rates, factor etc"
-    },
-    {
-      "code": "TL_ADMIN",
-      "name": "TL Admin",
-      "description": "Who has a access to Trade License Masters"
-    },
-    {
-      "code": "TL_CREATOR",
-      "name": "TL Creator",
-      "description": "Who has a access to Trade License Services"
-    },
-    {
-      "code": "CTL_VIEWER",
-      "name": "CTL_VIEWER",
-      "description": "TradeLicense Viewer Employee"
-    },
-    {
-      "code": "COLL_OPERATOR",
-      "name": "Collection Operator",
-      "description": "Can Create, Search and Update Receipt"
-    },
-    {
-      "code": "BANK_COLL_OPERATOR",
-      "name": "Bank Collection Operator",
-      "description": "Can Create, Search Receipt"
-    },
-    {
-      "code": "CSC_COLL_OPERATOR",
-      "name": "CSC Collection Operator",
-      "description": "Can Create, Search Receipt"
-    },
-    {
-      "code": "LEGACY_RECEIPT_CREATOR",
-      "name": "Legacy Receipt Creator",
-      "description": "Legacy Receipt Creator"
-    },
-    {
-      "code": "TL_APPROVER",
-      "name": "TL Approver",
-      "description": "Who has a access to Trade License Workflow"
-    },
-    {
-      "code": "COLL_REP_VIEW",
-      "name": "Collection Report Viewer",
-      "description": "Collection Report Viewer can view Reports"
-    },
-    {
-      "code": "testonecode112234324",
-      "name": "test3test2",
-      "description": "test123description"
-    },
-    {
-      "code": "testtwocode11234354",
-      "name": "test4test1",
-      "description": "testcodedescription"
-    },
-    {
-      "code": "testonecode112234324",
-      "name": "test3test21",
-      "description": "test123description"
-    },
-    {
-      "code": "STORE INCHARGE",
-      "name": "Store Incharge",
-      "description": "Incharge of the ULB store"
-    },
-    {
-      "code": "directortestcode112234324",
-      "name": "director123456",
-      "description": "test123description"
-    },
-    {
-      "code": "COMMISSIONER",
-      "name": "Commissioner",
-      "description": "Commissioner"
-    },
-    {
-      "code": "AE_CREATOR",
-      "name": "Abstract Estimate Creator",
-      "description": "Who has a access to create Abstract Estimate"
-    },
-    {
-      "code": "WORKS_FINANCIAL_APPROVER",
-      "name": "Financials Approver",
-      "description": "Who has a access to capture Financial details and budgetary/financial sanction"
-    },
-    {
-      "code": "DE_CREATOR",
-      "name": "Detailed Estimate Creator",
-      "description": "Who has a access to create Detailed Estimate"
-    },
-    {
-      "code": "LOA_CREATOR",
-      "name": "LOA Creator",
-      "description": "Who has a access to create Letter Of Acceptance"
-    },
-    {
-      "code": "WO_CREATOR",
-      "name": "WO Creator",
-      "description": "Who has a access to create Work Order"
-    },
-    {
-      "code": "WORKS_BILL_CREATOR",
-      "name": "Works Bill Creator",
-      "description": "Who has a access to create Contractor Bill"
-    },
-    {
-      "code": "CONTRACTOR_ADVANCE_CREATOR",
-      "name": "Contractor Advance creator",
-      "description": "Who has a access to create Contractor Advance"
-    },
-    {
-      "code": "MB_CREATOR",
-      "name": "MB creator",
-      "description": "Who has a access to create MB"
-    },
-    {
-      "code": "WORKS_APPROVER",
-      "name": "Works Approver",
-      "description": "Who has a access to approve/verify Works objects"
-    },
-    {
-      "code": "WORKS_ADMINISTRATOR",
-      "name": "Works Administrator",
-      "description": "Who has a access to all the transactions, masters and reports"
-    },
-    {
-      "code": "WORKS_MASTER_CREATOR",
-      "name": "Works Master creator",
-      "description": "Who has a access to all the works masters."
-    },
-    {
-      "code": "DGRO",
-      "name": "Department Grievance Routing Officer",
-      "description": "GRO for a sepcific dept who assings the grievances to last mile employees"
-    },
-    {
-      "code": "CSR",
-      "name": "Customer Support Representative",
-      "description": "Employee who files and follows up complaints on behalf of the citizen"
-    },
-    {
-      "code": "PGR-ADMIN",
-      "name": "PGR Administrator",
-      "description": "Admin role that has super access over the system"
-    },
-    {
-      "code": "CEMP",
-      "name": "Counter Employee",
-      "description": "Employee at the counter who performs assessment on behalf of citizen"
-    },
-    {
-      "code": "FEMP",
-      "name": "Field Employee",
-      "description": "Employee on the field"
-    },
-    {
-      "code": "PTADMIN",
-      "name": "ULB Administrator",
-      "description": "Admin role that as access over an ulb"
-    },
-    {
-      "code": "STADMIN",
-      "name": "State Administrator",
-      "description": "Admin role that as access over a state"
-    },
-    {
-      "code": "EGF_BILL_CREATOR",
-      "name": "EGF Bill Creator",
-      "description": "Employee who creates Bills in finance "
-    },
-    {
-      "code": "EGF_BILL_APPROVER",
-      "name": "EGF Bill Approver",
-      "description": "Employee who takes part in  Bills  approval in finance "
-    },
-    {
-      "code": "EGF_VOUCHER_CREATOR",
-      "name": "Finance Voucher Creator",
-      "description": "One who can create a voucher"
-    },
-    {
-      "code": "EGF_VOUCHER_APPROVER",
-      "name": "Finance Voucher Approver",
-      "description": "One who can approve a voucher"
-    },
-    {
-      "code": "EGF_PAYMENT_CREATOR",
-      "name": "Finance Payment Creator",
-      "description": "One who can create a payment"
-    },
-    {
-      "code": "EGF_PAYMENT_APPROVER",
-      "name": "Finance Payment Approver",
-      "description": "One who can approve a payment"
-    },
-    {
-      "code": "EGF_MASTER_ADMIN",
-      "name": "Finance Master Admin",
-      "description": "One who is the administrator for all master data in Finance"
-    },
-    {
-      "code": "EGF_REPORT_VIEW",
-      "name": "Finance Report View",
-      "description": "One who has acess to all financial reports"
-    },
-    {
-      "code": "COLL_RECEIPT_CREATOR",
-      "name": "Collections Receipt Creator",
-      "description": "One who can create and approve a receipt and receipt voucher"
-    },
-    {
-      "code": "COLL_REMIT_TO_BANK",
-      "name": "Collections Remitter",
-      "description": "One who can remit the instruments to bank"
-    },
-   {
-      "code": "SYS_INTEGRATOR_FINANCE",
-      "name": "System Integrator Finance",
-      "description": "Role for allowing system integration of Finance app with rainmaker"
-    },
-    {
-      "code": "SYS_INTEGRATOR_WATER_SEW",
-      "name": "System Integrator W&S",
-      "description": "Role for allowing system integration of Water and Sewerage app with rainmaker"
-    },
-    {
-      "code": "TL_CEMP",
-      "name": "TL Counter Employee",
-      "description": "Counter Employee in Trade License who files TL on behalf of the citizen"
-    },
-    {
-      "code": "TL_APPROVER",
-      "name": "TL Approver",
-      "description": "Approver who verifies and approves the TL application"
-    },
-   {
-      "code": "EMPLOYEE_FINANCE",
-      "name": "Employee Finance",
-      "description": "All Employees who use Finance application"
-    },
-    {
-      "code": "EGF_ADMINISTRATOR",
-      "name": "Finance Adminsitrator",
-      "description": "All Employees who are Finance application administrator"
-    },
-    {
-      "code": "PGR_LME",
-      "name": "PGR Last Mile Employee",
-      "description": "PGR Last mile employee to whom the request can be assigned"
-    },
-	{
-      "code": "PGR_REPORTS_VIEWER",
-      "name": "PGR Reports Viewer",
-      "description": "PGR employee who can view all the reports"
-    },
-    {
-      "code": "TL_FIELD_INSPECTOR",
-      "name": "TL Field Inspector",
-      "description": "Trade license field inspector"
-    },
-    {
-      "code": "TL_DOC_VERIFIER",
-      "name": "TL doc verifier",
-      "description": "Trade license document verifier"
-    },
-    {
-      "code": "NOC_CEMP",
-      "name": "NoC counter employee",
-      "description": "Fire NOC Counter Employee"
-    },
-    {
-      "code": "NOC_DOC_VERIFIER",
-      "name": "NoC Doc Verifier",
-      "description": "Fire NOC document verifier"
-    },
-    {
-      "code": "NOC_FIELD_INSPECTOR",
-      "name": "NoC Field Inpector",
-      "description": "Fire NOC  Field Inpector"
-    },
-    {
-      "code": "NOC_APPROVER",
-      "name": "NoC counter Approver",
-      "description": "Fire NOC Approver"
-    },
-    {
-      "code": "BPA_ARCHITECT",
-      "name": "BPA Architect",
-      "description": "BPA Architect"
-    },
-    {
-      "code": "BPA_ENGINEER",
-      "name": "BPA Engineer",
-      "description": "BPA Engineer"
-    },
-    {
-      "code": "BPA_BUILDER",
-      "name": "BPA Builder",
-      "description": "BPA Builder"
-    },
-    {
-      "code": "BPA_STRUCTURALENGINEER",
-      "name": "BPA Structural Engineer",
-      "description": "BPA Structural Engineer"
-    },
-    {
-    
-      "code": "BPA_TOWNPLANNER",
-      "name": "BPA Town Planner",
-      "description": "BPA Town Planner"
-    },
-    {
-      "code": "ANONYMOUS",
-      "name": "Anonymous User",
-      "description": "Anonymous User to be used in case of no auth"
-    },
-    {
-      "code": "BPAREG_APPROVER",
-      "name": "BPAREG Approver",
-      "description": "BPA Stakeholder workflow Approver"
-    },
-    {
-      "code": "BPAREG_DOC_VERIFIER",
-      "name": "BPAREG doc verifier",
-      "description": "BPA Stakeholder workflow document verifier"
-    },
-    {
-      "code": "BPAREG_EMPLOYEE",
-      "name": "BPAREG Employee",
-      "description": "BPA Stakeholder Employee"
-    },
-    {
-      "code": "BPA_ARCHITECT",
-      "name": "BPA Architect",
-      "description": "BPA Architect"
-    },
-    {
-      "code": "BPA_ENGINEER",
-      "name": "BPA Engineer",
-      "description": "BPA Engineer"
-    },
-    {
-      "code": "BPA_BUILDER",
-      "name": "BPA Builder",
-      "description": "BPA Builder"
-    },
-    {
-      "code": "BPA_STRUCTURALENGINEER",
-      "name": "BPA Structural Engineer",
-      "description": "BPA Structural Engineer"
-    },
-    {
-      "code": "BPA_TOWNPLANNER",
-      "name": "BPA Town Planner",
-      "description": "BPA Town Planner"
-    },
-    {
-      "code": "BPA_APPROVER",
-      "name": "BPA Services Approver",
-      "description": "BPA Services workflow Approver"
-    },
-    {
-      "code": "BPA_VERIFIER",
-      "name": "BPA Services verifier",
-      "description": "BPA Services workflow document & field inspection verifier"
-    },
-    {
-      "code": "ESCALATION_OFFICER1",
-      "name": "Escalation Officer1",
-      "description": "Role For 1st level escalation(PGR)"
-    },
-    {
-      "code": "ESCALATION_OFFICER2",
-      "name": "Escalation Officer2",
-      "description": "Role For 2nd level escalation(PGR)"
-    },
-    {
-      "code": "EGF_BUDGET_CREATOR",
-      "name": "EGF Budget Creator",
-      "description": "Employee who uploads Budget in finance"
-    },
-    {
-      "code": "EGF_BUDGET_APPROVER",
-      "name": "EGF Bill Approver",
-      "description": "Employee who approves Budget in finance"
-    },
-    {
-      "code": "EGF_BUDGET_VERIFIER_1",
-      "name": "EGF Budget Verifier 1",
-      "description": "Employee who verifies Budget in finance"
-    },
-    {
-      "code": "EGF_BUDGET_VERIFIER_2",
-      "name": "EGF Bill Verifier 2",
-      "description": "Employee who verifies Budget in finance"
-    },
-    {
-      "code": "CTL_CLERK",
-      "name": "CLERK",
-      "description": "Employee who verifies, rejects and approves the TL application"
-    },
-    {
-      "code": "CTL_SA",
-      "name": "SA",
-      "description": "Employee who verifies, rejects and approves the TL application which is approved by clerk"
-    },
-    {
-      "code": "CTL_SI",
-      "name": "SI",
-      "description": "Employee who verifies, rejects and approves the TL application which is approved by SA"
-    },
-    {
-      "code": "CTL_CO",
-      "name": "COMMISSIONER",
-      "description": "Employee who verifies, rejects and approves the TL application which is approved by SI"
-    },
-    {
-      "code": "CTL_ADMIN",
-      "name": "Trade License Admin",
-      "description": "Trade License Admin"
-    },	  
-	{
-      "code": "RP_CLERK",
-      "name": "CLERK",
-      "description": "Employee who verifies, rejects and approves the RP application"
-    },
-    {
-      "code": "RP_JA",
-      "name": "JA",
-      "description": "Employee who verifies, rejects and approves the RP application which is approved by clerk"
-    },
-    {
-      "code": "RP_SA",
-      "name": "SA",
-      "description": "Employee who verifies, rejects and approves the RP application which is approved by clerk"
-    },
-    {
-      "code": "RP_SI",
-      "name": "SI",
-      "description": "Employee who verifies, rejects and approves the RP application which is approved by SA"
-    },
-	{
-      "code": "RP_CA",
-      "name": "CA",
-      "description": "Employee who verifies, rejects and approves the RP application which is approved by SI"
-    },
-    {
-      "code": "RP_SURVEYOR",
-      "name": "SURVEYOR",
-      "description": "Employee who verifies the Trasit site and uploads the documents for capturing transite site images"
-    },
-    {
-      "code": "RP_APRO",
-      "name": "APRO",
-      "description": "Employee who manages the public relations for transit sites for rented properties"
-    },
-    {
-      "code": "SI",
-      "name": "SI",
-      "description": "Sanitary Inspector"
-    },
-    {
-      "code": "MOH",
-      "name": "MOH",
-      "description": "Medical Officer Health"
-    },
-    {
-      "code": "SYSTEM_PAYMENT",
-      "name": "SYSTEM_PAYMENT",
-      "description": "Payment by gateway"
-    },
-	{
-      "code": "JEX",
-      "name": "JEX",
-      "description": "Junior Executive"
-    },
-    {
-      "code": "SUPERINTENDENT",
-      "name": "SUPERINTENDENT",
-      "description": "Superintendent"
-    },
-	{
-      "code": "OSD",
-      "name": "OSD",
-      "description": "Officer on Special duty"
-    },
-	{
-      "code": "JE",
-      "name": "JE",
-      "description": "Junior Engineer"
-    },	
-	{
-      "code": "SDO",
-      "name": "SDO",
-      "description": "Sub Divisional Officer"
-    },
-	{
-      "code": "EE",
-      "name": "EE",
-      "description": "Executive Engineer"
-    },
-	{
-      "code": "SE",
-      "name": "SE",
-      "description": "Superintendent Engineer"
-    },
-	{
-      "code": "CE",
-      "name": "CE",
-      "description": "Chief Engineer"
-    },
-   {
-      "code": "SYSTEM",
-      "name": "System user",
-      "description": "System user"
-    },
-	{
-      "code": "AGENDA_BRANCH_ADMIN",
-      "name": "Agenda Branch Admin",
-      "description": "Agenda Branch Admin will create agenda, meeting, MoM"
-    },
-	{
-      "code": "AGENDA_CREATOR",
-      "name": "Agenda Creator",
-      "description": "Agenda Branch Admin & Department Admin will create agenda"
-    },
-	{
-      "code": "AGENDA_BRANCH_APPROVER",
-      "name": "Agenda Branch Approver",
-      "description": "Agenda Branch approver will approve the workflow of agenda creation, MoM creation"
-    },
-	{
-      "code": "AGENDA_BRANCH_REPORT_VIEWER",
-      "name": "Agenda Branch Report Viewer",
-      "description": "Agenda Branch report viewer can view the reports"
-    },
-	{
-      "code": "AGENDA_MEETING_DEPARTMENT_USER",
-      "name": "AGENDA MEETING DEPARTMENT USER",
-      "description": "Department user who will get meeting invitation"
-    },
-	{
-      "code": "AGENDA_MEETING_SENIOR_OFFICER",
-      "name": "AGENDA MEETING SENIOR OFFICER",
-      "description": "Senior Officers like Add commissioner, joint commissioner, chief engg etc"
-    },
-	{
-      "code": "AGENDA_MEETING_SPECIAL_OFFICER",
-      "name": "AGENDA MEETING SPECIAL OFFICER",
-      "description": "Special Officers like commissioner, secretary etc"
-    },
-	{
-		"code": "APRO",
-		"name": "APRO",
-		"description": "Authorized Division User"
-	},
-	{
-		"code": "DEPARTMENTUSER",
-		"name": "DEPARTMENTUSER",
-		"description": "Department User"
-	},
-	{
-		"code": "APNIMANDI_ADMIN",
-		"name": "Apnimandi Admin",
-		"description": "Apnimandi Admin will create contrator, collection"
-	},
-	{
-		"code": "APNIMANDI_APPROVER",
-		"name": "Apnimandi Approver",
-		"description": "Apnimandi approver will forward, approve and reject the workflow of contractor and collection"
-	},
-	{
-		"code": "APNIMANDI_REPORT_VIEWER",
-		"name": "Apnimandi Report Viewer",
-		"description": "Apnimandi report viewer can view all kind of mis report of contractor and collection"
-	},
-	{
-		"code": "LCMS_ADMIN",
-		"name": "LCMS Admin",
-		"description": "LCMS Admin will manage all legal cases and LCMS related master datas"
-	},
-	   
-{
-      "code": "DDO",
-      "name": "DDO",
-      "description": "Drawing & Disbursement Officer (Pension)"
-    }
-,
-{
-      "code": "ACCOUNTS_OFFICER",
-      "name": "ACCOUNTS OFFICER",
-      "description": "ACCOUNTS OFFICER (Pension)"
-    }
-,
-{
-      "code": "SENIOR_ASSISTANT",
-      "name": "SENIOR ASSISTANT",
-      "description": "SENIOR ASSISTANT (Pension)"
-    }
-,
-{
-      "code": "CLERK",
-      "name": "CLERK",
-      "description": "CLERK (Pension)"
-    }
-,
-{
-      "code": "CHIEF_ACCOUNTS_OFFICER",
-      "name": "CHIEF ACCOUNTS OFFICER",
-      "description": "CHIEF ACCOUNTS OFFICER (Pension)"
-    }
-,
-{
-      "code": "ADDITIONAL_COMMISSIONER",
-      "name": "ADDITIONAL COMMISSIONER",
-      "description": "ADDITIONAL COMMISSIONER (Pension)"
-    },
-{
-      "code": "PENSION_SYSTEM",
-      "name": "PENSION SYSTEM",
-      "description": "PENSION SYSTEM"
-    },
-    {
-      "code": "AUDIT_APPROVER",
-      "name": "AUDIT_APPROVER",
-      "description": "Audit Branch Approver"
-    },
-
-    {
-      "code": "HC_CCF",
-      "name": "HC_CCF",
-      "description": "Chief Conservator of Forest"
-    },
-     {
-      "code": "HC_DCF",
-      "name": "HC_DCF",
-      "description": "Deputy Conservator of Forest"
-    },
-    {
-      "code": "HC_FRO",
-      "name": "HC_FRO",
-      "description": "Range Forest officer"
-    },
-     {
-      "code": "HC_SRE",
-      "name": "HC_SRE",
-      "description": "Principal Secreatry (Forest)"
-    },
-     {
-      "code": "HC_WA",
-      "name": "HC_WA",
-      "description": "Worthy Advisor"
-    },
-     {
-      "code": "HC_FO",
-      "name": "HC_FO",
-      "description": "Forest Officer"
-    },
-    {
-      "code": "HC_SDE",
-      "name": "HC_SDE",
-      "description": "Sub Divisional Engineer"
-    },
-    
-    {
-      "code": "HC_SEHE",
-      "name": "HC_SEHE",
-      "description": "Superintending Engineer(H&E)"
-    },
-    {
-      "code": "HC_EE",
-      "name": "HC_EE",
-      "description": "EE"
-    },	  
-    {
-      "code": "HC_SDO",
-      "name": "HC_SDO",
-      "description": "SDO"
-    },	  
-    {
-      "code": "HC_JE",
-      "name": "HC_JE",
-      "description": "JE"
-    },	  
-    {
-      "code": "HC_SE",
-      "name": "HC_SE",
-      "description": "SE"
-    },	
-    {
-      "code": "HC_CE",
-      "name": "HC_CE",
-      "description": "CE"
-    },	  
-	{
-      "code": "HC_CEMCC",
-      "name": "HC_CEMCC",
-      "description": "Chief Engineer(MCC)"
-    },
+   "tenantId":"ch",
+   "moduleName":"ACCESSCONTROL-ROLES",
+   "roles":[
       {
-      "code": "HC_EEWE",
-      "name": "HC_EEWE",
-      "description": "Executive Engineer(W&E)"
-    },
-    {
-      "code": "HC_COMMISSIONERMCC",
-      "name": "HC_COMMISSIONERMCC",
-      "description": "Commissioner(MCC)"
-    },
-    {
-      "code": "HC_VIEWER",
-      "name": "HC_VIEWER",
-      "description": "Horticulture Viewer Employee"
-    },
-    {
-      "code": "HC_SWE",
-      "name": "Superitendent(W&E)",
-      "description": "Superitendent(W&E)"
-    },
-	{
-      "code": "challanSI",
-      "name": "challanSI",
-      "description": "Sub Inspector"
-    },
-	{
-      "code": "challanEAO",
-      "name": "challanEAO",
-      "description": "Encroachment Admin Officer"
-    },
-	{
-      "code": "challanSM",
-      "name": "challanSM",
-      "description": "Store Manager"
-    },
-	{
-      "code": "challanHOD",
-      "name": "challanHOD",
-      "description": "Appellete Auth"
-    },
-	{
-      "code": "WS_BILL_UPLOAD",
-      "name": "WS demand file upload",
-      "description": "WS demand file upload"
-    },
-	{
-      "code": "WS_COMMON",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_JE_08",
-      "name": "WS JE role",
-      "description": "JE role for water & sewerage"
-    },
-	{
-      "code": "WS_JE_09",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_JE_14",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_JE_15",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_JE_20",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SE",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_CHD",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDE_08",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDE_09",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDE_14",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDE_15",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDE_20",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SUPERINTENDENT",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDER_08",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDER_09",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDER_14",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDER_15",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDER_20",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_SDC",
-      "name": "WS Common role",
-      "description": "Common role for water & sewerage"
-    },
-	{
-      "code": "WS_CEMP",
-      "name": "WS Counter Employee",
-      "description": "WS counter employee can take action as citizen"
-    },  
-    {
-      "code": "WS_EE",
-      "name": "WS Executive Engineer",
-      "description": "WS EE who forward more than 15mm pipe connection"
-    },
-	{
-      "code": "WS_HDM",
-      "name": "WS HDM",
-      "description": "WS HDM who approves more than 15mm pipe connection"
-    },
-    {
-      "code": "SW_CEMP",
-      "name": "SW Counter Employee",
-      "description": "SW counter employee can take action as citizen"
-    },
-	{
-      "code": "SW_SDO",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    }, 
-	{
-      "code": "SW_JE_06",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_JE_12",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_JE_13",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_JE_18",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SDE_06",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SDE_12",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SDE_13",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SDE_18",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_EE",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SUPERINTENDENT",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_CHD",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_HDM",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SE",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SDER_06",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SDER_12",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SDER_13",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    },
-	{
-      "code": "SW_SDER_18",
-      "name": "SW SDO",
-      "description": "SW SDO who forward connection"
-    }, 
-    {
-      "code": "AUDIT_ADMIN",
-      "name": "AUDIT_ADMIN",
-      "description": "Audit admin for audit Search page"
-    },
-    {
-      "code": "AUDIT_POST",
-      "name": "AUDIT_POST",
-      "description": "Post Audit Inititation role"
-    },{
-      "code": "DOEE",
-      "name": "DO of Drawing Branch under EE",
-      "description": "DO of Drawing Branch under EE"
-    },{
-      "code": "DOSE",
-      "name": "Do of Drawing Branch under SE",
-      "description": "Do of Drawing Branch under SE"
-    },{
-      "code": "DOCE",
-      "name": "DO of Drawing Branch under CE",
-      "description": "DO of Drawing Branch under CE"
-    },{
-      "code": "WD",
-      "name": "W&D USER",
-      "description": "W&D USER"
-    },{
-      "code": "JC",
-      "name": "Joint Commissioner",
-      "description": "Joint Commissioner"
-    },{
-      "code": "SC",
-      "name": "Special commissioner",
-      "description": "Special commissioner"
-    },{
-      "code": "SEC",
-      "name": "Secretary",
-      "description": "Secretary"
-    },{
-      "code": "CA",
-      "name": "Chief Administrator",
-      "description": "Chief Administrator"
-    },{
-      "code": "NGO",
-      "name": "Non-Government Organizations",
-      "description": "Non-Government Organizations"
-    },{
-      "code": "SAJE",
-      "name": "Junior Engineer",
-      "description": "Store Asset Junior Engineer"
-    },{
-      "code": "SAEE",
-      "name": "Executive Engineer",
-      "description": "Store Asset Executive Engineer"
-    },{
-      "code": "SASE",
-      "name": "Senior Engineer",
-      "description": "Store Asset Senior Engineer"
-    },{
-      "code": "SACE",
-      "name": "Chief Engineer",
-      "description": "Store Asset Chief Engineer"
-    },{
-      "code": "SASDO",
-      "name": "SDO ",
-      "description": "Store Asset SDO"
-    },
-	{
-      "code": "SACOM",
-      "name": "COMMISSIONER",
-      "description": "Store Asset COMMISSIONER"
-    },
-	{
-      "code": "SACP",
-      "name": "Computer Programmer",
-      "description": "Store Asset Computer Programmer"
-    },
-	{
-      "code": "SASA",
-      "name": "Senior Assistant",
-      "description": "Store Asset Senior Assistant"
-    },
-	{
-      "code": "SASP",
-      "name": "SUPERINTENDENT",
-      "description": "Store Asset SUPERINTENDENT"
-    },
-	{
-      "code": "SASO",
-      "name": "Section Officer",
-      "description": "Store Asset Section Officer"
-    },
-	{
-      "code": "SACAO",
-      "name": "CAO",
-      "description": "Store Asset CAO"
-    },
-	{
-      "code": "SAACMC",
-      "name": "ACMC",
-      "description": "Store Asset ACMC"
-    },
-	{
-      "code": "SACT",
-      "name": "Caretaker",
-      "description": "Store Asset Caretaker"
-    },
-	{
-      "code": "SACSI",
-      "name": "CSI",
-      "description": "Store Asset CSI"
-    },
-	{
-      "code": "SAMOH",
-      "name": "MOH",
-      "description": "Store Asset MOH"
-    },
-    {
-      "code": "SAJC",
-      "name": "Jt COMMISSIONER",
-      "description": "Store Asset Jt COMMISSIONER"
-    },
-	{
-      "code": "SASIC",
-      "name": "SIC",
-      "description": "Store Asset Store In-Charge"
-    },
-    {
-      "code": "NULM_ADMIN",
-      "name": "NULM Admin",
-      "description": "NULM Admin"
-    },
-    {
-		"code": "JA",
-		"name": "JA",
-		"description": "Junior Assistant"
-    },
-    {
-		"code": "ACMC",
-		"name": "ACMC",
-		"description": "ACMC"
-    },
-    {
-		"code": "WORKS_CREATE_ESTIMATE",
-		"name": "WORKS_CREATE_ESTIMATE",
-		"description": "WORKS_CREATE_ESTIMATE"
-    },
-    {
-		"code": "WORKS_SEARCH_ESTIMATE",
-		"name": "WORKS_SEARCH_ESTIMATE",
-		"description": "WORKS_SEARCH_ESTIMATE"
-    },
-    {
-		"code": "WORKS_CREATE_TENDER",
-		"name": "WORKS_CREATE_TENDER",
-		"description": "WORKS_CREATE_TENDER"
-    },
-    {
-		"code": "WORKS_SEARCH_TENDER",
-		"name": "WORKS_SEARCH_TENDER",
-		"description": "WORKS_SEARCH_TENDER"
-    },
-    {
-		"code": "WORKS_CREATE_BG",
-		"name": "WORKS_CREATE_BG",
-		"description": "WORKS_CREATE_BG"
-    },
-    {
-		"code": "WORKS_SEARCH_BG",
-		"name": "WORKS_SEARCH_BG",
-		"description": "WORKS_SEARCH_BG"
-    },
-    {
-		"code": "WORKS_APPROVER",
-		"name": "WORKS_APPROVER",
-		"description": "WORKS_APPROVER"
-    },
-    {
-      "code": "BK_OSBM_APPROVER",
-      "name": "OSBM APPROVER",
-      "description": "Employee who approves the open space booking for building material"
-    },
-    {
-      "code": "BK_MCC_APPROVER",
-      "name": "Open Spaces Under Jurisdiction of MCC Approver",
-      "description": "Employee who approves Open Spaces Under Jurisdiction of MCC booking"
-    },
-    {
-      "code": "BK_OSD_APPROVER",
-      "name": "New Location Open Spaces Under Jurisdiction of MCC Verifier",
-      "description": "Employee who verifies the New Location Open Spaces Under Jurisdiction of MCC booking"
-    },
-    {
-      "code": "BK_ADMIN",
-      "name": "BK Admin",
-      "description": "Employee who access and modify the report and master data"
-    },
-    {
-      "code": "BK_ADMIN_APPROVER",
-      "name": "New Location Open Spaces Under Jurisdiction of MCC Publisher",
-      "description": "Employee who publish the New Location Open Spaces Under Jurisdiction of MCC booking"
-    },
-    {
-      "code": "BK_BOOKING_ADMIN",
-      "name": "Master Data Creator",
-      "description": "Employee who create and update master data"
-    },
-    {
-      "code": "BK_CLERK",
-      "name": "Parks and Community Centre Cancel Request Verifier",
-      "description": "Employee who verifies the cancel request of Parks and Community Centre"
-    },	
-    {
-      "code": "BK_DEO",
-      "name": "Parks and Community Centre Cancel Request Verifier",
-      "description": "Employee who verifies the cancel request of Parks and Community Centre"
-    },
-    {
-      "code": "BK_SENIOR_ASSISTANT",
-      "name": "Parks and Community Centre Cancel Request Verifier",
-      "description": "Employee who verifies the cancel request of Parks and Community Centre"
-    },
-    {
-      "code": "BK_AUDIT_DEPARTMENT",
-      "name": "Parks and Community Centre Cancel Request Verifier",
-      "description": "Employee who audit the cancel request of Parks and Community Centre"
-    },
-    {
-      "code": "BK_CHIEF_ACCOUNT_OFFICER",
-      "name": "Parks and Community Centre Cancel Request Approver",
-      "description": "Employee who approve the cancel request of Parks and Community Centre"
-    },
-    {
-      "code": "BK_PAYMENT_PROCESSING_AUTHORITY",
-      "name": "Parks and Community Centre Cancel Request Payment Processing Authority",
-      "description": "Employee who disbursed the cancel request payment of Parks and Community Centre"
-    },
-    {
-		"code": "WORKS_WORK_AGREEMENT",
-		"name": "WORKS_WORK_AGREEMENT",
-		"description": "WORKS_WORK_AGREEMENT"
-    },
-    {
-		"code": "WORKS_MASTER",
-		"name": "WORKS_MASTER",
-		"description": "WORKS_MASTER"
-    },
-    {
-		"code": "WORKS_MIS",
-		"name": "WORKS_MIS",
-		"description": "WORKS_MIS"
-    },
-    {
-		"code": "WORKS_BILL",
-		"name": "WORKS_BILL",
-		"description": "WORKS_BILL"
-    },
-	{
-      "code": "NULMJA",
-      "name": "Junior Assistant",
-      "description": "NULM Junior Assistant"
-    },
-	{
-      "code": "NULMSDO",
-      "name": "SDO",
-      "description": "NULM SDO"
-    },
-	{
-      "code": "NULMACMC",
-      "name": "ACMC",
-      "description": "NULM ACMC"
-    },
-	{
-      "code": "EGF_BUDGET_VERIFIER_SO",
-      "name": "EGF_BUDGET_VERIFIER_SO",
-      "description": "EGF_BUDGET_VERIFIER_SO"
-    },
-	{
-      "code": "RTIADMIN",
-      "name": "RTIADMIN",
-      "description": "RTI Admin"
-    },
-	{
-      "code": "BK_MCC_HELPDESK_USER",
-      "name": "Water Tanker Approver",
-      "description": "Employee who approves the Water Tankers booking"
-    },
-	{
-      "code": "BK_COMMERCIAL_GROUND_VIEWER",
-      "name": "Ground for Commercial Purpose Viewer",
-      "description": "Employee who view the Ground for Commercial Purpose booking"
-    },
-	{
-      "code": "COLL_RECEIPT_REPORT",
-      "name": "COLL_RECEIPT_REPORT",
-      "description": "COLL_RECEIPT_REPORT"
-    },
-    {
-      "code": "ES_ADDITIONAL_COMMISSIONER",
-      "name": "Additional Comissioner",
-      "description": "Estate Module Additional Comissioner"
-    },
-    {
-      "code": "ES_BB_DEALING_ASSISTANT",
-      "name": "Dealing Assistant",
-      "description": "Building Branch Dealing Assistant"
-    },
-    {
-      "code": "ES_BB_DISPATCH_OFFICER",
-      "name": "Dispatch Section Officer",
-      "description": "Building Branch Dispatch Section Officer"
-    },
-    {
-      "code": "ES_BB_DRAFTSMAN",
-      "name": "Draftsman",
-      "description": "Building Branch Draftsman"
-    },
-    {
-      "code": "ES_BB_FINANCIAL_OFFICER",
-      "name": "Financial Department Officer",
-      "description": "Building Branch Financial Department Officer"
-    },
-    {
-      "code": "ES_BB_JUNIOR_ENGINEER",
-      "name": "Junior Engineer",
-      "description": "Building Branch Junior Engineer"
-    },
-    {
-      "code": "ES_BB_SDE",
-      "name": "SDE",
-      "description": "Building Branch SDE"
-    },
-    {
-      "code": "ES_EB_CHEIF_ACCOUNTS_OFFICER",
-      "name": "Cheif Accounts Officer",
-      "description": "Estate Branch Cheif Accounts Officer"
-    },
-    {
-      "code": "ES_EB_DEALING_ASSISTANT",
-      "name": "Dealing Assistant",
-      "description": "Estate Branch Dealing Assistant"
-    },
-    {
-      "code": "ES_EB_DISPATCH_OFFICER",
-      "name": "Dispatch Section Officer",
-      "description": "Estate Branch Dispatch Section Officer"
-    },
-    {
-      "code": "ES_EB_FINANCIAL_OFFICER",
-      "name": "Financial Department Officer",
-      "description": "Estate Branch Financial Department Officer"
-    },
-    {
-      "code": "ES_EB_LOCAL_AUDIT_OFFICER",
-      "name": "Local Audit Officer",
-      "description": "Estate Branch Local Audit Officer"
-    },
-    {
-      "code": "ES_EB_SECTION_OFFICER",
-      "name": "Section Officer",
-      "description": "Estate Branch Section Officer"
-    },
-    {
-      "code": "ES_EB_SR_ASSISTANT",
-      "name": "Senior Assistant",
-      "description": "Estate Branch Senior Assistant"
-    },
-    {
-      "code": "ES_MM_BUILDING_INSPECTOR",
-      "name": "Building Inspector",
-      "description": "Manimajra Branch Building Inspector"
-    },
-    {
-      "code": "ES_MM_DEALING_ASSISTANT",
-      "name": "Dealing Assistant",
-      "description": "Manimajra Branch Dealing Assistant"
-    },
-    {
-      "code": "ES_MM_DISPATCH_OFFICER",
-      "name": "Dispatch Section Officer",
-      "description": "Manimajra Branch Dispatch Section Officer"
-    },
-    {
-      "code": "ES_MM_FINANCIAL_OFFICER",
-      "name": "Financial Department Officer",
-      "description": "Manimajra Branch Financial Department Officer"
-    },
-    {
-      "code": "ES_MM_SECTION_OFFICER",
-      "name": "Section Officer",
-      "description": "Manimajra Branch Section Officer"
-    },
-    {
-      "code": "ES_MM_SR_ASSISTANT",
-      "name": "Senior Assistant",
-      "description": "Manimajra Branch Senior Assistant"
-    },
-    {
-      "code": "ES_MM_TAX_CONTROLLER_MANIMAJRA",
-      "name": "Tax Controller Officer",
-      "description": "Manimajra Branch Tax Controller Officer"
-    },
-	{
-      "code": "WORKS_CLOSURE",
-      "name": "WORKS_CLOSURE",
-      "description": "WORKS_CLOSURE"
-    },
-	{
-      "code": "WORKS_PROGRESS_UPDATE",
-      "name": "WORKS_PROGRESS_UPDATE",
-      "description": "WORKS_PROGRESS_UPDATE"
-    },
-	{
-      "code": "AUDIT_MASTER",
-      "name": "AUDIT_MASTER",
-      "description": "AUDIT_MASTER"
-    },	
-	{
-      "code": "BK_PARKS_AND_COMMUNITY_VIEWER",
-      "name": "Parks and Community Centre Viewer",
-      "description": "Employee who view the Parks and Community Centre booking"
-    },
-	{
-      "code": "BK_E-SAMPARK-CENTER",
-      "name": "Parks and Community Centre Offline Applier",
-      "description": "Employee who create offline booking of Parks and Community Centre"
-    },
-	{
-      "code": "BK_MCC_USER",
-      "name": "Parks and Community Centre Offline Applier",
-      "description": "Employee who create offline booking of Parks and Community Centre"
-    },
-    {
-      "code": "BK_OSD",
-      "name": "OSD Approver",
-      "description": "Employee who approve park and community center booking request"
-    },
-    {
-      "code": "BK_SUPERVISOR",
-      "name": "Supervisor Approver",
-      "description": "Employee who approve and inspect park and community center booking request"
-    },
-	{
-      "code": "WORKS_DNIT",
-      "name": "WORKS_DNIT",
-      "description": "WORKS_DNIT"
-    },
-	{
-      "code": "FINANCE_VOUCHER_REPORT",
-      "name": "FINANCE_VOUCHER_REPORT",
-      "description": "FINANCE_VOUCHER_REPORT"
-    },
-	{
-      "code": "REPORT_ADMIN",
-      "name": "REPORT_ADMIN",
-      "description": "Admin for report module"
-    },
-	{
-      "code": "AGENDA_NOTICE",
-      "name": "AGENDA_NOTICE",
-      "description": "AGENDA_NOTICE"
-    },	
-	{
-      "code": "SDE",
-      "name": "SDE",
-      "description": "Sub Divisional Officer"
-    },	
-	{
-      "code": "DMEE",
-      "name": "DMEE",
-      "description": "DO of Drawing Branch under EE"
-    },	
-	{
-      "code": "DMSE",
-      "name": "DMSE",
-      "description": "DO of Drawing Branch under SE"
-    },	
-	{
-      "code": "DMCE",
-      "name": "DMCE",
-      "description": "DO of Drawing Branch under CE"
-    },	
-	{
-      "code": "HDMEE",
-      "name": "HDMEE",
-      "description": "HDM of Drawing Branch under EE"
-    },	
-	{
-      "code": "CHDSE",
-      "name": "CHDSE",
-      "description": "CHD of Drawing Branch under SE"
-    },	
-	{
-      "code": "CHDCE",
-      "name": "CHDCE",
-      "description": "CHD of Drawing Branch under CE"
-    },	
-	{
-      "code": "SDEHQ",
-      "name": "SDEHQ",
-      "description": "SDEHQ"
-    },
-	{
-      "code": "CHALLAN_DELETE",
-      "name": "CHALLAN_DELETE",
-      "description": "CHALLAN_DELETE"
-    }
-  ]
+         "code":"CITIZEN",
+         "name":"Citizen",
+         "description":"Citizen who can raise complaint"
+      },
+      {
+         "code":"EMPLOYEE",
+         "name":"Employee",
+         "description":"Default role for all employees"
+      },
+      {
+         "code":"SUPERUSER",
+         "name":"Super User",
+         "description":"System Administrator. Can change all master data and has access to all the system screens."
+      },
+      {
+         "code":"HRMS_ADMIN",
+         "name":"HRMS ADMIN",
+         "description":"HRMS Administrator which can create new employees"
+      },
+      {
+         "code":"GO",
+         "name":"Grievance Officer",
+         "description":"Heads the grivance cell. Also all complaints that cannot be routed based on the rules are routed to Grievance Officer."
+      },
+      {
+         "code":"RO",
+         "name":"Redressal Officer",
+         "description":"Employees that address citizens grievances."
+      },
+      {
+         "code":"GA",
+         "name":"Grivance Administrator",
+         "description":"System Administator for PGR. Can change PGR Master data only."
+      },
+      {
+         "code":"GRO",
+         "name":"Grievance Routing Officer",
+         "description":"Grievance Routing Officer"
+      },
+      {
+         "code":"GRO_ADMIN",
+         "name":"Grievance Routing Officer Admin",
+         "description":"Grievance Routing Officer Admin"
+      },
+      {
+         "code":"Asset Administrator",
+         "name":"Asset Administrator",
+         "description":"Asset Administrator"
+      },
+      {
+         "code":"ULB Operator",
+         "name":"ULB Operator",
+         "description":"ULB Operator"
+      },
+      {
+         "code":"EMPLOYEE ADMIN",
+         "name":"EMPLOYEE ADMIN",
+         "description":"EMPLOYEE ADMIN"
+      },
+      {
+         "code":"Property Approver",
+         "name":"Property Approver",
+         "description":"Property Approver"
+      },
+      {
+         "code":"Property Verifier",
+         "name":"Property Verifier",
+         "description":"Property Verifier"
+      },
+      {
+         "code":"Financial Administrator",
+         "name":"Financial Administrator",
+         "description":"Financial Administrator"
+      },
+      {
+         "code":"AssetReportViewer",
+         "name":"AssetReportViewer",
+         "description":"AssetReportViewer"
+      },
+      {
+         "code":"AssetCreator",
+         "name":"AssetCreator",
+         "description":"AssetCreator"
+      },
+      {
+         "code":"PTIS_MASTER",
+         "name":"PTIS Master",
+         "description":"Who has a access to Property Tax Masters"
+      },
+      {
+         "code":"PTIS_ADMIN",
+         "name":"PTIS Admin",
+         "description":"Who has a access to change tax rates, factor etc"
+      },
+      {
+         "code":"TL_ADMIN",
+         "name":"TL Admin",
+         "description":"Who has a access to Trade License Masters"
+      },
+      {
+         "code":"TL_CREATOR",
+         "name":"TL Creator",
+         "description":"Who has a access to Trade License Services"
+      },
+      {
+         "code":"CTL_VIEWER",
+         "name":"CTL_VIEWER",
+         "description":"TradeLicense Viewer Employee"
+      },
+      {
+         "code":"COLL_OPERATOR",
+         "name":"Collection Operator",
+         "description":"Can Create, Search and Update Receipt"
+      },
+      {
+         "code":"BANK_COLL_OPERATOR",
+         "name":"Bank Collection Operator",
+         "description":"Can Create, Search Receipt"
+      },
+      {
+         "code":"CSC_COLL_OPERATOR",
+         "name":"CSC Collection Operator",
+         "description":"Can Create, Search Receipt"
+      },
+      {
+         "code":"LEGACY_RECEIPT_CREATOR",
+         "name":"Legacy Receipt Creator",
+         "description":"Legacy Receipt Creator"
+      },
+      {
+         "code":"TL_APPROVER",
+         "name":"TL Approver",
+         "description":"Who has a access to Trade License Workflow"
+      },
+      {
+         "code":"COLL_REP_VIEW",
+         "name":"Collection Report Viewer",
+         "description":"Collection Report Viewer can view Reports"
+      },
+      {
+         "code":"testonecode112234324",
+         "name":"test3test2",
+         "description":"test123description"
+      },
+      {
+         "code":"testtwocode11234354",
+         "name":"test4test1",
+         "description":"testcodedescription"
+      },
+      {
+         "code":"testonecode112234324",
+         "name":"test3test21",
+         "description":"test123description"
+      },
+      {
+         "code":"STORE INCHARGE",
+         "name":"Store Incharge",
+         "description":"Incharge of the ULB store"
+      },
+      {
+         "code":"directortestcode112234324",
+         "name":"director123456",
+         "description":"test123description"
+      },
+      {
+         "code":"COMMISSIONER",
+         "name":"Commissioner",
+         "description":"Commissioner"
+      },
+      {
+         "code":"AE_CREATOR",
+         "name":"Abstract Estimate Creator",
+         "description":"Who has a access to create Abstract Estimate"
+      },
+      {
+         "code":"WORKS_FINANCIAL_APPROVER",
+         "name":"Financials Approver",
+         "description":"Who has a access to capture Financial details and budgetary/financial sanction"
+      },
+      {
+         "code":"DE_CREATOR",
+         "name":"Detailed Estimate Creator",
+         "description":"Who has a access to create Detailed Estimate"
+      },
+      {
+         "code":"LOA_CREATOR",
+         "name":"LOA Creator",
+         "description":"Who has a access to create Letter Of Acceptance"
+      },
+      {
+         "code":"WO_CREATOR",
+         "name":"WO Creator",
+         "description":"Who has a access to create Work Order"
+      },
+      {
+         "code":"WORKS_BILL_CREATOR",
+         "name":"Works Bill Creator",
+         "description":"Who has a access to create Contractor Bill"
+      },
+      {
+         "code":"CONTRACTOR_ADVANCE_CREATOR",
+         "name":"Contractor Advance creator",
+         "description":"Who has a access to create Contractor Advance"
+      },
+      {
+         "code":"MB_CREATOR",
+         "name":"MB creator",
+         "description":"Who has a access to create MB"
+      },
+      {
+         "code":"WORKS_APPROVER",
+         "name":"Works Approver",
+         "description":"Who has a access to approve/verify Works objects"
+      },
+      {
+         "code":"WORKS_ADMINISTRATOR",
+         "name":"Works Administrator",
+         "description":"Who has a access to all the transactions, masters and reports"
+      },
+      {
+         "code":"WORKS_MASTER_CREATOR",
+         "name":"Works Master creator",
+         "description":"Who has a access to all the works masters."
+      },
+      {
+         "code":"DGRO",
+         "name":"Department Grievance Routing Officer",
+         "description":"GRO for a sepcific dept who assings the grievances to last mile employees"
+      },
+      {
+         "code":"CSR",
+         "name":"Customer Support Representative",
+         "description":"Employee who files and follows up complaints on behalf of the citizen"
+      },
+      {
+         "code":"PGR-ADMIN",
+         "name":"PGR Administrator",
+         "description":"Admin role that has super access over the system"
+      },
+      {
+         "code":"CEMP",
+         "name":"Counter Employee",
+         "description":"Employee at the counter who performs assessment on behalf of citizen"
+      },
+      {
+         "code":"FEMP",
+         "name":"Field Employee",
+         "description":"Employee on the field"
+      },
+      {
+         "code":"PTADMIN",
+         "name":"ULB Administrator",
+         "description":"Admin role that as access over an ulb"
+      },
+      {
+         "code":"STADMIN",
+         "name":"State Administrator",
+         "description":"Admin role that as access over a state"
+      },
+      {
+         "code":"EGF_BILL_CREATOR",
+         "name":"EGF Bill Creator",
+         "description":"Employee who creates Bills in finance "
+      },
+      {
+         "code":"EGF_BILL_APPROVER",
+         "name":"EGF Bill Approver",
+         "description":"Employee who takes part in  Bills  approval in finance "
+      },
+      {
+         "code":"EGF_VOUCHER_CREATOR",
+         "name":"Finance Voucher Creator",
+         "description":"One who can create a voucher"
+      },
+      {
+         "code":"EGF_VOUCHER_APPROVER",
+         "name":"Finance Voucher Approver",
+         "description":"One who can approve a voucher"
+      },
+      {
+         "code":"EGF_PAYMENT_CREATOR",
+         "name":"Finance Payment Creator",
+         "description":"One who can create a payment"
+      },
+      {
+         "code":"EGF_PAYMENT_APPROVER",
+         "name":"Finance Payment Approver",
+         "description":"One who can approve a payment"
+      },
+      {
+         "code":"EGF_MASTER_ADMIN",
+         "name":"Finance Master Admin",
+         "description":"One who is the administrator for all master data in Finance"
+      },
+      {
+         "code":"EGF_REPORT_VIEW",
+         "name":"Finance Report View",
+         "description":"One who has acess to all financial reports"
+      },
+      {
+         "code":"COLL_RECEIPT_CREATOR",
+         "name":"Collections Receipt Creator",
+         "description":"One who can create and approve a receipt and receipt voucher"
+      },
+      {
+         "code":"COLL_REMIT_TO_BANK",
+         "name":"Collections Remitter",
+         "description":"One who can remit the instruments to bank"
+      },
+      {
+         "code":"SYS_INTEGRATOR_FINANCE",
+         "name":"System Integrator Finance",
+         "description":"Role for allowing system integration of Finance app with rainmaker"
+      },
+      {
+         "code":"SYS_INTEGRATOR_WATER_SEW",
+         "name":"System Integrator W&S",
+         "description":"Role for allowing system integration of Water and Sewerage app with rainmaker"
+      },
+      {
+         "code":"TL_CEMP",
+         "name":"TL Counter Employee",
+         "description":"Counter Employee in Trade License who files TL on behalf of the citizen"
+      },
+      {
+         "code":"TL_APPROVER",
+         "name":"TL Approver",
+         "description":"Approver who verifies and approves the TL application"
+      },
+      {
+         "code":"EMPLOYEE_FINANCE",
+         "name":"Employee Finance",
+         "description":"All Employees who use Finance application"
+      },
+      {
+         "code":"EGF_ADMINISTRATOR",
+         "name":"Finance Adminsitrator",
+         "description":"All Employees who are Finance application administrator"
+      },
+      {
+         "code":"PGR_LME",
+         "name":"PGR Last Mile Employee",
+         "description":"PGR Last mile employee to whom the request can be assigned"
+      },
+      {
+         "code":"PGR_REPORTS_VIEWER",
+         "name":"PGR Reports Viewer",
+         "description":"PGR employee who can view all the reports"
+      },
+      {
+         "code":"TL_FIELD_INSPECTOR",
+         "name":"TL Field Inspector",
+         "description":"Trade license field inspector"
+      },
+      {
+         "code":"TL_DOC_VERIFIER",
+         "name":"TL doc verifier",
+         "description":"Trade license document verifier"
+      },
+      {
+         "code":"NOC_CEMP",
+         "name":"NoC counter employee",
+         "description":"Fire NOC Counter Employee"
+      },
+      {
+         "code":"NOC_DOC_VERIFIER",
+         "name":"NoC Doc Verifier",
+         "description":"Fire NOC document verifier"
+      },
+      {
+         "code":"NOC_FIELD_INSPECTOR",
+         "name":"NoC Field Inpector",
+         "description":"Fire NOC  Field Inpector"
+      },
+      {
+         "code":"NOC_APPROVER",
+         "name":"NoC counter Approver",
+         "description":"Fire NOC Approver"
+      },
+      {
+         "code":"BPA_ARCHITECT",
+         "name":"BPA Architect",
+         "description":"BPA Architect"
+      },
+      {
+         "code":"BPA_ENGINEER",
+         "name":"BPA Engineer",
+         "description":"BPA Engineer"
+      },
+      {
+         "code":"BPA_BUILDER",
+         "name":"BPA Builder",
+         "description":"BPA Builder"
+      },
+      {
+         "code":"BPA_STRUCTURALENGINEER",
+         "name":"BPA Structural Engineer",
+         "description":"BPA Structural Engineer"
+      },
+      {
+         "code":"BPA_TOWNPLANNER",
+         "name":"BPA Town Planner",
+         "description":"BPA Town Planner"
+      },
+      {
+         "code":"ANONYMOUS",
+         "name":"Anonymous User",
+         "description":"Anonymous User to be used in case of no auth"
+      },
+      {
+         "code":"BPAREG_APPROVER",
+         "name":"BPAREG Approver",
+         "description":"BPA Stakeholder workflow Approver"
+      },
+      {
+         "code":"BPAREG_DOC_VERIFIER",
+         "name":"BPAREG doc verifier",
+         "description":"BPA Stakeholder workflow document verifier"
+      },
+      {
+         "code":"BPAREG_EMPLOYEE",
+         "name":"BPAREG Employee",
+         "description":"BPA Stakeholder Employee"
+      },
+      {
+         "code":"BPA_ARCHITECT",
+         "name":"BPA Architect",
+         "description":"BPA Architect"
+      },
+      {
+         "code":"BPA_ENGINEER",
+         "name":"BPA Engineer",
+         "description":"BPA Engineer"
+      },
+      {
+         "code":"BPA_BUILDER",
+         "name":"BPA Builder",
+         "description":"BPA Builder"
+      },
+      {
+         "code":"BPA_STRUCTURALENGINEER",
+         "name":"BPA Structural Engineer",
+         "description":"BPA Structural Engineer"
+      },
+      {
+         "code":"BPA_TOWNPLANNER",
+         "name":"BPA Town Planner",
+         "description":"BPA Town Planner"
+      },
+      {
+         "code":"BPA_APPROVER",
+         "name":"BPA Services Approver",
+         "description":"BPA Services workflow Approver"
+      },
+      {
+         "code":"BPA_VERIFIER",
+         "name":"BPA Services verifier",
+         "description":"BPA Services workflow document & field inspection verifier"
+      },
+      {
+         "code":"ESCALATION_OFFICER1",
+         "name":"Escalation Officer1",
+         "description":"Role For 1st level escalation(PGR)"
+      },
+      {
+         "code":"ESCALATION_OFFICER2",
+         "name":"Escalation Officer2",
+         "description":"Role For 2nd level escalation(PGR)"
+      },
+      {
+         "code":"EGF_BUDGET_CREATOR",
+         "name":"EGF Budget Creator",
+         "description":"Employee who uploads Budget in finance"
+      },
+      {
+         "code":"EGF_BUDGET_APPROVER",
+         "name":"EGF Bill Approver",
+         "description":"Employee who approves Budget in finance"
+      },
+      {
+         "code":"EGF_BUDGET_VERIFIER_1",
+         "name":"EGF Budget Verifier 1",
+         "description":"Employee who verifies Budget in finance"
+      },
+      {
+         "code":"EGF_BUDGET_VERIFIER_2",
+         "name":"EGF Bill Verifier 2",
+         "description":"Employee who verifies Budget in finance"
+      },
+      {
+         "code":"CTL_CLERK",
+         "name":"CLERK",
+         "description":"Employee who verifies, rejects and approves the TL application"
+      },
+      {
+         "code":"CTL_SA",
+         "name":"SA",
+         "description":"Employee who verifies, rejects and approves the TL application which is approved by clerk"
+      },
+      {
+         "code":"CTL_SI",
+         "name":"SI",
+         "description":"Employee who verifies, rejects and approves the TL application which is approved by SA"
+      },
+      {
+         "code":"CTL_CO",
+         "name":"COMMISSIONER",
+         "description":"Employee who verifies, rejects and approves the TL application which is approved by SI"
+      },
+      {
+         "code":"CTL_ADMIN",
+         "name":"Trade License Admin",
+         "description":"Trade License Admin"
+      },
+      {
+         "code":"RP_CLERK",
+         "name":"CLERK",
+         "description":"Employee who verifies, rejects and approves the RP application"
+      },
+      {
+         "code":"RP_JA",
+         "name":"JA",
+         "description":"Employee who verifies, rejects and approves the RP application which is approved by clerk"
+      },
+      {
+         "code":"RP_SA",
+         "name":"SA",
+         "description":"Employee who verifies, rejects and approves the RP application which is approved by clerk"
+      },
+      {
+         "code":"RP_SI",
+         "name":"SI",
+         "description":"Employee who verifies, rejects and approves the RP application which is approved by SA"
+      },
+      {
+         "code":"RP_CA",
+         "name":"CA",
+         "description":"Employee who verifies, rejects and approves the RP application which is approved by SI"
+      },
+      {
+         "code":"RP_SURVEYOR",
+         "name":"SURVEYOR",
+         "description":"Employee who verifies the Trasit site and uploads the documents for capturing transite site images"
+      },
+      {
+         "code":"RP_APRO",
+         "name":"APRO",
+         "description":"Employee who manages the public relations for transit sites for rented properties"
+      },
+      {
+         "code":"SI",
+         "name":"SI",
+         "description":"Sanitary Inspector"
+      },
+      {
+         "code":"MOH",
+         "name":"MOH",
+         "description":"Medical Officer Health"
+      },
+      {
+         "code":"SYSTEM_PAYMENT",
+         "name":"SYSTEM_PAYMENT",
+         "description":"Payment by gateway"
+      },
+      {
+         "code":"JEX",
+         "name":"JEX",
+         "description":"Junior Executive"
+      },
+      {
+         "code":"SUPERINTENDENT",
+         "name":"SUPERINTENDENT",
+         "description":"Superintendent"
+      },
+      {
+         "code":"OSD",
+         "name":"OSD",
+         "description":"Officer on Special duty"
+      },
+      {
+         "code":"JE",
+         "name":"JE",
+         "description":"Junior Engineer"
+      },
+      {
+         "code":"SDO",
+         "name":"SDO",
+         "description":"Sub Divisional Officer"
+      },
+      {
+         "code":"EE",
+         "name":"EE",
+         "description":"Executive Engineer"
+      },
+      {
+         "code":"SE",
+         "name":"SE",
+         "description":"Superintendent Engineer"
+      },
+      {
+         "code":"CE",
+         "name":"CE",
+         "description":"Chief Engineer"
+      },
+      {
+         "code":"SYSTEM",
+         "name":"System user",
+         "description":"System user"
+      },
+      {
+         "code":"AGENDA_BRANCH_ADMIN",
+         "name":"Agenda Branch Admin",
+         "description":"Agenda Branch Admin will create agenda, meeting, MoM"
+      },
+      {
+         "code":"AGENDA_CREATOR",
+         "name":"Agenda Creator",
+         "description":"Agenda Branch Admin & Department Admin will create agenda"
+      },
+      {
+         "code":"AGENDA_BRANCH_APPROVER",
+         "name":"Agenda Branch Approver",
+         "description":"Agenda Branch approver will approve the workflow of agenda creation, MoM creation"
+      },
+      {
+         "code":"AGENDA_BRANCH_REPORT_VIEWER",
+         "name":"Agenda Branch Report Viewer",
+         "description":"Agenda Branch report viewer can view the reports"
+      },
+      {
+         "code":"AGENDA_MEETING_DEPARTMENT_USER",
+         "name":"AGENDA MEETING DEPARTMENT USER",
+         "description":"Department user who will get meeting invitation"
+      },
+      {
+         "code":"AGENDA_MEETING_SENIOR_OFFICER",
+         "name":"AGENDA MEETING SENIOR OFFICER",
+         "description":"Senior Officers like Add commissioner, joint commissioner, chief engg etc"
+      },
+      {
+         "code":"AGENDA_MEETING_SPECIAL_OFFICER",
+         "name":"AGENDA MEETING SPECIAL OFFICER",
+         "description":"Special Officers like commissioner, secretary etc"
+      },
+      {
+         "code":"APRO",
+         "name":"APRO",
+         "description":"Authorized Division User"
+      },
+      {
+         "code":"DEPARTMENTUSER",
+         "name":"DEPARTMENTUSER",
+         "description":"Department User"
+      },
+      {
+         "code":"APNIMANDI_ADMIN",
+         "name":"Apnimandi Admin",
+         "description":"Apnimandi Admin will create contrator, collection"
+      },
+      {
+         "code":"APNIMANDI_APPROVER",
+         "name":"Apnimandi Approver",
+         "description":"Apnimandi approver will forward, approve and reject the workflow of contractor and collection"
+      },
+      {
+         "code":"APNIMANDI_REPORT_VIEWER",
+         "name":"Apnimandi Report Viewer",
+         "description":"Apnimandi report viewer can view all kind of mis report of contractor and collection"
+      },
+      {
+         "code":"LCMS_ADMIN",
+         "name":"LCMS Admin",
+         "description":"LCMS Admin will manage all legal cases and LCMS related master datas"
+      },
+      {
+         "code":"DDO",
+         "name":"DDO",
+         "description":"Drawing & Disbursement Officer (Pension)"
+      },
+      {
+         "code":"ACCOUNTS_OFFICER",
+         "name":"ACCOUNTS OFFICER",
+         "description":"ACCOUNTS OFFICER (Pension)"
+      },
+      {
+         "code":"SENIOR_ASSISTANT",
+         "name":"SENIOR ASSISTANT",
+         "description":"SENIOR ASSISTANT (Pension)"
+      },
+      {
+         "code":"CLERK",
+         "name":"CLERK",
+         "description":"CLERK (Pension)"
+      },
+      {
+         "code":"CHIEF_ACCOUNTS_OFFICER",
+         "name":"CHIEF ACCOUNTS OFFICER",
+         "description":"CHIEF ACCOUNTS OFFICER (Pension)"
+      },
+      {
+         "code":"ADDITIONAL_COMMISSIONER",
+         "name":"ADDITIONAL COMMISSIONER",
+         "description":"ADDITIONAL COMMISSIONER (Pension)"
+      },
+      {
+         "code":"PENSION_SYSTEM",
+         "name":"PENSION SYSTEM",
+         "description":"PENSION SYSTEM"
+      },
+      {
+         "code":"AUDIT_APPROVER",
+         "name":"AUDIT_APPROVER",
+         "description":"Audit Branch Approver"
+      },
+      {
+         "code":"HC_CCF",
+         "name":"HC_CCF",
+         "description":"Chief Conservator of Forest"
+      },
+      {
+         "code":"HC_DCF",
+         "name":"HC_DCF",
+         "description":"Deputy Conservator of Forest"
+      },
+      {
+         "code":"HC_FRO",
+         "name":"HC_FRO",
+         "description":"Range Forest officer"
+      },
+      {
+         "code":"HC_SRE",
+         "name":"HC_SRE",
+         "description":"Principal Secreatry (Forest)"
+      },
+      {
+         "code":"HC_WA",
+         "name":"HC_WA",
+         "description":"Worthy Advisor"
+      },
+      {
+         "code":"HC_FO",
+         "name":"HC_FO",
+         "description":"Forest Officer"
+      },
+      {
+         "code":"HC_SDE",
+         "name":"HC_SDE",
+         "description":"Sub Divisional Engineer"
+      },
+      {
+         "code":"HC_SEHE",
+         "name":"HC_SEHE",
+         "description":"Superintending Engineer(H&E)"
+      },
+      {
+         "code":"HC_EE",
+         "name":"HC_EE",
+         "description":"EE"
+      },
+      {
+         "code":"HC_SDO",
+         "name":"HC_SDO",
+         "description":"SDO"
+      },
+      {
+         "code":"HC_JE",
+         "name":"HC_JE",
+         "description":"JE"
+      },
+      {
+         "code":"HC_SE",
+         "name":"HC_SE",
+         "description":"SE"
+      },
+      {
+         "code":"HC_CE",
+         "name":"HC_CE",
+         "description":"CE"
+      },
+      {
+         "code":"HC_CEMCC",
+         "name":"HC_CEMCC",
+         "description":"Chief Engineer(MCC)"
+      },
+      {
+         "code":"HC_EEWE",
+         "name":"HC_EEWE",
+         "description":"Executive Engineer(W&E)"
+      },
+      {
+         "code":"HC_COMMISSIONERMCC",
+         "name":"HC_COMMISSIONERMCC",
+         "description":"Commissioner(MCC)"
+      },
+      {
+         "code":"HC_VIEWER",
+         "name":"HC_VIEWER",
+         "description":"Horticulture Viewer Employee"
+      },
+      {
+         "code":"HC_SWE",
+         "name":"Superitendent(W&E)",
+         "description":"Superitendent(W&E)"
+      },
+      {
+         "code":"challanSI",
+         "name":"challanSI",
+         "description":"Sub Inspector"
+      },
+      {
+         "code":"challanEAO",
+         "name":"challanEAO",
+         "description":"Encroachment Admin Officer"
+      },
+      {
+         "code":"challanSM",
+         "name":"challanSM",
+         "description":"Store Manager"
+      },
+      {
+         "code":"challanHOD",
+         "name":"challanHOD",
+         "description":"Appellete Auth"
+      },
+      {
+         "code":"WS_BILL_UPLOAD",
+         "name":"WS demand file upload",
+         "description":"WS demand file upload"
+      },
+      {
+         "code":"WS_COMMON",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_JE_08",
+         "name":"WS JE role",
+         "description":"JE role for water & sewerage"
+      },
+      {
+         "code":"WS_JE_09",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_JE_14",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_JE_15",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_JE_20",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SE",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_CHD",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDE_08",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDE_09",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDE_14",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDE_15",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDE_20",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SUPERINTENDENT",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDER_08",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDER_09",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDER_14",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDER_15",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDER_20",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_SDC",
+         "name":"WS Common role",
+         "description":"Common role for water & sewerage"
+      },
+      {
+         "code":"WS_CEMP",
+         "name":"WS Counter Employee",
+         "description":"WS counter employee can take action as citizen"
+      },
+      {
+         "code":"WS_EE",
+         "name":"WS Executive Engineer",
+         "description":"WS EE who forward more than 15mm pipe connection"
+      },
+      {
+         "code":"WS_HDM",
+         "name":"WS HDM",
+         "description":"WS HDM who approves more than 15mm pipe connection"
+      },
+      {
+         "code":"SW_CEMP",
+         "name":"SW Counter Employee",
+         "description":"SW counter employee can take action as citizen"
+      },
+      {
+         "code":"SW_SDO",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_JE_06",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_JE_12",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_JE_13",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_JE_18",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SDE_06",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SDE_12",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SDE_13",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SDE_18",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_EE",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SUPERINTENDENT",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_CHD",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_HDM",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SE",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SDER_06",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SDER_12",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SDER_13",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SDER_18",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"AUDIT_ADMIN",
+         "name":"AUDIT_ADMIN",
+         "description":"Audit admin for audit Search page"
+      },
+      {
+         "code":"AUDIT_POST",
+         "name":"AUDIT_POST",
+         "description":"Post Audit Inititation role"
+      },
+      {
+         "code":"DOEE",
+         "name":"DO of Drawing Branch under EE",
+         "description":"DO of Drawing Branch under EE"
+      },
+      {
+         "code":"DOSE",
+         "name":"Do of Drawing Branch under SE",
+         "description":"Do of Drawing Branch under SE"
+      },
+      {
+         "code":"DOCE",
+         "name":"DO of Drawing Branch under CE",
+         "description":"DO of Drawing Branch under CE"
+      },
+      {
+         "code":"WD",
+         "name":"W&D USER",
+         "description":"W&D USER"
+      },
+      {
+         "code":"JC",
+         "name":"Joint Commissioner",
+         "description":"Joint Commissioner"
+      },
+      {
+         "code":"SC",
+         "name":"Special commissioner",
+         "description":"Special commissioner"
+      },
+      {
+         "code":"SEC",
+         "name":"Secretary",
+         "description":"Secretary"
+      },
+      {
+         "code":"CA",
+         "name":"Chief Administrator",
+         "description":"Chief Administrator"
+      },
+      {
+         "code":"NGO",
+         "name":"Non-Government Organizations",
+         "description":"Non-Government Organizations"
+      },
+      {
+         "code":"SAJE",
+         "name":"Junior Engineer",
+         "description":"Store Asset Junior Engineer"
+      },
+      {
+         "code":"SAEE",
+         "name":"Executive Engineer",
+         "description":"Store Asset Executive Engineer"
+      },
+      {
+         "code":"SASE",
+         "name":"Senior Engineer",
+         "description":"Store Asset Senior Engineer"
+      },
+      {
+         "code":"SACE",
+         "name":"Chief Engineer",
+         "description":"Store Asset Chief Engineer"
+      },
+      {
+         "code":"SASDO",
+         "name":"SDO ",
+         "description":"Store Asset SDO"
+      },
+      {
+         "code":"SACOM",
+         "name":"COMMISSIONER",
+         "description":"Store Asset COMMISSIONER"
+      },
+      {
+         "code":"SACP",
+         "name":"Computer Programmer",
+         "description":"Store Asset Computer Programmer"
+      },
+      {
+         "code":"SASA",
+         "name":"Senior Assistant",
+         "description":"Store Asset Senior Assistant"
+      },
+      {
+         "code":"SASP",
+         "name":"SUPERINTENDENT",
+         "description":"Store Asset SUPERINTENDENT"
+      },
+      {
+         "code":"SASO",
+         "name":"Section Officer",
+         "description":"Store Asset Section Officer"
+      },
+      {
+         "code":"SACAO",
+         "name":"CAO",
+         "description":"Store Asset CAO"
+      },
+      {
+         "code":"SAACMC",
+         "name":"ACMC",
+         "description":"Store Asset ACMC"
+      },
+      {
+         "code":"SACT",
+         "name":"Caretaker",
+         "description":"Store Asset Caretaker"
+      },
+      {
+         "code":"SACSI",
+         "name":"CSI",
+         "description":"Store Asset CSI"
+      },
+      {
+         "code":"SAMOH",
+         "name":"MOH",
+         "description":"Store Asset MOH"
+      },
+      {
+         "code":"SAJC",
+         "name":"Jt COMMISSIONER",
+         "description":"Store Asset Jt COMMISSIONER"
+      },
+      {
+         "code":"SASIC",
+         "name":"SIC",
+         "description":"Store Asset Store In-Charge"
+      },
+      {
+         "code":"NULM_ADMIN",
+         "name":"NULM Admin",
+         "description":"NULM Admin"
+      },
+      {
+         "code":"JA",
+         "name":"JA",
+         "description":"Junior Assistant"
+      },
+      {
+         "code":"ACMC",
+         "name":"ACMC",
+         "description":"ACMC"
+      },
+      {
+         "code":"WORKS_CREATE_ESTIMATE",
+         "name":"WORKS_CREATE_ESTIMATE",
+         "description":"WORKS_CREATE_ESTIMATE"
+      },
+      {
+         "code":"WORKS_SEARCH_ESTIMATE",
+         "name":"WORKS_SEARCH_ESTIMATE",
+         "description":"WORKS_SEARCH_ESTIMATE"
+      },
+      {
+         "code":"WORKS_CREATE_TENDER",
+         "name":"WORKS_CREATE_TENDER",
+         "description":"WORKS_CREATE_TENDER"
+      },
+      {
+         "code":"WORKS_SEARCH_TENDER",
+         "name":"WORKS_SEARCH_TENDER",
+         "description":"WORKS_SEARCH_TENDER"
+      },
+      {
+         "code":"WORKS_CREATE_BG",
+         "name":"WORKS_CREATE_BG",
+         "description":"WORKS_CREATE_BG"
+      },
+      {
+         "code":"WORKS_SEARCH_BG",
+         "name":"WORKS_SEARCH_BG",
+         "description":"WORKS_SEARCH_BG"
+      },
+      {
+         "code":"WORKS_APPROVER",
+         "name":"WORKS_APPROVER",
+         "description":"WORKS_APPROVER"
+      },
+      {
+         "code":"BK_OSBM_APPROVER",
+         "name":"OSBM APPROVER",
+         "description":"Employee who approves the open space booking for building material"
+      },
+      {
+         "code":"BK_MCC_APPROVER",
+         "name":"Open Spaces Under Jurisdiction of MCC Approver",
+         "description":"Employee who approves Open Spaces Under Jurisdiction of MCC booking"
+      },
+      {
+         "code":"BK_OSD_APPROVER",
+         "name":"New Location Open Spaces Under Jurisdiction of MCC Verifier",
+         "description":"Employee who verifies the New Location Open Spaces Under Jurisdiction of MCC booking"
+      },
+      {
+         "code":"BK_ADMIN",
+         "name":"BK Admin",
+         "description":"Employee who access and modify the report and master data"
+      },
+      {
+         "code":"BK_ADMIN_APPROVER",
+         "name":"New Location Open Spaces Under Jurisdiction of MCC Publisher",
+         "description":"Employee who publish the New Location Open Spaces Under Jurisdiction of MCC booking"
+      },
+      {
+         "code":"BK_BOOKING_ADMIN",
+         "name":"Master Data Creator",
+         "description":"Employee who create and update master data"
+      },
+      {
+         "code":"BK_CLERK",
+         "name":"Parks and Community Centre Cancel Request Verifier",
+         "description":"Employee who verifies the cancel request of Parks and Community Centre"
+      },
+      {
+         "code":"BK_DEO",
+         "name":"Parks and Community Centre Cancel Request Verifier",
+         "description":"Employee who verifies the cancel request of Parks and Community Centre"
+      },
+      {
+         "code":"BK_SENIOR_ASSISTANT",
+         "name":"Parks and Community Centre Cancel Request Verifier",
+         "description":"Employee who verifies the cancel request of Parks and Community Centre"
+      },
+      {
+         "code":"BK_AUDIT_DEPARTMENT",
+         "name":"Parks and Community Centre Cancel Request Verifier",
+         "description":"Employee who audit the cancel request of Parks and Community Centre"
+      },
+      {
+         "code":"BK_CHIEF_ACCOUNT_OFFICER",
+         "name":"Parks and Community Centre Cancel Request Approver",
+         "description":"Employee who approve the cancel request of Parks and Community Centre"
+      },
+      {
+         "code":"BK_PAYMENT_PROCESSING_AUTHORITY",
+         "name":"Parks and Community Centre Cancel Request Payment Processing Authority",
+         "description":"Employee who disbursed the cancel request payment of Parks and Community Centre"
+      },
+      {
+         "code":"WORKS_WORK_AGREEMENT",
+         "name":"WORKS_WORK_AGREEMENT",
+         "description":"WORKS_WORK_AGREEMENT"
+      },
+      {
+         "code":"WORKS_MASTER",
+         "name":"WORKS_MASTER",
+         "description":"WORKS_MASTER"
+      },
+      {
+         "code":"WORKS_MIS",
+         "name":"WORKS_MIS",
+         "description":"WORKS_MIS"
+      },
+      {
+         "code":"WORKS_BILL",
+         "name":"WORKS_BILL",
+         "description":"WORKS_BILL"
+      },
+      {
+         "code":"NULMJA",
+         "name":"Junior Assistant",
+         "description":"NULM Junior Assistant"
+      },
+      {
+         "code":"NULMSDO",
+         "name":"SDO",
+         "description":"NULM SDO"
+      },
+      {
+         "code":"NULMACMC",
+         "name":"ACMC",
+         "description":"NULM ACMC"
+      },
+      {
+         "code":"EGF_BUDGET_VERIFIER_SO",
+         "name":"EGF_BUDGET_VERIFIER_SO",
+         "description":"EGF_BUDGET_VERIFIER_SO"
+      },
+      {
+         "code":"RTIADMIN",
+         "name":"RTIADMIN",
+         "description":"RTI Admin"
+      },
+      {
+         "code":"BK_MCC_HELPDESK_USER",
+         "name":"Water Tanker Approver",
+         "description":"Employee who approves the Water Tankers booking"
+      },
+      {
+         "code":"BK_COMMERCIAL_GROUND_VIEWER",
+         "name":"Ground for Commercial Purpose Viewer",
+         "description":"Employee who view the Ground for Commercial Purpose booking"
+      },
+      {
+         "code":"COLL_RECEIPT_REPORT",
+         "name":"COLL_RECEIPT_REPORT",
+         "description":"COLL_RECEIPT_REPORT"
+      },
+      {
+         "code":"ES_ADDITIONAL_COMMISSIONER",
+         "name":"Additional Comissioner",
+         "description":"Estate Module Additional Comissioner"
+      },
+      {
+         "code":"ES_BB_DEALING_ASSISTANT",
+         "name":"Dealing Assistant",
+         "description":"Building Branch Dealing Assistant"
+      },
+      {
+         "code":"ES_BB_DISPATCH_OFFICER",
+         "name":"Dispatch Section Officer",
+         "description":"Building Branch Dispatch Section Officer"
+      },
+      {
+         "code":"ES_BB_DRAFTSMAN",
+         "name":"Draftsman",
+         "description":"Building Branch Draftsman"
+      },
+      {
+         "code":"ES_BB_FINANCIAL_OFFICER",
+         "name":"Financial Department Officer",
+         "description":"Building Branch Financial Department Officer"
+      },
+      {
+         "code":"ES_BB_JUNIOR_ENGINEER",
+         "name":"Junior Engineer",
+         "description":"Building Branch Junior Engineer"
+      },
+      {
+         "code":"ES_BB_SDE",
+         "name":"SDE",
+         "description":"Building Branch SDE"
+      },
+      {
+         "code":"ES_EB_CHEIF_ACCOUNTS_OFFICER",
+         "name":"Cheif Accounts Officer",
+         "description":"Estate Branch Cheif Accounts Officer"
+      },
+      {
+         "code":"ES_EB_DEALING_ASSISTANT",
+         "name":"Dealing Assistant",
+         "description":"Estate Branch Dealing Assistant"
+      },
+      {
+         "code":"ES_EB_DISPATCH_OFFICER",
+         "name":"Dispatch Section Officer",
+         "description":"Estate Branch Dispatch Section Officer"
+      },
+      {
+         "code":"ES_EB_FINANCIAL_OFFICER",
+         "name":"Financial Department Officer",
+         "description":"Estate Branch Financial Department Officer"
+      },
+      {
+         "code":"ES_EB_LOCAL_AUDIT_OFFICER",
+         "name":"Local Audit Officer",
+         "description":"Estate Branch Local Audit Officer"
+      },
+      {
+         "code":"ES_EB_SECTION_OFFICER",
+         "name":"Section Officer",
+         "description":"Estate Branch Section Officer"
+      },
+      {
+         "code":"ES_EB_SR_ASSISTANT",
+         "name":"Senior Assistant",
+         "description":"Estate Branch Senior Assistant"
+      },
+      {
+         "code":"ES_MM_BUILDING_INSPECTOR",
+         "name":"Building Inspector",
+         "description":"Manimajra Branch Building Inspector"
+      },
+      {
+         "code":"ES_MM_DEALING_ASSISTANT",
+         "name":"Dealing Assistant",
+         "description":"Manimajra Branch Dealing Assistant"
+      },
+      {
+         "code":"ES_MM_DISPATCH_OFFICER",
+         "name":"Dispatch Section Officer",
+         "description":"Manimajra Branch Dispatch Section Officer"
+      },
+      {
+         "code":"ES_MM_FINANCIAL_OFFICER",
+         "name":"Financial Department Officer",
+         "description":"Manimajra Branch Financial Department Officer"
+      },
+      {
+         "code":"ES_MM_SECTION_OFFICER",
+         "name":"Section Officer",
+         "description":"Manimajra Branch Section Officer"
+      },
+      {
+         "code":"ES_MM_SR_ASSISTANT",
+         "name":"Senior Assistant",
+         "description":"Manimajra Branch Senior Assistant"
+      },
+      {
+         "code":"ES_MM_TAX_CONTROLLER_MANIMAJRA",
+         "name":"Tax Controller Officer",
+         "description":"Manimajra Branch Tax Controller Officer"
+      },
+      {
+         "code":"WORKS_CLOSURE",
+         "name":"WORKS_CLOSURE",
+         "description":"WORKS_CLOSURE"
+      },
+      {
+         "code":"WORKS_PROGRESS_UPDATE",
+         "name":"WORKS_PROGRESS_UPDATE",
+         "description":"WORKS_PROGRESS_UPDATE"
+      },
+      {
+         "code":"AUDIT_MASTER",
+         "name":"AUDIT_MASTER",
+         "description":"AUDIT_MASTER"
+      },
+      {
+         "code":"BK_PARKS_AND_COMMUNITY_VIEWER",
+         "name":"Parks and Community Centre Viewer",
+         "description":"Employee who view the Parks and Community Centre booking"
+      },
+      {
+         "code":"BK_E-SAMPARK-CENTER",
+         "name":"Parks and Community Centre Offline Applier",
+         "description":"Employee who create offline booking of Parks and Community Centre"
+      },
+      {
+         "code":"BK_MCC_USER",
+         "name":"Parks and Community Centre Offline Applier",
+         "description":"Employee who create offline booking of Parks and Community Centre"
+      },
+      {
+         "code":"BK_OSD",
+         "name":"OSD Approver",
+         "description":"Employee who approve park and community center booking request"
+      },
+      {
+         "code":"BK_SUPERVISOR",
+         "name":"Supervisor Approver",
+         "description":"Employee who approve and inspect park and community center booking request"
+      },
+      {
+         "code":"WORKS_DNIT",
+         "name":"WORKS_DNIT",
+         "description":"WORKS_DNIT"
+      },
+      {
+         "code":"FINANCE_VOUCHER_REPORT",
+         "name":"FINANCE_VOUCHER_REPORT",
+         "description":"FINANCE_VOUCHER_REPORT"
+      },
+      {
+         "code":"REPORT_ADMIN",
+         "name":"REPORT_ADMIN",
+         "description":"Admin for report module"
+      },
+      {
+         "code":"AGENDA_NOTICE",
+         "name":"AGENDA_NOTICE",
+         "description":"AGENDA_NOTICE"
+      },
+      {
+         "code":"SDE",
+         "name":"SDE",
+         "description":"Sub Divisional Officer"
+      },
+      {
+         "code":"DMEE",
+         "name":"DMEE",
+         "description":"DO of Drawing Branch under EE"
+      },
+      {
+         "code":"DMSE",
+         "name":"DMSE",
+         "description":"DO of Drawing Branch under SE"
+      },
+      {
+         "code":"DMCE",
+         "name":"DMCE",
+         "description":"DO of Drawing Branch under CE"
+      },
+      {
+         "code":"HDMEE",
+         "name":"HDMEE",
+         "description":"HDM of Drawing Branch under EE"
+      },
+      {
+         "code":"CHDSE",
+         "name":"CHDSE",
+         "description":"CHD of Drawing Branch under SE"
+      },
+      {
+         "code":"CHDCE",
+         "name":"CHDCE",
+         "description":"CHD of Drawing Branch under CE"
+      },
+      {
+         "code":"SDEHQ",
+         "name":"SDEHQ",
+         "description":"SDEHQ"
+      },
+      {
+         "code":"CHALLAN_DELETE",
+         "name":"CHALLAN_DELETE",
+         "description":"CHALLAN_DELETE"
+      },
+      {
+         "code":"LEGAL_NODAL_OFFICER",
+         "name":"Legal Nodal Officer",
+         "description":"Legal Nodal Officer"
+      },
+      {
+         "code":"LCMS_DEPT_ACCESS",
+         "name":"LCMS_DEPT_ACCESS",
+         "description":"LCMS_DEPT_ACCESS"
+      },
+      {
+         "code":"CHALLAN_EDIT",
+         "name":"CHALLAN_EDIT",
+         "description":"CHALLAN_EDIT"
+      }
+   ]
 }

@@ -1328,6 +1328,30 @@
             "uniqueKeys": [
                 "$.code"
                    ]
+          },
+"BOOKING_GL_CODE_MAPPING": {
+                   
+            "masterName": "Documents",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+                   ]
+          },
+"BookingMadeThrough": {
+                   
+            "masterName": "Documents",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+                   ]
+          },
+"BookingModuleType": {
+                   
+            "masterName": "Documents",
+            "isStateLevel": true,
+            "uniqueKeys": [
+                "$.code"
+                   ]
           }		  		  
     }
 }

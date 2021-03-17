@@ -384,32 +384,12 @@
       },
       {
          "category":"FEE",
-         "service":"RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
-         "name":"Duplicate Copy APRO Charges (Milk Colony)",
-         "code":"RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"1",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
          "service":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
          "name":"Duplicate Copy Application Charges (Kumhar Colony)",
          "code":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER_APPLICATION_FEE",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
-         "name":"Duplicate Copy APRO Charges (Kumhar Colony)",
-         "code":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"1",
          "isRequired":false
       },
       {
@@ -424,32 +404,12 @@
       },
       {
          "category":"FEE",
-         "service":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
-         "name":"Duplicate Copy APRO Charges (Sector 52-53)",
-         "code":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"1",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
          "service":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
          "name":"Duplicate Copy Application Charges (Vikas Nagar)",
          "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER_APPLICATION_FEE",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"FEE",
-         "service":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
-         "name":"Duplicate Copy APRO Charges (Vikas Nagar)",
-         "code":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER_PUBLICATION_FEE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"1",
          "isRequired":false
       },
       {
@@ -3769,194 +3729,6 @@
       },
       {
          "category":"CHARGES",
-         "service":"OSBM",
-         "name":"Open Space Building Material",
-         "code":"OSBM",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"OSBM",
-         "name":"Open Space Building Material",
-         "code":"OSBM_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false,
-         "taxAmount":"18"
-      },
-      {
-         "category":"TAX",
-         "service":"OSBM",
-         "name":"Open Space Building Material",
-         "code":"OSBM_ROUND_OFF",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false,
-         "taxAmount":"18"
-      },
-      {
-         "category":"CHARGES",
-         "service":"BWT",
-         "name":"Water Tanker",
-         "code":"BWT",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"10",
-         "isRequired":false,
-         "taxAmount":"600"
-      },
-      {
-         "category":"TAX",
-         "service":"BWT",
-         "name":"Water Tanker",
-         "code":"BWT_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"10",
-         "isRequired":false,
-         "taxAmount":"0"
-      },
-      {
-         "category":"CHARGES",
-         "service":"GFCP",
-         "name":"COMMERCIAL GROUND",
-         "code":"GFCP",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"10",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"GFCP",
-         "name":"COMMERCIAL GROUND",
-         "code":"GFCP_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"10",
-         "isRequired":false,
-         "taxAmount":"18"
-      },
-      {
-         "category":"TAX",
-         "service":"GFCP",
-         "name":"COMMERCIAL GROUND TAX",
-         "code":"GFCP_ROUND_OFF",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"CHARGES",
-         "service":"OSUJM",
-         "name":"OPEN SPACES UNDER THE JURISDICTION OF MCC",
-         "code":"OSUJM",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"10",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"OSUJM",
-         "name":"OPEN SPACES UNDER THE JURISDICTION OF MCC TAX",
-         "code":"OSUJM_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"10",
-         "isRequired":false,
-         "taxAmount":"18"
-      },
-      {
-         "category":"TAX",
-         "service":"OSUJM",
-         "name":"OPEN SPACES UNDER THE JURISDICTION OF MCC ROUND OFF",
-         "code":"OSUJM_ROUND_OFF",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"CHARGES",
-         "service":"PACC",
-         "name":"PARK AND COMMUNITY CENTRE",
-         "code":"PACC",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"10",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"PACC",
-         "name":"PARK AND COMMUNITY CENTRE TAX",
-         "code":"PACC_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"10",
-         "isRequired":false,
-         "taxAmount":"18"
-      },
-      {
-         "category":"TAX",
-         "service":"PACC",
-         "name":"PARK AND COMMUNITY CENTRE ROUND OFF",
-         "code":"PACC_ROUND_OFF",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"PACC",
-         "name":"PARK AND COMMUNITY LUXURY TAX",
-         "code":"LUXURY_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"CHARGES",
-         "service":"PACC",
-         "name":"PARK AND COMMUNITY REFUNDABLE SECURITY AMOUNT",
-         "code":"REFUNDABLE_SECURITY",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"CHARGES",
-         "service":"PACC",
-         "name":"PARK AND COMMUNITY CENTRE LOCATION AND VENUE CHANGE AMOUNT",
-         "code":"PACC_LOCATION_AND_VENUE_CHANGE_AMOUNT",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"CHARGES",
-         "service":"PACC",
-         "name":"PARK AND COMMUNITY CENTRE FACILITATION CHARGE",
-         "code":"FACILITATION_CHARGE",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false,
-         "facilitationCharge":"100"
-      },
-      {
-         "category":"CHARGES",
          "service":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
          "name":"Advertisement charges",
          "code":"ADVERTISEMENT_CHARGES_BOOKING_BRANCH",
@@ -4419,47 +4191,24 @@
          "isRequired":false
       },
       {
-         "category":"FEE",
-         "service":"BKROOM",
-         "name":"Room Booking",
-         "code":"BKROOM",
+         "category":"CHARGES",
+         "service":"BOOKING_BRANCH_SERVICES.COMMUNITY_CENTRES_JHANJ_GHAR",
+         "name":"Community Location and Venue Change",
+         "code":"COMMUNITY_LOCATION_AND_VENUE_CHANGE_AMOUNT",
          "isDebit":false,
          "isActualDemand":false,
          "order":"0",
          "isRequired":false
       },
       {
-         "category":"TAX",
-         "service":"BKROOM",
-         "name":"ROOM CGST and UTGST",
-         "code":"BKROOM_TAX",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false,
-         "taxAmount":"18"
-      },
-      {
-         "category":"TAX",
-         "service":"BKROOM",
-         "name":"ROOM CGST and UTGST ROUND OFF",
-         "code":"BKROOM_ROUND_OFF",
-         "isDebit":false,
-         "isActualDemand":false,
-         "order":"0",
-         "isRequired":false,
-         "taxAmount":"18"
-      },
-      {
          "category":"CHARGES",
-         "service":"BKROOM",
-         "name":"ROOM FACILITATION CHARGE",
-         "code":"ROOM_FACILITATION_CHARGE",
+         "service":"BOOKING_BRANCH_SERVICES.MANUAL_OPEN_SPACE",
+         "name":"Location and venue change",
+         "code":"PARK_LOCATION_AND_VENUE_CHANGE_AMOUNT",
          "isDebit":false,
-         "isActualDemand":true,
+         "isActualDemand":false,
          "order":"0",
-         "isRequired":false,
-         "facilitationCharge":"100"
+         "isRequired":false
       }
    ]
 }

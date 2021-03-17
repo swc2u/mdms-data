@@ -105,7 +105,7 @@
         },
         {
           "path": "transferee.dob",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "date-range",
@@ -196,7 +196,7 @@
         },
         {
           "path": "witness..dob",
-          "required": true,
+          "required": false,
           "validations": [
             {
               "type": "date-range",
@@ -229,7 +229,7 @@
             {
               "type": "length",
               "params": {
-                "min": 5,
+                "min": 3,
                 "max": 150
               }
             }
