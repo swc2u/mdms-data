@@ -628,7 +628,6 @@
                   "placeholder": "ES_FILE_NUMBER_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.fileNumber",
-                  "path": "property.fileNumber",
                   "prefillValue": "application.applicationDetails.property.fileNumber",
                   "required": true
                 },
@@ -637,7 +636,6 @@
                   "placeholder": "ES_SELECT_CATEGORY_PLACEHOLDER",
                   "type": "DROP_DOWN",
                   "jsonPath": "Applications[0].applicationDetails.property.category",
-                  "path": "property.category",
                   "dataSource": "category",
                   "errorMessage":"'ES_ERR_SELECT_CATEGORY'",
                   "required": true
@@ -647,7 +645,6 @@
                   "placeholder": "ES_SELECT_SUB_CATEGORY_PLACEHOLDER",
                   "jsonPath": "Applications[0].applicationDetails.property.subCategory",
                   "type": "TEXT_FIELD",
-                  "path": "property.subCategory",
                   "visible": false,
                   "visibility": "application.applicationDetails.property.category === 'CAT.RESIDENTIAL' || application.applicationDetails.property.category === 'CAT.COMMERCIAL'",
                   "errorMessage": "'ES_ERR_SELECT_SUBCATEGORY'",
@@ -658,7 +655,6 @@
                   "placeholder": "ES_SITE_NO_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.siteNumber",
-                  "path": "property.siteNumber",
                   "prefillValue": "application.applicationDetails.property.siteNumber",
                   "required": true
                 },
@@ -667,7 +663,6 @@
                   "placeholder": "ES_SELECT_SECTOR_NO_PLACEHOLDER",
                   "jsonPath": "Applications[0].applicationDetails.property.sectorNumber",
                   "type": "DROP_DOWN",
-                  "path": "property.sectorNumber",
                   "dataSource": "sectorNumber",
                   "errorMessage": "'ES_ERR_SELECT_SUBCATEGORY'",
                   "required": true
@@ -677,7 +672,6 @@
                   "placeholder": "ES_HOUSE_NO_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.houseNumber",
-                  "path": "property.propertyDetails.houseNumber",
                   "prefillValue": "application.applicationDetails.property.propertyDetails.houseNumber",
                   "required": true
                 },
@@ -686,7 +680,6 @@
                   "placeholder": "ES_MOHALLA_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.mohalla",
-                  "path": "property.propertyDetails.mohalla",
                   "prefillValue": "application.applicationDetails.property.propertyDetails.mohalla",
                   "required": true
                 },
@@ -695,7 +688,6 @@
                   "placeholder": "ES_VILLAGE_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.village",
-                  "path": "property.propertyDetails.village",
                   "prefillValue": "application.applicationDetails.property.propertyDetails.village",
                   "required": true
                 },
@@ -704,7 +696,6 @@
                   "placeholder": "ES_VILLAGE_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.areaSqft",
-                  "path": "property.propertyDetails.areaSqft",
                   "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft",
                   "required": true
                 }
@@ -744,7 +735,6 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.name",
                   "pattern": "alphabet",
-                  "path": "owner.name",
                   "visibility": "!owners.length",
                   "required": true,
                   "prefillValue": "application.applicationDetails.owner.name",
@@ -773,7 +763,6 @@
                   "placeholder": "ES_ADDRESS_PLACEHOLDER",
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.address",
-                  "path": "owner.ownerDetails.address",
                   "required": true,
                   "disability": "!!owners.length",
                   "prefillValue": "!!selectedOwner ? selectedOwner.ownerDetails.address : !!application.applicationDetails && !!application.applicationDetails.owner ? application.applicationDetails.owner.ownerDetails.address : ''"
@@ -785,8 +774,7 @@
                   "required": true,
                   "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.mobileNumber",
                   "disability": "!!owners.length",
-                  "prefillValue": "!!selectedOwner ? selectedOwner.ownerDetails.mobileNumber : !!application.applicationDetails && !!application.applicationDetails.owner ? application.applicationDetails.owner.ownerDetails.mobileNumber : ''",
-                  "path": "owner.ownerDetails.mobileNumber"
+                  "prefillValue": "!!selectedOwner ? selectedOwner.ownerDetails.mobileNumber : !!application.applicationDetails && !!application.applicationDetails.owner ? application.applicationDetails.owner.ownerDetails.mobileNumber : ''"
                 },
                 {
                   "label": "ES_SHARE_LABEL",
@@ -795,8 +783,7 @@
                   "required": true,
                   "jsonPath": "Applications[0].applicationDetails.owner.share",
                   "disability": "!!owners.length",
-                  "prefillValue": "!!selectedOwner ? selectedOwner.share : application.applicationDetails.owner.share",
-                  "path": "owner.share"
+                  "prefillValue": "!!selectedOwner ? selectedOwner.share : application.applicationDetails.owner.share"
                 },
                 {
                   "label": "ES_IS_CURRENT_OWNER_LABEL",
@@ -829,7 +816,7 @@
           "sections": [
             {
               "header": "ES_PROPERTY_DETAILS_HEADER",
-              "isEditable": false,
+              "step": 0,
               "fields": [
                 {
                   "label": "ES_FILE_NUMBER_LABEL",
