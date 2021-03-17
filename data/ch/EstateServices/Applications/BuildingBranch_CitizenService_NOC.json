@@ -5,6 +5,19 @@
     {
       "fields": [
         {
+          "path": "radioOptions",
+          "required": true,
+          "validations": [
+            {
+              "type": "enum",
+              "isLocalization": false,
+              "params": {
+                "values": ["true","false"]
+              }
+            }
+          ]
+        },
+        {
           "path": "transferor",
           "required": true,
           "validations": [
@@ -507,6 +520,39 @@
             "jsonPath": "propertyDetails.owners",
             "code": "ownerDetails.ownerId",
             "label": "ownerDetails.ownerName"
+          },
+          {
+            "name": "category",
+            "type": "mdms",
+            "cacheable": true,
+            "lazyload": true,
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "categories"
+            }
+          },
+          {
+            "name": "subCategory",
+            "type": "mdms",
+            "lazyload": true,
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "categories",
+              "isEvalFilter": true,
+              "subArray": "SubCategory",
+              "jsonPath": "state.screenConfiguration.preparedFinalObject.Application[0].applicationDetails.property.category",
+              "filter": "`[?(@.code == ${filterValue})]`"
+            }
+          },
+          {
+            "name": "sectorNumber",
+            "type": "mdms",
+            "lazyload": true,
+            "cacheable": true,
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "sector"
+            }
           }
         ],
         "first_step": {
@@ -514,7 +560,7 @@
             {
               "header": "ES_PROPERTY_DETAILS_HEADER",
               "type": "CARD_DETAIL",
-              "visibility": "!!propertyData && !!propertyData.fileNumber",
+              "visibility": "!!owners.length",
               "fields": [
                 {
                   "label": "ES_FILE_NUMBER_LABEL",
@@ -557,7 +603,7 @@
             {
               "header": "ES_PROPERTY_OWNER_LIST_HEADER",
               "type": "TABLE",
-              "visibility": "!!propertyData && !!propertyData.fileNumber",
+              "visibility": "!!owners.length",
               "sourceJsonPath": "property.propertyDetails.owners",
               "fields": [
                 {
@@ -572,6 +618,90 @@
                 {
                   "label": "ES_OWNER_ADDRESS_LABEL",
                   "jsonPath": "ownerDetails.address"
+                }
+              ]
+            },
+            {
+              "header": "ES_PROPERTY_DETAILS_HEADER_NOC",
+              "type": "FORM",
+              "visibility": "!owners.length",
+              "fields": [
+                {
+                  "label": "ES_FILE_NUMBER_LABEL",
+                  "placeholder": "ES_FILE_NUMBER_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.property.fileNumber",
+                  "path": "property.fileNumber",
+                  "prefillValue": "application.applicationDetails.property.fileNumber"
+                },
+                {
+                  "label": "ES_CATEGORY_LABEL",
+                  "placeholder": "ES_SELECT_CATEGORY_PLACEHOLDER",
+                  "type": "DROP_DOWN",
+                  "jsonPath": "Applications[0].applicationDetails.property.category",
+                  "path": "property.category",
+                  "dataSource": "category",
+                  "errorMessage":"'ES_ERR_SELECT_CATEGORY'"
+                },
+                {
+                  "label": "ES_SUB_CATEGORY_LABEL",
+                  "placeholder": "ES_SELECT_SUB_CATEGORY_PLACEHOLDER",
+                  "jsonPath": "Applications[0].applicationDetails.property.subCategory",
+                  "type": "DROP_DOWN",
+                  "path": "property.subCategory",
+                  "dataSource": "subCategory",
+                  "visible": false,
+                  "visibility": "application.applicationDetails.property.category === 'CAT.RESIDENTIAL' || application.applicationDetails.property.category === 'CAT.COMMERCIAL'",
+                  "errorMessage": "'ES_ERR_SELECT_SUBCATEGORY'"
+                },
+                {
+                  "label": "ES_SITE_NO_LABEL",
+                  "placeholder": "ES_SITE_NO_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.property.siteNumber",
+                  "path": "property.siteNumber",
+                  "prefillValue": "application.applicationDetails.property.siteNumber"
+                },
+                {
+                  "label": "ES_SECTOR_NO_LABEL",
+                  "placeholder": "ES_SELECT_SECTOR_NO_PLACEHOLDER",
+                  "jsonPath": "Applications[0].applicationDetails.property.sectorNumber",
+                  "type": "DROP_DOWN",
+                  "path": "property.sectorNumber",
+                  "dataSource": "sectorNumber",
+                  "errorMessage": "'ES_ERR_SELECT_SUBCATEGORY'"
+                },
+                {
+                  "label": "ES_HOUSE_NO_LABEL",
+                  "placeholder": "ES_HOUSE_NO_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.houseNumber",
+                  "path": "property.propertyDetails.houseNumber",
+                  "prefillValue": "application.applicationDetails.property.propertyDetails.houseNumber"
+                },
+                {
+                  "label": "ES_MOHALLA_LABEL",
+                  "placeholder": "ES_MOHALLA_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.mohalla",
+                  "path": "property.propertyDetails.mohalla",
+                  "prefillValue": "application.applicationDetails.property.propertyDetails.mohalla"
+                },
+                {
+                  "label": "ES_VILLAGE_LABEL",
+                  "placeholder": "ES_VILLAGE_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.village",
+                  "path": "property.propertyDetails.village",
+                  "prefillValue": "application.applicationDetails.property.propertyDetails.village"
+                },
+                {
+                  "label": "ES_SIZE_OF_AREA_PURCHASED_LABEL",
+                  "placeholder": "ES_VILLAGE_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.areaSqft",
+                  "path": "property.propertyDetails.areaSqft",
+                  "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft"
                 }
               ]
             },
@@ -600,39 +730,78 @@
                   "jsonPath": "Applications[0].applicationDetails.owner.id",
                   "path": "owner.id",
                   "dataSource": "owners",
-                  "errorMessage":"'ES_ERR_SELECT_OWNER'"
+                  "errorMessage":"'ES_ERR_SELECT_OWNER'",
+                  "visibility": "!!owners.length"
+                },
+                {
+                  "label": "ES_OWNER_NAME_LABEL",
+                  "placeholder": "ES_OWNER_NAME_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.owner.name",
+                  "pattern": "alphabet",
+                  "path": "owner.name",
+                  "visibility": "!owners.length",
+                  "prefillValue": "application.applicationDetails.owner.name",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.owner && !!applicationDetails.owner.name ? applicationDetails.owner.name.length < 3 ? 'ES_ERR_OWNER_NAME_THREE' : applicationDetails.owner.name.length > 150 ? 'ES_ERR_OWNER_NAME_ONEFIVEZERO' : 'ES_ERR_OWNER_NAME' : 'ES_ERR_OWNER_NAME'"
                 },
                 {
                   "label": "ES_FATHER_HUSBAND_NAME_LABEL",
                   "placeholder": "ES_FATHER_HUSBAND_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.guardianName",
-                  "disabled": true,
-                  "prefillValue": "selectedOwner.ownerDetails.guardianName"
+                  "disability": "!!owners.length",
+                  "prefillValue": "!!selectedOwner ? selectedOwner.ownerDetails.guardianName : !!application.applicationDetails && !!application.applicationDetails.owner ? application.applicationDetails.owner.ownerDetails.guardianName : ''"
+                },
+                {
+                  "label": "ES_RELATION_SHIP_LABEL",
+                  "type": "RADIO_BUTTON",
+                  "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.relation",
+                  "path": "owner.ownerDetails.relation",
+                  "visibility": "!owners.length",
+                  "prefillValue": "application.applicationDetails.owner.ownerDetails.relation"
                 },
                 {
                   "label": "ES_ADDRESS_LABEL",
                   "placeholder": "ES_ADDRESS_PLACEHOLDER",
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.address",
-                  "disabled": true,
-                  "prefillValue": "selectedOwner.ownerDetails.address"
+                  "path": "owner.ownerDetails.address",
+                  "disability": "!!owners.length",
+                  "prefillValue": "!!selectedOwner ? selectedOwner.ownerDetails.address : !!application.applicationDetails && !!application.applicationDetails.owner ? application.applicationDetails.owner.ownerDetails.address : ''"
                 },
                 {
                   "label": "ES_OWNER_MOBILE_NUMBER_LABEL",
                   "placeholder": "ES_MOBILE_NUMBER_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.mobileNumber",
-                  "disabled": true,
-                  "prefillValue": "selectedOwner.ownerDetails.mobileNumber"
+                  "disability": "!!owners.length",
+                  "prefillValue": "!!selectedOwner ? selectedOwner.ownerDetails.mobileNumber : !!application.applicationDetails && !!application.applicationDetails.owner ? application.applicationDetails.owner.ownerDetails.mobileNumber : ''",
+                  "path": "owner.ownerDetails.mobileNumber"
                 },
                 {
                   "label": "ES_SHARE_LABEL",
                   "placeholder": "ES_SHARE_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.owner.share",
-                  "disabled": true,
-                  "prefillValue": "selectedOwner.share"
+                  "disability": "!!owners.length",
+                  "prefillValue": "!!selectedOwner ? selectedOwner.share : application.applicationDetails.owner.share",
+                  "path": "owner.share"
+                },
+                {
+                  "label": "ES_IS_CURRENT_OWNER_LABEL",
+                  "type": "RADIO_BUTTON",
+                  "jsonPath": "Applications[0].applicationDetails.owner.isCurrentOwner",
+                  "path": "radioOptions",
+                  "visibility": "!owners.length",
+                  "prefillValue": "'true'"
+                },
+                {
+                  "label": "ES_POSSESSION_DATE_LABEL",
+                  "placeholder": "ES_POSSESSION_DATE_PLACEHOLDER",
+                  "type": "DATE_FIELD",
+                  "visibility": "!owners.length",
+                  "jsonPath": "Applications[0].applicationDetails.owner.possessionDate",
+                  "prefillValue": "application.applicationDetails.owner.possessionDate"
                 }
               ]
             }
