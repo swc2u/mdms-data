@@ -1,0 +1,16 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "WaterApplicationType": [
+    {
+      "id": 1,
+      "code": "TEMPORARY",
+      "name": "Temporary"
+    },
+    {
+      "id": 2,
+      "code": "REGULAR",
+      "name": "Regular"
+    }
+  ]
+}

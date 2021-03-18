@@ -1,0 +1,67 @@
+{
+  "tenantId": "ch",
+  "moduleName": "PropertyTax",
+  "Floor":
+  [
+    {
+      "name": "0 - All Floor",
+      "code": "0",
+      "description": "All Floor",
+      "active": true
+    },
+    {
+      "name": "1 - Ground Floor",
+      "code": "1",
+      "description": "Ground Floor",
+      "active": true
+    },
+    {
+      "name": "2 - First Floor",
+      "code": "2",
+      "description": "First Floor",
+      "active": true
+    },
+    {
+      "name": "3 - Second Floor",
+      "code": "3",
+      "description": "floor number of the floor",
+      "active": true
+    },
+    {
+      "name": "4 - Third Floor",
+      "code": "4",
+      "description": "Third Floor",
+      "active": true
+    },
+    {
+      "name": "5 - Fourth Floor",
+      "code": "5",
+      "description": "Fourth floor",
+      "active": true
+    },
+    {
+      "name": "6 - Fifth Floor",
+      "code": "6",
+      "description": "Fifth floor",
+      "active": true
+    },
+    {
+      "name": "7 - Sixth Floor",
+      "code": "7",
+      "description": "Sixth Floor",
+      "active": true
+    },
+    {
+      "name": "8 - Seventh Floor",
+      "code": "8",
+      "description": "Seventh Floor",
+      "active": true
+    },
+    {
+      "name": "9 - Eighth Floor",
+      "code": "9",
+      "description": "Eighth Floor",
+      "active": true
+    }
+  ]
+}

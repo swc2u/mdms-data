@@ -14787,6 +14787,24 @@
       "tenantId": "ch"
     },
     {
+			"rolecode": "CA",
+			"actionid": "1570",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CA",
+			"actionid": "1573",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CA",
+			"actionid": "1574",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+    {
       "rolecode": "SUPERUSER",
       "actionid": 1573,
       "actioncode": "",
@@ -17686,6 +17704,42 @@
       "tenantId": "ch"
     },
     {
+			"rolecode": "RP_CLERK",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_SA",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_SI",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_CA",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_APRO",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+    {
       "rolecode": "GRO",
       "actionid": 1752,
       "actioncode": "",
@@ -18189,6 +18243,42 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+    {
+			"rolecode": "SUPERUSER",
+			"actionid": 1801,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 1801,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 1801,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "GRO",
+			"actionid": 1801,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": 1801,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			 "rolecode": "challanSI",
+			 "actionid": 1801,
+			 "actioncode": "",
+			 "tenantId": "ch"
+		},
     {
       "rolecode": "SYS_INTEGRATOR_FINANCE",
       "actionid": 575,
@@ -37420,6 +37510,12 @@
         "tenantId": "ch"
     },
     {
+      "rolecode": "RP_JA",
+      "actionid": 14035,
+      "actioncode": "",
+      "tenantId": "ch"
+  },
+    {
         "rolecode": "RP_CLERK",
         "actionid": 4036,
         "actioncode": "",
@@ -37464,12 +37560,6 @@
     {
         "rolecode": "CITIZEN",
         "actionid": 4036,
-        "actioncode": "",
-        "tenantId": "ch"
-    },
-    {
-        "rolecode": "RP_CLERK",
-        "actionid": 4037,
         "actioncode": "",
         "tenantId": "ch"
     },
@@ -37876,13 +37966,31 @@
         "tenantId": "ch"
     },
     {
+        "rolecode": "RP_JA",
+        "actionid": 4047,
+        "actioncode": "",
+        "tenantId": "ch"
+    },
+    {
         "rolecode": "RP_CLERK",
         "actionid": 4048,
         "actioncode": "",
         "tenantId": "ch"
     },
     {
+        "rolecode": "RP_JA",
+        "actionid": 4048,
+        "actioncode": "",
+        "tenantId": "ch"
+    },
+    {
         "rolecode": "RP_CLERK",
+        "actionid": 4049,
+        "actioncode": "",
+        "tenantId": "ch"
+    },
+      {
+        "rolecode": "RP_JA",
         "actionid": 4049,
         "actioncode": "",
         "tenantId": "ch"
@@ -37894,13 +38002,31 @@
         "tenantId": "ch"
     },
     {
+        "rolecode": "RP_JA",
+        "actionid": 4080,
+        "actioncode": "",
+        "tenantId": "ch"
+    },
+    {
         "rolecode": "RP_CLERK",
         "actionid": 4081,
         "actioncode": "",
         "tenantId": "ch"
     },
     {
+        "rolecode": "RP_JA",
+        "actionid": 4081,
+        "actioncode": "",
+        "tenantId": "ch"
+    },
+    {
         "rolecode": "RP_CLERK",
+        "actionid": 4082,
+        "actioncode": "",
+        "tenantId": "ch"
+    },
+    {
+        "rolecode": "RP_JA",
         "actionid": 4082,
         "actioncode": "",
         "tenantId": "ch"
@@ -37948,6 +38074,12 @@
         "tenantId": "ch"
     },
     {
+        "rolecode": "RP_JA",
+        "actionid": "4084",
+        "actioncode": "",
+        "tenantId": "ch"
+    },
+    {
         "rolecode": "CITIZEN",
         "actionid": "4084",
         "actioncode": "",
@@ -37995,6 +38127,30 @@
         "actioncode": "",
         "tenantId": "ch"
     },
+    {
+			"rolecode": "RP_CLERK",
+			"actionid": "4086",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": "4086",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_CLERK",
+			"actionid": "4087",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_JA",
+			"actionid": "4087",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
 
     {
         "rolecode": "RP_CA",
@@ -55132,7 +55288,451 @@
 			"actionid": 2444,
 			"actioncode": "",
 			"tenantId": "ch"
-		  }
-
+		  },
+		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4068,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4050,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4051,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4052,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4053,
+			"actioncode": "",
+			"tenantId": "ch"
+		}, 
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4054,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CEMP",
+			"actionid": 4054,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CEMP",
+			"actionid": 4055,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CEMP",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
+		}, 
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
+		}, 	
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4056,
+			"actioncode": "",
+			"tenantId": "ch"
+		},	
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4057,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4058,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4059,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4058,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4060,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_CEMP",
+			"actionid": 4060,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4061,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_CEMP",
+			"actionid": 4061,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4061,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4062,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_CEMP",
+			"actionid": 4062,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4062,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4063,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4064,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4064,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4065,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4065,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE",
+			"actionid": 4069,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4070,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4070,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4071,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4071,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4072,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4073,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CEMP",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4074,
+			"actioncode": "",
+			"tenantId": "ch"
+		}, 
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4074,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4074,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CEMP",
+			"actionid": 4074,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_CEMP",
+			"actionid": 4074,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_CEMP",
+			"actionid": 4075,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CEMP",
+			"actionid": 4075,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4075,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4075,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4075,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CEMP",
+			"actionid": 4076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_CEMP",
+			"actionid": 4076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4077,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4077,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_CEMP",
+			"actionid": 4077,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SW_CEMP",
+			"actionid": 4077,
+			"actioncode": "",
+			"tenantId": "ch"
+		}, 
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4077,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4095,
+			"actioncode": "",
+			"tenantId": "ch"
+		}, 
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4099,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SYSTEM",
+			"actionid": 4078,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SYSTEM",
+			"actionid": 4079,
+			"actioncode": "",
+			"tenantId": "ch"
+		},  
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4096,
+			"actioncode": "",
+			"tenantId": "ch"
+		}, 
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4097,
+			"actioncode": "",
+			"tenantId": "ch"
+		}, 
+		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4098,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4601,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4602,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4602,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4603,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 4603,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4067,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_COMMON",
+			"actionid": 4604,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
   ]
 }
+

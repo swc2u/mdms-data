@@ -1,0 +1,23 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "Division": [
+    {
+      
+      "code": "2",
+      "active": true
+    },
+    {
+      
+      "code": "5",
+      "active": true
+    },
+    {
+      "service":"SEWERAGE",
+      "code": "4",
+      "active": true
+    }
+	
+    
+  ]
+  }
