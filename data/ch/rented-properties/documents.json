@@ -13,6 +13,13 @@
             "description": "TRANSIT_SITE_DOCUMENTS_DESCRIPTION"
         },
         {
+            "code": "ALLOTEE_IMAGE",
+            "required": true,
+            "accept": "image/*",
+            "fileType": "IMAGEONLY",
+            "description": "ALLOTEES_IMAGE_DESCRIPTION"
+        },
+        {
             "code": "TRANSIT_SITE_IMAGES",
             "required": false,
             "accept": "image/*",
@@ -20,13 +27,6 @@
             "description": "TRANSIT_SITE_IMAGES_DESCRIPTION",
             "minCount": 1,
             "maxCount": 6
-        },
-        {
-            "code": "ALLOTEE_IMAGE",
-            "required": true,
-            "accept": "image/*",
-            "fileType": "IMAGEONLY",
-            "description": "ALLOTEES_IMAGE_DESCRIPTION"
         },
         {
             "code": "ALLOTEE_AADHAR",
