@@ -28362,6 +28362,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_SO",
+			"actionid": 4036,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "RP_CLERK",
 			"actionid": 4037,
 			"actioncode": "",
@@ -28807,6 +28813,12 @@
 		},
 		{
 			"rolecode": "RP_APRO",
+			"actionid": 4083,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_SO",
 			"actionid": 4083,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -40909,6 +40921,12 @@
 		},
 		{
 			"rolecode": "RP_APRO",
+			"actionid": "4085",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_SO",
 			"actionid": "4085",
 			"actioncode": "",
 			"tenantId": "ch"
