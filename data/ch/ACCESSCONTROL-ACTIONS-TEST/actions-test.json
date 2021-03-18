@@ -13497,7 +13497,7 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "queryParams": "tenantId=ch.chandigarh",
-    "navigationURL": "allotment",
+    "navigationURL": "/estate/allotment",
     "leftIcon": "social:location-city"
   },
   {
