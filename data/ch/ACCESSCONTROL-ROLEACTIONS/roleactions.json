@@ -55732,7 +55732,258 @@
 			"actionid": 4604,
 			"actioncode": "",
 			"tenantId": "ch"
-		}
+		},
+					  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": 1801,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": 1752,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": 2439,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": 1861,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2402",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "1834",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2405",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2408",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2409",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2410",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2411",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2412",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2413",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2434",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2416",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2420",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2421",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2422",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2431",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2432",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2433",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2435",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2436",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2437",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "1864",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2409",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2410",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2424",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2401",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2429",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2430",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2440",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2441",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": 4066,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2442",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": "2417",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": 2443,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": 2444,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CHALLAN_EDIT",
+			"actionid": 2446,
+			"actioncode": "",
+			"tenantId": "ch"
+		  }
   ]
 }
-

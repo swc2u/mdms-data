@@ -1362,6 +1362,11 @@
       "code": "SW_SDER_18",
       "name": "SW SDO",
       "description": "SW SDO who forward connection"
+    },
+    {
+         "code":"CHALLAN_EDIT",
+         "name":"CHALLAN_EDIT",
+         "description":"CHALLAN_EDIT"
     }
    ]
 }
