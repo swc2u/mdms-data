@@ -62257,6 +62257,30 @@
 			"actionid": 2446,
 			"actioncode": "",
 			"tenantId": "ch"
-		  }
+		  },
+		  {
+			"rolecode": "EMPLOYEE",
+			"actionid": 8067,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "CITIZEN",
+			"actionid": 8067,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+			{
+			"rolecode": "EMPLOYEE",
+			"actionid": 5006,
+			"actioncode": "",
+			"tenantId": "ch"
+			},
+			{
+			"rolecode": "EMPLOYEE",
+			"actionid": 5007,
+			"actioncode": "",
+			"tenantId": "ch"
+			}
 	]
 }

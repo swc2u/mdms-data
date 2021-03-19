@@ -24681,6 +24681,18 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 8067,
+      "name": "PACC Booked Date Search",
+      "url": "/bookings/park/community/booked/dates/_search",
+      "parentModule": "",
+      "displayName": "PACC Booked Date Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
     }
 
   ]
