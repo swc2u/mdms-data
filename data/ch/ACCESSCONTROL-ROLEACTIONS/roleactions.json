@@ -40682,6 +40682,12 @@
 			"tenantid": "ch"
 		},
 		{
+			"rolecode": "RP_SO",
+			"actionid": "21810",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "CITIZEN",
 			"actionid": "21810",
 			"actioncode": "",
