@@ -22386,7 +22386,7 @@
       "serviceCode": "wns",
       "code": "null",
       "navigationURL": "wns/download",
-      "path": "WNS.Water and Sewerage.Download",
+      "path": "WNS.Download",
       "leftIcon": "custom:water-tap",
       "rightIcon": ""
     },
@@ -22401,7 +22401,7 @@
       "serviceCode": "wns",
       "code": "null",
       "navigationURL": "wns/upload",
-      "path": "WNS.Water and Sewerage.Upload",
+      "path": "WNS.Upload",
       "leftIcon": "custom:water-tap",
       "rightIcon": ""
     },
