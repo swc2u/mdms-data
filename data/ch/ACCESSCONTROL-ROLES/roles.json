@@ -1367,6 +1367,11 @@
          "code":"CHALLAN_EDIT",
          "name":"CHALLAN_EDIT",
          "description":"CHALLAN_EDIT"
+    },
+    {
+         "code":"WORKS_NOTIFICATION",
+         "name":"WORKS_NOTIFICATION",
+         "description":"WORKS_NOTIFICATION"
     }
    ]
 }
