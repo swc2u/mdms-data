@@ -24693,7 +24693,21 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
-    }
+    },
+	{
+		"id": 4605,
+		"name": "Modify DNIT",
+		"url": "services/works/dnit/workDnitSearch",
+		"displayName": "Modify DNIT",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.DNIT.Modify DNIT",
+		"navigationURL": "services/works/dnit/workDnitSearch",
+		"leftIcon": "editor:insert-chart"
+	}
 
   ]
 }

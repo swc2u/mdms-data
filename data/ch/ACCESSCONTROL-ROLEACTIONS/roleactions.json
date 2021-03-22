@@ -62281,6 +62281,12 @@
 			"actionid": 5007,
 			"actioncode": "",
 			"tenantId": "ch"
-			}
+			},
+		{
+			"rolecode": "WORKS_DNIT",
+			"actionid": 4605,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
 	]
 }
