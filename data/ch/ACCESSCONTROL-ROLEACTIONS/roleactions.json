@@ -55375,6 +55375,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4050,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "CITIZEN",
 			"actionid": 4051,
 			"actioncode": "",
@@ -55392,6 +55398,12 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		}, 
+		{
+			"rolecode": "SW_COMMON",
+			"actionid": 4053,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
 		{
 			"rolecode": "CITIZEN",
 			"actionid": 4054,
