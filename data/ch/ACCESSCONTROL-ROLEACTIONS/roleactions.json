@@ -41118,6 +41118,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_DISPATCH_OFFICER",
+			"actionid": 30000,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_BB_DISPATCH_OFFICER",
 			"actionid": 30000,
 			"actioncode": "",
