@@ -1367,6 +1367,11 @@
          "code":"WORKS_NOTIFICATION",
          "name":"WORKS_NOTIFICATION",
          "description":"WORKS_NOTIFICATION"
+    },
+    {
+	 "code": "AGENDA_DEPT_USER",
+	 "name": "AGENDA Departmet User",
+	 "description": "Department User who can upload Agenda"
     }
    ]
 }
