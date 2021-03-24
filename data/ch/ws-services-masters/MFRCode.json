@@ -114,6 +114,22 @@
 	  "MakeOfMeter": "GANGA DEEP",
 	  "Digit": "7",
       "active": true
+    }, 
+	{
+      
+      "id": "16",
+	  "Code": "KRA",
+	  "MakeOfMeter": "Kranti",
+	  "Digit": "7",
+      "active": true
+    },
+	{
+      
+      "id": "17",
+	  "Code": "BLAN",
+	  "MakeOfMeter": "Blanto",
+	  "Digit": "7",
+      "active": true
     }
     
   ]
