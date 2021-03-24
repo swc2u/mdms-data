@@ -19664,13 +19664,7 @@
       "actionid": 1882,
       "actioncode": "",
       "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1883,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
+    },    
     {
       "rolecode": "CITIZEN",
       "actionid": 1884,
