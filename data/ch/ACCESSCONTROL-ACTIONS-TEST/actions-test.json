@@ -20176,7 +20176,6 @@
 			"rightIcon": ""
 			
 		},
-
 		{
 			"id": 2603,
 			"name": "Service Request",
@@ -20305,7 +20304,36 @@
       "leftIcon": "custom:hcIcon",
       "rightIcon": "",
       "queryParams": ""
-    },	
+    },        
+		{
+			"id": 2611,
+			"name": "HCReport",
+			"url": "url",
+			"displayName": "HCReport",
+			"orderNumber": 15,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "Horticulture",
+			"code": "null",
+			"path": "Horticulture.Reports.hcReport",
+			"navigationURL": "egov-hc/hcReport",
+			"leftIcon": "custom:hcIcon",
+			"rightIcon": ""
+			
+		},
+		{
+			"id": 2612,
+			"name": "HC Report",
+			"url": "/report/rainmaker-hc/HorticultureReport/_get",
+			"displayName": "Horticulutre Report",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},	
 	  {
       "id": 4067,
       "name": "Water & Sewerage",
