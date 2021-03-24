@@ -62287,6 +62287,18 @@
 			"actionid": 4605,
 			"actioncode": "",
 			"tenantId": "ch"
-		}
+		},
+	{
+		"rolecode": "AGENDA_CREATOR",
+		"actionid": 4606,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "AGENDA_CREATOR",
+		"actionid": 4607,
+		"actioncode": "",
+		"tenantId": "ch"
+	}
 	]
 }
