@@ -20334,6 +20334,19 @@
 			"code": "null",
 			"path": ""
 		},	
+		{
+			"id": 2613,
+			"name": "HC Delete document",
+			"url": "/hc-services/serviceRequest/_delectDocument",
+			"displayName": "Horticulutre delete document",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},	
 	  {
       "id": 4067,
       "name": "Water & Sewerage",
