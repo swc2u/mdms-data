@@ -225,6 +225,62 @@
             "isClosed": false,
             "transferClosingBalance": false,
             "module": "BWT"
-        }
+        },
+		{
+		  "id": "17",
+		  "tenantId": "ch",
+		  "finYearRange": "2020-21",
+		  "name": "2020-21",
+		  "code": "2020-21",
+		  "startingDate": 1585679400000,
+		  "endingDate": 1869676199000,
+		  "active": true,
+		  "isActiveForPosting": true,
+		  "isClosed": false,
+		  "transferClosingBalance": false,
+		  "module": "WS"
+		},
+		{
+		  "id": "18",
+		  "tenantId": "ch",
+		  "finYearRange": "2020-21",
+		  "name": "2020-21",
+		  "code": "2020-21",
+		  "startingDate": 1585679400000,
+		  "endingDate": 1617175799000,
+		  "active": true,
+		  "isActiveForPosting": true,
+		  "isClosed": false,
+		  "transferClosingBalance": false,
+		  "module": "SW"
+		},
+		{
+		  "id": "19",
+		  "tenantId": "ch",
+		  "finYearRange": "2019-20",
+		  "name": "2019-20",
+		  "code": "2019-20",
+		  "startingDate": 1554076800000,
+		  "endingDate": 1585612800000,
+		  "active": true,
+		  "isActiveForPosting": true,
+		  "isClosed": false,
+		  "transferClosingBalance": false,
+		  "module": "WS"
+		},
+		{
+		  "id": "20",
+		  "tenantId": "ch",
+		  "finYearRange": "2019-20",
+		  "name": "2019-20",
+		  "code": "2019-20",
+		  "startingDate": 1554076800000,
+		  "endingDate": 1585612800000,
+		  "active": true,
+		  "isActiveForPosting": true,
+		  "isClosed": false,
+		  "transferClosingBalance": false,
+		  "module": "SW"
+		}
     ]
 }

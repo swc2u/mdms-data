@@ -978,46 +978,41 @@
       "name": "Water Tanker Approver",
       "description": "Employee who approves the Water Tankers booking"
     },
-    {
-      "code": "DDO",
-      "name": "DDO",
-      "description": "Drawing & Disbursement Officer (Pension)"
-    }
-,
-{
-      "code": "ACCOUNTS_OFFICER",
-      "name": "ACCOUNTS OFFICER",
-      "description": "ACCOUNTS OFFICER (Pension)"
-    }
-,
-{
-      "code": "SENIOR_ASSISTANT",
-      "name": "SENIOR ASSISTANT",
-      "description": "SENIOR ASSISTANT (Pension)"
-    }
-,
-{
-      "code": "CLERK",
-      "name": "CLERK",
-      "description": "CLERK (Pension)"
-    }
-,
-{
-      "code": "CHIEF_ACCOUNTS_OFFICER",
-      "name": "CHIEF ACCOUNTS OFFICER",
-      "description": "CHIEF ACCOUNTS OFFICER (Pension)"
-    }
-,
-{
-      "code": "ADDITIONAL_COMMISSIONER",
-      "name": "ADDITIONAL COMMISSIONER",
-      "description": "ADDITIONAL COMMISSIONER (Pension)"
-    },
-{
-      "code": "PENSION_SYSTEM",
-      "name": "PENSION SYSTEM",
-      "description": "PENSION SYSTEM"
-    },
+     {
+         "code":"DDO",
+         "name":"DDO",
+         "description":"Drawing & Disbursement Officer (Pension)"
+      },
+      {
+         "code":"ACCOUNTS_OFFICER",
+         "name":"ACCOUNTS OFFICER",
+         "description":"ACCOUNTS OFFICER (Pension)"
+      },
+      {
+         "code":"SENIOR_ASSISTANT",
+         "name":"SENIOR ASSISTANT",
+         "description":"SENIOR ASSISTANT (Pension)"
+      },
+      {
+         "code":"CLERK",
+         "name":"CLERK",
+         "description":"CLERK (Pension)"
+      },
+      {
+         "code":"CHIEF_ACCOUNTS_OFFICER",
+         "name":"CHIEF ACCOUNTS OFFICER",
+         "description":"CHIEF ACCOUNTS OFFICER (Pension)"
+      },
+      {
+         "code":"ADDITIONAL_COMMISSIONER",
+         "name":"ADDITIONAL COMMISSIONER",
+         "description":"ADDITIONAL COMMISSIONER (Pension)"
+      },
+      {
+         "code":"PENSION_SYSTEM",
+         "name":"PENSION SYSTEM",
+         "description":"PENSION SYSTEM"
+      },
    {
       "code": "RP_CLERK",
       "name": "CLERK",
@@ -1137,6 +1132,246 @@
       "code": "CHALLAN_DELETE",
       "name": "CHALLAN_DELETE",
       "description": "CHALLAN_DELETE"
+    },
+    {
+         "code":"LEGAL_NODAL_OFFICER",
+         "name":"Legal Nodal Officer",
+         "description":"Legal Nodal Officer"
+    },
+    {
+         "code":"LCMS_DEPT_ACCESS",
+         "name":"LCMS_DEPT_ACCESS",
+         "description":"LCMS_DEPT_ACCESS"
+    },
+	{
+      "code": "WS_BILL_UPLOAD",
+      "name": "WS demand file upload",
+      "description": "WS demand file upload"
+    },
+	{
+      "code": "WS_COMMON",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_JE_08",
+      "name": "WS JE role",
+      "description": "JE role for water & sewerage"
+    },
+	{
+      "code": "WS_JE_09",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_JE_14",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_JE_15",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_JE_20",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SE",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_CHD",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_08",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_09",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_14",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_15",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDE_20",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SUPERINTENDENT",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_08",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_09",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_14",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_15",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDER_20",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_SDC",
+      "name": "WS Common role",
+      "description": "Common role for water & sewerage"
+    },
+	{
+      "code": "WS_CEMP",
+      "name": "WS Counter Employee",
+      "description": "WS counter employee can take action as citizen"
+    },  
+    {
+      "code": "WS_EE",
+      "name": "WS Executive Engineer",
+      "description": "WS EE who forward more than 15mm pipe connection"
+    },
+	{
+      "code": "WS_HDM",
+      "name": "WS HDM",
+      "description": "WS HDM who approves more than 15mm pipe connection"
+    },
+    {
+      "code": "SW_CEMP",
+      "name": "SW Counter Employee",
+      "description": "SW counter employee can take action as citizen"
+    },
+	{
+      "code": "SW_SDO",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    }, 
+	{
+      "code": "SW_JE_06",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_JE_12",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_JE_13",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_JE_18",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDE_06",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDE_12",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDE_13",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDE_18",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_EE",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SUPERINTENDENT",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_CHD",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_HDM",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SE",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDER_06",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDER_12",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDER_13",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+	{
+      "code": "SW_SDER_18",
+      "name": "SW SDO",
+      "description": "SW SDO who forward connection"
+    },
+    {
+         "code":"CHALLAN_EDIT",
+         "name":"CHALLAN_EDIT",
+         "description":"CHALLAN_EDIT"
+    },
+    {
+         "code":"WORKS_NOTIFICATION",
+         "name":"WORKS_NOTIFICATION",
+         "description":"WORKS_NOTIFICATION"
+    },
+    {
+	 "code": "AGENDA_DEPT_USER",
+	 "name": "AGENDA Departmet User",
+	 "description": "Department User who can upload Agenda"
     }
    ]
 }
