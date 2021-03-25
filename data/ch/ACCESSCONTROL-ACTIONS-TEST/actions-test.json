@@ -16602,6 +16602,19 @@
       "path": "Finance.Revenue/Collections.Receipt Report",
       "navigationURL": "services/collection/receipts/daybookReport.action"
     },
+	{
+	  "id": 2612,
+	  "name": "HC Delete document",
+	  "url": "/hc-services/serviceRequest/_delectDocument",
+	  "displayName": "Horticulutre delete document",
+	  "orderNumber": 0,
+	  "queryParams": null,
+	  "parentModule": "",
+	  "enabled": true,
+	  "serviceCode": "hc-services",
+	  "code": "null",
+	  "path": ""
+	},	
     {
       "id": 2401,
       "name": "rainmaker-common-eChallan",
