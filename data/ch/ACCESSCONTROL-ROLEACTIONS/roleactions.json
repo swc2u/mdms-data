@@ -56070,6 +56070,1206 @@
 		"actionid": 4607,
 		"actioncode": "",
 		"tenantId": "ch"
-	}
+	},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "1864",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "1528",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "1834",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "1862",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "870",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "954",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "692",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "694",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "1531",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "700",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "324",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "340",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "630",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "947",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "351",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "423",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "352",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "732",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "309",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "270",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "790",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "884",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "287",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "289",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "349",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "11",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "14",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "207",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "550",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "521",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "616",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "621",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "619",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2001",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2002",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2003",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2004",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2005",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2006",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2007",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2008",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2010",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2011",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2012",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2013",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2014",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2015",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2016",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2017",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2018",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2019",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2020",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2021",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2022",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2023",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2024",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2025",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2026",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2027",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2028",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2029",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2030",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2031",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2032",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2033",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2034",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2035",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2036",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2037",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2038",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2039",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2040",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2041",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "1571",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2042",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2043",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2044",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2045",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2046",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2047",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2048",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2049",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2050",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2051",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2052",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2053",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2055",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2056",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2057",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2058",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2059",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2061",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SIHQ",
+			"actionid": "2062",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+			{
+			"rolecode": "SIHQ",
+			"actionid": "1861",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "1864",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "1528",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "1834",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "1862",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "870",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "954",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "692",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "694",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "1531",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "700",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "324",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "340",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "630",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "947",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "351",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "423",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "352",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "732",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "309",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "270",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "790",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "884",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "287",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "289",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "349",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "11",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "14",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "207",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "550",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "602",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "603",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "521",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "616",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "621",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "619",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2001",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2002",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2003",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2004",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2005",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2006",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2007",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2008",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2009",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2010",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2011",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2012",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2013",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2014",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2015",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2016",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2017",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2018",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2019",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2020",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2021",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2022",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2023",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2024",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2025",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2026",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2027",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2028",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2029",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2030",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2031",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2032",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2033",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2034",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2035",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2036",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2037",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2038",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2039",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2040",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2041",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "1571",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2042",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2043",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2044",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2045",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2046",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2047",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2048",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2049",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2050",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2051",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2052",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2053",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2055",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2056",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2057",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2058",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2059",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2061",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SISM",
+			"actionid": "2062",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+			{
+			"rolecode": "SISM",
+			"actionid": "1861",
+			"actioncode": "",
+			"tenantId": "ch"
+		}
   ]
 }
