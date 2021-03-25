@@ -464,15 +464,15 @@
             "idname": "ch.pms"
         },
         {
-            "format": "PM-R1-[cy:yyyy-MM-dd]-[SEQ_PM_ID_GEN]",
+            "format": "PM-R1-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
             "idname": "ch.pms.R1"
         },
         {
-            "format": "PM-R2-[cy:yyyy-MM-dd]-[SEQ_PM_ID_GEN]",
+            "format": "PM-R2-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
             "idname": "ch.pms.R2"
         },
         {
-            "format": "PM-R3-[cy:yyyy-MM-dd]-[SEQ_PM_ID_GEN]",
+            "format": "PM-R3-[cy:yyyy-MM-dd]-[ID_GENERATOR_ID_SEQ]",
             "idname": "ch.pms.R3"
         },
         {
