@@ -553,6 +553,16 @@
          "description":"Employee who manages the public relations for transit sites for rented properties"
       },
       {
+         "code":"SIHQ",
+         "name":"SIHQ",
+         "description":"Sanitary Inspector PETNOC"
+      },
+      {
+         "code":"SISM",
+         "name":"SISM",
+         "description":"Sanitary Inspector SELLMEAT"
+      },
+      {
          "code":"SI",
          "name":"SI",
          "description":"Sanitary Inspector"
