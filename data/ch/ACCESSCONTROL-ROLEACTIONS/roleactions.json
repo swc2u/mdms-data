@@ -55376,12 +55376,6 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "CITIZEN",
-			"actionid": 4052,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
 			"rolecode": "WS_COMMON",
 			"actionid": 4053,
 			"actioncode": "",
