@@ -40,6 +40,16 @@
 			"hsnCode" : "hsn_189",
 			"centreAddres" : "chandigarh sector 14",
             "active":"true"
+        },
+        {
+            "name": "E SAMPARK CENTRE",
+            "id": "100",
+            "code": "E_SAMPARK_CENTRE",
+            "tenantId":"ch.chandigarh",
+			"operatorCode":"OP_100",
+			"hsnCode" : "hsn_100",
+			"centreAddres" : "chandigarh sector 39",
+            "active":"true"
         }
         
         

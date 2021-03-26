@@ -558,6 +558,16 @@
          "description":"Employee who can generate account statement for rented properties"
       },
       {
+         "code":"SIHQ",
+         "name":"SIHQ",
+         "description":"Sanitary Inspector PETNOC"
+      },
+      {
+         "code":"SISM",
+         "name":"SISM",
+         "description":"Sanitary Inspector SELLMEAT"
+      },
+      {
          "code":"SI",
          "name":"SI",
          "description":"Sanitary Inspector"
@@ -1576,6 +1586,16 @@
          "code":"LCMS_DEPT_ACCESS",
          "name":"LCMS_DEPT_ACCESS",
          "description":"LCMS_DEPT_ACCESS"
+      },
+      {
+         "code":"CHALLAN_EDIT",
+         "name":"CHALLAN_EDIT",
+         "description":"CHALLAN_EDIT"
+      },
+      {
+         "code":"WORKS_NOTIFICATION",
+         "name":"WORKS_NOTIFICATION",
+         "description":"WORKS_NOTIFICATION"
       }
    ]
 }
