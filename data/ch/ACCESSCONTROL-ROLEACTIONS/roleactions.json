@@ -37626,6 +37626,12 @@
         "tenantId": "ch"
     },
     {
+			"rolecode": "RP_SO",
+			"actionid": 4036,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+    {
         "rolecode": "RP_CLERK",
         "actionid": 4037,
         "actioncode": "",
@@ -37752,6 +37758,12 @@
         "tenantId": "ch"
     },
     {
+			"rolecode": "RP_SO",
+			"actionid": 4040,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+    {
         "rolecode": "RP_CLERK",
         "actionid": 4041,
         "actioncode": "",
@@ -37836,6 +37848,12 @@
         "tenantId": "ch"
     },
     {
+			"rolecode": "RP_SO",
+			"actionid": 4042,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+    {
         "rolecode": "RP_CLERK",
         "actionid": 4043,
         "actioncode": "",
@@ -37961,6 +37979,12 @@
         "actioncode": "",
         "tenantId": "ch"
     },
+    {
+			"rolecode": "RP_SO",
+			"actionid": 4045,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
     {
         "rolecode": "RP_CLERK",
         "actionid": 4046,
@@ -38130,6 +38154,12 @@
         "tenantId": "ch"
     },
     {
+			"rolecode": "RP_SO",
+			"actionid": 4083,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+    {
         "rolecode": "RP_CLERK",
         "actionid": "4084",
         "actioncode": "",
@@ -38189,6 +38219,12 @@
         "actioncode": "",
         "tenantId": "ch"
     },
+    {
+			"rolecode": "RP_SO",
+			"actionid": "4085",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
     {
 			"rolecode": "RP_CLERK",
 			"actionid": "4086",
@@ -38445,6 +38481,12 @@
         "actioncode": "",
         "tenantId": "ch"
     },
+    {
+			"rolecode": "RP_SO",
+			"actionid": 21810,
+			"actioncode": "",
+			"tenantid": "ch"
+		},
 	{
 			"rolecode": "EMPLOYEE",
 			"actionid": 6023,
