@@ -22839,7 +22839,7 @@
 	{
 		"id": 4608,
 		"name": "Manage Audit Checklist",
-		"url": "/services/audit/createAudit/checkListMaster/checklist",
+		"url": "/services/audit/checkListMaster/checklist",
 		"displayName": "Manage Audit Checklist",
 		"orderNumber": "5",
 		"parentModule": "",
@@ -22847,7 +22847,7 @@
 		"serviceCode": "",
 		"code": "",
 		"path": "Audit.Manage Audit Checklist",
-		"navigationURL": "services/audit/createAudit/checkListMaster/checklist",
+		"navigationURL": "services/audit/checkListMaster/checklist",
 		"leftIcon": "editor:insert-chart"
 	}
   ]
