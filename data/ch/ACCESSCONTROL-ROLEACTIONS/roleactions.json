@@ -57270,6 +57270,13 @@
 			"actionid": "1861",
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+				"rolecode": "AUDIT_MASTER",
+				"actionid": 4608,
+				"actioncode": "",
+				"tenantId": "ch"
 		}
+		
   ]
 }
