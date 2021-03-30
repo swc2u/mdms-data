@@ -41046,6 +41046,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_FINANCIAL_OFFICER",
 			"actionid": 1766,
 			"actioncode": "",
@@ -41191,6 +41197,12 @@
 		  },
 		  {
 			"rolecode": "ES_EB_DISPATCH_OFFICER",
+			"actionid": 30001,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
 			"actionid": 30001,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -41323,6 +41335,12 @@
 		  },
 		  {
 			"rolecode": "ES_EB_DISPATCH_OFFICER",
+			"actionid": 30002,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
 			"actionid": 30002,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -41472,6 +41490,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
+			"actionid": 30004,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_FINANCIAL_OFFICER",
 			"actionid": 30004,
 			"actioncode": "",
@@ -41599,6 +41623,12 @@
 		  },
 		  {
 			"rolecode": "ES_EB_DISPATCH_OFFICER",
+			"actionid": 30005,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
 			"actionid": 30005,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -41790,6 +41820,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
+			"actionid": 30009,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_FINANCIAL_OFFICER",
 			"actionid": 30009,
 			"actioncode": "",
@@ -41904,6 +41940,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
+			"actionid": 30012,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_SECTION_OFFICER",
 			"actionid": 30012,
 			"actioncode": "",
@@ -41941,6 +41983,12 @@
 		  },
 		  {
 			"rolecode": "ES_EB_DEALING_ASSISTANT",
+			"actionid": 30013,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
 			"actionid": 30013,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -42025,6 +42073,12 @@
 		  },
 		  {
 			"rolecode": "ES_EB_DEALING_ASSISTANT",
+			"actionid": 30017,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
 			"actionid": 30017,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -42217,6 +42271,12 @@
 		  },
 		  {
 			"rolecode": "ES_EB_DEALING_ASSISTANT",
+			"actionid": 30023,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
 			"actionid": 30023,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -42426,6 +42486,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
+			"actionid": 30028,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_DISPATCH_OFFICER",
 			"actionid": 30028,
 			"actioncode": "",
@@ -42708,6 +42774,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
+			"actionid": 30033,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_DISPATCH_OFFICER",
 			"actionid": 30033,
 			"actioncode": "",
@@ -42840,6 +42912,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
+			"actionid": 30034,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_EB_DISPATCH_OFFICER",
 			"actionid": 30034,
 			"actioncode": "",
@@ -42967,6 +43045,12 @@
 		  },
 		  {
 			"rolecode": "ES_EB_DEALING_ASSISTANT",
+			"actionid": 30035,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_SUPERINTENDENT",
 			"actionid": 30035,
 			"actioncode": "",
 			"tenantId": "ch"
