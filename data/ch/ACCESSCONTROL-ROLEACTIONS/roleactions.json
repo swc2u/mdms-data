@@ -63571,6 +63571,30 @@
 			"actionid": "1861",
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+				"rolecode": "AUDIT_MASTER",
+				"actionid": 4608,
+				"actioncode": "",
+				"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_MASTER",
+			"actionid": 4609,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_MASTER",
+			"actionid": 4610,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_MASTER",
+			"actionid": 4611,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 			
 	]
