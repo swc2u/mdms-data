@@ -56060,7 +56060,7 @@
 			"tenantId": "ch"
 		},
 	{
-		"rolecode": "AGENDA_CREATOR",
+		"rolecode": "AGENDA_DEPT_USER",
 		"actionid": 4606,
 		"actioncode": "",
 		"tenantId": "ch"
