@@ -22811,7 +22811,7 @@
 	{
 		"id": 4606,
 		"name": "Agenda Branch Upload Agenda",
-		"url": "/services/council/agendaUpload/upload",
+		"url": "services/council/agendaUpload/upload",
 		"displayName": "Agenda Branch Upload Agenda",
 		"orderNumber": "1",
 		"parentModule": "rainmaker-agenda",
@@ -22825,7 +22825,7 @@
 	{
 		"id": 4607,
 		"name": "Agenda Branch Upload Agenda View",
-		"url": "/services/council/agendaUpload/search",
+		"url": "services/council/agendaUpload/search",
 		"displayName": "Agenda Branch Upload Agenda View",
 		"orderNumber": "2",
 		"parentModule": "rainmaker-agenda",
@@ -22839,7 +22839,7 @@
 	{
 		"id": 4608,
 		"name": "Manage Audit Checklist",
-		"url": "/services/audit/checkListMaster/checklist",
+		"url": "services/audit/checkListMaster/checklist",
 		"displayName": "Manage Audit Checklist",
 		"orderNumber": "5",
 		"parentModule": "",
@@ -22848,6 +22848,48 @@
 		"code": "",
 		"path": "Audit.Manage Audit Checklist",
 		"navigationURL": "services/audit/checkListMaster/checklist",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4609,
+		"name": "Create BOQ",
+		"url": "services/works/boq/newboqform",
+		"displayName": "Create BOQ",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.BOQ Master.Create BOQ",
+		"navigationURL": "services/works/boq/newboqform",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4610,
+		"name": "View BOQ",
+		"url": "services/works/boq/searchboqnew",
+		"displayName": "View BOQ",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.BOQ Master.View BOQ",
+		"navigationURL": "services/works/boq/searchboqnew",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4611,
+		"name": "Modify BOQ",
+		"url": "services/works/boq/editboqnew",
+		"displayName": "Modify BOQ",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.BOQ Master.Modify BOQ",
+		"navigationURL": "services/works/boq/editboqnew",
 		"leftIcon": "editor:insert-chart"
 	}
   ]
