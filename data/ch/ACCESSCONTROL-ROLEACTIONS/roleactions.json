@@ -17011,7 +17011,7 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		
+
 		{
 			"rolecode": "CTL_ADMIN",
 			"actionid": 1715,
@@ -19479,14 +19479,14 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		
+
 		{
 			"rolecode": "EMPLOYEE",
 			"actionid": 1887,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		
+
 		{
 			"rolecode": "EMPLOYEE",
 			"actionid": 1889,
@@ -23920,7 +23920,7 @@
 			"actionid": "1730",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SDO",
 			"actionid": "1864",
@@ -23944,7 +23944,7 @@
 			"actionid": "1743",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SDO",
 			"actionid": "1834",
@@ -24202,7 +24202,7 @@
 			"actionid": "2009",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SDO",
 			"actionid": "2010",
@@ -24406,7 +24406,7 @@
 			"actionid": "1766",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "EE",
 			"actionid": "1730",
@@ -24886,7 +24886,7 @@
 			"actionid": "1766",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SE",
 			"actionid": "1730",
@@ -25846,7 +25846,7 @@
 			"actionid": "1766",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "CITIZEN",
 			"actionid": "2047",
@@ -28362,6 +28362,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_SO",
+			"actionid": 4036,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "RP_CLERK",
 			"actionid": 4037,
 			"actioncode": "",
@@ -28488,6 +28494,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_SO",
+			"actionid": 4040,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "RP_CLERK",
 			"actionid": 4041,
 			"actioncode": "",
@@ -28566,6 +28578,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_SO",
+			"actionid": 4042,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "CITIZEN",
 			"actionid": 4042,
 			"actioncode": "",
@@ -28687,6 +28705,12 @@
 		},
 		{
 			"rolecode": "RP_APRO",
+			"actionid": 4045,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_SO",
 			"actionid": 4045,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -28807,6 +28831,12 @@
 		},
 		{
 			"rolecode": "RP_APRO",
+			"actionid": 4083,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "RP_SO",
 			"actionid": 4083,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -28899,1060 +28929,1060 @@
       "rolecode": "DDO",
       "actionid": 1534,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 870,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4201,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4210,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4211,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4203,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4204,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4205,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4206,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4207,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4208,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4209,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4212,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4213,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4214,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4215,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4216,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 1766,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 1730,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 1743,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 1534,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 870,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4201,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4210,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4211,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4203,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4204,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4205,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4206,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4207,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4208,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4209,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4212,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4213,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4214,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4215,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4216,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 1766,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 1730,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 1743,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 1534,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 870,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4201,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4210,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4211,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4203,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4204,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4205,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4206,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4207,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4208,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4209,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4212,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4213,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4214,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4215,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4216,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 1766,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 1730,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 1743,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 1534,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 870,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4201,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4210,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4211,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4203,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4204,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4205,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4206,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4207,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4208,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4209,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4212,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4213,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4214,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4215,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CLERK",
       "actionid": 4216,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 1766,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 1730,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 1743,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 1534,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 870,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4201,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4210,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4211,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4203,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4204,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4205,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4206,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4207,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4208,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4209,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4212,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4213,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4214,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4215,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4216,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 1766,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 1730,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 1743,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 1534,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 870,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4201,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4210,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4211,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4203,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4204,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4205,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4206,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4207,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4208,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4209,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4212,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4213,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4214,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4215,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4216,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 1766,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 1730,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 1743,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SUPERUSER",
       "actionid": 1534,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SUPERUSER",
       "actionid": 870,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4201,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4210,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4211,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4203,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4204,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4205,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4206,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4207,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4208,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4209,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4212,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4213,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4214,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4215,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "SUPERUSER",
       "actionid": 4216,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SUPERUSER",
       "actionid": 1766,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SUPERUSER",
       "actionid": 1730,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SUPERUSER",
       "actionid": 1743,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 
 {
       "rolecode": "DDO",
       "actionid": 4218,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4218,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4218,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 4218,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4218,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4218,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     }
 ,{
       "rolecode": "SUPERUSER",
       "actionid": 4218,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
     {
       "rolecode": "DDO",
       "actionid": 4219,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4219,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4219,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 4219,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4219,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4219,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SUPERUSER",
       "actionid": 4219,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4217,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4217,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4217,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 4217,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4217,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4217,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SUPERUSER",
       "actionid": 4217,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
  {
       "rolecode": "PENSION_SYSTEM",
       "actionid": 4220,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 1556,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 1556,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 1556,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 1556,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 4222,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 1556,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 1556,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SUPERUSER",
       "actionid": 1556,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 1828,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 1858,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "PENSION_SYSTEM",
       "actionid": 1730,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4221,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 
 {
       "rolecode": "PENSION_SYSTEM",
       "actionid": 4222,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     }
 ,
 {
       "rolecode": "CLERK",
       "actionid": 4223,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
@@ -29976,7 +30006,7 @@
       "rolecode": "DDO",
       "actionid": 4227,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
@@ -30007,37 +30037,37 @@
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4224,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4224,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SUPERUSER",
       "actionid": 4224,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
  {
       "rolecode": "PENSION_SYSTEM",
       "actionid": 4224,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4224,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4224,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
@@ -30163,97 +30193,97 @@
       "rolecode": "DDO",
       "actionid": 1528,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 1528,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 1528,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 1528,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 1528,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 1528,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 4242,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4244,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4245,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4246,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4247,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4248,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4249,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4250,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4251,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4252,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
@@ -30367,49 +30397,49 @@
       "rolecode": "SUPERUSER",
       "actionid": 4273,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
       "actionid": 4273,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
       "actionid": 4273,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "SENIOR_ASSISTANT",
       "actionid": 4273,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CLERK",
       "actionid": 4273,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "CHIEF_ACCOUNTS_OFFICER",
       "actionid": 4273,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ADDITIONAL_COMMISSIONER",
       "actionid": 4273,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "PENSION_SYSTEM",
       "actionid": 4273,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "DDO",
@@ -30421,7 +30451,7 @@
       "rolecode": "PENSION_SYSTEM",
       "actionid": 4274,
       "actioncode": "",
-      "tenantId": "ch"  
+      "tenantId": "ch"
     },
 {
       "rolecode": "ACCOUNTS_OFFICER",
@@ -31164,7 +31194,7 @@
 			"actionid": "4321",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SUPERUSER",
 			"actionid": "4322",
@@ -31405,7 +31435,7 @@
 			"actionid": "1743",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "HC_EE",
 			"actionid": "2602",
@@ -31453,7 +31483,7 @@
 			"actionid": "1752",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "EE",
 			"actionid": "2009",
@@ -31465,7 +31495,7 @@
 			"actionid": "2009",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 
 		{
 			"rolecode": "EE",
@@ -31478,7 +31508,7 @@
 			"actionid": "1730",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "EE",
 			"actionid": "1556",
@@ -31490,7 +31520,7 @@
 			"actionid": "1556",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "HC_SDO",
 			"actionid": "2602",
@@ -31552,7 +31582,7 @@
 			"actionid": "1752",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SDO",
 			"actionid": "1743",
@@ -31630,7 +31660,7 @@
 			"actionid": "1730",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "JE",
 			"actionid": "1743",
@@ -31642,7 +31672,7 @@
 			"actionid": "1743",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "JE",
 			"actionid": "2009",
@@ -31654,7 +31684,7 @@
 			"actionid": "2009",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "JE",
 			"actionid": "1752",
@@ -31666,7 +31696,7 @@
 			"actionid": "1752",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "HC_JE",
 			"actionid": "2609",
@@ -31684,7 +31714,7 @@
 			"actionid": "1556",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "HC_SE",
 			"actionid": "2602",
@@ -31735,7 +31765,7 @@
 			"actionid": "1730",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SE",
 			"actionid": "1743",
@@ -31747,7 +31777,7 @@
 			"actionid": "1743",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SE",
 			"actionid": "2009",
@@ -31759,7 +31789,7 @@
 			"actionid": "2009",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SE",
 			"actionid": "1752",
@@ -31771,7 +31801,7 @@
 			"actionid": "1752",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "SE",
 			"actionid": "1556",
@@ -31833,7 +31863,7 @@
 			"actionid": "1730",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "CE",
 			"actionid": "1743",
@@ -31845,7 +31875,7 @@
 			"actionid": "1743",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "CE",
 			"actionid": "2009",
@@ -31857,7 +31887,7 @@
 			"actionid": "2009",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "CE",
 			"actionid": "1752",
@@ -31869,7 +31899,7 @@
 			"actionid": "1752",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "CE",
 			"actionid": "1556",
@@ -31881,7 +31911,7 @@
 			"actionid": "1556",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "HC_CCF",
 			"actionid": "2602",
@@ -33589,13 +33619,13 @@
 			"actionid": 4053,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "SW_COMMON",
 			"actionid": 4053,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "WS_COMMON",
 			"actionid": 4055,
@@ -33643,13 +33673,13 @@
 			"actionid": 4056,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "WS_COMMON",
 			"actionid": 4056,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 	
+		},
 		{
 			"rolecode": "WS_COMMON",
 			"actionid": 4057,
@@ -33709,7 +33739,7 @@
 			"actionid": 4062,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "SW_COMMON",
 			"actionid": 4061,
@@ -33721,7 +33751,7 @@
 			"actionid": 4062,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "SW_COMMON",
 			"actionid": 4063,
@@ -33829,13 +33859,13 @@
 			"actionid": 1766,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "WS_COMMON",
 			"actionid": 4074,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "SW_COMMON",
 			"actionid": 4074,
@@ -33943,7 +33973,7 @@
 			"actionid": 4077,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "CITIZEN",
 			"actionid": 4077,
@@ -33955,19 +33985,19 @@
 			"actionid": 4095,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "CITIZEN",
 			"actionid": 4096,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "CITIZEN",
 			"actionid": 4097,
 			"actioncode": "",
 			"tenantId": "ch"
-		}, 
+		},
 		{
 			"rolecode": "CITIZEN",
 			"actionid": 4099,
@@ -39054,7 +39084,7 @@
 			"actionid": "1766",
 			"actioncode": "",
 			"tenantId": "ch"
-		},		
+		},
 		{
 			"rolecode": "ADDITIONAL_COMMISSIONER",
 			"actionid": "1730",
@@ -40159,7 +40189,7 @@
 		"actioncode": "",
 		"tenantId": "ch"
 	},
-	{ 
+	{
 		"rolecode": "SUPERUSER",
 		"actionid": "4351",
 		"actioncode": "",
@@ -40670,6 +40700,12 @@
 			"tenantid": "ch"
 		},
 		{
+			"rolecode": "RP_SO",
+			"actionid": 21810,
+			"actioncode": "",
+			"tenantid": "ch"
+		},
+		{
 			"rolecode": "CITIZEN",
 			"actionid": "21810",
 			"actioncode": "",
@@ -40693,7 +40729,7 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		
+
 		{
 			"rolecode": "RP_CA",
 			"actionid": 3000,
@@ -40724,14 +40760,14 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		
+
 		{
 			"rolecode": "RP_CA",
 			"actionid": 3005,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		
+
 		{
 			"rolecode": "RP_CA",
 			"actionid": 3006,
@@ -40744,7 +40780,7 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		
+
 		{
 			"rolecode": "RP_CA",
 			"actionid": 3008,
@@ -40914,6 +40950,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "RP_SO",
+			"actionid": "4085",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "CITIZEN",
 			"actionid": "4085",
 			"actioncode": "",
@@ -41076,6 +41118,12 @@
 			"tenantId": "ch"
 		  },
 		  {
+			"rolecode": "ES_EB_DISPATCH_OFFICER",
+			"actionid": 30000,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
 			"rolecode": "ES_BB_DISPATCH_OFFICER",
 			"actionid": 30000,
 			"actioncode": "",
@@ -41634,13 +41682,31 @@
 			"tenantId": "ch"
 		  },
 		  {
-			"rolecode": "ES_BB_DISPATCH_OFFICER",
+			"rolecode": "ES_BB_SECTION_OFFICER",
 			"actionid": 30006,
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
 		  {
 			"rolecode": "ES_MM_SECTION_OFFICER",
+			"actionid": 30006,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_EB_DISPATCH_OFFICER",
+			"actionid": 30006,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_BB_DISPATCH_OFFICER",
+			"actionid": 30006,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "ES_MM_DISPATCH_OFFICER",
 			"actionid": 30006,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -41916,7 +41982,7 @@
 			"tenantId": "ch"
 		  },
 		  {
-			"rolecode": "ES_EB_SECTION_OFFICER",
+			"rolecode": "ES_EB_DISPATCH_OFFICER",
 			"actionid": 30014,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -42232,13 +42298,13 @@
 			"actionid": 30023,
 			"actioncode": "",
 			"tenantId": "ch"
-		  }, 
+		  },
 		  {
 			"rolecode": "CITIZEN",
 			"actionid": 30024,
 			"actioncode": "",
 			"tenantId": "ch"
-		  }, 
+		  },
 		  {
 			"rolecode": "ES_EB_FINANCIAL_OFFICER",
 			"actionid": 30024,
@@ -48907,7 +48973,7 @@
 				"actionid": 4360,
 				"actioncode": "",
 				"tenantId": "ch"
-			},			
+			},
 			{
 				"rolecode": "SAJE",
 				"actionid": 4364,
@@ -53281,7 +53347,7 @@
 				"actionid": 4552,
 				"actioncode": "",
 				"tenantId": "ch"
-			},			
+			},
 			{
 				"rolecode": "NGO",
 				"actionid": 4550,
@@ -53299,7 +53365,7 @@
 				"actionid": 4554,
 				"actioncode": "",
 				"tenantId": "ch"
-			},			
+			},
 			{
 				"rolecode": "NULM_ADMIN",
 				"actionid": 4550,
@@ -53317,7 +53383,7 @@
 				"actionid": 4552,
 				"actioncode": "",
 				"tenantId": "ch"
-			},			
+			},
 			{
 				"rolecode": "NULM_ADMIN",
 				"actionid": 4553,
@@ -53692,7 +53758,7 @@
 				"actionid": 4534,
 				"actioncode": "",
 				"tenantId": "ch"
-			},			
+			},
 			{
 				"rolecode": "EMPLOYEE",
 				"actionid": 4535,
@@ -53716,7 +53782,7 @@
 				"actionid": 4538,
 				"actioncode": "",
 				"tenantId": "ch"
-			},			
+			},
 			{
 				"rolecode": "CITIZEN",
 				"actionid": 4535,
@@ -53740,7 +53806,7 @@
 				"actionid": 4538,
 				"actioncode": "",
 				"tenantId": "ch"
-			},			
+			},
 			{
 				"rolecode": "SAJE",
 				"actionid": 4423,
@@ -54615,7 +54681,7 @@
 				"actionid": 5055,
 				"actioncode": "",
 				"tenantId": "ch"
-			},			
+			},
 		{
 			"rolecode": "EMPLOYEE",
 			"actionid": 6000,
@@ -55054,21 +55120,21 @@
 				"actioncode": "",
 				"tenantId": "ch"
 			},
-			
+
 			{
 				"rolecode": "ESCALATION_OFFICER1",
 				"actionid": 9004,
 				"actioncode": "",
 				"tenantId": "ch"
 			},
-			
+
 			{
 				"rolecode": "ESCALATION_OFFICER2",
 				"actionid": 9004,
 				"actioncode": "",
 				"tenantId": "ch"
 			},
-			
+
 			{
 				"rolecode": "HC_CEMCC",
 				"actionid": "1834",
@@ -55117,7 +55183,7 @@
 				"actioncode": "",
 				"tenantId": "ch"
 			},
-			
+
 			{
 				"rolecode": "HC_CCF",
 				"actionid": "1834",
@@ -55310,7 +55376,7 @@
 				"actioncode": "",
 				"tenantId": "ch"
       },
-			
+
 			{
 			"rolecode": "BK_MCC_HELPDESK_USER",
 			"actionid": 8007,

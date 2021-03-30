@@ -13,15 +13,6 @@
             "description": "TRANSIT_SITE_DOCUMENTS_DESCRIPTION"
         },
         {
-            "code": "TRANSIT_SITE_IMAGES",
-            "required": true,
-            "accept": "image/*",
-            "fileType": "IMAGEONLY",
-            "description": "TRANSIT_SITE_IMAGES_DESCRIPTION",
-            "minCount": 1,
-            "maxCount": 6
-        },
-        {
             "code": "ALLOTEE_IMAGE",
             "required": true,
             "accept": "image/*",
@@ -29,15 +20,24 @@
             "description": "ALLOTEES_IMAGE_DESCRIPTION"
         },
         {
+            "code": "TRANSIT_SITE_IMAGES",
+            "required": false,
+            "accept": "image/*",
+            "fileType": "IMAGEONLY",
+            "description": "TRANSIT_SITE_IMAGES_DESCRIPTION",
+            "minCount": 1,
+            "maxCount": 6
+        },
+        {
             "code": "ALLOTEE_AADHAR",
-            "required": true,
+            "required": false,
             "accept": "application/pdf,image/*",
             "fileType": "PDF_IMAGE",
             "description": "ALLOTEE_IMAGE_DESCRIPTION"
         },
         {
             "code": "APPROVED_BUILDING_PLAN",
-            "required": true,
+            "required": false,
             "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
             "fileType": "ALLTYPES",
             "description": "APPROVED_BUILDING_PLAN_DESCRIPTION"
