@@ -38,7 +38,7 @@
             "active": true
         },
         {
-            "code": "City Union",
+            "code": "CityUnion",
             "name": "City Union Bank Ltd.",
             "active": true
         },
@@ -73,7 +73,7 @@
             "active": true
         },
         {
-            "code": "J and K",
+            "code": "JandK",
             "name": "Jammu & Kashmir Bank Ltd.",
             "active": true
         },
@@ -188,7 +188,7 @@
             "active": true
         },
         {
-            "code": "Corporation Bank",
+            "code": "CorporationBank",
             "name": "Corporation Bank",
             "active": true
         },
@@ -203,12 +203,12 @@
             "active": true
         },
         {
-            "code": "Indian Overseas Bank",
+            "code": "IndianOverseasBank",
             "name": "Indian Overseas Bank",
             "active": true
         },
         {
-            "code": "P and S bank",
+            "code": "PandS",
             "name": "Punjab & Sind Bank",
             "active": true
         },
@@ -218,12 +218,12 @@
             "active": true
         },
         {
-            "code": "Syndicate Bank",
+            "code": "SyndicateBank",
             "name": "Syndicate Bank",
             "active": true
         },
         {
-            "code": "UCO Bank",
+            "code": "UCO",
             "name": "UCO Bank",
             "active": true
         },
@@ -233,7 +233,7 @@
             "active": true
         },
         {
-            "code": "United  Bank",
+            "code": "UNBI",
             "name": "United Bank of India",
             "active": true
         },
@@ -248,7 +248,7 @@
             "active": true
         },
         {
-            "code": "Haryana state Co",
+            "code": "HaryanastateCo",
             "name": "The Haryana State Cooperative Apex Bank Ltd.",
             "active": true
         },
@@ -268,7 +268,7 @@
             "active": true
         },
         {
-            "code": "Haryana Apex",
+            "code": "HaryanaApex",
             "name": "Haryana State Cooperative Apex Bank Ltd.",
             "active": true
         },
@@ -283,13 +283,63 @@
             "active": true
         },
         {
-            "code": "Chd State",
+            "code": "ChdState",
             "name": "THE CHD. STATE COOP. BANK",
             "active": true
         },
         {
             "code": "Bombay",
             "name": "THE GREATER BOMBAY COOPERATIVE BANK",
+            "active": true
+        },
+        {
+            "code": "SBP",
+            "name": "State Bank of Patiala",
+            "active": true
+        },
+        {
+            "code": "HaryanaApex",
+            "name": "HARYANA STATE CO OP APEX BANK LTD",
+            "active": true
+        },
+        {
+            "code": "OBI",
+            "name": "ORIENTAL BANK OF INDIA",
+            "active": true
+        },
+        {
+            "code": "INDB",
+            "name": "INDB SEC-40/C CHD",
+            "active": true
+        },
+        {
+            "code": "IDBI",
+            "name": "IDBI BANK LIMITED",
+            "active": true
+        },
+        {
+            "code": "Indian Bank",
+            "name": "INDIAN BANK JUJAR NGR BEHLOLPU",
+            "active": true
+        },
+        {
+            "code": "UBI",
+            "name": "UNION BANK",
+            "active": true
+        },
+        {
+            "code": "ICICI",
+            "name": "ICICI BANK",
+            "active": true
+        },
+        {
+            "code": "ICICI",
+            "name": "CHD STATE CO-OP BANK",
+            "active": true
+        },
+        {
+            "code": "ICICI",
+            "name": "THE CHANDIGARH STATE CO OPERATIVE BANK",
             "active": true
         }
     ]
