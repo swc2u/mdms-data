@@ -507,6 +507,16 @@
           "description": "CLEARANCE_AGAINST_PROPERTY_TAX_TILL_CURRENT_FINANCIAL_YEAR_DESCRIPTION"
         }
       ],
+      "wfDocumentList": [
+        {
+          "code": "WF_DOCS_TEMPLATE_SUBMISSION",
+          "required": true,
+          "accept": "application/msword,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*",
+          "fileType": "ALLTYPES",
+          "description": "WF_DOCS_TEMPLATE_SUBMISSION_DESCRIPTION",
+          "filter": "application.state === 'ES_PENDING_CITIZEN_NOTICE_SUBMISSION'"
+        }
+      ],
       "uiConfig": {
         "dataSources": [
           {
