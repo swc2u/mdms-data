@@ -113,6 +113,22 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "RentedPropertyDashboard"
+    },
+    {
+      "cardName": "Pension_dashboard_1",
+      "roles": [
+        "PENSION_SYSTEM"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "PensionDashboard"
+    },
+    {
+      "cardName": "Work_dashboard_1",
+      "roles": [
+        "WS_EE"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "WorkDashboard"
     }
   ]
 }
