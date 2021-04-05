@@ -13497,7 +13497,7 @@
     "parentModule": "estate-branch",
     "enabled": true,
     "queryParams": "tenantId=ch.chandigarh",
-    "navigationURL": "allotment",
+    "navigationURL": "/estate/allotment",
     "leftIcon": "social:location-city"
   },
   {
@@ -20159,7 +20159,26 @@
 			"leftIcon": "custom:hcIcon",
 			"rightIcon": ""
 			
-		},        
+		}, {
+			  "id": 2614,
+			  "name": "Search HC",
+			  "url": "url",
+			  "displayName": "Search HC",
+			  "orderNumber": 1,
+			  "queryParams": "",
+			  "parentModule": "",
+			  "enabled": true,
+			  "serviceCode": "",
+			  "tenantId": "ch",
+			  "createdDate": null,
+			  "createdBy": null,
+			  "lastModifiedDate": null,
+			  "lastModifiedBy": null,
+			  "path": "Horticulture.Search",
+			  "navigationURL": "egov-hc/employeeServiceRequestsFilter",
+			  "leftIcon": "communication:business",
+			  "rightIcon": ""
+    },       
 		{
 			"id": 2602,
 			"name": "Horticulture",
@@ -20304,23 +20323,23 @@
       "leftIcon": "custom:hcIcon",
       "rightIcon": "",
       "queryParams": ""
-    },        
-		{
-			"id": 2611,
-			"name": "HCReport",
-			"url": "url",
-			"displayName": "HCReport",
-			"orderNumber": 15,
-			"parentModule": "",
-			"enabled": true,
-			"serviceCode": "Horticulture",
-			"code": "null",
-			"path": "Horticulture.Reports.hcReport",
-			"navigationURL": "egov-hc/hcReport",
-			"leftIcon": "custom:hcIcon",
-			"rightIcon": ""
-			
-		},
+    },   
+ {
+     "id": 2611,
+	  "name": "HCReport",
+      "url": "egov-hc/hcReport",
+      "displayName": "HCReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "Horticulture.Reports.hcReport",
+      "navigationURL": "egov-hc/hcReport",
+      "leftIcon": "action:hcIcon",
+      "rightIcon": ""
+    },	
+		
 		{
 			"id": 2612,
 			"name": "HC Report",
@@ -24752,7 +24771,7 @@
 	{
 		"id": 4606,
 		"name": "Agenda Branch Upload Agenda",
-		"url": "/services/council/agendaUpload/upload",
+		"url": "services/council/agendaUpload/upload",
 		"displayName": "Agenda Branch Upload Agenda",
 		"orderNumber": "1",
 		"parentModule": "rainmaker-agenda",
@@ -24766,7 +24785,7 @@
 	{
 		"id": 4607,
 		"name": "Agenda Branch Upload Agenda View",
-		"url": "/services/council/agendaUpload/search",
+		"url": "services/council/agendaUpload/search",
 		"displayName": "Agenda Branch Upload Agenda View",
 		"orderNumber": "2",
 		"parentModule": "rainmaker-agenda",
@@ -24775,6 +24794,62 @@
 		"code": "",
 		"path": "Agenda Branch.Agenda Branch Agenda.Agenda Branch Upload Agenda View",
 		"navigationURL": "services/council/agendaUpload/search",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4608,
+		"name": "Manage Audit Checklist",
+		"url": "services/audit/checkListMaster/checklist",
+		"displayName": "Manage Audit Checklist",
+		"orderNumber": "5",
+		"parentModule": "",
+		"enabled": true,
+		"serviceCode": "",
+		"code": "",
+		"path": "Audit.Manage Audit Checklist",
+		"navigationURL": "services/audit/checkListMaster/checklist",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4609,
+		"name": "Create BOQ",
+		"url": "services/works/boq/newboqform",
+		"displayName": "Create BOQ",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.BOQ Master.Create BOQ",
+		"navigationURL": "services/works/boq/newboqform",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4610,
+		"name": "View BOQ",
+		"url": "services/works/boq/searchboqnew",
+		"displayName": "View BOQ",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.BOQ Master.View BOQ",
+		"navigationURL": "services/works/boq/searchboqnew",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4611,
+		"name": "Modify BOQ",
+		"url": "services/works/boq/editboqnew",
+		"displayName": "Modify BOQ",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.BOQ Master.Modify BOQ",
+		"navigationURL": "services/works/boq/editboqnew",
 		"leftIcon": "editor:insert-chart"
 	}
 

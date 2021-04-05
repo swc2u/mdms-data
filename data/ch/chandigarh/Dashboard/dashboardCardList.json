@@ -113,6 +113,14 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "RentedPropertyDashboard"
+    },
+    {
+      "cardName": "Pension_dashboard_1",
+      "roles": [
+        "PENSION_SYSTEM"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "PensionDashboard"
     }
   ]
 }
