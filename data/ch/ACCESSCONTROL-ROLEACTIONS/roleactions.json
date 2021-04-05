@@ -62438,6 +62438,12 @@
 				"actioncode": "",
 				"tenantId": "ch"
 			},
+			{
+				"rolecode": "HC_EE",
+				"actionid": "2614",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
 		{
 			"rolecode": "SIHQ",
 			"actionid": "1730",

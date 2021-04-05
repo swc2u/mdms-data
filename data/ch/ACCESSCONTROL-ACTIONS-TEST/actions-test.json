@@ -20159,7 +20159,26 @@
 			"leftIcon": "custom:hcIcon",
 			"rightIcon": ""
 			
-		},        
+		}, {
+			  "id": 2614,
+			  "name": "Search HC",
+			  "url": "url",
+			  "displayName": "Search HC",
+			  "orderNumber": 1,
+			  "queryParams": "",
+			  "parentModule": "",
+			  "enabled": true,
+			  "serviceCode": "",
+			  "tenantId": "ch",
+			  "createdDate": null,
+			  "createdBy": null,
+			  "lastModifiedDate": null,
+			  "lastModifiedBy": null,
+			  "path": "Horticulture.Search",
+			  "navigationURL": "egov-hc/employeeServiceRequestsFilter",
+			  "leftIcon": "communication:business",
+			  "rightIcon": ""
+    },       
 		{
 			"id": 2602,
 			"name": "Horticulture",
@@ -20304,23 +20323,23 @@
       "leftIcon": "custom:hcIcon",
       "rightIcon": "",
       "queryParams": ""
-    },        
-		{
-			"id": 2611,
-			"name": "HCReport",
-			"url": "url",
-			"displayName": "HCReport",
-			"orderNumber": 15,
-			"parentModule": "",
-			"enabled": true,
-			"serviceCode": "Horticulture",
-			"code": "null",
-			"path": "Horticulture.Reports.hcReport",
-			"navigationURL": "egov-hc/hcReport",
-			"leftIcon": "custom:hcIcon",
-			"rightIcon": ""
-			
-		},
+    },   
+ {
+     "id": 2611,
+	  "name": "HCReport",
+      "url": "egov-hc/hcReport",
+      "displayName": "HCReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "Horticulture.Reports.hcReport",
+      "navigationURL": "egov-hc/hcReport",
+      "leftIcon": "action:hcIcon",
+      "rightIcon": ""
+    },	
+		
 		{
 			"id": 2612,
 			"name": "HC Report",
