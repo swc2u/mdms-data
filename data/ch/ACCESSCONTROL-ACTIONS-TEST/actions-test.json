@@ -20176,7 +20176,6 @@
 			"rightIcon": ""
 			
 		},
-
 		{
 			"id": 2603,
 			"name": "Service Request",
@@ -20305,7 +20304,49 @@
       "leftIcon": "custom:hcIcon",
       "rightIcon": "",
       "queryParams": ""
-    },	
+    },        
+		{
+			"id": 2611,
+			"name": "HCReport",
+			"url": "url",
+			"displayName": "HCReport",
+			"orderNumber": 15,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "Horticulture",
+			"code": "null",
+			"path": "Horticulture.Reports.hcReport",
+			"navigationURL": "egov-hc/hcReport",
+			"leftIcon": "custom:hcIcon",
+			"rightIcon": ""
+			
+		},
+		{
+			"id": 2612,
+			"name": "HC Report",
+			"url": "/report/rainmaker-hc/HorticultureReport/_get",
+			"displayName": "Horticulutre Report",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},	
+		{
+			"id": 2613,
+			"name": "HC Delete document",
+			"url": "/hc-services/serviceRequest/_delectDocument",
+			"displayName": "Horticulutre delete document",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},	
 	  {
       "id": 4067,
       "name": "Water & Sewerage",
@@ -21399,6 +21440,19 @@
 		"id": 2445,
 		"name": "EC delete challan",
 		"url": "/ec-services/violation/_deleteChallan",
+		"parentModule": "",
+		"displayName": "ec-services",
+		"orderNumber": 0,
+		"queryParams": null,
+		"enabled": true,
+		"serviceCode": "ec-services",
+		"code": "null",
+		"path": ""
+	},	
+	{
+		"id": 2446,
+		"name": "EC edit challan",
+		"url": "/ec-services/violation/_EditChallan",
 		"parentModule": "",
 		"displayName": "ec-services",
 		"orderNumber": 0,
@@ -24668,7 +24722,117 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
-    }
+    },
+    {
+      "id": 8067,
+      "name": "PACC Booked Date Search",
+      "url": "/bookings/park/community/booked/dates/_search",
+      "parentModule": "",
+      "displayName": "PACC Booked Date Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+	{
+		"id": 4605,
+		"name": "Modify DNIT",
+		"url": "services/works/dnit/workEditDnit",
+		"displayName": "Modify DNIT",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.DNIT.Modify DNIT",
+		"navigationURL": "services/works/dnit/workEditDnit",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4606,
+		"name": "Agenda Branch Upload Agenda",
+		"url": "services/council/agendaUpload/upload",
+		"displayName": "Agenda Branch Upload Agenda",
+		"orderNumber": "1",
+		"parentModule": "rainmaker-agenda",
+		"enabled": true,
+		"serviceCode": "AgendaBranch",
+		"code": "",
+		"path": "Agenda Branch.Agenda Branch Agenda.Agenda Branch Upload Agenda",
+		"navigationURL": "services/council/agendaUpload/upload",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4607,
+		"name": "Agenda Branch Upload Agenda View",
+		"url": "services/council/agendaUpload/search",
+		"displayName": "Agenda Branch Upload Agenda View",
+		"orderNumber": "2",
+		"parentModule": "rainmaker-agenda",
+		"enabled": true,
+		"serviceCode": "AgendaBranch",
+		"code": "",
+		"path": "Agenda Branch.Agenda Branch Agenda.Agenda Branch Upload Agenda View",
+		"navigationURL": "services/council/agendaUpload/search",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4608,
+		"name": "Manage Audit Checklist",
+		"url": "services/audit/checkListMaster/checklist",
+		"displayName": "Manage Audit Checklist",
+		"orderNumber": "5",
+		"parentModule": "",
+		"enabled": true,
+		"serviceCode": "",
+		"code": "",
+		"path": "Audit.Manage Audit Checklist",
+		"navigationURL": "services/audit/checkListMaster/checklist",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4609,
+		"name": "Create BOQ",
+		"url": "services/works/boq/newboqform",
+		"displayName": "Create BOQ",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.BOQ Master.Create BOQ",
+		"navigationURL": "services/works/boq/newboqform",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4610,
+		"name": "View BOQ",
+		"url": "services/works/boq/searchboqnew",
+		"displayName": "View BOQ",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.BOQ Master.View BOQ",
+		"navigationURL": "services/works/boq/searchboqnew",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 4611,
+		"name": "Modify BOQ",
+		"url": "services/works/boq/editboqnew",
+		"displayName": "Modify BOQ",
+		"orderNumber": "1",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.BOQ Master.Modify BOQ",
+		"navigationURL": "services/works/boq/editboqnew",
+		"leftIcon": "editor:insert-chart"
+	}
 
   ]
 }
