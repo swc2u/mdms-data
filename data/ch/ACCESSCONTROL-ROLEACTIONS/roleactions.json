@@ -61290,13 +61290,6 @@
 			"tenantId": "ch"
 		  },
 		  {
-
-			"rolecode": "BK_OSBM_APPROVER",
-			"actionid": 1766,
-			"actioncode": "",
-			"tenantId": "ch"
-		  },
-		  {
 			"rolecode": "BK_MCC_HELPDESK_USER",
 			"actionid": 1766,
 			"actioncode": "",
