@@ -1,0 +1,144 @@
+{
+    "tenantId": "ch",
+    "moduleName": "EstateServices",
+    "village": [
+      {
+        "name": "Burail",
+        "code": "VILLAGE.BURAIL",
+        "active": true,
+        "house":"BUR-"
+      },
+      {
+        "name": "Manimajra ",
+        "code": "VILLAGE.MANIMAJRA",
+        "active": true,
+        "house":"MAN-"
+      },
+      {
+        "name": "Attawa",
+        "code": "VILLAGE.ATTAVA",
+        "active": true,
+        "house":"ATT-"
+      },
+      {
+        "name": "Buterla ",
+        "code": "VILLAGE.BURTELA",
+        "active": true,
+        "house":"BUT-"
+      },
+      {
+        "name": "Badheri",
+        "code": "VILLAGE.BADHERI",
+        "active": true,
+        "house":"BAD-"
+      },
+      {
+        "name": "Maloya ",
+        "code": "VILLAGE.MALOYA",
+        "active": true,
+        "house":"MAL-"
+      },
+      {
+        "name": "Kajheri",
+        "code": "VILLAGE.KAJHERI",
+        "active": true,
+        "house":"KAJ-"
+      },
+      {
+        "name": "Hallomajra",
+        "code": "VILLAGE.HALLOMAJRA",
+        "active": true,
+        "house":"HAL-"
+      },
+      {
+        "name": "Dadumajra",
+        "code": "VILLAGE.DADUMAJRA",
+        "active": true,
+        "house":"DAD-"
+      },
+      {
+        "name": "Palsora",
+        "code": "VILLAGE.PALSORA",
+        "active": true,
+        "house":"PAL-"
+      },
+      {
+        "name": "Raipur Kalan ",
+        "code": "VILLAGE.RAIPUR_KALAN",
+        "active": true,
+        "house":"RKA-"
+      },
+      {
+        "name": "Makhan Majra",
+        "code": "VILLAGE.MAKHAN_MAJRA",
+        "active": true,
+        "house":"MAM-"
+      },
+      {
+        "name": "Maulijagaran",
+        "code": "VILLAGE.MAULIJAGARAN",
+        "active": true,
+        "house":"MAU-"
+      },
+      {
+        "name": "Daria",
+        "code": "VILLAGE.DARIA",
+        "active": true,
+        "house":"DAR"
+      },
+      {
+        "name": "Kishangarh",
+        "code": "VILLAGE.KISHANGARH",
+        "active": true,
+        "house":"KIS-"
+      },
+      {
+        "name": "Srangpur",
+        "code": "VILLAGE.SRANGPUR",
+        "active": true,
+        "house":"SAR-"
+      },
+      {
+        "name": "Kaimbala",
+        "code": "VILLAGE.KAIMBALA",
+        "active": true,
+        "house":"KAI-"
+      },
+      {
+        "name": "Khudda Lahora",
+        "code": "VILLAGE.KHUDDA_LAHORA",
+        "active": true,
+        "house":"KHL-"
+      },
+      {
+        "name": "Khudda Jassu",
+        "code": "VILLAGE.KHUDDA_JASSU",
+        "active": true,
+        "house":"KHJ-"
+      },
+      {
+        "name": "Khudda Alisher",
+        "code": "VILLAGE.KHUDDA_ALISHER",
+        "active": true,
+        "house":"KHA-"
+      },
+      {
+        "name": "Dhanas",
+        "code": "VILLAGE.DHANNAS",
+        "active": true,
+        "house":"DHA-"
+      },
+      {
+        "name": "Behlana",
+        "code": "VILLAGE.BEHLANA",
+        "active": true,
+        "house":"BEH-"
+      },
+      {
+        "name": "Raipur Khurd",
+        "code": "VILLAGE.RAIPUR_KHURD",
+        "active": true,
+        "house":"RKH-"
+      }
+    ]
+  }

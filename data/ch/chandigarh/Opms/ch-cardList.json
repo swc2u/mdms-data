@@ -4,12 +4,12 @@
   "cardList": [
     {
       "code": "PETNOC",
-	  "roles": ["CITIZEN","SI","MOH"],
+	  "roles": ["CITIZEN","SIHQ","MOH"],
 	  "routeCitizen":"citizenMainLanding"
     },
 	{
       "code": "SELLMEATNOC",
-	  "roles": ["CITIZEN","SI","SUPERINTENDENT","MOH"],
+	  "roles": ["CITIZEN","SISM","SUPERINTENDENT","MOH"],
 	  "routeCitizen":"sellMeatLanding"
     },
 	{
