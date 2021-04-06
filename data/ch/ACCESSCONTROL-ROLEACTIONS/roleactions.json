@@ -15014,6 +15014,60 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+	{
+			"rolecode": "PGR-ADMIN",
+			"actionid": 1594,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "GRO",
+			"actionid": 1594,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "PGR_REPORTS_VIEWER",
+			"actionid": 1594,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "PGR-ADMIN",
+			"actionid": 1595,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "GRO",
+			"actionid": 1595,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "PGR_REPORTS_VIEWER",
+			"actionid": 1595,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "PGR-ADMIN",
+			"actionid": 1596,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "GRO",
+			"actionid": 1596,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "PGR_REPORTS_VIEWER",
+			"actionid": 1596,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
     {
       "rolecode": "SUPERUSER",
       "actionid": 1601,
