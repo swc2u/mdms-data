@@ -20176,7 +20176,7 @@
 			  "lastModifiedBy": null,
 			  "path": "Horticulture.Search",
 			  "navigationURL": "egov-hc/employeeServiceRequestsFilter",
-			  "leftIcon": "communication:hcIcon",
+			  "leftIcon": "custom:hcIcon",
 			  "rightIcon": ""
     },       
 		{
