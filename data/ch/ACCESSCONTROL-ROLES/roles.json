@@ -563,6 +563,16 @@
          "description":"Employee who verifies Budget in finance"
       },
       {
+         "code":"SIHQ",
+         "name":"SIHQ",
+         "description":"Sanitary Inspector PETNOC"
+      },
+      {
+         "code":"SISM",
+         "name":"SISM",
+         "description":"Sanitary Inspector SELLMEAT"
+      },
+      {
          "code":"SI",
          "name":"SI",
          "description":"Sanitary Inspector"
@@ -1047,7 +1057,13 @@
       "code": "RP_APRO",
       "name": "APRO",
       "description": "Employee who manages the public relations for transit sites for rented properties"
-   },{
+   },
+   {
+      "code":"RP_SO",
+      "name":"SO",
+      "description":"Employee who can generate account statement for rented properties"
+   },
+   {
       "code": "SAJE",
       "name": "Junior Engineer",
       "description": "Store Asset Junior Engineer"
