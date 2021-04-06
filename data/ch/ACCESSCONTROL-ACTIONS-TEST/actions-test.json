@@ -10615,6 +10615,44 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Transactions.Bills Accounting.Expense Bill"
     },
+	{
+      "id": 1594,
+      "name": "ComplaintReport",
+      "url": "url",
+      "displayName": "Description",
+      "orderNumber": 6,
+      "parentModule": "rainmaker-pgr",
+      "enabled": true,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "Complaints.PGR Reports.ComplaintReport",
+      "navigationURL": "report/rainmaker-pgr/ComplaintReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+	{
+      "id": 1595,
+      "name": "RainmakerPGR-ComplaintReport-Metadata",
+      "url": "/report/rainmaker-pgr/ComplaintReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "RainmakerPGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
+      "id": 1596,
+      "name": "ComplaintReport",
+      "url": "/report/rainmaker-pgr/ComplaintReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "RainmakerPGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
     {
       "id": 1601,
       "name": "DesignationSearch",
@@ -20320,7 +20358,7 @@
       "code": "",
       "path": "",
       "navigationURL": "egov-hc/home",
-      "leftIcon": "custom:hcIcon",
+      "leftIcon": "action:assignment",
       "rightIcon": "",
       "queryParams": ""
     },   
@@ -20336,7 +20374,7 @@
       "code": "null",
       "path": "Horticulture.Reports.hcReport",
       "navigationURL": "egov-hc/hcReport",
-      "leftIcon": "action:hcIcon",
+      "leftIcon": "action:assignment",
       "rightIcon": ""
     },	
 		
