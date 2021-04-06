@@ -10619,7 +10619,7 @@
       "id": 1594,
       "name": "ComplaintReport",
       "url": "url",
-      "displayName": "Description",
+      "displayName": "Complaint",
       "orderNumber": 6,
       "parentModule": "rainmaker-pgr",
       "enabled": true,
@@ -20216,23 +20216,24 @@
 			  "navigationURL": "egov-hc/employeeServiceRequestsFilter",
 			  "leftIcon": "custom:hcIcon",
 			  "rightIcon": ""
-    },       
-		{
-			"id": 2602,
-			"name": "Horticulture",
-			"url": "card",
-			"displayName": "Horticulture",
-			"orderNumber": 14,
-			"parentModule": "",
-			"enabled": false,
-			"serviceCode": "Horticulture",
-			"code": "null",
-			"path": "Horticulture",
-			"navigationURL": "egov-hc/employeeServiceRequestsFilter",
-			"leftIcon": "custom:hcIcon",
-			"rightIcon": ""
-			
-		},
+    },     
+	{
+		  "id": 2602,
+		  "name": "rainmaker-common-hc",
+		  "url": "card",
+		  "displayName": "Horticulture",
+		  "orderNumber": 3,
+		  "parentModule": "",
+		  "enabled": true,
+		  "serviceCode": "",
+		  "code": "",
+		  "path": "",
+		  "navigationURL": "egov-hc/employeeServiceRequestsFilter",
+		  "leftIcon": "custom:hcIcon",
+		  "rightIcon": "",
+		  "queryParams": ""
+		},	
+		
 		{
 			"id": 2603,
 			"name": "Service Request",
