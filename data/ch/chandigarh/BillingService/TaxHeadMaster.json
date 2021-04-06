@@ -543,10 +543,190 @@
          "isRequired":false
       },
       {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "name":"Estate branch Ownership transfer Sale deed Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "name":"Estate branch Ownership transfer Sale deed transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "name":"Estate branch Ownership transfer Sale deed inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "name":"Estate branch Ownership transfer Sale deed security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "name":"Estate branch Ownership transfer Sale deed extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "name":"Estate branch Ownership transfer Sale deed docuemnt copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "name":"Estate branch Ownership transfer Sale deed allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "name":"Estate branch Ownership transfer Sale deed conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
+         "name":"Estate branch Ownership transfer Sale deed property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_PROPERTYTRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
          "name":"Estate branch Ownership transfer Registered will Application fee",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Registered will Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Registered will transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Registerd will inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer registered will security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer registered will extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer registered will socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer registered will allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer registered will conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
+         "name":"Estate branch Ownership transferregistered will property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_PROPERTYTRANSFER_CHARGES",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
@@ -563,10 +743,190 @@
          "isRequired":false
       },
       {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Unregistered will Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Unregistered will transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Unregistered will inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Unregistered will security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Unregistered will extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Unregistered will socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Unregistered will allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Unregistered will conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
+         "name":"Estate branch Ownership transfer Unregistered will property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_PROPERTYTRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
          "name":"Estate branch Ownership transfer Intestate death Application fee",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "name":"Estate branch Ownership transfer Intestate death Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "name":"Estate branch Ownership transfer  Intestate death transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "name":"Estate branch Ownership transfer  Intestate death inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "name":"Estate branch Ownership transfer  Intestate death security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "name":"Estate branch Ownership transfer  Intestate death extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "name":"Estate branch Ownership transfer  Intestate death socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "name":"Estate branch Ownership transfer  Intestate death allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "name":"Estate branch Ownership transfer  Intestate death conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
+         "name":"Estate branch Ownership transfer  Intestate death property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_PROPERTYTRANSFER_CHARGES",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
@@ -583,10 +943,190 @@
          "isRequired":false
       },
       {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "name":"Estate branch Ownership transfer Family settlement Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "name":"Estate branch Ownership transfer  Family settlement transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "name":"Estate branch Ownership transfer  Family settlement inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "name":"Estate branch Ownership transfer  Family settlement security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "name":"Estate branch Ownership transfer  Family settlement extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "name":"Estate branch Ownership transfer  Family settlement socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "name":"Estate branch Ownership transfer  Family settlement allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "name":"Estate branch Ownership transfer  Family settlement conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
+         "name":"Estate branch Ownership transfer  Family settlement property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_PROPERTYTRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
          "name":"Estate branch Ownership transfer Partnership deed Application fee",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
+         "name":"Estate branch Ownership transfer Partnership deed Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
+         "name":"Estate branch Ownership transfer  Partnership deed transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
+         "name":"Estate branch Ownership transfer  Partnership deed inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
+         "name":"Estate branch Ownership transfer  Partnership deed security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
+         "name":"Estate branch Ownership transfer  Partnership deed extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
+         "name":"Estate branch Ownership transfer  Partnership deed socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
+         "name":"Estate branch Ownership transfer  Partnership deed allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
+         "name":"Estate branch Ownership transfer  Partnership deed conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
+         "name":"Estate branch Ownership transfer  Partnership deed property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_PROPERTYTRANSFER_CHARGES",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
@@ -603,10 +1143,190 @@
          "isRequired":false
       },
       {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "name":"Estate branch Other citizen service Mortgage Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "name":"Estate branch Other citizen service Mortgage transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "name":"Estate branch Other citizen service Mortgage inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "name":"Estate branch Other citizen service Mortgage security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "name":"Estate branch Other citizen service Mortgage extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "name":"Estate branch Other citizen service Mortgage socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "name":"Estate branch Other citizen service Mortgage allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "name":"Estate branch Other citizen service Mortgage conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
+         "name":"Estate branch Other citizen service Mortgage property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_PROPERTYTRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
          "name":"Estate branch Other citizen service NOC Application fee",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "name":"Estate branch Other citizen service NOC Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "name":"Estate branch Other citizen service NOC transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "name":"Estate branch Other citizen service NOC inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "name":"Estate branch Other citizen service NOC security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "name":"Estate branch Other citizen service NOC extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "name":"Estate branch Other citizen service NOC socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "name":"Estate branch Other citizen service NOC allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "name":"Estate branch Other citizen service NOC conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
+         "name":"Estate branch Other citizen service NOC property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_PROPERTYTRANSFER_CHARGES",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
@@ -623,10 +1343,190 @@
          "isRequired":false
       },
       {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "name":"Estate branch Other citizen service NDC Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "name":"Estate branch Other citizen service NDC transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "name":"Estate branch Other citizen service NDC inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "name":"Estate branch Other citizen service NDC security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "name":"Estate branch Other citizen service NDC extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "name":"Estate branch Other citizen service NDC socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "name":"Estate branch Other citizen service NDC allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "name":"Estate branch Other citizen service NDC conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
+         "name":"Estate branch Other citizen service NDC property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_PROPERTYTRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
          "name":"Estate branch Other citizen service Lease deed Application fee",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "name":"Estate branch Other citizen service Lease deed Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "name":"Estate branch Other citizen service NDC transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "name":"Estate branch Other citizen service NDC inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "name":"Estate branch Other citizen service NDC security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "name":"Estate branch Other citizen service NDC extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "name":"Estate branch Other citizen service NDC socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "name":"Estate branch Other citizen service NDC allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "name":"Estate branch Other citizen service NDC conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
+         "name":"Estate branch Other citizen service NDC property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_PROPERTYTRANSFER_CHARGES",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
@@ -643,6 +1543,96 @@
          "isRequired":false
       },
       {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "name":"Estate branch Other citizen service Duplicate copy Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_HST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "name":"Estate branch Other citizen service Duplicate copy transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "name":"Estate branch Other citizen service Duplicate copy inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "name":"Estate branch Other citizen service Duplicate copy security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "name":"Estate branch Other citizen service Duplicate copy extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "name":"Estate branch Other citizen service Duplicate copy socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "name":"Estate branch Other citizen service Duplicate copy allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "name":"Estate branch Other citizen service Duplicate copy conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
+         "name":"Estate branch Other citizen service Duplicate copy property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_PROPERTYTRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
          "name":"Estate branch Other citizen service Leasehold to Freehold Application fee ",
@@ -653,10 +1643,191 @@
          "isRequired":false
       },
       {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "name":"Estate branch Other citizen service Leasehold to Freehold Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "name":"Estate branch Other citizen service Leasehold to Freehold transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "name":"Estate branch Other citizen service Leasehold to Freehold inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "name":"Estate branch Other citizen service Leasehold to Freehold security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "name":"Estate branch Other citizen service Leasehold to Freehold extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "name":"Estate branch Other citizen service Leasehold to Freehold socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "name":"Estate branch Other citizen service Leasehold to Freehold allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "name":"Estate branch Other citizen service Leasehold to Freehold conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
+         "name":"Estate branch Other citizen service Leasehold to Freehold property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_PROPERTYTRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
          "name":"Estate branch Other citizen service SCF to SCO Application fee",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "name":"Estate branch Other citizen service SCF to SCO Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "name":"Estate branch Other citizen service SCF to SCO transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "name":"Estate branch Other citizen service SCF to SCO inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "name":"Estate branch Other citizen service SCF to SCO security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "name":"Estate branch Other citizen service SCF to SCO extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "name":"Estate branch Other citizen service SCF to SCO socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "name":"Estate branch Other citizen service SCF to SCO allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "name":"Estate branch Other citizen service SCF to SCO conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
+         "name":"Estate branch Other citizen service SCF to SCO property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_PROPERTYTRANSFER_CHARGES",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
@@ -673,10 +1844,190 @@
          "isRequired":false
       },
       {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "name":"Estate branch Other citizen service Change in trade Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_APPLICATION_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "name":"Estate branch Other citizen service Change in trade transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "name":"Estate branch Other citizen service Change in trade inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "name":"Estate branch Other citizen service Change in trade security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "name":"Estate branch Other citizen service Change in trade extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "name":"Estate branch Other citizen service Change in trade socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "name":"Estate branch Other citizen service Change in trade allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "name":"Estate branch Other citizen service Change in trade conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
+         "name":"Estate branch Other citizen service Change in trade property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_PROPERTYTRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
          "category":"FEE",
          "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
          "name":"Estate branch Other citizen service Issuance of notice Application fee",
          "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_APPLICATION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "name":"Estate branch Other citizen service Issuance of notice Application tax",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_GST_TAX",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "name":"Estate branch Other citizen service Issuance of notice transfer charnges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_TRANSFER_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "name":"Estate branch Other citizen service Issuance of notice inspection fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_INSPECTION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "name":"Estate branch Other citizen service Issuance of notice security fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_SECURITY_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "name":"Estate branch Other citizen service Issuance of notice extension fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_EXTENSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "name":"Estate branch Other citizen service Issuance of notice socument copy fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_DOCUMENTCOPYING_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "name":"Estate branch Other citizen service Issuance of notice allotment fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_ALLOTMENT_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "name":"Estate branch Other citizen service Issuance of notice conversion fee",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_CONVERSION_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
+         "name":"Estate branch Other citizen service Issuance of notice property transfer charges",
+         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_PROPERTYTRANSFER_CHARGES",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",
@@ -897,156 +2248,6 @@
          "service":"ESTATE_SERVICE_MANI_MAJRA.NOC",
          "name":"Mani Majra Other Citizen Service NOC Application tax",
          "code":"ESTATE_SERVICE_MANI_MAJRA.NOC_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED",
-         "name":"Estate branch Ownership transfer Sale deed Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SALE_DEED_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL",
-         "name":"Estate branch Ownership transfer Registered will Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.REGISTERED_WILL_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL",
-         "name":"Estate branch Ownership transfer Unregistered will Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.UN_REGISTERED_WILL_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH",
-         "name":"Estate branch Ownership transfer Intestate death Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.INTESTATE_DEATH_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT",
-         "name":"Estate branch Ownership transfer Family settlement Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.FAMILY_SETTLEMENT_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED",
-         "name":"Estate branch Ownership transfer Partnership deed Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.PARTNERSHIP_DEED_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE",
-         "name":"Estate branch Other citizen service Mortgage Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.MORTGAGE_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NOC",
-         "name":"Estate branch Other citizen service NOC Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NOC_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.NDC",
-         "name":"Estate branch Other citizen service NDC Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.NDC_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED",
-         "name":"Estate branch Other citizen service Lease deed Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASE_DEED_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY",
-         "name":"Estate branch Other citizen service Duplicate copy Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.DUPLICATE_COPY_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD",
-         "name":"Estate branch Other citizen service Leasehold to Freehold Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.LEASEHOLD_TO_FREEHOLD_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO",
-         "name":"Estate branch Other citizen service SCF to SCO Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.SCF_TO_SCO_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE",
-         "name":"Estate branch Other citizen service Change in trade Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.CHANGE_IN_TRADE_APPLICATION_TAX",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"0",
-         "isRequired":false
-      },
-      {
-         "category":"TAX",
-         "service":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE",
-         "name":"Estate branch Other citizen service Issuance of notice Application tax",
-         "code":"ESTATE_SERVICE_ESTATE_BRANCH.ISSUANCE_OF_NOTICE_APPLICATION_TAX",
          "isDebit":false,
          "isActualDemand":true,
          "order":"0",

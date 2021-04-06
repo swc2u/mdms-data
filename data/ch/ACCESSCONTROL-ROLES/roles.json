@@ -1438,6 +1438,11 @@
          "description":"Estate Branch Senior Assistant"
       },
       {
+         "code":"ES_EB_SUPERINTENDENT",
+         "name":"Superintendent",
+         "description":"Estate Branch Superintendent"
+      },
+      {
          "code":"ES_MM_BUILDING_INSPECTOR",
          "name":"Building Inspector",
          "description":"Manimajra Branch Building Inspector"
