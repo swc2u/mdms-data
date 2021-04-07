@@ -63830,6 +63830,12 @@
 			"actionid": 4611,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "THIRDPARTY_INTEGRATOR_FINANCE",
+			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 			
 	]
