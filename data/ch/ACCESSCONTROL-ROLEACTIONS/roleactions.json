@@ -30117,6 +30117,42 @@
 		},
 		{
 			"rolecode": "HC_SDO",
+			"actionid": "2611",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EE",
+			"actionid": "2611",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SE",
+			"actionid": "2611",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_CE",
+			"actionid": "2611",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_COMMISSIONERMCC",
+			"actionid": "2611",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_EEWE",
+			"actionid": "2611",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HC_SDO",
 			"actionid": "2612",
 			"actioncode": "",
 			"tenantId": "ch"
