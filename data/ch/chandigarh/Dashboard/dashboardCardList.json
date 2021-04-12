@@ -121,6 +121,14 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "PensionDashboard"
+    },
+    {
+      "cardName": "NULM_dashboard_1",
+      "roles": [
+        "NULMSDO"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "NULMDashboard"
     }
   ]
 }
