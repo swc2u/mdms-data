@@ -30111,7 +30111,7 @@
 		},	  
 		{
 			"rolecode": "COLL_RECEIPT_REPORT",
-			"actionid": "2611",
+			"actionid": "9000",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
