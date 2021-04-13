@@ -22975,6 +22975,20 @@
 		"path": "Works.BOQ Master.Modify BOQ",
 		"navigationURL": "services/works/boq/editboqnew",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+	{
+      "id": 9000,
+      "name": "Receipt Report",
+      "url": "/services/collection/receipts/daybookReport.action",
+      "parentModule": "",
+      "displayName": "Receipt Report",
+      "orderNumber": 8,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Revenue/Collections.Receipt Report",
+      "navigationURL": "services/collection/receipts/daybookReport.action"
+    }
   ]
 }
