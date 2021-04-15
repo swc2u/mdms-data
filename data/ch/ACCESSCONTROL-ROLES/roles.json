@@ -318,6 +318,11 @@
          "description":"Role for allowing system integration of Finance app with rainmaker"
       },
       {
+         "code":"THIRDPARTY_INTEGRATOR_FINANCE",
+         "name":"Third Party Integrator Finance",
+         "description":"Role for allowing Third party integration of Finance app"
+      },
+      {
          "code":"SYS_INTEGRATOR_WATER_SEW",
          "name":"System Integrator W&S",
          "description":"Role for allowing system integration of Water and Sewerage app with rainmaker"
@@ -1436,6 +1441,11 @@
          "code":"ES_EB_SR_ASSISTANT",
          "name":"Senior Assistant",
          "description":"Estate Branch Senior Assistant"
+      },
+      {
+         "code":"ES_EB_SUPERINTENDENT",
+         "name":"Superintendent",
+         "description":"Estate Branch Superintendent"
       },
       {
          "code":"ES_MM_BUILDING_INSPECTOR",
