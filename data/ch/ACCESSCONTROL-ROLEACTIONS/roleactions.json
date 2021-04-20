@@ -63853,7 +63853,54 @@
 			"actionid": 1766,
 			"actioncode": "",
 			"tenantId": "ch"
-		  }
-			
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "870",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "604",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },  
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "954",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },  
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "1531",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },  
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "2611",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "2612",
+			"actioncode": "",
+			"tenantId": "ch"
+		  }			
 	]
 }

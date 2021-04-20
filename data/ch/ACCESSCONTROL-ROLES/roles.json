@@ -828,6 +828,11 @@
          "description":"Superitendent(W&E)"
       },
       {
+         "code":"HC_REPORT",
+         "name":"HC_REPORT",
+         "description":"Horticulture Report User"
+      },
+      {
          "code":"challanSI",
          "name":"challanSI",
          "description":"Sub Inspector"
