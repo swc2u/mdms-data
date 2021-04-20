@@ -61801,13 +61801,6 @@
 				 "tenantId": "ch"
 			},
 		  {
-
-			"rolecode": "BK_E-SAMPARK-CENTER",
-			"actionid": 1766,
-			"actioncode": "",
-			"tenantId": "ch"
-		  },
-		  {
 			"rolecode": "BK_MCC_APPROVER",
 			"actionid": 1766,
 			"actioncode": "",
@@ -63842,7 +63835,25 @@
 			"actionid": 1689,
 			"actioncode": "",
 			"tenantId": "ch"
-		}
+		},
+		  {
+			"rolecode": "BK_COMMERCIAL_GROUND_VIEWER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "BK_MCC_USER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "BK_CLERK",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  }
 			
 	]
 }
