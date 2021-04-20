@@ -4,7 +4,7 @@
          "Booking_Config": [
          {
             "Key": "PACC_IMAGES_PATH",
-            "Value": "XYZ"
+            "Value": "http://bucket-cscl.s3-website.ap-south-1.amazonaws.com/images"
            
         },
 	{
