@@ -9,7 +9,7 @@
       "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
-      "description": "Copy of Ration card / Priority household card"
+      "description": "Copy of Ration Card / Priority Household Card"
     },
     {
       "code": "NULM_VOTER_ID_CARD",
@@ -27,7 +27,7 @@
 	  "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
-      "description": "Copy of Aadhar card"
+      "description": "Copy of Aadhar Card"
     },
 	{
       "code": "NULM_PAN_CARD",
@@ -54,7 +54,7 @@
       "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
-      "description": "Disability Certificate"
+      "description": "Disability Certificate Available"
     }
   ]
 }
