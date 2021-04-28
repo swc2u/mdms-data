@@ -22,6 +22,17 @@
         
       ],
       "description": "PET.PET_VACCINATION_CERTIFICATE.VACCINATION_CERTIFICATE_DESCRIPTION"
+    },
+    {
+      "code": "PET.PET_OWNER_ID_PROOF",
+      "documentType": "PET",
+      "required": true,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+        
+      ],
+      "description": "PET.PET_OWNER_ID_PROOF"
     }
   ]
 }

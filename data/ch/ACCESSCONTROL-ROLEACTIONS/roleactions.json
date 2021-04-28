@@ -34071,6 +34071,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4605,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "WS_COMMON",
 			"actionid": 4602,
 			"actioncode": "",
@@ -61801,13 +61807,6 @@
 				 "tenantId": "ch"
 			},
 		  {
-
-			"rolecode": "BK_E-SAMPARK-CENTER",
-			"actionid": 1766,
-			"actioncode": "",
-			"tenantId": "ch"
-		  },
-		  {
 			"rolecode": "BK_MCC_APPROVER",
 			"actionid": 1766,
 			"actioncode": "",
@@ -63842,7 +63841,72 @@
 			"actionid": 1689,
 			"actioncode": "",
 			"tenantId": "ch"
-		}
-			
+		},
+		  {
+			"rolecode": "BK_COMMERCIAL_GROUND_VIEWER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "BK_MCC_USER",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "BK_CLERK",
+			"actionid": 1766,
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "870",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "1556",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "604",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },  
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "954",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },  
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "1531",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },  
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "1752",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "2611",
+			"actioncode": "",
+			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "HC_REPORT",
+			"actionid": "2612",
+			"actioncode": "",
+			"tenantId": "ch"
+		  }			
 	]
 }
