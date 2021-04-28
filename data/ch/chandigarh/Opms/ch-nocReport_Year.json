@@ -22,6 +22,13 @@
       "tenantId": "ch.chandigarh",
       "name": "2020-2021",
       "active": true
+    },
+	{
+      "id": "4",
+	  "code":"Year22",
+      "tenantId": "ch.chandigarh",
+      "name": "2021-2022",
+      "active": true
     }
   ]
 }
