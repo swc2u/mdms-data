@@ -6,14 +6,14 @@
       "id": "1",
 	  "code": "JHATKA_MEAT_SHEEP_GOAT_POULTRY",
       "tenantId": "ch.chandigarh",
-      "name": "Jhatka meat (sheep/goat), Poultry",
+      "name": "Jhatka meat (sheep/goat) Poultry",
       "active": true
     },
 	{
       "id": "2",
 	  "code": "HALAL_MEAT_SHEEP_GOAT_POULTRY",
       "tenantId": "ch.chandigarh",
-      "name": "Halal meat (sheep/goat), Poultry",
+      "name": "Halal meat (sheep/goat) Poultry",
       "active": true
     },
 	{
@@ -34,7 +34,7 @@
       "id": "5",
 	  "code": "PACKED_FROZEN_MEAT_SHEEP_GOAT_FISH_AND_POULTRY",
       "tenantId": "ch.chandigarh",
-      "name": "Packed/frozen meat (sheep/goat), fish and poultry",
+      "name": "Packed/frozen meat (sheep/goat) fish and poultry",
       "active": true
     }
   ]
