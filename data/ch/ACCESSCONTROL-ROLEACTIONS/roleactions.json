@@ -30975,12 +30975,6 @@
 		},
 		{
 			"rolecode": "SUPERUSER",
-			"actionid": 4416,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "SUPERUSER",
 			"actionid": 4417,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -34067,6 +34061,12 @@
 		{
 			"rolecode": "WS_BILL_UPLOAD",
 			"actionid": 4601,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WS_BILL_UPLOAD",
+			"actionid": 4605,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -50841,103 +50841,7 @@
 				"actioncode": "",
 				"tenantId": "ch"
 			},
-						{
-				"rolecode": "SAJE",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
 			{
-				"rolecode": "SAEE",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SASE",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SACE",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SASDO",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SACOM",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SACP",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SASA",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SASP",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SASO",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SACAO",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SAACMC",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SACT",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SACSI",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SAMOH",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-			{
-				"rolecode": "SAJC",
-				"actionid": 4416,
-				"actioncode": "",
-				"tenantId": "ch"
-			},
-						{
 				"rolecode": "SAJE",
 				"actionid": 4417,
 				"actioncode": "",
@@ -61251,12 +61155,6 @@
 		  {
 			"rolecode": "SASIC",
 			"actionid": 4415,
-			"actioncode": "",
-			"tenantId": "ch"
-		  },
-		  {
-			"rolecode": "SASIC",
-			"actionid": 4416,
 			"actioncode": "",
 			"tenantId": "ch"
 		  },

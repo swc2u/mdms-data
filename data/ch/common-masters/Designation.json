@@ -643,6 +643,138 @@
          "name":"Auditor",
          "description":"Auditor",
          "active":true
-      }
+      },
+      {
+            "code": "P001",
+            "name": "C.S.I",
+            "description": "C.S.I",
+            "active": true
+        },
+        {
+            "code": "P002",
+            "name": "CHARGE MAN",
+            "description": "CHARGE MAN",
+            "active": true
+        },
+        {
+            "code": "P003",
+            "name": "CLEANER",
+            "description": "CLEANER",
+            "active": true
+        },
+        {
+            "code": "P004",
+            "name": "DRIVER",
+            "description": "DRIVER",
+            "active": true
+        },
+        {
+            "code": "P005",
+            "name": "Chowkidar",
+            "description": "Chowkidar",
+            "active": true
+        },
+        {
+            "code": "P006",
+            "name": "EX HEAD MALI",
+            "description": "EX HEAD MALI",
+            "active": true
+        },
+        {
+            "code": "P007",
+            "name": "EX PEON",
+            "description": "EX PEON",
+            "active": true
+        },
+        {
+            "code": "P008",
+            "name": "EX S.D.E",
+            "description": "EX S.D.E",
+            "active": true
+        },
+        {
+            "code": "P009",
+            "name": "H.S.J",
+            "description": "H.S.J",
+            "active": true
+        },
+        {
+            "code": "P010",
+            "name": "H.SEWER MAN",
+            "description": "H.SEWER MAN",
+            "active": true
+        },
+        {
+            "code": "P011",
+            "name": "KEYMAN",
+            "description": "KEYMAN",
+            "active": true
+        },
+        {
+            "code": "P012",
+            "name": "LFM",
+            "description": "LFM",
+            "active": true
+        },
+        {
+            "code": "P013",
+            "name": "M.P.W",
+            "description": "M.P.W",
+            "active": true
+        },
+        {
+            "code": "P014",
+            "name": "OPERATOR",
+            "description": "OPERATOR",
+            "active": true
+        },
+        {
+            "code": "P015",
+            "name": "S.J",
+            "description": "S.J",
+            "active": true
+        },
+        {
+            "code": "P016",
+            "name": "S.O",
+            "description": "S.O",
+            "active": true
+        },
+        {
+            "code": "P017",
+            "name": "SEWER MAN",
+            "description": "SEWER MAN",
+            "active": true
+        },
+        {
+            "code": "P018",
+            "name": "STORE COOLIE",
+            "description": "STORE COOLIE",
+            "active": true
+        },
+        {
+            "code": "P019",
+            "name": "STREET LIGHT INSPECTOR",
+            "description": "STREET LIGHT INSPECTOR",
+            "active": true
+        },
+        {
+            "code": "P020",
+            "name": "TRADE MATE",
+            "description": "TRADE MATE",
+            "active": true
+        },
+        {
+            "code": "P021",
+            "name": "WORK MISTRY",
+            "description": "WORK MISTRY",
+            "active": true
+        },
+        {
+            "code": "P022",
+            "name": "MALI CUM CHOWKIDAR",
+            "description": "MALI CUM CHOWKIDAR",
+            "active": true
+        }
    ]
 }
