@@ -30901,6 +30901,24 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+{
+      "rolecode": "CLERK",
+      "actionid": 4281,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "SENIOR_ASSISTANT",
+      "actionid": 4281,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4281,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
 			{
 			"rolecode": "SI",
 			"actionid": "1861",
@@ -61682,6 +61700,12 @@
 			},
 			{
 				 "rolecode": "challanSI",
+				 "actionid": 2443,
+				 "actioncode": "",
+				 "tenantId": "ch"
+			},
+			{
+				 "rolecode": "challanSM",
 				 "actionid": 2443,
 				 "actioncode": "",
 				 "tenantId": "ch"
