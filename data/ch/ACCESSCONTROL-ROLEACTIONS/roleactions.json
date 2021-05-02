@@ -63823,6 +63823,12 @@
 			"actionid": "2612",
 			"actioncode": "",
 			"tenantId": "ch"
+		  },
+		  {
+			"rolecode": "BK_ADMIN",
+			"actionid": "8068",
+			"actioncode": "",
+			"tenantId": "ch"
 		  }			
 	]
 }
