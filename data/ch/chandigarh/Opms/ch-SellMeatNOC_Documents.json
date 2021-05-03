@@ -11,6 +11,16 @@
       "dropdownData": [
       ],
       "description": "SELLMEAT.PROOF_POSSESSION_RENT.PROOF_POSSESSION_RENT_AGREEMENT_DESCRIPTION"
+    },
+	{
+      "code": "SELLMEAT.ID_PROOF",
+      "documentType": "SELLMEAT",
+      "required": true,
+      "active": true,
+      "hasDropdown": false,
+      "dropdownData": [
+      ],
+      "description": "SELLMEAT.ID_PROOF"
     }
   ]
 }
