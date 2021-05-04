@@ -20879,13 +20879,24 @@
       "path": ""
     },
 	{
-      "id": 4605,
+      "id": 4612,
       "name": "Download data exchange for nielet",
       "url": "/ws-calculator/billGeneration/_getDataExchangeFile",
       "displayName": "Download data exchange for nielet",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "ws-calculator",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4613,
+      "name": "Update meter",
+      "url": "/ws-services/wc/_deactivateConnection",
+      "displayName": "Update meter",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
       "code": "null",
       "path": ""
     },
@@ -24912,7 +24923,27 @@
 		"path": "Works.BOQ Master.Modify BOQ",
 		"navigationURL": "services/works/boq/editboqnew",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+    {
+      "id": 8068,
+      "name": "Community Center Room Master",
+      "url": "url",
+      "displayName": "Community Center Room Master",
+      "orderNumber": 1,
+      "queryParams": "",
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BOOKINGS",
+      "tenantId": "ch",
+      "createdDate": null,
+      "createdBy": null,
+      "lastModifiedDate": null,
+      "lastModifiedBy": null,
+      "path": "Bookings Services.Master Management.Community Center Room Master",
+      "navigationURL": "egov-services/admin/roomFee",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    }
 
   ]
 }
