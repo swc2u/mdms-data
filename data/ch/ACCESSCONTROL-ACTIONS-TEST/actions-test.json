@@ -20881,11 +20881,11 @@
 	{
       "id": 4612,
       "name": "Download data exchange for nielet",
-      "url": "/ws-calculator/billGeneration/_getDataExchangeFile",
+      "url": "/ws-services/billGeneration/_getDataExchangeFile",
       "displayName": "Download data exchange for nielet",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "ws-calculator",
+      "serviceCode": "ws-services",
       "code": "null",
       "path": ""
     },
