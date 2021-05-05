@@ -769,6 +769,12 @@
             "name": "MALI CUM CHOWKIDAR",
             "description": "MALI CUM CHOWKIDAR",
             "active": true
+        },
+        {
+            "code": "343",
+            "name": "SUPERVISOR",
+            "description": "SUPERVISOR",
+            "active": true
         }
    ]
 }
