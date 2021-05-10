@@ -312,9 +312,9 @@
 		 {
             "id": "17",
             "tenantId": "ch"  , 
-            "finYearRange": "2020-2021",
-            "name": "2020-2021",
-            "code": "2020-2021",
+            "finYearRange": "2021-2022",
+            "name": "2021-2022",
+            "code": "2021-2022",
             "startingDate": 1522540801000,
             "endingDate": 1838159999000,
             "active": true,
@@ -326,9 +326,9 @@
 		{
             "id": "18",
             "tenantId": "ch"  , 
-            "finYearRange": "2020-2021",
-            "name": "2020-2021",
-            "code": "2020-2021",
+            "finYearRange": "2021-2022",
+            "name": "2021-2022",
+            "code": "2021-2022",
             "startingDate": 1522540801000,
             "endingDate": 1838159999000,
             "active": true,
@@ -340,9 +340,9 @@
 		{
             "id": "19",
             "tenantId": "ch"  , 
-            "finYearRange": "2020-2021",
-            "name": "2020-2021",
-            "code": "2020-2021",
+            "finYearRange": "2021-2022",
+            "name": "2021-2022",
+            "code": "2021-2022",
             "startingDate": 1522540801000,
             "endingDate": 1838159999000,
             "active": true,
@@ -354,9 +354,9 @@
 		{
             "id": "20",
             "tenantId": "ch"  , 
-            "finYearRange": "2020-2021",
-            "name": "2020-2021",
-            "code": "2020-2021",
+            "finYearRange": "2021-2022",
+            "name": "2021-2022",
+            "code": "2021-2022",
             "startingDate": 1522540801000,
             "endingDate": 1838159999000,
             "active": true,
@@ -368,9 +368,9 @@
 		{
             "id": "21",
             "tenantId": "ch"  , 
-            "finYearRange": "2020-2021",
-            "name": "2020-2021",
-            "code": "2020-2021",
+            "finYearRange": "2021-2022",
+            "name": "2021-2022",
+            "code": "2021-2022",
             "startingDate": 1522540801000,
             "endingDate": 1838159999000,
             "active": true,
@@ -382,9 +382,9 @@
 		{
             "id": "22",
             "tenantId": "ch"  , 
-            "finYearRange": "2020-2021",
-            "name": "2020-2021",
-            "code": "2020-2021",
+            "finYearRange": "2021-2022",
+            "name": "2021-2022",
+            "code": "2021-2022",
             "startingDate": 1522540801000,
             "endingDate": 1838159999000,
             "active": true,
@@ -392,6 +392,20 @@
             "isClosed": false,
             "transferClosingBalance": false,
             "module": "BKROOM"
-        }
+        },
+	    {
+		  "id": "52",
+		  "tenantId": "ch",
+		  "finYearRange": "2021-22",
+		  "name": "2021-22",
+		  "code": "2021-22",
+		  "startingDate": 1617215409000,
+		  "endingDate": 1648751399000,
+		  "active": true,
+		  "isActiveForPosting": false,
+		  "isClosed": false,
+		  "transferClosingBalance": false,
+		  "module": "EC"
+		}
     ]
 }
