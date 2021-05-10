@@ -15127,12 +15127,7 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1592,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
+		
 		{
 			"rolecode": "PGR-ADMIN",
 			"actionid": 1556,
@@ -16567,24 +16562,7 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		{
-			"rolecode": "TL_APPROVER",
-			"actionid": 1592,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "TL_CEMP",
-			"actionid": 1592,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
-		{
-			"rolecode": "CTL_ADMIN",
-			"actionid": 1592,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
+		
 		{
 			"rolecode": "TL_APPROVER",
 			"actionid": 1429,
@@ -34335,12 +34313,7 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		{
-			"rolecode": "PGR_REPORTS_VIEWER",
-			"actionid": 1592,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
+		
 		{
 			"rolecode": "PGR_REPORTS_VIEWER",
 			"actionid": 1846,
