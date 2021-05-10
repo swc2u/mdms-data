@@ -4844,17 +4844,7 @@
          "order":"1",
          "isRequired":false
       },
-	  {
-         "category":"CHARGES",
-         "service":"OPMS.SELLMEATNOC",
-         "name":"Sell Meat NOC Tax",
-         "code":"SELLMEATNOC_POSTAL_CHARGES",
-         "isDebit":false,
-         "isActualDemand":true,
-         "order":"2",
-         "isRequired":false,
-         "taxAmount":"0"
-      },
+	 
       {
          "category":"FEE",
          "service":"OPMS.SELLMEATNOC",
