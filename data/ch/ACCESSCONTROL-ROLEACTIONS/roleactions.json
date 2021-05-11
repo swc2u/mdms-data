@@ -18408,12 +18408,7 @@
       "actioncode": "",
       "tenantId": "ch"
     },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1808,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
+  
     {
       "rolecode": "NOC_CEMP",
       "actionid": 1809,
