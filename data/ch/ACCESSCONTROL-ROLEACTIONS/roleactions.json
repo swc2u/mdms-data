@@ -54203,6 +54203,24 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "NULMJA",
+				"actionid": 4566,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULMSDO",
+				"actionid": 4566,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULMACMC",
+				"actionid": 4566,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "EMPLOYEE",
 				"actionid": 4567,
 				"actioncode": "",
