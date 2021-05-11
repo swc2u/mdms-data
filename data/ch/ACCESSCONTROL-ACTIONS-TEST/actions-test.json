@@ -22795,6 +22795,39 @@
 		"path": ""
     },
 	{
+      "id": 4571,
+      "name": "rainmaker-nulm",
+      "url": "card",
+      "displayName": "NULM",
+      "orderNumber": 3,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-nulm/home",
+      "leftIcon": "social:people",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+	{
+      "id": 4572,
+      "name": "rainmaker-citizen-nulm",
+      "url": "card",
+      "displayName": "NULM",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-nulm/home",
+      "leftIcon": "action:store",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+	
+	{
 		"id": 4557,
 		"name": "Create Estimate",
 		"url": "services/works/estimatePreparation/newform",
