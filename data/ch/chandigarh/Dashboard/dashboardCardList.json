@@ -80,6 +80,14 @@
         "SAJE"
       ],
       "icon": "material-icons module-page-icon",
+      "route": "StoreDashboard"
+    },
+        {
+      "cardName": "StoreIndent_dashboard_2",
+      "roles": [
+        "SAJE"
+      ],
+      "icon": "material-icons module-page-icon",
       "route": "StoreIndentDashboard"
     },
     {
