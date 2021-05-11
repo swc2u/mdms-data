@@ -18203,12 +18203,7 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-		{
-			"rolecode": "EMPLOYEE",
-			"actionid": 1808,
-			"actioncode": "",
-			"tenantId": "ch"
-		},
+		
 		{
 			"rolecode": "NOC_CEMP",
 			"actionid": 1809,
@@ -20254,6 +20249,18 @@
 		{
 			"rolecode": "CITIZEN",
 			"actionid": "2063",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": "4572",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NULM_ADMIN",
+			"actionid": "4571",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -53463,6 +53470,42 @@
 			{
 				"rolecode": "NULM_ADMIN",
 				"actionid": 4550,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULMJA",
+				"actionid": 4550,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULMSDO",
+				"actionid": 4550,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULMACMC",
+				"actionid": 4550,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULMJA",
+				"actionid": 4572,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULMSDO",
+				"actionid": 4572,
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "NULMACMC",
+				"actionid": 4572,
 				"actioncode": "",
 				"tenantId": "ch"
 			},
