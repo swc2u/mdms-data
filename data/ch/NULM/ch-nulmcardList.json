@@ -38,11 +38,6 @@
 	  "routeCitizen":"search-smid-org"
     },
 	{
-      "code": "SVRU",
-	  "roles": ["EMPLOYEE"],
-	  "routeCitizen":"search-svru"
-    },
-	{
       "code": "SUHP",
 	  "roles": ["EMPLOYEE"],
 	  "routeCitizen":"search-suh"
@@ -51,12 +46,7 @@
       "code": "SUHLOG",
 	  "roles": ["EMPLOYEE"],
 	  "routeCitizen":"search-log-maintenance"
-    },
-	{
-      "code": "SUHP",
-	  "roles": ["EMPLOYEE"],
-	  "routeCitizen":"search-suh"
-    },
+    },	
 	{
       "code": "SUSVT",
 	  "roles": ["EMPLOYEE"],
