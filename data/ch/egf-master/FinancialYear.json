@@ -282,6 +282,20 @@
 		  "module": "SW"
 		},
 		{
+      "id": "24",
+      "tenantId": "ch",
+      "finYearRange": "2021-22",
+      "name": "2021-22",
+      "code": "2021-22",
+      "startingDate": 1617215409000,
+      "endingDate": 1648751399000,
+      "active": true,
+      "isActiveForPosting": false,
+      "isClosed": false,
+      "transferClosingBalance": false,
+      "module": "OPMS"
+    },
+		{
 		  "id": "13",
 		  "tenantId": "ch",
 		  "finYearRange": "2019-20",
