@@ -22640,21 +22640,7 @@
       "code": "null",
       "path": ""
     },
-	{
-      "id": 4066,
-      "name": "Dashboard",
-      "url": "url",
-      "displayName": "Dashboard",
-      "orderNumber": 1,
-      "parentModule": "",
-      "enabled": true,
-      "serviceCode": "",
-      "code": "null",
-      "path": "Dashboard",
-      "navigationURL": "egov-dashboard/home",
-      "leftIcon": "action:description",
-      "rightIcon": ""
-    },
+	
     {
       "id": 4069,
       "name": "Dashboard Water Sewerage",
