@@ -54,7 +54,7 @@
     },
 	{
       "code": "SUHP",
-	  "roles": ["CITIZEN","EMPLOYEE"],
+	  "roles": ["EMPLOYEE"],
 	  "routeCitizen":"search-suh"
     },
 	{
