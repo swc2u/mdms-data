@@ -775,6 +775,12 @@
             "name": "SUPERVISOR",
             "description": "SUPERVISOR",
             "active": true
+        },
+        {
+            "code": "344",
+            "name": "OSD",
+            "description": "OSD",
+            "active": true
         }
    ]
 }
