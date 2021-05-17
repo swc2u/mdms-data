@@ -161,6 +161,14 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "SewerageDashboard"
+    },
+    {
+      "cardName": "Audit_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "AuditDashboard"
     }
   ]
 }
