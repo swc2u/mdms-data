@@ -82,7 +82,7 @@
       "icon": "material-icons module-page-icon",
       "route": "StoreDashboard"
     },
-        {
+    {
       "cardName": "StoreIndent_dashboard_2",
       "roles": [
         "SAJE"
@@ -125,7 +125,7 @@
     {
       "cardName": "Pension_dashboard_1",
       "roles": [
-        "PENSION_SYSTEM"
+        "ACCOUNTS_OFFICER"
       ],
       "icon": "material-icons module-page-icon",
       "route": "PensionDashboard"
@@ -137,6 +137,38 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "NULMDashboard"
+    },
+    {
+      "cardName": "Agenda_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "AgendaDashboard"
+    },
+    {
+      "cardName": "Legal_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "LegalDashboard"
+    },
+    {
+      "cardName": "Sewerage_dashboard_1",
+      "roles": [
+        "SW_SDE_18"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "SewerageDashboard"
+    },
+    {
+      "cardName": "Audit_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "AuditDashboard"
     }
   ]
 }
