@@ -169,6 +169,14 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "AuditDashboard"
+    },
+    {
+      "cardName": "Finance_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "FinanceDashboard"
     }
   ]
 }
