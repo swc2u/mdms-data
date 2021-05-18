@@ -22822,7 +22822,7 @@
       "code": "",
       "path": "",
       "navigationURL": "egov-nulm/home",
-      "leftIcon": "action:store",
+        "leftIcon": "action:assignment", 
       "rightIcon": "",
       "queryParams": ""
     },
