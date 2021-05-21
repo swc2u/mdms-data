@@ -14146,7 +14146,7 @@
       "id": 1816,
       "name": "rainmaker-citizen-tradelicence",
       "url": "card",
-      "displayName": "Trade Licence",
+      "displayName": "License & Lease Renewal",
       "orderNumber": 2,
       "parentModule": "",
       "enabled": true,
@@ -15146,7 +15146,7 @@
       "id": 2063,
       "name": "rainmaker-citizen-opms",
       "url": "card",
-      "displayName": "OPMS",
+      "displayName": "Online Permission",
       "orderNumber": 2,
       "parentModule": "",
       "enabled": true,
@@ -16979,7 +16979,7 @@
       "id": 2423,
       "name": "rainmaker-citizen-eChallan",
       "url": "card",
-      "displayName": "EC_eChallan",
+      "displayName": "E-Challan",
       "orderNumber": 3,
       "parentModule": "",
       "enabled": true,
@@ -18059,7 +18059,7 @@
         "id": 6005,
         "name": "rainmaker-citizen-egov-integration",
 		"url": "card",
-		"displayName": "Prorperty Tax Search",
+		"displayName": "Property Tax",
 		"orderNumber": 2,
 		"queryParams": "",
 		"parentModule": "",
@@ -18709,7 +18709,7 @@
       "id": 8003,
       "name": "bookings",
       "url": "url",
-      "displayName": "Services",
+      "displayName": "Bookings",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
@@ -20269,6 +20269,17 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
+    },
+	  {
+      "id": 4281  ,
+      "name": "PensionerPensionContinuation",
+      "url": "/pension-services/v1/_pensionerPensionContinuation",
+      "displayName": "Pensioner Pension Continuation",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
     }
 	,
     {
@@ -20939,7 +20950,7 @@
       "path": ""
     },
     {
-      "displayName": "RP Rented Properties",
+      "displayName": "Rented Properties",
       "enabled": true,
       "id": 21810,
       "leftIcon": "action:announcement",

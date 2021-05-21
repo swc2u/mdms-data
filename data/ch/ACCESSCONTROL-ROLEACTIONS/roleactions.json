@@ -37667,6 +37667,12 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+	  {
+      "rolecode": "CLERK",
+      "actionid": 4281,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
       {
       "rolecode": "BK_ADMIN",
       "actionid": 8017,
