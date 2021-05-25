@@ -1178,6 +1178,14 @@
          "code":"OPMS.PETNOC10YRS2019",
          "financialYear":"2019-29"
       },
+	  {
+         "fromDate":"1522540801000",
+         "toDate":"1838159999000",
+         "periodCycle":"TENYEARS",
+         "service":"OPMS.SELLMEATNOC",
+         "code":"OPMS.SELLMEATNOC10YRS2019",
+         "financialYear":"2019-29"
+      },
       {
          "fromDate":"1522540801000",
          "toDate":"1838159999000",
