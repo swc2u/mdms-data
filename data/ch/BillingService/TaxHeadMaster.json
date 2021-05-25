@@ -4067,11 +4067,33 @@
          "isRequired":false,
          "taxAmount":"25"
       },
+	  
       {
          "category":"FEE",
          "service":"OPMS.PETNOC",
          "name":"Pet NOC Fee",
          "code":"PETNOC_FEE",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":false
+      },
+	 {
+         "category":"CHARGES",
+         "service":"OPMS.SELLMEATNOC",
+         "name":"Sell Meat Tax",
+         "code":"SELLMEATNOC_POSTAL_CHARGES",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"2",
+         "isRequired":false,
+         "taxAmount":"0"
+      },
+      {
+         "category":"FEE",
+         "service":"OPMS.SELLMEATNOC",
+         "name":"Sell Meat Fee",
+         "code":"SELLMEATNOC_FEE",
          "isDebit":false,
          "isActualDemand":true,
          "order":"1",
