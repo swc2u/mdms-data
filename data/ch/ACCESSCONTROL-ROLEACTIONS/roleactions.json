@@ -63959,6 +63959,12 @@
 			"actionid": "8068",
 			"actioncode": "",
 			"tenantId": "ch"
-		  }			
+		  },
+			{
+				"rolecode": "EGF_BILL_CREATOR",
+				"actionid": 8069,
+				"actioncode": "",
+				"tenantId": "ch"
+			}			
 	]
 }
