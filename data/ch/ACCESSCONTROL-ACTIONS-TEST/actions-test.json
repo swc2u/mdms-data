@@ -22974,6 +22974,28 @@
 		"leftIcon": "editor:insert-chart"
 	},
 	{
+      "id": 4612,
+      "name": "Download data exchange for nielet",
+      "url": "/ws-services/billGeneration/_getDataExchangeFile",
+      "displayName": "Download data exchange for nielet",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4613,
+      "name": "Update meter",
+      "url": "/ws-services/wc/_deactivateConnection",
+      "displayName": "Update meter",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 9000,
       "name": "Receipt Report",
       "url": "/services/collection/receipts/daybookReport.action",

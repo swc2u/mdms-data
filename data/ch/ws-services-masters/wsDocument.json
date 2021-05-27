@@ -333,7 +333,7 @@
 		  {
 			"name": "If house on share percentage basis then an affidavit duly attested by Magistrate is required for Floor clarification",
 			"code": "UPPERFLOORCONNECTION_AFFIDAVIT_FLOOR_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -990,7 +990,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1047,7 +1047,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1104,7 +1104,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1161,7 +1161,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1218,7 +1218,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1275,7 +1275,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1332,7 +1332,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1389,7 +1389,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1446,7 +1446,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1740,7 +1740,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1950,7 +1950,7 @@
 		  {
 			"name": "Receipt of payment of road cut restoration charges, if involved",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -2431,6 +2431,43 @@
 			"isMandatory": false,
 			"active": true     
 		  } ,
+		  {
+			"name": "Others",
+			"code": "WS_OTHERS",
+			"isMandatory": false,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      "WaterActivity": "UPDATE_METER_INFO",
+	  "active": true,
+	  "document" :[
+		  {  
+			"name": "Application Addressed to concerned sub-division",
+			"code": "UPDATE_METER_INFO_APPLICATION_SUBDIV",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "New Water Meter Purchased Bill Copy",
+			"code": "UPDATE_METER_INFO_METER_PURCHASE_BILL",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of last paid bill",
+			"code": "UPDATE_METER_INFO_LASTPAID_BILL",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "ID Proof of all the owners",
+			"code": "UPDATE_METER_INFO_IDPROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
