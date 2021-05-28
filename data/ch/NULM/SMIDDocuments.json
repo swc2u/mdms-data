@@ -18,7 +18,7 @@
       "active": true,
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE",
-      "description": "Photo of the applicant"
+      "description": "Applicant Photo – Passport Size"
     }
       
   ]

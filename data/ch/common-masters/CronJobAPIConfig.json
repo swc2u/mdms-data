@@ -150,6 +150,18 @@
       "jobName": "daily",
       "active": "true",
       "method": "POST",
+      "url": "http://est-services.egov:8080/est-services/property-master/_update_dues",
+      "payload": {
+        "RequestInfo": "{DEFAULT_REQUESTINFO}"
+      },
+      "header": {
+        "Content-Type": "application/json"
+      }
+    },
+    {
+      "jobName": "daily",
+      "active": "true",
+      "method": "POST",
       "url": "http://rp-services.egov:8080/rp-services/property/_update_dues?tenantId=ch.chandigarh",
       "payload": {
         "RequestInfo": "{DEFAULT_REQUESTINFO}"

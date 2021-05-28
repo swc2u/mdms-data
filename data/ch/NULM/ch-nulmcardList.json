@@ -1,0 +1,56 @@
+{
+  "tenantId": "ch.chandigarh",
+  "moduleName": "nulm",
+  "cardList": [
+    {
+      "code": "SEP",
+	  "roles": ["CITIZEN","EMPLOYEE"],
+	  "routeCitizen":"search-sep"
+    },
+	{
+      "code": "SMID",
+	  "roles": ["CITIZEN","EMPLOYEE"],
+	  "routeCitizen":"search-smid"
+    },
+	{
+      "code": "SUSV",
+	  "roles": ["CITIZEN","EMPLOYEE"],
+	  "routeCitizen":"search-susv"
+    },
+	{
+      "code": "SVRU",
+	  "roles": ["CITIZEN","EMPLOYEE"],
+	  "routeCitizen":"search-svru"
+    },
+	{
+      "code": "SUHC",
+	  "roles": ["CITIZEN","EMPLOYEE"],
+	  "routeCitizen":"searchSuh"
+    },
+	{
+      "code": "NGOR",
+	  "roles": ["EMPLOYEE"],
+	  "routeCitizen":"search-organization"
+    },
+	{
+      "code": "SMIDNGO",
+	  "roles": ["EMPLOYEE"],
+	  "routeCitizen":"search-smid-org"
+    },
+	{
+      "code": "SUHP",
+	  "roles": ["EMPLOYEE"],
+	  "routeCitizen":"search-suh"
+    },
+	{
+      "code": "SUHLOG",
+	  "roles": ["EMPLOYEE"],
+	  "routeCitizen":"search-log-maintenance"
+    },	
+	{
+      "code": "SUSVT",
+	  "roles": ["EMPLOYEE"],
+	  "routeCitizen":"search-susv-transaction"
+    }
+  ]
+}

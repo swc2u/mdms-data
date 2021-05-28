@@ -80,20 +80,28 @@
         "SAJE"
       ],
       "icon": "material-icons module-page-icon",
+      "route": "StoreDashboard"
+    },
+    {
+      "cardName": "StoreIndent_dashboard_2",
+      "roles": [
+        "SAJE"
+      ],
+      "icon": "material-icons module-page-icon",
       "route": "StoreIndentDashboard"
     },
     {
       "cardName": "WNS_dashboard_1",
       "roles": [
-        "WS_FINANCE"
+        "WS_COMMON"
       ],
       "icon": "material-icons module-page-icon",
-      "route": "WNSDashboard"
+      "route": "WaterDashboard"
     },
     {
       "cardName": "Work_dashboard_1",
       "roles": [
-        "WS_FINANCE"
+        "WS_COMMON"
       ],
       "icon": "material-icons module-page-icon",
       "route": "WorkDashboard"
@@ -101,7 +109,7 @@
     {
       "cardName": "EState_dashboard_1",
       "roles": [
-        "ES_EB_DISPATCH_OFFICER"
+        "ES_ADDITIONAL_COMMISSIONER"
       ],
       "icon": "material-icons module-page-icon",
       "route": "EstateDashboard"
@@ -113,6 +121,62 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "RentedPropertyDashboard"
+    },
+    {
+      "cardName": "Pension_dashboard_1",
+      "roles": [
+        "ACCOUNTS_OFFICER"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "PensionDashboard"
+    },
+    {
+      "cardName": "NULM_dashboard_1",
+      "roles": [
+        "NULMSDO"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "NULMDashboard"
+    },
+    {
+      "cardName": "Agenda_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "AgendaDashboard"
+    },
+    {
+      "cardName": "Legal_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "LegalDashboard"
+    },
+    {
+      "cardName": "Sewerage_dashboard_1",
+      "roles": [
+        "SW_SDE_18"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "SewerageDashboard"
+    },
+    {
+      "cardName": "Audit_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "AuditDashboard"
+    },
+    {
+      "cardName": "Finance_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "FinanceDashboard"
     }
   ]
 }

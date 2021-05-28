@@ -1078,7 +1078,7 @@
               },
               "sms": {
                 "enabled": true,
-                "to": "{applicationDetails.owner.mobileNumber}"
+                "to": "{applicationDetails.owner.ownerDetails.mobileNumber}"
               },
                "event": {
                 "enabled": true,
