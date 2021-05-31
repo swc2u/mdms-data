@@ -14866,18 +14866,6 @@
     },
     {
       "rolecode": "EMPLOYEE",
-      "actionid": 1580,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "PGR-ADMIN",
-      "actionid": 1580,
-      "actioncode": "",
-      "tenantId": "ch"
-    },
-    {
-      "rolecode": "EMPLOYEE",
       "actionid": 1584,
       "actioncode": "",
       "tenantId": "ch"
