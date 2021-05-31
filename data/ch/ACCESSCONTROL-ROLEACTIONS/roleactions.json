@@ -30954,6 +30954,49 @@
       "actionid": 4283,
       "actioncode": "",
       "tenantId": "ch"
+    }
+    ,
+    {
+      "rolecode": "DDO",
+      "actionid": 4284,
+      "actioncode": "",
+      "tenantId": "ch"  
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4284,
+      "actioncode": "",
+      "tenantId": "ch"  
+    },
+{
+      "rolecode": "SENIOR_ASSISTANT",
+      "actionid": 4284,
+      "actioncode": "",
+      "tenantId": "ch"  
+    },
+{
+      "rolecode": "CLERK",
+      "actionid": 4284,
+      "actioncode": "",
+      "tenantId": "ch"  
+    },
+{
+      "rolecode": "CHIEF_ACCOUNTS_OFFICER",
+      "actionid": 4284,
+      "actioncode": "",
+      "tenantId": "ch"  
+    },
+{
+      "rolecode": "ADDITIONAL_COMMISSIONER",
+      "actionid": 4284,
+      "actioncode": "",
+      "tenantId": "ch"  
+    },
+{
+      "rolecode": "SUPERUSER",
+      "actionid": 4284,
+      "actioncode": "",
+      "tenantId": "ch"  
     },
 			{
 			"rolecode": "SI",
