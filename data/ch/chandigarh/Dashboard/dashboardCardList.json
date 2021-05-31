@@ -96,7 +96,7 @@
         "WS_COMMON"
       ],
       "icon": "material-icons module-page-icon",
-      "route": "WNSDashboard"
+      "route": "WaterDashboard"
     },
     {
       "cardName": "Work_dashboard_1",
@@ -109,7 +109,7 @@
     {
       "cardName": "EState_dashboard_1",
       "roles": [
-        "ES_EB_DISPATCH_OFFICER"
+        "ES_ADDITIONAL_COMMISSIONER"
       ],
       "icon": "material-icons module-page-icon",
       "route": "EstateDashboard"
@@ -169,6 +169,14 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "AuditDashboard"
+    },
+    {
+      "cardName": "Finance_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "FinanceDashboard"
     }
   ]
 }

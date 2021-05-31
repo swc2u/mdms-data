@@ -19219,6 +19219,28 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
+    },
+{
+      "id": 4282,
+      "name": "SearchPensionerDetails",
+      "url": "/pension-services/v1/_searchPensionerDetails",
+      "displayName": "Search Pensioner Details",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4283,
+      "name": "UpdatePensionerDetails",
+      "url": "/pension-services/v1/_updatePensionerDetails",
+      "displayName": "Update Pensioner Details",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
     }
 	,
 	{
@@ -24976,6 +24998,20 @@
       "navigationURL": "egov-services/admin/roomFee",
       "leftIcon": "action:assignment",
       "rightIcon": ""
+    },
+    {
+      "id": 8069,
+      "name": "Create Refund Bill",
+      "url": "/services/EGF/refund/_searchForm",
+      "parentModule": "",
+      "displayName": "Create Refund Bill",
+      "orderNumber": 6,
+      "enabled": true,
+      "serviceCode": "FinanceBill",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Transactions.Bills Accounting.Create Refund Bill",
+      "navigationURL": "services/EGF/refund/_searchForm"
     }
 
   ]
