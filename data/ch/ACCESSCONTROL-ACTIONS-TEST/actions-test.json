@@ -25033,6 +25033,30 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Transactions.Bills Accounting.Create Refund Bill",
       "navigationURL": "services/EGF/refund/_searchForm"
+    },
+	{
+      "id": 8070,
+      "name": "Save Booking Card Details",
+      "url": "/bookings/api/save/cardDetails",
+      "parentModule": "",
+      "displayName": "Save Booking Card Details",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8071,
+      "name": "Save Booking Lock Dates",
+      "url": "/bookings/park/community/lock/dates/_save",
+      "parentModule": "",
+      "displayName": "Save Booking Lock Dates",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
     }
 
   ]
