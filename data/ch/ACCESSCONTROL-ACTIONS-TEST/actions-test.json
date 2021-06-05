@@ -24130,7 +24130,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Voucher Detailed Report",
-      "navigationURL": "services/EGF/journalvoucher/searchvoucher"
+      "navigationURL": "services/EGF/journalvoucher/searchVoucher"
     },
 	{
 		"id": 7017,
