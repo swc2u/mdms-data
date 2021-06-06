@@ -51,14 +51,6 @@
       "route": "TradeLicenseDashboard"
     },
     {
-      "cardName": "Eaawas_dashboard_1",
-      "roles": [
-        "GRO"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "EaawasDashboard"
-    },
-    {
       "cardName": "OPMS_dashboard_1",
       "roles": [
         "OSD"
@@ -83,14 +75,6 @@
       "route": "StoreIndentDashboard"
     },
     {
-      "cardName": "WNS_dashboard_1",
-      "roles": [
-        "WS_FINANCE"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "WNSDashboard"
-    },
-    {
       "cardName": "Work_dashboard_1",
       "roles": [
         "WS_FINANCE"
@@ -113,6 +97,22 @@
       ],
       "icon": "material-icons module-page-icon",
       "route": "RentedPropertyDashboard"
+    },
+    {
+      "cardName": "WNS_dashboard_1",
+      "roles": [
+        "WS_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "WaterDashboard"
+    },
+    {
+      "cardName": "Sewerage_dashboard_1",
+      "roles": [
+        "SW_COMMON"
+      ],
+      "icon": "material-icons module-page-icon",
+      "route": "SewerageDashboard"
     }
   ]
 }
