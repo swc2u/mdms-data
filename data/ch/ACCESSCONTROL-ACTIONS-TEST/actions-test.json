@@ -25057,6 +25057,20 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 8072,
+      "name": "Create Random Notice",
+      "url": "/services/council/councilmeeting/newRandomNotice",
+      "displayName": "Create Notice",
+      "orderNumber": "1",
+      "parentModule": "rainmaker-agenda",
+      "enabled": true,
+      "serviceCode": "AgendaBranch",
+      "code": "",
+      "path": "Agenda Branch.Notice.Create Random Notice",
+      "navigationURL": "services/council/councilmeeting/newRandomNotice",
+      "leftIcon": "editor:insert-chart"
     }
 
   ]
