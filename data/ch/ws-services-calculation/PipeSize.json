@@ -243,21 +243,6 @@
           "meterfitting": 3000
         }
       ]
-    },
-    {
-      "id": "12",
-      "size": "Private Meter",
-      "MeterRentCode": "13",
-      "SanctionCapacity": "",
-      "isActive": true,
-      "charges": [
-        {
-          "security": null,
-          "ferrule": 0,
-          "metertesting": 0,
-          "meterfitting": 0
-        }
-      ]
     }
   ]
 }
