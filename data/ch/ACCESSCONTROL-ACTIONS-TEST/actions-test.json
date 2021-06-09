@@ -10615,6 +10615,44 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Transactions.Bills Accounting.Expense Bill"
     },
+	{
+      "id": 1594,
+      "name": "ComplaintReport",
+      "url": "url",
+      "displayName": "Complaint",
+      "orderNumber": 6,
+      "parentModule": "rainmaker-pgr",
+      "enabled": true,
+      "serviceCode": "PGR",
+      "code": "null",
+      "path": "Complaints.PGR Reports.ComplaintReport",
+      "navigationURL": "report/rainmaker-pgr/ComplaintReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+	{
+      "id": 1595,
+      "name": "RainmakerPGR-ComplaintReport-Metadata",
+      "url": "/report/rainmaker-pgr/ComplaintReport/metadata/_get",
+      "displayName": "Rainmaker PGR report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": false,
+      "serviceCode": "RainmakerPGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
+    {
+      "id": 1596,
+      "name": "ComplaintReport",
+      "url": "/report/rainmaker-pgr/ComplaintReport/_get",
+      "displayName": "PGR Report",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "RainmakerPGRReports",
+      "code": "null",
+      "path": "PGR Report"
+    },
     {
       "id": 1601,
       "name": "DesignationSearch",
@@ -13287,7 +13325,7 @@
       "id": 1807,
       "name": "TradeLicense",
       "url": "url",
-      "displayName": "Trade License",
+      "displayName": "License & Lease Renewal",
       "orderNumber": 13,
       "parentModule": "",
       "enabled": true,
@@ -13312,7 +13350,7 @@
       "path": "Reports.Collection Register"
     },
     { 
-      "displayName": "RP Rented Properties",
+      "displayName": "Rented Properties",
       "enabled": true,
       "id": 21810,
       "leftIcon": "action:announcement",
@@ -13596,7 +13634,7 @@
     "leftIcon": "action:gavel"
   },
   { 
-    "displayName": "Estate Properties",
+    "displayName": "Estate Services",
     "enabled": true,
     "id": 30023,
     "leftIcon": "custom:estatebranch",
@@ -15939,7 +15977,7 @@
       "id": 2050,
       "name": "rainmaker-common-opms",
       "url": "card",
-      "displayName": "OPMS-NOC",
+      "displayName": "Online Permission",
       "orderNumber": 3,
       "parentModule": "",
       "enabled": true,
@@ -16079,7 +16117,7 @@
       "id": 2063,
       "name": "rainmaker-citizen-opms",
       "url": "card",
-      "displayName": "OPMS",
+      "displayName": "Online Permission",
       "orderNumber": 2,
       "parentModule": "",
       "enabled": true,
@@ -19170,6 +19208,39 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
+    },
+{
+      "id": 4281  ,
+      "name": "PensionerPensionContinuation",
+      "url": "/pension-services/v1/_pensionerPensionContinuation",
+      "displayName": "Pensioner Pension Continuation",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4282,
+      "name": "SearchPensionerDetails",
+      "url": "/pension-services/v1/_searchPensionerDetails",
+      "displayName": "Search Pensioner Details",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4283,
+      "name": "UpdatePensionerDetails",
+      "url": "/pension-services/v1/_updatePensionerDetails",
+      "displayName": "Update Pensioner Details",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
     }
 	,
 	{
@@ -20159,23 +20230,43 @@
 			"leftIcon": "custom:hcIcon",
 			"rightIcon": ""
 			
-		},        
-		{
-			"id": 2602,
-			"name": "Horticulture",
-			"url": "card",
-			"displayName": "Horticulture",
-			"orderNumber": 14,
-			"parentModule": "",
-			"enabled": true,
-			"serviceCode": "Horticulture",
-			"code": "null",
-			"path": "Horticulture",
-			"navigationURL": "egov-hc/employeeServiceRequestsFilter",
-			"leftIcon": "custom:hcIcon",
-			"rightIcon": ""
-			
-		},
+		}, {
+			  "id": 2614,
+			  "name": "Search HC",
+			  "url": "url",
+			  "displayName": "Search HC",
+			  "orderNumber": 1,
+			  "queryParams": "",
+			  "parentModule": "",
+			  "enabled": true,
+			  "serviceCode": "",
+			  "tenantId": "ch",
+			  "createdDate": null,
+			  "createdBy": null,
+			  "lastModifiedDate": null,
+			  "lastModifiedBy": null,
+			  "path": "Horticulture.Search",
+			  "navigationURL": "egov-hc/employeeServiceRequestsFilter",
+			  "leftIcon": "custom:hcIcon",
+			  "rightIcon": ""
+    },     
+	{
+		  "id": 2602,
+		  "name": "rainmaker-common-hc",
+		  "url": "card",
+		  "displayName": "Horticulture",
+		  "orderNumber": 3,
+		  "parentModule": "",
+		  "enabled": true,
+		  "serviceCode": "",
+		  "code": "",
+		  "path": "",
+		  "navigationURL": "egov-hc/employeeServiceRequestsFilter",
+		  "leftIcon": "custom:hcIcon",
+		  "rightIcon": "",
+		  "queryParams": ""
+		},	
+		
 		{
 			"id": 2603,
 			"name": "Service Request",
@@ -20301,26 +20392,26 @@
       "code": "",
       "path": "",
       "navigationURL": "egov-hc/home",
-      "leftIcon": "custom:hcIcon",
+      "leftIcon": "action:assignment",
       "rightIcon": "",
       "queryParams": ""
-    },        
-		{
-			"id": 2611,
-			"name": "HCReport",
-			"url": "url",
-			"displayName": "HCReport",
-			"orderNumber": 15,
-			"parentModule": "",
-			"enabled": true,
-			"serviceCode": "Horticulture",
-			"code": "null",
-			"path": "Horticulture.Reports.hcReport",
-			"navigationURL": "egov-hc/hcReport",
-			"leftIcon": "custom:hcIcon",
-			"rightIcon": ""
-			
-		},
+    },   
+ {
+     "id": 2611,
+	  "name": "HCReport",
+      "url": "egov-hc/hcReport",
+      "displayName": "HCReport",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "null",
+      "path": "Horticulture.Reports.hcReport",
+      "navigationURL": "egov-hc/hcReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },	
+		
 		{
 			"id": 2612,
 			"name": "HC Report",
@@ -20810,6 +20901,28 @@
       "path": ""
     },
 	{
+      "id": 4612,
+      "name": "Download data exchange for nielet",
+      "url": "/ws-services/billGeneration/_getDataExchangeFile",
+      "displayName": "Download data exchange for nielet",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
+      "id": 4613,
+      "name": "Update meter",
+      "url": "/ws-services/wc/_deactivateConnection",
+      "displayName": "Update meter",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "ws-services",
+      "code": "null",
+      "path": ""
+    },
+	{
       "id": 2401,
       "name": "rainmaker-common-eChallan",
       "url": "card",
@@ -21102,7 +21215,7 @@
       "id": 2423,
       "name": "rainmaker-citizen-eChallan",
       "url": "card",
-      "displayName": "EC_eChallan",
+      "displayName": "E-Challan",
       "orderNumber": 3,
       "parentModule": "",
       "enabled": true,
@@ -22704,6 +22817,39 @@
 		"path": ""
     },
 	{
+      "id": 4571,
+      "name": "rainmaker-nulm",
+      "url": "card",
+      "displayName": "NULM",
+      "orderNumber": 3,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-nulm/home",
+      "leftIcon": "social:people",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+	{
+      "id": 4572,
+      "name": "rainmaker-citizen-nulm",
+      "url": "card",
+      "displayName": "NULM",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-nulm/home",
+        "leftIcon": "action:assignment", 
+      "rightIcon": "",
+      "queryParams": ""
+    },
+	
+	{
 		"id": 4557,
 		"name": "Create Estimate",
 		"url": "services/works/estimatePreparation/newform",
@@ -22963,7 +23109,7 @@
       "id": 8008,
       "name": "bookings",
       "url": "url",
-      "displayName": "Services",
+      "displayName": "Bookings",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
@@ -23455,7 +23601,7 @@
         "id": 6005,
         "name": "rainmaker-citizen-egov-integration",
 		"url": "card",
-		"displayName": "Prorperty Tax Search",
+		"displayName": "Property Tax Search",
 		"orderNumber": 2,
 		"queryParams": "",
 		"parentModule": "",
@@ -24832,7 +24978,41 @@
 		"path": "Works.BOQ Master.Modify BOQ",
 		"navigationURL": "services/works/boq/editboqnew",
 		"leftIcon": "editor:insert-chart"
-	}
+	},
+    {
+      "id": 8068,
+      "name": "Community Center Room Master",
+      "url": "url",
+      "displayName": "Community Center Room Master",
+      "orderNumber": 1,
+      "queryParams": "",
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "BOOKINGS",
+      "tenantId": "ch",
+      "createdDate": null,
+      "createdBy": null,
+      "lastModifiedDate": null,
+      "lastModifiedBy": null,
+      "path": "Bookings Services.Master Management.Community Center Room Master",
+      "navigationURL": "egov-services/admin/roomFee",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 8069,
+      "name": "Create Refund Bill",
+      "url": "/services/EGF/refund/_searchForm",
+      "parentModule": "",
+      "displayName": "Create Refund Bill",
+      "orderNumber": 6,
+      "enabled": true,
+      "serviceCode": "FinanceBill",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Transactions.Bills Accounting.Create Refund Bill",
+      "navigationURL": "services/EGF/refund/_searchForm"
+    }
 
   ]
 }

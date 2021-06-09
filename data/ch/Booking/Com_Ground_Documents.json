@@ -9,7 +9,7 @@
         "documentType": "DOC",
         "dropdownData": [],
         "hasDropdown": false,
-        "required": false
+        "required": true
         
     }
     ]
