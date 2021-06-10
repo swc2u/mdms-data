@@ -19241,7 +19241,28 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
-    }
+    },	
+
+{
+            "id": 4284,
+            "name": "rainmaker-common-pms",
+            "url": "/pension-services/v1/_searchEmployee",
+            "displayName": "Search Employee",            
+            "orderNumber": 1,
+            "queryParams": "",
+            "parentModule": "273",
+            "enabled": true,
+            "serviceCode": "DEPT",
+            "tenantId": "ch",
+            "createdDate": null,
+            "createdBy": null,
+            "lastModifiedDate": null,
+            "lastModifiedBy": null,
+            "path": "",
+            "navigationURL": "",
+            "leftIcon": "",
+            "rightIcon": ""
+        }
 	,
 	{
 		"id": 4300,
@@ -24109,7 +24130,7 @@
       "code": "null",
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Voucher Detailed Report",
-      "navigationURL": "services/EGF/journalvoucher/searchvoucher"
+      "navigationURL": "services/EGF/journalvoucher/searchVoucher"
     },
 	{
 		"id": 7017,
@@ -25012,6 +25033,44 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Transactions.Bills Accounting.Create Refund Bill",
       "navigationURL": "services/EGF/refund/_searchForm"
+    },
+	{
+      "id": 8070,
+      "name": "Save Booking Card Details",
+      "url": "/bookings/api/save/cardDetails",
+      "parentModule": "",
+      "displayName": "Save Booking Card Details",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8071,
+      "name": "Save Booking Lock Dates",
+      "url": "/bookings/park/community/lock/dates/_save",
+      "parentModule": "",
+      "displayName": "Save Booking Lock Dates",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 8072,
+      "name": "Create Random Notice",
+      "url": "/services/council/councilmeeting/newRandomNotice",
+      "displayName": "Create Notice",
+      "orderNumber": "1",
+      "parentModule": "rainmaker-agenda",
+      "enabled": true,
+      "serviceCode": "AgendaBranch",
+      "code": "",
+      "path": "Agenda Branch.Notice.Create Random Notice",
+      "navigationURL": "services/council/councilmeeting/newRandomNotice",
+      "leftIcon": "editor:insert-chart"
     }
 
   ]
