@@ -57462,6 +57462,12 @@
 			"actionid": 4611,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "AGENDA_NOTICE",
+			"actionid": 8072,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
 		
   ]
