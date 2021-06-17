@@ -2132,6 +2132,24 @@
          "isVoucherCreationEnabled":true,
          "isActive":true,
          "type":"Adhoc"
+      },
+      {
+         "businessService":"Public Health Department Services (Public Health Div 2)",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      },
+      {
+         "businessService":"Public Health Department Services (Public Health Div 4)",
+         "code":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
       }
    ]
 }
