@@ -5461,6 +5461,406 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"SALES- WATER METER",
+         "code":"SALES_WATER_METER_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"PROPERTY TRANSFER CHARGES/CHANGE OF OWNERSHIP",
+         "code":"PROPERTY_TRANSFER_CHARGESCHANGE_OF_OWNERSHIP_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"CONST. CHARGES - WATER SUPPLY",
+         "code":"CONST_CHARGES_WATER_SUPPLY_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"CONNECTION CHARGES - WATER SUPPLY",
+         "code":"CONNECTION_CHARGES_WATER_SUPPLY_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"DISCONNECTION CHARGES - WATER SUPPLY",
+         "code":"DISCONNECTION_CHARGES_WATER_SUPPLY_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"ENLISTMENT FEES",
+         "code":"ENLISTMENT_FEES_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"FERRULE CHARGES - WATER SUPPLY",
+         "code":"FERRULE_CHARGES_WATER_SUPPLY_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"LABOUR CHARGES - WATER SUPPLY",
+         "code":"LABOUR_CHARGES_WATER_SUPPLY_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"RESTORATION FEES/CHARGES",
+         "code":"RESTORATION_FEESCHARGES_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"RENT - WATER METER",
+         "code":"RENT_WATER_METER_PHD2",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"RENEWAL CHARGES",
+         "code":"RENEWAL_CHARGES_PHD2",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"SEWERAGE CONNECTION FEE",
+         "code":"SEWERAGE_CONNECTION_FEE_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"SEWERAGE CESS",
+         "code":"SEWERAGE_CESS_PHD2",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"SECURITY DEPOSIT - WATER METER",
+         "code":"SECURITY_DEPOSIT_WATER_METER_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"OTHER CHARGES",
+         "code":"OTHER_CHARGES_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"Water/Meter Testing Charges",
+         "code":"TESTING_CHARGES_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"Water Charges",
+         "code":"WATER_CHARGES_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"Miscellaneous Receipt",
+         "code":"WATER_RELATED_MISC_RECEIPT_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"RTI Fees",
+         "code":"WATER_RELATED_RTI_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
+         "name":"Mobile Toilet Van Rent",
+         "code":"MOBILE_TOILET_VAN_RENT_PHD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"SALES- WATER METER",
+         "code":"SALES_WATER_METER_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"PROPERTY TRANSFER CHARGES/CHANGE OF OWNERSHIP",
+         "code":"PROPERTY_TRANSFER_CHARGESCHANGE_OF_OWNERSHIP_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"CONST. CHARGES - WATER SUPPLY",
+         "code":"CONST_CHARGES_WATER_SUPPLY_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"CONNECTION CHARGES - WATER SUPPLY",
+         "code":"CONNECTION_CHARGES_WATER_SUPPLY_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"DISCONNECTION CHARGES - WATER SUPPLY",
+         "code":"DISCONNECTION_CHARGES_WATER_SUPPLY_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"ENLISTMENT FEES",
+         "code":"ENLISTMENT_FEES_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"FERRULE CHARGES - WATER SUPPLY",
+         "code":"FERRULE_CHARGES_WATER_SUPPLY_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"LABOUR CHARGES - WATER SUPPLY",
+         "code":"LABOUR_CHARGES_WATER_SUPPLY_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"RESTORATION FEES/CHARGES",
+         "code":"RESTORATION_FEESCHARGES_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"RENT - WATER METER",
+         "code":"RENT_WATER_METER_PHD4",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"RENEWAL CHARGES",
+         "code":"RENEWAL_CHARGES_PHD4",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"SEWERAGE CONNECTION FEE",
+         "code":"SEWERAGE_CONNECTION_FEE_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"SEWERAGE CESS",
+         "code":"SEWERAGE_CESS_PHD4",
+         "isDebit":false,
+         "isActualDemand":true,
+         "order":"1",
+         "isRequired":true
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"SECURITY DEPOSIT - WATER METER",
+         "code":"SECURITY_DEPOSIT_WATER_METER_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"OTHER CHARGES",
+         "code":"OTHER_CHARGES_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"Water/Meter Testing Charges",
+         "code":"TESTING_CHARGES_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"Water Charges",
+         "code":"WATER_CHARGES_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"Miscellaneous Receipt",
+         "code":"WATER_RELATED_MISC_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"RTI Fees",
+         "code":"WATER_RELATED_RTI_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
+         "name":"Mobile Toilet Van Rent",
+         "code":"MOBILE_TOILET_VAN_RENT_PHD4",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
       }
    ]
 }
