@@ -1470,7 +1470,7 @@
                 {
                   "preConditions": [
                     {
-                      "key": "DOR",
+                      "key": "DOD",
                       "operator": ">=",
                       "value": "2006-01-01"
                     }
