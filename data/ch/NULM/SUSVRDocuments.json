@@ -37,6 +37,15 @@
 	  "accept": "application/pdf,image/*",
       "fileType": "PDF_IMAGE", 
       "description": "NOC From Other Dependent Family Member"
+    },
+	{
+      "code": "NULM_NOC_PHOTO_OF_VENDOR",
+      "documentType": "NULM_NOC_PHOTO_OF_VENDOR",
+      "required": false,
+      "active": true,
+	  "accept": "application/pdf,image/*",
+      "fileType": "PDF_IMAGE", 
+      "description": "vendor photograph"
     }
   ]
 }
