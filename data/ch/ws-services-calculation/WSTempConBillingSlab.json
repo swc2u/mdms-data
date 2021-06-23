@@ -165,6 +165,24 @@
 				{
 					"from": 0,
 					"to": 100000000000,
+					"code": "COMMERCIAL.SCO",
+					"charge": 700
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
+					"code": "COMMERCIAL.BAYSHOP",
+					"charge": 700
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
+					"code": "COMMERCIAL.SEMIINDUSTRY",
+					"charge": 700
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
 					"code": "COMMERCIAL.HOTEL",
 					"charge": 1500
 				},
