@@ -127,6 +127,42 @@
 				},
 				{
 					"from": 0,
+					"to": 900,
+					"code": "COMMERCIAL.SCO",
+					"charge": 15
+				},
+				{
+					"from": 900,
+					"to": 100000000000,
+					"code": "COMMERCIAL.SCO",
+					"charge": 25
+				},
+				{
+					"from": 0,
+					"to": 900,
+					"code": "COMMERCIAL.BAYSHOP",
+					"charge": 15
+				},
+				{
+					"from": 900,
+					"to": 100000000000,
+					"code": "COMMERCIAL.BAYSHOP",
+					"charge": 25
+				},
+				{
+					"from": 0,
+					"to": 900,
+					"code": "COMMERCIAL.SEMIINDUSTRY",
+					"charge": 15
+				},
+				{
+					"from": 900,
+					"to": 100000000000,
+					"code": "COMMERCIAL.SEMIINDUSTRY",
+					"charge": 25
+				},
+				{
+					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.HOTEL",
 					"charge": 35
