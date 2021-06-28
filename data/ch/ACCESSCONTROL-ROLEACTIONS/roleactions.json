@@ -20244,6 +20244,24 @@
 		},
 		{
 			"rolecode": "NULM_ADMIN",
+			"actionid": "4573",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NULM_ADMIN",
+			"actionid": "4574",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NULM_ADMIN",
+			"actionid": "4575",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NULM_ADMIN",
 			"actionid": "4572",
 			"actioncode": "",
 			"tenantId": "ch"

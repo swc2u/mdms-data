@@ -22869,7 +22869,42 @@
       "rightIcon": "",
       "queryParams": ""
     },
-	
+	{
+		"id": 4573,
+		"name": "create alf application",
+		"url": "/nulm-services/v1/alf/_create",
+		"displayName": "create alf application",
+		"orderNumber": 1,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+    },
+	{
+		"id": 4574,
+		"name": "update alf application",
+		"url": "/nulm-services/v1/alf/_update",
+		"displayName": "update alf application",
+		"orderNumber": 1,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+    },
+	{
+		"id": 4575,
+		"name": "get alf application",
+		"url": "/nulm-services/v1/alf/_get",
+		"displayName":  "get alf application",
+		"orderNumber": 1,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+    },
 	{
 		"id": 4557,
 		"name": "Create Estimate",
@@ -23603,6 +23638,7 @@
 		"code": "null",
 		"path": ""
 	},
+	
 	{
         "id": 6004,
         "name": "RTI",
