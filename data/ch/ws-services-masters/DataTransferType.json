@@ -1,0 +1,21 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "DataTransferType": [
+    {
+      "name": "Connection Data",
+      "code": "CONNECTION",
+      "active": true
+    },
+    {
+      "name": "Advices Data",
+      "code": "ADVICES",
+      "active": true
+    }
+  ]
+}
+
+
+
+
+
