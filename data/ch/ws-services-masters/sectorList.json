@@ -598,6 +598,7 @@
 		"name": "LABOUR COLONY",
 		"code": "LD",
 		"ledgerRange":"2",
+		"subdivision":"15",
 		"active": true
 	},
 	{
@@ -646,12 +647,6 @@
 		"name": "NAYA GAON",
 		"code": "NG",
 		"ledgerRange":"1",
-		"active": true
-	},
-	{
-		"name": "MANIMAZRA",
-		"code": "MZ",
-		"ledgerRange":"44",
 		"active": true
 	},
 	{
