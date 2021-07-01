@@ -37704,6 +37704,44 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+	  
+{
+      "rolecode": "CLERK",
+      "actionid": 4282,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "SENIOR_ASSISTANT",
+      "actionid": 4282,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4282,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "CLERK",
+      "actionid": 4283,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "SENIOR_ASSISTANT",
+      "actionid": 4283,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4283,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+
     {
       "rolecode": "DDO",
       "actionid": 4284,
