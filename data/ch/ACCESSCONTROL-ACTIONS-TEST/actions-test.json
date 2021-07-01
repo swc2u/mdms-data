@@ -20280,7 +20280,29 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
+    },	  
+{
+      "id": 4282,
+      "name": "SearchPensionerDetails",
+      "url": "/pension-services/v1/_searchPensionerDetails",
+      "displayName": "Search Pensioner Details",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
     },
+{
+      "id": 4283,
+      "name": "UpdatePensionerDetails",
+      "url": "/pension-services/v1/_updatePensionerDetails",
+      "displayName": "Update Pensioner Details",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },	
 {
             "id": 4284,
             "name": "rainmaker-common-pms",
