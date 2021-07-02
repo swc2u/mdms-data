@@ -18,7 +18,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+           "stolenmetercharges": 1000,
           "metertesting": 80,
           "meterfitting": 300
         }
@@ -40,7 +40,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+           "stolenmetercharges": 1000,
           "metertesting": 100,
           "meterfitting": 360
         }
@@ -63,6 +63,7 @@
 	  "MeterUpdateCharges": [
         {
            
+          "stolenmetercharges": 1000,
           "metertesting": 100,
           "meterfitting": 450
         }
@@ -84,7 +85,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+          "stolenmetercharges": 1000,
           "metertesting": 120,
           "meterfitting": 600
         }
@@ -106,7 +107,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+          "stolenmetercharges": 1000, 
           "metertesting": 140,
           "meterfitting": 1200
         }
@@ -128,7 +129,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+          "stolenmetercharges": 1000, 
           "metertesting": 140,
           "meterfitting": 1800
         }
@@ -150,7 +151,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+          "stolenmetercharges": 1000, 
           "metertesting": 160,
           "meterfitting": 1800
         }
@@ -172,7 +173,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+          "stolenmetercharges": 1000, 
           "metertesting": 180,
           "meterfitting": 1800
         }
@@ -194,7 +195,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+          "stolenmetercharges": 1000, 
           "metertesting": 180,
           "meterfitting": 3000
         }
@@ -216,7 +217,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+          "stolenmetercharges": 1000, 
           "metertesting": 200,
           "meterfitting": 3000
         }
@@ -238,7 +239,7 @@
       ],
 	  "MeterUpdateCharges": [
         {
-           
+          "stolenmetercharges": 1000, 
           "metertesting": 200,
           "meterfitting": 3000
         }

@@ -47,6 +47,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "PRIVATEHOUSESWITHINSECTORS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -103,6 +109,12 @@
 			"name": "Power of Attorney in case of GPA (Attested by Notary Public/ Magistrate).",
 			"code": "VILLAGEHOUSES_POWER_ATTORNEY",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "VILLAGEHOUSES_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -163,6 +175,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "SOCIETYFLATS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -194,6 +212,12 @@
 			"name": "Copy of Possession letter of House (self attested)",
 			"code": "GOVERNMENTHOUSES_POSSESSION_LETTER",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVERNMENTHOUSES_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -233,6 +257,12 @@
 			"name": "Copy of Attorney in case of GPA (Attested by Notary Public/ Magistrate)",
 			"code": "CHBDWELLINGUNITS_ATTORNY_GPA_COLONY",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "CHBDWELLINGUNITS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -292,6 +322,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "REHABILITATIONCOLONIES_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -349,6 +385,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "UPPERFLOORCONNECTION_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -398,6 +440,183 @@
 			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
 			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Others",
+			"code": "WS_OTHERS",
+			"isMandatory": false,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.SCO",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Others",
+			"code": "WS_OTHERS",
+			"isMandatory": false,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.BAYSHOP",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Others",
+			"code": "WS_OTHERS",
+			"isMandatory": false,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "COMMERCIAL.SEMIINDUSTRY",
+      "applicationType": "REGULAR",
+	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter (self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation Certificate from Estate Office (Self attested)",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -451,6 +670,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -502,6 +727,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -545,6 +776,12 @@
 			"name": "Receipt of Sewerage Charges",
 			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_SEWERAGE_CHARGES",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -604,6 +841,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -653,6 +896,12 @@
 			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
 			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -706,6 +955,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -755,6 +1010,12 @@
 			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
 			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -808,6 +1069,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -857,6 +1124,12 @@
 			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
 			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -910,6 +1183,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -959,6 +1238,12 @@
 			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
 			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1018,6 +1303,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -1073,6 +1364,12 @@
 			"name": "Receipt of Sewerage Charges",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1132,6 +1429,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -1187,6 +1490,12 @@
 			"name": "Receipt of Sewerage Charges",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1246,6 +1555,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -1301,6 +1616,12 @@
 			"name": "Receipt of Sewerage Charges",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1360,6 +1681,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -1415,6 +1742,12 @@
 			"name": "Receipt of Sewerage Charges",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1474,6 +1807,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -1523,6 +1862,12 @@
 			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
 			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1576,6 +1921,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -1625,6 +1976,12 @@
 			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
 			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1678,6 +2035,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "PRIVATEHOUSESWITHINSECTORS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -1709,6 +2072,12 @@
 			"name": "Copy of Possession letter of House (self attested)",
 			"code": "GOVERNMENTHOUSES_POSSESSION_LETTER",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVERNMENTHOUSES_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1768,6 +2137,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -1817,6 +2192,12 @@
 			"name": "NOC regarding final payment against temporary water connection from SDE-Incharge",
 			"code": "PRIVATEHOUSESWITHINSECTORS_NOC_FINALPAYMENT_TEMPORARYCONNECTION",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "PRIVATEHOUSESWITHINSECTORS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1870,6 +2251,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -1919,6 +2306,12 @@
 			"name": "NOC regarding final payment against temporary water connection from SDE-In charge",
 			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_PAYMENT",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "COMMERCIAL_INDUSTRIAL_OTHERS_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -1976,6 +2369,12 @@
 			"name": "Receipt of Sewerage Charges",
 			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -2046,6 +2445,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "TEMPORARY_FOR_ALLSITES_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -2076,6 +2481,12 @@
 			"name": "Plumbing work is to be done by the consumer",
 			"code": "TEMPORARY_FOR_SHORT_PERIOD_PLUMBING_WORK",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "TEMPORARY_FOR_SHORT_PERIOD_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -2116,6 +2527,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "TEMPORARY_FOR_UNLIMITED_PERIOD_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -2154,6 +2571,12 @@
 			"isMandatory": true,
 			"active": true     
 		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "TEMPORARY_FOR_CONTRACTORS_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -2176,7 +2599,7 @@
 		  {
 			"name": "ID proof of all the owners",
 			"code": "PERMANENT_DISCONNECTION_IDPROOF",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -2206,7 +2629,7 @@
 		  {
 			"name": "ID proof of all the owners",
 			"code": "TEMPORARY_DISCONNECTION_IDPROOF",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -2237,7 +2660,7 @@
 		   {
 			"name": "ID proof of all the owners",
 			"code": "REACTIVATE_CONNECTION_IDPROOF",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -2267,7 +2690,7 @@
 		  {
 			"name": "ID proof of all the owners",
 			"code": "CONNECTION_CONVERSION_IDPROOF",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -2324,7 +2747,7 @@
 		  {
 			"name": "ID Proof of all the owners",
 			"code": "UPDATE_CONNECTION_HOLDER_INFO_IDPROOF",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -2376,6 +2799,12 @@
 			"name": "Letter with justification of tubewell requirement",
 			"code": "NEW_TUBEWELL_CONNECTION_LETTER_WITH_JUSTIFICATION",
 			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "NEW_TUBEWELL_CONNECTION_IDPROOF",
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
@@ -2438,6 +2867,12 @@
 			"isMandatory": false,
 			"active": true     
 		  } ,
+		   {
+			"name": "ID proof of all the owners",
+			"code": "SEWERAGE_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
 		  {
 			"name": "Others",
 			"code": "WS_OTHERS",
@@ -2472,7 +2907,7 @@
 		  {
 			"name": "ID Proof of all the owners",
 			"code": "UPDATE_METER_INFO_IDPROOF",
-			"isMandatory": true,
+			"isMandatory": false,
 			"active": true     
 		  },
 		  {
