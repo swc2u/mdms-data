@@ -84,8 +84,23 @@
       "active": true
     },
 	{
-      "name": "SCO’S/ SCF’S / BAYSHOP’S/ SEMI INDUSTRIAL/ BOOTHS ETC.",
+      "name": "SCO",
+      "code": "COMMERCIAL.SCO",
+      "active": true
+    },
+	{
+      "name": "SCF",
       "code": "COMMERCIAL.SCF",
+      "active": true
+    },
+	{
+      "name": "BAYSHOP",
+      "code": "COMMERCIAL.BAYSHOP",
+      "active": true
+    },
+	{
+      "name": "SEMI INDUSTRIAL",
+      "code": "COMMERCIAL.SEMIINDUSTRY",
       "active": true
     },
 	{
