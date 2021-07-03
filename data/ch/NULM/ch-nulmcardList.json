@@ -4,53 +4,85 @@
   "cardList": [
     {
       "code": "SEP",
-	  "roles": ["CITIZEN","EMPLOYEE"],
-	  "routeCitizen":"search-sep"
+      "roles": [
+        "CITIZEN",
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "search-sep"
     },
-	{
+    {
       "code": "SMID",
-	  "roles": ["CITIZEN","EMPLOYEE"],
-	  "routeCitizen":"search-smid"
+      "roles": [
+        "CITIZEN",
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "search-smid"
     },
-	{
+    {
       "code": "SUSV",
-	  "roles": ["CITIZEN","EMPLOYEE"],
-	  "routeCitizen":"search-susv"
+      "roles": [
+        "CITIZEN",
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "search-susv"
     },
-	{
+    {
       "code": "SVRU",
-	  "roles": ["CITIZEN","EMPLOYEE"],
-	  "routeCitizen":"search-svru"
+      "roles": [
+        "CITIZEN",
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "search-svru"
     },
-	{
+    {
       "code": "SUHC",
-	  "roles": ["CITIZEN","EMPLOYEE"],
-	  "routeCitizen":"searchSuh"
+      "roles": [
+        "CITIZEN",
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "searchSuh"
     },
-	{
+    {
       "code": "NGOR",
-	  "roles": ["EMPLOYEE"],
-	  "routeCitizen":"search-organization"
+      "roles": [
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "search-organization"
     },
-	{
+    {
       "code": "SMIDNGO",
-	  "roles": ["EMPLOYEE"],
-	  "routeCitizen":"search-smid-org"
+      "roles": [
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "search-smid-org"
     },
-	{
+    {
       "code": "SUHP",
-	  "roles": ["EMPLOYEE"],
-	  "routeCitizen":"search-suh"
+      "roles": [
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "search-suh"
     },
-	{
+    {
       "code": "SUHLOG",
-	  "roles": ["EMPLOYEE"],
-	  "routeCitizen":"search-log-maintenance"
-    },	
-	{
+      "roles": [
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "search-log-maintenance"
+    },
+    {
       "code": "SUSVT",
-	  "roles": ["EMPLOYEE"],
-	  "routeCitizen":"search-susv-transaction"
+      "roles": [
+        "EMPLOYEE"
+      ],
+      "routeCitizen": "search-susv-transaction"
+    },
+    {
+      "code": "ALF",
+      "roles": [
+        "NULM_ADMIN"
+      ],
+      "routeCitizen": "search-smid-NGO"
     }
   ]
 }
