@@ -64029,11 +64029,29 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
-			{
-				"rolecode": "AGENDA_NOTICE",
-				"actionid": 8072,
-				"actioncode": "",
-				"tenantId": "ch"
-			}			
+		  {
+			"rolecode": "AGENDA_NOTICE",
+			"actionid": 8072,
+			"actioncode": "",
+			"tenantId": "ch"
+		 },
+		{
+			"rolecode": "SUPERUSER",
+			"actionid": 8073,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EGF_REPORT_VIEW",
+			"actionid": 8073,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "FINANCE_VOUCHER_REPORT",
+			"actionid": 8074,
+			"actioncode": "",
+			"tenantId": "ch"
+		}			
 	]
 }

@@ -25107,6 +25107,33 @@
       "path": "Agenda Branch.Notice.Create Random Notice",
       "navigationURL": "services/council/councilmeeting/newRandomNotice",
       "leftIcon": "editor:insert-chart"
+    },
+	{
+	      "id": 8073,
+	      "name": "Salary Report",
+	      "url": "url",
+	      "displayName": "Salary Report",
+	      "orderNumber": 7,
+	      "enabled": true,
+	      "serviceCode": "FinanceReport",
+	      "code": "null",
+	      "navigationURL": "services/EGF/generalledgerreport/home",
+	      "leftIcon": "editor:insert-chart",
+	      "path": "Finance.Reports.Deduction Reports.Salary Report"
+	},
+    {
+      "id": 8074,
+      "name": "Capital/Revenue Report",
+      "url": "services/EGF/generalledgerreport/capitalrevenuehome",
+      "parentModule": "",
+      "displayName": "Capital/Revenue Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.MIS Reports.Capital/Revenue Report",
+      "navigationURL": "services/EGF/generalledgerreport/capitalrevenuehome"
     }
 
   ]
