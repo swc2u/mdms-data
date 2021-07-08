@@ -2,117 +2,157 @@
   "tenantId": "ch.chandigarh",
   "moduleName": "dashboard",
   "dashboardCardList": [
-    {
-      "cardName": "Pgr_dashboard_1",
-      "roles": [
-        "GRO"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "PGRDashboard"
-    },
-    {
-      "cardName": "Hc_dashboard_1",
-      "roles": [
-        "HC_COMMISSIONERMCC"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "HCDashboard"
-    },
-    {
-      "cardName": "Challan_dashboard_1",
-      "roles": [
-        "challanSI"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "EChallanDashboard"
-    },
-    {
-      "cardName": "Sport&Culture_dashboard_1",
-      "roles": [
-        "APRO"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "SportCultureDashboard"
-    },
-    {
-      "cardName": "PublicRelation_dashboard_1",
-      "roles": [
-        "APRO"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "PublicRelationDashboard"
-    },
-    {
-      "cardName": "TradeLicense_dashboard_1",
-      "roles": [
-        "TL_APPROVER"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "TradeLicenseDashboard"
-    },
-    {
-      "cardName": "OPMS_dashboard_1",
-      "roles": [
-        "OSD"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "OPMSDashboard"
-    },
-    {
-      "cardName": "OSBM_dashboard_1",
-      "roles": [
-        "BK_OSBM_APPROVER"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "OSBMDashboard"
-    },
-    {
-      "cardName": "StoreIndent_dashboard_1",
-      "roles": [
-        "SAJE"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "StoreIndentDashboard"
-    },
-    {
-      "cardName": "Work_dashboard_1",
-      "roles": [
-        "WS_FINANCE"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "WorkDashboard"
-    },
-    {
-      "cardName": "EState_dashboard_1",
-      "roles": [
-        "ES_EB_DISPATCH_OFFICER"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "EstateDashboard"
-    },
-    {
-      "cardName": "RentedProperty_dashboard_1",
-      "roles": [
-        "RP_CA"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "RentedPropertyDashboard"
-    },
-    {
-      "cardName": "WNS_dashboard_1",
-      "roles": [
-        "WS_COMMON"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "WaterDashboard"
-    },
-    {
-      "cardName": "Sewerage_dashboard_1",
-      "roles": [
-        "SW_COMMON"
-      ],
-      "icon": "material-icons module-page-icon",
-      "route": "SewerageDashboard"
-    }
-  ]
+  {
+    "cardName": "Pgr_dashboard_1",
+    "roles": [
+      "GRO"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "PGRDashboard"
+  },
+  {
+    "cardName": "Hc_dashboard_1",
+    "roles": [
+      "HC_COMMISSIONERMCC"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "HCDashboard"
+  },
+  {
+    "cardName": "Challan_dashboard_1",
+    "roles": [
+      "challanSI"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "EChallanDashboard"
+  },
+  {
+    "cardName": "Sport&Culture_dashboard_1",
+    "roles": [
+      "APRO"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "SportCultureDashboard"
+  },
+  {
+    "cardName": "PublicRelation_dashboard_1",
+    "roles": [
+      "APRO"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "PublicRelationDashboard"
+  },
+  {
+    "cardName": "TradeLicense_dashboard_1",
+    "roles": [
+      "TL_APPROVER"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "TradeLicenseDashboard"
+  },
+  {
+    "cardName": "OPMS_dashboard_1",
+    "roles": [
+      "OSD"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "OPMSDashboard"
+  },
+  {
+    "cardName": "OSBM_dashboard_1",
+    "roles": [
+      "BK_OSBM_APPROVER"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "OSBMDashboard"
+  },
+  {
+    "cardName": "Work_dashboard_1",
+    "roles": [
+      "WS_FINANCE"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "WorkDashboard"
+  },
+  {
+    "cardName": "EState_dashboard_1",
+    "roles": [
+      "ES_EB_DISPATCH_OFFICER"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "EstateDashboard"
+  },
+  {
+    "cardName": "RentedProperty_dashboard_1",
+    "roles": [
+      "RP_CA"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "RentedPropertyDashboard"
+  },
+  {
+    "cardName": "WNS_dashboard_1",
+    "roles": [
+      "WS_COMMON"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "WaterDashboard"
+  },
+  {
+    "cardName": "Sewerage_dashboard_1",
+    "roles": [
+      "SW_COMMON"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "SewerageDashboard"
+  },
+  {
+    "cardName": "Pension_dashboard_1",
+    "roles": [
+      "ACCOUNTS_OFFICER"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "PensionDashboard"
+  },
+  {
+    "cardName": "NULM_dashboard_1",
+    "roles": [
+      "NULMSDO"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "NULMDashboard"
+  },
+  {
+    "cardName": "Agenda_dashboard_1",
+    "roles": [
+      "WS_COMMON"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "AgendaDashboard"
+  },
+  {
+    "cardName": "Audit_dashboard_1",
+    "roles": [
+      "WS_COMMON"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "AuditDashboard"
+  },
+  {
+    "cardName": "Finance_dashboard_1",
+    "roles": [
+      "WS_COMMON"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "FinanceDashboard"
+  },
+  {
+    "cardName": "ApniMandi_dashboard_1",
+    "roles": [
+      "WS_COMMON"
+    ],
+    "icon": "material-icons module-page-icon",
+    "route": "ApniMandiDashboard"
+  }
+]
 }
