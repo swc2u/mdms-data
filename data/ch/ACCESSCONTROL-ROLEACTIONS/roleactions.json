@@ -64052,6 +64052,12 @@
 			"actionid": 8074,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "FINANCE_VOUCHER_REPORT",
+			"actionid": 8075,
+			"actioncode": "",
+			"tenantId": "ch"
 		}			
 	]
 }
