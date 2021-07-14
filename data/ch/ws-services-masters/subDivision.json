@@ -1,0 +1,75 @@
+{
+	"tenantId": "ch",
+	"moduleName": "ws-services-masters",
+	"subDivision": [{
+
+			"Division": "2",
+			"subdivision": [{
+					"subdivision": "08",
+					"active": true
+				},
+				{
+					"subdivision": "09",
+					"active": true
+				},
+				{
+					"subdivision": "14",
+					"active": true
+				},
+				{
+					"subdivision": "15",
+					"active": true
+				},
+				{
+					"subdivision": "20",
+					"active": true
+				}
+			]
+		},
+		{
+
+			"Division": "5",
+			"subdivision": [{
+					"subdivision": "08",
+					"active": true
+				},
+				{
+					"subdivision": "09",
+					"active": true
+				},
+				{
+					"subdivision": "14",
+					"active": true
+				},
+				{
+					"subdivision": "15",
+					"active": true
+				},
+				{
+					"subdivision": "20",
+					"active": true
+				}
+			]
+		}, {
+
+			"Division": "4",
+			"subdivision": [{
+					"subdivision": "06",
+					"active": true
+				},
+				{
+					"subdivision": "12",
+					"active": true
+				},
+				{
+					"subdivision": "13",
+					"active": true
+				},
+				{
+					"subdivision": "18",
+					"active": true
+				}
+			]
+		}
+	]
+}
