@@ -76,13 +76,6 @@
         "EMPLOYEE"
       ],
       "routeCitizen": "search-susv-transaction"
-    },
-    {
-      "code": "ALF",
-      "roles": [
-        "NULM_ADMIN"
-      ],
-      "routeCitizen": "search-smid-NGO"
     }
   ]
 }
