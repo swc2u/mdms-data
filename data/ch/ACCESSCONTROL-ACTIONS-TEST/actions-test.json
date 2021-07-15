@@ -14450,7 +14450,7 @@
       "parentModule": "",
       "displayName": "Create Challan",
       "orderNumber": 6,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "Collections",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -14464,7 +14464,7 @@
       "parentModule": "",
       "displayName": "Challan Receipt",
       "orderNumber": 7,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "Collections",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -14478,7 +14478,7 @@
       "parentModule": "",
       "displayName": "Search Challan",
       "orderNumber": 7,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "Collections",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -20280,8 +20280,49 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
-    }
-	,
+    },	  
+{
+      "id": 4282,
+      "name": "SearchPensionerDetails",
+      "url": "/pension-services/v1/_searchPensionerDetails",
+      "displayName": "Search Pensioner Details",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4283,
+      "name": "UpdatePensionerDetails",
+      "url": "/pension-services/v1/_updatePensionerDetails",
+      "displayName": "Update Pensioner Details",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },	
+{
+            "id": 4284,
+            "name": "rainmaker-common-pms",
+            "url": "/pension-services/v1/_searchEmployee",
+            "displayName": "Search Employee",            
+            "orderNumber": 1,
+            "queryParams": "",
+            "parentModule": "273",
+            "enabled": true,
+            "serviceCode": "DEPT",
+            "tenantId": "ch",
+            "createdDate": null,
+            "createdBy": null,
+            "lastModifiedDate": null,
+            "lastModifiedBy": null,
+            "path": "",
+            "navigationURL": "",
+            "leftIcon": "",
+            "rightIcon": ""
+        },	
     {
       "id": 14035,
       "name": "CreateProperty",
@@ -23008,6 +23049,20 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Revenue/Collections.Receipt Report",
       "navigationURL": "services/collection/receipts/daybookReport.action"
+    },
+    {
+      "id": 8072,
+      "name": "Create Random Notice",
+      "url": "/services/council/councilmeeting/newRandomNotice",
+      "displayName": "Create Random Notice",
+      "orderNumber": "1",
+      "parentModule": "rainmaker-agenda",
+      "enabled": true,
+      "serviceCode": "AgendaBranch",
+      "code": "",
+      "path": "Agenda Branch.Notice.Create Random Notice",
+      "navigationURL": "services/council/councilmeeting/newRandomNotice",
+      "leftIcon": "editor:insert-chart"
     }
   ]
 }

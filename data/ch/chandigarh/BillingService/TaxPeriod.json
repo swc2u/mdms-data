@@ -1332,7 +1332,7 @@
          "fromDate":1554057000000,
          "toDate":1869676199000,
          "periodCycle":"TENYEARS",
-         "service":"WS.ONE_TIME_FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV2",
          "code":"WS10YRS2019",
          "financialYear":"2019-29"
       },
@@ -1340,7 +1340,7 @@
          "fromDate":1554057000000,
          "toDate":1869676199000,
          "periodCycle":"TENYEARS",
-         "service":"SW.ONE_TIME_FEE",
+         "service":"PUBLIC_HEALTH_SERVICES_DIV4",
          "code":"SW10YRS2019",
          "financialYear":"2019-29"
       }

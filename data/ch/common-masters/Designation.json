@@ -781,6 +781,12 @@
             "name": "OSD",
             "description": "OSD",
             "active": true
+        },
+        {
+            "code": "345",
+            "name": "JOINT COMMISSIONER 2",
+            "description": "JOINT COMMISSIONER 2",
+            "active": true
         }
    ]
 }

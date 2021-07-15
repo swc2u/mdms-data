@@ -328,17 +328,7 @@
             "active": true
         },
         {
-            "code": "ICICI",
-            "name": "ICICI BANK",
-            "active": true
-        },
-        {
-            "code": "ICICI",
-            "name": "CHD STATE CO-OP BANK",
-            "active": true
-        },
-        {
-            "code": "ICICI",
+            "code": "CHD STATE CO-OP BANK",
             "name": "THE CHANDIGARH STATE CO OPERATIVE BANK",
             "active": true
         }

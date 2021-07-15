@@ -231,6 +231,78 @@
          "bankBranch":"OBC01"
       },
       {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_MILK.OWNERSHIP_TRANSFER",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_KUMHAR.OWNERSHIP_TRANSFER",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.OWNERSHIP_TRANSFER",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.OWNERSHIP_TRANSFER",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_MILK.RENT",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_KUMHAR.RENT",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.RENT",
+         "bankAccount":"001334001000127",
+         "bank":"THE CHANDIGARH STATE CO-OPERATIVE BANK",
+         "bankBranch":"CSOB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.RENT",
+         "bankAccount":"000834001000766",
+         "bank":"THE CHANDIGARH STATE CO-OPERATIVE BANK",
+         "bankBranch":"CSOB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_MILK.DUPLICATE_ALLOTMENT_LETTER",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_KUMHAR.DUPLICATE_ALLOTMENT_LETTER",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_SECTOR_52_53.DUPLICATE_ALLOTMENT_LETTER",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
+         "businessDetails":"RENTED_PROPERTIES_COLONY_VIKAS_NAGAR.DUPLICATE_ALLOTMENT_LETTER",
+         "bankAccount":"00382010033490",
+         "bank":"Punjab National Bank",
+         "bankBranch":"PUNB01"
+      },
+      {
          "businessDetails":"PUBLIC_HEALTH_SERVICES_DIV1",
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
