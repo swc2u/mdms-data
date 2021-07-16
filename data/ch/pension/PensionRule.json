@@ -2245,7 +2245,7 @@
                       "value": 0
                     }
                   ],
-                  "formula": "|PROVISIONAL_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC|",
+                  "formula": "|PROVISIONAL_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC|+|LTC|",
                   "values": null
                 },
                 {
@@ -2256,7 +2256,7 @@
                       "value": 0
                     }
                   ],
-                  "formula": "|COMPASSIONATE_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC|",
+                  "formula": "|COMPASSIONATE_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC|+|LTC|",
                   "values": null
                 },
                 {
@@ -2267,7 +2267,7 @@
                       "value": 0
                     }
                   ],
-                  "formula": "|COMPENSATION_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC|",
+                  "formula": "|COMPENSATION_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC|+|LTC|",
                   "values": null
                 },
                 {
@@ -2278,7 +2278,7 @@
                       "value": 0
                     }
                   ],
-                  "formula": "|INVALID_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC| + |ATTENDANT_ALLOWANCE| + |WOUND_EXTRAORDINARY_PENSION|",
+                  "formula": "|INVALID_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC| + |LTC| + |ATTENDANT_ALLOWANCE| + |WOUND_EXTRAORDINARY_PENSION|",
                   "values": null
                 },
                 {
@@ -2289,7 +2289,7 @@
                       "value": 0
                     }
                   ],
-                  "formula": "|BASIC_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC|",
+                  "formula": "|BASIC_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC|+|LTC|",
                   "values": null
                 }
               ]
@@ -2302,7 +2302,7 @@
                   "value": "DEATH_AS_EMPLOYEE"
                 }
               ],
-              "formula": "|FAMILY_PENSION_1| + |PENSION_DA| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC| + |WOUND_EXTRAORDINARY_PENSION|",
+              "formula": "|FAMILY_PENSION_1| + |PENSION_DA| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC|+|LTC| + |WOUND_EXTRAORDINARY_PENSION|",
               "values": null
             },
             {
@@ -3408,7 +3408,7 @@
               "value": "TRUE"
             }
           ],
-          "formula": "|BASIC_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC| + |WOUND_EXTRAORDINARY_PENSION| + |ATTENDANT_ALLOWANCE|",
+          "formula": "|BASIC_PENSION| + |PENSION_DA| - |COMMUTED_PENSION| + |ADDITIONAL_PENSION| + |PENSION_IR| + |FMA| + |MISC| +|LTC|+ |WOUND_EXTRAORDINARY_PENSION| + |ATTENDANT_ALLOWANCE|",
           "values": null
         }
       ],
