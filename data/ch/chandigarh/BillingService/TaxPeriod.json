@@ -1113,6 +1113,14 @@
          "service":"BOOKING_BRANCH_SERVICES.MISC_RECEIPT",
          "code":"BBMR10YRS2019",
          "financialYear":"2019-29"
+      },
+      {
+         "fromDate":1522540801000,
+         "toDate":1838159999000,
+         "periodCycle":"TENYEARS",
+         "service":"DOOR_TO_DOOR_GARBAGE_COLLECTION",
+         "code":"DDGC2021",
+         "financialYear":"2019-29"
       }
    ]
 }
