@@ -25139,7 +25139,7 @@
       "id": 9003,
       "name": "rainmaker-common-helpDesk",
       "url": "card",
-      "displayName": "Help Desk",
+      "displayName": "Help Desk support",
       "orderNumber": 1,
       "parentModule": "",
       "enabled": true,
