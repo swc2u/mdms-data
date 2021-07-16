@@ -1608,6 +1608,11 @@
          "description":"CHALLAN_EDIT"
       },
       {
+         "code":"HELP_DESK",
+         "name":"Help Desk",
+         "description":"Help Desk"
+      },
+      {
          "code":"WORKS_NOTIFICATION",
          "name":"WORKS_NOTIFICATION",
          "description":"WORKS_NOTIFICATION"
