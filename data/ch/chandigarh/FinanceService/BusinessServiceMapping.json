@@ -637,6 +637,18 @@
          "subscheme":"",
          "validFrom":1522540801000,
          "validTo":1838159999000
+      },
+      {
+         "code":"DOOR_TO_DOOR_GARBAGE_COLLECTION",
+         "voucherCreationEnabled":true,
+         "fund":"01",
+         "function":"000300",
+         "department":"402",
+         "functionary":"",
+         "scheme":"",
+         "subscheme":"",
+         "validFrom":1522540801000,
+         "validTo":1838159999000
       }
    ]
 }
