@@ -64054,6 +64054,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HELP_DESK",
+			"actionid": 9003,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "FINANCE_VOUCHER_REPORT",
 			"actionid": 8075,
 			"actioncode": "",
