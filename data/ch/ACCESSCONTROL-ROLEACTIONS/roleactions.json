@@ -55189,6 +55189,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SUPERUSER",
+			"actionid": 6028,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "BK_ADMIN",
 			"actionid": 7000,
 			"actioncode": "",
