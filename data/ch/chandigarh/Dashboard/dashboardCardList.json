@@ -69,7 +69,7 @@
   {
     "cardName": "Work_dashboard_1",
     "roles": [
-      "WS_FINANCE"
+      "WS_COMMON"
     ],
     "icon": "material-icons module-page-icon",
     "route": "WorkDashboard"
