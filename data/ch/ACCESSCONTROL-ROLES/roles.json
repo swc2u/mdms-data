@@ -953,6 +953,36 @@
          "description":"Common role for water & sewerage"
       },
       {
+         "code":"WS_SUPERINTENDENT_08",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_SUPERINTENDENT_09",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_SUPERINTENDENT_14",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_SUPERINTENDENT_15",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_SUPERINTENDENT_20",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_DIV_SUPERINTENDENT",
+         "name":"ws division Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
          "code":"WS_SDC",
          "name":"WS Common role",
          "description":"Common role for water & sewerage"
@@ -1606,6 +1636,11 @@
          "code":"CHALLAN_EDIT",
          "name":"CHALLAN_EDIT",
          "description":"CHALLAN_EDIT"
+      },
+      {
+         "code":"HELP_DESK",
+         "name":"Help Desk",
+         "description":"Help Desk"
       },
       {
          "code":"WORKS_NOTIFICATION",

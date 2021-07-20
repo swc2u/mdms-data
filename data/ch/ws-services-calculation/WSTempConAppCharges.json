@@ -104,13 +104,13 @@
 			{
 					"from": 0,
 					"to": 900,
-					"code": "COMMERCIAL.BOOTH",
+					"code": "COMMERCIAL.BOOTHS",
 					"charge": 15
 				},
 				{
 					"from": 900,
 					"to": 100000000000,
-					"code": "COMMERCIAL.BOOTH",
+					"code": "COMMERCIAL.BOOTHS",
 					"charge": 25
 				},
 				{

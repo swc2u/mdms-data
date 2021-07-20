@@ -1935,6 +1935,15 @@
          "isVoucherCreationEnabled":true,
          "isActive":true,
          "type":"Adhoc"
-      }
+      },
+      {
+         "businessService":"Door to Door Garbage Collection",
+         "code":"DOOR_TO_DOOR_GARBAGE_COLLECTION",
+         "partPaymentAllowed":false,
+         "isAdvanceAllowed":false,
+         "isVoucherCreationEnabled":true,
+         "isActive":true,
+         "type":"Adhoc"
+      }  
    ]
 }
