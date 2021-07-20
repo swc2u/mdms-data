@@ -23958,6 +23958,18 @@
 		"path": ""
 	},
 	{
+		"id": 6028,
+		"name": "generateBill",
+		"url": "/integration-services/finance/v1/_generate",
+		"displayName": "generateBill",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
       "id": 7000,
       "name": "MASTER APPROVER CREATE",
       "url": "/bookings/master/approver/_create",
