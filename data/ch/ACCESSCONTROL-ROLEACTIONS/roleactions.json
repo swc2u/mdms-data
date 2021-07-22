@@ -55195,6 +55195,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "HC_SDO",
+			"actionid": 6029,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "BK_ADMIN",
 			"actionid": 7000,
 			"actioncode": "",
