@@ -1418,6 +1418,11 @@
 	 "code": "AGENDA_DEPT_USER",
 	 "name": "AGENDA Departmet User",
 	 "description": "Department User who can upload Agenda"
-    }
+    },
+	{
+         "code":"ICCC",
+         "name":"ICCC",
+         "description":"ICCC"
+     }
    ]
 }

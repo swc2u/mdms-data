@@ -38777,6 +38777,30 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "ICCC",
+		"actionid": 6030,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "ICCC",
+		"actionid": 2604,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "ICCC",
+		"actionid": 2442,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
+		"rolecode": "ICCC",
+		"actionid": 2007,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "SDE",
 		"actionid": "1730",
 		"actioncode": "",
