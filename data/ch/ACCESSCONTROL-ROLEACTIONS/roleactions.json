@@ -30180,7 +30180,12 @@
 				"actioncode": "",
 				"tenantId": "ch"
 			},
-			
+			{
+				"rolecode": "HC_JE",
+				"actionid": "2613",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
 			{
 				"rolecode": "HC_SDO",
 				"actionid": "2614",
