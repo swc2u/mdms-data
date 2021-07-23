@@ -2586,6 +2586,55 @@
 		 ]
     },
 	{
+      "applicationType": "TEMPORARY_BILLING", 
+	  "active": true,
+	  "document" :[
+		  {
+			"name": "Triplicate water connection form",
+			"code": "TEMPORARY_BILLING_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Ownership Proof (Registry/Registered Will/GPA/Sub GPA/Fard) ",
+			"code": "TEMPORARY_BILLING_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Building plan/Map",
+			"code": "TEMPORARY_BILLING_BUILDING_PLAN",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "Affidavit for temporary water connection",
+			"code": "TEMPORARY_BILLING_AFFIDAVIT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "TEMPORARY_BILLING_IDPROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "Electricity Bill",
+			"code": "TEMPORARY_BILLING_ELECTRICITY_BILL",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Others",
+			"code": "WS_OTHERS",
+			"isMandatory": false,
+			"active": true     
+		  }
+		 ]
+    },
+	{
       "WaterActivity": "PERMANENT_DISCONNECTION",
 	  
 	  "active": true,
