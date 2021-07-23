@@ -18232,6 +18232,18 @@
 		"path": ""
 	},
 	{
+		"id": 6030,
+		"name": "generateReport",
+		"url": "/integration-services/report/v1/_generate",
+		"displayName": "generateReport",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
 		"id": 6012,
 		"name": "Manage Auditor/RSA",
 		"url": "services/audit/manageAuditor/manageAudform",
