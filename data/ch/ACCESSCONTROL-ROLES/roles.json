@@ -1204,6 +1204,36 @@
       "name": "WS Common role",
       "description": "Common role for water & sewerage"
     },
+      {
+         "code":"WS_SUPERINTENDENT_08",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_SUPERINTENDENT_09",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_SUPERINTENDENT_14",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_SUPERINTENDENT_15",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_SUPERINTENDENT_20",
+         "name":"ws Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
+      {
+         "code":"WS_DIV_SUPERINTENDENT",
+         "name":"ws division Superintendent",
+         "description":"Superintendent role for water & sewerage"
+      },
 	{
       "code": "WS_SDE_08",
       "name": "WS Common role",

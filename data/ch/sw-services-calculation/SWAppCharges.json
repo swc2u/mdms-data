@@ -93,7 +93,7 @@
 			"slabs": [{
 				"from": 0,
 				"to": 100000000000000000,
-				"code": "COMMERCIAL.BOOTH",
+				"code": "COMMERCIAL.BOOTHS",
 				"charge": 20000
 			},
 			{
