@@ -9,6 +9,11 @@
     },
     {
       "id": 2,
+      "code": "TEMPORARY_BILLING",
+      "name": "Temporary Billing Connection"
+    },
+    {
+      "id": 3,
       "code": "REGULAR",
       "name": "Regular"
     }
