@@ -1646,6 +1646,11 @@
          "code":"WORKS_NOTIFICATION",
          "name":"WORKS_NOTIFICATION",
          "description":"WORKS_NOTIFICATION"
+      },
+	  {
+         "code":"ICCC",
+         "name":"ICCC",
+         "description":"ICCC"
       }
    ]
 }

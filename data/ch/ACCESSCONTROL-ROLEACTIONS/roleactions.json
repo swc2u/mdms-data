@@ -55195,8 +55195,26 @@
 			"tenantId": "ch"
 		},
 		{
-			"rolecode": "HC_SDO",
+			"rolecode": "ICCC",
 			"actionid": 6029,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ICCC",
+			"actionid": 2604,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ICCC",
+			"actionid": 2442,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ICCC",
+			"actionid": 2007,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
