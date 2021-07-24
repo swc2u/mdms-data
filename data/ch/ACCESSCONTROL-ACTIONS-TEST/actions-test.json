@@ -25188,7 +25188,20 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Income Report",
       "navigationURL": "services/EGF/generalledgerreport/capitaldivisionhome"
-    }
+    },
+    {
+      "id": 8076,
+      "name": "MisCreate",
+      "url": "/services/EGF/rest/voucher/_misreceipt",
+      "displayName": "Misc Voucher",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "VOUCHER",
+      "code": "null",
+      "path": ""
+    },
+	
 
   ]
 }

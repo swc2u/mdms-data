@@ -15713,6 +15713,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SYS_INTEGRATOR_FINANCE",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1690,
 			"actioncode": "",
@@ -15745,6 +15751,12 @@
 		{
 			"rolecode": "SYS_INTEGRATOR_WATER_SEW",
 			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SYS_INTEGRATOR_WATER_SEW",
+			"actionid": 8076,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -15835,6 +15847,12 @@
 		{
 			"rolecode": "EGF_BILL_CREATOR",
 			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EGF_BILL_CREATOR",
+			"actionid": 8076,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -16523,6 +16541,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1688,
 			"actioncode": "",
@@ -16535,6 +16559,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "TL_APPROVER",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1689,
 			"actioncode": "",
@@ -16543,6 +16573,18 @@
 		{
 			"rolecode": "CTL_ADMIN",
 			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "TL_CEMP",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 8076,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -16754,6 +16796,12 @@
 		{
 			"rolecode": "EMPLOYEE_FINANCE",
 			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE_FINANCE",
+			"actionid": 8076,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -63960,6 +64008,12 @@
 		{
 			"rolecode": "THIRDPARTY_INTEGRATOR_FINANCE",
 			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "THIRDPARTY_INTEGRATOR_FINANCE",
+			"actionid": 8076,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
