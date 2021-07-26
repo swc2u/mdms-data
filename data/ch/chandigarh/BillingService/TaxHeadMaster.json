@@ -3065,7 +3065,7 @@
       {
          "category":"TAX",
          "service":"MANIMAJRA_RELATED_SERVICES",
-         "name":"Property Tax - Residential",
+         "name":"House Tax",
          "code":"PROPERTY_TAX_RESIDENTIAL_MANIMAJRA_RELATED_SERVICES",
          "isDebit":false,
          "isActualDemand":false,
@@ -3092,6 +3092,66 @@
          "order":"0",
          "isRequired":false
       },
+      {
+         "category":"FEE",
+         "service":"MANIMAJRA_RELATED_SERVICES",
+         "name":"Entry Fees",
+         "code":"ENTRY_FEES_MANIMAJRA_RELATED_SERVICES",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },  
+      {
+         "category":"FEE",
+         "service":"MANIMAJRA_RELATED_SERVICES",
+         "name":"New House/Shop no. Fees",
+         "code":"NEW_HOUSE_SHOP_FEES_MANIMAJRA_RELATED_SERVICES",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"MANIMAJRA_RELATED_SERVICES",
+         "name":"Coying Fees",
+         "code":"COYING_FEES_MANIMAJRA_RELATED_SERVICES",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"MANIMAJRA_RELATED_SERVICES",
+         "name":"Inspection Fees",
+         "code":"INSPECTION_FEES_MANIMAJRA_RELATED_SERVICES",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"MANIMAJRA_RELATED_SERVICES",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_MANIMAJRA_RELATED_SERVICES",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"FEE",
+         "service":"MANIMAJRA_RELATED_SERVICES",
+         "name":"Rent - Rehri Sites",
+         "code":"RENT_REHRI_SITES_MANIMAJRA_RELATED_SERVICES",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },   
       {
          "category":"CHARGES",
          "service":"BOOKING_BRANCH_SERVICES.ADVERTISEMENT_FEES",
