@@ -817,7 +817,12 @@
       "code": "HC_SWE",
       "name": "Superitendent(W&E)",
       "description": "Superitendent(W&E)"
-    },	   
+    },	
+	{
+         "code":"HC_REPORT",
+         "name":"HC_REPORT",
+         "description":"Horticulture Report User"
+      },	
     {
       "code": "COLL_RECEIPT_REPORT",
       "name": "COLL_RECEIPT_REPORT",
