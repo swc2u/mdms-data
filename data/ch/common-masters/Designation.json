@@ -788,5 +788,24 @@
             "description": "JOINT COMMISSIONER 2",
             "active": true
         }
+		,
+      {
+            "code": "P023",
+            "name": "Mali",
+            "description": "Mali",
+            "active": true
+        },
+        {
+            "code": "P024",
+            "name": "Tractor driver",
+            "description": "Tractor driver",
+            "active": true
+        },
+        {
+            "code": "P025",
+            "name": "Safaiwala",
+            "description": "Safaiwala",
+            "active": true
+        }
    ]
 }
