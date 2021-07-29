@@ -277,6 +277,12 @@
          "bankAccount":"00382010033490",
          "bank":"Oriental Bank of Commerce",
          "bankBranch":"OBC01"
+      },
+      {
+         "businessDetails":"DOOR_TO_DOOR_GARBAGE_COLLECTION",
+         "bankAccount":"00382010033490",
+         "bank":"Oriental Bank of Commerce",
+         "bankBranch":"OBC01"
       }
    ]
 }

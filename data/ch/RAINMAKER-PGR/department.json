@@ -120,11 +120,6 @@
             "name": "House Allotment Committee",
             "code": "DEP_25",
             "active": true
-        },
-        {
-            "name": "Others",
-            "code": "DEP_26",
-            "active": true
         }
     ]
 }

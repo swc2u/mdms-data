@@ -547,6 +547,10 @@
 		"format": "SUSVR/[fy:yyyy-yy]/[SEQ_NULM_SUSVR_ID_GEN]",
 		"idname": "ch.nulm.susvr"
 	},
+	{
+		"format": "ALF/[fy:yyyy-yy]/[SEQ_NULM_ALF_ID_GEN]",
+		"idname": "ch.nulm.alf"
+	},
     {
         "idname": "rp.ot.aplnumber",
         "format": "CH-RP-OT-[cy:yyyy-MM-dd]-[SEQ_RP_ID_NUM]"

@@ -5861,6 +5861,16 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false
+      },
+      {
+         "category":"CHARGES",
+         "service":"DOOR_TO_DOOR_GARBAGE_COLLECTION",
+         "name":"Door to Door Garbage Collection Charges",
+         "code":"DOOR_TO_DOOR_GARBAGE_COLLECTION_CHRGS",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
       }
    ]
 }

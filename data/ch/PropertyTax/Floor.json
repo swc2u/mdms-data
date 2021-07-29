@@ -4,63 +4,63 @@
   "Floor":
   [
     {
-      "name": "0 - All Floor",
+      "name": "All Floors/Floor Zero",
       "code": "0",
-      "description": "All Floor",
+      "description": "All Floors/Floor Zero",
       "active": true
     },
     {
-      "name": "1 - Ground Floor",
+      "name": "Floor 1",
       "code": "1",
-      "description": "Ground Floor",
+      "description": "Floor 1",
       "active": true
     },
     {
-      "name": "2 - First Floor",
+      "name": "Floor 2",
       "code": "2",
       "description": "First Floor",
       "active": true
     },
     {
-      "name": "3 - Second Floor",
+      "name": "Floor 3",
       "code": "3",
-      "description": "floor number of the floor",
+      "description": "Floor 3",
       "active": true
     },
     {
-      "name": "4 - Third Floor",
+      "name": "Floor 4",
       "code": "4",
-      "description": "Third Floor",
+      "description": "Floor 4",
       "active": true
     },
     {
-      "name": "5 - Fourth Floor",
+      "name": "Floor 5",
       "code": "5",
-      "description": "Fourth floor",
+      "description": "Floor 5",
       "active": true
     },
     {
-      "name": "6 - Fifth Floor",
+      "name": "Floor 6",
       "code": "6",
-      "description": "Fifth floor",
+      "description": "Floor 6",
       "active": true
     },
     {
-      "name": "7 - Sixth Floor",
+      "name": "Floor 7",
       "code": "7",
-      "description": "Sixth Floor",
+      "description": "Floor 7",
       "active": true
     },
     {
-      "name": "8 - Seventh Floor",
+      "name": "Floor 8",
       "code": "8",
-      "description": "Seventh Floor",
+      "description": "Floor 8",
       "active": true
     },
     {
-      "name": "9 - Eighth Floor",
+      "name": "Floor 9",
       "code": "9",
-      "description": "Eighth Floor",
+      "description": "Floor 9",
       "active": true
     }
   ]
