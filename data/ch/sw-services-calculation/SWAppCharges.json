@@ -8,21 +8,21 @@
 			"isActive": true,
 			"slabs": [{
 					"from": 0,
-					"to": 500,
-					"code": "RESIDENTIAL.PLOTTED",
-					"charge": 1000
-				},
-				{
-					"from": 500,
-					"to": 1000,
+					"to": 2250,
 					"code": "RESIDENTIAL.PLOTTED",
 					"charge": 2000
 				},
 				{
-					"from": 1000,
-					"to": 10000000000000000,
+					"from": 2250,
+					"to": 4500,
 					"code": "RESIDENTIAL.PLOTTED",
 					"charge": 4000
+				},
+				{
+					"from": 4500,
+					"to": 10000000000000000,
+					"code": "RESIDENTIAL.PLOTTED",
+					"charge": 6000
 				},
 				{
 					"from": 0,
@@ -31,21 +31,21 @@
 					"charge": 20000
 				},{
 					"from": 0,
-					"to": 500,
-					"code": "RESIDENTIAL.VILLAGE",
-					"charge": 1000
-				},
-				{
-					"from": 500,
-					"to": 1000,
+					"to": 2250,
 					"code": "RESIDENTIAL.VILLAGE",
 					"charge": 2000
 				},
 				{
-					"from": 1000,
-					"to": 10000000000000000,
+					"from": 2250,
+					"to": 4500,
 					"code": "RESIDENTIAL.VILLAGE",
 					"charge": 4000
+				},
+				{
+					"from": 4500,
+					"to": 10000000000000000,
+					"code": "RESIDENTIAL.VILLAGE",
+					"charge": 6000
 				},
 				{
 					"from": 0,
