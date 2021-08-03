@@ -23200,6 +23200,22 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Income Report",
       "navigationURL": "services/EGF/generalledgerreport/capitaldivisionhome"
+    },
+    {
+      "id": 9003,
+      "name": "rainmaker-common-helpDesk",
+      "url": "card",
+      "displayName": "Help Desk support",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "helpdesk",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-common/user-update",
+      "leftIcon": "social:assignment",
+      "rightIcon": "",
+      "queryParams": ""
     }
   ]
 }
