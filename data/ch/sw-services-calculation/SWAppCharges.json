@@ -13,13 +13,13 @@
 					"charge": 2000
 				},
 				{
-					"from": 2251,
+					"from": 2250,
 					"to": 4500,
 					"code": "RESIDENTIAL.PLOTTED",
 					"charge": 4000
 				},
 				{
-					"from": 4501,
+					"from": 4500,
 					"to": 10000000000000000,
 					"code": "RESIDENTIAL.PLOTTED",
 					"charge": 6000
@@ -36,13 +36,13 @@
 					"charge": 2000
 				},
 				{
-					"from": 2251,
+					"from": 2250,
 					"to": 4500,
 					"code": "RESIDENTIAL.VILLAGE",
 					"charge": 4000
 				},
 				{
-					"from": 4501,
+					"from": 4500,
 					"to": 10000000000000000,
 					"code": "RESIDENTIAL.VILLAGE",
 					"charge": 6000
