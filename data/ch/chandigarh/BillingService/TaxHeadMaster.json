@@ -5871,6 +5871,66 @@
          "isActualDemand":false,
          "order":"0",
          "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_DAY_MARKET_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD1.DAY_MARKET",
+         "name":"IGST",
+         "code":"IGST_DAY_MARKET_RD1",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD2.DAY_MARKET",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_DAY_MARKET_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "name":"IGST",
+         "code":"IGST_DAY_MARKET_RD2",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "name":"CGST and UTGST",
+         "code":"CGST_UTGST_DAY_MARKET_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
+      },
+      {
+         "category":"TAX",
+         "service":"APNI_MANDI_DAY_MARKET_RD3.DAY_MARKET",
+         "name":"IGST",
+         "code":"IGST_DAY_MARKET_RD3",
+         "isDebit":false,
+         "isActualDemand":false,
+         "order":"0",
+         "isRequired":false
       }
    ]
 }
