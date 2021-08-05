@@ -17626,6 +17626,90 @@
       "path": "DuplicateCopyOfflinePaymentAPI"
     },
     {
+      "id": 4088,
+      "name": "allotment letter PDF report generation",
+      "url": "/rp-services/pdf/_create_allotment",
+      "displayName": "allotment letter PDF report generation api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "AllotmentLetterPDFReportGenerationAPI",
+      "code": "null",
+      "path": "AllotmentLetterPDFReportGenerationAPI"
+    },
+	  {
+      "id": 4089,
+      "name": "account statement PDF report generation",
+      "url": "/rp-services/pdf/_create_account_statement",
+      "displayName": "account statement PDF report generation api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "AccountStatementPDFReportGenerationAPI",
+      "code": "null",
+      "path": "AccountStatementPDFReportGenerationAPI"
+    },
+	  {
+      "id": 4090,
+      "name": "duplicate copy PDF report generation",
+      "url": "/rp-services/pdf/_create_dc",
+      "displayName": "duplicate copy PDF report generation api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "DuplicateCopyPDFReportGenerationAPI",
+      "code": "null",
+      "path": "DuplicateCopyPDFReportGenerationAPI"
+    },
+	  {
+      "id": 4091,
+      "name": "mortgage PDF report generation",
+      "url": "/rp-services/pdf/_create_mg",
+      "displayName": "mortgage PDF report generation api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "MortgagePDFReportGenerationAPI",
+      "code": "null",
+      "path": "MortgagePDFReportGenerationAPI"
+    },
+	  {
+      "id": 4092,
+      "name": "ownership transfer PDF report generation",
+      "url": "/rp-services/pdf/_create_ot",
+      "displayName": "ownership transfer PDF report generation api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "OwnershipTransferPDFReportGenerationAPI",
+      "code": "null",
+      "path": "OwnershipTransferPDFReportGenerationAPI"
+    },
+	  {
+      "id": 4093,
+      "name": "payment reciept PDF report generation",
+      "url": "/rp-services/pdf/_create_payment_receipt",
+      "displayName": "payment reciept PDF report generation api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "PaymentRecieptPDFReportGenerationAPI",
+      "code": "null",
+      "path": "PaymentRecieptPDFReportGenerationAPI"
+    },
+	  {
+      "id": 4094,
+      "name": "notice PDF report generation",
+      "url": "/rp-services/pdf/_create_notice",
+      "displayName": "notice PDF report generation api",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "NoticePDFReportGenerationAPI",
+      "code": "null",
+      "path": "NoticePDFReportGenerationAPI"
+    },
+    {
       "id": 3000,
       "name": "OwnerShipTransferApplicationStatusReport",
       "url": "/report/rainmaker-rp/OTApplicationStatusReport/_get",
@@ -25188,7 +25272,20 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Income Report",
       "navigationURL": "services/EGF/generalledgerreport/capitaldivisionhome"
+    },
+    {
+      "id": 8076,
+      "name": "MisCreate",
+      "url": "/services/EGF/rest/voucher/_misreceipt",
+      "displayName": "Misc Voucher",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "VOUCHER",
+      "code": "null",
+      "path": ""
     }
+	
 
   ]
 }
