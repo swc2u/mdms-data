@@ -1953,6 +1953,22 @@
             "department": "DEP_01",
             "slaHours": 360,
             "menuPath": "WaterSupply"
+        },
+		 {
+            "serviceCode": "DEP26_ApaniMandi_01",
+            "active": true,
+            "keywords": "apani, mandi",
+            "department": "DEP_26",
+            "slaHours": 0,
+            "menuPath": "ApaniMandi"
+        },
+		 {
+            "serviceCode": "DEP26_DayMarket_02",
+            "active": true,
+            "keywords": "day, market",
+            "department": "DEP_26",
+            "slaHours": 0,
+            "menuPath": "ApaniMandi"
         }
    ]
 }
