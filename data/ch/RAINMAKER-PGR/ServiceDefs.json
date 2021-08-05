@@ -1955,18 +1955,18 @@
             "menuPath": "WaterSupply"
         },
 		 {
-            "serviceCode": "DEP26_ApniMandi_01",
+            "serviceCode": "DEP27_ApniMandi_01",
             "active": true,
             "keywords": "apni, mandi",
-            "department": "DEP_26",
+            "department": "DEP_27",
             "slaHours": 0,
             "menuPath": "ApniMandiAndDayMarket"
         },
 		 {
-            "serviceCode": "DEP26_DayMarket_02",
+            "serviceCode": "DEP27_DayMarket_02",
             "active": true,
             "keywords": "day, market",
-            "department": "DEP_26",
+            "department": "DEP_27",
             "slaHours": 0,
             "menuPath": "ApniMandiAndDayMarket"
         }
