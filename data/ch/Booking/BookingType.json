@@ -3,6 +3,7 @@
     "BookingType": [
         {
             "name": "Open Space to Store Building Material",
+			"modifiedName": "OpenSpaceBuildingMaterial",
             "id": "1",
             "code": "OSBM",
             "tenantId":"ch.chandigarh",
@@ -10,6 +11,7 @@
         },
         {
             "name": "Water Tankers",
+			"modifiedName": "WaterTankers",
             "id": "2",
             "code": "WATER_TANKERS",
             "tenantId":"ch.chandigarh",
@@ -17,6 +19,7 @@
         },
         {
             "name": "Parks and Community Center",
+			"modifiedName": "ParksAndCommunityCenter",
             "id": "3",
             "code": "Parks and Community Center",
             "tenantId":"ch.chandigarh",
@@ -24,6 +27,7 @@
         },
         {
             "name": "Ground for Commercial Purpose",
+			"modifiedName": "GroundForCommercialPurpose",
             "id": "4",
             "code": "GROUND_FOR_COMMERCIAL_PURPOSE",
             "tenantId":"ch.chandigarh",
@@ -31,6 +35,7 @@
         },
         {
             "name": "Open Spaces Under Jurisdiction of MCC",
+			"modifiedName": "OpenSpaceJurisdictionOfMCC",
             "id": "5",
             "code": "OSUJM",
             "tenantId":"ch.chandigarh",
@@ -38,6 +43,7 @@
         },
 	 {
             "name": "MCC New Location",
+			"modifiedName": "MccNewLocation",
             "id": "5",
             "code": "NLUJM",
             "tenantId":"ch.chandigarh",
