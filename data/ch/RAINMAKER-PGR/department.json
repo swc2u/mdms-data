@@ -120,6 +120,11 @@
             "name": "House Allotment Committee",
             "code": "DEP_25",
             "active": true
+        },
+		 {
+            "name": "Apni Mandi And Day Market",
+            "code": "DEP_26",
+            "active": true
         }
     ]
 }
