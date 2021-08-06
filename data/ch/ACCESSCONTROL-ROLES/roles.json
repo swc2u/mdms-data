@@ -798,6 +798,11 @@
       "name": "HC_CEMCC",
       "description": "Chief Engineer(MCC)"
     },
+	{
+      "code": "CEMC",
+      "name": "CEMCC",
+      "description": "Chief Engineer(MCC)"
+    },
     {
       "code": "HC_EEWE",
       "name": "HC_EEWE",
