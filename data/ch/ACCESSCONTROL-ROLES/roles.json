@@ -803,6 +803,11 @@
       "name": "CEMCC",
       "description": "Chief Engineer(MCC)"
     },
+	{
+      "code": "SW_COMMON",
+      "name": "SW_COMMON",
+      "description": "SW COMMON"
+    },
     {
       "code": "HC_EEWE",
       "name": "HC_EEWE",
