@@ -57988,6 +57988,12 @@
 		},
 		{
 			"rolecode": "HELP_DESK",
+			"actionid": 9111,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HELP_DESK",
 			"actionid": 1700,
 			"actioncode": "",
 			"tenantId": "ch"
