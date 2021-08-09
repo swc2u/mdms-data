@@ -23218,6 +23218,22 @@
       "queryParams": ""
     },
 	{
+      "id": 9111,
+      "name": "rainmaker-common-helpDesk",
+      "url": "card",
+      "displayName": "Help Desk Transaction Update",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "helpdesk",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-common/transaction-update",
+      "leftIcon": "social:assignment",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+	{
       "id": 9005,
       "name": "Receipt Report",
       "url": "/services/collection/receipts/daybookReportNew.action",
