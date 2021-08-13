@@ -30998,6 +30998,12 @@
       "actioncode": "",
       "tenantId": "ch"  
     },
+{
+      "rolecode": "PENSION_SYSTEM",
+      "actionid": 4285,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
 			{
 			"rolecode": "SI",
 			"actionid": "1861",
