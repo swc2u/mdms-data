@@ -645,7 +645,7 @@
                   "label": "ES_SUB_CATEGORY_LABEL",
                   "placeholder": "ES_SELECT_SUB_CATEGORY_PLACEHOLDER",
                   "jsonPath": "Applications[0].applicationDetails.property.subCategory",
-                  "type": "TEXT_FIELD",
+                  "type": "DROP_DOWN",
                   "visible": false,
                   "visibility": "application.applicationDetails.property.category === 'CAT.RESIDENTIAL' || application.applicationDetails.property.category === 'CAT.COMMERCIAL'",
                   "errorMessage": "'ES_ERR_SELECT_SUBCATEGORY'",
@@ -702,7 +702,6 @@
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.areaSqft",
                   "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft",
-                  "required": true,
                   "errorMessage": "'ES_ERR_AREA_PURCHASED'"
                 }
               ]
@@ -717,7 +716,8 @@
                   "type": "MULTI_SELECT",
                   "jsonPath": "Applications[0].applicationDetails.typeOfNoc",
                   "path": "typeOfNoc",
-                  "dataSource": "typeOfNocBb"
+                  "dataSource": "typeOfNocBb",
+                  "required": true
                 }
               ]
             },
