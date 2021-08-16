@@ -717,7 +717,7 @@
                   "path": "typeOfNoc",
                   "dataSource": "typeOfNocBb",
                   "required": true,
-                  "errorMessage":"'ES_ERR_SELECT_NOC_TYPE'"
+                  "errorMessage": "'ES_ERR_SELECT_NOC_TYPE'"
                 }
               ]
             },
@@ -794,7 +794,8 @@
                   "jsonPath": "Applications[0].applicationDetails.owner.share",
                   "disability": "!!owners.length",
                   "prefillValue": "!!selectedOwner ? selectedOwner.share : application.applicationDetails.owner.share",
-                  "errorMessage": "'ES_ERR_SHARE'"
+                  "errorMessage": "'ES_ERR_SHARE'",
+                  "pattern": "Percentage"
                 },
                 {
                   "label": "ES_IS_CURRENT_OWNER_LABEL",
