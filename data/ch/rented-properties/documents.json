@@ -14,7 +14,7 @@
         },
         {
             "code": "ALLOTEE_IMAGE",
-            "required": true,
+            "required": false,
             "accept": "image/*",
             "fileType": "IMAGEONLY",
             "description": "ALLOTEES_IMAGE_DESCRIPTION"

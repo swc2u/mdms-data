@@ -23216,6 +23216,61 @@
       "leftIcon": "social:assignment",
       "rightIcon": "",
       "queryParams": ""
+    },
+	{
+      "id": 9111,
+      "name": "rainmaker-common-helpDesk",
+      "url": "card",
+      "displayName": "Help Desk Transaction Update",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "helpdesk",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-common/transaction-update",
+      "leftIcon": "social:assignment",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+	{
+      "id": 9005,
+      "name": "Receipt Report",
+      "url": "/services/collection/receipts/daybookReportNew.action",
+      "parentModule": "",
+      "displayName": "Receipt Report",
+      "orderNumber": 8,
+      "enabled": true,
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Revenue/Collections.Receipt Report New",
+      "navigationURL": "services/collection/receipts/daybookReportNew.action"
+    },
+    {
+      "id": 8076,
+      "name": "MisCreate",
+      "url": "/services/EGF/rest/voucher/_misreceipt",
+      "displayName": "Misc Voucher",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "VOUCHER",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 9006,
+      "name": "Receipts Search",
+      "url": "url",
+      "displayName": "Search Receipts",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "Collections",
+      "code": "null",
+      "navigationURL": "services/collection/receipts/searchReceiptNew.action",
+      "leftIcon": "image:collections",
+      "path": "Finance.Revenue/Collections.Search Receipts New"
     }
   ]
 }

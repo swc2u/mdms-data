@@ -57988,6 +57988,12 @@
 		},
 		{
 			"rolecode": "HELP_DESK",
+			"actionid": 9111,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HELP_DESK",
 			"actionid": 1700,
 			"actioncode": "",
 			"tenantId": "ch"
@@ -57997,7 +58003,86 @@
 			"actionid": 8075,
 			"actioncode": "",
 			"tenantId": "ch"
+		},	  
+		{
+			"rolecode": "COLL_RECEIPT_REPORT",
+			"actionid": 9005,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SYS_INTEGRATOR_FINANCE",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
 		}
+,
+		{
+			"rolecode": "SYS_INTEGRATOR_WATER_SEW",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+,
+		{
+			"rolecode": "EGF_BILL_CREATOR",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+,
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+,
+		{
+			"rolecode": "TL_APPROVER",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+,
+		{
+			"rolecode": "TL_CEMP",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+,
+		{
+			"rolecode": "EMPLOYEE_FINANCE",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
+,
+		{
+			"rolecode": "THIRDPARTY_INTEGRATOR_FINANCE",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+    {
+      "rolecode": "COLL_RECEIPT_CREATOR",
+      "actionid": 9006,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 9006,
+      "actioncode": "",
+      "tenantId": "ch"
+    }
 		
   ]
 }
