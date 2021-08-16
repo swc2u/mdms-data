@@ -717,7 +717,8 @@
                   "jsonPath": "Applications[0].applicationDetails.typeOfNoc",
                   "path": "typeOfNoc",
                   "dataSource": "typeOfNocBb",
-                  "required": true
+                  "required": true,
+                  "errorMessage":"'ES_ERR_SELECT_NOC_TYPE'"
                 }
               ]
             },
