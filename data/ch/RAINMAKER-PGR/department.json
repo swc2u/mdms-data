@@ -125,6 +125,11 @@
             "name": "Others",
             "code": "DEP_26",
             "active": true
+        },
+		 {
+            "name": "Apni Mandi And Day Market",
+            "code": "DEP_27",
+            "active": true
         }
     ]
 }
