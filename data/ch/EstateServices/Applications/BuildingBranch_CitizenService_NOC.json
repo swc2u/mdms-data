@@ -701,8 +701,7 @@
                   "placeholder": "ES_VILLAGE_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.areaSqft",
-                  "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft",
-                  "errorMessage": "'ES_ERR_AREA_PURCHASED'"
+                  "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft"
                 }
               ]
             },
