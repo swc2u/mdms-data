@@ -542,6 +542,16 @@
             }
           },
           {
+            "name": "SubCategory",
+            "type": "mdms",
+            "cacheable": true,
+            "lazyload": true,
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "SubCategory"
+            }
+          },
+          {
             "name": "sectorNumber",
             "type": "mdms",
             "lazyload": true,
@@ -646,6 +656,7 @@
                   "placeholder": "ES_SELECT_SUB_CATEGORY_PLACEHOLDER",
                   "jsonPath": "Applications[0].applicationDetails.property.subCategory",
                   "type": "DROP_DOWN",
+                  "dataSource": "SubCategory",
                   "visible": false,
                   "visibility": "application.applicationDetails.property.category === 'CAT.RESIDENTIAL' || application.applicationDetails.property.category === 'CAT.COMMERCIAL'",
                   "errorMessage": "'ES_ERR_SELECT_SUBCATEGORY'",
