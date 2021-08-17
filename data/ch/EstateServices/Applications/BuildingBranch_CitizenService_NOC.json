@@ -542,6 +542,16 @@
             }
           },
           {
+            "name": "SubCategory",
+            "type": "mdms",
+            "cacheable": true,
+            "lazyload": true,
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "SubCategory"
+            }
+          },
+          {
             "name": "sectorNumber",
             "type": "mdms",
             "lazyload": true,
@@ -645,7 +655,8 @@
                   "label": "ES_SUB_CATEGORY_LABEL",
                   "placeholder": "ES_SELECT_SUB_CATEGORY_PLACEHOLDER",
                   "jsonPath": "Applications[0].applicationDetails.property.subCategory",
-                  "type": "TEXT_FIELD",
+                  "type": "DROP_DOWN",
+                  "dataSource": "SubCategory",
                   "visible": false,
                   "visibility": "application.applicationDetails.property.category === 'CAT.RESIDENTIAL' || application.applicationDetails.property.category === 'CAT.COMMERCIAL'",
                   "errorMessage": "'ES_ERR_SELECT_SUBCATEGORY'",
@@ -701,9 +712,7 @@
                   "placeholder": "ES_VILLAGE_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.areaSqft",
-                  "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft",
-                  "required": true,
-                  "errorMessage": "'ES_ERR_AREA_PURCHASED'"
+                  "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft"
                 }
               ]
             },
@@ -717,7 +726,9 @@
                   "type": "MULTI_SELECT",
                   "jsonPath": "Applications[0].applicationDetails.typeOfNoc",
                   "path": "typeOfNoc",
-                  "dataSource": "typeOfNocBb"
+                  "dataSource": "typeOfNocBb",
+                  "required": true,
+                  "errorMessage": "'ES_ERR_SELECT_NOC_TYPE'"
                 }
               ]
             },
@@ -794,7 +805,8 @@
                   "jsonPath": "Applications[0].applicationDetails.owner.share",
                   "disability": "!!owners.length",
                   "prefillValue": "!!selectedOwner ? selectedOwner.share : application.applicationDetails.owner.share",
-                  "errorMessage": "'ES_ERR_SHARE'"
+                  "errorMessage": "'ES_ERR_SHARE'",
+                  "pattern": "Percentage"
                 },
                 {
                   "label": "ES_IS_CURRENT_OWNER_LABEL",
