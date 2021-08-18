@@ -677,7 +677,7 @@
                   "jsonPath": "Applications[0].applicationDetails.property.sectorNumber",
                   "type": "DROP_DOWN",
                   "dataSource": "sectorNumber",
-                  "errorMessage": "'ES_ERR_SELECT_SUBCATEGORY'",
+                  "errorMessage": "'ES_ERR_SELECT_SECTORNO'",
                   "required": true
                 },
                 {
