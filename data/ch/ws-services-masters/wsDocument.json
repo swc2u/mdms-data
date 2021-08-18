@@ -2986,14 +2986,14 @@
 		  {
 			"name": "Copy of last paid bill",
 			"code": "METER_TEST_LASTPAID_BILL",
-			"isMandatory": false,
+			"isMandatory": true,
 			"active": true     
 		  },
 		  
 		  {
 			"name": "ID Proof of all the owners - self attested",
 			"code": "METER_TEST_IDPROOF",
-			"isMandatory": false,
+			"isMandatory": true,
 			"active": true     
 		  },
 		  {
