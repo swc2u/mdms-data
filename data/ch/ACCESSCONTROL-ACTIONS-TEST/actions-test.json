@@ -19346,6 +19346,27 @@
             "navigationURL": "",
             "leftIcon": "",
             "rightIcon": ""
+        },	
+
+{
+            "id": 4285,
+            "name": "rainmaker-common-pms",
+            "url": "/pension-services/v1/_createHRMSEmployee",
+            "displayName": "Create Employee",            
+            "orderNumber": 1,
+            "queryParams": "",
+            "parentModule": "273",
+            "enabled": true,
+            "serviceCode": "DEPT",
+            "tenantId": "ch",
+            "createdDate": null,
+            "createdBy": null,
+            "lastModifiedDate": null,
+            "lastModifiedBy": null,
+            "path": "",
+            "navigationURL": "",
+            "leftIcon": "",
+            "rightIcon": ""
         }
 	,
 	{
@@ -22953,7 +22974,42 @@
       "rightIcon": "",
       "queryParams": ""
     },
-	
+	{
+		"id": 4573,
+		"name": "create alf application",
+		"url": "/nulm-services/v1/alf/_create",
+		"displayName": "create alf application",
+		"orderNumber": 1,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+    },
+	{
+		"id": 4574,
+		"name": "update alf application",
+		"url": "/nulm-services/v1/alf/_update",
+		"displayName": "update alf application",
+		"orderNumber": 1,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+    },
+	{
+		"id": 4575,
+		"name": "get alf application",
+		"url": "/nulm-services/v1/alf/_get",
+		"displayName":  "get alf application",
+		"orderNumber": 1,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "nulm-services",
+		"code": "null",
+		"path": ""
+    },
 	{
 		"id": 4557,
 		"name": "Create Estimate",
@@ -23687,6 +23743,7 @@
 		"code": "null",
 		"path": ""
 	},
+	
 	{
         "id": 6004,
         "name": "RTI",
@@ -23998,6 +24055,30 @@
 		"name": "getEofficedata",
 		"url": "/integration-services/eoffice/v1/_getPostDetailsId",
 		"displayName": "getEofficedata",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6028,
+		"name": "generateBill",
+		"url": "/integration-services/finance/v1/_generate",
+		"displayName": "generateBill",
+		"orderNumber": 0,
+		"parentModule": "",
+		"enabled": false,
+		"serviceCode": "integration-services",
+		"code": "null",
+		"path": ""
+	},
+	{
+		"id": 6029,
+		"name": "generateReport",
+		"url": "/integration-services/report/v1/_generate",
+		"displayName": "generateReport",
 		"orderNumber": 0,
 		"parentModule": "",
 		"enabled": false,
@@ -25155,7 +25236,93 @@
       "path": "Agenda Branch.Notice.Create Random Notice",
       "navigationURL": "services/council/councilmeeting/newRandomNotice",
       "leftIcon": "editor:insert-chart"
+    },
+	{
+	      "id": 8073,
+	      "name": "Salary Report",
+	      "url": "url",
+	      "displayName": "Salary Report",
+	      "orderNumber": 7,
+	      "enabled": true,
+	      "serviceCode": "FinanceReport",
+	      "code": "null",
+	      "navigationURL": "services/EGF/generalledgerreport/home",
+	      "leftIcon": "editor:insert-chart",
+	      "path": "Finance.Reports.Deduction Reports.Salary Report"
+	},
+    {
+      "id": 8074,
+      "name": "Capital/Revenue Report",
+      "url": "services/EGF/generalledgerreport/capitalrevenuehome",
+      "parentModule": "",
+      "displayName": "Capital/Revenue Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.MIS Reports.Capital/Revenue Report",
+      "navigationURL": "services/EGF/generalledgerreport/capitalrevenuehome"
+    },
+	{
+      "id": 9111,
+      "name": "rainmaker-common-helpDesk",
+      "url": "card",
+      "displayName": "Help Desk Transaction Update",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "helpdesk",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-common/transaction-update",
+      "leftIcon": "social:assignment",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+	  {
+      "id": 9003,
+      "name": "rainmaker-common-helpDesk",
+      "url": "card",
+      "displayName": "Help Desk support",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "helpdesk",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-common/user-update",
+      "leftIcon": "social:assignment",
+      "rightIcon": "",
+      "queryParams": ""
+    },
+    {
+      "id": 8075,
+      "name": "Income Report",
+      "url": "services/EGF/generalledgerreport/capitaldivisionhome",
+      "parentModule": "",
+      "displayName": "Income Report",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "FinanceReport",
+      "code": "null",
+      "leftIcon": "editor:insert-chart",
+      "path": "Finance.Reports.MIS Reports.Income Report",
+      "navigationURL": "services/EGF/generalledgerreport/capitaldivisionhome"
+    },
+    {
+      "id": 8076,
+      "name": "MisCreate",
+      "url": "/services/EGF/rest/voucher/_misreceipt",
+      "displayName": "Misc Voucher",
+      "orderNumber": 0,
+      "parentModule": "",
+      "enabled": false,
+      "serviceCode": "VOUCHER",
+      "code": "null",
+      "path": ""
     }
+	
 
   ]
 }

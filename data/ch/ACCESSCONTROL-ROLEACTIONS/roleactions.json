@@ -15713,6 +15713,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SYS_INTEGRATOR_FINANCE",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1690,
 			"actioncode": "",
@@ -15745,6 +15751,12 @@
 		{
 			"rolecode": "SYS_INTEGRATOR_WATER_SEW",
 			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "SYS_INTEGRATOR_WATER_SEW",
+			"actionid": 8076,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -15835,6 +15847,12 @@
 		{
 			"rolecode": "EGF_BILL_CREATOR",
 			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EGF_BILL_CREATOR",
+			"actionid": 8076,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -16523,6 +16541,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1688,
 			"actioncode": "",
@@ -16535,6 +16559,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "TL_APPROVER",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "TL_CEMP",
 			"actionid": 1689,
 			"actioncode": "",
@@ -16543,6 +16573,18 @@
 		{
 			"rolecode": "CTL_ADMIN",
 			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "TL_CEMP",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CTL_ADMIN",
+			"actionid": 8076,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -16754,6 +16796,12 @@
 		{
 			"rolecode": "EMPLOYEE_FINANCE",
 			"actionid": 1689,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EMPLOYEE_FINANCE",
+			"actionid": 8076,
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -20239,6 +20287,24 @@
 		{
 			"rolecode": "CITIZEN",
 			"actionid": "4572",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NULM_ADMIN",
+			"actionid": "4573",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NULM_ADMIN",
+			"actionid": "4574",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "NULM_ADMIN",
+			"actionid": "4575",
 			"actioncode": "",
 			"tenantId": "ch"
 		},
@@ -30966,6 +31032,12 @@
       "actionid": 4284,
       "actioncode": "",
       "tenantId": "ch"  
+    },
+{
+      "rolecode": "PENSION_SYSTEM",
+      "actionid": 4285,
+      "actioncode": "",
+      "tenantId": "ch"
     },
 			{
 			"rolecode": "SI",
@@ -55507,6 +55579,36 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "SUPERUSER",
+			"actionid": 6028,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ICCC",
+			"actionid": 6029,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ICCC",
+			"actionid": 2604,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ICCC",
+			"actionid": 2442,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ICCC",
+			"actionid": 2007,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "BK_ADMIN",
 			"actionid": 7000,
 			"actioncode": "",
@@ -64251,6 +64353,12 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
+		{
+			"rolecode": "THIRDPARTY_INTEGRATOR_FINANCE",
+			"actionid": 8076,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
 		  {
 			"rolecode": "BK_COMMERCIAL_GROUND_VIEWER",
 			"actionid": 1766,
@@ -64347,11 +64455,53 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		  },
-			{
-				"rolecode": "AGENDA_NOTICE",
-				"actionid": 8072,
-				"actioncode": "",
-				"tenantId": "ch"
-			}			
+		  {
+			"rolecode": "AGENDA_NOTICE",
+			"actionid": 8072,
+			"actioncode": "",
+			"tenantId": "ch"
+		 },
+		{
+			"rolecode": "SUPERUSER",
+			"actionid": 8073,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "EGF_REPORT_VIEW",
+			"actionid": 8073,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "FINANCE_VOUCHER_REPORT",
+			"actionid": 8074,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HELP_DESK",
+			"actionid": 9003,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HELP_DESK",
+			"actionid": 9111,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HELP_DESK",
+			"actionid": 1700,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "FINANCE_VOUCHER_REPORT",
+			"actionid": 8075,
+			"actioncode": "",
+			"tenantId": "ch"
+		}			
 	]
 }
