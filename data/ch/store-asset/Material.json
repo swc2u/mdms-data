@@ -5522,7 +5522,7 @@
 			"code":"IT"
 		 },
          "baseUom":{
-			"id":1,
+			"id":19,
 			"code":"pkt",
 			"conversionFactor":1
 		 },
@@ -5530,7 +5530,7 @@
 		 "shelfLifeControl":true,
 		 "lotControl":true,
 		 "purchaseUom":{
-			"id":1,
+			"id":19,
 			"code":"pkt",
 			"conversionFactor":1
 		 }
@@ -5546,7 +5546,7 @@
 			"code":"IT"
 		 },
          "baseUom":{
-			"id":1,
+			"id":19,
 			"code":"pkt",
 			"conversionFactor":1
 		 },
@@ -5554,7 +5554,7 @@
 		 "shelfLifeControl":true,
 		 "lotControl":true,
 		 "purchaseUom":{
-			"id":1,
+			"id":19,
 			"code":"pkt",
 			"conversionFactor":1
 		 }
@@ -5667,7 +5667,7 @@
 			"code":"IT"
 		 },
          "baseUom":{
-			"id":1,
+			"id":19,
 			"code":"pkt",
 			"conversionFactor":1
 		 },
@@ -5675,7 +5675,7 @@
 		 "shelfLifeControl":true,
 		 "lotControl":true,
 		 "purchaseUom":{
-			"id":1,
+			"id":19,
 			"code":"pkt",
 			"conversionFactor":1
 		 }
@@ -5691,7 +5691,7 @@
 			"code":"IT"
 		 },
          "baseUom":{
-			"id":1,
+			"id":19,
 			"code":"pkt",
 			"conversionFactor":1
 		 },
@@ -5699,7 +5699,7 @@
 		 "shelfLifeControl":true,
 		 "lotControl":true,
 		 "purchaseUom":{
-			"id":1,
+			"id":19,
 			"code":"pkt",
 			"conversionFactor":1
 		 }
@@ -6111,6 +6111,804 @@
 			"code":"NOS",
 			"conversionFactor":1
 		 }
+      },
+     	
+
+    {
+      "id": 253,
+      "tenantId": "ch",
+      "code": "MOH26",
+      "name": "DFS Register ",
+      "description": "DFS Register ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
       }
+    },
+    {
+      "id": 254,
+      "tenantId": "ch",
+      "code": "MOH27",
+      "name": "Attendance Register ",
+      "description": "Attendance Register ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 255,
+      "tenantId": "ch",
+      "code": "MOH28",
+      "name": "Slip Pad",
+      "description": "Slip Pad",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 256,
+      "tenantId": "ch",
+      "code": "MOH29",
+      "name": "Dumper",
+      "description": "Dumper",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 257,
+      "tenantId": "ch",
+      "code": "MOH30",
+      "name": "Dispatch Register ",
+      "description": "Dispatch Register ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 258,
+      "tenantId": "ch",
+      "code": "MOH31",
+      "name": "Diary Register ",
+      "description": "Diary Register ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 259,
+      "tenantId": "ch",
+      "code": "MOH32",
+      "name": "Peon Dak Book",
+      "description": "Peon Dak Book",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 260,
+      "tenantId": "ch",
+      "code": "MOH33",
+      "name": "Cash Book",
+      "description": "Cash Book",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 261,
+      "tenantId": "ch",
+      "code": "MOH34",
+      "name": "Stock Register",
+      "description": "Stock Register",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 262,
+      "tenantId": "ch",
+      "code": "MOH35",
+      "name": "Lock ",
+      "description": "Lock ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 263,
+      "tenantId": "ch",
+      "code": "MOH36",
+      "name": "Acid ",
+      "description": "Acid ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 264,
+      "tenantId": "ch",
+      "code": "MOH37",
+      "name": "Toilet Pump",
+      "description": "Toilet Pump",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 265,
+      "tenantId": "ch",
+      "code": "MOH38",
+      "name": "Iron Bucket ",
+      "description": "Iron Bucket ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 266,
+      "tenantId": "ch",
+      "code": "MOH39",
+      "name": "Tray ",
+      "description": "Tray ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 267,
+      "tenantId": "ch",
+      "code": "MOH40",
+      "name": "Dust Pan",
+      "description": "Dust Pan",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 268,
+      "tenantId": "ch",
+      "code": "MOH41",
+      "name": "Phenyal Balls",
+      "description": "Phenyal Balls",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "4",
+        "code": "KGS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "4",
+        "code": "KGS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 269,
+      "tenantId": "ch",
+      "code": "MOH42",
+      "name": "Jug",
+      "description": "Jug",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 270,
+      "tenantId": "ch",
+      "code": "MOH43",
+      "name": "Odonil ",
+      "description": "Odonil ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 271,
+      "tenantId": "ch",
+      "code": "MOH44",
+      "name": "Phool Broom",
+      "description": "Phool Broom",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 272,
+      "tenantId": "ch",
+      "code": "MOH45",
+      "name": "Duster Floor ",
+      "description": "Duster Floor ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 273,
+      "tenantId": "ch",
+      "code": "MOH46",
+      "name": "Duster table ",
+      "description": "Duster table ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 274,
+      "tenantId": "ch",
+      "code": "MOH47",
+      "name": "Towel Hand ",
+      "description": "Towel Hand ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 275,
+      "tenantId": "ch",
+      "code": "MOH48",
+      "name": "Mug",
+      "description": "Mug",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 276,
+      "tenantId": "ch",
+      "code": "MOH49",
+      "name": "Wiper ",
+      "description": "Wiper ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 277,
+      "tenantId": "ch",
+      "code": "MOH50",
+      "name": "Tilla Broom",
+      "description": "Tilla Broom",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 278,
+      "tenantId": "ch",
+      "code": "MOH51",
+      "name": "Iron Brush ",
+      "description": "Iron Brush ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 279,
+      "tenantId": "ch",
+      "code": "MOH52",
+      "name": "Glass ",
+      "description": "Glass ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 280,
+      "tenantId": "ch",
+      "code": "MOH53",
+      "name": "Plastic Bucket ",
+      "description": "Plastic Bucket ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 281,
+      "tenantId": "ch",
+      "code": "MOH54",
+      "name": "Washing Powder ",
+      "description": "Washing Powder ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 282,
+      "tenantId": "ch",
+      "code": "MOH55",
+      "name": "Phenyal  ",
+      "description": "Phenyal  ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "4",
+        "code": "KGS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "4",
+        "code": "KGS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 283,
+      "tenantId": "ch",
+      "code": "MOH56",
+      "name": "Colin",
+      "description": "Colin",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 284,
+      "tenantId": "ch",
+      "code": "MOH57",
+      "name": "Harpic ",
+      "description": "Harpic ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 285,
+      "tenantId": "ch",
+      "code": "MOH58",
+      "name": "Mop",
+      "description": "Mop",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    }
+   
+  
+
+
    ]
 }
