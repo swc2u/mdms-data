@@ -19367,7 +19367,18 @@
             "navigationURL": "",
             "leftIcon": "",
             "rightIcon": ""
-        }
+        },
+{
+      "id": 4286,
+      "name": "NotifyPensionDisbursement",
+      "url": "/pension-services/v1/_notifyPensionDisbursement",
+      "displayName": "Bulk SMS",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    }
 	,
 	{
 		"id": 4300,
