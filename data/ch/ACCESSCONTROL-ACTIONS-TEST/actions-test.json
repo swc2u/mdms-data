@@ -19378,8 +19378,21 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
-    }
-	,
+    },
+	  {
+      "id": 4287,
+      "name": "Notification",
+      "url": "url",
+      "displayName": "Pension Notofication",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "PENSION",
+      "code": "null",
+      "navigationURL": "pms/pensionNotification",
+      "path": "PENSION.home",
+      "leftIcon": "social:people"
+    },
 	{
 		"id": 4300,
 		"name": "StoresCreation",
