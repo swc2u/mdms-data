@@ -31039,6 +31039,42 @@
       "actioncode": "",
       "tenantId": "ch"
     },
+{
+      "rolecode": "PENSION_SYSTEM",
+      "actionid": 4286,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4286,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "CLERK",
+      "actionid": 4286,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+"rolecode": "PENSION_SYSTEM",
+"actionid": 4287,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4287,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4287,
+"actioncode": "",
+"tenantId": "ch"
+},
 			{
 			"rolecode": "SI",
 			"actionid": "1861",
