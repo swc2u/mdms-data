@@ -31033,6 +31033,48 @@
       "actioncode": "",
       "tenantId": "ch"  
     },
+{
+      "rolecode": "PENSION_SYSTEM",
+      "actionid": 4285,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "PENSION_SYSTEM",
+      "actionid": 4286,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "ACCOUNTS_OFFICER",
+      "actionid": 4286,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+      "rolecode": "CLERK",
+      "actionid": 4286,
+      "actioncode": "",
+      "tenantId": "ch"
+    },
+{
+"rolecode": "PENSION_SYSTEM",
+"actionid": 4287,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4287,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4287,
+"actioncode": "",
+"tenantId": "ch"
+},
 			{
 			"rolecode": "SI",
 			"actionid": "1861",
@@ -64476,6 +64518,12 @@
 		{
 			"rolecode": "HELP_DESK",
 			"actionid": 9003,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "HELP_DESK",
+			"actionid": 9111,
 			"actioncode": "",
 			"tenantId": "ch"
 		},

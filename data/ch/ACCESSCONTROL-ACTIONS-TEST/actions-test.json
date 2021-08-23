@@ -19346,8 +19346,53 @@
             "navigationURL": "",
             "leftIcon": "",
             "rightIcon": ""
-        }
-	,
+        },	
+
+{
+            "id": 4285,
+            "name": "rainmaker-common-pms",
+            "url": "/pension-services/v1/_createHRMSEmployee",
+            "displayName": "Create Employee",            
+            "orderNumber": 1,
+            "queryParams": "",
+            "parentModule": "273",
+            "enabled": true,
+            "serviceCode": "DEPT",
+            "tenantId": "ch",
+            "createdDate": null,
+            "createdBy": null,
+            "lastModifiedDate": null,
+            "lastModifiedBy": null,
+            "path": "",
+            "navigationURL": "",
+            "leftIcon": "",
+            "rightIcon": ""
+        },
+{
+      "id": 4286,
+      "name": "NotifyPensionDisbursement",
+      "url": "/pension-services/v1/_notifyPensionDisbursement",
+      "displayName": "Bulk SMS",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+	  {
+      "id": 4287,
+      "name": "Notification",
+      "url": "url",
+      "displayName": "Pension Notofication",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "PENSION",
+      "code": "null",
+      "navigationURL": "pms/pensionNotification",
+      "path": "PENSION.home",
+      "leftIcon": "social:people"
+    },
 	{
 		"id": 4300,
 		"name": "StoresCreation",
@@ -25242,6 +25287,22 @@
       "leftIcon": "editor:insert-chart",
       "path": "Finance.Reports.MIS Reports.Capital/Revenue Report",
       "navigationURL": "services/EGF/generalledgerreport/capitalrevenuehome"
+    },
+	{
+      "id": 9111,
+      "name": "rainmaker-common-helpDesk",
+      "url": "card",
+      "displayName": "Help Desk Transaction Update",
+      "orderNumber": 2,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "helpdesk",
+      "code": "",
+      "path": "",
+      "navigationURL": "egov-common/transaction-update",
+      "leftIcon": "social:assignment",
+      "rightIcon": "",
+      "queryParams": ""
     },
 	  {
       "id": 9003,

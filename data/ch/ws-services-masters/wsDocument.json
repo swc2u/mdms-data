@@ -2966,6 +2966,43 @@
 			"active": true     
 		  }
 		 ]
+    },
+	{
+      "WaterActivity": "APPLY_FOR_METER_TESTING",
+	  "active": true,
+	  "document" :[
+		  {  
+			"name": "Application Addressed to concerned sub-division",
+			"code": "METER_TEST_APPLICATION_SUBDIV",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Latest Water bill copy",
+			"code": "METER_TEST_METER_PURCHASE_BILL",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of last paid bill",
+			"code": "METER_TEST_LASTPAID_BILL",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "ID Proof of all the owners - self attested",
+			"code": "METER_TEST_IDPROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Others",
+			"code": "WS_OTHERS",
+			"isMandatory": false,
+			"active": true     
+		  }
+		 ]
     }
 	
 	

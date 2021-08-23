@@ -622,6 +622,38 @@
         }
       ]
     },
+	
+    {
+      "state": "PENDING_FOR_METER_TESTING_BY_JE",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "08",
+          "role": "WS_JE_08",
+          "active": true
+        },
+        {
+          "subdivision": "09",
+          "role": "WS_JE_09",
+          "active": true
+        },
+        {
+          "subdivision": "14",
+          "role": "WS_JE_14",
+          "active": true
+        },
+        {
+          "subdivision": "15",
+          "role": "WS_JE_15",
+          "active": true
+        },
+        {
+          "subdivision": "20",
+          "role": "WS_JE_20",
+          "active": true
+        }
+      ]
+    },
     {
       "state": "PENDING_FOR_CONNECTION_CLOSE",
       "active": true,
@@ -659,30 +691,29 @@
       "roles": [
         {
           "subdivision": "08",
-          "role": "WS_JE_08",
+          "role": "WS_SUPERINTENDENT_08",
           "active": true
         },
         {
           "subdivision": "09",
-          "role": "WS_JE_09",
+          "role": "WS_SUPERINTENDENT_09",
           "active": true
         },
         {
           "subdivision": "14",
-          "role": "WS_JE_14",
+          "role": "WS_SUPERINTENDENT_14",
           "active": true
         },
         {
           "subdivision": "15",
-          "role": "WS_JE_15",
+          "role": "WS_SUPERINTENDENT_15",
           "active": true
         },
         {
           "subdivision": "20",
-          "role": "WS_JE_20",
+          "role": "WS_SUPERINTENDENT_20",
           "active": true
-        }
-      ]
+        } ]
     },
     {
       "state": "PENDING_FOR_CONNECTION_HOLDER_CHANGE",
@@ -841,6 +872,37 @@
     },
 	{
       "state": "PENDING_FOR_SUPERINTENDENT_APPROVAL_AFTER_JE_TEMPCONSTRUCTION",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "08",
+          "role": "WS_SUPERINTENDENT_08",
+          "active": true
+        },
+        {
+          "subdivision": "09",
+          "role": "WS_SUPERINTENDENT_09",
+          "active": true
+        },
+        {
+          "subdivision": "14",
+          "role": "WS_SUPERINTENDENT_14",
+          "active": true
+        },
+        {
+          "subdivision": "15",
+          "role": "WS_SUPERINTENDENT_15",
+          "active": true
+        },
+        {
+          "subdivision": "20",
+          "role": "WS_SUPERINTENDENT_20",
+          "active": true
+        }
+      ]
+    },
+	{
+      "state": "PENDING_FOR_SUPERINTENDENT_APPROVAL_AFTER_JE_STATE",
       "active": true,
       "roles": [
         {
