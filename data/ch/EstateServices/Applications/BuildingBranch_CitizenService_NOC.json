@@ -675,7 +675,7 @@
                   "label": "ES_SECTOR_NO_LABEL",
                   "placeholder": "ES_SELECT_SECTOR_NO_PLACEHOLDER",
                   "jsonPath": "Applications[0].applicationDetails.property.sectorNumber",
-                  "type": "DROP_DOWN",
+                  "type": "AUTO_SUGGEST",
                   "dataSource": "sectorNumber",
                   "errorMessage": "'ES_ERR_SELECT_SECTORNO'",
                   "required": true
