@@ -25357,6 +25357,20 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
-    }
+    },
+	{
+		"id": 8078,
+		"name": "Create Blank Detailed Estimate",
+		"url": "services/works/estimatePreparation/createDetailedEstimate",
+		"displayName": "Create Blank Detailed Estimate",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Create Blank Detailed Estimate",
+		"navigationURL": "services/works/estimatePreparation/createDetailedEstimate",
+		"leftIcon": "editor:insert-chart"
+	}
   ]
 }
