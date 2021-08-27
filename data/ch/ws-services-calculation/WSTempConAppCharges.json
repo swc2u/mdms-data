@@ -208,6 +208,12 @@
 					"to": 100000000000,
 					"code": "COMMERCIAL.COALPETROL",
 					"charge": 35
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
+					"code": "COMMERCIAL.VIOLATIONRESIDENTIAL",
+					"charge": 35
 				}
 			]
 		},
@@ -268,6 +274,12 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.RELIGIOUS",
+					"charge": 0
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
+					"code": "PUBLIC.PUBLICPARKS",
 					"charge": 0
 				}]
 		},

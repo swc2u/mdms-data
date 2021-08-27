@@ -25345,8 +25345,32 @@
       "serviceCode": "VOUCHER",
       "code": "null",
       "path": ""
-    }
-	
-
+    },
+	{
+      "id": 8077,
+      "name": "Update Payment Booking",
+      "url": "/bookings/api/update/payment",
+      "parentModule": "",
+      "displayName": "Update Payment Booking",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+	{
+		"id": 8078,
+		"name": "Create Blank Detailed Estimate",
+		"url": "services/works/estimatePreparation/createDetailedEstimate",
+		"displayName": "Create Blank Detailed Estimate",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Create Blank Detailed Estimate",
+		"navigationURL": "services/works/estimatePreparation/createDetailedEstimate",
+		"leftIcon": "editor:insert-chart"
+	}
   ]
 }

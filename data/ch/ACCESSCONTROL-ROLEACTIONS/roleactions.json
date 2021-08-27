@@ -64544,6 +64544,18 @@
 			"actionid": 8075,
 			"actioncode": "",
 			"tenantId": "ch"
+		},
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 8077,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_CREATE_ESTIMATE",
+			"actionid": 8078,
+			"actioncode": "",
+			"tenantId": "ch"
 		}			
 	]
 }
