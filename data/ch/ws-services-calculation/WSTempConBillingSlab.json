@@ -226,7 +226,13 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "COMMERCIAL.COALPETROL",
-					"charge": 1500
+					"charge": 2500
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
+					"code": "COMMERCIAL.VIOLATIONRESIDENTIAL",
+					"charge": 2500
 				}
 			]
 		},
@@ -287,6 +293,12 @@
 					"from": 0,
 					"to": 100000000000,
 					"code": "PUBLIC.RELIGIOUS",
+					"charge": 2500
+				},
+				{
+					"from": 0,
+					"to": 100000000000,
+					"code": "PUBLIC.PUBLICPARKS",
 					"charge": 2500
 				}]
 		},
