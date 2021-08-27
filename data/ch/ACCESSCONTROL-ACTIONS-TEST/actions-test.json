@@ -19393,6 +19393,28 @@
       "path": "PENSION.home",
       "leftIcon": "social:people"
     },
+{
+      "id": 4288,
+      "name": "PNBBankReport",
+      "url": "/pension-services/v1/_pnbBankReport",
+      "displayName": "pnbReportOne",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4289,
+      "name": "OtherBankReport",
+      "url": "/pension-services/v1/_otherBankReport",
+      "displayName": "pnbReportTwo",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
 	{
 		"id": 4300,
 		"name": "StoresCreation",
