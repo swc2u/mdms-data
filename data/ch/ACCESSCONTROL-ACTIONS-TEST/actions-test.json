@@ -19393,6 +19393,28 @@
       "path": "PENSION.home",
       "leftIcon": "social:people"
     },
+{
+      "id": 4288,
+      "name": "PNBBankReport",
+      "url": "/pension-services/v1/_pnbBankReport",
+      "displayName": "pnbReportOne",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4289,
+      "name": "OtherBankReport",
+      "url": "/pension-services/v1/_otherBankReport",
+      "displayName": "pnbReportTwo",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
 	{
 		"id": 4300,
 		"name": "StoresCreation",
@@ -25361,7 +25383,7 @@
 	{
 		"id": 8078,
 		"name": "Create Blank Detailed Estimate",
-		"url": "services/works/estimatePreparation/createDetailedEstimate",
+		"url": "services/works/estimatePreparation/newformdetail",
 		"displayName": "Create Blank Detailed Estimate",
 		"orderNumber": "3",
 		"parentModule": "works",
@@ -25369,7 +25391,21 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Estimate.Create Blank Detailed Estimate",
-		"navigationURL": "services/works/estimatePreparation/createDetailedEstimate",
+		"navigationURL": "services/works/estimatePreparation/newformdetail",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 8079,
+		"name": "Report",
+		"url": "services/works/dnit/abstractliabilities",
+		"displayName": "Report",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Report",
+		"navigationURL": "services/works/dnit/abstractliabilities",
 		"leftIcon": "editor:insert-chart"
 	}
   ]
