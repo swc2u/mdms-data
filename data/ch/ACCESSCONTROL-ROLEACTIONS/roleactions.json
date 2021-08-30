@@ -58082,7 +58082,13 @@
       "actionid": 9006,
       "actioncode": "",
       "tenantId": "ch"
-    }
+    },
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 8077,
+			"actioncode": "",
+			"tenantId": "ch"
+		}
 		
   ]
 }

@@ -23271,6 +23271,18 @@
       "navigationURL": "services/collection/receipts/searchReceiptNew.action",
       "leftIcon": "image:collections",
       "path": "Finance.Revenue/Collections.Search Receipts New"
+    },
+	{
+      "id": 8077,
+      "name": "Update Payment Booking",
+      "url": "/bookings/api/update/payment",
+      "parentModule": "",
+      "displayName": "Update Payment Booking",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
     }
   ]
 }
