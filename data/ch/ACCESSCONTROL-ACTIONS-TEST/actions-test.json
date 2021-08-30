@@ -25383,7 +25383,7 @@
 	{
 		"id": 8078,
 		"name": "Create Blank Detailed Estimate",
-		"url": "services/works/estimatePreparation/createDetailedEstimate",
+		"url": "services/works/estimatePreparation/newformdetail",
 		"displayName": "Create Blank Detailed Estimate",
 		"orderNumber": "3",
 		"parentModule": "works",
@@ -25391,7 +25391,21 @@
 		"serviceCode": "works",
 		"code": "",
 		"path": "Works.Estimate.Create Blank Detailed Estimate",
-		"navigationURL": "services/works/estimatePreparation/createDetailedEstimate",
+		"navigationURL": "services/works/estimatePreparation/newformdetail",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 8079,
+		"name": "Report",
+		"url": "services/works/dnit/abstractliabilities",
+		"displayName": "Report",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Report",
+		"navigationURL": "services/works/dnit/abstractliabilities",
 		"leftIcon": "editor:insert-chart"
 	}
   ]
