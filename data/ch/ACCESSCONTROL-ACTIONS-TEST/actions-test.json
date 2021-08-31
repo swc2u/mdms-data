@@ -19415,6 +19415,37 @@
       "code": "null",
       "path": "pension-services"
     },
+{
+      "id": 4290,
+      "name": "PNBBankReport",
+      "url": "url",
+      "displayName": "PNB Bank Report",
+      "orderNumber": 6,
+      "parentModule": "rainmaker-pension",
+      "enabled": true,
+      "serviceCode": "PMS_PNB_BANK_REPORT",
+      "code": "null",
+      "path": "PENSION.PENSION Reports.PNBBankReport",
+      "navigationURL": "report/rainmaker-pension/PNBBankReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+{
+      "id": 4291,
+      "name": "OtherBankReport",
+      "url": "url",
+      "displayName": "Other Bank Report",
+      "orderNumber": 6,
+      "parentModule": "rainmaker-pension",
+      "enabled": true,
+      "serviceCode": "PMS_OTHER_BANK_REPORT",
+      "code": "null",
+      "path": "PENSION.PENSION Reports.OtherBankReport",
+      "navigationURL": "report/rainmaker-pension/OtherBankReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+	  
 	{
 		"id": 4300,
 		"name": "StoresCreation",
