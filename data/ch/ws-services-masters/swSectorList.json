@@ -795,6 +795,56 @@
 		"ledgerRange":"",
 		"subdivision":"18",
 		"active": true
+	},
+	{
+		"name": "MAULI JAGRAN COMPLEX",
+		"code": "MJCOM",
+		"ledgerRange":"",
+		"subdivision":"22",
+		"active": true
+	},
+
+
+	{
+		"name": "VIKASH NAGER COLONY",
+		"code": "VNCOL",
+		"ledgerRange":"",
+		"subdivision":"22",
+		"active": true
+	},
+
+
+	{
+		"name": "CHARAN SINGH COLONY",
+		"code": "CSCOL",
+		"ledgerRange":"",
+		"subdivision":"22",
+		"active": true
+	},
+
+
+	{
+		"name": "VILLAGE MAULI",
+		"code": "VMAU",
+		"ledgerRange":"",
+		"subdivision":"22",
+		"active": true
+	},
+
+
+	{
+		"name": "VILLAGE DARIYA",
+		"code": "VDAR",
+		"ledgerRange":"",
+		"subdivision":"22",
+		"active": true
+	},
+	{
+		"name": "VILLAGE RAIPUR KALAN",
+		"code": "VRKL",
+		"ledgerRange":"",
+		"subdivision":"22",
+		"active": true
 	}
   ]
 }
