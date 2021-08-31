@@ -19445,6 +19445,52 @@
       "leftIcon": "action:assignment",
       "rightIcon": ""
     },
+    {
+      "id": 4292,
+      "name": "RainmakerPENSION-PNBBankReport-Metadata",
+      "url": "/report/rainmaker-pension/PNBBankReport/metadata/_get",
+      "displayName": "PNB Bank Report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+	{
+      "id": 4293,
+      "name": "PNBBankReport",
+      "url": "/report/rainmaker-pension/PNBBankReport/_get",
+      "displayName": "PNB Bank Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+    {
+      "id": 4294,
+      "name": "RainmakerPENSION-OtherBankReport-Metadata",
+      "url": "/report/rainmaker-pension/OtherBankReport/metadata/_get",
+      "displayName": "Other Bank Report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+	{
+      "id": 4295,
+      "name": "OtherBankReport",
+      "url": "/report/rainmaker-pension/OtherBankReport/_get",
+      "displayName": "Other Bank Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
 	  
 	{
 		"id": 4300,
