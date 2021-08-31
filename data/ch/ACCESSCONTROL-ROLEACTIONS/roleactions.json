@@ -31123,6 +31123,54 @@
 "actioncode": "",
 "tenantId": "ch"
 },
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4292,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4292,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4293,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4293,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4294,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4294,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4295,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4295,
+"actioncode": "",
+"tenantId": "ch"
+},
 			{
 			"rolecode": "SI",
 			"actionid": "1861",
