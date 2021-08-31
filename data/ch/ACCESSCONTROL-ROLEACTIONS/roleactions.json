@@ -31064,6 +31064,30 @@
 "actioncode": "",
 "tenantId": "ch"
 },
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4290,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4290,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4291,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4291,
+"actioncode": "",
+"tenantId": "ch"
+},
 			{
 			"rolecode": "SI",
 			"actionid": "1861",
