@@ -12001,7 +12001,7 @@
       "displayName": "Search Receipts",
       "orderNumber": 2,
       "parentModule": "",
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "Collections",
       "code": "null",
       "navigationURL": "services/collection/receipts/searchReceipt.action",
@@ -23139,7 +23139,7 @@
       "parentModule": "",
       "displayName": "Receipt Report",
       "orderNumber": 8,
-      "enabled": true,
+      "enabled": false,
       "serviceCode": "FinanceReport",
       "code": "null",
       "leftIcon": "editor:insert-chart",
@@ -23283,6 +23283,34 @@
       "serviceCode": "bookings",
       "code": "null",
       "path": ""
-    }
+    },
+	{
+		"id": 8078,
+		"name": "Create Blank Detailed Estimate",
+		"url": "services/works/estimatePreparation/newformdetail",
+		"displayName": "Create Blank Detailed Estimate",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Create Blank Detailed Estimate",
+		"navigationURL": "services/works/estimatePreparation/newformdetail",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 8079,
+		"name": "Report",
+		"url": "services/works/dnit/abstractliabilities",
+		"displayName": "Report",
+		"orderNumber": "5",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.MIS.Report",
+		"navigationURL": "services/works/dnit/abstractliabilities",
+		"leftIcon": "editor:insert-chart"
+	}
   ]
 }
