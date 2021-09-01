@@ -31746,6 +31746,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "NULM_ADMIN",
+		"actionid": 1729,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "NULMSDO",
 		"actionid": 1729,
 		"actioncode": "",
