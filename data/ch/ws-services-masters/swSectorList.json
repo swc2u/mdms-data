@@ -845,7 +845,16 @@
 		"ledgerRange":"",
 		"subdivision":"22",
 		"active": true
+	},
+	{
+		"name": "SEWERAGE SYSTEM OF NAC (SHIVALIK ENCLAVE)",
+		"code": "SHENC",
+		"ledgerRange":"",
+		"subdivision":"22",
+		"active": true
 	}
+
+	
   ]
 }
 
