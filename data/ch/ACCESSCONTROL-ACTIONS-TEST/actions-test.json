@@ -25484,6 +25484,20 @@
 		"path": "Works.Estimate.Report",
 		"navigationURL": "services/works/dnit/abstractliabilities",
 		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 8080,
+		"name": "DNIT",
+		"url": "services/works/searchEstimate/searchDnitApproval",
+		"displayName": "DNIT",
+		"orderNumber": "5",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.MIS.DNIT",
+		"navigationURL": "services/works/searchEstimate/searchDnitApproval",
+		"leftIcon": "editor:insert-chart"
 	}
   ]
 }

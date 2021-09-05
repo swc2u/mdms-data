@@ -64658,6 +64658,12 @@
 			"actionid": 8079,
 			"actioncode": "",
 			"tenantId": "ch"
-		}			
+		},
+			{
+				"rolecode": "WORKS_MIS",
+				"actionid": 8080,
+				"actioncode": "",
+				"tenantId": "ch"
+			}			
 	]
 }
