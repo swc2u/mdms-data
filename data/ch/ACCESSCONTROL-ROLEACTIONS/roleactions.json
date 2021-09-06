@@ -24557,6 +24557,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "954",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EE",
 			"actionid": "692",
 			"actioncode": "",
