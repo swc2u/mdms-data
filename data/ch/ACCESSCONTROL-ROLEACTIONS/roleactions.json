@@ -24269,6 +24269,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "2007",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SDO",
 			"actionid": "2007",
 			"actioncode": "",
@@ -24515,6 +24521,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "1528",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EE",
 			"actionid": "1743",
 			"actioncode": "",
@@ -24750,6 +24762,12 @@
 		},
 		{
 			"rolecode": "EE",
+			"actionid": "2006",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ADM",
 			"actionid": "2006",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -27035,6 +27053,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "2050",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EE",
 			"actionid": "2051",
 			"actioncode": "",
@@ -27042,6 +27066,12 @@
 		},
 		{
 			"rolecode": "EE",
+			"actionid": "2052",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ADM",
 			"actionid": "2052",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -31749,6 +31779,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "HC_EE",
 			"actionid": "1743",
 			"actioncode": "",
@@ -31817,6 +31853,12 @@
 
 		{
 			"rolecode": "EE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ADM",
 			"actionid": "1730",
 			"actioncode": "",
 			"tenantId": "ch"
