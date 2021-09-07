@@ -1085,6 +1085,69 @@
     },
 	{
 	
+      "occupancycode": "COMMERCIAL.VIOLATIONRESIDENTIAL",
+      "applicationType": "REGULAR",
+	  "category":"SECONDCONNECTIONUPPERFLOOR",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application Form duly filled in triplicate (on prescribed form)",
+			"code": "VIOLATIONRESIDENTIAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy for proof of ownership (Self attested)",
+			"code": "VIOLATIONRESIDENTIAL_OWNERSHIP_PROOF",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Registered GPA (In case of GPA Holder)",
+			"code": "VIOLATIONRESIDENTIAL_COPY_OF_GPA",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Certificate from Licensed Plumber for separate plumbing system on application form.",
+			"code": "VIOLATIONRESIDENTIAL_PLUMBING_LISCENSE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Payment of Road Cut restoration charges, if involved.",
+			"code": "VIOLATIONRESIDENTIAL_ROADCUT_RECEIPT",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "If house on share percentage basis then an affidavit duly attested by Magistrate is required for Floor clarification",
+			"code": "VIOLATIONRESIDENTIAL_AFFIDAVIT_FLOOR",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of the last water bill paid.",
+			"code": "VIOLATIONRESIDENTIAL_WATER_BILL",
+			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "VIOLATIONRESIDENTIAL_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Others",
+			"code": "WS_OTHERS",
+			"isMandatory": false,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
       "occupancycode": "COMMERCIAL.COALPETROL",
       "applicationType": "REGULAR",
 	  "category":"COMMERCIAL_INDUSTRIAL_OTHERS",
@@ -1572,6 +1635,69 @@
 	{
 	
       "occupancycode": "PUBLIC.RELIGIOUS",
+      "applicationType": "REGULAR",
+	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
+	  "active": true,
+	  "document" :[
+		   {
+			"name": "Application on Prescribed Form duly filled in triplicate by the HOD or any person authorized on his behalf",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_TRIPLICATE_FORM",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of allotment letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ALLOTMENT_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Possession letter of Premises (self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_POSSESSION_LETTER",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of payment of road cut restoration charges, if involved",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ROADCUT_CERTIFICATE",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of Occupation/ Completion Certificate from the Estate Office (Self attested)",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_ESTATE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "No Due Certificate regarding Water Charges during construction",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_NODUE_CERTIFICATE",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Receipt of Sewerage Charges",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_SERWERAGE_CHARGES",
+			"isMandatory": true,
+			"active": true     
+		  },
+		   {
+			"name": "ID proof of all the owners",
+			"code": "GOVT_PREMISES_OFFICES_INSTITUTIONAL_IDPROOF",
+			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Others",
+			"code": "WS_OTHERS",
+			"isMandatory": false,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+	
+      "occupancycode": "PUBLIC.PUBLICPARKS",
       "applicationType": "REGULAR",
 	  "category":"GOVT_PREMISES_OFFICES_INSTITUTIONAL",
 	  "active": true,
@@ -2957,6 +3083,43 @@
 			"name": "ID Proof of all the owners",
 			"code": "UPDATE_METER_INFO_IDPROOF",
 			"isMandatory": false,
+			"active": true     
+		  },
+		  {
+			"name": "Others",
+			"code": "WS_OTHERS",
+			"isMandatory": false,
+			"active": true     
+		  }
+		 ]
+    },
+	{
+      "WaterActivity": "APPLY_FOR_METER_TESTING",
+	  "active": true,
+	  "document" :[
+		  {  
+			"name": "Application Addressed to concerned sub-division",
+			"code": "METER_TEST_APPLICATION_SUBDIV",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Latest Water bill copy",
+			"code": "METER_TEST_METER_PURCHASE_BILL",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  {
+			"name": "Copy of last paid bill",
+			"code": "METER_TEST_LASTPAID_BILL",
+			"isMandatory": true,
+			"active": true     
+		  },
+		  
+		  {
+			"name": "ID Proof of all the owners - self attested",
+			"code": "METER_TEST_IDPROOF",
+			"isMandatory": true,
 			"active": true     
 		  },
 		  {

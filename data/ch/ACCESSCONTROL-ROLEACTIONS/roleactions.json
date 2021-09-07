@@ -31746,6 +31746,12 @@
 		"tenantId": "ch"
 	},
 	{
+		"rolecode": "NULM_ADMIN",
+		"actionid": 1729,
+		"actioncode": "",
+		"tenantId": "ch"
+	},
+	{
 		"rolecode": "NULMSDO",
 		"actionid": 1729,
 		"actioncode": "",
@@ -58082,7 +58088,25 @@
       "actionid": 9006,
       "actioncode": "",
       "tenantId": "ch"
-    }
+    },
+		{
+			"rolecode": "CITIZEN",
+			"actionid": 8077,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "WORKS_CREATE_ESTIMATE",
+			"actionid": 8078,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+			{
+				"rolecode": "WORKS_MIS",
+				"actionid": 8079,
+				"actioncode": "",
+				"tenantId": "ch"
+			}
 		
   ]
 }

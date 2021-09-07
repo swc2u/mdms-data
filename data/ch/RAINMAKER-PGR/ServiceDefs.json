@@ -1082,6 +1082,14 @@
             "slaHours": 0,
             "menuPath": "StrayDogs"
         },
+		{
+            "serviceCode": "DEP06_DoorToDoorGarbageCollection_01",
+            "active": true,
+            "keywords": "DoorToDoorGarbageCollection",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "DoorToDoorGarbageCollection"
+        },
         {
             "serviceCode": "DEP03_Horticulture_01",
             "active": true,
@@ -1953,6 +1961,22 @@
             "department": "DEP_01",
             "slaHours": 360,
             "menuPath": "WaterSupply"
+        },
+		 {
+            "serviceCode": "DEP27_ApniMandi_01",
+            "active": true,
+            "keywords": "apni, mandi",
+            "department": "DEP_27",
+            "slaHours": 0,
+            "menuPath": "ApniMandiAndDayMarket"
+        },
+		 {
+            "serviceCode": "DEP27_DayMarket_02",
+            "active": true,
+            "keywords": "day, market",
+            "department": "DEP_27",
+            "slaHours": 0,
+            "menuPath": "ApniMandiAndDayMarket"
         }
    ]
 }
