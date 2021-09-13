@@ -219,6 +219,37 @@
         }
       ]
     },
+	{
+      "state": "PENDING_FOR_SDE_APPROVAL_AFTER_EE2",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "08",
+          "role": "WS_SDE_08",
+          "active": true
+        },
+        {
+          "subdivision": "09",
+          "role": "WS_SDE_09",
+          "active": true
+        },
+        {
+          "subdivision": "14",
+          "role": "WS_SDE_14",
+          "active": true
+        },
+        {
+          "subdivision": "15",
+          "role": "WS_SDE_15",
+          "active": true
+        },
+        {
+          "subdivision": "20",
+          "role": "WS_SDE_20",
+          "active": true
+        }
+      ]
+    },
     {
       "state": "PENDING_FOR_SDE_APPROVAL_FOR_CITIZEN",
       "active": true,
