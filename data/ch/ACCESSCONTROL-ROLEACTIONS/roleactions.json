@@ -24269,6 +24269,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "2007",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "SDO",
 			"actionid": "2007",
 			"actioncode": "",
@@ -24515,6 +24521,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "1528",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EE",
 			"actionid": "1743",
 			"actioncode": "",
@@ -24540,6 +24552,12 @@
 		},
 		{
 			"rolecode": "EE",
+			"actionid": "954",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ADM",
 			"actionid": "954",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -24731,6 +24749,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "2002",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EE",
 			"actionid": "2003",
 			"actioncode": "",
@@ -24750,6 +24774,12 @@
 		},
 		{
 			"rolecode": "EE",
+			"actionid": "2006",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ADM",
 			"actionid": "2006",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -27035,6 +27065,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "2050",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "EE",
 			"actionid": "2051",
 			"actioncode": "",
@@ -27042,6 +27078,12 @@
 		},
 		{
 			"rolecode": "EE",
+			"actionid": "2052",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ADM",
 			"actionid": "2052",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -31099,6 +31141,78 @@
 "actioncode": "",
 "tenantId": "ch"
 },
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4290,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4290,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4291,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4291,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4292,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4292,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4293,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4293,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4294,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4294,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "ACCOUNTS_OFFICER",
+"actionid": 4295,
+"actioncode": "",
+"tenantId": "ch"
+},
+{
+"rolecode": "CLERK",
+"actionid": 4295,
+"actioncode": "",
+"tenantId": "ch"
+},
 			{
 			"rolecode": "SI",
 			"actionid": "1861",
@@ -31677,6 +31791,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "1743",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "HC_EE",
 			"actionid": "1743",
 			"actioncode": "",
@@ -31745,6 +31865,12 @@
 
 		{
 			"rolecode": "EE",
+			"actionid": "1730",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
+			"rolecode": "ADM",
 			"actionid": "1730",
 			"actioncode": "",
 			"tenantId": "ch"
@@ -64586,6 +64712,12 @@
 			"actionid": 8079,
 			"actioncode": "",
 			"tenantId": "ch"
-		}			
+		},
+			{
+				"rolecode": "WORKS_MIS",
+				"actionid": 8080,
+				"actioncode": "",
+				"tenantId": "ch"
+			}			
 	]
 }
