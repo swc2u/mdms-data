@@ -20687,6 +20687,19 @@
 			"code": "null",
 			"path": ""
 		},	
+		{
+			"id": 2615,
+			"name": "Service Request",
+			"url": "/hc-services/serviceRequest/_send",
+			"displayName": "Horticulutre Service request send sms",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},
 	  {
       "id": 4067,
       "name": "Water & Sewerage",
