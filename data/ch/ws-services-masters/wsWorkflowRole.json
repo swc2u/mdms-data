@@ -721,29 +721,29 @@
       "roles": [
         {
           "subdivision": "08",
-          "role": "WS_JE_08",
+          "role": "WS_SUPERINTENDENT_08",
           "active": true
         },
         {
           "subdivision": "09",
-          "role": "WS_JE_09",
+          "role": "WS_SUPERINTENDENT_09",
           "active": true
         },
         {
           "subdivision": "14",
-          "role": "WS_JE_14",
+          "role": "WS_SUPERINTENDENT_14",
           "active": true
         },
         {
           "subdivision": "15",
-          "role": "WS_JE_15",
+          "role": "WS_SUPERINTENDENT_15",
           "active": true
         },
         {
           "subdivision": "20",
-          "role": "WS_JE_20",
+          "role": "WS_SUPERINTENDENT_20",
           "active": true
-        }
+        } 
       ]
     },
     {
