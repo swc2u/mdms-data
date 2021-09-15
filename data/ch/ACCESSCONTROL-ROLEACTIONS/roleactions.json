@@ -25001,6 +25001,12 @@
 			"tenantId": "ch"
 		},
 		{
+			"rolecode": "ADM",
+			"actionid": "1766",
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+		{
 			"rolecode": "HC_EE",
 			"actionid": "1766",
 			"actioncode": "",
