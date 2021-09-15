@@ -20688,6 +20688,19 @@
 			"path": ""
 		},	
 		{
+			"id": 2616,
+			"name": "HC sendSMS",
+			"url": "/hc-services/serviceRequest/_sendSMS",
+			"displayName": "Horticulutre sendSMS",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},	
+		{
 			"id": 2615,
 			"name": "Service Request",
 			"url": "/hc-services/serviceRequest/_send",
