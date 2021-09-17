@@ -429,11 +429,6 @@
 		"active" : true
 	},
 	{
-		"name" : "ROAD DIV 3 SUBDIV 34",
-		"code" : "499",
-		"active" : true
-	},
-	{
 		"name" : "PH DIV 3 SUBDIV 21",
 		"code" : "500",
 		"active" : true
@@ -441,6 +436,26 @@
 	{
 		"name" : "O/o JOINT COMMISSIONER 2",
 		"code" : "501",
+		"active" : true
+	},
+	{
+		"name" : "C and D Waste Plant",
+		"code" : "502",
+		"active" : true
+	},
+	{
+		"name" : "ROAD DIV 3 SUBDIV 1",
+		"code" : "503",
+		"active" : true
+	},
+	{
+		"name" : "ROAD DIV 3 SUBDIV 2",
+		"code" : "504",
+		"active" : true
+	},
+	{
+		"name" : "ROAD DIV 3 SUBDIV 4",
+		"code" : "505",
 		"active" : true
 	}
     ]
