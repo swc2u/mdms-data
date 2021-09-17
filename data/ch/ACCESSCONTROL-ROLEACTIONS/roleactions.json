@@ -63267,6 +63267,18 @@
 				"tenantId": "ch"
 			},
 			{
+				"rolecode": "HC_WA",
+				"actionid": "2616",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
+				"rolecode": "HC_COMMISSIONERMCC",
+				"actionid": "2616",
+				"actioncode": "",
+				"tenantId": "ch"
+			},
+			{
 				"rolecode": "HC_SE",
 				"actionid": "2613",
 				"actioncode": "",
