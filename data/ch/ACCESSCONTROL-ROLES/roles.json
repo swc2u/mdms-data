@@ -1435,14 +1435,19 @@
 	 "description": "Department User who can upload Agenda"
     },
 	{
-         "code":"ICCC",
-         "name":"ICCC",
-         "description":"ICCC"
-     },
-	   {
-         "code":"HELP_DESK",
-         "name":"Help Desk",
-         "description":"Help Desk"
-     }
+	"code":"ICCC",
+	"name":"ICCC",
+	"description":"ICCC"
+	},
+	{
+	"code":"HELP_DESK",
+	"name":"Help Desk",
+	"description":"Help Desk"
+	},
+	{
+	"code":"ADM",
+	"name":"ADM",
+	"description":"ADM"
+	}	 
    ]
 }
