@@ -6905,6 +6905,606 @@
         "code": "NOS",
         "conversionFactor": 1
       }
+    },
+    {
+      "id": 286,
+      "tenantId": "ch",
+      "code": "MOH59",
+      "name": "Mop Refil",
+      "description": "Mop Refil",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 287,
+      "tenantId": "ch",
+      "code": "MOH60",
+      "name": "Dustbin ",
+      "description": "Dustbin ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 288,
+      "tenantId": "ch",
+      "code": "MOH61",
+      "name": "Tile Brush ",
+      "description": "Tile Brush ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 289,
+      "tenantId": "ch",
+      "code": "MOH62",
+      "name": "Envelop 11 inch x 5 inch",
+      "description": "Envelop 11 inch x 5 inch",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "19",
+        "code": "pkt",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "19",
+        "code": "pkt",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 290,
+      "tenantId": "ch",
+      "code": "MOH63",
+      "name": "Envelop FS ",
+      "description": "Envelop FS ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "19",
+        "code": "pkt",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "19",
+        "code": "pkt",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 291,
+      "tenantId": "ch",
+      "code": "MOH64",
+      "name": "Folder FS ",
+      "description": "Folder FS ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "19",
+        "code": "pkt",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "19",
+        "code": "pkt",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 292,
+      "tenantId": "ch",
+      "code": "MOH65",
+      "name": "Dak Pad",
+      "description": "Dak Pad",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 293,
+      "tenantId": "ch",
+      "code": "MOH66",
+      "name": "LED Tube Set",
+      "description": "LED Tube Set",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 294,
+      "tenantId": "ch",
+      "code": "MOH67",
+      "name": "TubE Rod",
+      "description": "TubE Rod",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 295,
+      "tenantId": "ch",
+      "code": "MOH68",
+      "name": "Electric Choke ",
+      "description": "Electric Choke ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 296,
+      "tenantId": "ch",
+      "code": "MOH69",
+      "name": "Spiral Note Book",
+      "description": "Spiral Note Book",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 297,
+      "tenantId": "ch",
+      "code": "MOH70",
+      "name": "Pencil Cell",
+      "description": "Pencil Cell",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 298,
+      "tenantId": "ch",
+      "code": "MOH71",
+      "name": "Hand wash",
+      "description": "Hand wash",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 299,
+      "tenantId": "ch",
+      "code": "MOH72",
+      "name": "Tape dispenser ",
+      "description": "Tape dispenser ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 300,
+      "tenantId": "ch",
+      "code": "MOH73",
+      "name": "Paper cutter ",
+      "description": "Paper cutter ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 301,
+      "tenantId": "ch",
+      "code": "MOH74",
+      "name": "Rubber Gloves ",
+      "description": "Rubber Gloves ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 302,
+      "tenantId": "ch",
+      "code": "MOH75",
+      "name": "Masks cloth",
+      "description": "Masks cloth",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 303,
+      "tenantId": "ch",
+      "code": "MOH76",
+      "name": "Safety Jacket ",
+      "description": "Safety Jacket ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 304,
+      "tenantId": "ch",
+      "code": "MOH77",
+      "name": "Stapler big ",
+      "description": "Stapler big ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 305,
+      "tenantId": "ch",
+      "code": "MOH78",
+      "name": "Stapler pin big ",
+      "description": "Stapler pin big ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 306,
+      "tenantId": "ch",
+      "code": "MOH79",
+      "name": "Steel rule ",
+      "description": "Steel rule ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 307,
+      "tenantId": "ch",
+      "code": "MOH80",
+      "name": "Paper Weight",
+      "description": "Paper Weight",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 308,
+      "tenantId": "ch",
+      "code": "MOH81",
+      "name": "Pin Cushion ",
+      "description": "Pin Cushion ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 309,
+      "tenantId": "ch",
+      "code": "MOH82",
+      "name": "Tap Brown 3 inch ",
+      "description": "Tap Brown 3 inch ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "1",
+        "code": "NOS",
+        "conversionFactor": 1
+      }
+    },
+    {
+      "id": 310,
+      "tenantId": "ch",
+      "code": "MOH83",
+      "name": "Pencil  ",
+      "description": "Pencil  ",
+      "materialType": {
+        "id": "8",
+        "code": "IT"
+      },
+      "baseUom": {
+        "id": "19",
+        "code": "pkt",
+        "conversionFactor": 1
+      },
+      "serialNumber": true,
+      "shelfLifeControl": true,
+      "lotControl": true,
+      "purchaseUom": {
+        "id": "19",
+        "code": "pkt",
+        "conversionFactor": 1
+      }
     }
    
   
