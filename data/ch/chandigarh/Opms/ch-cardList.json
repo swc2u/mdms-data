@@ -19,7 +19,7 @@
     },
 	{
       "code": "ROADCUTNOC",
-	  "roles": ["CITIZEN","JE","SDO","EE","SE","CE","DMCE","DMEE","DMSE","WD","SDE","HDMEE","CHDSE","CHDCE","SDEHQ"],
+	  "roles": ["CITIZEN","JE","SDO","EE","ADM","SE","CE","DMCE","DMEE","DMSE","WD","SDE","HDMEE","CHDSE","CHDCE","SDEHQ"],
 	  "routeCitizen":"roadcutLanding"
     }
   ]
