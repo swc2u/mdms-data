@@ -25,10 +25,15 @@
           "subdivision": "18",
           "role": "SW_JE_18",
           "active": true
+        },
+         {
+          "subdivision": "22",
+          "role": "SW_JE_22",
+          "active": true
         }
       ]
     },
-	{
+  {
       "state": "PENDING_FOR_SDE_ROADS_APPROVAL",
       "active": true,
       "roles": [
@@ -51,10 +56,15 @@
           "subdivision": "18",
           "role": "SW_SDER_18",
           "active": true
+        },
+        {
+          "subdivision": "22",
+          "role": "SW_SDER_22",
+          "active": true
         }
       ]
     },
-	{
+  {
       "state": "PENDING_FOR_SITE_INSPECTION",
       "active": true,
       "roles": [
@@ -77,10 +87,15 @@
           "subdivision": "18",
           "role": "SW_JE_18",
           "active": true
+        },
+         {
+          "subdivision": "22",
+          "role": "SW_JE_22",
+          "active": true
         }
       ]
     },
-	{
+  {
       "state": "PENDING_ROADCUT_NOC_APPROVAL",
       "active": true,
       "roles": [
@@ -102,6 +117,11 @@
         {
           "subdivision": "18",
           "role": "SW_JE_18",
+          "active": true
+        },
+        {
+          "subdivision": "22",
+          "role": "SW_JE_22",
           "active": true
         }
       ]
@@ -129,6 +149,11 @@
           "subdivision": "18",
           "role": "SW_SDE_18",
           "active": true
+        },
+         {
+          "subdivision": "22",
+          "role": "SW_SDE_22",
+          "active": true
         }
       ]
     },
@@ -154,6 +179,11 @@
         {
           "subdivision": "18",
           "role": "SW_SDE_18",
+          "active": true
+        },
+         {
+          "subdivision": "22",
+          "role": "SW_SDE_22",
           "active": true
         }
       ]
@@ -181,6 +211,11 @@
           "subdivision": "18",
           "role": "SW_SDE_18",
           "active": true
+        },
+        {
+          "subdivision": "22",
+          "role": "SW_SDE_22",
+          "active": true
         }
       ]
     }, 
@@ -207,9 +242,109 @@
           "subdivision": "18",
           "role": "SW_JE_18",
           "active": true
+        },
+        {
+          "subdivision": "22",
+          "role": "SW_JE_22",
+          "active": true
+        }
+      ]
+    },
+     {
+      "state": "PENDING_FOR_EE_APPROVAL",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "06",
+          "role": "SW_EE",
+          "active": true
+        },
+        {
+          "subdivision": "12",
+          "role": "SW_EE",
+          "active": true
+        },
+        {
+          "subdivision": "13",
+          "role": "SW_EE",
+          "active": true
+        },
+        {
+          "subdivision": "18",
+          "role": "SW_EE",
+          "active": true
+        },
+        {
+          "subdivision": "22",
+          "role": "SW_EE_22",
+          "active": true
+        }
+      ]
+    },
+    {
+      "state": "PENDING_FOR_SUPERINTENDENT_APPROVAL",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "06",
+          "role": "SW_SUPERINTENDENT",
+          "active": true
+        },
+        {
+          "subdivision": "12",
+          "role": "SW_SUPERINTENDENT",
+          "active": true
+        },
+        {
+          "subdivision": "13",
+          "role": "SW_SUPERINTENDENT",
+          "active": true
+        },
+        {
+          "subdivision": "18",
+          "role": "SW_SUPERINTENDENT",
+          "active": true
+        },
+        {
+          "subdivision": "22",
+          "role": "SW_SUPERINTENDENT_22",
+          "active": true
+        }
+
+      ]
+    },
+    {
+      "state": "PENDING_FOR_EE_REVIEW",
+      "active": true,
+      "roles": [
+        {
+          "subdivision": "06",
+          "role": "SW_EE",
+          "active": true
+        },
+        {
+          "subdivision": "12",
+          "role": "SW_EE",
+          "active": true
+        },
+        {
+          "subdivision": "13",
+          "role": "SW_EE",
+          "active": true
+        },
+        {
+          "subdivision": "18",
+          "role": "SW_EE",
+          "active": true
+        },
+        {
+          "subdivision": "22",
+          "role": "SW_EE_22",
+          "active": true
         }
       ]
     }
+
   ]
 }
 
