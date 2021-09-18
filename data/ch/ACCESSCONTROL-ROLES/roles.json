@@ -1209,6 +1209,11 @@
       "name": "WS Common role",
       "description": "Common role for water & sewerage"
     },
+    {
+         "code":"SW_JE_22",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+   },
 	{
       "code": "WS_SE",
       "name": "WS Common role",
@@ -1374,16 +1379,32 @@
       "name": "SW SDO",
       "description": "SW SDO who forward connection"
     },
+    {
+         "code":"SW_SDE_22",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+   },
 	{
       "code": "SW_EE",
       "name": "SW SDO",
       "description": "SW SDO who forward connection"
     },
+    {
+         "code":"SW_EE_22",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
 	{
       "code": "SW_SUPERINTENDENT",
       "name": "SW SDO",
       "description": "SW SDO who forward connection"
     },
+
+     {
+         "code":"SW_SUPERINTENDENT_22",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
 	{
       "code": "SW_CHD",
       "name": "SW SDO",
@@ -1419,6 +1440,11 @@
       "name": "SW SDO",
       "description": "SW SDO who forward connection"
     },
+     {
+         "code":"SW_SDER_22",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+    },
     {
          "code":"CHALLAN_EDIT",
          "name":"CHALLAN_EDIT",
@@ -1435,14 +1461,19 @@
 	 "description": "Department User who can upload Agenda"
     },
 	{
-         "code":"ICCC",
-         "name":"ICCC",
-         "description":"ICCC"
-     },
-	   {
-         "code":"HELP_DESK",
-         "name":"Help Desk",
-         "description":"Help Desk"
-     }
+	"code":"ICCC",
+	"name":"ICCC",
+	"description":"ICCC"
+	},
+	{
+	"code":"HELP_DESK",
+	"name":"Help Desk",
+	"description":"Help Desk"
+	},
+	{
+	"code":"ADM",
+	"name":"ADM",
+	"description":"ADM"
+	}	 
    ]
 }

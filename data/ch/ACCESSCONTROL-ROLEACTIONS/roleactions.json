@@ -58119,12 +58119,71 @@
 			"actioncode": "",
 			"tenantId": "ch"
 		},
-			{
-				"rolecode": "WORKS_MIS",
-				"actionid": 8079,
-				"actioncode": "",
-				"tenantId": "ch"
-			}
-		
+		{
+			"rolecode": "WORKS_MIS",
+			"actionid": 8079,
+			"actioncode": "",
+			"tenantId": "ch"
+		},
+	{
+	"rolecode": "ADM",
+	"actionid": "2007",
+	"actioncode": "",
+	"tenantId": "ch"
+	},
+	{
+	"rolecode": "ADM",
+	"actionid": "1528",
+	"actioncode": "",
+	"tenantId": "ch"
+	},
+	{
+	"rolecode": "ADM",
+	"actionid": "2006",
+	"actioncode": "",
+	"tenantId": "ch"
+	},
+	{
+	"rolecode": "ADM",
+	"actionid": "2050",
+	"actioncode": "",
+	"tenantId": "ch"
+	},
+	{
+	"rolecode": "ADM",
+	"actionid": "2052",
+	"actioncode": "",
+	"tenantId": "ch"
+	},
+	{
+	"rolecode": "ADM",
+	"actionid": "1743",
+	"actioncode": "",
+	"tenantId": "ch"
+	},
+	{
+	"rolecode": "ADM",
+	"actionid": "1730",
+	"actioncode": "",
+	"tenantId": "ch"
+	},
+	{
+	"rolecode": "ADM",
+	"actionid": "954",
+	"actioncode": "",
+	"tenantId": "ch"
+	},
+	{
+	"rolecode": "ADM",
+	"actionid": "2002",
+	"actioncode": "",
+	"tenantId": "ch"
+	},
+	{
+	"rolecode": "ADM",
+	"actionid": "1766",
+	"actioncode": "",
+	"tenantId": "ch"
+	}		
   ]
 }
