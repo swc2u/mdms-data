@@ -787,7 +787,7 @@
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.areaSqft",
                   "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft",
                   "pattern":"areaSqFeet",
-                  "errorMessage": "ES_ERR_AREA_OF_PROPERTY_FIELD_TWO_TO_FIVE"
+                  "errorMessage": "'ES_ERR_AREA_OF_PROPERTY_FIELD_TWO_TO_FIVE'"
                 }
               ]
             },
