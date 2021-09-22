@@ -863,6 +863,11 @@
          "description":"Common role for water & sewerage"
       },
       {
+         "code": "SW_COMMON",
+         "name": "SW_COMMON",
+         "description": "SW COMMON"
+      },
+      {
          "code":"WS_JE_08",
          "name":"WS JE role",
          "description":"JE role for water & sewerage"
@@ -1033,6 +1038,11 @@
          "description":"SW SDO who forward connection"
       },
       {
+         "code":"SW_JE_22",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
          "code":"SW_SDE_06",
          "name":"SW SDO",
          "description":"SW SDO who forward connection"
@@ -1053,7 +1063,17 @@
          "description":"SW SDO who forward connection"
       },
       {
+         "code":"SW_SDE_22",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
          "code":"SW_EE",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_EE_22",
          "name":"SW SDO",
          "description":"SW SDO who forward connection"
       },
@@ -1062,6 +1082,12 @@
          "name":"SW SDO",
          "description":"SW SDO who forward connection"
       },
+      {
+         "code":"SW_SUPERINTENDENT_22",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+
       {
          "code":"SW_CHD",
          "name":"SW SDO",
@@ -1094,6 +1120,11 @@
       },
       {
          "code":"SW_SDER_18",
+         "name":"SW SDO",
+         "description":"SW SDO who forward connection"
+      },
+      {
+         "code":"SW_SDER_22",
          "name":"SW SDO",
          "description":"SW SDO who forward connection"
       },
@@ -1651,6 +1682,12 @@
          "code":"ICCC",
          "name":"ICCC",
          "description":"ICCC"
+      },
+	  {
+         "code":"ADM",
+         "name":"ADM",
+         "description":"ADM"
       }
+	  
    ]
 }

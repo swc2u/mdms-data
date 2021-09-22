@@ -5,7 +5,7 @@
     {
       "id": "1",
       "size": "15",
-      "MeterRentCode": "1",
+      "MeterRentCode": "13",
       "SanctionCapacity": "675",
       "isActive": true,
       "charges": [
@@ -27,7 +27,7 @@
     {
       "id": "2",
       "size": "20",
-      "MeterRentCode": "2",
+      "MeterRentCode": "13",
       "SanctionCapacity": "945",
       "isActive": true,
       "charges": [
@@ -49,7 +49,7 @@
     {
       "id": "3",
       "size": "25",
-      "MeterRentCode": "3",
+      "MeterRentCode": "13",
       "SanctionCapacity": "1485",
       "isActive": true,
       "charges": [
@@ -72,7 +72,7 @@
     {
       "id": "4",
       "size": "40",
-      "MeterRentCode": "4",
+      "MeterRentCode": "13",
       "SanctionCapacity": "4320",
       "isActive": true,
       "charges": [
@@ -94,7 +94,7 @@
     {
       "id": "5",
       "size": "50",
-      "MeterRentCode": "5",
+      "MeterRentCode": "13",
       "SanctionCapacity": "6210",
       "isActive": true,
       "charges": [
@@ -116,7 +116,7 @@
     {
       "id": "6",
       "size": "70/80",
-      "MeterRentCode": "6",
+      "MeterRentCode": "13",
       "SanctionCapacity": "33750",
       "isActive": true,
       "charges": [
@@ -138,7 +138,7 @@
     {
       "id": "7",
       "size": "100",
-      "MeterRentCode": "7",
+      "MeterRentCode": "13",
       "SanctionCapacity": "54000",
       "isActive": true,
       "charges": [
@@ -160,7 +160,7 @@
     {
       "id": "8",
       "size": "150",
-      "MeterRentCode": "8",
+      "MeterRentCode": "13",
       "SanctionCapacity": "135000",
       "isActive": true,
       "charges": [
@@ -182,7 +182,7 @@
     {
       "id": "9",
       "size": "200",
-      "MeterRentCode": "9",
+      "MeterRentCode": "13",
       "SanctionCapacity": "216000",
       "isActive": true,
       "charges": [
@@ -204,7 +204,7 @@
     {
       "id": "10",
       "size": "250",
-      "MeterRentCode": "10",
+      "MeterRentCode": "13",
       "SanctionCapacity": "270000",
       "isActive": true,
       "charges": [
@@ -226,7 +226,7 @@
     {
       "id": "11",
       "size": "300",
-      "MeterRentCode": "11",
+      "MeterRentCode": "13",
       "SanctionCapacity": "388800",
       "isActive": true,
       "charges": [

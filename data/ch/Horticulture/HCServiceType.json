@@ -5,13 +5,13 @@
         {
              "name": "Pruning of trees girth upto 90 cm", 
             "code": "PRUNING OF TREES GIRTH LESS THAN OR EQUAL TO 90 CMS",
-			"sla":6,
+			"sla":7,
             "active": true
         },
         {
              "name": "Pruning of trees girth beyond 90 cm",
             "code": "PRUNING OF TREES GIRTH GREATER THAN 90 CMS",
-            "sla":45,
+            "sla":15,
 			"active": true
         },
         

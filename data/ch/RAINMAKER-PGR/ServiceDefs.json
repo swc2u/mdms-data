@@ -231,7 +231,7 @@
             "active": false,
             "keywords": "Water , stagnation",
             "department": "DEP_02",
-            "slaHours": 0,
+            "slaHours": 10,
             "menuPath": "Roads"
         },
 		{
@@ -1081,6 +1081,14 @@
             "department": "DEP_06",
             "slaHours": 0,
             "menuPath": "StrayDogs"
+        },
+		{
+            "serviceCode": "DEP06_DoorToDoorGarbageCollection_01",
+            "active": true,
+            "keywords": "DoorToDoorGarbageCollection",
+            "department": "DEP_06",
+            "slaHours": 0,
+            "menuPath": "DoorToDoorGarbageCollection"
         },
         {
             "serviceCode": "DEP03_Horticulture_01",

@@ -19393,6 +19393,105 @@
       "path": "PENSION.home",
       "leftIcon": "social:people"
     },
+{
+      "id": 4288,
+      "name": "PNBBankReport",
+      "url": "/pension-services/v1/_pnbBankReport",
+      "displayName": "pnbReportOne",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4289,
+      "name": "OtherBankReport",
+      "url": "/pension-services/v1/_otherBankReport",
+      "displayName": "pnbReportTwo",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4290,
+      "name": "PNBBankReport",
+      "url": "url",
+      "displayName": "PNB Bank Report",
+      "orderNumber": 6,
+      "parentModule": "rainmaker-pension",
+      "enabled": true,
+      "serviceCode": "PMS_PNB_BANK_REPORT",
+      "code": "null",
+      "path": "PENSION.PENSION Reports.PNBBankReport",
+      "navigationURL": "report/rainmaker-pension/PNBBankReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+{
+      "id": 4291,
+      "name": "OtherBankReport",
+      "url": "url",
+      "displayName": "Other Bank Report",
+      "orderNumber": 6,
+      "parentModule": "rainmaker-pension",
+      "enabled": true,
+      "serviceCode": "PMS_OTHER_BANK_REPORT",
+      "code": "null",
+      "path": "PENSION.PENSION Reports.OtherBankReport",
+      "navigationURL": "report/rainmaker-pension/OtherBankReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 4292,
+      "name": "RainmakerPENSION-PNBBankReport-Metadata",
+      "url": "/report/rainmaker-pension/PNBBankReport/metadata/_get",
+      "displayName": "PNB Bank Report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+	{
+      "id": 4293,
+      "name": "PNBBankReport",
+      "url": "/report/rainmaker-pension/PNBBankReport/_get",
+      "displayName": "PNB Bank Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+    {
+      "id": 4294,
+      "name": "RainmakerPENSION-OtherBankReport-Metadata",
+      "url": "/report/rainmaker-pension/OtherBankReport/metadata/_get",
+      "displayName": "Other Bank Report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+	{
+      "id": 4295,
+      "name": "OtherBankReport",
+      "url": "/report/rainmaker-pension/OtherBankReport/_get",
+      "displayName": "Other Bank Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+	  
 	{
 		"id": 4300,
 		"name": "StoresCreation",
@@ -20588,6 +20687,32 @@
 			"code": "null",
 			"path": ""
 		},	
+		{
+			"id": 2616,
+			"name": "HC sendSMS",
+			"url": "/hc-services/serviceRequest/_sendSMS",
+			"displayName": "Horticulutre sendSMS",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},	
+		{
+			"id": 2615,
+			"name": "Service Request",
+			"url": "/hc-services/serviceRequest/_send",
+			"displayName": "Horticulutre Service request send sms",
+			"orderNumber": 0,
+			"queryParams": null,
+			"parentModule": "",
+			"enabled": true,
+			"serviceCode": "hc-services",
+			"code": "null",
+			"path": ""
+		},
 	  {
       "id": 4067,
       "name": "Water & Sewerage",
@@ -25345,8 +25470,60 @@
       "serviceCode": "VOUCHER",
       "code": "null",
       "path": ""
-    }
-	
-
+    },
+	{
+      "id": 8077,
+      "name": "Update Payment Booking",
+      "url": "/bookings/api/update/payment",
+      "parentModule": "",
+      "displayName": "Update Payment Booking",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "bookings",
+      "code": "null",
+      "path": ""
+    },
+	{
+		"id": 8078,
+		"name": "Create Blank Detailed Estimate",
+		"url": "services/works/estimatePreparation/newformdetail",
+		"displayName": "Create Blank Detailed Estimate",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Create Blank Detailed Estimate",
+		"navigationURL": "services/works/estimatePreparation/newformdetail",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 8079,
+		"name": "Report",
+		"url": "services/works/dnit/abstractliabilities",
+		"displayName": "Report",
+		"orderNumber": "3",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.Estimate.Report",
+		"navigationURL": "services/works/dnit/abstractliabilities",
+		"leftIcon": "editor:insert-chart"
+	},
+	{
+		"id": 8080,
+		"name": "DNIT",
+		"url": "services/works/searchEstimate/searchDnitApproval",
+		"displayName": "DNIT",
+		"orderNumber": "5",
+		"parentModule": "works",
+		"enabled": true,
+		"serviceCode": "works",
+		"code": "",
+		"path": "Works.MIS.DNIT",
+		"navigationURL": "services/works/searchEstimate/searchDnitApproval",
+		"leftIcon": "editor:insert-chart"
+	}
   ]
 }
