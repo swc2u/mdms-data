@@ -231,7 +231,7 @@
             "active": false,
             "keywords": "Water , stagnation",
             "department": "DEP_02",
-            "slaHours": 0,
+            "slaHours": 10,
             "menuPath": "Roads"
         },
 		{
