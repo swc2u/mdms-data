@@ -1687,6 +1687,12 @@
          "code":"ADM",
          "name":"ADM",
          "description":"ADM"
+      },
+
+      {
+         "code":"SI_INS",
+         "name":"SI_INS",
+         "description":"Site Inspector Role To Recive message of Water application"
       }
 	  
    ]
