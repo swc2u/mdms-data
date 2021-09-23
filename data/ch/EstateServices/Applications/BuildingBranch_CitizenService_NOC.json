@@ -55,6 +55,71 @@
           ]
         },
         {
+          "path": "owner.name",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 3,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "owner.fathername",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 3,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "owner.address",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "property.filenumber",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
+          "path": "property.mohalla",
+          "required": true,
+          "validations": [
+            {
+              "type": "length",
+              "params": {
+                "min": 0,
+                "max": 150
+              }
+            }
+          ]
+        },
+        {
           "path": "documentsReceivedDate",
           "required": false,
           "validations": [
@@ -542,6 +607,16 @@
             }
           },
           {
+            "name": "village",
+            "type": "mdms",
+            "cacheable": true,
+            "lazyload": true,
+            "options": {
+              "moduleName": "EstateServices",
+              "masterName": "village"
+            }
+          },
+          {
             "name": "SubCategory",
             "type": "mdms",
             "cacheable": true,
@@ -637,10 +712,12 @@
                   "label": "ES_FILE_NUMBER_LABEL",
                   "placeholder": "ES_FILE_NUMBER_PLACEHOLDER",
                   "type": "TEXT_FIELD",
+                  "pattern": "file-number-no-firstdigit-zero",
                   "jsonPath": "Applications[0].applicationDetails.property.fileNumber",
                   "prefillValue": "application.applicationDetails.property.fileNumber",
                   "required": true,
-                  "errorMessage": "'ES_ERR_FILE_NUMBER'"
+                  "path": "property.filenumber",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.property && !!applicationDetails.property.fileNumber ? applicationDetails.property.fileNumber.length > 150 ? 'ES_ERR_MAXLENGTH_150' : 'ES_ERR_FILE_NUMBER' : 'ES_ERR_FILE_NUMBER'"
                 },
                 {
                   "label": "ES_CATEGORY_LABEL",
@@ -663,15 +740,6 @@
                   "required": true
                 },
                 {
-                  "label": "ES_SITE_NO_LABEL",
-                  "placeholder": "ES_SITE_NO_PLACEHOLDER",
-                  "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.property.siteNumber",
-                  "prefillValue": "application.applicationDetails.property.siteNumber",
-                  "required": true,
-                  "errorMessage": "'ES_ERR_SITE_NO'"
-                },
-                {
                   "label": "ES_SECTOR_NO_LABEL",
                   "placeholder": "ES_SELECT_SECTOR_NO_PLACEHOLDER",
                   "jsonPath": "Applications[0].applicationDetails.property.sectorNumber",
@@ -681,38 +749,45 @@
                   "required": true
                 },
                 {
-                  "label": "ES_HOUSE_NO_LABEL",
-                  "placeholder": "ES_HOUSE_NO_PLACEHOLDER",
-                  "type": "TEXT_FIELD",
-                  "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.houseNumber",
-                  "prefillValue": "application.applicationDetails.property.propertyDetails.houseNumber",
-                  "required": true,
-                  "errorMessage": "'ES_ERR_HOUSE_NO'"
-                },
-                {
                   "label": "ES_MOHALLA_LABEL",
                   "placeholder": "ES_MOHALLA_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.mohalla",
                   "prefillValue": "application.applicationDetails.property.propertyDetails.mohalla",
                   "required": true,
-                  "errorMessage": "'ES_ERR_MOHALLA'"
+                  "pattern":"alphabet",
+                  "path": "property.mohalla",
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.property && !!applicationDetails.property.propertyDetails.mohalla ? applicationDetails.property.propertyDetails.mohalla.length > 150 ? 'ES_ERR_MAXLENGTH_150' : 'ES_ERR_MOHALLA' : 'ES_ERR_MOHALLA'"
+
                 },
                 {
                   "label": "ES_VILLAGE_LABEL",
                   "placeholder": "ES_VILLAGE_PLACEHOLDER",
-                  "type": "TEXT_FIELD",
+                  "type": "DROP_DOWN",
+                  "dataSource":"village",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.village",
                   "prefillValue": "application.applicationDetails.property.propertyDetails.village",
                   "required": true,
                   "errorMessage": "'ES_ERR_VILLAGE'"
                 },
                 {
+                  "label": "ES_HOUSE_NO_LABEL",
+                  "placeholder": "ES_HOUSE_NO_PLACEHOLDER",
+                  "type": "TEXT_FIELD",
+                  "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.houseNumber",
+                  "prefillValue": "application.applicationDetails.property.propertyDetails.houseNumber",
+                  "required": true,
+                  "pattern": "houseno",
+                  "errorMessage": "'ES_BB_ERR_HOUSE_NUMBER'"
+                },
+                {
                   "label": "ES_SIZE_OF_AREA_PURCHASED_LABEL",
-                  "placeholder": "ES_VILLAGE_PLACEHOLDER",
+                  "placeholder": "ES_SIZE_OF_AREA_PURCHASED_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "jsonPath": "Applications[0].applicationDetails.property.propertyDetails.areaSqft",
-                  "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft"
+                  "prefillValue": "application.applicationDetails.property.propertyDetails.areaSqft",
+                  "pattern":"areaSqFeet",
+                  "errorMessage": "'ES_ERR_AREA_OF_PROPERTY_FIELD_TWO_TO_FIVE'"
                 }
               ]
             },
@@ -753,6 +828,7 @@
                   "jsonPath": "Applications[0].applicationDetails.owner.name",
                   "pattern": "alphabet",
                   "visibility": "!owners.length",
+                  "path": "owner.name",
                   "required": true,
                   "prefillValue": "application.applicationDetails.owner.name",
                   "errorMessage": "!!applicationDetails && !!applicationDetails.owner && !!applicationDetails.owner.name ? applicationDetails.owner.name.length < 3 ? 'ES_ERR_OWNER_NAME_THREE' : applicationDetails.owner.name.length > 150 ? 'ES_ERR_OWNER_NAME_ONEFIVEZERO' : 'ES_ERR_OWNER_NAME' : 'ES_ERR_OWNER_NAME'"
@@ -762,10 +838,13 @@
                   "placeholder": "ES_FATHER_HUSBAND_NAME_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "required": true,
+                  "pattern": "alphabet",
+                  "path":"owner.fathername",
                   "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.guardianName",
                   "disability": "!!owners.length",
                   "prefillValue": "!!selectedOwner ? selectedOwner.ownerDetails.guardianName : !!application.applicationDetails && !!application.applicationDetails.owner ? application.applicationDetails.owner.ownerDetails.guardianName : ''",
-                  "errorMessage": "'ES_ERR_FATHER_HUSBAND_NAME'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.owner && !!applicationDetails.owner.ownerDetails.guardianName ? applicationDetails.owner.ownerDetails.guardianName.length < 3 ? 'ES_ERR_FATHER_HUSBAND_NAME_THREE' : applicationDetails.owner.ownerDetails.guardianName.length > 150 ? 'ES_ERR_FATHER_HUSBAND_NAME_ONEFIVEZERO' : 'ES_ERR_FATHER_HUSBAND_NAME' : 'ES_ERR_FATHER_HUSBAND_NAME'"
+
                 },
                 {
                   "label": "ES_RELATION_SHIP_LABEL",
@@ -783,15 +862,18 @@
                   "type": "TEXT_AREA",
                   "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.address",
                   "required": true,
+                  "path": "owner.address",
                   "disability": "!!owners.length",
                   "prefillValue": "!!selectedOwner ? selectedOwner.ownerDetails.address : !!application.applicationDetails && !!application.applicationDetails.owner ? application.applicationDetails.owner.ownerDetails.address : ''",
-                  "errorMessage": "'ES_ERR_ADDRESS'"
+                  "errorMessage": "!!applicationDetails && !!applicationDetails.owner && !!applicationDetails.owner.ownerDetails.address ? applicationDetails.owner.ownerDetails.address.length > 150 ? 'ES_ERR_MAXLENGTH_150' : 'ES_ERR_ADDRESS_FEILD' : 'ES_ERR_ADDRESS_FEILD'"
+
                 },
                 {
                   "label": "ES_OWNER_MOBILE_NUMBER_LABEL",
                   "placeholder": "ES_MOBILE_NUMBER_PLACEHOLDER",
                   "type": "TEXT_FIELD",
                   "required": true,
+                  "pattern":"MobileNo",
                   "jsonPath": "Applications[0].applicationDetails.owner.ownerDetails.mobileNumber",
                   "disability": "!!owners.length",
                   "prefillValue": "!!selectedOwner ? selectedOwner.ownerDetails.mobileNumber : !!application.applicationDetails && !!application.applicationDetails.owner ? application.applicationDetails.owner.ownerDetails.mobileNumber : ''",
@@ -821,7 +903,6 @@
                 {
                   "label": "ES_POSSESSION_DATE_LABEL",
                   "placeholder": "ES_POSSESSION_DATE_PLACEHOLDER",
-                  "required": true,
                   "type": "DATE_FIELD",
                   "visibility": "!owners.length",
                   "jsonPath": "Applications[0].applicationDetails.owner.possessionDate",
@@ -853,10 +934,6 @@
                 {
                   "label": "ES_SUB_CATEGORY_LABEL",
                   "jsonPath": "Applications[0].property.subCategory"
-                },
-                {
-                  "label": "ES_SITE_NO_LABEL",
-                  "jsonPath": "Applications[0].property.siteNumber"
                 },
                 {
                   "label": "ES_SECTOR_NO_LABEL",
