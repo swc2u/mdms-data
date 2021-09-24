@@ -1,11 +1,11 @@
 {
   "tenantId": "ch",
   "moduleName": "ws-services-masters",
-  "application_code": [
+  "applicationCode": [
     {
       "id": 1,
-      "code": "TEMPORARY_WSCONNECTION",
-      "name": "New Water Application"
+      "code": "T",
+      "name": "TEMPORARY_WSCONNECTION"
     }
    
   ]
