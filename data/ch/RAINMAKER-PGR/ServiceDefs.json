@@ -82,10 +82,27 @@
             "slaHours": 0,
             "menuPath": "Advertisement"
         },
+		
         {
             "serviceCode": "DEP017_Advertisement_03",
             "active": false,
             "keywords": "other",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "Advertisement"
+        },
+		{
+            "serviceCode": "DEP017_Advertisement_04",
+            "active": true,
+            "keywords": "Illegal, Advertisement",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "Advertisement"
+        },
+		{
+            "serviceCode": "DEP017_Advertisement_05",
+            "active": true,
+            "keywords": "Defacement",
             "department": "DEP_17",
             "slaHours": 0,
             "menuPath": "Advertisement"
