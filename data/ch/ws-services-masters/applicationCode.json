@@ -1,0 +1,12 @@
+{
+  "tenantId": "ch",
+  "moduleName": "ws-services-masters",
+  "ApplicationCode": [
+    {
+      "id": 1,
+      "code": "T",
+      "name": "TEMPORARY_WSCONNECTION"
+    }
+   
+  ]
+}
