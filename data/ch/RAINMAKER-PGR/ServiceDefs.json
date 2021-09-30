@@ -90,6 +90,22 @@
             "slaHours": 0,
             "menuPath": "Advertisement"
         },
+		{
+            "serviceCode": "DEP017_Advertisement_04",
+            "active": true,
+            "keywords": "Illegal, Advertisement",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "Advertisement"
+        },
+		{
+            "serviceCode": "DEP017_Advertisement_05",
+            "active": true,
+            "keywords": "Defacement",
+            "department": "DEP_17",
+            "slaHours": 0,
+            "menuPath": "Advertisement"
+        },
         {
             "serviceCode": "DEP017_BookingBranch_01",
             "active": true,
@@ -231,7 +247,7 @@
             "active": false,
             "keywords": "Water , stagnation",
             "department": "DEP_02",
-            "slaHours": 0,
+            "slaHours": 10,
             "menuPath": "Roads"
         },
 		{
