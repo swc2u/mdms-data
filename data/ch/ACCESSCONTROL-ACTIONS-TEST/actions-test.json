@@ -19172,8 +19172,9 @@
     "navigationURL": "report/rainmaker-services/BookingWiseCollectionReport",
     "leftIcon": "action:assignment",
     "rightIcon": ""
-  },
-  {
+  }
+  ,
+	  {
             "id": 4201,
             "name": "rainmaker-common-pms",
             "url": "card",
@@ -20295,7 +20296,7 @@
       "code": "null",
       "path": "pension-services"
     },
-	  {
+{
       "id": 4281  ,
       "name": "PensionerPensionContinuation",
       "url": "/pension-services/v1/_pensionerPensionContinuation",
@@ -20305,7 +20306,7 @@
       "serviceCode": "pension-services",
       "code": "null",
       "path": "pension-services"
-    },	  
+    },
 {
       "id": 4282,
       "name": "SearchPensionerDetails",
@@ -20328,6 +20329,7 @@
       "code": "null",
       "path": "pension-services"
     },	
+
 {
             "id": 4284,
             "name": "rainmaker-common-pms",
@@ -20348,6 +20350,136 @@
             "leftIcon": "",
             "rightIcon": ""
         },	
+
+{
+            "id": 4285,
+            "name": "rainmaker-common-pms",
+            "url": "/pension-services/v1/_createHRMSEmployee",
+            "displayName": "Create Employee",            
+            "orderNumber": 1,
+            "queryParams": "",
+            "parentModule": "273",
+            "enabled": true,
+            "serviceCode": "DEPT",
+            "tenantId": "ch",
+            "createdDate": null,
+            "createdBy": null,
+            "lastModifiedDate": null,
+            "lastModifiedBy": null,
+            "path": "",
+            "navigationURL": "",
+            "leftIcon": "",
+            "rightIcon": ""
+        },
+{
+      "id": 4286,
+      "name": "NotifyPensionDisbursement",
+      "url": "/pension-services/v1/_notifyPensionDisbursement",
+      "displayName": "Bulk SMS",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4288,
+      "name": "PNBBankReport",
+      "url": "/pension-services/v1/_pnbBankReport",
+      "displayName": "pnbReportOne",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4289,
+      "name": "OtherBankReport",
+      "url": "/pension-services/v1/_otherBankReport",
+      "displayName": "pnbReportTwo",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "pension-services",
+      "code": "null",
+      "path": "pension-services"
+    },
+{
+      "id": 4290,
+      "name": "PNBBankReport",
+      "url": "url",
+      "displayName": "PNB Bank Report",
+      "orderNumber": 6,
+      "parentModule": "rainmaker-pension",
+      "enabled": true,
+      "serviceCode": "PMS_PNB_BANK_REPORT",
+      "code": "null",
+      "path": "PENSION.PENSION Reports.PNBBankReport",
+      "navigationURL": "report/rainmaker-pension/PNBBankReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+{
+      "id": 4291,
+      "name": "OtherBankReport",
+      "url": "url",
+      "displayName": "Other Bank Report",
+      "orderNumber": 6,
+      "parentModule": "rainmaker-pension",
+      "enabled": true,
+      "serviceCode": "PMS_OTHER_BANK_REPORT",
+      "code": "null",
+      "path": "PENSION.PENSION Reports.OtherBankReport",
+      "navigationURL": "report/rainmaker-pension/OtherBankReport",
+      "leftIcon": "action:assignment",
+      "rightIcon": ""
+    },
+    {
+      "id": 4292,
+      "name": "RainmakerPENSION-PNBBankReport-Metadata",
+      "url": "/report/rainmaker-pension/PNBBankReport/metadata/_get",
+      "displayName": "PNB Bank Report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+	{
+      "id": 4293,
+      "name": "PNBBankReport",
+      "url": "/report/rainmaker-pension/PNBBankReport/_get",
+      "displayName": "PNB Bank Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+    {
+      "id": 4294,
+      "name": "RainmakerPENSION-OtherBankReport-Metadata",
+      "url": "/report/rainmaker-pension/OtherBankReport/metadata/_get",
+      "displayName": "Other Bank Report",
+      "orderNumber": 1,
+      "parentModule": "147",
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
+	{
+      "id": 4295,
+      "name": "OtherBankReport",
+      "url": "/report/rainmaker-pension/OtherBankReport/_get",
+      "displayName": "Other Bank Report",
+      "orderNumber": 0,
+      "enabled": true,
+      "serviceCode": "RainmakerPENSIONReports",
+      "code": "null",
+      "path": "PENSION Report"
+    },
     {
       "id": 14035,
       "name": "CreateProperty",
