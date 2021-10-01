@@ -248,7 +248,7 @@
             "active": false,
             "keywords": "Water , stagnation",
             "department": "DEP_02",
-            "slaHours": 10,
+            "slaHours": 0,
             "menuPath": "Roads"
         },
 		{
@@ -256,7 +256,7 @@
             "active": true,
             "keywords": "Road, Berm",
             "department": "DEP_02",
-            "slaHours": 0,
+            "slaHours": 10,
             "menuPath": "RoadBerm"
         },
         {
