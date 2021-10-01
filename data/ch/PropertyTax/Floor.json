@@ -62,6 +62,42 @@
       "code": "9",
       "description": "Floor 9",
       "active": true
+    },
+    {
+      "name": "Ground Floor G",
+      "code": "G",
+      "description": "Ground Floor",
+      "active": true
+    },
+    {
+      "name": "First Floor A",
+      "code": "A",
+      "description": "First Floor A",
+      "active": true
+    },
+    {
+      "name": "Second Floor B",
+      "code": "B",
+      "description": "Second Floor B",
+      "active": true
+    },
+    {
+      "name": "Third Floor C",
+      "code": "C",
+      "description": "Third Floor C",
+      "active": true
+    },
+    {
+      "name": "Forth Floor D",
+      "code": "D",
+      "description": "Forth Floor D",
+      "active": true
+    },
+    {
+      "name": "Fifth Floor E",
+      "code": "E",
+      "description": "Fifth Floor E",
+      "active": true
     }
   ]
 }

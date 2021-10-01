@@ -5,7 +5,7 @@
     {
       "id": "1",
       "size": "15",
-      "MeterRentCode": "1",
+      "MeterRentCode": "13",
       "SanctionCapacity": "675",
       "isActive": true,
       "charges": [
@@ -16,7 +16,7 @@
           "meterfitting": 150
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
            "stolenmetercharges": 1000,
           "metertesting": 80,
@@ -27,7 +27,7 @@
     {
       "id": "2",
       "size": "20",
-      "MeterRentCode": "2",
+      "MeterRentCode": "13",
       "SanctionCapacity": "945",
       "isActive": true,
       "charges": [
@@ -38,7 +38,7 @@
           "meterfitting": 180
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
            "stolenmetercharges": 1000,
           "metertesting": 100,
@@ -49,7 +49,7 @@
     {
       "id": "3",
       "size": "25",
-      "MeterRentCode": "3",
+      "MeterRentCode": "13",
       "SanctionCapacity": "1485",
       "isActive": true,
       "charges": [
@@ -60,7 +60,7 @@
           "meterfitting": 225
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
            
           "stolenmetercharges": 1000,
@@ -72,7 +72,7 @@
     {
       "id": "4",
       "size": "40",
-      "MeterRentCode": "4",
+      "MeterRentCode": "13",
       "SanctionCapacity": "4320",
       "isActive": true,
       "charges": [
@@ -83,7 +83,7 @@
           "meterfitting": 300
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
           "stolenmetercharges": 1000,
           "metertesting": 120,
@@ -94,7 +94,7 @@
     {
       "id": "5",
       "size": "50",
-      "MeterRentCode": "5",
+      "MeterRentCode": "13",
       "SanctionCapacity": "6210",
       "isActive": true,
       "charges": [
@@ -105,7 +105,7 @@
           "meterfitting": 600
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
           "stolenmetercharges": 1000, 
           "metertesting": 140,
@@ -115,8 +115,8 @@
     },
     {
       "id": "6",
-      "size": "70/80",
-      "MeterRentCode": "6",
+      "size": "70",
+      "MeterRentCode": "13",
       "SanctionCapacity": "33750",
       "isActive": true,
       "charges": [
@@ -127,7 +127,29 @@
           "meterfitting": 900
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
+        {
+          "stolenmetercharges": 1000, 
+          "metertesting": 140,
+          "meterfitting": 1800
+        }
+      ]
+    },
+  {
+      "id": "7",
+      "size": "80",
+      "MeterRentCode": "13",
+      "SanctionCapacity": "33750",
+      "isActive": true,
+      "charges": [
+        {
+          "security": null,
+          "ferrule": 2000,
+          "metertesting": 140,
+          "meterfitting": 900
+        }
+      ],
+    "MeterUpdateCharges": [
         {
           "stolenmetercharges": 1000, 
           "metertesting": 140,
@@ -136,9 +158,9 @@
       ]
     },
     {
-      "id": "7",
+      "id": "8",
       "size": "100",
-      "MeterRentCode": "7",
+      "MeterRentCode": "13",
       "SanctionCapacity": "54000",
       "isActive": true,
       "charges": [
@@ -149,7 +171,7 @@
           "meterfitting": 900
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
           "stolenmetercharges": 1000, 
           "metertesting": 160,
@@ -158,9 +180,9 @@
       ]
     },
     {
-      "id": "8",
+      "id": "9",
       "size": "150",
-      "MeterRentCode": "8",
+      "MeterRentCode": "13",
       "SanctionCapacity": "135000",
       "isActive": true,
       "charges": [
@@ -171,7 +193,7 @@
           "meterfitting": 900
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
           "stolenmetercharges": 1000, 
           "metertesting": 180,
@@ -180,9 +202,9 @@
       ]
     },
     {
-      "id": "9",
+      "id": "10",
       "size": "200",
-      "MeterRentCode": "9",
+      "MeterRentCode": "13",
       "SanctionCapacity": "216000",
       "isActive": true,
       "charges": [
@@ -193,7 +215,7 @@
           "meterfitting": 1500
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
           "stolenmetercharges": 1000, 
           "metertesting": 180,
@@ -202,9 +224,9 @@
       ]
     },
     {
-      "id": "10",
+      "id": "11",
       "size": "250",
-      "MeterRentCode": "10",
+      "MeterRentCode": "13",
       "SanctionCapacity": "270000",
       "isActive": true,
       "charges": [
@@ -215,7 +237,7 @@
           "meterfitting": 1500
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
           "stolenmetercharges": 1000, 
           "metertesting": 200,
@@ -224,9 +246,9 @@
       ]
     },
     {
-      "id": "11",
+      "id": "12",
       "size": "300",
-      "MeterRentCode": "11",
+      "MeterRentCode": "13",
       "SanctionCapacity": "388800",
       "isActive": true,
       "charges": [
@@ -237,7 +259,7 @@
           "meterfitting": 1500
         }
       ],
-	  "MeterUpdateCharges": [
+    "MeterUpdateCharges": [
         {
           "stolenmetercharges": 1000, 
           "metertesting": 200,
