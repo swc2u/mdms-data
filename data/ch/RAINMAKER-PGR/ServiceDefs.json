@@ -255,7 +255,7 @@
             "active": true,
             "keywords": "Road, Berm",
             "department": "DEP_02",
-            "slaHours": 10,
+            "slaHours": 240,
             "menuPath": "RoadBerm"
         },
         {
