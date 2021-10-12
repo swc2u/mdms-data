@@ -1595,14 +1595,7 @@
             "slaHours": 0,
             "menuPath": "HouseTax"
         },
-        {
-            "serviceCode": "DEP01_Metering_01",
-            "active": true,
-            "keywords": "defective, fault, meter",
-            "department": "DEP_01",
-            "slaHours": 0,
-            "menuPath": "Metering"
-        },
+       
         {
             "serviceCode": "DEP01_Metering_02",
             "active": true,
@@ -1675,14 +1668,7 @@
             "slaHours": 120,
             "menuPath": "Sewerage"
         },
-        {
-            "serviceCode": "DEP01_Sewerage_04",
-            "active": true,
-            "keywords": "new, sewage, drain, connetion",
-            "department": "DEP_01",
-            "slaHours": 168,
-            "menuPath": "Sewerage"
-        },
+       
         {
             "serviceCode": "DEP01_Sewerage_05",
             "active": true,
@@ -1795,22 +1781,8 @@
             "slaHours": 240,
             "menuPath": "TertiaryWater"
         },
-        {
-            "serviceCode": "DEP01_WaterSupply_01",
-            "active": true,
-            "keywords": "water, connection, change",
-            "department": "DEP_01",
-            "slaHours": 72,
-            "menuPath": "WaterSupply"
-        },
-        {
-            "serviceCode": "DEP01_WaterSupply_02",
-            "active": true,
-            "keywords": "meter, block, leaking",
-            "department": "DEP_01",
-            "slaHours": 48,
-            "menuPath": "WaterSupply"
-        },
+        
+       
         {
             "serviceCode": "DEP01_WaterSupply_03",
             "active": true,
@@ -1827,14 +1799,7 @@
             "slaHours": 168,
             "menuPath": "WaterSupply"
         },
-        {
-            "serviceCode": "DEP01_WaterSupply_05",
-            "active": true,
-            "keywords": "commercial, domestic",
-            "department": "DEP_01",
-            "slaHours": 360,
-            "menuPath": "WaterSupply"
-        },
+       
         {
             "serviceCode": "DEP01_WaterSupply_07",
             "active": true,
@@ -1883,22 +1848,8 @@
             "slaHours": 48,
             "menuPath": "WaterSupply"
         },
-        {
-            "serviceCode": "DEP01_WaterSupply_13",
-            "active": true,
-            "keywords": "connection, water",
-            "department": "DEP_01",
-            "slaHours": 120,
-            "menuPath": "WaterSupply"
-        },
-        {
-            "serviceCode": "DEP01_WaterSupply_14",
-            "active": true,
-            "keywords": "certificate",
-            "department": "DEP_01",
-            "slaHours": 0,
-            "menuPath": "WaterSupply"
-        },
+        
+       
         {
             "serviceCode": "DEP01_WaterSupply_15",
             "active": true,
@@ -1963,22 +1914,7 @@
             "slaHours": 0,
             "menuPath": "WaterSupply"
         },
-        {
-            "serviceCode": "DEP01_WaterSupply_23",
-            "active": true,
-            "keywords": "disconnection, discontinue",
-            "department": "DEP_01",
-            "slaHours": 72,
-            "menuPath": "WaterSupply"
-        },
-        {
-            "serviceCode": "DEP01_WaterSupply_24",
-            "active": true,
-            "keywords": "meter, faulty, replace, test",
-            "department": "DEP_01",
-            "slaHours": 360,
-            "menuPath": "WaterSupply"
-        },
+      
 		 {
             "serviceCode": "DEP27_ApniMandi_01",
             "active": true,
